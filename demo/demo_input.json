@@ -1,0 +1,9 @@
+{
+  "description": "Minimal reproducible example; paths are relative to the repository root",
+  "task_id": "AARS_K562_ENCSR825SVO",
+  "train_h5": "data/h5data/AARS_K562_ENCSR825SVO/_5ch/AARS_K562_ENCSR825SVO_chr1_5ch.h5",
+  "validation_h5": "data/h5data/AARS_K562_ENCSR825SVO/_5ch/AARS_K562_ENCSR825SVO_chr2_5ch.h5",
+  "test_h5": "data/h5data/AARS_K562_ENCSR825SVO/_5ch/AARS_K562_ENCSR825SVO_chr3_5ch.h5",
+  "output_dir": "carbon_trained_model/AARS_K562_ENCSR825SVO_demo",
+  "figure_output": "figures/outputs/demo_signal_track_4rows.png"
+}
