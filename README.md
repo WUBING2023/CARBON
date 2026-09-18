@@ -27,7 +27,7 @@ This repository is a complete code release for **GitHub / archival (DOI)**: trai
 | `exampledata/out_test/` | Example metrics text and small weights (optional) |
 | `environment.yml` | Conda env (remove trailing `prefix:` when recreating on another machine) |
 | `requirements.txt` | Core pip dependencies |
-| `LICENSE` | GPL v3 + academic/non-commercial clause (see file header) |
+| `LICENSE` | MIT |
 
 ## Environment
 
@@ -131,4 +131,4 @@ If you use this code, please cite: **CARBON: Base-resolution RBP binding profile
 
 ## License
 
-See `LICENSE` (GPL v3, with additional academic/non-commercial terms in the header).
+MIT. See `LICENSE`. Trained weights and evaluation metrics for the demonstration task are included under the same licence.
