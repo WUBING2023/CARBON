@@ -3,16 +3,14 @@ message: "If you use CARBON, please cite the software and the associated article
 title: "CARBON: a conservation-aware framework for base-resolution RBP binding profile prediction"
 type: software
 version: "0.1.0-beta"
-date-released: 2026-08-23
+date-released: 2026-09-18
 authors:
   - family-names: Wu
     given-names: Bin
-    affiliation: "College of Artificial Intelligence, Jilin University"
-  - family-names: Li
-    given-names: Xiangtao
+    orcid: "https://orcid.org/0009-0002-6711-7230"
     affiliation: "College of Artificial Intelligence, Jilin University"
 repository-code: "https://github.com/WUBING2023/CARBON"
-license: AGPL-3.0-only
+license: MIT
 keywords:
   - RNA-binding protein
   - base-resolution profile prediction

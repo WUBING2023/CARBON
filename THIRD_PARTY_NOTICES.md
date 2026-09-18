@@ -2,7 +2,7 @@
 
 CARBON contains code inspired by or adapted from the following permissively
 licensed projects. Their original notices and license terms are retained here;
-the CARBON distribution as a whole is licensed under AGPL-3.0-only.
+the CARBON distribution as a whole is licensed under the MIT licence.
 
 ## DeepExplain
 

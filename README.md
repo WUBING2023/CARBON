@@ -4,9 +4,9 @@
 
 This repository is a complete code release for **GitHub / archival (DOI)**: training, validation, testing, preprocessing, and example plotting scripts, plus a **minimal demo** dataset (`AARS_K562_ENCSR825SVO`, one `_5ch.h5` per chr1/2/3).
 
-**Full datasets:** The complete, detailed datasets used in the paper are archived on **Zenodo**: [URL] (replace `[URL]` with the published Zenodo record before release). This repo ships only the small demo subset for quick sanity checks.
+**Full datasets and weights:** The complete datasets and full model-weight archive will be released on **Zenodo**; the DOI is pending. This repository ships the small demo subset and demo weights for quick sanity checks.
 
-**Figure reproduction:** Full reproduction of main figures, supplementary figures, and associated statistics is primarily provided on **Code Ocean**: [URL] (replace `[URL]` with your capsule URL). This repository offers a minimal local demo and scripts to verify the environment and API; batch plotting paths for publication-scale figures follow the Code Ocean configuration.
+**Figure reproduction:** Full reproduction of main figures, supplementary figures, and associated statistics is available on **Code Ocean**: <https://codeocean.com/capsule/3401736/tree>. This repository offers a minimal local demo and scripts to verify the environment and API; batch plotting paths for publication-scale figures follow the Code Ocean configuration.
 
 ## Repository layout (summary)
 
@@ -113,9 +113,9 @@ python3 carbon_train.py --eval_only --load_model <model_params.pth> -test <test_
 
 ## Figures and statistics
 
-Full figure and statistics reproduction: **Code Ocean** [URL] (see above).
+Full figure and statistics reproduction: **Code Ocean** <https://codeocean.com/capsule/3401736/tree>.
 
-Zenodo hosts the **full datasets** [URL] (see above).
+Zenodo will host the **full datasets and full model weights**; the DOI is pending.
 
 - **Main demo**: `figures/plot_demo_signal_track.py` — four tracks aligned with Figure 2 (CARBON / eCLIP / inverted tracks); no other comparators required.
 - **Supplementary-style curves**: `python3 figures/supplementary/plot_train_val_curves.py --train-dir carbon_trained_model/AARS_K562_ENCSR825SVO_demo`
