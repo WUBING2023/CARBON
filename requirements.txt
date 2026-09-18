@@ -1,0 +1,14 @@
+# Core CARBON dependencies (CPU/GPU; install matching PyTorch separately)
+torch>=1.13,<2.0
+numpy>=1.21,<2
+pandas>=1.3
+h5py>=3.8
+matplotlib>=3.6
+scipy>=1.9
+tqdm>=4.60
+tensorboard>=2.10
+pyyaml>=6.0
+# Pearson etc. (optional; carbon_train falls back to built-ins if missing)
+audtorch>=0.6.4
+# Building 5ch data (preprocessing/preprocess_5ch.py)
+pyBigWig>=0.3.22

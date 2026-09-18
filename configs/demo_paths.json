@@ -1,0 +1,11 @@
+{
+  "task_id": "AARS_K562_ENCSR825SVO",
+  "comment": "Same as configs/demo.yaml; for non-shell consumers",
+  "h5": {
+    "train": "data/h5data/AARS_K562_ENCSR825SVO/_5ch/AARS_K562_ENCSR825SVO_chr1_5ch.h5",
+    "validation": "data/h5data/AARS_K562_ENCSR825SVO/_5ch/AARS_K562_ENCSR825SVO_chr2_5ch.h5",
+    "test": "data/h5data/AARS_K562_ENCSR825SVO/_5ch/AARS_K562_ENCSR825SVO_chr3_5ch.h5"
+  },
+  "default_checkpoint": "carbon_trained_model/AARS_K562_ENCSR825SVO_demo/model_params.pth",
+  "figure_output": "figures/outputs/demo_signal_track_4rows.png"
+}
