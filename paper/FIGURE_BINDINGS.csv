@@ -1,5 +1,5 @@
 manuscript,reference,path,sha256,experiment,plotting_entries_json,entry_status
-CARBON_main.tex,fig1.pdf,paper/figures/fig1.pdf,150ac52c5dd9a3a7ff9854d6865fbcbbd96b1b3ff6717d39b2c5cdc0acbd4da9,E01_data_model,"[""paper/editable_figures/updated_fig1_v32/render_fig1_v32.py""]",included source candidate; replay not certified
+CARBON_main.tex,fig1.pdf,paper/figures/fig1.pdf,8c149d2b7a20983ea6faf14f1d83abdb73901b25990f3df10975ab475e5de849,E01_data_model,"[""paper/editable_figures/Figure1_NPG_BiGRU_boxed.pptx""]","accepted 2026-10-05 original PDF and editable PowerPoint; user-locked, do not redraw; see FIGURE_LOCKS.json"
 CARBON_main.tex,fig2.pdf,paper/figures/fig2.pdf,c4762627730faa6ddee5e2c9cee4e39c6c15181c83eeba8c27305b23aaa5eb0e,E02_benchmark,"[""paper/editable_figures/updated_fig2_v33/render_fig2_v33.py""]",included source candidate; replay not certified
 CARBON_main.tex,fig3.pdf,paper/figures/fig3.pdf,476da19799fa880b50f1b6f9945af6732204830223fe508dde1c5e2eaf2d1416,E06_motifs,"[""paper/editable_figures/accepted_fig3_circlize_v31/render_circos.R""]",included source candidate; replay not certified
 CARBON_main.tex,fig4.pdf,paper/figures/fig4.pdf,190795a5c416ee2b0b2ccd69baa836cd78d2754eeb360937cbbca30e696a5773,E08_native_allocation,"[""paper/editable_figures/updated_fig4_v32/render_fig4_v32.py""]",included source candidate; replay not certified

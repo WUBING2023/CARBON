@@ -1,26 +1,26 @@
 {
-  "candidate": "v34-private-fig5-display-review",
-  "source_root_label": "mixed: unchanged v33 origins plus revision_v34/manuscript Fig5 delta",
-  "remote_base_commit": "6478af41115b6aa9acd90802b1f07ccd1998e38c",
+  "candidate": "v35-research-code-draft",
+  "source_root_label": "mixed: preserved historical origins and revision_v35 manuscript/locked Figure1",
+  "remote_base_commit": "5319171b333e055f3f0ff3be9eb7f75001c487cd",
   "files": [
     {
       "path": "paper/CARBON_main.tex",
-      "sha256": "c2d1f0f1169e3e86f971beb48a188945d7075b1a087f6f71d0e24acdd57c57f7",
-      "source_sha256": "c2d1f0f1169e3e86f971beb48a188945d7075b1a087f6f71d0e24acdd57c57f7",
+      "sha256": "9219c444cd459649a691b4784e450eae2e252bb3be018242b67d707977c9ec7a",
+      "source_sha256": "9219c444cd459649a691b4784e450eae2e252bb3be018242b67d707977c9ec7a",
       "source_relative": "CARBON_main.tex",
       "storage": "file"
     },
     {
       "path": "paper/CARBON_supplement.tex",
-      "sha256": "b29e0dc8d1040f13fec54229207fd57f9081ca7fb0094ff48f6852b37c495a7e",
-      "source_sha256": "b29e0dc8d1040f13fec54229207fd57f9081ca7fb0094ff48f6852b37c495a7e",
+      "sha256": "4c3be3c5a227679c2f09e35237c4f4d785b2cd601888e0c6a294082b4ce2e2b6",
+      "source_sha256": "4c3be3c5a227679c2f09e35237c4f4d785b2cd601888e0c6a294082b4ce2e2b6",
       "source_relative": "CARBON_supplement.tex",
       "storage": "file"
     },
     {
       "path": "paper/CURRENT_FIGURE_ENTRYPOINTS.json",
-      "sha256": "817c84aff25e6e922ff09451ab8f397f421a5f282588fda1ba99a14c0615458d",
-      "source_sha256": "817c84aff25e6e922ff09451ab8f397f421a5f282588fda1ba99a14c0615458d",
+      "sha256": "f0bfab64cd4a92e9ebca3b9066c7b77cfae0d528cd582b96e9b003cb12a54914",
+      "source_sha256": "f0bfab64cd4a92e9ebca3b9066c7b77cfae0d528cd582b96e9b003cb12a54914",
       "source_relative": "CURRENT_FIGURE_ENTRYPOINTS.json",
       "storage": "file"
     },
@@ -1202,8 +1202,8 @@
     },
     {
       "path": "paper/figures/fig1.pdf",
-      "sha256": "150ac52c5dd9a3a7ff9854d6865fbcbbd96b1b3ff6717d39b2c5cdc0acbd4da9",
-      "source_sha256": "150ac52c5dd9a3a7ff9854d6865fbcbbd96b1b3ff6717d39b2c5cdc0acbd4da9",
+      "sha256": "8c149d2b7a20983ea6faf14f1d83abdb73901b25990f3df10975ab475e5de849",
+      "source_sha256": "8c149d2b7a20983ea6faf14f1d83abdb73901b25990f3df10975ab475e5de849",
       "source_relative": "figures/fig1.pdf",
       "storage": "file"
     },
@@ -1804,10 +1804,11 @@
     },
     {
       "path": "paper/source_data/README_CURRENT.md",
-      "sha256": "d37bbb32aafcef340fc2286092370082974f4f87eb3e2c601a3d0c4428f5fbfa",
+      "sha256": "f0f269c37199f614756f784f248345fc29a2a6815a1094de617d631c4ac1493f",
       "source_sha256": "07a1b9daf592cfb5afcf7ad7dd40a0351f761c3798d11e81fad0984b96277a34",
       "source_relative": "source_data/README_CURRENT.md",
-      "storage": "file"
+      "storage": "file",
+      "adaptation": "public_navigation_or_license_notice; scientific numeric members unchanged"
     },
     {
       "path": "paper/source_data/README_MANUSCRIPT_LAYOUT.md",
@@ -6060,10 +6061,11 @@
     },
     {
       "path": "paper/source_data/S24_motif_reference_audit/ATtRACT_DATA_S24_V3.zip",
-      "sha256": "4a643728e27be284aace0a08d12d9e82c9838ac41d32e8d1b6d6ed2d534c9def",
+      "sha256": "521d0bb0d6093da3651332c80ea2bbea59b963da0775d742638bd604dbd095f9",
       "source_sha256": "4a643728e27be284aace0a08d12d9e82c9838ac41d32e8d1b6d6ed2d534c9def",
       "source_relative": "source_data/S24_motif_reference_audit/ATtRACT_DATA_S24_V3.zip",
-      "storage": "file"
+      "storage": "file",
+      "adaptation": "license_only_zip_additions; all pre-existing members byte-identical"
     },
     {
       "path": "paper/source_data/S24_motif_reference_audit/CISBP_OFFICIAL_PROVENANCE.md",
@@ -13179,8 +13181,8 @@
     },
     {
       "path": "paper/CARBON_main.pdf",
-      "sha256": "3ca63efffbf9ad601d479e9276df9d17a1d3569f7676a663ca02089253242f0c",
-      "source_sha256": "3ca63efffbf9ad601d479e9276df9d17a1d3569f7676a663ca02089253242f0c",
+      "sha256": "2e73c5df35332c1391ff6bf6e71ec973737a0c36ac7973d02048a1a3415fc7c7",
+      "source_sha256": "2e73c5df35332c1391ff6bf6e71ec973737a0c36ac7973d02048a1a3415fc7c7",
       "source_relative": "CARBON_main.pdf",
       "storage": "file"
     },
@@ -13221,23 +13223,17 @@
     },
     {
       "path": "paper/editable_figures/updated_fig5_v34/SOURCE_MAPPING_V34.json",
-      "sha256": "9f105ce86670208e235589598f8afcea2364de0b02e80cf92411fdeed1521da1",
+      "sha256": "c5d0cdf1aaeb68dbf1ac3403785f0fd2663f5bb402e0b79e21d323d441c9a5eb",
       "source_sha256": "9f105ce86670208e235589598f8afcea2364de0b02e80cf92411fdeed1521da1",
       "source_relative": "editable_figures/updated_fig5_v34/SOURCE_MAPPING_V34.json",
-      "storage": "file"
+      "storage": "file",
+      "adaptation": "public_navigation_or_license_notice; scientific numeric members unchanged"
     },
     {
       "path": "paper/editable_figures/updated_fig5_v34/STYLE_BRIEF.md",
       "sha256": "4ce3914a3ce3843bd5360db3f6b28a528558f6925724ec18eda7f0da45fde6d6",
       "source_sha256": "4ce3914a3ce3843bd5360db3f6b28a528558f6925724ec18eda7f0da45fde6d6",
       "source_relative": "editable_figures/updated_fig5_v34/STYLE_BRIEF.md",
-      "storage": "file"
-    },
-    {
-      "path": "paper/editable_figures/updated_fig5_v34/VISUAL_REVIEW_V34.md",
-      "sha256": "44cb40b73abd360cc98040eba0166094b6f5236bb19be6f35358677f2cd7979f",
-      "source_sha256": "44cb40b73abd360cc98040eba0166094b6f5236bb19be6f35358677f2cd7979f",
-      "source_relative": "editable_figures/updated_fig5_v34/VISUAL_REVIEW_V34.md",
       "storage": "file"
     },
     {
@@ -13263,10 +13259,11 @@
     },
     {
       "path": "paper/editable_figures/updated_fig5_v34/README.md",
-      "sha256": "9ea4e2e17b6fc9a90a032330893589f664db0f8ac4b07a038204db6abcd02a62",
+      "sha256": "e39828936bee7ba0caf8de698932e00651299d5a59243af3b634caaf142b9fa8",
       "source_sha256": "",
       "source_relative": "",
-      "storage": "file"
+      "storage": "file",
+      "adaptation": "public_reader_navigation_or_license_notice"
     },
     {
       "path": "paper/editable_figures/updated_fig5_v34/frozen_inputs/disease_overlap/DISEASE_ALL13_EVENT_RESULTS.csv",
@@ -13540,7 +13537,35 @@
       "source_sha256": "b5cfe11bd60e531e699618f97613bcd127f7d62e40877b24a053bb977a162cff",
       "source_relative": "editable_figures/updated_fig5_v34/fig5_v34.pdf",
       "storage": "alias"
+    },
+    {
+      "path": "paper/CARBON_supplement.pdf",
+      "sha256": "3c6a106ece0e75cf0a33015e2bbc6a720a76ecde4d8f9355681c24972f742887",
+      "source_sha256": "3c6a106ece0e75cf0a33015e2bbc6a720a76ecde4d8f9355681c24972f742887",
+      "source_relative": "CARBON_supplement.pdf",
+      "storage": "file"
+    },
+    {
+      "path": "paper/FIGURE_LOCKS.json",
+      "sha256": "eb8bca4c574d92f798461abf7bbf594b0b496f2b96839ce2cabd5e896fc769a2",
+      "source_sha256": "eb8bca4c574d92f798461abf7bbf594b0b496f2b96839ce2cabd5e896fc769a2",
+      "source_relative": "FIGURE_LOCKS.json",
+      "storage": "file"
+    },
+    {
+      "path": "paper/figure_locks/validate_figure1.py",
+      "sha256": "9ac9b439bdfb5995664a59c05b6f383a4361f9b0c658ed73c19244cd40da24e9",
+      "source_sha256": "9ac9b439bdfb5995664a59c05b6f383a4361f9b0c658ed73c19244cd40da24e9",
+      "source_relative": "figure_locks/validate_figure1.py",
+      "storage": "file"
+    },
+    {
+      "path": "paper/editable_figures/Figure1_NPG_BiGRU_boxed.pptx",
+      "sha256": "70b3890c797dde1a90a4b0df1a059221751d596e777d049c00254523951954ad",
+      "source_sha256": "70b3890c797dde1a90a4b0df1a059221751d596e777d049c00254523951954ad",
+      "source_relative": "editable_figures/Figure1_NPG_BiGRU_boxed.pptx",
+      "storage": "file"
     }
   ],
-  "scope": "Minimal Figure5 display/caption/source and compiled-main delta on the existing private payload. All scientific measurements and frozen input bytes retained; no full code re-audit or submission-readiness certification."
+  "scope": "Research code draft: restored locked accepted Figure1, current manuscript availability and PDFs, reader navigation, and third-party license notices. Existing scientific measurements and ZIP members unchanged; no new training or full-study reproduction claim."
 }

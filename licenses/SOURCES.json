@@ -1,0 +1,27 @@
+[
+  {
+    "path": "licenses/TF-MoDISco-MIT.txt",
+    "upstream_url": "https://raw.githubusercontent.com/kundajelab/tfmodisco/178db48d9848d4d841ffda8c5d2f0269afa9f78e/LICENSE",
+    "checked_date": "2026-10-19",
+    "sha256": "44d99845e6c8d0423dc49856a74e74a244de8064156ad4ebd922b6ee9668ea42"
+  },
+  {
+    "path": "licenses/DeepExplain-MIT.txt",
+    "upstream_url": "https://raw.githubusercontent.com/marcoancona/DeepExplain/master/LICENSE.md",
+    "checked_date": "2026-10-19",
+    "sha256": "edf8c28b5247b260e6ad010983d3654127033488d9fa92391b46768984840f50"
+  },
+  {
+    "path": "licenses/Captum-BSD-3-Clause.txt",
+    "upstream_url": "https://raw.githubusercontent.com/meta-pytorch/captum/master/LICENSE",
+    "checked_date": "2026-10-19",
+    "sha256": "f19a657160766ccb3eb8e79ca25332a69438ce046e8d31bcea77fefee4395357"
+  },
+  {
+    "path": "licenses/MEME-5.5.7-COPYING.txt",
+    "upstream_url": "https://meme-suite.org/meme/meme-software/5.5.7/meme-5.5.7.tar.gz",
+    "checked_date": "2026-10-19",
+    "sha256": "5061a0d242b922d03cca44c44051e23dd70250573018cc93ac7e6171232bbb37",
+    "acquisition": "verbatim COPYING from original 5.5.7 source tree; byte-identical to COPYING in the retained original source tar"
+  }
+]

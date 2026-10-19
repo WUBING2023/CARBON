@@ -1,57 +1,99 @@
 # CARBON
 
-CARBON predicts base-resolution RNA-binding protein profiles from sequence and conservation. This private review candidate combines the existing model/demo code with selected frozen research results and the current manuscript sources.
+**Conservation-aware prediction of base-resolution RNA-binding protein profiles.**
 
-Current Figure 5: [compiled 13-page main manuscript](paper/CARBON_main.pdf) · [current display/source entry points](paper/CURRENT_FIGURE_ENTRYPOINTS.json) · [v34 change record](docs/FIG5_V34_CHANGES.md).
+CARBON combines RNA sequence and evolutionary conservation with multi-scale convolutions, channel attention and a bidirectional GRU. It predicts a binding-profile shape and a total signal count for each input window. This research repository contains model and training code, an executable AARS CPU demonstration, frozen experiment results, and the associated manuscript draft.
 
-**Start here:** [S1-S27 data entries](paper/source_data/README_CURRENT.md) · [research evidence map](docs/EVIDENCE_MAP.md) · [replay and verification](docs/REPRODUCE.md) · [known limits](docs/KNOWN_LIMITS.md) · [data and weight availability](docs/DATA_AVAILABILITY.md).
+[Main manuscript](paper/CARBON_main.pdf) · [Supplement](paper/CARBON_supplement.pdf) · [All 27 source-data entries](paper/source_data/README_CURRENT.md) · [Experiment and figure map](docs/EVIDENCE_MAP.md)
 
-| Path | Purpose |
+## Input and output
+
+The default model consumes a float tensor of shape `(batch, 101, 5)`: four one-hot sequence channels in A/C/G/U order, followed by the aligned PhyloP conservation channel. `T` is encoded as `U`. The HDF5 demonstration stores inputs as `X`, pooled eCLIP signal as `Y`, and input-control signal as `Y_ctl`. Real conservation values require a matching genome assembly and track; zero-filled values are a missing-input convention.
+
+The Treat model returns `logits_profile` of shape `(batch, 101)` and `log_total_count` of shape `(batch, 1)`. The predicted signal is:
+
+```python
+prediction = torch.softmax(output["logits_profile"], dim=-1) * torch.exp(output["log_total_count"])
+```
+
+See [the model](CARBON/models/carbon_model.py), [5-channel preprocessing](preprocessing/preprocess_5ch.py), and [the smoke check](scripts/smoke_model.py) for the executable contract. The accepted **2026-10-05 Figure 1 is locked**: preserve its exact PDF, editable PowerPoint and 85 mm manuscript placement. [Figure lock](paper/FIGURE_LOCKS.json) · [validation](paper/figure_locks/validate_figure1.py).
+
+## Installation
+
+```bash
+git clone https://github.com/WUBING2023/CARBON.git
+cd CARBON
+conda env create -f environment.portable.yml
+conda activate carbon
+```
+
+Alternatively, in a Python 3.12 environment:
+
+```bash
+python -m pip install -r requirements.cpu.txt
+```
+
+[requirements.cpu.txt](requirements.cpu.txt) records versions used for the checked Windows CPU run, including PyTorch 2.4.1. A clean environment installation has not been validated. [environment.yml](environment.yml) is a historical Linux export. Preprocessing and attribution have additional dependencies in [requirements.txt](requirements.txt); some figure workflows require PyMuPDF, R and circlize.
+
+## CPU demonstration
+
+Run from the repository root; these checks require no external data download or GPU:
+
+```bash
+python scripts/smoke_model.py
+python scripts/verify_demo_cpu.py
+python figures/plot_demo_signal_track.py --device cpu --out outputs/demo_signal_track.png
+```
+
+The verifier evaluates the included checkpoint on **1,283 AARS test windows** and compares six saved metrics at absolute tolerance `1e-5`. It writes `verification.json` and an evaluation log under `outputs/demo_cpu/`. The plot writes the requested PNG. Its four tracks are CARBON prediction, pooled eCLIP, inverted pooled eCLIP and inverted input control; the inverted tracks are display transforms rather than additional replicates.
+
+## Training and ablations
+
+The included small chr1/chr2/chr3 split supports a short training example:
+
+```bash
+bash scripts/run_demo_train.sh outputs/demo_train
+python carbon_train.py --help
+```
+
+The launcher defaults to three epochs on CPU. Use a new output directory. [Training instructions](docs/TRAINING.md) give the equivalent Python command and the implemented ablation flags. [E01](research/experiments/E01_data_model/README.md) describes preprocessing and model lineage; [E03](research/experiments/E03_ablation/README.md) links the complete 222-task, six-condition archive and recorded configurations.
+
+The demo split is illustrative. Formal experiments require their recorded chromosome splits, seeds, filtering, losses and checkpoint-selection rules. Historical launchers use the MARCP namespace preserved in [research/historical_model](research/historical_model/). A short demo run does not reproduce the full paper.
+
+## Find an experiment, dataset or figure
+
+Follow the [evidence map](docs/EVIDENCE_MAP.md) from a manuscript result to its experiment guide, source data and analysis code. The [S1–S27 index](paper/source_data/README_CURRENT.md) links every primary data entry directly to an included file, including full result cohorts and unfavorable directions. [Figure bindings](paper/FIGURE_BINDINGS.csv) identify the current PDFs and available plotting sources.
+
+| Path | Contents |
 |---|---|
-| CARBON/, carbon_train.py, preprocessing/ | Existing model, losses, training/evaluation and data preparation |
-| data/, carbon_trained_model/, configs/ | Small included AARS demonstration and checkpoint |
-| research/experiments/E01–E11/ | Original analysis code, complete frozen result cohorts, run records and per-experiment guides |
-| research/historical_model/ | MARCP implementation associated with archived historical launchers |
-| research/catalog/ | 1,332-run ablation index, canonical weight availability, source hashes and external-asset/duplicate maps |
-| paper/ | Current TeX, bibliography, used figure PDFs, source tables and editable figure inputs |
-| scripts/verify_demo_cpu.py | Executable CPU check against six saved demo metrics |
-| scripts/verify_frozen_results.py | Executable arithmetic checks for archived ablations, Figure 4 and Figure 5 cohorts |
+| [CARBON/](CARBON/), [carbon_train.py](carbon_train.py), [preprocessing/](preprocessing/) | Model, losses, prediction, training/evaluation and input preparation |
+| [data/](data/), [carbon_trained_model/](carbon_trained_model/), [configs/](configs/) | Included AARS HDF5 demonstration and checkpoint |
+| [research/experiments/](research/experiments/) | E01–E11 analysis code, frozen results, run records and guides |
+| [research/catalog/](research/catalog/) | Per-run ablation index, checkpoint availability, provenance and asset maps |
+| [paper/](paper/) | Manuscript TeX/PDF, bibliography, figures, source tables and editable inputs |
+| [scripts/](scripts/) | CPU, frozen-result and package verification; scratch replay preparation |
+| [docs/](docs/) | Training, experiment navigation, reproduction scope and resource availability |
 
-## Install and run the checked paths
+Verify the included frozen numbers and file bindings:
 
-Portable Conda setup:
+```bash
+python scripts/verify_frozen_results.py
+python scripts/verify_package.py
+python paper/figure_locks/validate_figure1.py
+```
 
-    conda env create -f environment.portable.yml
-    conda activate carbon
+[Reproduction instructions](docs/REPRODUCE.md) explain the checked scope and how to restore duplicate paths into a separate scratch directory. [Known limits](docs/KNOWN_LIMITS.md) document comparator conventions, incomplete training provenance, resource gaps, and negative or mixed functional results.
 
-Or create a Python 3.12 environment and install the CPU dependencies:
+## Data and weights
 
-    python -m pip install -r requirements.cpu.txt
+The AARS demo checkpoint and test data are included. Paper source tables, selected measured-score records, frozen arrays and analysis code are indexed here. Raw sequencing, reference genomes, large database distributions and full benchmark checkpoint files are external.
 
-These dependency versions describe the environment used for validation; a fresh environment install has not been tested. The older environment.yml is a Linux-specific historical lock, not a portable installation recipe. Preprocessing and attribution use additional optional packages listed in requirements.txt; figure replays may also need PyMuPDF, R and circlize.
+A versioned public **full-data/full-weight archive is not currently available**. The canonical 222-task catalog records 221 CARBON, 219 iDeepB and 222 RBPNet checkpoint identities, including explicit missing tasks; these counts describe archived availability, not files bundled here. See [availability](docs/DATA_AVAILABILITY.md), [weight catalog](research/catalog/BENCHMARK_WEIGHT_AVAILABILITY.csv), and [external-asset inventory](research/catalog/EXTERNAL_ASSETS.csv). No pending DOI or private platform link is presented as a public download.
 
-From the repository root:
+## Citation
 
-    python scripts/smoke_model.py
-    python scripts/verify_demo_cpu.py
-    python scripts/verify_frozen_results.py
-    python figures/plot_demo_signal_track.py --device cpu --out outputs/demo_signal_track.png
-    python scripts/verify_package.py
+Use [CITATION.cff](CITATION.cff) to cite the software, identifying the commit you used. The [associated manuscript](paper/CARBON_main.pdf) is a draft; no journal publication or DOI is claimed here. Cite external assay and data sources described in the manuscript and dataset provenance when using their data.
 
-The AARS verifier explicitly passes CPU and task options and evaluates 1,283 included test windows. It compares the six saved metrics with absolute tolerance 1e-5. The four-track plot contains CARBON, pooled eCLIP, inverted pooled eCLIP and inverted input control. The last two tracks are display transforms of Y and Y_ctl, not biological replicates.
+## License
 
-The demo chr1/2/3 split is illustrative. Formal archived experiments use their recorded chromosome splits and configurations. Fresh training should use a new output directory, for example:
-
-    bash scripts/run_demo_train.sh outputs/demo_train
-
-## Scope of reproduction
-
-The checked CPU demo and frozen-table calculations do not establish all historical training reproducibility, identical MARCP/refactor behavior, a unified fair three-model benchmark, or independent functional validation. Full/Sequence controls, unfavorable directions, and negative/mixed functional results are retained. Read each experiment's evidence boundary before interpreting its outputs.
-
-A versioned, public full-data/full-weight download is **not available from this package**. Canonical archived checkpoint counts are CARBON 221, iDeepB 219 and RBPNet 222; exact missing tasks and SHA identities are listed. The older local Zenodo package contains a different 222-task set. No pending DOI or private platform URL is represented as a usable public data source. Code Ocean has only a historical demonstration run; complete-paper reproduction there has not been established.
-
-## Provenance and use
-
-The candidate is based on GitHub main 40ca6bfe3b7d601a08aa7aa68abcebd5773f5317, locally checked against 71 downloaded files on 2026-10-19. Source hashes, path-only redactions and current manuscript binding are machine readable. Large identical assets have one canonical copy; materialize a separate scratch tree with scripts/materialize_replay.py before historical figure replays. Packaging preserves supplied scientific data and creates no new experimental observations; file and arithmetic checks do not certify the authenticity of every historical measurement.
-
-The original software and included AARS demo retain their existing licence and third-party notices. External source datasets and papers retain their original terms; this candidate does not apply a new blanket licence to them. Cite the manuscript and external assay/data sources identified in the paper and manifests.
+Original CARBON software is provided under the [MIT license](LICENSE). Adapted code, the archived MEME/Tomtom binary, external datasets and papers retain their own terms; MIT does not relicense them. [Third-party notices](THIRD_PARTY_NOTICES.md) contain the component mapping and full license copies. MEME Suite has educational, research and non-profit use terms, with separate arrangements for commercial use.

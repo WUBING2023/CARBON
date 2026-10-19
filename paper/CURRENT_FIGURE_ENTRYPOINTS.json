@@ -1,9 +1,12 @@
 {
   "Figure1": {
     "pdf": "figures/fig1.pdf",
-    "pdf_sha256": "150ac52c5dd9a3a7ff9854d6865fbcbbd96b1b3ff6717d39b2c5cdc0acbd4da9",
-    "source_entry": "editable_figures/updated_fig1_v32/render_fig1_v32.py",
-    "source_sha256": "e59ce46754f34f981db845125855501513cf186c563f4709e1796aa93a94857a"
+    "pdf_sha256": "8c149d2b7a20983ea6faf14f1d83abdb73901b25990f3df10975ab475e5de849",
+    "source_entry": "editable_figures/Figure1_NPG_BiGRU_boxed.pptx",
+    "source_sha256": "70b3890c797dde1a90a4b0df1a059221751d596e777d049c00254523951954ad",
+    "source_kind": "PowerPoint editable source",
+    "status": "restored accepted 2026-10-05 artwork; user-locked",
+    "lock_record": "FIGURE_LOCKS.json"
   },
   "Figure2": {
     "pdf": "figures/fig2.pdf",

@@ -1,9 +1,9 @@
-# Private review candidate
+# Research code status
 
-Prepared locally on 2026-10-19 from GitHub main 40ca6bfe3b7d601a08aa7aa68abcebd5773f5317. The packaging operation did not push, tag, release or change repository permissions. Synchronization after acceptance is a separate parent workflow; this candidate is intended for the existing private repository.
+This is a research code draft for the associated CARBON manuscript, prepared on 2026-10-19 for the existing [CARBON repository](https://github.com/WUBING2023/CARBON). It includes an executable CPU demonstration, frozen research results, source-data navigation and manuscript artifacts. No journal publication, manuscript DOI or complete-study reproduction is claimed.
 
-The historical v0.1.0-beta tag points to an older commit. This package does not claim that tag identifies the present candidate. The candidate version and manuscript hashes are recorded in paper/MANUSCRIPT_BINDING.json; a future approved remote commit must be bound separately.
+The current manuscript and figure identities are recorded in [paper/MANUSCRIPT_BINDING.json](paper/MANUSCRIPT_BINDING.json). Figure 1 is the exact accepted 2026-10-05 artwork and editable PowerPoint, protected by [paper/FIGURE_LOCKS.json](paper/FIGURE_LOCKS.json). Figure 2–5 and scientific measurement bytes retain their preceding frozen identities.
 
-Code Ocean has a historical AARS demonstration run. Complete main/supplement figure reproduction, current capsule contents, a public full-data archive and a full-weight download route are not established. No pending DOI is advertised as an active record.
+The historical `v0.1.0-beta` tag identifies an older commit. Use the current source commit when citing or inspecting this draft; that tag does not identify these manuscript artifacts.
 
-The v34 Figure 5 display revision is prepared from the already private commit 6478af41115b6aa9acd90802b1f07ccd1998e38c. It is not submission-ready: author facts remain deferred, and existing resource, historical replay and scientific-evidence gaps remain. Local preparation and validation do not claim user aesthetic acceptance or a new public release.
+The included AARS CPU evaluation, frozen-table arithmetic and file/figure bindings are the checked paths. A clean dependency installation, fresh full-study training and all historical figure replays have not been established. Full benchmark data and weights do not yet have a versioned public download. Code Ocean has a historical AARS demonstration rather than verified complete-paper reproduction. See [availability](docs/DATA_AVAILABILITY.md), [reproduction](docs/REPRODUCE.md) and [known limits](docs/KNOWN_LIMITS.md).

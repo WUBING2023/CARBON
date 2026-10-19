@@ -1,0 +1,12 @@
+{
+  "Figure1": {
+    "pdf": "figures/fig1.pdf",
+    "pdf_sha256": "8c149d2b7a20983ea6faf14f1d83abdb73901b25990f3df10975ab475e5de849",
+    "source": "editable_figures/Figure1_NPG_BiGRU_boxed.pptx",
+    "source_sha256": "70b3890c797dde1a90a4b0df1a059221751d596e777d049c00254523951954ad",
+    "accepted_version": "2026-10-05",
+    "placement_width_mm": 85,
+    "user_instruction": "Restore Figure 1; do not alter it.",
+    "policy": "Preserve the exact accepted PDF and editable source; no redraw, recolouring, cropping or internal rescaling."
+  }
+}

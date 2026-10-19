@@ -1,6 +1,6 @@
 # Data and checkpoint availability
 
-The repository includes the small AARS HDF5/checkpoint demonstration plus selected author-generated frozen arrays, result tables, scripts and run metadata. It includes the published small source workbooks and measured-score records needed by the paper, with original provenance. It excludes raw sequencing, reference genomes, complete model weights, large database distributions, dependency source archives, private reference code and personal screenshots.
+The repository includes the small AARS HDF5/checkpoint demonstration plus selected author-generated frozen arrays, result tables, scripts and run metadata. It includes the published small source workbooks and measured-score records needed by the paper, with original provenance. It excludes raw sequencing, reference genomes, complete model weights, large database distributions, large dependency source archives, private reference code and personal screenshots. The historical S24 ATtRACT ZIP contains its exact Tomtom 5.5.7 binary with the same-version MEME COPYING terms now included; see THIRD_PARTY_NOTICES.md. External datasets and papers retain their original terms.
 
 research/catalog/EXTERNAL_ASSETS.csv records archive-relative locations, sizes and original SHA256 for omitted experiment assets. A local-only source-location index accompanies the review work directory and is deliberately outside this repository. The manifest is an index, not a download service or proof that an unbundled file is accessible offline.
 

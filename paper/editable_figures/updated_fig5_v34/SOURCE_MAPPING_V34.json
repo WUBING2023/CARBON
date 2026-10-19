@@ -897,7 +897,6 @@
     "validation": 2,
     "strict_test": 0
   },
-  "visual_review_note": "VISUAL_REVIEW_V34.md; actual full PNG and PDF raster inspected in two layout rounds",
   "typography": {
     "ordinary_pt": [
       6.3,

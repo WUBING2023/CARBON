@@ -5,85 +5,85 @@
       "dataset": "S1",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S1_benchmark_metrics.csv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S1_benchmark_metrics.csv",
-      "primary_role": "Designated published Supplementary Data S1 table."
+      "primary_role": "Designated manuscript Supplementary Data S1 table."
     },
     {
       "dataset": "S2",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S2_ablation_paired_deltas.csv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S2_ablation_paired_deltas.csv",
-      "primary_role": "Designated published Supplementary Data S2 table."
+      "primary_role": "Designated manuscript Supplementary Data S2 table."
     },
     {
       "dataset": "S3",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S3_comparator_win_loss_matrix.csv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S3_comparator_win_loss_matrix.csv",
-      "primary_role": "Designated published Supplementary Data S3 table."
+      "primary_role": "Designated manuscript Supplementary Data S3 table."
     },
     {
       "dataset": "S4",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S4_cross_cell_complete_score_set.tsv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S4_cross_cell_complete_score_set.tsv",
-      "primary_role": "Designated published Supplementary Data S4 table."
+      "primary_role": "Designated manuscript Supplementary Data S4 table."
     },
     {
       "dataset": "S5",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S5_cross_cell_overlap_join_128.tsv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S5_cross_cell_overlap_join_128.tsv",
-      "primary_role": "Designated published Supplementary Data S5 table."
+      "primary_role": "Designated manuscript Supplementary Data S5 table."
     },
     {
       "dataset": "S6",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S6_motif_comparisons.csv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S6_motif_comparisons.csv",
-      "primary_role": "Designated published Supplementary Data S6 table."
+      "primary_role": "Designated manuscript Supplementary Data S6 table."
     },
     {
       "dataset": "S7",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S7_conservation_task_summary.csv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S7_conservation_task_summary.csv",
-      "primary_role": "Designated published Supplementary Data S7 table."
+      "primary_role": "Designated manuscript Supplementary Data S7 table."
     },
     {
       "dataset": "S8",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S8_conservation_bin_summary.csv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S8_conservation_bin_summary.csv",
-      "primary_role": "Designated published Supplementary Data S8 table."
+      "primary_role": "Designated manuscript Supplementary Data S8 table."
     },
     {
       "dataset": "S9",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S9_conservation_peak_centred_profile.csv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S9_conservation_peak_centred_profile.csv",
-      "primary_role": "Designated published Supplementary Data S9 table."
+      "primary_role": "Designated manuscript Supplementary Data S9 table."
     },
     {
       "dataset": "S10",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S10_motif_leaf_mapping.csv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S10_motif_leaf_mapping.csv",
-      "primary_role": "Designated published Supplementary Data S10 table."
+      "primary_role": "Designated manuscript Supplementary Data S10 table."
     },
     {
       "dataset": "S11",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S11_conservation_perturbation.csv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S11_conservation_perturbation.csv",
-      "primary_role": "Designated published Supplementary Data S11 table."
+      "primary_role": "Designated manuscript Supplementary Data S11 table."
     },
     {
       "dataset": "S12",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S12_RBP_robustness.csv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S12_RBP_robustness.csv",
-      "primary_role": "Designated published Supplementary Data S12 table."
+      "primary_role": "Designated manuscript Supplementary Data S12 table."
     },
     {
       "dataset": "S13",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S13_perturbation_condition_metrics.csv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S13_perturbation_condition_metrics.csv",
-      "primary_role": "Designated published Supplementary Data S13 table."
+      "primary_role": "Designated manuscript Supplementary Data S13 table."
     },
     {
       "dataset": "S14",
       "declared_primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S14_count_inverse_sensitivity.csv",
       "primary_path": "paper/source_data/S1_S14_original/Supplementary_Data_S14_count_inverse_sensitivity.csv",
-      "primary_role": "Designated published Supplementary Data S14 table."
+      "primary_role": "Designated manuscript Supplementary Data S14 table."
     },
     {
       "dataset": "S15",
@@ -143,7 +143,7 @@
       "dataset": "S24",
       "declared_primary_path": "paper/source_data/S24_motif_reference_audit/ATtRACT_DATA_S24_V3.zip",
       "primary_path": "paper/source_data/S24_motif_reference_audit/ATtRACT_DATA_S24_V3.zip",
-      "primary_role": "Original full ATtRACT audit archive containing query/reference matrices, all comparisons and selection records."
+      "primary_role": "Full ATtRACT audit archive containing query/reference matrices, all comparisons and selection records; MEME license notices added, all pre-existing members unchanged."
     },
     {
       "dataset": "S25",

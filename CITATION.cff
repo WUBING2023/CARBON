@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use CARBON, please cite the software and the associated article when available."
 title: "CARBON: a conservation-aware framework for base-resolution RBP binding profile prediction"
 type: software
-version: "v33-private-review-candidate"
+version: "v35-research-code-draft"
 authors:
   - family-names: Wu
     given-names: Bin

@@ -17,7 +17,7 @@ def main():
  for r in aliases:
   q=ROOT/r['canonical']
   if not q.is_file() or sha(q)!=r['sha256']:failures.append('Alias target: '+r['path'])
- binding=json.loads((ROOT/'paper/MANUSCRIPT_BINDING.json').read_text())
+ binding=json.loads((ROOT/'paper/MANUSCRIPT_BINDING.json').read_text(encoding='utf-8'))
  for r in binding['files']:
   if sha(ROOT/next((x['canonical'] for x in aliases if x['path']==r['path']),r['path']))!=r['sha256']:failures.append('Manuscript binding: '+r['path'])
  for r in rows(ROOT/'paper/DATASET_DECLARATIONS.csv'):
@@ -41,6 +41,17 @@ def main():
   if n==27 and not r['primary_path'].endswith('/ALL66_REPORTER_BIOLOGICAL_MEASUREMENTS.csv'):failures.append('Reporter primary mismatch')
  for r in rows(ROOT/'paper/FIGURE_BINDINGS.csv'):
   if not r['path'] or not (ROOT/r['path']).is_file() or sha(ROOT/r['path'])!=r['sha256']:failures.append('Figure output: '+r['reference'])
- result=dict(passed=not failures,checked_files=len(manifest),alias_targets=len(aliases),primary_data_files=len(datasets),bound_paper_files=len(binding['files']),failures=failures,scope='File identity, candidate size and binding integrity; no upstream reproducibility claim.')
+ pointers=json.loads((ROOT/'paper/CURRENT_FIGURE_ENTRYPOINTS.json').read_text(encoding='utf-8'))
+ for name,r in pointers.items():
+  if not isinstance(r,dict):continue
+  for path_key,hash_key in [('pdf','pdf_sha256'),('source_entry','source_sha256')]:
+   q=ROOT/'paper'/r[path_key]
+   if not q.is_file() or sha(q)!=r[hash_key]:failures.append('Current figure pointer: '+name+' '+path_key)
+ lock=json.loads((ROOT/'paper/FIGURE_LOCKS.json').read_text(encoding='utf-8'))['Figure1']
+ for path_key,hash_key in [('pdf','pdf_sha256'),('source','source_sha256')]:
+  q=ROOT/'paper'/lock[path_key]
+  if not q.is_file() or sha(q)!=lock[hash_key]:failures.append('Locked accepted Figure1: '+path_key)
+ if r'\includegraphics[width=85mm]{fig1.pdf}' not in (ROOT/'paper/CARBON_main.tex').read_text(encoding='utf-8'):failures.append('Locked Figure1 manuscript placement')
+ result=dict(passed=not failures,checked_files=len(manifest),alias_targets=len(aliases),primary_data_files=len(datasets),bound_paper_files=len(binding['files']),figure1_lock_checked=True,failures=failures,scope='File identity, candidate size, current figure pointers and locked Figure1 integrity; no upstream reproducibility claim.')
  a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8');print(json.dumps(result,indent=2));raise SystemExit(0 if result['passed'] else 1)
 if __name__=='__main__':main()
