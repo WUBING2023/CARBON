@@ -2,6 +2,8 @@
 
 CARBON predicts base-resolution RNA-binding protein profiles from sequence and conservation. This private review candidate combines the existing model/demo code with selected frozen research results and the current manuscript sources.
 
+Current Figure 5: [compiled 13-page main manuscript](paper/CARBON_main.pdf) · [current display/source entry points](paper/CURRENT_FIGURE_ENTRYPOINTS.json) · [v34 change record](docs/FIG5_V34_CHANGES.md).
+
 **Start here:** [S1-S27 data entries](paper/source_data/README_CURRENT.md) · [research evidence map](docs/EVIDENCE_MAP.md) · [replay and verification](docs/REPRODUCE.md) · [known limits](docs/KNOWN_LIMITS.md) · [data and weight availability](docs/DATA_AVAILABILITY.md).
 
 | Path | Purpose |

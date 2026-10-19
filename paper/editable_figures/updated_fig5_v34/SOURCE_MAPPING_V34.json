@@ -1,0 +1,931 @@
+{
+  "version": "v34",
+  "comparison_baseline": "v32",
+  "native_mm": [
+    178.0,
+    168.0
+  ],
+  "pdf_measured_mm": [
+    177.99999855889212,
+    167.99999525282115
+  ],
+  "panels": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "plotted_records": 2028,
+  "exact_key_set_match": true,
+  "exact_value_match": true,
+  "same_record_order": true,
+  "coordinate_audit": [
+    {
+      "name": "a spearman_all5mer all raw scores",
+      "n": 50,
+      "minimum": -0.6128082978685359,
+      "maximum": 0.7977652036692654,
+      "axis_limits": [
+        -0.7,
+        0.86
+      ],
+      "outside": 0
+    },
+    {
+      "name": "a spearman_all5mer paired differences and saved mean/CI",
+      "n": 28,
+      "minimum": -0.5297205263424128,
+      "maximum": 0.5846600722873458,
+      "axis_limits": [
+        -0.7,
+        0.75
+      ],
+      "outside": 0
+    },
+    {
+      "name": "a within_composition_concordance all raw scores",
+      "n": 50,
+      "minimum": 40.283792650918635,
+      "maximum": 68.80577427821522,
+      "axis_limits": [
+        35.0,
+        80.0
+      ],
+      "outside": 0
+    },
+    {
+      "name": "a within_composition_concordance paired differences and saved mean/CI",
+      "n": 28,
+      "minimum": -11.528871391076118,
+      "maximum": 19.26673228346457,
+      "axis_limits": [
+        -12.0,
+        25.0
+      ],
+      "outside": 0
+    },
+    {
+      "name": "b node-half responses",
+      "n": 60,
+      "minimum": -0.04908348619937897,
+      "maximum": 0.27690715342760086,
+      "axis_limits": [
+        -1.8,
+        1.8
+      ],
+      "outside": 0
+    },
+    {
+      "name": "c all seven model/control responses",
+      "n": 7,
+      "minimum": -0.015574455261230469,
+      "maximum": 0.01644277572631836,
+      "axis_limits": [
+        -0.02,
+        0.02
+      ],
+      "outside": 0
+    },
+    {
+      "name": "c all six reporter measurements",
+      "n": 6,
+      "minimum": 0.96,
+      "maximum": 1.46,
+      "axis_limits": [
+        0,
+        1.65
+      ],
+      "outside": 0
+    },
+    {
+      "name": "d all 396 Full scatter coordinates",
+      "n": 396,
+      "minimum": -0.1524558067321777,
+      "maximum": 1.4694209098815918,
+      "axis_limits": [
+        -0.2,
+        1.8
+      ],
+      "outside": 0
+    },
+    {
+      "name": "d all 396 Sequence scatter coordinates",
+      "n": 396,
+      "minimum": -0.1336994171142578,
+      "maximum": 1.682225227355957,
+      "axis_limits": [
+        -0.2,
+        1.8
+      ],
+      "outside": 0
+    },
+    {
+      "name": "d A_native mean and two CI endpoints",
+      "n": 3,
+      "minimum": 43.5882522791112,
+      "maximum": 59.87210906005673,
+      "axis_limits": [
+        40,
+        78
+      ],
+      "outside": 0
+    },
+    {
+      "name": "d S mean and two CI endpoints",
+      "n": 3,
+      "minimum": 50.582937839249986,
+      "maximum": 66.49777852759783,
+      "axis_limits": [
+        40,
+        78
+      ],
+      "outside": 0
+    },
+    {
+      "name": "d A_flat mean and two CI endpoints",
+      "n": 3,
+      "minimum": 44.93860100382617,
+      "maximum": 61.484631241081665,
+      "axis_limits": [
+        40,
+        78
+      ],
+      "outside": 0
+    },
+    {
+      "name": "d A_permmean mean and two CI endpoints",
+      "n": 3,
+      "minimum": 44.223028761963164,
+      "maximum": 60.36197182508929,
+      "axis_limits": [
+        40,
+        78
+      ],
+      "outside": 0
+    },
+    {
+      "name": "d ref mean and two CI endpoints",
+      "n": 3,
+      "minimum": 55.87112303600647,
+      "maximum": 73.14731559582866,
+      "axis_limits": [
+        40,
+        78
+      ],
+      "outside": 0
+    },
+    {
+      "name": "e A_native_ref_minus_alt all 13 bar endpoints",
+      "n": 13,
+      "minimum": -0.10324573516845703,
+      "maximum": 0.8239841461181641,
+      "axis_limits": [
+        -0.12,
+        0.88
+      ],
+      "outside": 0
+    },
+    {
+      "name": "e S_ref_minus_alt all 13 bar endpoints",
+      "n": 13,
+      "minimum": -0.05983924865722656,
+      "maximum": 0.8049421310424805,
+      "axis_limits": [
+        -0.12,
+        0.88
+      ],
+      "outside": 0
+    },
+    {
+      "name": "e A_flat_ref_minus_alt all 13 bar endpoints",
+      "n": 13,
+      "minimum": -9.632110595703125e-05,
+      "maximum": 0.4841432571411133,
+      "axis_limits": [
+        -0.12,
+        0.88
+      ],
+      "outside": 0
+    },
+    {
+      "name": "e A_permmean_ref_minus_alt all 13 bar endpoints",
+      "n": 13,
+      "minimum": -0.03949054082234701,
+      "maximum": 0.0929250717163086,
+      "axis_limits": [
+        -0.12,
+        0.88
+      ],
+      "outside": 0
+    },
+    {
+      "name": "e HepG2:AQR:chr9_111642331_- perm sign-only symbol extent (mm)",
+      "n": 2,
+      "minimum": 7.342246046449008,
+      "maximum": 8.55932937978234,
+      "axis_limits": [
+        0,
+        20
+      ],
+      "outside": 0
+    },
+    {
+      "name": "e HepG2:G3BP1:chr17_21215557_+ flat sign-only symbol extent (mm)",
+      "n": 2,
+      "minimum": 5.742246046449008,
+      "maximum": 6.959329379782341,
+      "axis_limits": [
+        0,
+        20
+      ],
+      "outside": 0
+    }
+  ],
+  "all_original_points_and_CI_endpoints_within_axes": true,
+  "baseline_sha256": "d241cba0d62247b15909fb46ec5c16fe9eb44dec05cdd0ad5bfb0aa9e928ce53",
+  "output_value_sha256": "d241cba0d62247b15909fb46ec5c16fe9eb44dec05cdd0ad5bfb0aa9e928ce53",
+  "byte_identical_plotted_csv": true,
+  "out_of_page_text": [],
+  "frozen_input_files": 38,
+  "frozen_input_hashes_unchanged": true,
+  "frozen_input_manifest": {
+    "frozen_inputs/disease_overlap/DISEASE_ALL13_EVENT_RESULTS.csv": "8e85eb6909f9e0e7d78ade7fbdc24666c0f67f2cfacaa6023eab590ac2c4f415",
+    "frozen_inputs/disease_overlap/DISEASE_ALL8_VARIANT_RESULTS.csv": "715465b519774d7780bd093a364682a2a19b4613dca16894ea58fa8d9b136cb6",
+    "frozen_inputs/expanded_external/ALL_1152_PAIRED_MODEL_RESPONSES.csv": "c67fd04058c455f097183076890e3b97fbb79e7559c12f2bf2b15650b8c1d722",
+    "frozen_inputs/expanded_external/ALL_25_SELECTED_EDITS.csv": "c973d13930bdcef62f11fa0bcfffb42ca3dcfff88f3fa19d26aeaba1349e3a79",
+    "frozen_inputs/expanded_external/ALL_36_TASKS.csv": "1c6928405d79dd47b943ffd13e7bb912dabb221b1ad0104dff2e7d27ae18f099",
+    "frozen_inputs/expanded_external/SOURCE_PACKET.npz": "eee2cafcc2fff34cbc4af64a2735ec8aca3b9bbbb539c540950a7dbd35bb07ce",
+    "frozen_inputs/PALETTE_V3.json": "9ca041248d567dd5b181940747f7a1ea08ead39fe1b7a2f2e12fcd8cc3b9fb01",
+    "frozen_inputs/qki_complete_graph/ALL_30_NODE_PLOT_DATA.csv": "3bbc74f5e135b650ce9d7a8d96a985bf33e75fff4de61f2098d7291394aa47bb",
+    "frozen_inputs/qki_complete_graph/ALL_48_EDGE_PLOT_DATA.csv": "7de6ee8757c954ad1ed8aaea5764fb7183762b1f9154c5538e8d875a6750c6ec",
+    "frozen_inputs/qki_complete_graph/CAPTION.md": "d60b579da1c0320df46ff30200e44e061977841ee7b4512088d9f41ced55a52c",
+    "frozen_inputs/qki_complete_graph/DESIGN.md": "d2510e5a6a2917b81068153772385ec26a4e6fa5a229865ea6a50ef9cc459a07",
+    "frozen_inputs/qki_complete_graph/QKI_ALL_48_ADJACENT_EDGES.csv": "139bbafb0dc1d6605431f3b8e9e69ab445f152da2e005a41d6b6e988883947f8",
+    "frozen_inputs/qki_complete_graph/source_figure.pdf": "903860cbca9b66027a47f254b6c03b45d81c76e45ea37a181e2a5f2ac7aa0da8",
+    "frozen_inputs/qki_complete_graph/SOURCE_PACKET.npz": "cbe8ac777f3261c7a7f9c162901ca44c4adcb6c281a92907af35f76a6090c518",
+    "frozen_inputs/qki_complete_graph/source_render.py": "bc929aa576ba6824d58ba9c22977432b2917a864bab3d5fc901f30210d710fa6",
+    "frozen_inputs/reporter_validation/41467_2019_9292_MOESM4_ESM.xlsx": "6812f36df49cf1ab244c4bd190468af5a4db879c66530be4fcbac6816b4f124f",
+    "frozen_inputs/reporter_validation/41467_2019_9292_MOESM6_ESM.xlsx": "586686e43819ef94556ff92728dabe751e11f76d176375c515152c91ba81591b",
+    "frozen_inputs/reporter_validation/ALL11_REPORTER_VARIANTS.csv": "f0dcfa462246a575add3f3e9da31c41399d39f17f96b3fb1d91c2f231174663a",
+    "frozen_inputs/reporter_validation/ALL24_REPORTER_LOCUS_ASB_EVENTS.csv": "7dbec6e9c41ecb1696d40e896a8ad8262c3b02a46aef4b5c1e930018f1884627",
+    "frozen_inputs/reporter_validation/ALL66_REPORTER_BIOLOGICAL_MEASUREMENTS.csv": "560eef6d0b82d6db91d1c2d96286d434d53cf924313de0999fda8e2dedd6c9dd",
+    "frozen_inputs/reporter_validation/ALL7262_SAVED_ASB_EVENT_PREDICTIONS.csv": "d0b062cf31941ad26d3bc3478751825e67dc817a5f5263f27af1edc0af2fcc07",
+    "frozen_inputs/reporter_validation/ALL_VARIANT_CELL_STRAND_GROUPS.csv": "2a0c092fdeac61ede4920469f5998059b7c3feb93e5c6511a32b741cfc4e0ccd",
+    "frozen_inputs/reporter_validation/CASE_CENSUS.json": "9ce2ecb0466dbe1ec49bb0c0d25f4bd11ef3e0c4e6c1e93e4b75398aa4e16be0",
+    "frozen_inputs/reporter_validation/FULL_ONLY_STABLE_EVENT_ILLUSTRATIONS.csv": "f63197fbb62737d3b01eb390e5383bb013d587e766d1fc50d27a688689f92c75",
+    "frozen_inputs/reporter_validation/PROTOCOL_AND_SELECTION.json": "d142be89190854c9497414a09df94e67b0c7a18a9c431055ff31f3ad8a1f6bf2",
+    "frozen_inputs/reporter_validation/SELECTED_CASES.json": "294c1452d7a0be2e84b8b0b28f8f37550f1ee9f458881c8a6444c536e2094d00",
+    "frozen_inputs/reporter_validation/SOURCE_HASHES.json": "f80eb24feb6464baa0eefd0eeb69de2ed8fb7157b1cea39fd6a4550cd66cf384",
+    "frozen_inputs/S23_external_order_preferences/FROZEN_PRIMARY_CONTRASTS.csv": "cd9e00d1a6e38c54d54af85f4f7d99225bd064a39a6ca8bf59bd58b8a864d1d6",
+    "frozen_inputs/S23_external_order_preferences/FROZEN_PRIMARY_METRICS.csv": "f5451b6521dcbd77845da10138a1fad32cb396f72a2037b0f07464595ba2713c",
+    "frozen_inputs/work_variants/b1_reference/INTERVENTION_PACKET.npz": "f184db62c3d5b2903dee51b7f3172e090b5c6f71a1d2d5c550cc6d2430b131a9",
+    "frozen_inputs/work_variants/CONSERVATION_ASSOCIATIONS.csv": "700c74286ed94268b0da6c2549e84cf06d2b3f3ad42360e25e7d57bb1bb1425b",
+    "frozen_inputs/work_variants/DIRECTION_BY_CONSERVATION.csv": "7380a3c4703ac79af7dd1b5ac539a9bf94238790857b097c8ac7b1d47dc54e3a",
+    "frozen_inputs/work_variants/DIRECTION_SUMMARY.csv": "b0331307adf4c92455c32d070dc6f8d35cacafa9c069723cd72b473d4b63d75d",
+    "frozen_inputs/work_variants/DIRECTION_TWO_WAY_SENSITIVITY.csv": "3492b8b4e1a61211dc30ec6f3d20e9fc013911d2c8ac76fd0425b14f241b21a3",
+    "frozen_inputs/work_variants/FIG5_NATURAL_SNV_EXAMPLE_ALL10.csv": "25cc9dbd678b28444a7e85ba49ab4707b9299402958d8e2a3d554947a81fd8e9",
+    "frozen_inputs/work_variants/QUARTILE_ASSIGNMENTS_strict_test.csv": "f7f12d5defba29f0b4172a00d1b57291955d9e785c1a0e4151a425bac7cb25d0",
+    "frozen_inputs/work_variants/source_inputs/EVENTS_INCLUDED.json.gz": "fd53abc544d4f1f8e287f141fc05eed01503f1e72492a76ba5cb3e33056abfaf",
+    "frozen_inputs/work_variants/STRICT396_WITH_ANNOTATIONS.csv": "e18c7702ee63bf929f094aebbf4ffdd190c65d6baf11283d09b97bef91d06a00"
+  },
+  "a_modules": [
+    {
+      "metric": "spearman_all5mer",
+      "n": 25,
+      "absolute_axis": [
+        -0.7,
+        0.86
+      ],
+      "delta_axis": [
+        -0.7,
+        0.75
+      ],
+      "negative_differences": 7,
+      "violin_source": "actual 25 per arm",
+      "mean": 0.1461870204431569,
+      "CI": [
+        0.03801673211719707,
+        0.2479966560677966
+      ]
+    },
+    {
+      "metric": "within_composition_concordance",
+      "n": 25,
+      "absolute_axis": [
+        35.0,
+        80.0
+      ],
+      "delta_axis": [
+        -12.0,
+        25.0
+      ],
+      "negative_differences": 6,
+      "violin_source": "actual 25 per arm",
+      "mean": 3.7808836395450567,
+      "CI": [
+        0.8987046150481182,
+        6.733017279090113
+      ]
+    }
+  ],
+  "b_nodes": 30,
+  "b_edges": 48,
+  "b_highlight_edges": 3,
+  "b_geometry": "same x/y footprint and Z5 lift as v32; no data reorientation",
+  "b_response_scale": {
+    "palette": [
+      "#3C5488",
+      "#FFFFFF",
+      "#E64B35"
+    ],
+    "linear_width": 0.02,
+    "limits": [
+      -1.8,
+      1.8
+    ]
+  },
+  "c_model_control_responses": 7,
+  "c_reporter_measurements": 6,
+  "c_locus_split": "training",
+  "c_endpoints": [
+    "K562 binding prediction",
+    "published HeLa normalized RNA"
+  ],
+  "c_readout_plot_mm": {
+    "prediction": [
+      20,
+      84,
+      33,
+      21.5
+    ],
+    "reporter": [
+      77,
+      84,
+      23,
+      21.5
+    ]
+  },
+  "d_events": 396,
+  "d_RBPs": 85,
+  "d_sites": 287,
+  "d_intervals": 5,
+  "d_census": [
+    [
+      168,
+      61
+    ],
+    [
+      43,
+      124
+    ]
+  ],
+  "d_population": "development-exposed ASB-positive events",
+  "d_plot_mm": {
+    "scatter": [
+      114,
+      77,
+      28.5,
+      28.5
+    ],
+    "summary": [
+      163,
+      77,
+      14,
+      28.5
+    ]
+  },
+  "e_sites": 8,
+  "e_events": 13,
+  "e_effects": 52,
+  "e_agreement": [
+    7,
+    10,
+    12,
+    9
+  ],
+  "constant_REF": 13,
+  "e_event_pitch_mm": 2.5,
+  "e_site_groups": [
+    {
+      "site": 1,
+      "gene": "ASL",
+      "n_events": 1,
+      "first_y_mm": 127.0,
+      "last_y_mm": 129.5
+    },
+    {
+      "site": 2,
+      "gene": "ELP1",
+      "n_events": 2,
+      "first_y_mm": 129.75,
+      "last_y_mm": 134.75
+    },
+    {
+      "site": 3,
+      "gene": "EIF3F",
+      "n_events": 1,
+      "first_y_mm": 135.0,
+      "last_y_mm": 137.5
+    },
+    {
+      "site": 4,
+      "gene": "HSP90B1",
+      "n_events": 1,
+      "first_y_mm": 137.75,
+      "last_y_mm": 140.25
+    },
+    {
+      "site": 5,
+      "gene": "MAP2K3",
+      "n_events": 1,
+      "first_y_mm": 140.5,
+      "last_y_mm": 143.0
+    },
+    {
+      "site": 6,
+      "gene": "MAP2K3",
+      "n_events": 1,
+      "first_y_mm": 143.25,
+      "last_y_mm": 145.75
+    },
+    {
+      "site": 7,
+      "gene": "C3",
+      "n_events": 3,
+      "first_y_mm": 146.0,
+      "last_y_mm": 153.5
+    },
+    {
+      "site": 8,
+      "gene": "ASXL1",
+      "n_events": 3,
+      "first_y_mm": 153.75,
+      "last_y_mm": 161.25
+    }
+  ],
+  "e_negative_effects": [
+    {
+      "event": "HepG2:AQR:chr9_111642331_-",
+      "arm": "full",
+      "value": -0.07089948654174805
+    },
+    {
+      "event": "HepG2:AQR:chr9_111642331_-",
+      "arm": "sequence",
+      "value": -0.05983924865722656
+    },
+    {
+      "event": "HepG2:RBM5:chr12_104341190_+",
+      "arm": "full",
+      "value": -0.017865657806396484
+    },
+    {
+      "event": "HepG2:RBM5:chr12_104341190_+",
+      "arm": "sequence",
+      "value": -0.019220829010009766
+    },
+    {
+      "event": "HepG2:RBM5:chr12_104341190_+",
+      "arm": "perm",
+      "value": -0.010041395823160807
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215552_+",
+      "arm": "full",
+      "value": -0.005753993988037109
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215552_+",
+      "arm": "perm",
+      "value": -0.004133860270182292
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215557_+",
+      "arm": "full",
+      "value": -0.013826847076416016
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215557_+",
+      "arm": "sequence",
+      "value": -0.024065017700195312
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215557_+",
+      "arm": "flat",
+      "value": -9.632110595703125e-05
+    },
+    {
+      "event": "HepG2:AQR:chr19_6686756_-",
+      "arm": "full",
+      "value": -0.10324573516845703
+    },
+    {
+      "event": "HepG2:AQR:chr19_6686756_-",
+      "arm": "perm",
+      "value": -0.03949054082234701
+    },
+    {
+      "event": "HepG2:RBFOX2:chr19_6686756_-",
+      "arm": "full",
+      "value": -0.07222366333007812
+    },
+    {
+      "event": "K562:ZNF622:chr20_31022288_+",
+      "arm": "perm",
+      "value": -0.018907705942789715
+    }
+  ],
+  "e_scale": {
+    "linear_width": 0.02,
+    "limits": [
+      -0.12,
+      0.88
+    ],
+    "same_for_all_four_arms": true
+  },
+  "e_bar_encoding": "model colour for both signs; direction given by common zero and horizontal coordinates; no hatch",
+  "e_bar_physical_lengths": [
+    {
+      "event": "K562:RBM15:chr7_65546812_+",
+      "arm": "full",
+      "value": 0.03662538528442383,
+      "length_mm": 3.918720729644637
+    },
+    {
+      "event": "K562:RBM15:chr7_65546812_+",
+      "arm": "sequence",
+      "value": 0.03297138214111328,
+      "length_mm": 3.6573461537297085
+    },
+    {
+      "event": "K562:RBM15:chr7_65546812_+",
+      "arm": "flat",
+      "value": 0.07476663589477539,
+      "length_mm": 5.823338282400394
+    },
+    {
+      "event": "K562:RBM15:chr7_65546812_+",
+      "arm": "perm",
+      "value": 0.046346823374430336,
+      "length_mm": 4.526088282717905
+    },
+    {
+      "event": "HepG2:AQR:chr9_111642331_-",
+      "arm": "full",
+      "value": -0.07089948654174805,
+      "length_mm": 5.676376168820312
+    },
+    {
+      "event": "HepG2:AQR:chr9_111642331_-",
+      "arm": "sequence",
+      "value": -0.05983924865722656,
+      "length_mm": 5.211185678055648
+    },
+    {
+      "event": "HepG2:AQR:chr9_111642331_-",
+      "arm": "flat",
+      "value": 0.0885765552520752,
+      "length_mm": 6.295633275993027
+    },
+    {
+      "event": "HepG2:AQR:chr9_111642331_-",
+      "arm": "perm",
+      "value": 0.0015320777893066406,
+      "length_mm": 0.21961965039372214
+    },
+    {
+      "event": "HepG2:PRPF8:chr9_111642331_-",
+      "arm": "full",
+      "value": 0.8239841461181641,
+      "length_mm": 12.660519066695475
+    },
+    {
+      "event": "HepG2:PRPF8:chr9_111642331_-",
+      "arm": "sequence",
+      "value": 0.8049421310424805,
+      "length_mm": 12.593441926223285
+    },
+    {
+      "event": "HepG2:PRPF8:chr9_111642331_-",
+      "arm": "flat",
+      "value": 0.4841432571411133,
+      "length_mm": 11.135271274531183
+    },
+    {
+      "event": "HepG2:PRPF8:chr9_111642331_-",
+      "arm": "perm",
+      "value": 0.0929250717163086,
+      "length_mm": 6.429943805463664
+    },
+    {
+      "event": "K562:AQR:chr11_8016065_+",
+      "arm": "full",
+      "value": 0.06945323944091797,
+      "length_mm": 5.6194973111826805
+    },
+    {
+      "event": "K562:AQR:chr11_8016065_+",
+      "arm": "sequence",
+      "value": 0.2594485282897949,
+      "length_mm": 9.348086239273407
+    },
+    {
+      "event": "K562:AQR:chr11_8016065_+",
+      "arm": "flat",
+      "value": 0.2696247100830078,
+      "length_mm": 9.458178910511167
+    },
+    {
+      "event": "K562:AQR:chr11_8016065_+",
+      "arm": "perm",
+      "value": 0.030169566472371418,
+      "length_mm": 3.442142811706789
+    },
+    {
+      "event": "HepG2:RBM5:chr12_104341190_+",
+      "arm": "full",
+      "value": -0.017865657806396484,
+      "length_mm": 2.306894686613753
+    },
+    {
+      "event": "HepG2:RBM5:chr12_104341190_+",
+      "arm": "sequence",
+      "value": -0.019220829010009766,
+      "length_mm": 2.44949235150621
+    },
+    {
+      "event": "HepG2:RBM5:chr12_104341190_+",
+      "arm": "flat",
+      "value": 0.013214588165283203,
+      "length_mm": 1.7798145530457967
+    },
+    {
+      "event": "HepG2:RBM5:chr12_104341190_+",
+      "arm": "perm",
+      "value": -0.010041395823160807,
+      "length_mm": 1.3862686190685836
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215552_+",
+      "arm": "full",
+      "value": -0.005753993988037109,
+      "length_mm": 0.81464126736101
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215552_+",
+      "arm": "sequence",
+      "value": 0.027991771697998047,
+      "length_mm": 3.2650387995874337
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215552_+",
+      "arm": "flat",
+      "value": 0.024558067321777344,
+      "length_mm": 2.966503495315024
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215552_+",
+      "arm": "perm",
+      "value": -0.004133860270182292,
+      "length_mm": 0.5890131915273157
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215557_+",
+      "arm": "full",
+      "value": -0.013826847076416016,
+      "length_mm": 1.852595083706754
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215557_+",
+      "arm": "sequence",
+      "value": -0.024065017700195312,
+      "length_mm": 2.9215575701835172
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215557_+",
+      "arm": "flat",
+      "value": -9.632110595703125e-05,
+      "length_mm": 0.013820826058949704
+    },
+    {
+      "event": "HepG2:G3BP1:chr17_21215557_+",
+      "arm": "perm",
+      "value": 0.002900282541910807,
+      "length_mm": 0.4147095090911543
+    },
+    {
+      "event": "HepG2:AQR:chr19_6686756_-",
+      "arm": "full",
+      "value": -0.10324573516845703,
+      "length_mm": 6.7260611213151975
+    },
+    {
+      "event": "HepG2:AQR:chr19_6686756_-",
+      "arm": "sequence",
+      "value": 0.027959108352661133,
+      "length_mm": 3.2623130790829054
+    },
+    {
+      "event": "HepG2:AQR:chr19_6686756_-",
+      "arm": "flat",
+      "value": 0.05167818069458008,
+      "length_mm": 4.815302130191192
+    },
+    {
+      "event": "HepG2:AQR:chr19_6686756_-",
+      "arm": "perm",
+      "value": -0.03949054082234701,
+      "length_mm": 4.110015012626556
+    },
+    {
+      "event": "HepG2:PRPF8:chr19_6686756_-",
+      "arm": "full",
+      "value": 0.29607200622558594,
+      "length_mm": 9.726035061881374
+    },
+    {
+      "event": "HepG2:PRPF8:chr19_6686756_-",
+      "arm": "sequence",
+      "value": 0.3466506004333496,
+      "length_mm": 10.177753863726474
+    },
+    {
+      "event": "HepG2:PRPF8:chr19_6686756_-",
+      "arm": "flat",
+      "value": 0.06292867660522461,
+      "length_mm": 5.348536057407487
+    },
+    {
+      "event": "HepG2:PRPF8:chr19_6686756_-",
+      "arm": "perm",
+      "value": 0.07806809743245442,
+      "length_mm": 5.943296152728748
+    },
+    {
+      "event": "HepG2:RBFOX2:chr19_6686756_-",
+      "arm": "full",
+      "value": -0.07222366333007812,
+      "length_mm": 5.727519526472141
+    },
+    {
+      "event": "HepG2:RBFOX2:chr19_6686756_-",
+      "arm": "sequence",
+      "value": 0.06122112274169922,
+      "length_mm": 5.273395004025532
+    },
+    {
+      "event": "HepG2:RBFOX2:chr19_6686756_-",
+      "arm": "flat",
+      "value": 0.13397860527038574,
+      "length_mm": 7.463131819327854
+    },
+    {
+      "event": "HepG2:RBFOX2:chr19_6686756_-",
+      "arm": "perm",
+      "value": 0.07631556193033855,
+      "length_mm": 5.880222664324232
+    },
+    {
+      "event": "K562:BUD13:chr20_31022288_+",
+      "arm": "full",
+      "value": 0.005833148956298828,
+      "length_mm": 0.8255505162465964
+    },
+    {
+      "event": "K562:BUD13:chr20_31022288_+",
+      "arm": "sequence",
+      "value": 0.031479835510253906,
+      "length_mm": 3.544480897596082
+    },
+    {
+      "event": "K562:BUD13:chr20_31022288_+",
+      "arm": "flat",
+      "value": 0.015099048614501953,
+      "length_mm": 2.0005160944549742
+    },
+    {
+      "event": "K562:BUD13:chr20_31022288_+",
+      "arm": "perm",
+      "value": 0.01262505849202474,
+      "length_mm": 1.7087608040218816
+    },
+    {
+      "event": "K562:RBM15:chr20_31022288_+",
+      "arm": "full",
+      "value": 0.0573267936706543,
+      "length_mm": 5.0946975351108055
+    },
+    {
+      "event": "K562:RBM15:chr20_31022288_+",
+      "arm": "sequence",
+      "value": 0.03247976303100586,
+      "length_mm": 3.620560743541016
+    },
+    {
+      "event": "K562:RBM15:chr20_31022288_+",
+      "arm": "flat",
+      "value": 0.0509943962097168,
+      "length_mm": 4.779684999703132
+    },
+    {
+      "event": "K562:RBM15:chr20_31022288_+",
+      "arm": "perm",
+      "value": 0.04763921101888021,
+      "length_mm": 4.598710992759318
+    },
+    {
+      "event": "K562:ZNF622:chr20_31022288_+",
+      "arm": "full",
+      "value": 0.003947734832763672,
+      "length_mm": 0.562835533825694
+    },
+    {
+      "event": "K562:ZNF622:chr20_31022288_+",
+      "arm": "sequence",
+      "value": 0.03947257995605469,
+      "length_mm": 4.108850411623524
+    },
+    {
+      "event": "K562:ZNF622:chr20_31022288_+",
+      "arm": "flat",
+      "value": 0.021767616271972656,
+      "length_mm": 2.704764325494904
+    },
+    {
+      "event": "K562:ZNF622:chr20_31022288_+",
+      "arm": "perm",
+      "value": -0.018907705942789715,
+      "length_mm": 2.416970817169902
+    }
+  ],
+  "e_subprint_sign_rule": {
+    "threshold_mm": 0.3,
+    "rule": "nonzero and physical bar length below threshold, all 52 effects checked",
+    "marker_offset_from_zero_mm": 0.8,
+    "raw_bar_lengths_unchanged": true,
+    "markers": [
+      {
+        "event": "HepG2:AQR:chr9_111642331_-",
+        "variant": "chr9:108880051:C:T",
+        "arm": "perm",
+        "value": 0.0015320777893066406,
+        "bar_length_mm": 0.21961965039372214,
+        "marker": "right_hollow_triangle",
+        "zero_relative_offset_mm": 0.8,
+        "sign_only": true,
+        "marker_center_from_axis_left_mm": 7.950787713115674,
+        "marker_extent_inside_axis": true
+      },
+      {
+        "event": "HepG2:G3BP1:chr17_21215557_+",
+        "variant": "chr17:21312245:G:A",
+        "arm": "flat",
+        "value": -9.632110595703125e-05,
+        "bar_length_mm": 0.013820826058949704,
+        "marker": "left_hollow_triangle",
+        "zero_relative_offset_mm": -0.8,
+        "sign_only": true,
+        "marker_center_from_axis_left_mm": 6.3507877131156745,
+        "marker_extent_inside_axis": true
+      }
+    ],
+    "legend": "hollow left/right triangles: Sign only <0.3 mm"
+  },
+  "e_splits": {
+    "training": 11,
+    "validation": 2,
+    "strict_test": 0
+  },
+  "visual_review_note": "VISUAL_REVIEW_V34.md; actual full PNG and PDF raster inspected in two layout rounds",
+  "typography": {
+    "ordinary_pt": [
+      6.3,
+      6.5
+    ],
+    "panel_letter_pt": 9,
+    "axis_lw_pt": 0.45,
+    "baseline_lw_pt": [
+      0.4,
+      0.45
+    ],
+    "data_outline_lw_pt": [
+      0.65,
+      0.8
+    ],
+    "marker_diameter_pt": [
+      2.6,
+      3.2
+    ]
+  },
+  "user_approval_claimed": false,
+  "new_analysis": false,
+  "new_experiments": false,
+  "manuscript_changed": false,
+  "Overleaf_changed": false,
+  "exported_artifacts": {
+    "fig5_v34.pdf": "b5cfe11bd60e531e699618f97613bcd127f7d62e40877b24a053bb977a162cff",
+    "fig5_v34.svg": "f71b05488e587bf64ce185401da058bc9b480048d16bce0e6db79088a9530221",
+    "fig5_v34.png": "866414d3d5e649999c9060e30a872f80e5ada4e5271bd3288d23927a0fc9ed46"
+  }
+}

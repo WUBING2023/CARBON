@@ -26,9 +26,9 @@
   },
   "Figure5": {
     "pdf": "figures/fig5.pdf",
-    "pdf_sha256": "b8c0c0a4b287f920148185a0236d04ff7705785f8f1cece11e50157fd8a70af7",
-    "source_entry": "editable_figures/updated_fig5_v32/render_v32.py",
-    "source_sha256": "b11a1e9c89f8b5a6bc90f91cc00ee12b345583b8b466d2f53fd209866a866dda"
+    "pdf_sha256": "b5cfe11bd60e531e699618f97613bcd127f7d62e40877b24a053bb977a162cff",
+    "source_entry": "editable_figures/updated_fig5_v34/render_v34.py",
+    "source_sha256": "ca96587e3532a462d6bb8663a450b3377e4076e813dd534698b215f017918f24"
   },
   "FigureS9": {
     "pdf": "figures/figS9_conservation_complete.pdf",
