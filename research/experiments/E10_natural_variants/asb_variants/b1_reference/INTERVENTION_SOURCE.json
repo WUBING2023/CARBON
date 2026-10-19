@@ -1,0 +1,177 @@
+{
+  "QKI": {
+    "words": [
+      "UCAAC",
+      "CAUAC",
+      "CUACA",
+      "CUAAC"
+    ],
+    "anchor": "CUAAC",
+    "controls": [
+      "UCAAC",
+      "CAUAC",
+      "CUACA"
+    ],
+    "selected": "all three adjacent different-base exchange neighbors of frozen external anchor; no modelbenefit selection",
+    "n_native_contexts": 32,
+    "native_example_id": "QKI_HepG2_ENCSR570WLM|chr15|row4628",
+    "native_center_RNA": "UCUCU"
+  },
+  "HNRNPA1": {
+    "words": [
+      "UGAGG",
+      "UAGGG"
+    ],
+    "selected": "perprotein largest independent externalZ5 gap among frequencyopposed exactadjacent swaps; root chose HNRNPA1 (second-largest externalgap) for clear sequence illustration and paired twocell data; exploratory, not preregistered; highest SRSF7 retained in full25candidate table",
+    "n_native_contexts": 32,
+    "native_example_id": "HNRNPA1_HepG2_ENCSR769UEW|chr8|row4519",
+    "native_center_RNA": "UAGCG",
+    "tasks": [
+      "HNRNPA1_HepG2_ENCSR769UEW",
+      "HNRNPA1_K562_ENCSR154HRN"
+    ]
+  },
+  "shared": {
+    "center_zero_based": [
+      48,
+      53
+    ],
+    "center_one_based": [
+      49,
+      53
+    ],
+    "full_Phi_input_fixed_to_original_native_vector": true,
+    "Sequence_has_no_Phi_input": true,
+    "wordpair_equalcomposition_not_nativeequalcomposition": true,
+    "paired_delta": "subtract existing wordoutputs afterfloat64promotion; native baseline cancels; no refit/normalization/bootstrap",
+    "model_output_unit": "original delta_log_count; not affinity, raw count ratio or biological mutant response",
+    "32_contexts_not_biological_replication": true,
+    "sources": [
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\sequence_landscape_20261005\\direction_b\\display_packet.npz",
+        "sha256": "e9f40e6450ae9cf3e434565730c377b34372b31c2a59e602e879b31e73727009",
+        "bytes": 749531
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_inputs\\HNRNPA1_HepG2_ENCSR769UEW.npz",
+        "sha256": "d0a25d2741835ae6665e7e4402a525becddb2ab07d266a7bd9a05f8547c34367",
+        "bytes": 575847
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_HepG2_ENCSR769UEW\\full\\responses.npz",
+        "sha256": "6cc817b978348b98b2d415201150146829040ff67197f5c68b8e047fe82fff0d",
+        "bytes": 67664
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_HepG2_ENCSR769UEW\\full\\summary.json",
+        "sha256": "54b126bb41e666b3bf673c2888756e2b634b241b042c1e19c72fd106720bbae5",
+        "bytes": 1025
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_HepG2_ENCSR769UEW\\sequence\\responses.npz",
+        "sha256": "db508ccaad07e1bb98b8c149600a4707b27aef77e309793e9c1a9f08f92c6c56",
+        "bytes": 63499
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_HepG2_ENCSR769UEW\\sequence\\summary.json",
+        "sha256": "cb0b60c0de8f98d521b626bca2157f45fd519c6094eeee7534dd45d7dec40145",
+        "bytes": 1036
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_inputs\\HNRNPA1_K562_ENCSR154HRN.npz",
+        "sha256": "452bf1df9464cd8384eeb70466d14b793019618ccfcda217993185f4351759c0",
+        "bytes": 575114
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_K562_ENCSR154HRN\\full\\responses.npz",
+        "sha256": "bd7db0dbb223bddff1c758b5a32cd79fc3392923c2e669e2df1f55dade7f6bce",
+        "bytes": 67440
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_K562_ENCSR154HRN\\full\\summary.json",
+        "sha256": "55d03f234b60c95c1d14361d2da35329fbd3d011547bad95457e149ed395c678",
+        "bytes": 1022
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_K562_ENCSR154HRN\\sequence\\responses.npz",
+        "sha256": "02397096e03c3a5d5e084b65218c0fe933f623bd64269bbf41d727c50d4e337e",
+        "bytes": 62039
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_K562_ENCSR154HRN\\sequence\\summary.json",
+        "sha256": "6099fdc4b9d30505b1dfc00c446a7310680e0969d0bed8f3fc9038e5e05f50e0",
+        "bytes": 1034
+      }
+    ],
+    "displayed_edits": [
+      {
+        "protein": "QKI",
+        "low_word": "UCAAC",
+        "high_word": "CUAAC",
+        "independent_delta_Z5": 2.1106776861645873,
+        "native_frequency_delta": 165.5,
+        "full_mean_delta_log_count": 0.29444901645183563,
+        "full_median_delta_log_count": 0.2303938865661621,
+        "full_positive_context_count": 32,
+        "full_minimum": 0.012829780578613281,
+        "full_maximum": 1.1001770496368408,
+        "sequence_mean_delta_log_count": 0.28010393679142,
+        "sequence_median_delta_log_count": 0.21110773086547852,
+        "sequence_positive_context_count": 32,
+        "sequence_minimum": 0.020717382431030273,
+        "sequence_maximum": 0.9198136329650879
+      },
+      {
+        "protein": "QKI",
+        "low_word": "CAUAC",
+        "high_word": "CUAAC",
+        "independent_delta_Z5": 2.152488872819712,
+        "native_frequency_delta": 156.5,
+        "full_mean_delta_log_count": 0.2677321955561638,
+        "full_median_delta_log_count": 0.2030320167541504,
+        "full_positive_context_count": 32,
+        "full_minimum": 0.01255178451538086,
+        "full_maximum": 1.0445780754089355,
+        "sequence_mean_delta_log_count": 0.273407906293869,
+        "sequence_median_delta_log_count": 0.20694375038146973,
+        "sequence_positive_context_count": 31,
+        "sequence_minimum": -0.05613446235656738,
+        "sequence_maximum": 0.9177582263946533
+      },
+      {
+        "protein": "QKI",
+        "low_word": "CUACA",
+        "high_word": "CUAAC",
+        "independent_delta_Z5": 2.0613439847555894,
+        "native_frequency_delta": 154.5,
+        "full_mean_delta_log_count": 0.2894543632864952,
+        "full_median_delta_log_count": 0.23053741455078125,
+        "full_positive_context_count": 32,
+        "full_minimum": 0.02674555778503418,
+        "full_maximum": 1.044990062713623,
+        "sequence_mean_delta_log_count": 0.2886628359556198,
+        "sequence_median_delta_log_count": 0.2374798059463501,
+        "sequence_positive_context_count": 31,
+        "sequence_minimum": -0.06603288650512695,
+        "sequence_maximum": 1.002938985824585
+      },
+      {
+        "protein": "HNRNPA1",
+        "low_word": "UGAGG",
+        "high_word": "UAGGG",
+        "independent_delta_Z5": 5.050396285037319,
+        "native_frequency_delta": -101.0,
+        "full_mean_delta_log_count": 0.041782207787036896,
+        "full_median_delta_log_count": 0.03493475914001465,
+        "full_positive_context_count": 27,
+        "full_minimum": -0.029744863510131836,
+        "full_maximum": 0.20673584938049316,
+        "sequence_mean_delta_log_count": 0.0362979993224144,
+        "sequence_median_delta_log_count": 0.04172825813293457,
+        "sequence_positive_context_count": 24,
+        "sequence_minimum": -0.045686960220336914,
+        "sequence_maximum": 0.15180277824401855
+      }
+    ]
+  }
+}

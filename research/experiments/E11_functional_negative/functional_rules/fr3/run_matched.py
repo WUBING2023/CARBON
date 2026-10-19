@@ -1,0 +1,8 @@
+from pathlib import Path
+import subprocess,json,base64,shlex,time
+R=Path(__file__).resolve().parent;rem='/data/CARBON_PROJECT/supervised_expansion_20261004/03_functional_rules/fr3';py='/data/CARBON_PROJECT/消融实验/全量消融运行/venv/bin/python3'
+files={'INPUTS_MATCHED.npz':R/'INPUTS_MATCHED.npz','PROTOCOL_FR3.md':R.parent/'PROTOCOL_FR3.md','remote_fr3.py':R/'remote_fr3.py'};payload=json.dumps({k:base64.b64encode(p.read_bytes()).decode() for k,p in files.items()}).encode()
+boot="import sys,json,base64,pathlib,subprocess,os; r=pathlib.Path("+repr(rem)+"); r.mkdir(parents=True,exist_ok=True); d=json.load(sys.stdin); [(r/k).write_bytes(base64.b64decode(v)) for k,v in d.items()]; os.environ['PYTHONDONTWRITEBYTECODE']='1'; os.environ['OMP_NUM_THREADS']='4'; os.environ['OPENBLAS_NUM_THREADS']='4'; sys.exit(subprocess.call(["+repr(py)+",str(r/'remote_fr3.py')]))"
+cmd=['C:/Windows/System32/OpenSSH/ssh.exe','-F','/data/USER_HOME/.ssh/config','-o','BatchMode=yes','-o','ConnectTimeout=15','server15',shlex.join([py,'-c',boot])];start=time.time();p=subprocess.Popen(cmd,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=(R/'MATCHED_PROGRESS.jsonl').open('wb'));out,_=p.communicate(payload)
+if p.returncode:raise RuntimeError((R/'MATCHED_PROGRESS.jsonl').read_text('utf8'))
+d=json.loads(out);(R/'PREDICTIONS_MATCHED.npz').write_bytes(base64.b64decode(d['arrays_base64']));(R/'RESULT_MATCHED.json').write_text(json.dumps(d['result'],indent=2),encoding='utf8');print(json.dumps({'local_wall_seconds':time.time()-start,**{k:d['result'][k] for k in ['wall_seconds','count_forward_queries','IG_gradient_evaluations','predictions_sha256']}}))

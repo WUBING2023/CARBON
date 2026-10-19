@@ -1,0 +1,32 @@
+{
+  "version": "v29",
+  "baseline": "v28",
+  "A_pixel_identical": true,
+  "changed_panels": [
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "all_2028_numeric_records_identical": true,
+  "frozen_files_identical": 39,
+  "C_control_count": 7,
+  "C_author_reporter_values": 6,
+  "D_events": 396,
+  "E_sites": 8,
+  "E_events": 13,
+  "E_effects": 52,
+  "exact_site_index_matches_frozen_source": true,
+  "Sequence_complete_control_byte_identical": true,
+  "native_mm": [
+    178,
+    184
+  ],
+  "review_packet_pages": 4,
+  "main_and_CDE_all_text_bboxes_within_page": true,
+  "visual_check": "Actual main, B enlargement, CDE enlargement and site-index PDF renders inspected.",
+  "independent_review": "review/INDEPENDENT_REVIEW.md",
+  "formal_main_unchanged": true,
+  "Overleaf_changed": false,
+  "new_experiments": false
+}

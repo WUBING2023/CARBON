@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-04T11:43:55.414221+00:00",
+  "repair": "sha helper now accepts saved string paths; after all result CSV computed, final provenance check failed before first successful completion. No scientific endpoint or source modified. Original freeze retained.",
+  "original_code_sha256": "8bdb4a84a97a324c1ee1fca563483523572498e38054da8539a81a958f825377",
+  "current_code_sha256": "820b5f9b6f0668ef62f391bbe11498d01d22e4c9eba1ffef492f9fe0cdb4360e"
+}

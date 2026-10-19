@@ -1,0 +1,22 @@
+{
+  "task": "PTBP1_HepG2_ENCSR384KAN",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr8_5ch.h5",
+      "bytes": 2961451,
+      "n_windows": 6566,
+      "sha256": "ddbb10b5709f802d4bc70d93849f0ae238c45aef4c85fe241b20dfdf9bb5bc98"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr15_5ch.h5",
+      "bytes": 1710135,
+      "n_windows": 3727,
+      "sha256": "c216af3fb4fe0c82cdd09445fbfacece74efbc97f723b7a39ef2399ffe71c579"
+    }
+  ],
+  "n_total": 10293,
+  "n_eligible": 10293,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "7b9599ee17cbd3a0a6b863cfaea9cd58581a3a6f93a84d76825bb1422357b999"
+}

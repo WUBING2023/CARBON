@@ -1,0 +1,34 @@
+[
+  {
+    "name": "encode_metadata",
+    "status": 200,
+    "url": "https://www.encodeproject.org/search/?type=Experiment&assay_title=RNA+Bind-n-Seq&limit=all&format=json",
+    "bytes": 339478,
+    "type": "application/json",
+    "first": "{\"@context\":\"/terms/\",\"@graph\":[{\"@id\": \"/experiments/ENCSR570AIV/\", \"@type\": [\""
+  },
+  {
+    "name": "rnacompete_old_http",
+    "status": 404,
+    "url": "https://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya/",
+    "bytes": 289,
+    "type": "text/html; charset=iso-8859-1",
+    "first": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not F"
+  },
+  {
+    "name": "rnacompete_datah",
+    "status": 404,
+    "url": "https://datah.ccbr.utoronto.ca/RNAcompete_eukarya/",
+    "bytes": 196,
+    "type": "text/html; charset=iso-8859-1",
+    "first": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not F"
+  },
+  {
+    "name": "rbpzoo_datah",
+    "status": 404,
+    "url": "https://datah.ccbr.utoronto.ca/RBPZoo/",
+    "bytes": 196,
+    "type": "text/html; charset=iso-8859-1",
+    "first": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not F"
+  }
+]

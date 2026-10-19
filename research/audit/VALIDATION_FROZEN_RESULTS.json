@@ -1,0 +1,117 @@
+{
+  "ablations": {
+    "rows": 1110,
+    "tasks": 222,
+    "paired_metric_comparisons": 13320,
+    "maximum_absolute_error": 9.71445146547012e-17,
+    "runs": 1332,
+    "summaries": [
+      {
+        "arm": "no_combined_loss",
+        "n_tasks": 222,
+        "mean_delta_spearman": -0.012973238603231504,
+        "spearman_decreased": 216,
+        "mean_delta_pcc": 0.013286603884206655,
+        "pcc_decreased": 140
+      },
+      {
+        "arm": "no_conservative",
+        "n_tasks": 222,
+        "mean_delta_spearman": -0.023449478909620756,
+        "spearman_decreased": 219,
+        "mean_delta_pcc": -0.022716911455600786,
+        "pcc_decreased": 213
+      },
+      {
+        "arm": "no_gru",
+        "n_tasks": 222,
+        "mean_delta_spearman": -0.10641631335088053,
+        "spearman_decreased": 222,
+        "mean_delta_pcc": -0.0859166715334685,
+        "pcc_decreased": 221
+      },
+      {
+        "arm": "no_multiscale",
+        "n_tasks": 222,
+        "mean_delta_spearman": -0.0016381602338917378,
+        "spearman_decreased": 171,
+        "mean_delta_pcc": -0.0014789356311143416,
+        "pcc_decreased": 150
+      },
+      {
+        "arm": "no_se",
+        "n_tasks": 222,
+        "mean_delta_spearman": -0.0011830533964822568,
+        "spearman_decreased": 177,
+        "mean_delta_pcc": -0.001487410472746911,
+        "pcc_decreased": 158
+      }
+    ],
+    "scope": "Saved original per-run metrics versus paper paired table; not rerunning training or metric extraction from raw signal."
+  },
+  "benchmark_availability": {
+    "tasks": 222,
+    "weight_counts": {
+      "CARBON": 221,
+      "iDeepB": 219,
+      "RBPNet": 222
+    },
+    "scope": "Canonical archived weight identities, not bundled files or a fair benchmark rerun."
+  },
+  "allocation": {
+    "pairs": 1851,
+    "genes": 659,
+    "cell_gene_units": 865,
+    "maximum_q_error": 4.970468481246826e-13,
+    "maximum_loss_error": 2.40346631485977e-12,
+    "cell_equal_gene_mse": {
+      "aligned_ensemble": 0.07988401765423672,
+      "nogru_ensemble": 0.11511577475861987,
+      "nogru_position_capacity_ensemble": 0.11208403931653693
+    },
+    "full_vs_local_pos_relative_reduction_percent": 28.728462909303275,
+    "scope": "Reconstructed input-adjusted targets, prediction shares, pair losses and gene/cell aggregation from complete saved pair table; not fresh neural inference or bootstrap CI rerun."
+  },
+  "external_preferences": {
+    "proteins": 25,
+    "words": 1024,
+    "same_composition_pairs": 15240,
+    "task_arm_assay_checks": 180,
+    "maximum_metric_error": 0.0,
+    "recomputed_protein_equal_means": {
+      "full": {
+        "spearman_all5mer": 0.257443092667335,
+        "within_composition_concordance": 0.5662152230971129
+      },
+      "sequence": {
+        "spearman_all5mer": 0.2693080468102679,
+        "within_composition_concordance": 0.5731019247594051
+      },
+      "frequency": {
+        "spearman_all5mer": 0.1112560722241781,
+        "within_composition_concordance": 0.5284063867016623
+      }
+    },
+    "full_minus_frequency_spearman": 0.1461870204431569,
+    "full_minus_sequence_concordance_pp": -0.6886701662292216,
+    "scope": "All full/sequence/frequency 5mer tables versus external assay values; ties exact, assay then cell then protein aggregation. Does not regenerate RNAcompete7→5 mapping or run neural predictions."
+  },
+  "disease_subset": {
+    "events": 13,
+    "variants": 8,
+    "full_matches": 7.0,
+    "sequence_matches": 10.0,
+    "split_counts": {
+      "training": 11,
+      "validation": 2
+    },
+    "scope": "Complete saved clinical/tumor subset; preserves unfavorable Full7/13 vs Sequence10/13. Annotation is not independent functional validation."
+  },
+  "check_status": "PASS",
+  "failed_checks": [],
+  "not_established": [
+    "No forensic certification that every original measurement is authentic.",
+    "No fresh training/inference, no unified three-model benchmark, no new biological validation.",
+    "Raw sequencing/reference data not fully content-hashed; server metadata is indexed."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "frozen_utc": "2026-10-03T07:24:37.968218+00:00",
+  "model_outputs_queried": false,
+  "source_sha256": "4778405fec57568f084a287af251bc95d85c0dbae453b5bef5f06be5239440c8",
+  "prior_inventory_sha256": "26dce3cdd5ac834be604f1e136a8bf042f2e57397dc0d983d95a360cc486928c",
+  "reference_metadata": {
+    "fasta_path": "/data/CARBON_PROJECT/数据处理/gencodeV29/GRCh38.p12.genome.fa",
+    "fasta_size": 3306428199,
+    "fasta_fai_sha256": "4f647148c0c13dd701073830aee3fc65be896886ea1a747ef92177d5f6abc219",
+    "annotation_path": "/data/CARBON_PROJECT/数据处理/gencodeV29/gencode.v29.annotation.gff3",
+    "annotation_sha256": "bc214fa8f186adee9123ebb8d94ddd3e973c83c0fa07d5620536246b40e42388",
+    "phylop_path": "/data/CARBON_PROJECT/数据/phyloP/hg38.phyloP100way.bw",
+    "phylop_size": 9870053206
+  },
+  "generic_npz_contract": {
+    "blocks": [
+      "101"
+    ],
+    "X": "X_101",
+    "tasks": "tasks_101",
+    "permutation_groups": "permutation_groups_101",
+    "allele_order": "each included event major thenminor",
+    "pair_orientation": "expected major_counthead minus minor_counthead >0",
+    "variant_index0": 50,
+    "window_length": 101
+  },
+  "files": [
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\INPUTS.npz",
+      "sha256": "b2def142493a2ead41de63eb5303a5ad169cfcecab2151f5db505eb42cba82bc",
+      "bytes": 3683260
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\EVENTS_INCLUDED.json",
+      "sha256": "d5901d15bc86d7113e8cff2cd5ca12ebf23a9e3e9950c53f401389d08ef58d52",
+      "bytes": 56755641
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\EVENTS_INCLUDED.csv",
+      "sha256": "b60dbf320877ec44c2f7498f008d1a6030ab8d0addba9f08d1f537bb4f2e7dc9",
+      "bytes": 2573468
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\VERIFIED_MODELS.json",
+      "sha256": "4b50bb9c8df17c138e5a190a1bee71c1ba2acbb526d8f7bee5f7ddc8a785b223",
+      "bytes": 247263
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\MODELS_FOR_INCLUDED_TASKS.json",
+      "sha256": "cda57b6212b7cad96654e3d68f7c211f427c079ab93b5afae3c9e0e4c60f6335",
+      "bytes": 244829
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\QUALIFICATION_ALL7489.csv",
+      "sha256": "df7083089f59073293af2cb607c9f8763d844596930d09387c9a5b04e7407090",
+      "bytes": 2647438
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\TASK_SUMMARY.csv",
+      "sha256": "08f7bf2096a92db79b20496532993aea66873279ea441cdb5dbd949629ffff92",
+      "bytes": 9727
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\SUMMARY.json",
+      "sha256": "0cc097f05e855c53dec4f26c7f004d6e4018376c27050085c557ae992928b699",
+      "bytes": 1358
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\INPUT_PREPARATION_QA.json",
+      "sha256": "c6d5fe1ed07a4aee87fb0ceeda960ab7249cb98467995eeaf2f6801219b1183d",
+      "bytes": 2063482
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\SOURCE_LIFTOVER_REQUEST.json",
+      "sha256": "99177244cb15f86c7df5e85d4066b581284b2c5b802ff7299f14eb79d0a91c5e",
+      "bytes": 8706070
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\REFERENCE_ALL_EVENTS.json",
+      "sha256": "ac755bdc6362ca3ac50d07a1aa391347944ee14c4c5d295056105b730089ba81",
+      "bytes": 57151279
+    }
+  ],
+  "scripts": [
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\prepare_source_and_liftover.py",
+      "sha256": "af82dd96c805764704ec8648ecb89ea71576f8ba25555e981f19e068a641f3a3"
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\remote_reference_and_hashes.py",
+      "sha256": "906895b16935ed207eb40685e895304a1aad356fb81dbb943eca686b3c550306"
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\run_prepare_reference.py",
+      "sha256": "5532afc7970e170b0fa6955fd94476e9ec812db5ba45ecadb3846c0e2ac51385"
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\package_inputs.py",
+      "sha256": "807db2f3e8a5eb29e828f3819e8a8ca84ab7b74b80c466149218378c2aff7d21"
+    }
+  ]
+}

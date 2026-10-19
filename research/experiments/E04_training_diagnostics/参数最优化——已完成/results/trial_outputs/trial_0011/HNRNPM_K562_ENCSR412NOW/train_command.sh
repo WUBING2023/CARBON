@@ -1,0 +1,24 @@
+#!/bin/bash
+python3 -u /data/CARBON_PROJECT/MARCP/marcp_train.py \
+  --CUDA 2 \
+  --task HNRNPM_K562_ENCSR412NOW \
+  -train /data/CARBON_PROJECT/数据/h5data/HNRNPM_K562_ENCSR412NOW/_5ch/HNRNPM_K562_ENCSR412NOW_chr1_5ch.h5 \
+  -validation /data/CARBON_PROJECT/数据/h5data/HNRNPM_K562_ENCSR412NOW/_5ch/HNRNPM_K562_ENCSR412NOW_chr2_5ch.h5 \
+  -test /data/CARBON_PROJECT/数据/h5data/HNRNPM_K562_ENCSR412NOW/_5ch/HNRNPM_K562_ENCSR412NOW_chr3_5ch.h5 \
+  --output /data/CARBON_PROJECT/参数最优化/results/trial_outputs/trial_0011/HNRNPM_K562_ENCSR412NOW \
+  --epochs 100 \
+  --input_channels 5 \
+  --encode OneHot \
+  --modelFramework Treat \
+  --lossM CombinedProfileLoss \
+  --signalMax 0 \
+  --seqLength 101 \
+  --loss_scale 1.0 \
+  --lr 0.000179682 \
+  --bsz 256 \
+  --weight_decay 0.0042509 \
+  --alpha 1.29498 \
+  --beta 0.142362 \
+  --gamma 0.681307 \
+  --grad_clip 0.5 \
+  --max_stopping_step 6

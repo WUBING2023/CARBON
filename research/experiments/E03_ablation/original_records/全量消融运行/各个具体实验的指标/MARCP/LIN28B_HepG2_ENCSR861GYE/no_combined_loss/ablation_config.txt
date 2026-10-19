@@ -1,0 +1,7 @@
+ablation_subdir	no_combined_loss
+ablation_no_se	0
+ablation_no_multiscale	0
+ablation_no_gru	0
+ablation_no_combined_loss	1
+ablation_no_conservative	0
+ablation_baseline_loss	poissonLoss

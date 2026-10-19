@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "complete_exact_keys": 4669,
+  "matches": 520,
+  "missing": 4149,
+  "canonical_direct_PLP_matches": 3,
+  "clinical_inference_executed": false,
+  "snapshot_MD5_verified": true,
+  "output_sha256": {
+    "ALL3_PLP_DIRECT_VERIFICATION.csv": "83e45376e31dba00f1641543911d50a2108b0bfadd67b2f97b4a5f37fa4375c5",
+    "ALL4669_EXACT_CLINVAR_ANNOTATIONS.csv": "fdec317ff4f742e3d968121bd07108be77379e4e88541d1540db403c1800661c",
+    "BENIGN_SPLICE_UTR_CONTEXT_GENE_CONTROLS_ALL.csv": "360e6a171667c335a4f3b754e758fdb158eb8273f0ed48b8e687ea79686950c2",
+    "EXACT_CLINVAR_MATCHES.csv": "a461dbaa371228b5a11a7306ce438a58335d92f6387ced9a0df47d126d64cc28",
+    "PLP_SPLICE_UTR_CONTEXT_GENE_CANDIDATES_ALL.csv": "cfc9f177b83a1941f1d701862975a81675bd814aa4b43b814a33e3a4bc2e3c02",
+    "PLP_WITHIN_EXISTING101_CANDIDATES_ALL.csv": "9af777ef3fdd7bb20858c4df1f42049be3a48e6ece6ff69ef4bc4d4c4866676f"
+  }
+}

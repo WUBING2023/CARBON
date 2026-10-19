@@ -1,0 +1,12 @@
+{
+  "n_selected": 2048,
+  "n_clusters": 385,
+  "n_gene_mapped": 2048,
+  "largest_cluster": 76,
+  "cluster_rule": "union selected intervals sharing any overlapping Gencode v29 gene body, plus overlapping genomic intervals; ignore strand conservatively; shared across cell contexts",
+  "reference_gff3": "/data/CARBON_PROJECT/\u6570\u636e\u5904\u7406/gencodeV29/gencode.v29.annotation.gff3",
+  "gff3_sha256": "bc214fa8f186adee9123ebb8d94ddd3e973c83c0fa07d5620536246b40e42388",
+  "coordinate_zero_based_half_open": true,
+  "all_2048_sequences_checked": true,
+  "not_independent_protein_replication": true
+}

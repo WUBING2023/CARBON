@@ -1,0 +1,225 @@
+{
+  "utc": "2026-10-04T12:16:53.688498+00:00",
+  "wall_seconds": 121.69685339927673,
+  "queries": 233712,
+  "n_source_windows": 19490,
+  "native_valid_windows": 19476,
+  "native_excluded_events": 7,
+  "device": "CPU",
+  "threads": 4,
+  "models": [
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "arm": "aligned",
+      "seed": 11,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_K562_ENCSR981WKN/seed11/aligned/best.pth",
+      "sha256": "802bd28fe9553d694c0988e8957a4058db700aef301cec726b2fb2bd46da501e",
+      "run_sha256": "a2a99cf7ff2667b5afbf2a07a730b1745db7a47c65414f35b55171e585718066"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "arm": "sequence_only",
+      "seed": 11,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_K562_ENCSR981WKN/seed11/sequence_only/best.pth",
+      "sha256": "c7254592d6d6372ed79f8ae44cdac8fdafecbb8fb0b925852220ed5036761597",
+      "run_sha256": "c05744ec427f3ac94ff1f6a79ea27fa4b668d0d9add49ccac1c9a9a365732159"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "arm": "mean",
+      "seed": 11,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_K562_ENCSR981WKN/seed11/mean/best.pth",
+      "sha256": "19c89b937dc8501015201dd7c2ecf87464bb077245b2aaeb1b75624cadace981",
+      "run_sha256": "2579f7baabdd850f226a4e995b12d2a757f707e65e9b7896b9ef2d9a5d9ee3f6"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "arm": "permuted",
+      "seed": 11,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_K562_ENCSR981WKN/seed11/permuted/best.pth",
+      "sha256": "3e3319ef7fc36046786e67501754a54498af80d2b62de7cbdc7494aab738b3c5",
+      "run_sha256": "9586036b149162d57d9a505e68ab27ff09d3b85fd0e84b373b15e5f2cdfd72fa"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "arm": "aligned",
+      "seed": 23,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_K562_ENCSR981WKN/seed23/aligned/best.pth",
+      "sha256": "0e0eb2d4b7c3706c51e1fe1db5d292cddf6a15e45def5f66be3cb861dcd1e4b3",
+      "run_sha256": "23374084de2d447e3960542c711ea9bccb324f751a45df14bbb278a8485f8eca"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "arm": "sequence_only",
+      "seed": 23,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_K562_ENCSR981WKN/seed23/sequence_only/best.pth",
+      "sha256": "f993d3d66594296681c9454fb7c11f9a350026e34e35a96270c8729676b34b77",
+      "run_sha256": "5ad094c9056b30f1deaa13e4eab72bd05d086c720e156aa38b0da81c992af7ce"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "arm": "mean",
+      "seed": 23,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_K562_ENCSR981WKN/seed23/mean/best.pth",
+      "sha256": "03d70403028b8085278750a741053cd6b582852129c0537a4b076a81de8ab59f",
+      "run_sha256": "bfddb7d89f74ad1969742d56e8ef22593a117710d14928a9c2e8e618c2cbddc7"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "arm": "permuted",
+      "seed": 23,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_K562_ENCSR981WKN/seed23/permuted/best.pth",
+      "sha256": "de476a9ea3e4f9af2bedcce5bfdd5647fe931abe4930ca6f8a28839d6337d0f7",
+      "run_sha256": "a95cdb7beafbae8e12ee94131e2a9e15fefb998f7607ae5857a08c0bab0b7b4e"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "arm": "aligned",
+      "seed": 47,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_K562_ENCSR981WKN/seed47/aligned/best.pth",
+      "sha256": "fa633943f5b1012a050dcc9c1a14edfa5cda22b8e3f7bac1bd6dd115a93f32e0",
+      "run_sha256": "6c5421ebbf41a822c556b5a2ca740a6f396fe2817002f6e0a00de027117ce67a"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "arm": "sequence_only",
+      "seed": 47,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_K562_ENCSR981WKN/seed47/sequence_only/best.pth",
+      "sha256": "25748bb459f0a2f2acb2baba3fa4bd73e31b4443090226e4c57b1bd90c30952c",
+      "run_sha256": "25e9c8fb018eaff40f30ce5f8ccbf6a969e49db5ebfba42fc8636e86858c6d94"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "arm": "mean",
+      "seed": 47,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_K562_ENCSR981WKN/seed47/mean/best.pth",
+      "sha256": "93f2f8efc3f862c22b854b1b24643d79b2381b00e362b98ec031733da0668e0c",
+      "run_sha256": "92b2cbc9b83beb0a1713cd6102c9b0e3602f4905c9f1971529110cbc265f2f73"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "arm": "permuted",
+      "seed": 47,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_K562_ENCSR981WKN/seed47/permuted/best.pth",
+      "sha256": "7d6306c7e30e7d9dbc879c519b15cc943c81352f6b4731f731cd77e23922500b",
+      "run_sha256": "0ed805cf3a33967f8feb862a2f4372d62b22bd0b4315b5b92bd44c5f5f1ec76e"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "arm": "aligned",
+      "seed": 11,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_HepG2_ENCSR384KAN/seed11/aligned/best.pth",
+      "sha256": "de366b7347b39572f234601c82bdc81141b2bc5feba665df09f94bd878e240ed",
+      "run_sha256": "7f19ab697f985046fa2a99afde821c92466370e1100fe2395404b008a18e0891"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "arm": "sequence_only",
+      "seed": 11,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_HepG2_ENCSR384KAN/seed11/sequence_only/best.pth",
+      "sha256": "a553f8d2bff3dc1b53e7e0faae6e9cc2d843bb495713bcc1c2ea001959dbfbf2",
+      "run_sha256": "68311555d764040afdb4fa03a7651c0cf8cab9a14ef54eb0a47c4e61b4b5e950"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "arm": "mean",
+      "seed": 11,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_HepG2_ENCSR384KAN/seed11/mean/best.pth",
+      "sha256": "64fd3628ab078a316b784e8cb15180eb6ed308bf2a826f8b57c02b753900ea3a",
+      "run_sha256": "968c424249c9dd07458e09b6347640fa61623326dcf817d606d69bd1d882731b"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "arm": "permuted",
+      "seed": 11,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_HepG2_ENCSR384KAN/seed11/permuted/best.pth",
+      "sha256": "307669e0f5dc9c145b5b48ee9a4b59c88848dbabe4ca52f16ce2f166cadd16af",
+      "run_sha256": "d1b680eb195047752a8cdd46a0944d0677b2272a9476d43e070d71718c16dc35"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "arm": "aligned",
+      "seed": 23,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_HepG2_ENCSR384KAN/seed23/aligned/best.pth",
+      "sha256": "bc7c56a4d15a8748bc3f6f8aae3da36fe326d7d319b1f0a6a25c5c6ee563b610",
+      "run_sha256": "9ed9cf4db835aedf5fde71a38d325b9cbe2f9da18a06a969d896ffdac308f9e0"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "arm": "sequence_only",
+      "seed": 23,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_HepG2_ENCSR384KAN/seed23/sequence_only/best.pth",
+      "sha256": "953d479b6f4b1fc33679427cd13909956347e102650b3b1f02a2a44c52079d02",
+      "run_sha256": "4956c176953e90c078feb9319f8f480847261efb799291d4383cdd48ba3a673e"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "arm": "mean",
+      "seed": 23,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_HepG2_ENCSR384KAN/seed23/mean/best.pth",
+      "sha256": "06c4a6b1656789142f3c33552ae6df36bd1143f3a602844f7eafc3fb1ba7e95f",
+      "run_sha256": "d9bc863a21586049073a4b553991a1771f19fd5cee373ba8a915d2acce63878f"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "arm": "permuted",
+      "seed": 23,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_HepG2_ENCSR384KAN/seed23/permuted/best.pth",
+      "sha256": "170f2f61f950bd7832b9fe21b8df6a5ba0b3b3c36174407480c2da1515b0b947",
+      "run_sha256": "3b6c18b766137da20b0281f298f352373d2254ba5e9359e08cf222989d0290dd"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "arm": "aligned",
+      "seed": 47,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_HepG2_ENCSR384KAN/seed47/aligned/best.pth",
+      "sha256": "c7776f6cb1ca34c1af6bafa3aac23569d10ff68882b97747731a9c5b80420e30",
+      "run_sha256": "ad230f4a38e638fbf42864357ddb8e1c69ce654ce369d5574f7175f82b1e8f05"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "arm": "sequence_only",
+      "seed": 47,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_HepG2_ENCSR384KAN/seed47/sequence_only/best.pth",
+      "sha256": "2ef51bd09956fa3680c74065e9b0cbe24ddcbfd7b1440020ceb049299a7aa029",
+      "run_sha256": "72a63630daa61c62b299da9b0b2ff45ac5f435318ecdf33232e20e3e9cc2f267"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "arm": "mean",
+      "seed": 47,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_HepG2_ENCSR384KAN/seed47/mean/best.pth",
+      "sha256": "9d0f959cc4478c4a068a12a13afe381fd47ce7d0c1119d5dd3982394258e0bda",
+      "run_sha256": "c460504d55d102feb28cf535f56a258ccc6a11f30be97a915249701bb76fc63e"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "arm": "permuted",
+      "seed": 47,
+      "path": "/data/CARBON_PROJECT/conservation_upgrade_20260929_matched/outputs/PTBP1_HepG2_ENCSR384KAN/seed47/permuted/best.pth",
+      "sha256": "7040de9d56cab11ad3b67eecaceb1e25229f878bec3ceba53cccb0b92722c6c1",
+      "run_sha256": "389e663ada427a5b57738abbd826665633bc598fa4b9b2bdf345f6e6647d5dc8"
+    }
+  ],
+  "input_sha256": "e3dcb90d1bb97ba239cc642da98ae028cd3ce9984f0277892799949eeff5ec39",
+  "windows_sha256": "5ab0796570b3c4bcd2c9a15fc3fc489a6f412ff3235f6c34361a4080c375c096",
+  "protocol_sha256": "1ce686c3c26724ebfbe1f7d964d922d284b4621f73e0c3fed52ae6e4e2a0b016",
+  "addendum_sha256": "4b7ed0c729adf1672be88c4e3f6d5435c4290391aa619df224f1fa5e67d0612d",
+  "prediction_sha256": "e1f558a3e59564ce82bec711955b8a6ca1f0c80f00823d28dcc66e33fe61a832",
+  "script_sha256": "0ec88d4848c329408fd319176127bf1ba7b97853d23bf924d078f08f32d5b8a9",
+  "native_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e\u5904\u7406/gencodeV29/GRCh38.p12.genome.fa",
+      "bytes": 3306428199,
+      "mtime_ns": 1538152149000000000
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/phyloP/hg38.phyloP100way.bw",
+      "bytes": 9870053206,
+      "mtime_ns": 1771625625000000000
+    }
+  ],
+  "minus_strand_sequence_and_Phi_reversed_together": true,
+  "permutation_identity": "sha256(task|FR4|chrom|accession|original_source_row|side) first8 little-endian seed, PCG64, fixed acrossseed/arms",
+  "quantity": "native log_total_count; ensemble mean log output; no profile normalization used"
+}

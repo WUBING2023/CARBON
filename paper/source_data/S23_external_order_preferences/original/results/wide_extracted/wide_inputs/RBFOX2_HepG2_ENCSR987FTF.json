@@ -1,0 +1,22 @@
+{
+  "task": "RBFOX2_HepG2_ENCSR987FTF",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr8_5ch.h5",
+      "bytes": 8437462,
+      "n_windows": 19527,
+      "sha256": "554cea6f172942e0348c82343fcb7ea58c1f922b71d1eace0ec85299fd204673"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr15_5ch.h5",
+      "bytes": 5254512,
+      "n_windows": 11761,
+      "sha256": "8ca8a39c5cdd00e5b919728293a0fb0e39ee8702e49d93808cf0b0854cda455f"
+    }
+  ],
+  "n_total": 31288,
+  "n_eligible": 31288,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "bded78167d0c8ecf91471044cb037c09093868d1e713620a9fd6e380db7e90d2"
+}

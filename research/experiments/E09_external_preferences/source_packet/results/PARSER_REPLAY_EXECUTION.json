@@ -1,0 +1,38 @@
+[
+  {
+    "script": "evaluate_controlled.py",
+    "exit_code": 0,
+    "seconds": 15.177367399999639,
+    "no_model_inference": true
+  },
+  {
+    "script": "cross_assay.py",
+    "exit_code": 0,
+    "seconds": 6.819305299999542,
+    "no_model_inference": true
+  },
+  {
+    "script": "mapping_sensitivity.py",
+    "exit_code": 0,
+    "seconds": 7.477674699999625,
+    "no_model_inference": true
+  },
+  {
+    "script": "evaluate_nogru_external.py",
+    "exit_code": 0,
+    "seconds": 1.6606247999952757,
+    "no_model_inference": true
+  },
+  {
+    "script": "evaluate_hnr_component.py",
+    "exit_code": 0,
+    "seconds": 1.7412221000049612,
+    "no_model_inference": true
+  },
+  {
+    "script": "frequency_comparisons.py",
+    "exit_code": 0,
+    "seconds": 0.8702724999966449,
+    "no_model_inference": true
+  }
+]

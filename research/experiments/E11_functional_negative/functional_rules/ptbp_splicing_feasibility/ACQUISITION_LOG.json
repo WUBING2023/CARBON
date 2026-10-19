@@ -1,0 +1,34 @@
+[
+  {
+    "name": "ENCSR413YAF",
+    "url": "https://www.encodeproject.org/ENCSR413YAF/?format=json",
+    "status": 200,
+    "bytes": 192470,
+    "type": "application/json",
+    "utc": "2026-10-04T11:48:35.706555+00:00"
+  },
+  {
+    "name": "ENCSR870OLK",
+    "url": "https://www.encodeproject.org/ENCSR870OLK/?format=json",
+    "status": 200,
+    "bytes": 137142,
+    "type": "application/json",
+    "utc": "2026-10-04T11:48:35.765868+00:00"
+  },
+  {
+    "name": "ENCSR527IVX",
+    "url": "https://www.encodeproject.org/ENCSR527IVX/?format=json",
+    "status": 200,
+    "bytes": 900783,
+    "type": "application/json",
+    "utc": "2026-10-04T11:48:36.007114+00:00"
+  },
+  {
+    "name": "rbp_maps_readme",
+    "url": "https://raw.githubusercontent.com/YeoLab/rbp-maps/master/README.md",
+    "status": 200,
+    "bytes": 15040,
+    "type": "text/plain; charset=utf-8",
+    "utc": "2026-10-04T11:48:35.173166+00:00"
+  }
+]

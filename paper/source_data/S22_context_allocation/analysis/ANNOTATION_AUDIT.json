@@ -1,0 +1,59 @@
+{
+  "/data/CARBON_PROJECT/数据": [
+    {
+      "path": "/data/CARBON_PROJECT/数据/phyloP/hg38.phyloP100way.bw",
+      "bytes": 9870053206
+    }
+  ],
+  "/data/CARBON_PROJECT/数据处理": [
+    {
+      "path": "/data/CARBON_PROJECT/数据处理/gencodeV29/gencode.v29.gff3.transcript.bed",
+      "bytes": 14837524
+    },
+    {
+      "path": "/data/CARBON_PROJECT/数据处理/gencodeV29/gencode.v29.annotation.gff3",
+      "bytes": 1225618018
+    }
+  ],
+  "/data/CARBON_PROJECT/independent_context_validation_20261003": [
+    {
+      "path": "/data/CARBON_PROJECT/independent_context_validation_20261003/06_functional_map/INPUT_MANIFEST.json",
+      "bytes": 21748190
+    },
+    {
+      "path": "/data/CARBON_PROJECT/independent_context_validation_20261003/07_compensatory_context/INPUT_MANIFEST.json",
+      "bytes": 103391
+    },
+    {
+      "path": "/data/CARBON_PROJECT/independent_context_validation_20261003/05_direct_context/INPUT_MANIFEST.json",
+      "bytes": 81163
+    }
+  ],
+  "/data/CARBON_PROJECT/interpretability_strengthening_20261003": [
+    {
+      "path": "/data/CARBON_PROJECT/interpretability_strengthening_20261003/04_failure_boundaries/FREEZE_MANIFEST.json",
+      "bytes": 73231
+    },
+    {
+      "path": "/data/CARBON_PROJECT/interpretability_strengthening_20261003/03_mechanism_optimization/prepare_inputs.py",
+      "bytes": 8340
+    },
+    {
+      "path": "/data/CARBON_PROJECT/interpretability_strengthening_20261003/03_mechanism_optimization/remote_predict.py",
+      "bytes": 3630
+    },
+    {
+      "path": "/data/CARBON_PROJECT/interpretability_strengthening_20261003/03_mechanism_optimization/input_freeze.json",
+      "bytes": 207005
+    },
+    {
+      "path": "/data/CARBON_PROJECT/interpretability_strengthening_20261003/03_mechanism_optimization/run_predictions.py",
+      "bytes": 2113
+    },
+    {
+      "path": "/data/CARBON_PROJECT/interpretability_strengthening_20261003/03_mechanism_optimization/SOURCE_MANIFEST.json",
+      "bytes": 13624
+    }
+  ],
+  "/data/CARBON_PROJECT/expanded_functional_validation_20261003": []
+}

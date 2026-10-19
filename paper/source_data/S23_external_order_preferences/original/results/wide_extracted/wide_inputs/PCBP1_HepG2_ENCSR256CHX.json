@@ -1,0 +1,22 @@
+{
+  "task": "PCBP1_HepG2_ENCSR256CHX",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PCBP1_HepG2_ENCSR256CHX/_5ch/PCBP1_HepG2_ENCSR256CHX_chr8_5ch.h5",
+      "bytes": 214177,
+      "n_windows": 420,
+      "sha256": "f654e2222201fbfccf5534ec7e496c6c087b91acc6d44845cce7c50a778b389d"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PCBP1_HepG2_ENCSR256CHX/_5ch/PCBP1_HepG2_ENCSR256CHX_chr15_5ch.h5",
+      "bytes": 114083,
+      "n_windows": 212,
+      "sha256": "b516da2ca1ca691c8c1e9f284e37436c7a2aac93a6c897033d77d694a968f6c4"
+    }
+  ],
+  "n_total": 632,
+  "n_eligible": 632,
+  "n_selected": 632,
+  "selection": "external_preferences_20261004 hash; min1024/all qualified; fixed16 controlled contexts",
+  "cache_sha256": "73a5e6f03d9a1cbbbabb806541b01baaa5e204a78158b3d3efce2d3e0d5ed83f"
+}

@@ -1,0 +1,22 @@
+{
+  "task": "FXR2_K562_ENCSR224QWC",
+  "protein": "FXR2",
+  "arm": "frozen_perm",
+  "n_contexts": 16,
+  "n_kmers": 1024,
+  "device": "cpu",
+  "threads": 8,
+  "elapsed_seconds": 6.841385364532471,
+  "checkpoint_sha256": "299d34f574f5c2213029ecd3684909cf1d284312bc91cb15feefc65a6e1ca66b",
+  "checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FXR2_K562_ENCSR224QWC/baseline/model_params.pth",
+  "model_source_sha256": "e101164b9bf0d5d8cb4a3471e5cfdf2ac7a6a1cdc4f6b710f4132c3bf2fff55a",
+  "input_cache_sha256": "024f475374c1f052781e91f41ef006b4755e33e5eb6b13ce489c49920ffac5bd",
+  "scalar": "log_total_count",
+  "strict_load": true,
+  "trained_matching_not_verified": true,
+  "initialization_not_used": {
+    "common_five_channel_state_sha256": "9448acafcf1d1ea61bbc98cae9c9e7c5fc883452e736fc5006165804c920a4f3",
+    "actual_initial_state_sha256": "9448acafcf1d1ea61bbc98cae9c9e7c5fc883452e736fc5006165804c920a4f3",
+    "parameters": 100826
+  }
+}

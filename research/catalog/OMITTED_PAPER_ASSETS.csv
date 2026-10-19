@@ -1,0 +1,3 @@
+source_relative,bytes,sha256,reason
+source_data/S24_motif_reference_audit/package_sources.py,2674,c2e72b7904b0559df896ce4401dc47452e7dd27c9f1ed9f1cba62ff2dc8b98b9,large raw/bootstrap/dependency or excluded historical file; see archive location
+source_data/S25_natural_variants/package_sources.py,1577,8e720bc4d470dd3bbac18d8f1e93f9d091cd1a88ad261ed348aa880f9727e09b,large raw/bootstrap/dependency or excluded historical file; see archive location

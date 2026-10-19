@@ -1,0 +1,52 @@
+[
+  {
+    "file": "41467_2019_9292_MOESM4_ESM.xlsx",
+    "sha256": "6812f36df49cf1ab244c4bd190468af5a4db879c66530be4fcbac6816b4f124f",
+    "bytes": 12215
+  },
+  {
+    "file": "41467_2019_9292_MOESM6_ESM.xlsx",
+    "sha256": "586686e43819ef94556ff92728dabe751e11f76d176375c515152c91ba81591b",
+    "bytes": 1905129
+  },
+  {
+    "file": "ALL11_REPORTER_VARIANTS.csv",
+    "sha256": "f0dcfa462246a575add3f3e9da31c41399d39f17f96b3fb1d91c2f231174663a",
+    "bytes": 1137
+  },
+  {
+    "file": "ALL24_REPORTER_LOCUS_ASB_EVENTS.csv",
+    "sha256": "7dbec6e9c41ecb1696d40e896a8ad8262c3b02a46aef4b5c1e930018f1884627",
+    "bytes": 29586
+  },
+  {
+    "file": "ALL66_REPORTER_BIOLOGICAL_MEASUREMENTS.csv",
+    "sha256": "560eef6d0b82d6db91d1c2d96286d434d53cf924313de0999fda8e2dedd6c9dd",
+    "bytes": 6166
+  },
+  {
+    "file": "ALL_VARIANT_CELL_STRAND_GROUPS.csv",
+    "sha256": "2a0c092fdeac61ede4920469f5998059b7c3feb93e5c6511a32b741cfc4e0ccd",
+    "bytes": 1028117
+  },
+  {
+    "file": "CASE_CENSUS.json",
+    "sha256": "9ce2ecb0466dbe1ec49bb0c0d25f4bd11ef3e0c4e6c1e93e4b75398aa4e16be0",
+    "bytes": 11541
+  },
+  {
+    "file": "FULL_ONLY_STABLE_EVENT_ILLUSTRATIONS.csv",
+    "sha256": "f63197fbb62737d3b01eb390e5383bb013d587e766d1fc50d27a688689f92c75",
+    "bytes": 55430
+  },
+  {
+    "file": "PROTOCOL_AND_SELECTION.json",
+    "sha256": "d142be89190854c9497414a09df94e67b0c7a18a9c431055ff31f3ad8a1f6bf2",
+    "bytes": 5553
+  },
+  {
+    "file": "SELECTED_CASES.json",
+    "sha256": "294c1452d7a0be2e84b8b0b28f8f37550f1ee9f458881c8a6444c536e2094d00",
+    "bytes": 37657
+  }
+]

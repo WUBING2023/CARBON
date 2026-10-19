@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-14T03:30:25.548618+00:00",
+  "all_existing_variant_keys": 4669,
+  "prior_exact_1000G_af_keys": 241,
+  "current_ClinVar_AF_TGP_existing_keys": 428,
+  "clinical_candidate_keys": 7668,
+  "clinical_candidate_TGP_available": 48,
+  "prior_annotation_sha256": "fb3a5c591c3e982731536d24c97d0013037aa44cc19f6c068224eb29ff7f2691",
+  "policy": [
+    "Prior241 exact1000G observations reused, not re-queried.",
+    "Current ClinVar AF_TGP is retained separately; source version/population denominators not specified by VCF.",
+    "Missing AF is not zero or absence from population.",
+    "ALT frequency not minor-allele frequency; no biallelic assumption.",
+    "Population AF is background annotation, not RBP-binding or disease truth."
+  ]
+}

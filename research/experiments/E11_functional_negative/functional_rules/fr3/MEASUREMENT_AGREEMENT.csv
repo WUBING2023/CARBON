@@ -1,0 +1,9 @@
+scope,endpoint,rep1,rep2,n,rho
+NucLibC,position_E_NC,1,2,50,0.775750300120048
+NucLibC,position_E_NC,1,3,50,0.7450180072028811
+NucLibC,position_E_NC,1,4,50,0.7724849939975991
+NucLibC,position_E_NC,2,3,50,0.8306842737094838
+NucLibC,position_E_NC,2,4,50,0.8495078031212485
+NucLibC,position_E_NC,3,4,50,0.8630492196878752
+NucLibB,position_E_NC,1,2,25,0.6723076923076923
+B_vs_C_common25,position_E_NC,,,25,0.9176923076923077

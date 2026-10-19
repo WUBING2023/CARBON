@@ -1,0 +1,22 @@
+{
+  "task": "PTBP1_K562_ENCSR981WKN",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr8_5ch.h5",
+      "bytes": 1431712,
+      "n_windows": 3170,
+      "sha256": "dca8b9dd78f92ef27d0950970d0750a48bf6e86404e8b7f0b5e5e0a8c71c7d8e"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr15_5ch.h5",
+      "bytes": 988206,
+      "n_windows": 2129,
+      "sha256": "0f002e80a9e66eb2ae6793b98f2b66b62e87dcaf7d06e55f6664f74705ada529"
+    }
+  ],
+  "n_total": 5299,
+  "n_eligible": 5299,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "5fa324182f5926972cb5ada9e2b47aa0245ed3f4476f7a45b500f5bc0ec2e2b6"
+}

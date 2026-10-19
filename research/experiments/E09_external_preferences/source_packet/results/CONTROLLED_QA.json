@@ -1,0 +1,10 @@
+{
+  "composition_groups": 56,
+  "possible_pairs": 15240,
+  "criteria": "same exact A/C/G/T counts; experimental non-tie; prediction tie=0.5",
+  "independent_unit": "protein",
+  "n_proteins": 3,
+  "native_contexts": 16,
+  "kmers": 1024,
+  "external_labels_exposed": true
+}

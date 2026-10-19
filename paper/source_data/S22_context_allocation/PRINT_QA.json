@@ -1,0 +1,65 @@
+{
+  "pdf_dimensions_mm": [
+    85.00000118679469,
+    124.00000008477105
+  ],
+  "min_font_pt": 6.5,
+  "outside": [],
+  "panel_label_pt": 9,
+  "atlas_height_mm": 37,
+  "atlas_expected_600dpi_height": 874.0157480314961,
+  "caption_words": 286,
+  "original22_packet_bytes_unchanged": true,
+  "original22_packet_sha256": "6383572632a118a982187ab8f684339e8b99b1a88ed50646c18b2455bf91ec30",
+  "all_packet_array_identity": {
+    "pair_raw_observed": true,
+    "pair_raw_input": true,
+    "pair_native_full": true,
+    "pair_native_nogru": true,
+    "pair_native_local": true,
+    "pair_native_phi": true,
+    "pair_conditional_observed": true,
+    "pair_conditional_full": true,
+    "pair_conditional_nogru": true,
+    "pair_conditional_local": true,
+    "pair_conditional_input": true,
+    "gene_observed": true,
+    "gene_full": true,
+    "gene_nogru": true,
+    "gene_local": true,
+    "gene_input": true,
+    "pair_sequence": true,
+    "pair_window_input": true,
+    "pair_window_observed": true,
+    "pair_adjusted_share": true
+  },
+  "native101_to_original22_errors": {
+    "ZMYM4": {
+      "observed_signal": 0.0,
+      "input_signal": 0.0,
+      "full_profile": 0.0,
+      "nogru_profile": 0.0,
+      "local_position_profile": 0.0,
+      "phi": 0.0
+    },
+    "OCRL": {
+      "observed_signal": 0.0,
+      "input_signal": 0.0,
+      "full_profile": 0.0,
+      "nogru_profile": 0.0,
+      "local_position_profile": 0.0,
+      "phi": 0.0
+    }
+  },
+  "retained_OCRL_native_array_errors": {
+    "observed_signal": 0.0,
+    "input_signal": 0.0,
+    "full_profile": 0.0,
+    "nogru_profile": 0.0,
+    "local_position_profile": 0.0,
+    "phi": 0.0
+  },
+  "frozen_inference_equal": true,
+  "root_actual_visual_acceptance": "Root opened actual firstPNG; accepted stronger ZMYM4 case and unaffected layout without further changes",
+  "geometry_source_QA_does_not_substitute_visual_judgment": true
+}

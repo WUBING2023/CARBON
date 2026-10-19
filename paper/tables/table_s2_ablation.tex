@@ -1,0 +1,47 @@
+\begin{table}[H]
+\centering
+\caption{Complete paired ablation results over 222 evaluated tasks, reported as the mean change from the retained full configuration to each ablated configuration for all six recalculated metrics. Negative $\Delta$ values indicate that the ablated configuration has the lower mean. ``Worse'' is the percentage of tasks on which the ablated configuration has the lower value. $p$-values are two-sided paired Wilcoxon signed-rank tests without multiple-comparison correction and are therefore exploratory. The six metrics are Mean PCC; Spearman correlation; Signal AUROC; Average precision at the signal level (Signal AP); Peak AUROC; and Peak AP.}
+\label{tab:s2-ablation}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}p{0.20\linewidth}lrrrrrrr@{}}
+\toprule
+Ablation & Metric & $n$ & Full & Ablated & $\Delta$ & Worse (\%) & $p$ \\
+\midrule
+RCE removed (no BiGRU) & Mean PCC & 222 & 0.3092 & 0.2233 & -0.08592 & 99.5 & $3.81\times10^{-38}$ \\
+ & Spearman &  & 0.4226 & 0.3161 & -0.10642 & 100.0 & $3.56\times10^{-38}$ \\
+ & Signal AUROC &  & 0.7574 & 0.6902 & -0.06712 & 100.0 & $3.56\times10^{-38}$ \\
+ & Signal AP &  & 0.5689 & 0.4807 & -0.08818 & 100.0 & $3.56\times10^{-38}$ \\
+ & Peak AUROC &  & 0.7576 & 0.6906 & -0.06703 & 100.0 & $3.56\times10^{-38}$ \\
+ & Peak AP &  & 0.5687 & 0.4805 & -0.08818 & 100.0 & $3.56\times10^{-38}$ \\
+\addlinespace
+Conservation channel removed (no\_conservative) & Mean PCC & 222 & 0.3092 & 0.2865 & -0.02272 & 95.9 & $1.50\times10^{-36}$ \\
+ & Spearman &  & 0.4226 & 0.3991 & -0.02345 & 98.6 & $4.43\times10^{-38}$ \\
+ & Signal AUROC &  & 0.7574 & 0.7423 & -0.01507 & 98.6 & $4.19\times10^{-38}$ \\
+ & Signal AP &  & 0.5689 & 0.5512 & -0.01769 & 96.8 & $7.30\times10^{-38}$ \\
+ & Peak AUROC &  & 0.7576 & 0.7425 & -0.01504 & 98.6 & $4.14\times10^{-38}$ \\
+ & Peak AP &  & 0.5687 & 0.5510 & -0.01766 & 96.8 & $7.60\times10^{-38}$ \\
+\addlinespace
+MSME replaced (no\_multiscale) & Mean PCC & 222 & 0.3092 & 0.3077 & -0.00148 & 67.6 & $5.23\times10^{-7}$ \\
+ & Spearman &  & 0.4226 & 0.4209 & -0.00164 & 77.0 & $4.75\times10^{-14}$ \\
+ & Signal AUROC &  & 0.7574 & 0.7563 & -0.00108 & 78.8 & $3.31\times10^{-15}$ \\
+ & Signal AP &  & 0.5689 & 0.5676 & -0.00128 & 75.2 & $5.07\times10^{-14}$ \\
+ & Peak AUROC &  & 0.7576 & 0.7565 & -0.00108 & 78.4 & $3.72\times10^{-15}$ \\
+ & Peak AP &  & 0.5687 & 0.5674 & -0.00128 & 74.8 & $5.19\times10^{-14}$ \\
+\addlinespace
+Squeeze-and-excitation removed (no\_SE) & Mean PCC & 222 & 0.3092 & 0.3077 & -0.00149 & 71.2 & $1.01\times10^{-8}$ \\
+ & Spearman &  & 0.4226 & 0.4214 & -0.00118 & 79.7 & $1.58\times10^{-18}$ \\
+ & Signal AUROC &  & 0.7574 & 0.7567 & -0.00071 & 80.6 & $2.17\times10^{-18}$ \\
+ & Signal AP &  & 0.5689 & 0.5677 & -0.00121 & 85.1 & $1.69\times10^{-20}$ \\
+ & Peak AUROC &  & 0.7576 & 0.7569 & -0.00070 & 80.6 & $3.47\times10^{-18}$ \\
+ & Peak AP &  & 0.5687 & 0.5675 & -0.00120 & 84.7 & $1.75\times10^{-20}$ \\
+\addlinespace
+Combined objective removed (no\_combined\_loss) & Mean PCC & 222 & 0.3092 & 0.3225 & +0.01329 & 63.1 & 0.284 \\
+ & Spearman &  & 0.4226 & 0.4096 & -0.01297 & 97.3 & $6.06\times10^{-35}$ \\
+ & Signal AUROC &  & 0.7574 & 0.7487 & -0.00870 & 97.7 & $2.20\times10^{-35}$ \\
+ & Signal AP &  & 0.5689 & 0.5532 & -0.01570 & 97.3 & $1.00\times10^{-34}$ \\
+ & Peak AUROC &  & 0.7576 & 0.7489 & -0.00869 & 97.7 & $2.20\times10^{-35}$ \\
+ & Peak AP &  & 0.5687 & 0.5529 & -0.01572 & 97.3 & $1.00\times10^{-34}$ \\
+\bottomrule
+\end{tabular}
+\end{table}

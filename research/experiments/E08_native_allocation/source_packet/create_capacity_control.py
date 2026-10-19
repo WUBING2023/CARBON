@@ -1,0 +1,15 @@
+from pathlib import Path
+R=Path(__file__).resolve().parent;S=R/'nogru_matched';O=R/'nogru_position_capacity'
+train=(S/'remote_train.py').read_text().replace('/01_context/nogru_matched','/01_context/nogru_position_capacity').replace('    from MARCP.models.marcp_model import MARCP','    from control_model import NoGRUPositionCapacity').replace('model=MARCP(in_channels=5,dropOut=0.2,control=False,ablation_no_gru=True)','model=NoGRUPositionCapacity()').replace('shared={k:full.state_dict()[k].clone() for k in model.state_dict()}','shared={k:(full.state_dict()[k].clone() if k in full.state_dict() else v.clone()) for k,v in model.state_dict().items()}').replace("'max_batch_seconds':5400","'max_batch_seconds':2700").replace('>5400','>2700').replace('Registered90min','Registered45min').replace('native noGRU: projection+GRU removed; residual/SE/heads retained','noGRU pointwise capacity+position control; 130→216→128 zero-final MLP +101 profile bias')
+train=train.replace("source=\"import sys\\nsys.path.insert(0,\"+repr(str(R))+')\\n'+source","source=\"import sys\\nsys.path.insert(0,\"+repr(str(R))+')\\nsys.path.insert(0,'+repr(str(O))+')\\n'+source")
+(O/'remote_train.py').write_text(train,encoding='utf-8')
+for fn in ['run_remote.py','run_infer.py']:
+ s=(S/fn).read_text().replace('/01_context/nogru_matched','/01_context/nogru_position_capacity')
+ s=s.replace("'protocol_b64':base64.b64encode(protocol).decode()","'protocol_b64':base64.b64encode(protocol).decode(),'model_b64':base64.b64encode((ROOT/'control_model.py').read_bytes()).decode()")
+ s=s.replace('d=json.load(sys.stdin);','d=json.load(sys.stdin); (r/"control_model.py").write_bytes(base64.b64decode(d["model_b64"]));')
+ (O/fn).write_text(s,encoding='utf-8')
+(O/'download_remote.py').write_text((S/'download_remote.py').read_text().replace('/01_context/nogru_matched','/01_context/nogru_position_capacity'),encoding='utf-8')
+inf=(S/'remote_infer.py').read_text().replace("O=P/'nogru_matched'","O=P/'nogru_position_capacity'").replace("os.environ['PYTHONDONTWRITEBYTECODE']='1'","os.environ['PYTHONDONTWRITEBYTECODE']='1';os.environ['CUDA_VISIBLE_DEVICES']=''").replace('from MARCP.models.marcp_model import MARCP','sys.path.insert(0,str(O))\nfrom control_model import NoGRUPositionCapacity').replace('model=MARCP(in_channels=5,dropOut=.2,control=False,ablation_no_gru=True)','model=NoGRUPositionCapacity()').replace('{k:full.state_dict()[k].clone() for k in model.state_dict()}','{k:(full.state_dict()[k].clone() if k in full.state_dict() else v.clone()) for k,v in model.state_dict().items()}').replace("z['nogru_seed'","z['nogru_position_capacity_seed'")
+(O/'remote_infer.py').write_text(inf,encoding='utf-8')
+(R/'nogru_position_bias/PRELAUNCH_SUPERSEDED.md').write_text('2026-10-04 12:52 UTC: no pure-position pilot, fits or predictions were executed. Root required capacity and local position-interaction control before execution. Final arm is nogru_position_capacity. The earlier files remain as design history; they are not experimental results.',encoding='utf-8')
+print('Final fixed capacity-position control files created.')

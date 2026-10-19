@@ -1,0 +1,1629 @@
+{
+  "utc": "2026-10-04T14:04:38.920988+00:00",
+  "checks": [
+    {
+      "name": "42tasks_fourconditions_true_manifests",
+      "passed": true
+    },
+    {
+      "name": "complete_input_checkpoint_phi_QA",
+      "passed": true
+    },
+    {
+      "name": "all_new25_in_figure",
+      "passed": true
+    },
+    {
+      "name": "figure_a_CPEB4_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_CPEB4_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_CPEB4_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_CPEB4_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_CPEB4_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FMR1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FMR1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FMR1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FMR1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FMR1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FUS_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FUS_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FUS_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FUS_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FUS_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FXR1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FXR1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FXR1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FXR1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FXR1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FXR2_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FXR2_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FXR2_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FXR2_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_FXR2_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPA1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPA1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPA1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPA1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPA1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPC_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPC_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPC_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPC_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPC_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPL_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPL_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPL_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPL_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_HNRNPL_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_IGF2BP2_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_IGF2BP2_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_IGF2BP2_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_IGF2BP2_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_IGF2BP2_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_IGF2BP3_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_IGF2BP3_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_IGF2BP3_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_IGF2BP3_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_IGF2BP3_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_KHDRBS1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_KHDRBS1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_KHDRBS1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_KHDRBS1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_KHDRBS1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_MATR3_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_MATR3_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_MATR3_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_MATR3_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_MATR3_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PABPC4_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PABPC4_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PABPC4_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PABPC4_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PABPC4_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PABPN1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PABPN1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PABPN1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PABPN1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PABPN1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PCBP1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PCBP1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PCBP1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PCBP1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PCBP1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PCBP2_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PCBP2_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PCBP2_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PCBP2_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_PCBP2_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_QKI_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_QKI_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_QKI_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_QKI_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_QKI_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_RBM5_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_RBM5_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_RBM5_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_RBM5_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_RBM5_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SFPQ_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SFPQ_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SFPQ_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SFPQ_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SFPQ_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF7_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF7_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF7_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF7_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF7_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF9_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF9_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF9_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF9_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_SRSF9_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_TARDBP_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_TARDBP_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_TARDBP_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_TARDBP_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_TARDBP_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_TIA1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_TIA1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_TIA1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_TIA1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_TIA1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_a_U2AF2_full",
+      "passed": true
+    },
+    {
+      "name": "figure_a_U2AF2_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_a_U2AF2_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_a_U2AF2_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_a_U2AF2_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_CPEB4_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_CPEB4_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_CPEB4_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_CPEB4_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_CPEB4_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FMR1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FMR1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FMR1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FMR1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FMR1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FUS_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FUS_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FUS_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FUS_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FUS_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FXR1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FXR1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FXR1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FXR1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FXR1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FXR2_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FXR2_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FXR2_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FXR2_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_FXR2_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPA1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPA1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPA1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPA1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPA1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPC_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPC_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPC_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPC_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPC_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPL_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPL_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPL_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPL_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_HNRNPL_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_IGF2BP2_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_IGF2BP2_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_IGF2BP2_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_IGF2BP2_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_IGF2BP2_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_IGF2BP3_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_IGF2BP3_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_IGF2BP3_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_IGF2BP3_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_IGF2BP3_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_KHDRBS1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_KHDRBS1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_KHDRBS1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_KHDRBS1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_KHDRBS1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_MATR3_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_MATR3_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_MATR3_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_MATR3_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_MATR3_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PABPC4_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PABPC4_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PABPC4_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PABPC4_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PABPC4_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PABPN1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PABPN1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PABPN1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PABPN1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PABPN1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PCBP1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PCBP1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PCBP1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PCBP1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PCBP1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PCBP2_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PCBP2_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PCBP2_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PCBP2_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_PCBP2_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_QKI_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_QKI_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_QKI_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_QKI_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_QKI_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_RBM5_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_RBM5_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_RBM5_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_RBM5_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_RBM5_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SFPQ_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SFPQ_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SFPQ_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SFPQ_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SFPQ_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF7_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF7_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF7_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF7_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF7_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF9_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF9_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF9_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF9_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_SRSF9_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_TARDBP_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_TARDBP_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_TARDBP_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_TARDBP_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_TARDBP_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_TIA1_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_TIA1_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_TIA1_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_TIA1_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_TIA1_frequency",
+      "passed": true
+    },
+    {
+      "name": "figure_b_U2AF2_full",
+      "passed": true
+    },
+    {
+      "name": "figure_b_U2AF2_sequence",
+      "passed": true
+    },
+    {
+      "name": "figure_b_U2AF2_frozen_flat",
+      "passed": true
+    },
+    {
+      "name": "figure_b_U2AF2_frozen_perm",
+      "passed": true
+    },
+    {
+      "name": "figure_b_U2AF2_frequency",
+      "passed": true
+    },
+    {
+      "name": "all20truth_words",
+      "passed": true
+    },
+    {
+      "name": "c_truth_ACCCA",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCCA_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCCA_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCCA_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCCA_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_CCCAA",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCCAA_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCCAA_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCCAA_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCCAA_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_ACCAA",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCAA_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCAA_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCAA_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCAA_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_AACCC",
+      "passed": true
+    },
+    {
+      "name": "c_priority_AACCC_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_AACCC_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_AACCC_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_AACCC_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_CCAAC",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCAAC_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCAAC_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCAAC_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCAAC_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_GACCA",
+      "passed": true
+    },
+    {
+      "name": "c_priority_GACCA_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_GACCA_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_GACCA_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_GACCA_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_ACCCC",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCCC_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCCC_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCCC_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCCC_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_CCAAA",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCAAA_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCAAA_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCAAA_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCAAA_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_ATCCC",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ATCCC_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ATCCC_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ATCCC_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ATCCC_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_CCAAT",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCAAT_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCAAT_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCAAT_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCAAT_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_CCCAT",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCCAT_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCCAT_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCCAT_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCCAT_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_GACCC",
+      "passed": true
+    },
+    {
+      "name": "c_priority_GACCC_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_GACCC_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_GACCC_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_GACCC_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_CAACC",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CAACC_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CAACC_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CAACC_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CAACC_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_TCCCA",
+      "passed": true
+    },
+    {
+      "name": "c_priority_TCCCA_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_TCCCA_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_TCCCA_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_TCCCA_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_AATCC",
+      "passed": true
+    },
+    {
+      "name": "c_priority_AATCC_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_AATCC_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_AATCC_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_AATCC_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_TACCC",
+      "passed": true
+    },
+    {
+      "name": "c_priority_TACCC_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_TACCC_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_TACCC_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_TACCC_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_CCCCA",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCCCA_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCCCA_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCCCA_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCCCA_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_TTCCC",
+      "passed": true
+    },
+    {
+      "name": "c_priority_TTCCC_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_TTCCC_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_TTCCC_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_TTCCC_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_ACCAC",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCAC_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCAC_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCAC_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_ACCAC_permuted",
+      "passed": true
+    },
+    {
+      "name": "c_truth_CCACA",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCACA_aligned",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCACA_sequence_only",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCACA_mean",
+      "passed": true
+    },
+    {
+      "name": "c_priority_CCACA_permuted",
+      "passed": true
+    },
+    {
+      "name": "d_RNAcompete_sequence_only_delta_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RNAcompete_sequence_only_low_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RNAcompete_sequence_only_high_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RBNS_sequence_only_delta_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RBNS_sequence_only_low_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RBNS_sequence_only_high_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RNAcompete_mean_delta_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RNAcompete_mean_low_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RNAcompete_mean_high_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RBNS_mean_delta_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RBNS_mean_low_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RBNS_mean_high_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RNAcompete_permuted_delta_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RNAcompete_permuted_low_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RNAcompete_permuted_high_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RBNS_permuted_delta_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RBNS_permuted_low_pp",
+      "passed": true
+    },
+    {
+      "name": "d_RBNS_permuted_high_pp",
+      "passed": true
+    },
+    {
+      "name": "no_visible_text_outside_canvas",
+      "passed": true
+    },
+    {
+      "name": "85mm_canvas",
+      "passed": true
+    },
+    {
+      "name": "caption_synced",
+      "passed": true
+    },
+    {
+      "name": "all6_nogru_external_full_scope",
+      "passed": true
+    },
+    {
+      "name": "all6_HNR_component_same_scope",
+      "passed": true
+    },
+    {
+      "name": "final_control48points_and10000_draws",
+      "passed": true
+    },
+    {
+      "name": "final_control6fitted_shared_initializations",
+      "passed": true
+    },
+    {
+      "name": "updated_logits_used_all_real_stages",
+      "passed": true
+    },
+    {
+      "name": "all36final_named_intervals",
+      "passed": true
+    },
+    {
+      "name": "622516source_tokens_literal_equal",
+      "passed": true
+    },
+    {
+      "name": "new25unchanged_after_global_parser",
+      "passed": true
+    },
+    {
+      "name": "6fresh_init_order_audits",
+      "passed": true
+    },
+    {
+      "name": "all72_IG_numerical_QA",
+      "passed": true
+    },
+    {
+      "name": "exists_RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "exists_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "exists_CAPTION.md",
+      "passed": true
+    },
+    {
+      "name": "exists_REPLAY.md",
+      "passed": true
+    },
+    {
+      "name": "exists_SOURCES.md",
+      "passed": true
+    }
+  ],
+  "n_checks": 390,
+  "all_passed": true,
+  "wide": {
+    "n_proteins": 28,
+    "n_new_proteins": 25,
+    "n_exposed": 3,
+    "n_tasks": 42,
+    "conditions": [
+      "full",
+      "sequence",
+      "frozen_flat",
+      "frozen_perm"
+    ],
+    "n_contexts": 16,
+    "n_words": 1024,
+    "n_protein_bootstrap": 10000,
+    "universal_base_count_predictors": [
+      "A",
+      "C",
+      "G",
+      "T"
+    ],
+    "score_mapping": "observed7mer occurrence mean",
+    "word_pairs_not_bio_n": true,
+    "not_phi_causal_comparison": true,
+    "model_and_input_checkpoints_verified": true
+  },
+  "PNG_size": [
+    2007,
+    3118
+  ],
+  "figure_width_mm": 85,
+  "figure_height_mm": 132,
+  "physical_min_font_pt": 6.0,
+  "scope": "family external preference confirmation plus exposed one-protein local example; no conservation-causal proof",
+  "not_manuscript_submission_readiness": true,
+  "independent_review_reference": {
+    "FAMILY_QA.json": {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\cross_audit_02\\FAMILY_QA.json",
+      "sha256": "dd7a21b4edcca54342da783627b6ffb5c4504b193f3135157629c9e57892d526",
+      "independent_checks_reported_by_reviewer": 2631
+    },
+    "FIGURE_QA.json": {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\cross_audit_02\\FIGURE_QA.json",
+      "sha256": "9ef0dc782d433a5def68ca9bff910244875d36ab9c71ee71121e00021a40cc02",
+      "independent_checks_reported_by_reviewer": 620
+    },
+    "QA.json": {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\cross_audit_02\\QA.json",
+      "sha256": "7270c7be41863b5fc4a3e486becad5d819b420457e0cbce1086e996c1419e8a8",
+      "independent_checks_reported_by_reviewer": 39
+    }
+  },
+  "root_visual_review": "current PNG byte-identical to independently reviewed navy image",
+  "remaining_scope": "none in 02; root final reading-page review is outside this slice",
+  "original_independent_parser_failures_preserved": 62,
+  "all_passed_refers_to_current_packet_checks_only": true,
+  "final_trained_branch_readback": {
+    "path": "results/CROSS_AUDIT_01_PC_TRAINED_BRANCHES.json",
+    "sha256": "aa6fcb8d1325e3d2c5bea77732c728c0d1b2a808cb826bd3d73f12756e5510ab",
+    "n_norm_checks": 90,
+    "max_abs_error": 0.0,
+    "no_forward_no_training": true
+  }
+}

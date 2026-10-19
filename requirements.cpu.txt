@@ -1,0 +1,14 @@
+# Dependency versions present during the checked Windows CPU run (Python 3.12.3).
+# Clean installation is not certified; preprocessing/attribution/figure R packages are separate.
+torch==2.4.1
+numpy==1.26.4
+pandas==2.2.3
+h5py==3.11.0
+matplotlib==3.10.0
+scipy==1.13.1
+scikit-learn==1.5.1
+einops==0.8.2
+biopython==1.88
+tqdm==4.65.2
+tensorboard==2.21.0
+PyYAML==6.0.2

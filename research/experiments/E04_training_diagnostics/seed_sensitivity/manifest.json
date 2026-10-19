@@ -1,0 +1,788 @@
+{
+  "protocol_sha256": "565966881305b3be9c0f860ae85348b72d4507047305b9d51debb48a0570f2e0",
+  "source_origin": "/data/CARBON_PROJECT/MARCP",
+  "source_sha256": {
+    "MARCP/__init__.py": "86ea6307987dd0661c86fb796e8f9173eb68a1fc8919abdbc76b73303c2072d8",
+    "MARCP/interpretability/__init__.py": "d2c2f563182ef80e3b785488b60eb697722c9439730767cd75e6a14e40f6b494",
+    "MARCP/interpretability/attribution/__init__.py": "98ca0d352617408a87b3aeace62f87db1231ea5eb5a5f2460541a28a7163e03b",
+    "MARCP/interpretability/attribution/marcp_attribution.py": "b4055200352d41ceb5cb8fedd48fecd9f75310d80d288c02e0b15deeb46ff142",
+    "MARCP/interpretability/attribution/plot.py": "1c0cde933fb6c5f0f4c60283402931fd972d81fb6a10f9f1a0c171abecb4a3f8",
+    "MARCP/interpretability/captum/__init__.py": "919b031aafd2d0422659e4404f35fa792054f84ab81f9a64b740411dabf4256d",
+    "MARCP/interpretability/captum/captum_deeplift_hypothetical.py": "521b99b69f831f267f4913b3bc0102753b227cff4fc5573012f5abd116a933fa",
+    "MARCP/interpretability/captum/reference_seq.py": "772f0c7c74780cdfd967c7db77a922b89c2ca1644e494292d78ab5e0ec34e7cd",
+    "MARCP/loss/__init__.py": "39d06ab5582d288abe6495348565ae62c05eca45237d7ccf887c2188b53db89d",
+    "MARCP/loss/loss.py": "6f06f377e64f05c33ad3b693cc47957cdd6c29c328039c5f23ea4acc553e3f4e",
+    "MARCP/models/__init__.py": "5d20f7b619efaf4e338e81ad77d912382499928c6e8bd0855ddf0161e846bc90",
+    "MARCP/models/marcp_model.py": "e101164b9bf0d5d8cb4a3471e5cfdf2ac7a6a1cdc4f6b710f4132c3bf2fff55a",
+    "MARCP/models/marcp_model_rnafm.py": "49eb069c5caa2314f3410d766ab729dfeb58b859999a7a4ed40eae2a6c849b8e",
+    "MARCP/operations/__init__.py": "d9224a780cf090cea0e27b8b9b0b63eb12bdf5b67402ffc713986089558f90d3",
+    "MARCP/operations/predict.py": "6dbb92ca04e12c16f6f14622863040a246284b1e262e7778a550df17520774ff",
+    "MARCP/operations/train_ops.py": "45b5858ef7ecfe274e426786f67275b50992082829e174bd084681ff666c3d4f",
+    "MARCP/utils/__init__.py": "824311931d15dce4b329513f358ef061146f8787eb3fb22ca376daf02d56c5d9",
+    "MARCP/utils/functions.py": "01578956d5ec527b73e351d69294164df635b019feeac8192af8bb4135685150",
+    "MARCP/utils/u_statistics.py": "129fbb9507fccc84175e892069fd9a9fc26cfb876b6244afa7001811b667d8e9",
+    "MARCP/utils/utils.py": "4710cfaad5083f445b88194d49b29a54995f8dc1be1312c7e7b91b7c9ef73d87",
+    "MARCP/visualization/__init__.py": "0e0a759206af8cb719b52ac87019cb5322c36d0b86179d015e663ccafa560f3c",
+    "MARCP/visualization/plot.py": "3771f184e2107690f7feae89e2b1e066a43a7bd60d480aa930d0dc3cdeffedde",
+    "MARCP/visualization/track.py": "9c63165dd99f7e1f72634478a51fb0ecaad2cef0137c5ebc025de370de88c16d",
+    "MARCP/visualization/viz_sequence.py": "e9ab67c071001ec2428729b1ee7b15222f3fa8129db126076435684696a87668",
+    "marcp_train_seed0.py": "125b379f25b3894697e64ce435e5051325969e6e1e4687f3424c3dc3cff221d3",
+    "marcp_train_seed1.py": "0be0030c6accd4adb019e4cd70bb3c5c2798c6b7c245ff0d6dd6c3992e8b71bf",
+    "marcp_train_seed2.py": "9c8b6ce66368b37cafddce42931da4f6b693fd12d6a559c2bb9a25141250e5bb"
+  },
+  "prepared_environment": {
+    "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+    "executable": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/venv/bin/python3",
+    "torch": "2.4.1+cu121",
+    "numpy": "1.24.4",
+    "h5py": "3.11.0",
+    "host": "server15"
+  },
+  "tasks": {
+    "HNRNPK_K562_ENCSR268ETU": {
+      "counts": {
+        "train": 41990,
+        "validation": 10278,
+        "test": 9787
+      },
+      "inputs": {
+        "train": [
+          {
+            "chromosome": 3,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr3_5ch.h5",
+            "sha256": "a0403a939a28c324643efdbf4f8209eb2c6f31055e9ad39de54eaa76e60aa9dd",
+            "X_shape": [
+              2570,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 4,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr4_5ch.h5",
+            "sha256": "b38564392c08884f3d5a8e44ae3df4f113d84300a62122f85a8713580c8b9479",
+            "X_shape": [
+              1246,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 5,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr5_5ch.h5",
+            "sha256": "c4baed12725c5973b7f8b3ca532c2b1d10315728ed58d7d492c78d1dfe6375bb",
+            "X_shape": [
+              2010,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 6,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr6_5ch.h5",
+            "sha256": "1ec721e30384064af126d3725f2ac4127a8f6774c789a35280bbf58fc92ca932",
+            "X_shape": [
+              3366,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 7,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr7_5ch.h5",
+            "sha256": "5eb0c0bb5524855461de19d930114638b749e2eb9ca4318a8fe6f9dd44362399",
+            "X_shape": [
+              4546,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 10,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr10_5ch.h5",
+            "sha256": "865747954ff29c422f70811d6c1b1883bdbb3253e0f5535d4b964feff9764857",
+            "X_shape": [
+              1582,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 11,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr11_5ch.h5",
+            "sha256": "80bfe9ddf9ef84d3971bb6cda0ffe26414e78c53527b938623da154441d823a7",
+            "X_shape": [
+              3994,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 12,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr12_5ch.h5",
+            "sha256": "2ff4653a8a92b6313b26c6d0043cb90fa7a5c74e3fd95c043db0e920f7b1644a",
+            "X_shape": [
+              2941,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 13,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr13_5ch.h5",
+            "sha256": "aa8bd3c1774c661d3b9a2d3207a46c8782196948963965c081af7350fa530aca",
+            "X_shape": [
+              524,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 14,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr14_5ch.h5",
+            "sha256": "3e415c19ddc90ed22d9f559da05ab1cda0d0b2ad0699ac9bf226fe2dc9970e6c",
+            "X_shape": [
+              1018,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 17,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr17_5ch.h5",
+            "sha256": "6699545baf142552febf94f794a59510c6e3853fd14ba54755f3637fb660f2ff",
+            "X_shape": [
+              3686,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 18,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr18_5ch.h5",
+            "sha256": "db7a8488ab3dbebae11a7898de08d32e2f3bd2bf5c72d8d327aa8cbb1c522f5c",
+            "X_shape": [
+              477,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 19,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr19_5ch.h5",
+            "sha256": "3dd3f4b2d14465614a7e1b11bc7e8e6c13afc673d276f1fbd5f7cb0aa4cf0abf",
+            "X_shape": [
+              7538,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 20,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr20_5ch.h5",
+            "sha256": "9da9c19d926012e2a52bf06c054036ab5f555c919a99f9d97b144bc270429a5f",
+            "X_shape": [
+              2067,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 21,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr21_5ch.h5",
+            "sha256": "9dfba26a5ccefc93d802c3baea8dc44d296a053d1027de97f27a3e11b3c8237c",
+            "X_shape": [
+              902,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 22,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr22_5ch.h5",
+            "sha256": "3c5fea522f7a6d2ebf7d19de8016469d3e97ce1ad8bffaba5094159349017e8b",
+            "X_shape": [
+              3523,
+              101,
+              5
+            ]
+          }
+        ],
+        "validation": [
+          {
+            "chromosome": 2,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr2_5ch.h5",
+            "sha256": "009ccf24359e24478fa97fda2c2536f20bb3f7642b1c6be47d3efc1e3698db8b",
+            "X_shape": [
+              2845,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 9,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr9_5ch.h5",
+            "sha256": "5f5e34c1b94abe415ac0d79742c8ea78656a4665a5d5dcfaa0f8b0fa8b8f9c41",
+            "X_shape": [
+              2506,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 16,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr16_5ch.h5",
+            "sha256": "cac5e1926a968c02cb1d4e7c0fa3ca3c7cab8a150bf4936daa340672b9680863",
+            "X_shape": [
+              4927,
+              101,
+              5
+            ]
+          }
+        ],
+        "test": [
+          {
+            "chromosome": 1,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr1_5ch.h5",
+            "sha256": "52783f58c2dea791d47e9fa0aebcfbc5b9291a6d2d603eaa214599f1aaf6dfa5",
+            "X_shape": [
+              6460,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 8,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr8_5ch.h5",
+            "sha256": "21970b1b95f6d284615cb4b7084f73165cb1e217259235a5d4d33e44ccfb99eb",
+            "X_shape": [
+              1958,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 15,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr15_5ch.h5",
+            "sha256": "42f90de8539cbfeac6df9467f156df650f3f1ec28c055fb593bc0c48d18afffa",
+            "X_shape": [
+              1369,
+              101,
+              5
+            ]
+          }
+        ]
+      },
+      "seed0_checkpoint": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPK_K562_ENCSR268ETU/baseline/model_params.pth",
+      "seed0_sha256": "059b4939b5689354c5ae81de3d54dd14e3b05715573f87034d087bc0fcfb8bd1"
+    },
+    "PTBP1_K562_ENCSR981WKN": {
+      "counts": {
+        "train": 48695,
+        "validation": 12111,
+        "test": 14057
+      },
+      "inputs": {
+        "train": [
+          {
+            "chromosome": 3,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr3_5ch.h5",
+            "sha256": "b70ea89028beb66079b9f28f409140c98c673fb288083b224db6e6964e3885cd",
+            "X_shape": [
+              3703,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 4,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr4_5ch.h5",
+            "sha256": "3a5951b6bf5122fb553479335c199513b5cd3dd79ce1cab729e1b47f1929e921",
+            "X_shape": [
+              2385,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 5,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr5_5ch.h5",
+            "sha256": "d2fd3421a83f2f6933423462d0e1aa1504db697fa9ea04ca64f1e678ddecb293",
+            "X_shape": [
+              3245,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 6,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr6_5ch.h5",
+            "sha256": "03377bc79b486ad32e7c2a6e8074c729c70bbcfbe2f4d0f1a0c0e27c6f4fde08",
+            "X_shape": [
+              4658,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 7,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr7_5ch.h5",
+            "sha256": "582a35d728b1fd6c6f389a80a54f09a8e0ca75f4c3274bd51f817299130b5ec2",
+            "X_shape": [
+              6298,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 10,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr10_5ch.h5",
+            "sha256": "8a9bda4bf746774e8202498c4e31f94b15baf5565b29bd615ed23a39e33b0521",
+            "X_shape": [
+              2493,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 11,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr11_5ch.h5",
+            "sha256": "413a332b6c826c8bf074c079c1efd384d10b88bbc6533089f55669cd8f2bba88",
+            "X_shape": [
+              4353,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 12,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr12_5ch.h5",
+            "sha256": "20b61dc1bd2264eed623f6a4ff184b4f6a327981dbef28bbb1c1d59a37605089",
+            "X_shape": [
+              3457,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 13,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr13_5ch.h5",
+            "sha256": "447793fd311dcfa7fb4fcaa424ae3b52489689743b782f3d2e71f3788dc6a0e9",
+            "X_shape": [
+              911,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 14,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr14_5ch.h5",
+            "sha256": "4aa01b974637e4ef8bd4ffd3dc6451e6700d17952dfa627efee5a6a80772790e",
+            "X_shape": [
+              1467,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 17,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr17_5ch.h5",
+            "sha256": "cc93e40e1608a925730520a83e0815a322bcdaabe54caeb3ec55a3056de955c9",
+            "X_shape": [
+              3688,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 18,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr18_5ch.h5",
+            "sha256": "428c4af28b16a87741f0b200163fcb1fa38bcf52de1a6c2f724d285ad8385156",
+            "X_shape": [
+              976,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 19,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr19_5ch.h5",
+            "sha256": "171fd457d3334e1bd93a6b43d3d7ce16fca3923e147e277893b51aeb528220e3",
+            "X_shape": [
+              5604,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 20,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr20_5ch.h5",
+            "sha256": "ad8d61e32e28f121977bccc179ed2868e40d9113125df604f0aaf268e8737f8e",
+            "X_shape": [
+              1557,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 21,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr21_5ch.h5",
+            "sha256": "a9cea66184c5bc848f8eea6826765ba621e3a3dce9ae51b0f6489af730130aa5",
+            "X_shape": [
+              1062,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 22,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr22_5ch.h5",
+            "sha256": "5cd11c769c760fd8b251c67e09acd8130a02b9f1e2df37e05fc55c4a36fa399d",
+            "X_shape": [
+              2838,
+              101,
+              5
+            ]
+          }
+        ],
+        "validation": [
+          {
+            "chromosome": 2,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr2_5ch.h5",
+            "sha256": "160dd126c848f8898e44205dcedbb239dd35bc9a792a990b818a1095072d0b01",
+            "X_shape": [
+              4582,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 9,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr9_5ch.h5",
+            "sha256": "2be46c5c3a26a1d6a8c10f4bf807e704ac585727abb6acfc5e24b49a703ac89c",
+            "X_shape": [
+              2842,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 16,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr16_5ch.h5",
+            "sha256": "ff2c042f5ca37a80b0b31694354d440803af4e56f497802c5434a9d7a0380040",
+            "X_shape": [
+              4687,
+              101,
+              5
+            ]
+          }
+        ],
+        "test": [
+          {
+            "chromosome": 1,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr1_5ch.h5",
+            "sha256": "b1670e098d10c81fd402851a1c8908a8426fc924df361306c19b9e2c78b044df",
+            "X_shape": [
+              8758,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 8,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr8_5ch.h5",
+            "sha256": "dca8b9dd78f92ef27d0950970d0750a48bf6e86404e8b7f0b5e5e0a8c71c7d8e",
+            "X_shape": [
+              3170,
+              101,
+              5
+            ]
+          },
+          {
+            "chromosome": 15,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr15_5ch.h5",
+            "sha256": "0f002e80a9e66eb2ae6793b98f2b66b62e87dcaf7d06e55f6664f74705ada529",
+            "X_shape": [
+              2129,
+              101,
+              5
+            ]
+          }
+        ]
+      },
+      "seed0_checkpoint": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PTBP1_K562_ENCSR981WKN/baseline/model_params.pth",
+      "seed0_sha256": "61387c833f3ecafe0dcae4d875183076d06c91b84f1dc38c179204c4ccb58ac6"
+    }
+  },
+  "jobs": [
+    {
+      "task": "HNRNPK_K562_ENCSR268ETU",
+      "seed": 1,
+      "argv": [
+        "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/venv/bin/python3",
+        "-u",
+        "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/source/marcp_train_seed1.py",
+        "--CUDA",
+        "-1",
+        "--task",
+        "HNRNPK_K562_ENCSR268ETU",
+        "--output",
+        "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/outputs/HNRNPK_K562_ENCSR268ETU/seed1",
+        "-train",
+        "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr3_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr4_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr5_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr6_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr7_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr10_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr11_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr12_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr13_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr14_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr17_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr18_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr19_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr20_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr21_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr22_5ch.h5",
+        "-validation",
+        "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr2_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr9_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr16_5ch.h5",
+        "-test",
+        "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr1_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr8_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr15_5ch.h5",
+        "--lr",
+        "0.000785",
+        "--signalMax",
+        "0",
+        "--seqLength",
+        "101",
+        "--bsz",
+        "256",
+        "--encode",
+        "OneHot",
+        "--modelFramework",
+        "Treat",
+        "--epochs",
+        "100",
+        "--max_stopping_step",
+        "9",
+        "--input_channels",
+        "5",
+        "--num_workers",
+        "0",
+        "--prefetch_factor",
+        "4",
+        "--resource_fraction",
+        "0.9",
+        "--lossM",
+        "CombinedProfileLoss",
+        "--alpha",
+        "1.42",
+        "--beta",
+        "0.54",
+        "--gamma",
+        "1.80",
+        "--loss_scale",
+        "1.0",
+        "--weight_decay",
+        "0.000114",
+        "--grad_clip",
+        "2.0",
+        "--lr_decay_count_max",
+        "5",
+        "--lr_min",
+        "1e-7"
+      ],
+      "cwd": "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/source",
+      "output": "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/outputs/HNRNPK_K562_ENCSR268ETU/seed1",
+      "log": "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/logs/HNRNPK_K562_ENCSR268ETU_seed1.log"
+    },
+    {
+      "task": "HNRNPK_K562_ENCSR268ETU",
+      "seed": 2,
+      "argv": [
+        "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/venv/bin/python3",
+        "-u",
+        "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/source/marcp_train_seed2.py",
+        "--CUDA",
+        "-1",
+        "--task",
+        "HNRNPK_K562_ENCSR268ETU",
+        "--output",
+        "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/outputs/HNRNPK_K562_ENCSR268ETU/seed2",
+        "-train",
+        "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr3_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr4_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr5_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr6_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr7_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr10_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr11_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr12_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr13_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr14_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr17_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr18_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr19_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr20_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr21_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr22_5ch.h5",
+        "-validation",
+        "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr2_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr9_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr16_5ch.h5",
+        "-test",
+        "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr1_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr8_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr15_5ch.h5",
+        "--lr",
+        "0.000785",
+        "--signalMax",
+        "0",
+        "--seqLength",
+        "101",
+        "--bsz",
+        "256",
+        "--encode",
+        "OneHot",
+        "--modelFramework",
+        "Treat",
+        "--epochs",
+        "100",
+        "--max_stopping_step",
+        "9",
+        "--input_channels",
+        "5",
+        "--num_workers",
+        "0",
+        "--prefetch_factor",
+        "4",
+        "--resource_fraction",
+        "0.9",
+        "--lossM",
+        "CombinedProfileLoss",
+        "--alpha",
+        "1.42",
+        "--beta",
+        "0.54",
+        "--gamma",
+        "1.80",
+        "--loss_scale",
+        "1.0",
+        "--weight_decay",
+        "0.000114",
+        "--grad_clip",
+        "2.0",
+        "--lr_decay_count_max",
+        "5",
+        "--lr_min",
+        "1e-7"
+      ],
+      "cwd": "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/source",
+      "output": "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/outputs/HNRNPK_K562_ENCSR268ETU/seed2",
+      "log": "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/logs/HNRNPK_K562_ENCSR268ETU_seed2.log"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": 1,
+      "argv": [
+        "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/venv/bin/python3",
+        "-u",
+        "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/source/marcp_train_seed1.py",
+        "--CUDA",
+        "-1",
+        "--task",
+        "PTBP1_K562_ENCSR981WKN",
+        "--output",
+        "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/outputs/PTBP1_K562_ENCSR981WKN/seed1",
+        "-train",
+        "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr3_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr4_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr5_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr6_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr7_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr10_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr11_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr12_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr13_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr14_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr17_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr18_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr19_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr20_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr21_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr22_5ch.h5",
+        "-validation",
+        "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr2_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr9_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr16_5ch.h5",
+        "-test",
+        "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr1_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr8_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr15_5ch.h5",
+        "--lr",
+        "0.000785",
+        "--signalMax",
+        "0",
+        "--seqLength",
+        "101",
+        "--bsz",
+        "256",
+        "--encode",
+        "OneHot",
+        "--modelFramework",
+        "Treat",
+        "--epochs",
+        "100",
+        "--max_stopping_step",
+        "9",
+        "--input_channels",
+        "5",
+        "--num_workers",
+        "0",
+        "--prefetch_factor",
+        "4",
+        "--resource_fraction",
+        "0.9",
+        "--lossM",
+        "CombinedProfileLoss",
+        "--alpha",
+        "1.42",
+        "--beta",
+        "0.54",
+        "--gamma",
+        "1.80",
+        "--loss_scale",
+        "1.0",
+        "--weight_decay",
+        "0.000114",
+        "--grad_clip",
+        "2.0",
+        "--lr_decay_count_max",
+        "5",
+        "--lr_min",
+        "1e-7"
+      ],
+      "cwd": "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/source",
+      "output": "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/outputs/PTBP1_K562_ENCSR981WKN/seed1",
+      "log": "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/logs/PTBP1_K562_ENCSR981WKN_seed1.log"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": 2,
+      "argv": [
+        "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/venv/bin/python3",
+        "-u",
+        "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/source/marcp_train_seed2.py",
+        "--CUDA",
+        "-1",
+        "--task",
+        "PTBP1_K562_ENCSR981WKN",
+        "--output",
+        "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/outputs/PTBP1_K562_ENCSR981WKN/seed2",
+        "-train",
+        "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr3_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr4_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr5_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr6_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr7_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr10_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr11_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr12_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr13_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr14_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr17_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr18_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr19_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr20_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr21_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr22_5ch.h5",
+        "-validation",
+        "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr2_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr9_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr16_5ch.h5",
+        "-test",
+        "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr1_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr8_5ch.h5,/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr15_5ch.h5",
+        "--lr",
+        "0.000785",
+        "--signalMax",
+        "0",
+        "--seqLength",
+        "101",
+        "--bsz",
+        "256",
+        "--encode",
+        "OneHot",
+        "--modelFramework",
+        "Treat",
+        "--epochs",
+        "100",
+        "--max_stopping_step",
+        "9",
+        "--input_channels",
+        "5",
+        "--num_workers",
+        "0",
+        "--prefetch_factor",
+        "4",
+        "--resource_fraction",
+        "0.9",
+        "--lossM",
+        "CombinedProfileLoss",
+        "--alpha",
+        "1.42",
+        "--beta",
+        "0.54",
+        "--gamma",
+        "1.80",
+        "--loss_scale",
+        "1.0",
+        "--weight_decay",
+        "0.000114",
+        "--grad_clip",
+        "2.0",
+        "--lr_decay_count_max",
+        "5",
+        "--lr_min",
+        "1e-7"
+      ],
+      "cwd": "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/source",
+      "output": "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/outputs/PTBP1_K562_ENCSR981WKN/seed2",
+      "log": "/data/CARBON_PROJECT/evidence_expansion_r4_20260924/training_repeats/logs/PTBP1_K562_ENCSR981WKN_seed2.log"
+    }
+  ],
+  "execution_files_sha256": {
+    "evaluate_repeats.py": "305d2356a68019ba799e3069ca4d728d20a4813509c954fe5acf78f982bc8b00",
+    "prepare_remote.py": "f8fdd3f7259d93a5b8af132b7bda602a47856721bcd6daa38d05f6626421dd65",
+    "supervise.py": "c90553c99c34c8e8db25a570fbe3e6f1a0a9abfbf4e3bbe49ccee7ca881d421a"
+  }
+}

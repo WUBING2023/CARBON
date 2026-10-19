@@ -1,0 +1,14 @@
+MEME version 4
+ALPHABET= ACGU
+strands: +
+Background letter frequencies:
+A 0.25 C 0.25 G 0.25 U 0.25
+
+MOTIF pos_pattern_0
+letter-probability matrix: alength= 4 w= 6 nsites= 20 E= 0
+  0.994214	0.003794	0.000996	0.000996
+  0.070941	0.000996	0.927067	0.000996
+  0.000996	0.000996	0.994214	0.003794
+  0.174459	0.003794	0.815155	0.006592
+  0.991416	0.000996	0.000996	0.006592
+  0.000996	0.000996	0.997012	0.000996

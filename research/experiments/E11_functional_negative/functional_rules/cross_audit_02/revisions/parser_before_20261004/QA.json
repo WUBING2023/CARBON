@@ -1,0 +1,50 @@
+{
+  "pass": true,
+  "checks": 39,
+  "source_7mers": 16382,
+  "all_1024_5mers": 1024,
+  "occurrence_min": 47,
+  "occurrence_max": 48,
+  "construct_AA_length": 464,
+  "construct_metadata": {
+    "JPLE_ID": "T036955_1.95d",
+    "Motif_ID": "RNCMPT00026",
+    "Gene_systematic_ID": "ENSG00000165119",
+    "Protein_name": "HNRNPK",
+    "Species": "Homo_sapiens",
+    "Kingdom": "Metazoa",
+    "Deb_Notes": "",
+    "Project": "Nature Paper 2013",
+    "Domains": "KH,KH,KH",
+    "Domain_Boundaries": "44,104,146,209,389,451",
+    "RBD_or_RBR_AA_Seq": "ELRILLQSKNAGAVIGKGGKNIKALRTDYNASVSVPDSSGPERILSISADIETIGEILKKI,ELRLLIHQSLAGGIIGVKGAKIKELRENTQTTIKLFQECCPHSTDRVVLIGGKPDRVVECIKII,TTQVTIPKDLAGSIIGKGGQRIKQIRHESGASIKIDEPLEGSEDRIITITGTQDQIQNAQYLL",
+    "Construct_AA_seq": "METEQPEETFPNTETNGEFGKRPAEDMEEEQAFKRSRNTDEMVELRILLQSKNAGAVIGKGGKNIKALRTDYNASVSVPDSSGPERILSISADIETIGEILKKIIPTLEEGLQLPSPTATSQLPLESDAVECLNYQHYKGSDFDCELRLLIHQSLAGGIIGVKGAKIKELRENTQTTIKLFQECCPHSTDRVVLIGGKPDRVVECIKIILDLISESPIKGRAQPYDPNFYDETYDYGGFTMMFDDRRGRPVGFPMRGRGGFDRMPPGRGGRPMPPSRRDYDDMSPRRGPPPPPPGRGGRGGSRARNLPLPPPPPPRGGDLMAYDRRGRPGDRYDGMVGFSADETWDSAIDTWSPSEWQMAYEPQGGSGYDYSYAGGRGSYGDLGGPIITTQVTIPKDLAGSIIGKGGQRIKQIRHESGASIKIDEPLEGSEDRIITITGTQDQIQNAQYLLQNSVKQYADVEGF",
+    "Plasmid_ID": "pTH7710",
+    "Hyb_ID": "734",
+    "Source": "Michael Freeman",
+    "Source_Reference": "PMID: 23846655",
+    "RNAcompete_logo": "",
+    "PWM_Summary (IUPAC)": "CCAANCC",
+    "Motifcluster": "34",
+    "AvgZtop10": "5.45",
+    "Highest Pearson (expiriment, ID)": "0.87 (RNCMPT00215 34.3)",
+    "Highest ID (experiment, Pearson)": "75.0 (RNCMPT01679 0.74)",
+    "Highest Pearson other study (expiriment, ID)": "0.77 (RNCMPT00054 16.2)",
+    "Highest ID other study (experiment, Pearson)": "75.0 (RNCMPT00182 0.74)"
+  },
+  "author_A_B_agreement_lines": [
+    "RNCMPT00026 0.924 0.4 0.54 0.731"
+  ],
+  "author_AB_raw_matrices_independently_tested": false,
+  "Ccount_lex_recall20": 0.25,
+  "Ccount_boundary_expected_recall20": 0.1288888888888889,
+  "Ccount_all_words_rho": 0.8103570824528985,
+  "bootstrap_unit": "385 native gene/locus clusters; two cell backgrounds/3 seeds not independent proteins; one external HNRNPK assay",
+  "bootstrap_point_above_upper_explained": "non-smooth top20 rule extraction is biased downward under resampling; direct31-draw independent replay and all24 all-ones points passed if pass=true; percentileCI not calibrated superiority p",
+  "source_hashes": {
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\sources\\Zscores_420_origrncmpt.txt": "c4225eefb9561dfdb360858aad1a50545176df23638e62b077b7eb683877d6bd",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\HNRNPK_BOOTSTRAP_DRAWS.npz": "f93c48b569035e7abf8c3874ca6fa1c5a95aec6edb1c5a96645bf414d9f846bb",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\locus_mapping\\HNRNPK_NATIVE_COORDINATES.csv": "6a3851d150ea7b0f9513007b53a5c9d54dc51e15b9efa81cbaf11bfbffd98316",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\cross_audit_02.py": "1eedbf97d16ab5863f2d4a3f4cccbaee5db9d1e4682f9177040b3518bb613feb"
+  }
+}

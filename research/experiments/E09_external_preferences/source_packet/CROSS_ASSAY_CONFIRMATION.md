@@ -1,0 +1,7 @@
+# Independent assay check for the two RBNS proteins
+
+Frozen 2026-10-04 before loading HNRNPK RNCMPT00026 and RBFOX2 RNCMPT00818 Z-score columns. These are same-protein measured RNAcompete experiments identified by the author's source metadata, not inferred JPLE profiles. HNRNPK's record is linked to Ray et al. Nature2013 (PMID23846655); RBFOX2's record is from the later RBPZoo study. They have published set-A/set-B 7-mer Pearson agreement of .924 and .979 respectively. Purified constructs are 464 and 168 amino acids; the RBFOX2 RRM construct is not claimed to be the entire cellular protein.
+
+Reuse exactly Candidate A native IG and Candidate B central five-mer response predictions; no new inference, context, output head, protein, seed, rank method or assay concentration. Fold the two original 7-mer score columns using the same occurrence-preserving 7→5 mapping, absent two 7-mers not imputed. Report native IG recall20 (A primary), mean-occurrence IG Spearman (A secondary), controlled-response Spearman (B primary) and composition-matched concordance (B secondary). No one endpoint is selected to replace another.
+
+This is a cross-assay robustness check within the two pre-existing proteins, not two new independent proteins or wet experiments. PTBP1's existing two RNAcompete experiments are already exposed and are not reclassified as new confirmation. Because Candidate A/B conclusions have been seen, the targeted check is transparently exploratory, with independent measurement but no claim of prospective blind validation.

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "PrismNet Fig.6: complete published figure",
+    "path": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v4\\work_variants\\fig5_v3\\references\\prismnet_41422_2021_476_Fig6_HTML.png",
+    "sha256": "e79b75ac2d5bd8f590889514356f3c4593fa41d3b77f40a0d99a7e9dee624605",
+    "figure_width_mm": 178
+  },
+  {
+    "title": "PrismNet Fig.7: complete published figure",
+    "path": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v4\\work_variants\\fig5_v3\\references\\prismnet_41422_2021_476_Fig7_HTML.png",
+    "sha256": "ef85c3f1c35a7fe5dad63403c53f31d78d2eee350cf20a9a5d96105b257688ef",
+    "figure_width_mm": 178
+  },
+  {
+    "title": "Scrambler Fig.3: complete published figure",
+    "path": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v4\\work_variants\\fig5_v3\\references\\scrambler_Fig3.jpg",
+    "sha256": "04f454d04dea5bee17c34644e13de3396c0b328af432f2e2942d560c5c000b25",
+    "figure_width_mm": 178
+  },
+  {
+    "title": "CARBON v3: accepted complete figure,178 x190mm",
+    "path": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v4\\work_variants\\fig5_v3\\fig5.pdf",
+    "sha256": "664fc6e8f6c01629b765141baf30be7bfa6422039f782aea631e77785083f03d",
+    "figure_width_mm": 178
+  },
+  {
+    "title": "CARBON v4: compact complete figure,178 x142mm",
+    "path": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v4\\work_variants\\fig5_v4\\fig5.pdf",
+    "sha256": "0023e4217e66b0846d8118f9294cde4a279b63317c3129c082c4be973af5a3e6",
+    "figure_width_mm": 178
+  }
+]

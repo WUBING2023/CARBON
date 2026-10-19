@@ -1,0 +1,3 @@
+task_id,status,n_seqlets_raw,n_instances_out,n_skipped_example,n_skipped_chrom,n_skipped_bed,n_skipped_motif_count,message
+AARS_K562_ENCSR825SVO,ok,152,34,0,118,0,0,
+AATF_K562_ENCSR819XBT,ok,367,56,0,311,0,0,

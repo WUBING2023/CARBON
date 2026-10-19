@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-04T12:12:12.296001+00:00",
+  "source_files": [
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\ptbp_splicing_feasibility\\ENCFF061DFK_SE.MATS.JunctionCountOnly.txt",
+      "sha256": "29de55576d50cbf834818cc98b38b76f7c52032492426b8e4ef5c631cdbd0c46"
+    },
+    {
+      "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\ptbp_splicing_feasibility\\ENCFF044JDS_SE.MATS.JunctionCountOnly.txt",
+      "sha256": "5a420c4668f50d8408a1e115101ed23ffc9e9ea3f7f769dccd34a45d0b554d32"
+    }
+  ],
+  "chain_sha256": "5c0598e500ceb5a78c73086929e8ef993aec309bcafb595139b53d440b125a1d",
+  "script_sha256": "51bb80ae11cdd12404c141c78e597a2bbd20810100c30849dae46d5df70ca4cc",
+  "protocol_sha256": "1ce686c3c26724ebfbe1f7d964d922d284b4621f73e0c3fed52ae6e4e2a0b016",
+  "addendum_sha256": "4b7ed0c729adf1672be88c4e3f6d5435c4290391aa619df224f1fa5e67d0612d",
+  "qualification_sha256": "f3ee53cb618b993591b96b5f1bdd33851974e2fb01517fa9fceaa7a7d1b1468e",
+  "windows_sha256": "5ab0796570b3c4bcd2c9a15fc3fc489a6f412ff3235f6c34361a4080c375c096",
+  "rounded_source_delta_max_error": 0.0005000000000000004,
+  "n_windows": 19490,
+  "model_scores_loaded": false,
+  "strict_all_101_mapping": true,
+  "six_exon_halfopen_boundaries": true
+}

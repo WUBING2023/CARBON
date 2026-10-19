@@ -1,0 +1,160 @@
+{
+  "device": "CPU4",
+  "protocol_sha256": "ada37a30967507e24fa41f7586598f3265670f6793e78bddb48e1382315f0681",
+  "control_source_sha256": "905f265eb1bce43c5afcce75969672105f15f80735ed08f4d13481872a8c5404",
+  "seeds": [
+    {
+      "seed": 11,
+      "parameters": 100871,
+      "initial_state_sha256": "06b9f5cbbbcfdd2ec4497489985103d1df4994a6e9aef1ad5fb7b2ecdda56a0a",
+      "common_full_initial_state_sha256": "9448acafcf1d1ea61bbc98cae9c9e7c5fc883452e736fc5006165804c920a4f3",
+      "exact_output_max_error": {
+        "logits_profile": 0.0,
+        "log_total_count": 0.0
+      },
+      "conv_kernels": {
+        "motif.branches.0.0": [
+          3
+        ],
+        "motif.branches.1.0": [
+          5
+        ],
+        "motif.branches.2.0": [
+          7
+        ],
+        "motif.se.1": [
+          1
+        ],
+        "motif.se.3": [
+          1
+        ],
+        "motif.fuse": [
+          1
+        ],
+        "motif.shortcut": [
+          1
+        ],
+        "mixer.residual_proj": [
+          1
+        ],
+        "mixer.position_mlp.0": [
+          1
+        ],
+        "mixer.position_mlp.2": [
+          1
+        ],
+        "profile_head.net.0": [
+          1
+        ],
+        "profile_head.net.4": [
+          1
+        ],
+        "profile_head.net.8": [
+          1
+        ]
+      }
+    },
+    {
+      "seed": 23,
+      "parameters": 100871,
+      "initial_state_sha256": "a8ddebc239bbd220780b35a86a404a0416207df70da40a3d40e8dd7e027f66c8",
+      "common_full_initial_state_sha256": "b4513b68895583cae26134788798aa428aa15619b4568ebd192989603d5cbd9b",
+      "exact_output_max_error": {
+        "logits_profile": 0.0,
+        "log_total_count": 0.0
+      },
+      "conv_kernels": {
+        "motif.branches.0.0": [
+          3
+        ],
+        "motif.branches.1.0": [
+          5
+        ],
+        "motif.branches.2.0": [
+          7
+        ],
+        "motif.se.1": [
+          1
+        ],
+        "motif.se.3": [
+          1
+        ],
+        "motif.fuse": [
+          1
+        ],
+        "motif.shortcut": [
+          1
+        ],
+        "mixer.residual_proj": [
+          1
+        ],
+        "mixer.position_mlp.0": [
+          1
+        ],
+        "mixer.position_mlp.2": [
+          1
+        ],
+        "profile_head.net.0": [
+          1
+        ],
+        "profile_head.net.4": [
+          1
+        ],
+        "profile_head.net.8": [
+          1
+        ]
+      }
+    },
+    {
+      "seed": 47,
+      "parameters": 100871,
+      "initial_state_sha256": "d76f17c7eabc4e67a5230e339bc043b9314b63fb52916a8fd6cf6acca504366f",
+      "common_full_initial_state_sha256": "ec95094b7439afd4443174a7a7149f0f5814ab6a9fa68a5bd767e0065e884dcc",
+      "exact_output_max_error": {
+        "logits_profile": 0.0,
+        "log_total_count": 0.0
+      },
+      "conv_kernels": {
+        "motif.branches.0.0": [
+          3
+        ],
+        "motif.branches.1.0": [
+          5
+        ],
+        "motif.branches.2.0": [
+          7
+        ],
+        "motif.se.1": [
+          1
+        ],
+        "motif.se.3": [
+          1
+        ],
+        "motif.fuse": [
+          1
+        ],
+        "motif.shortcut": [
+          1
+        ],
+        "mixer.residual_proj": [
+          1
+        ],
+        "mixer.position_mlp.0": [
+          1
+        ],
+        "mixer.position_mlp.2": [
+          1
+        ],
+        "profile_head.net.0": [
+          1
+        ],
+        "profile_head.net.4": [
+          1
+        ],
+        "profile_head.net.8": [
+          1
+        ]
+      }
+    }
+  ]
+}

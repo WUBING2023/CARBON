@@ -1,0 +1,145 @@
+{
+  "windows": [
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "chromosome": "chr1",
+      "start0": 629699,
+      "end0": 629800,
+      "strand": "+",
+      "processed_row": 28,
+      "raw_seq_matches": true,
+      "onehot_exact": true,
+      "phylop_max_abs_error": 0.0,
+      "x_sha256": "7ea7fc7731a1773650cd1f9f685c89cb4634e2ea4f8d510f77865580b74c3776"
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "chromosome": "chr1",
+      "start0": 629806,
+      "end0": 629907,
+      "strand": "+",
+      "processed_row": 29,
+      "raw_seq_matches": true,
+      "onehot_exact": true,
+      "phylop_max_abs_error": 0.0,
+      "x_sha256": "87f0743efbc99109a5df7264e765db17f9f29e433a3ee58a1691673a0ffc06ad"
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "chromosome": "chr1",
+      "start0": 629889,
+      "end0": 629990,
+      "strand": "+",
+      "processed_row": 30,
+      "raw_seq_matches": true,
+      "onehot_exact": true,
+      "phylop_max_abs_error": 0.0,
+      "x_sha256": "6471b5b0accce67bc1fbf0307057264dcad51629db549a5d7824da4860508636"
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "chromosome": "chr1",
+      "start0": 632511,
+      "end0": 632612,
+      "strand": "+",
+      "processed_row": 32,
+      "raw_seq_matches": true,
+      "onehot_exact": true,
+      "phylop_max_abs_error": 0.0,
+      "x_sha256": "cd9731996e798f2925d8939d532929dbd41c96f6c720fa77ad20511fc93be078"
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "chromosome": "chr1",
+      "start0": 633905,
+      "end0": 634006,
+      "strand": "+",
+      "processed_row": 33,
+      "raw_seq_matches": true,
+      "onehot_exact": true,
+      "phylop_max_abs_error": 0.0,
+      "x_sha256": "f703904926036c041f8b1fb3b8643ee2852b148343def9c4d063699464faa244"
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "chromosome": "chr1",
+      "start0": 16221,
+      "end0": 16322,
+      "strand": "-",
+      "processed_row": 0,
+      "raw_seq_matches": true,
+      "onehot_exact": true,
+      "phylop_max_abs_error": 0.0,
+      "x_sha256": "086afd9527e8c02cb94d509a9fa2c7af4eb02939239c23a0c922d450df35b7d6"
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "chromosome": "chr1",
+      "start0": 16496,
+      "end0": 16597,
+      "strand": "-",
+      "processed_row": 1,
+      "raw_seq_matches": true,
+      "onehot_exact": true,
+      "phylop_max_abs_error": 0.0,
+      "x_sha256": "5a2b7f3816d62e4f32e94bc0bc2d5bfc137962c6efad2a5d84387bf410fcfb83"
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "chromosome": "chr1",
+      "start0": 17468,
+      "end0": 17569,
+      "strand": "-",
+      "processed_row": 2,
+      "raw_seq_matches": true,
+      "onehot_exact": true,
+      "phylop_max_abs_error": 0.0,
+      "x_sha256": "f837af328e1433fe3f1a20f9e1be50f50badba8eb69ef2263685354c92cb3509"
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "chromosome": "chr1",
+      "start0": 17537,
+      "end0": 17638,
+      "strand": "-",
+      "processed_row": 3,
+      "raw_seq_matches": true,
+      "onehot_exact": true,
+      "phylop_max_abs_error": 0.0,
+      "x_sha256": "5089e4a33b98ea2631971489642a3386e74d98c0c09b284d2b3adf7483a1533f"
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "chromosome": "chr1",
+      "start0": 135173,
+      "end0": 135274,
+      "strand": "-",
+      "processed_row": 4,
+      "raw_seq_matches": true,
+      "onehot_exact": true,
+      "phylop_max_abs_error": 0.0,
+      "x_sha256": "c3c4983babe71d534bca32fe3eab9446b85ec40ee27c2c4147d0c74098f72d6a"
+    }
+  ],
+  "passed": true,
+  "raw_h5_sha256": "5f90be990d53a7f1ac8c07055e2d4947213fe09728aca54c1d97fff3542ab389",
+  "processed_h5_sha256": "3b116e9f2006618a4efef8dd53d21e57adba3f8fd2f68ef41e4898df883f6ddf",
+  "fasta_index_sha256": "4f647148c0c13dd701073830aee3fc65be896886ea1a747ef92177d5f6abc219",
+  "protocol_sha256": "9c3cef0ba13fa580dbdae7b7613f59a71943c0868791edafa229b0567dbf8260",
+  "candidate_sha256": "83bcbd14869e68e9d028132d91104dbeeaf2459f701473fdd2df70c8f17184ec",
+  "runner_sha256": "7ed622b15d79dc420df96dc96731f147e689f61f2938837eb5d517924bd2c283",
+  "sources": {
+    "/data/CARBON_PROJECT/\u6570\u636e\u5904\u7406/gencodeV29/GRCh38.p12.genome.fa": {
+      "bytes": 3306428199,
+      "mtime_ns": 1538152149000000000
+    },
+    "/data/CARBON_PROJECT/\u6570\u636e/phyloP/hg38.phyloP100way.bw": {
+      "bytes": 9870053206,
+      "mtime_ns": 1771625625000000000
+    },
+    "/data/USER_HOME/anaconda3/envs/ideepb/lib/python3.8/site-packages/pyBigWig.cpython-38-x86_64-linux-gnu.so": {
+      "bytes": 178552,
+      "mtime_ns": 1717609359516641616
+    }
+  }
+}

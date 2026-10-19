@@ -1,0 +1,25 @@
+{
+  "n_proteins": 28,
+  "n_new_proteins": 25,
+  "n_exposed": 3,
+  "n_tasks": 42,
+  "conditions": [
+    "full",
+    "sequence",
+    "frozen_flat",
+    "frozen_perm"
+  ],
+  "n_contexts": 16,
+  "n_words": 1024,
+  "n_protein_bootstrap": 10000,
+  "universal_base_count_predictors": [
+    "A",
+    "C",
+    "G",
+    "T"
+  ],
+  "score_mapping": "observed7mer occurrence mean",
+  "word_pairs_not_bio_n": true,
+  "not_phi_causal_comparison": true,
+  "model_and_input_checkpoints_verified": true
+}

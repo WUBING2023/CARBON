@@ -1,0 +1,99 @@
+{
+  "version": "v20",
+  "native_mm": [
+    178.0,
+    191.0
+  ],
+  "panels": {
+    "a": "all25 full/sequence primary/secondary deltas and original CIs",
+    "b": "all30 literal QKI nodes/all48 edges and all192 frozen responses",
+    "c": "HNRNPA1 external/native contrast and all64 responses",
+    "d": "ACVR1B exact input, source replicate counts, all control outputs and3 biological reporter measurements per allele",
+    "e": "CERS2 exact input,source counts,GEMIN5 controls,all reporter replicates and other YBX3 locus event",
+    "f": "complete396 Full/Sequence credit contingency, all5 frozen macro rates/intervals",
+    "g": "complete13 clinical responses in shared absolute scale"
+  },
+  "real_variant_vertical_fraction": 0.6230366492146597,
+  "case_selection": [
+    {
+      "panel": "d",
+      "event_id": "K562:UPF1:chr12_52388891_+",
+      "variant_key": "chr12:51995107:A:G",
+      "shared_Phi": true,
+      "selected_posthoc": true,
+      "response_linear_symmetric_bound": 0.01923804759979248,
+      "RNA_preferred": "A",
+      "RNA_other": "G",
+      "all_locus_event_ids": [
+        "K562:UPF1:chr12_52388891_+"
+      ]
+    },
+    {
+      "panel": "e",
+      "event_id": "K562:GEMIN5:chr1_150940625_-",
+      "variant_key": "chr1:150968149:T:G",
+      "shared_Phi": true,
+      "selected_posthoc": true,
+      "response_linear_symmetric_bound": 0.08635781764984131,
+      "RNA_preferred": "C",
+      "RNA_other": "A",
+      "all_locus_event_ids": [
+        "K562:GEMIN5:chr1_150940625_-",
+        "K562:YBX3:chr1_150940625_-"
+      ]
+    }
+  ],
+  "clinical_union_unchanged": true,
+  "ASB_contingency": [
+    [
+      124,
+      61
+    ],
+    [
+      43,
+      168
+    ]
+  ],
+  "all24_reporter_matches_in_supplement": true,
+  "no_new_training_inference_or_hypothesis_tests": true,
+  "out_of_page_text": [],
+  "sources": [
+    {
+      "path": "frozen_inputs\\reporter_validation\\SELECTED_CASES.json",
+      "sha256": "294c1452d7a0be2e84b8b0b28f8f37550f1ee9f458881c8a6444c536e2094d00"
+    },
+    {
+      "path": "frozen_inputs\\reporter_validation\\ALL24_REPORTER_LOCUS_ASB_EVENTS.csv",
+      "sha256": "7dbec6e9c41ecb1696d40e896a8ad8262c3b02a46aef4b5c1e930018f1884627"
+    },
+    {
+      "path": "frozen_inputs\\reporter_validation\\ALL66_REPORTER_BIOLOGICAL_MEASUREMENTS.csv",
+      "sha256": "560eef6d0b82d6db91d1c2d96286d434d53cf924313de0999fda8e2dedd6c9dd"
+    },
+    {
+      "path": "frozen_inputs\\reporter_validation\\PROTOCOL_AND_SELECTION.json",
+      "sha256": "d142be89190854c9497414a09df94e67b0c7a18a9c431055ff31f3ad8a1f6bf2"
+    },
+    {
+      "path": "frozen_inputs\\work_variants\\STRICT396_WITH_ANNOTATIONS.csv",
+      "sha256": "e18c7702ee63bf929f094aebbf4ffdd190c65d6baf11283d09b97bef91d06a00"
+    },
+    {
+      "path": "frozen_inputs\\S23_external_order_preferences\\FROZEN_PRIMARY_METRICS.csv",
+      "sha256": "f5451b6521dcbd77845da10138a1fad32cb396f72a2037b0f07464595ba2713c"
+    },
+    {
+      "path": "frozen_inputs\\S23_external_order_preferences\\FROZEN_PRIMARY_CONTRASTS.csv",
+      "sha256": "cd9e00d1a6e38c54d54af85f4f7d99225bd064a39a6ca8bf59bd58b8a864d1d6"
+    },
+    {
+      "path": "frozen_inputs\\work_variants\\b1_reference\\INTERVENTION_PACKET.npz",
+      "sha256": "f184db62c3d5b2903dee51b7f3172e090b5c6f71a1d2d5c550cc6d2430b131a9"
+    },
+    {
+      "path": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v20\\work_disease\\DISEASE_ALL13_EVENT_RESULTS.csv",
+      "sha256": "8e85eb6909f9e0e7d78ade7fbdc24666c0f67f2cfacaa6023eab590ac2c4f415"
+    }
+  ],
+  "plotted_values": 919
+}

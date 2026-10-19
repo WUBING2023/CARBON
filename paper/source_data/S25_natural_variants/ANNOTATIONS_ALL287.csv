@@ -1,0 +1,288 @@
+variant_key,chrom,pos0,pos1,ref,alt,ncbi_status,rsids,ncbi_exact_GRCh38_REF_ALT,ncbi_alt_af_1000g,ncbi_1000g_version,ncbi_1000g_alt_count,ncbi_1000g_total_count,ncbi_1000g_observed_alleles,clinvar_measure_ids,clinvar_linked_terms,clinvar_linked_review_status,ensembl_success,ensembl_exact_REF_ALT,ensembl_alt_af_1000g,ensembl_rsids,ensembl_clinical_significance,ensembl_most_severe_consequence,clinvar_direct_classification,clinvar_direct_VCV,clinvar_direct_review,clinvar_direct_SPDI_verified,NCBI_annotation_region,NCBI_consequence_terms
+chr8:616619:A:G,chr8,616618,616619,A,G,found,rs68122960,True,0.8564297124600639,1.0,4289.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr8:624691:C:T,chr8,624690,624691,C,T,found,rs11782786,True,0.1657348242811501,1.0,830.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr8:631272:G:A,chr8,631271,631272,G,A,found,rs1703872,True,0.2112619808306709,1.0,1058.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr8:651226:G:T,chr8,651225,651226,G,T,found,rs1703910,True,0.415535143769968,1.0,2081.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,3_prime_UTR_variant;genic_downstream_transcript_variant;intron_variant
+chr8:664111:G:C,chr8,664110,664111,G,C,found,rs1530903,True,0.667332268370607,1.0,3342.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,downstream_transcript_variant;genic_downstream_transcript_variant;intron_variant
+chr8:666646:C:T,chr8,666645,666646,C,T,found,rs2280001,True,0.1916932907348242,1.0,960.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr8:1831914:G:A,chr8,1831913,1831914,G,A,found,rs7387636,True,,,,,,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:1832131:G:A,chr8,1832130,1832131,G,A,found,rs60618547,True,,,,,,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:1833824:C:T,chr8,1833823,1833824,C,T,found,rs62477479,True,0.3043130990415335,1.0,1524.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant;upstream_transcript_variant
+chr8:1834329:G:A,chr8,1834328,1834329,G,A,found,rs6558551,True,0.5305511182108626,1.0,2657.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant;upstream_transcript_variant
+chr8:1844359:A:G,chr8,1844358,1844359,A,G,found,rs73176767,True,,,,,,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:1844364:A:G,chr8,1844363,1844364,A,G,found,rs6989221,True,,,,,,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:1844394:A:G,chr8,1844393,1844394,A,G,found,rs6989234,True,0.0734824281150159,1.0,368.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:1844397:T:C,chr8,1844396,1844397,T,C,found,rs6993318,True,0.0734824281150159,1.0,368.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:1844424:A:C,chr8,1844423,1844424,A,C,found,rs146852777,True,0.0087859424920127,1.0,44.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:1844426:C:T,chr8,1844425,1844426,C,T,found,rs150166609,True,,,,,,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:1844440:C:T,chr8,1844439,1844440,C,T,found,rs10100210,True,,,,,,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:2811705:A:G,chr8,2811704,2811705,A,G,found,rs12676330,True,0.3326677316293929,1.0,1666.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:2812183:A:C,chr8,2812182,2812183,A,C,found,rs881037,True,0.2795527156549521,1.0,1400.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:6743128:C:G,chr8,6743127,6743128,C,G,request_failed,,False,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr8:6746076:A:T,chr8,6746075,6746076,A,T,found,rs2911972,True,,,,,,,,,False,False,,,,,,,,,intronic,2KB_upstream_variant;intron_variant;upstream_transcript_variant
+chr8:8354641:T:C,chr8,8354640,8354641,T,C,found,rs34796521,True,0.415535143769968,1.0,2081.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:9035094:C:T,chr8,9035093,9035094,C,T,found,rs34004903,True,0.3628194888178914,1.0,1817.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr8:11803105:C:T,chr8,11803104,11803105,C,T,found,rs1497042,True,0.5099840255591054,1.0,2554.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,2KB_upstream_variant;5_prime_UTR_variant;genic_upstream_transcript_variant;intron_variant;upstream_transcript_variant
+chr8:11803407:C:T,chr8,11803406,11803407,C,T,found,rs2252567,True,0.5095846645367412,1.0,2552.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,5_prime_UTR_variant;genic_upstream_transcript_variant;intron_variant
+chr8:11805039:C:T,chr8,11805038,11805039,C,T,found,rs2686198,True,0.7380191693290735,1.0,3696.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:11808009:A:G,chr8,11808008,11808009,A,G,found,rs1736067,True,0.7406150159744409,1.0,3709.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,5_prime_UTR_variant;genic_upstream_transcript_variant;intron_variant;upstream_transcript_variant
+chr8:11808450:C:T,chr8,11808449,11808450,C,T,found,rs1032577,True,0.5555111821086262,1.0,2782.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant;upstream_transcript_variant
+chr8:11816081:C:T,chr8,11816080,11816081,C,T,found,rs148662539,True,0.0161741214057507,1.0,81.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:11817284:A:C,chr8,11817283,11817284,A,C,found,rs6994126,True,0.2072683706070287,1.0,1038.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:11819781:C:G,chr8,11819780,11819781,C,G,found,rs2409830,True,0.5946485623003195,1.0,2978.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:11819796:G:C,chr8,11819795,11819796,G,C,found,rs2409831,True,0.4085463258785942,1.0,2046.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:11826113:T:C,chr8,11826112,11826113,T,C,found,rs2229247,True,0.040535143769968,1.0,203.0,5008.0,2.0,,,,False,False,,,,,,,,,coding,coding_sequence_variant
+chr8:11830450:C:T,chr8,11830449,11830450,C,T,found,rs2294137,True,0.2989217252396166,1.0,1497.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:11831719:T:G,chr8,11831718,11831719,T,G,found,rs2409836,True,0.6561501597444089,1.0,3286.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:11850846:G:A,chr8,11850845,11850846,G,A,found,rs2272766,True,0.3847843450479233,1.0,1927.0,5008.0,2.0,1165038.0,benign,criteria_provided_single_submitter,False,False,,,,,Benign,VCV001165038.12,"criteria provided, multiple submitters, no conflicts",True,intronic,intron_variant
+chr8:13173646:A:T,chr8,13173645,13173646,A,T,found,rs2410027,True,0.5177715654952076,1.0,2593.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;genic_upstream_transcript_variant;intron_variant
+chr8:13175045:C:T,chr8,13175044,13175045,C,T,found,rs9325875,True,0.7813498402555911,1.0,3913.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;genic_upstream_transcript_variant;intron_variant
+chr8:13229253:G:A,chr8,13229252,13229253,G,A,found,rs1653032,True,0.6805111821086262,1.0,3408.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;genic_upstream_transcript_variant;intron_variant
+chr8:15682854:A:T,chr8,15682853,15682854,A,T,found,rs2098507,True,0.1303913738019169,1.0,653.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:17284556:C:T,chr8,17284555,17284556,C,T,found,rs2285269,True,0.3496405750798722,1.0,1751.0,5008.0,2.0,380876.0,benign,criteria_provided_multiple_submitters_no_conflicts;criteria_provided_single_submitter,True,True,0.3496,rs2285269,benign;uncertain_significance,synonymous_variant,Benign,VCV000380876.10,"criteria provided, multiple submitters, no conflicts",True,coding,coding_sequence_variant;non_coding_transcript_variant
+chr8:17655905:G:A,chr8,17655904,17655905,G,A,found,rs12224,True,0.0770766773162939,1.0,386.0,5008.0,2.0,,,,True,True,0.0771,rs12224,,synonymous_variant,,,,,coding,coding_sequence_variant;non_coding_transcript_variant
+chr8:17755366:A:G,chr8,17755365,17755366,A,G,found,rs3739407,True,0.7102635782747604,1.0,3557.0,5008.0,2.0,,,,True,True,0.7103,rs3739407,,missense_variant,,,,,coding,coding_sequence_variant;genic_upstream_transcript_variant;non_coding_transcript_variant
+chr8:22404670:G:C,chr8,22404669,22404670,G,C,found,rs896377,True,0.2865415335463259,1.0,1435.0,5008.0,2.0,1177990.0,benign,criteria_provided_single_submitter,True,True,0.2865,rs896377,benign,5_prime_UTR_variant,Benign,VCV001177990.5,"criteria provided, multiple submitters, no conflicts",True,intronic,intron_variant
+chr8:23027640:G:A,chr8,23027639,23027640,G,A,found,rs2293402,True,0.2643769968051118,1.0,1324.0,5008.0,2.0,,,,True,True,0.2644,rs2293402,,intron_variant,,,,,intronic,intron_variant
+chr8:23027641:G:A,chr8,23027640,23027641,G,A,found,rs1105945,True,0.5397364217252396,1.0,2703.0,5008.0,2.0,,,,True,True,0.5397,rs1105945,,intron_variant,,,,,intronic,intron_variant
+chr8:23028507:A:G,chr8,23028506,23028507,A,G,found,rs13265018,True,0.8628194888178914,1.0,4321.0,5008.0,2.0,3059674.0,benign,criteria_provided_single_submitter,True,True,0.8628,rs13265018,benign,missense_variant,Benign,VCV003059674.2,no assertion criteria provided,True,coding,coding_sequence_variant;intron_variant
+chr8:23029500:C:G,chr8,23029499,23029500,C,G,found,rs6420148,True,0.849241214057508,1.0,4253.0,5008.0,2.0,,,,True,True,0.8492,rs6420148,,intron_variant,,,,,intronic,intron_variant
+chr8:23151093:T:A,chr8,23151092,23151093,T,A,found,rs7014131,True,0.2370207667731629,1.0,1187.0,5008.0,2.0,,,,True,True,0.237,rs7014131,,intron_variant,,,,,intronic,intron_variant
+chr8:23536524:T:G,chr8,23536523,23536524,T,G,found,rs2137301,True,0.1587460063897763,1.0,795.0,5008.0,2.0,,,,True,True,0.1587,rs2137301,,intron_variant,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:23566245:G:A,chr8,23566244,23566245,G,A,found,rs10992,True,0.4055511182108626,1.0,2031.0,5008.0,2.0,,,,True,True,0.4056,rs10992,,synonymous_variant,,,,,coding,5_prime_UTR_variant;coding_sequence_variant
+chr8:25439414:C:T,chr8,25439413,25439414,C,T,found,rs2271112,True,0.4169329073482428,1.0,2088.0,5008.0,2.0,,,,True,True,0.4169,rs2271112,,splice_region_variant,,,,,intronic,intron_variant
+chr8:26294088:G:T,chr8,26294087,26294088,G,T,found,rs2046224,True,0.5509185303514377,1.0,2759.0,5008.0,2.0,,,,True,True,0.5509,rs2046224,,intron_variant,,,,,intronic,intron_variant
+chr8:26294286:G:T,chr8,26294285,26294286,G,T,found,rs2046225,True,0.5503194888178914,1.0,2756.0,5008.0,2.0,,,,True,True,0.5503,rs2046225,,intron_variant,,,,,intronic,intron_variant
+chr8:26294534:G:A,chr8,26294533,26294534,G,A,found,rs2046226,True,0.5505191693290735,1.0,2757.0,5008.0,2.0,,,,True,True,0.5505,rs2046226,,intron_variant,,,,,intronic,intron_variant
+chr8:26300332:G:A,chr8,26300331,26300332,G,A,found,rs17055106,True,0.5011980830670927,1.0,2510.0,5008.0,2.0,,,,True,True,0.5012,rs17055106,,intron_variant,,,,,intronic,intron_variant
+chr8:26308252:C:T,chr8,26308251,26308252,C,T,found,rs57281374,True,0.0998402555910543,1.0,500.0,5008.0,2.0,,,,True,True,0.0998,rs57281374,,intron_variant,,,,,intronic,intron_variant
+chr8:26315183:G:T,chr8,26315182,26315183,G,T,found,rs7003030,True,0.5505191693290735,1.0,2757.0,5008.0,2.0,,,,True,True,0.5505,rs7003030,,intron_variant,,,,,intronic,intron_variant
+chr8:26324719:G:A,chr8,26324718,26324719,G,A,found,rs4871972,True,0.0605031948881789,1.0,303.0,5008.0,2.0,,,,True,True,0.0605,rs4871972,,intron_variant,,,,,intronic,intron_variant
+chr8:26587153:T:C,chr8,26587152,26587153,T,C,found,rs327234,True,0.5263578274760383,1.0,2636.0,5008.0,2.0,,,,True,True,0.5264,rs327234,,intron_variant,,,,,intronic,intron_variant;non_coding_transcript_variant
+chr8:27435818:G:T,chr8,27435817,27435818,G,T,found,rs11774417,True,0.2000798722044728,1.0,1002.0,5008.0,3.0,,,,True,True,0.2001,rs11774417,,intron_variant,,,,,intronic,intron_variant
+chr8:28150898:A:G,chr8,28150897,28150898,A,G,found,rs10111096,True,0.7000798722044729,1.0,3506.0,5008.0,2.0,,,,True,True,0.7001,rs10111096,,intron_variant,,,,,intronic,intron_variant
+chr8:28997585:C:T,chr8,28997584,28997585,C,T,found,rs11136054,True,0.5814696485623003,1.0,2912.0,5008.0,2.0,,,,True,True,0.5815,rs11136054,,intron_variant,,,,,intronic,intron_variant
+chr8:29060320:G:A,chr8,29060319,29060320,G,A,found,rs1466626,True,0.0469249201277955,1.0,235.0,5008.0,2.0,,,,True,True,0.0469,rs1466626,,intron_variant,,,,,unavailable,
+chr8:29070288:T:G,chr8,29070287,29070288,T,G,found,rs11775056,True,0.4550718849840255,1.0,2279.0,5008.0,2.0,,,,True,True,0.4551,rs11775056,,3_prime_UTR_variant,,,,,UTR,3_prime_UTR_variant;genic_downstream_transcript_variant
+chr8:29073078:T:G,chr8,29073077,29073078,T,G,found,rs867597372,True,,,,,,,,,True,True,,rs867597372,,intron_variant,,,,,intronic,intron_variant
+chr8:38918905:C:G,chr8,38918904,38918905,C,G,found,rs7829336,True,0.8168929712460063,1.0,4091.0,5008.0,2.0,,,,True,True,0.8169,rs7829336,,intron_variant,,,,,intronic,intron_variant
+chr8:41657369:G:A,chr8,41657368,41657369,G,A,found,rs12544241,True,0.5856629392971247,1.0,2933.0,5008.0,2.0,,,,True,True,0.5857,rs12544241,,intron_variant,,,,,intronic,intron_variant
+chr8:41659472:G:A,chr8,41659471,41659472,G,A,found,rs484328,True,0.2517971246006389,1.0,1261.0,5008.0,2.0,,,,True,True,0.2518,rs484328,,intron_variant,,,,,intronic,2KB_upstream_variant;intron_variant;upstream_transcript_variant
+chr8:41660341:G:A,chr8,41660340,41660341,G,A,found,rs565491,True,0.2937300319488818,1.0,1471.0,5008.0,2.0,,,,True,True,0.2937,rs565491,,intron_variant,,,,,intronic,2KB_upstream_variant;500B_downstream_variant;downstream_transcript_variant;intron_variant;upstream_transcript_variant
+chr8:41675683:T:C,chr8,41675682,41675683,T,C,found,rs521467,True,0.7505990415335463,1.0,3759.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:41677885:T:C,chr8,41677884,41677885,T,C,found,rs554340,True,0.7507987220447284,1.0,3760.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:41696410:C:G,chr8,41696409,41696410,C,G,found,rs504574,True,0.4071485623003195,1.0,2039.0,5008.0,2.0,261301.0,benign,criteria_provided_multiple_submitters_no_conflicts;criteria_provided_single_submitter,False,False,,,,,Benign/Likely benign,VCV000261301.33,"criteria provided, multiple submitters, no conflicts",True,coding,coding_sequence_variant;genic_upstream_transcript_variant
+chr8:41725776:C:T,chr8,41725775,41725776,C,T,found,rs2304873,True,0.1050319488817891,1.0,526.0,5008.0,2.0,261319.0,benign,criteria_provided_multiple_submitters_no_conflicts;criteria_provided_single_submitter,False,False,,,,,Benign/Likely benign,VCV000261319.31,"criteria provided, multiple submitters, no conflicts",True,coding,coding_sequence_variant;genic_upstream_transcript_variant
+chr8:41795953:T:G,chr8,41795952,41795953,T,G,found,rs79432940,True,0.016573482428115,1.0,83.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,2KB_upstream_variant;genic_upstream_transcript_variant;intron_variant;upstream_transcript_variant
+chr8:42035322:G:A,chr8,42035321,42035322,G,A,found,rs146679787,True,0.0021964856230031,1.0,11.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:52703595:C:G,chr8,52703594,52703595,C,G,found,rs72633843,True,0.0079872204472843,1.0,40.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:53831500:G:A,chr8,53831499,53831500,G,A,found,rs541859843,True,,,,,,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:53971001:T:C,chr8,53971000,53971001,T,C,found,rs78679641,True,0.0581070287539936,1.0,291.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:53973092:G:A,chr8,53973091,53973092,G,A,found,rs191746637,True,0.0025958466453674,1.0,13.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:54059889:T:C,chr8,54059888,54059889,T,C,found,rs1048312412,True,,,,,,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:55748505:A:C,chr8,55748504,55748505,A,C,found,rs4737416,True,0.1715255591054313,1.0,859.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr8:55749131:C:A,chr8,55749130,55749131,C,A,found,rs11998723,True,0.8853833865814696,1.0,4434.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr8:57203955:A:T,chr8,57203954,57203955,A,T,found,rs79018015,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr8:57203966:G:A,chr8,57203965,57203966,G,A,found,rs80067974,True,0.0001996805111821,1.0,1.0,5008.0,2.0,,,,False,False,,,,,,,,,unavailable,
+chr8:57203981:G:T,chr8,57203980,57203981,G,T,found,rs77392211,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr8:57203982:T:C,chr8,57203981,57203982,T,C,found,rs75154538,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr8:57204190:C:A,chr8,57204189,57204190,C,A,found,rs73605810,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr8:57204216:G:A,chr8,57204215,57204216,G,A,found,rs72505448,True,0.1759185303514377,1.0,881.0,5008.0,2.0,,,,False,False,,,,,,,,,unavailable,
+chr8:57206008:A:T,chr8,57206007,57206008,A,T,found,rs983793685,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr8:57215198:G:A,chr8,57215197,57215198,G,A,found,rs4738582,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr8:57215344:T:G,chr8,57215343,57215344,T,G,found,rs73605845,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr8:73734250:C:T,chr8,73734249,73734250,C,T,found,rs200352642,True,,,,,,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:73734253:A:T,chr8,73734252,73734253,A,T,found,rs892072198,True,,,,,,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:75300521:G:T,chr8,75300520,75300521,G,T,found,rs1479102,True,0.737220447284345,1.0,3692.0,5008.0,2.0,,,,False,False,,,,,,,,,unavailable,
+chr8:89717140:G:A,chr8,89717139,89717140,G,A,found,rs218898,True,0.1863019169329073,1.0,933.0,5008.0,2.0,,,,False,False,,,,,,,,,other_annotated,500B_downstream_variant;downstream_transcript_variant
+chr8:89725030:G:A,chr8,89725029,89725030,G,A,found,rs7841459,True,0.0656948881789137,1.0,329.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:90221658:G:T,chr8,90221657,90221658,G,T,found,rs73695307,True,0.0726837060702875,1.0,364.0,5008.0,2.0,,,,False,False,,,,,,,,,other_annotated,non_coding_transcript_variant
+chr8:90259802:A:T,chr8,90259801,90259802,A,T,found,rs12681228,True,0.3324680511182108,1.0,1665.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:90263487:G:T,chr8,90263486,90263487,G,T,found,rs56074279,True,0.4027555910543131,1.0,2017.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:90391048:G:C,chr8,90391047,90391048,G,C,found,rs9643276,True,0.5,1.0,2504.0,5008.0,2.0,,,,True,True,0.5,rs9643276,,intron_variant,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr8:90407566:A:G,chr8,90407565,90407566,A,G,found,rs4734974,True,0.5750798722044729,1.0,2880.0,5008.0,2.0,,,,True,True,0.5751,rs4734974,,intron_variant,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr8:90433121:A:G,chr8,90433120,90433121,A,G,found,rs10481088,True,0.452276357827476,1.0,2265.0,5008.0,2.0,,,,True,True,0.4523,rs10481088,,intron_variant,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr8:90492866:C:T,chr8,90492865,90492866,C,T,found,rs56784954,True,0.3418530351437699,1.0,1712.0,5008.0,2.0,,,,True,True,0.3419,rs56784954,,intron_variant,,,,,intronic,intron_variant
+chr8:90498789:C:G,chr8,90498788,90498789,C,G,found,rs35816262,True,0.340055910543131,1.0,1703.0,5008.0,2.0,,,,True,True,0.3401,rs35816262,,intron_variant,,,,,intronic,intron_variant
+chr8:90522877:G:A,chr8,90522876,90522877,G,A,found,rs7817954,True,0.4490814696485623,1.0,2249.0,5008.0,2.0,,,,True,True,0.4491,rs7817954,,intron_variant,,,,,intronic,intron_variant
+chr8:90523837:A:G,chr8,90523836,90523837,A,G,found,rs7012741,True,0.5898562300319489,1.0,2954.0,5008.0,2.0,,,,True,True,0.5899,rs7012741,,intron_variant,,,,,intronic,intron_variant
+chr8:92777450:G:A,chr8,92777449,92777450,G,A,found,rs6991223,True,0.6273961661341853,1.0,3142.0,5008.0,2.0,,,,True,True,0.6274,rs6991223,,intron_variant,,,,,intronic,intron_variant
+chr8:92858396:G:A,chr8,92858395,92858396,G,A,found,rs67030246,True,0.1964856230031949,1.0,984.0,5008.0,2.0,,,,True,True,0.1965,rs67030246,,intron_variant,,,,,other_annotated,non_coding_transcript_variant
+chr8:98042085:G:T,chr8,98042084,98042085,G,T,found,rs1227869842,True,,,,,,,,,True,True,,rs1227869842,,non_coding_transcript_exon_variant,,,,,intronic,500B_downstream_variant;downstream_transcript_variant;intron_variant
+chr8:98044922:C:A,chr8,98044921,98044922,C,A,found,rs11777189,True,0.2507987220447284,1.0,1256.0,5008.0,2.0,,,,True,True,0.2508,rs11777189,,3_prime_UTR_variant,,,,,intronic,intron_variant
+chr8:98825434:C:G,chr8,98825433,98825434,C,G,found,rs1200416966,True,,,,,,,,,True,True,,rs1200416966,,intron_variant,,,,,intronic,intron_variant
+chr8:100706886:C:G,chr8,100706885,100706886,C,G,found,rs867553381,True,,,,,,,,,True,True,,rs867553381,,splice_donor_variant,,,,,splice,splice_donor_variant
+chr8:100707208:C:G,chr8,100707207,100707208,C,G,found,rs1786321,True,0.6255990415335463,1.0,3133.0,5008.0,2.0,,,,True,True,0.6256,rs1786321,,intron_variant,,,,,intronic,intron_variant
+chr8:104555495:T:C,chr8,104555494,104555495,T,C,found,rs12676758,True,0.0573083067092651,1.0,287.0,5008.0,2.0,,,,True,True,0.0573,rs12676758,,intron_variant,,,,,intronic,intron_variant
+chr8:116705269:A:C,chr8,116705268,116705269,A,C,found,rs78089454,True,0.0009984025559105,1.0,5.0,5008.0,2.0,,,,True,True,0.001,rs78089454,,intron_variant,,,,,intronic,intron_variant
+chr8:116717512:T:C,chr8,116717511,116717512,T,C,found,rs4876673,True,0.3853833865814696,1.0,1930.0,5008.0,2.0,,,,True,True,0.3854,rs4876673,,intron_variant,,,,,intronic,intron_variant
+chr8:120658543:A:G,chr8,120658542,120658543,A,G,found,rs7464975,True,0.8176916932907349,1.0,4095.0,5008.0,2.0,,,,True,True,0.8177,rs7464975,,intron_variant,,,,,intronic,intron_variant
+chr8:120667157:G:C,chr8,120667156,120667157,G,C,found,rs6995583,True,0.59564696485623,1.0,2983.0,5008.0,2.0,,,,True,True,0.5956,rs6995583,,intron_variant,,,,,intronic,intron_variant
+chr8:120667399:C:T,chr8,120667398,120667399,C,T,found,rs35780243,True,0.5958466453674122,1.0,2984.0,5008.0,2.0,,,,True,True,0.5958,rs35780243,,intron_variant,,,,,intronic,intron_variant
+chr8:122828007:G:A,chr8,122828006,122828007,G,A,found,rs62521564,True,0.2927316293929712,1.0,1466.0,5008.0,2.0,,,,True,True,0.2927,rs62521564,,intron_variant,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr8:122873461:G:A,chr8,122873460,122873461,G,A,found,rs10089605,True,0.3909744408945687,1.0,1958.0,5008.0,2.0,,,,True,True,0.391,rs10089605,,5_prime_UTR_variant,,,,,UTR,5_prime_UTR_variant;intron_variant
+chr8:123434556:T:C,chr8,123434555,123434556,T,C,found,rs13252731,True,0.4103434504792332,1.0,2055.0,5008.0,2.0,,,,True,True,0.4103,rs13252731,,intron_variant,,,,,intronic,intron_variant
+chr8:123434573:T:C,chr8,123434572,123434573,T,C,found,rs13252748,True,0.4103434504792332,1.0,2055.0,5008.0,2.0,,,,True,True,0.4103,rs13252748,,intron_variant,,,,,intronic,intron_variant
+chr8:124539024:C:T,chr8,124539023,124539024,C,T,found,rs761386065,True,,,,,,,,,True,True,,,,splice_donor_variant,,,,,splice,2KB_upstream_variant;5_prime_UTR_variant;genic_upstream_transcript_variant;non_coding_transcript_variant;splice_donor_variant;upstream_transcript_variant
+chr8:127190119:G:C,chr8,127190118,127190119,G,C,request_failed,,False,,,,,,,,,True,True,,,,non_coding_transcript_exon_variant,,,,,unavailable,
+chr8:127196854:C:T,chr8,127196853,127196854,C,T,found,rs59549948,True,0.231629392971246,1.0,1160.0,5008.0,2.0,,,,True,True,0.2316,rs59549948,,intron_variant,,,,,intronic,intron_variant
+chr8:127939559:C:T,chr8,127939558,127939559,C,T,found,rs2278176,True,0.2080670926517571,1.0,1042.0,5008.0,2.0,,,,True,True,0.2081,rs2278176,,non_coding_transcript_exon_variant,,,,,other_annotated,non_coding_transcript_variant
+chr8:128004101:C:T,chr8,128004100,128004101,C,T,found,rs1529335,True,0.1285942492012779,1.0,644.0,5008.0,2.0,,,,True,True,0.1286,rs1529335,,intron_variant,,,,,intronic,intron_variant
+chr8:128004114:G:T,chr8,128004113,128004114,G,T,found,rs75452227,True,0.0385383386581469,1.0,193.0,5008.0,2.0,,,,True,True,0.0385,rs75452227,,intron_variant,,,,,intronic,intron_variant
+chr8:128029524:G:A,chr8,128029523,128029524,G,A,found,rs80198633,True,0.1228035143769968,1.0,615.0,5008.0,2.0,,,,True,True,0.1228,rs80198633,,intron_variant,,,,,intronic,intron_variant
+chr8:128096577:C:T,chr8,128096576,128096577,C,T,found,rs11604,True,0.2585862619808307,1.0,1295.0,5008.0,2.0,,,,True,True,0.2586,rs11604,,non_coding_transcript_exon_variant,,,,,other_annotated,non_coding_transcript_variant
+chr8:133237922:A:G,chr8,133237921,133237922,A,G,found,rs1049697,True,0.8302715654952076,1.0,4158.0,5008.0,2.0,362015.0,benign,criteria_provided_single_submitter,True,True,0.8303,rs1049697,benign,3_prime_UTR_variant,Benign,VCV000362015.6,"criteria provided, multiple submitters, no conflicts",True,UTR,3_prime_UTR_variant
+chr8:133238187:C:T,chr8,133238186,133238187,C,T,found,rs1049694,True,0.2717651757188498,1.0,1361.0,5008.0,2.0,362019.0,benign,criteria_provided_single_submitter,True,True,0.2718,rs1049694,benign,3_prime_UTR_variant,Benign,VCV000362019.6,"criteria provided, multiple submitters, no conflicts",True,UTR,3_prime_UTR_variant
+chr8:140515228:A:G,chr8,140515227,140515228,A,G,found,rs2231524,True,0.0347444089456869,1.0,174.0,5008.0,2.0,,,,True,True,0.0347,rs2231524,,missense_variant,,,,,coding,coding_sequence_variant;non_coding_transcript_variant
+chr8:141269984:T:C,chr8,141269983,141269984,T,C,found,rs13267590,True,0.7166533546325878,1.0,3589.0,5008.0,2.0,,,,True,True,0.7167,rs13267590,,intron_variant,,,,,UTR,5_prime_UTR_variant;genic_upstream_transcript_variant;intron_variant
+chr8:141279697:C:T,chr8,141279696,141279697,C,T,found,rs34270591,True,0.2511980830670926,1.0,1258.0,5008.0,2.0,,,,True,True,0.2512,rs34270591,,intron_variant,,,,,UTR,5_prime_UTR_variant;genic_upstream_transcript_variant;intron_variant
+chr8:141306582:C:T,chr8,141306581,141306582,C,T,found,rs13267532,True,0.3119009584664536,1.0,1562.0,5008.0,2.0,,,,True,True,0.3119,rs13267532,,intron_variant,,,,,intronic,genic_upstream_transcript_variant;intron_variant;upstream_transcript_variant
+chr8:143021330:C:T,chr8,143021329,143021330,C,T,found,rs11547127,True,0.0834664536741214,1.0,418.0,5008.0,2.0,,,,True,True,0.0835,rs11547127,,missense_variant,,,,,coding,coding_sequence_variant
+chr8:143269946:G:A,chr8,143269945,143269946,G,A,found,rs7387960,True,0.4744408945686901,1.0,2376.0,5008.0,2.0,,,,True,True,0.4744,rs7387960,,intron_variant,,,,,intronic,intron_variant
+chr8:143275822:A:G,chr8,143275821,143275822,A,G,found,rs2293923,True,0.5235623003194888,1.0,2622.0,5008.0,2.0,,,,True,True,0.5236,rs2293923,,3_prime_UTR_variant,,,,,intronic,intron_variant
+chr8:143309558:A:G,chr8,143309557,143309558,A,G,found,rs7386475,True,0.5846645367412141,1.0,2928.0,5008.0,2.0,1599764.0,benign,criteria_provided_single_submitter,True,True,0.5847,rs7386475,benign,splice_polypyrimidine_tract_variant,Benign,VCV001599764.10,"criteria provided, multiple submitters, no conflicts",True,UTR,3_prime_UTR_variant;genic_downstream_transcript_variant;intron_variant
+chr8:143309626:G:A,chr8,143309625,143309626,G,A,found,rs10088567,True,0.4588658146964856,1.0,2298.0,5008.0,2.0,,,,True,True,0.4589,rs10088567,,3_prime_UTR_variant,,,,,UTR,3_prime_UTR_variant;genic_downstream_transcript_variant;intron_variant
+chr8:143309703:A:G,chr8,143309702,143309703,A,G,found,rs10105378,True,0.5734824281150159,1.0,2872.0,5008.0,2.0,,,,True,True,0.5735,rs10105378,,3_prime_UTR_variant,,,,,UTR,3_prime_UTR_variant;genic_downstream_transcript_variant;intron_variant
+chr8:143597129:G:A,chr8,143597128,143597129,G,A,found,rs112147940,True,0.0569089456869009,1.0,285.0,5008.0,2.0,,,,True,True,0.0569,rs112147940,,5_prime_UTR_variant,,,,,UTR,2KB_upstream_variant;5_prime_UTR_variant;intron_variant;upstream_transcript_variant
+chr8:143733493:C:G,chr8,143733492,143733493,C,G,found,rs56052843,True,0.2593849840255591,1.0,1299.0,5008.0,2.0,,,,True,True,0.2594,rs56052843,,5_prime_UTR_variant,,,,,intronic,2KB_upstream_variant;intron_variant;upstream_transcript_variant
+chr8:143793573:G:C,chr8,143793572,143793573,G,C,found,rs4875055,True,0.6537539936102237,1.0,3274.0,5008.0,2.0,,,,True,True,0.6538,rs4875055,,non_coding_transcript_exon_variant,,,,,intronic,intron_variant
+chr8:143809598:C:T,chr8,143809597,143809598,C,T,found,rs118022661,True,0.0177715654952076,1.0,89.0,5008.0,2.0,,,,True,True,0.0178,rs118022661,,missense_variant,,,,,coding,coding_sequence_variant
+chr8:143922855:C:T,chr8,143922854,143922855,C,T,found,rs146381488,True,0.001996805111821,1.0,10.0,5008.0,2.0,93077.0,benign;likely-benign,criteria_provided_multiple_submitters_no_conflicts;criteria_provided_single_submitter,True,True,0.002,rs146381488,benign;likely_benign,synonymous_variant,Benign/Likely benign,VCV000093077.60,"criteria provided, multiple submitters, no conflicts",True,coding,coding_sequence_variant;intron_variant
+chr8:143992609:G:T,chr8,143992608,143992609,G,T,found,rs748467516,True,,,,,,,,,True,True,,,,splice_donor_variant,,,,,splice,genic_upstream_transcript_variant;intron_variant;splice_donor_variant
+chr8:144361103:C:T,chr8,144361102,144361103,C,T,found,rs376997594,True,0.0013977635782747,1.0,7.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,3_prime_UTR_variant;non_coding_transcript_variant
+chr8:144451706:G:A,chr8,144451705,144451706,G,A,found,rs11542372,True,0.4375,1.0,2191.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr8:144459595:G:A,chr8,144459594,144459595,G,A,found,rs11784118,True,0.4482827476038338,1.0,2245.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:20386702:G:A,chr15,20386701,20386702,G,A,found,rs8028480,True,0.1918929712460063,1.0,961.0,5008.0,2.0,,,,False,False,,,,,,,,,unavailable,
+chr15:20392440:G:A,chr15,20392439,20392440,G,A,found,rs4779421,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr15:20394502:G:A,chr15,20394501,20394502,G,A,found,rs866495984,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr15:20394776:C:T,chr15,20394775,20394776,C,T,found,rs866179704,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr15:20394787:C:G,chr15,20394786,20394787,C,G,found,rs867887857,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr15:20402452:T:A,chr15,20402451,20402452,T,A,found,rs4779416,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr15:20403168:C:A,chr15,20403167,20403168,C,A,found,rs71466702,True,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr15:20419625:G:A,chr15,20419624,20419625,G,A,found,rs4931995,True,,,,,,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:20420048:T:C,chr15,20420047,20420048,T,C,found,rs12148351,True,,,,,,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:20421159:T:C,chr15,20421158,20421159,T,C,found,rs12440329,True,,,,,,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:24955890:C:T,chr15,24955889,24955890,C,T,found,rs220028,True,0.461461661341853,1.0,2311.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant;upstream_transcript_variant
+chr15:24962486:C:T,chr15,24962485,24962486,C,T,found,rs445368,True,0.1279952076677316,1.0,641.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:24962540:C:T,chr15,24962539,24962540,C,T,found,rs445264,True,0.1257987220447284,1.0,630.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:24974365:T:C,chr15,24974364,24974365,T,C,found,rs705,True,0.5217651757188498,1.0,2613.0,5008.0,2.0,315447.0,benign;likely-benign,criteria_provided_single_submitter,False,False,,,,,Benign/Likely benign,VCV000315447.10,"criteria provided, multiple submitters, no conflicts",True,UTR,3_prime_UTR_variant;5_prime_UTR_variant;genic_downstream_transcript_variant;intron_variant;non_coding_transcript_variant
+chr15:24979194:G:T,chr15,24979193,24979194,G,T,found,rs11637528,True,0.0587060702875399,1.0,294.0,5008.0,2.0,,,,False,False,,,,,,,,,other_annotated,500B_downstream_variant;downstream_transcript_variant;non_coding_transcript_variant
+chr15:24986469:T:C,chr15,24986468,24986469,T,C,found,rs2554423,True,0.0527156549520766,1.0,264.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,2KB_upstream_variant;intron_variant;non_coding_transcript_variant;upstream_transcript_variant
+chr15:24988403:G:A,chr15,24988402,24988403,G,A,found,rs2732028,True,0.1723242811501597,1.0,863.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,500B_downstream_variant;downstream_transcript_variant;intron_variant
+chr15:24990142:C:G,chr15,24990141,24990142,C,G,found,rs74335291,True,0.2637779552715655,1.0,1321.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:24990145:G:A,chr15,24990144,24990145,G,A,found,rs2554422,True,0.0449281150159744,1.0,225.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:24990981:A:G,chr15,24990980,24990981,A,G,found,rs765438,True,0.5455271565495208,1.0,2732.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:24992196:C:T,chr15,24992195,24992196,C,T,found,rs10451029,True,0.5299520766773163,1.0,2654.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:24998031:T:C,chr15,24998030,24998031,T,C,found,rs189075424,True,0.0015974440894568,1.0,8.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:25030619:T:C,chr15,25030618,25030619,T,C,found,rs2732043,True,0.0489217252396166,1.0,245.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,2KB_upstream_variant;intron_variant;upstream_transcript_variant
+chr15:25036439:G:T,chr15,25036438,25036439,G,T,found,rs1045935,True,0.525758785942492,1.0,2633.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant;non_coding_transcript_variant
+chr15:25053674:T:C,chr15,25053673,25053674,T,C,found,rs41286588,True,0.0361421725239616,1.0,181.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,2KB_upstream_variant;intron_variant;upstream_transcript_variant
+chr15:25063187:A:G,chr15,25063186,25063187,A,G,found,rs62001991,True,0.0443290734824281,1.0,222.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,2KB_upstream_variant;intron_variant;upstream_transcript_variant
+chr15:25066213:A:T,chr15,25066212,25066213,A,T,found,rs11631691,True,0.1331869009584664,1.0,667.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,2KB_upstream_variant;intron_variant;upstream_transcript_variant
+chr15:25067548:G:A,chr15,25067547,25067548,G,A,found,rs11637737,True,0.3526357827476038,1.0,1766.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,2KB_upstream_variant;intron_variant;upstream_transcript_variant
+chr15:25071004:G:T,chr15,25071003,25071004,G,T,found,rs4906944,True,0.4408945686900958,1.0,2208.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,500B_downstream_variant;downstream_transcript_variant;intron_variant
+chr15:25072841:G:A,chr15,25072840,25072841,G,A,found,rs11637436,True,0.0357428115015974,1.0,179.0,5008.0,2.0,,,,False,False,,,,,,,,,other_annotated,2KB_upstream_variant;non_coding_transcript_variant;upstream_transcript_variant
+chr15:25079201:A:G,chr15,25079200,25079201,A,G,found,rs11632591,True,0.0367412140575079,1.0,184.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,2KB_upstream_variant;500B_downstream_variant;downstream_transcript_variant;intron_variant;upstream_transcript_variant
+chr15:25079530:A:T,chr15,25079529,25079530,A,T,found,rs11161166,True,0.4478833865814696,1.0,2243.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,2KB_upstream_variant;500B_downstream_variant;downstream_transcript_variant;intron_variant;upstream_transcript_variant
+chr15:25113429:G:A,chr15,25113428,25113429,G,A,found,rs62002010,True,0.0613019169329073,1.0,307.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:25116801:A:G,chr15,25116800,25116801,A,G,found,rs62002011,True,0.0369408945686901,1.0,185.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant;non_coding_transcript_variant
+chr15:25116932:G:A,chr15,25116931,25116932,G,A,found,rs62002013,True,0.0724840255591054,1.0,363.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant;non_coding_transcript_variant
+chr15:25117417:A:G,chr15,25117416,25117417,A,G,found,rs2356294,True,0.2535942492012779,1.0,1270.0,5008.0,2.0,,,,False,False,,,,,,,,,other_annotated,non_coding_transcript_variant
+chr15:25133465:G:A,chr15,25133464,25133465,G,A,found,rs2714714,True,0.3522364217252396,1.0,1764.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:30925961:T:C,chr15,30925960,30925961,T,C,found,rs2959037,True,0.7486022364217252,1.0,3749.0,5008.0,2.0,1241902.0,benign,criteria_provided_single_submitter,True,True,0.7486,rs2959037,benign,3_prime_UTR_variant,Benign,VCV001241902.4,"criteria provided, multiple submitters, no conflicts",True,intronic,genic_downstream_transcript_variant;intron_variant
+chr15:34360060:C:T,chr15,34360059,34360060,C,T,found,rs72625170,True,0.1100239616613418,1.0,551.0,5008.0,2.0,,,,True,True,0.11,rs72625170,,3_prime_UTR_variant,,,,,intronic,downstream_transcript_variant;genic_downstream_transcript_variant;intron_variant
+chr15:34379237:G:T,chr15,34379236,34379237,G,T,found,rs7727,True,0.637779552715655,1.0,3194.0,5008.0,2.0,,,,True,True,0.6378,rs7727,,3_prime_UTR_variant,,,,,UTR,3_prime_UTR_variant;genic_downstream_transcript_variant;non_coding_transcript_variant
+chr15:34437786:G:A,chr15,34437785,34437786,G,A,found,rs73378023,True,0.3282747603833866,1.0,1644.0,5008.0,2.0,,,,True,True,0.3283,rs73378023,,5_prime_UTR_variant,,,,,UTR,5_prime_UTR_variant;genic_upstream_transcript_variant;non_coding_transcript_variant
+chr15:36613928:A:G,chr15,36613927,36613928,A,G,found,rs7163791,True,0.1685303514376996,1.0,844.0,5008.0,2.0,,,,True,True,0.1685,rs7163791,,non_coding_transcript_exon_variant,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:38484129:T:G,chr15,38484128,38484129,T,G,found,rs61409403,True,0.3138977635782747,1.0,1572.0,5008.0,2.0,,,,True,True,0.3139,rs61409403,,intron_variant,,,,,intronic,intron_variant
+chr15:40161296:G:A,chr15,40161295,40161296,G,A,found,rs2277560,True,0.3496405750798722,1.0,1751.0,5008.0,2.0,1242493.0,benign,criteria_provided_single_submitter,True,True,0.3496,rs2277560,benign,intron_variant,Benign,VCV001242493.3,"criteria provided, multiple submitters, no conflicts",True,intronic,intron_variant
+chr15:40594423:T:C,chr15,40594422,40594423,T,C,found,rs3751653,True,0.3630191693290734,1.0,1818.0,5008.0,2.0,,,,True,True,0.363,rs3751653,,intron_variant,,,,,intronic,intron_variant
+chr15:40622847:T:G,chr15,40622846,40622847,T,G,found,rs8041534,True,0.351238019169329,1.0,1759.0,5008.0,2.0,128593.0,benign,criteria_provided_multiple_submitters_no_conflicts;criteria_provided_single_submitter,True,True,0.3512,rs8041534,benign,synonymous_variant,Benign,VCV000128593.16,"criteria provided, multiple submitters, no conflicts",True,coding,coding_sequence_variant
+chr15:41020866:C:G,chr15,41020865,41020866,C,G,found,rs3214068,True,0.3973642172523962,1.0,1990.0,5008.0,2.0,2688066.0,benign,criteria_provided_single_submitter,True,True,0.3974,rs3214068,benign,intron_variant,Benign,VCV002688066.2,"criteria provided, single submitter",True,intronic,intron_variant
+chr15:41332199:G:C,chr15,41332198,41332199,G,C,found,rs28492932,True,0.1521565495207667,1.0,762.0,5008.0,2.0,,,,True,True,0.1522,rs28492932,,5_prime_UTR_variant,,,,,intronic,2KB_upstream_variant;intron_variant;upstream_transcript_variant
+chr15:41840002:C:G,chr15,41840001,41840002,C,G,found,rs2077543,True,0.4944089456869009,1.0,2476.0,5008.0,2.0,,,,True,True,0.4944,rs2077543,,intron_variant,,,,,intronic,intron_variant
+chr15:42971807:G:A,chr15,42971806,42971807,G,A,found,rs1381855,True,0.4930111821086262,1.0,2469.0,5008.0,2.0,,,,True,True,0.493,rs1381855,,intron_variant,,,,,intronic,intron_variant
+chr15:43761419:C:T,chr15,43761418,43761419,C,T,found,rs8040336,True,0.3837859424920127,1.0,1922.0,5008.0,2.0,1250388.0,benign,criteria_provided_single_submitter,True,True,0.3838,rs8040336,benign,splice_region_variant,Benign,VCV001250388.5,"criteria provided, multiple submitters, no conflicts",True,intronic,intron_variant
+chr15:44538173:G:T,chr15,44538172,44538173,G,T,found,rs75825481,True,0.1629392971246006,1.0,816.0,5008.0,2.0,,,,True,True,0.1629,rs75825481,,3_prime_UTR_variant,,,,,intronic,2KB_upstream_variant;intron_variant;upstream_transcript_variant
+chr15:44633542:A:C,chr15,44633541,44633542,A,C,found,rs79708848,True,0.0051916932907348,1.0,26.0,5008.0,2.0,219609.0,benign;benign-likely-benign;uncertain-significance,criteria_provided_multiple_submitters_no_conflicts;criteria_provided_single_submitter,True,True,0.0052,rs79708848,benign;likely_benign;uncertain_significance,missense_variant,Conflicting classifications of pathogenicity,VCV000219609.35,"criteria provided, conflicting classifications",True,coding,coding_sequence_variant;genic_upstream_transcript_variant;non_coding_transcript_variant
+chr15:50356142:T:C,chr15,50356141,50356142,T,C,found,rs504781,True,0.2737619808306709,1.0,1371.0,5008.0,2.0,,,,True,True,0.2738,rs504781,,splice_region_variant,,,,,other_annotated,2KB_upstream_variant;non_coding_transcript_variant;upstream_transcript_variant
+chr15:55329656:A:G,chr15,55329655,55329656,A,G,found,rs78117879,True,0.0089856230031948,1.0,45.0,5008.0,2.0,,,,True,True,0.009,rs78117879,,intron_variant,,,,,intronic,intron_variant
+chr15:55682363:C:G,chr15,55682362,55682363,C,G,request_failed,,False,,,,,,,,,True,True,,,,splice_donor_variant,,,,,unavailable,
+chr15:56233181:C:A,chr15,56233180,56233181,C,A,request_failed,,False,,,,,,,,,True,True,,,,intron_variant,,,,,unavailable,
+chr15:56940958:A:G,chr15,56940957,56940958,A,G,found,rs551703700,True,0.0001996805111821,1.0,1.0,5008.0,2.0,,,,True,True,0.0002,rs551703700,,intron_variant,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:57953788:T:A,chr15,57953787,57953788,T,A,found,rs9325,True,0.2521964856230032,1.0,1263.0,5008.0,2.0,,,,True,True,0.2522,rs9325,,3_prime_UTR_variant,,,,,UTR,3_prime_UTR_variant
+chr15:57953831:T:C,chr15,57953830,57953831,T,C,found,rs1061278,True,0.3935702875399361,1.0,1971.0,5008.0,2.0,,,,True,True,0.3936,rs1061278,,3_prime_UTR_variant,,,,,UTR,3_prime_UTR_variant
+chr15:57954404:A:C,chr15,57954403,57954404,A,C,found,rs1063666,True,0.3881789137380191,1.0,1944.0,5008.0,2.0,,,,True,True,0.3882,rs1063666,,3_prime_UTR_variant,,,,,UTR,3_prime_UTR_variant
+chr15:57954604:G:C,chr15,57954603,57954604,G,C,found,rs3204689,True,0.2553913738019169,1.0,1279.0,5008.0,2.0,,,,True,True,0.2554,rs3204689,,3_prime_UTR_variant,,,,,UTR,3_prime_UTR_variant
+chr15:57965001:A:G,chr15,57965000,57965001,A,G,found,rs4646622,True,0.2525958466453674,1.0,1265.0,5008.0,2.0,,,,True,True,0.2526,rs4646622,,intron_variant,,,,,intronic,intron_variant
+chr15:57990423:C:A,chr15,57990422,57990423,C,A,found,rs12907125,True,0.3771964856230032,1.0,1889.0,5008.0,2.0,,,,True,True,0.3772,rs12907125,,non_coding_transcript_exon_variant,,,,,intronic,intron_variant
+chr15:58016056:C:A,chr15,58016055,58016056,C,A,found,rs2642632,True,0.5419329073482428,1.0,2714.0,5008.0,2.0,,,,True,True,0.5419,rs2642632,,intron_variant,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:58022650:G:A,chr15,58022649,58022650,G,A,found,rs12911071,True,0.2460063897763578,1.0,1232.0,5008.0,2.0,,,,True,True,0.246,rs12911071,,intron_variant,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:58024762:C:G,chr15,58024761,58024762,C,G,found,rs2642630,True,0.4910143769968051,1.0,2459.0,5008.0,2.0,,,,True,True,0.491,rs2642630,,intron_variant,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:58024896:G:T,chr15,58024895,58024896,G,T,found,rs2414529,True,0.3759984025559105,1.0,1883.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:58033314:G:C,chr15,58033313,58033314,G,C,found,rs74655564,True,0.2214456869009584,1.0,1109.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:58037330:G:C,chr15,58037329,58037330,G,C,found,rs4646579,True,0.3775958466453674,1.0,1891.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:60354746:A:G,chr15,60354745,60354746,A,G,found,rs2085037,True,0.7705670926517572,1.0,3859.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:60438226:G:C,chr15,60438225,60438226,G,C,found,rs11071533,True,0.6962859424920128,1.0,3487.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr15:60448642:C:T,chr15,60448641,60448642,C,T,found,rs17270146,True,0.1799121405750798,1.0,901.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr15:60475487:C:T,chr15,60475486,60475487,C,T,found,rs2123829,True,0.771964856230032,1.0,3866.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:62390947:C:T,chr15,62390946,62390947,C,T,found,rs2456932,True,0.3965654952076677,1.0,1986.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:64075546:T:C,chr15,64075545,64075546,T,C,found,rs332233,True,0.3759984025559105,1.0,1883.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:65300520:C:G,chr15,65300519,65300520,C,G,found,rs116890085,True,0.0153753993610223,1.0,77.0,5008.0,2.0,,,,False,False,,,,,,,,,unavailable,
+chr15:65300564:T:C,chr15,65300563,65300564,T,C,found,rs12441850,True,0.178314696485623,1.0,893.0,5008.0,2.0,,,,False,False,,,,,,,,,unavailable,
+chr15:66491040:G:T,chr15,66491039,66491040,G,T,found,rs56366941,True,0.0171725239616613,1.0,86.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,3_prime_UTR_variant;genic_downstream_transcript_variant;intron_variant
+chr15:66721457:G:T,chr15,66721456,66721457,G,T,found,rs2439398,True,0.1964856230031949,1.0,984.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr15:66722823:A:G,chr15,66722822,66722823,A,G,found,rs2469119,True,0.196685303514377,1.0,985.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr15:67040885:T:C,chr15,67040884,67040885,T,C,found,rs28451248,True,0.1539536741214057,1.0,771.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:67103718:G:A,chr15,67103717,67103718,G,A,found,rs72743436,True,0.1242012779552715,1.0,622.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:67627791:C:G,chr15,67627790,67627791,C,G,found,rs72749380,True,0.1391773162939297,1.0,697.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:67627800:C:T,chr15,67627799,67627800,C,T,found,rs58549750,True,0.148961661341853,1.0,746.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:69440036:G:A,chr15,69440035,69440036,G,A,request_failed,,False,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr15:74416392:C:A,chr15,74416391,74416392,C,A,request_failed,,False,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr15:74843916:A:C,chr15,74843915,74843916,A,C,found,rs6939,True,0.6156150159744409,1.0,3083.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,2KB_upstream_variant;3_prime_UTR_variant;upstream_transcript_variant
+chr15:74843920:C:G,chr15,74843919,74843920,C,G,found,rs6938,True,0.4684504792332268,1.0,2346.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,2KB_upstream_variant;3_prime_UTR_variant;upstream_transcript_variant
+chr15:75358699:T:C,chr15,75358698,75358699,T,C,found,rs62029712,True,,,,,,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:75450661:G:A,chr15,75450660,75450661,G,A,found,rs11637068,True,0.3763977635782747,1.0,1885.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:75639788:G:T,chr15,75639787,75639788,G,T,found,rs13737,True,0.3939696485623003,1.0,1973.0,5008.0,2.0,,,,False,False,,,,,,,,,coding,coding_sequence_variant
+chr15:77942609:A:C,chr15,77942608,77942609,A,C,found,rs567929946,True,0.0005990415335463,1.0,3.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:78540490:T:C,chr15,78540489,78540490,T,C,found,rs3813570,True,0.3740015974440894,1.0,1873.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,5_prime_UTR_variant;genic_upstream_transcript_variant;intron_variant;upstream_transcript_variant
+chr15:78661398:G:A,chr15,78661397,78661398,G,A,found,rs7163204,True,0.2579872204472843,1.0,1292.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,5_prime_UTR_variant;genic_upstream_transcript_variant
+chr15:79883953:C:T,chr15,79883952,79883953,C,T,found,rs60995187,True,0.1279952076677316,1.0,641.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:79922958:T:C,chr15,79922957,79922958,T,C,found,rs2733102,True,0.3452476038338658,1.0,1729.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant;non_coding_transcript_variant
+chr15:81867412:G:T,chr15,81867411,81867412,G,T,found,rs547513365,True,0.0059904153354632,1.0,30.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_downstream_transcript_variant;intron_variant
+chr15:82214266:T:C,chr15,82214265,82214266,T,C,found,rs28715426,True,0.1162140575079872,1.0,582.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:83017303:A:G,chr15,83017302,83017303,A,G,found,rs2032189429,True,,,,,,,,,False,False,,,,,,,,,UTR,3_prime_UTR_variant;genic_downstream_transcript_variant;intron_variant
+chr15:85030267:T:C,chr15,85030266,85030267,T,C,found,rs12912860,True,0.1313897763578274,1.0,658.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:85058294:C:G,chr15,85058293,85058294,C,G,found,rs12908535,True,0.0954472843450479,1.0,478.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:85107246:C:T,chr15,85107245,85107246,C,T,found,rs35204319,True,0.0966453674121405,1.0,484.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:85585824:G:A,chr15,85585823,85585824,G,A,request_failed,,False,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr15:87696077:T:G,chr15,87696076,87696077,T,G,found,rs58411114,True,0.1515575079872204,1.0,759.0,5008.0,2.0,,,,False,False,,,,,,,,,unavailable,
+chr15:88895247:C:T,chr15,88895246,88895247,C,T,found,rs12148326,True,0.0896565495207667,1.0,449.0,5008.0,3.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:88899201:C:G,chr15,88899200,88899201,C,G,found,rs2280215,True,0.3434504792332268,1.0,1720.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,3_prime_UTR_variant;downstream_transcript_variant;genic_downstream_transcript_variant
+chr15:89260812:C:T,chr15,89260811,89260812,C,T,found,rs17803620,True,0.2597843450479233,1.0,1301.0,5008.0,2.0,257484.0,benign,criteria_provided_multiple_submitters_no_conflicts;criteria_provided_single_submitter,False,False,,,,,Benign/Likely benign,VCV000257484.32,"criteria provided, multiple submitters, no conflicts",True,coding,5_prime_UTR_variant;coding_sequence_variant
+chr15:89263490:G:A,chr15,89263489,89263490,G,A,found,rs1981624,True,0.338258785942492,1.0,1694.0,5008.0,2.0,257491.0,benign,criteria_provided_multiple_submitters_no_conflicts;criteria_provided_single_submitter,False,False,,,,,Benign,VCV000257491.6,"criteria provided, multiple submitters, no conflicts",True,intronic,intron_variant
+chr15:89295005:A:G,chr15,89295004,89295005,A,G,found,rs7183618,True,,,,,,238316.0,benign,criteria_provided_single_submitter,False,False,,,,,Benign,VCV000238316.12,"criteria provided, single submitter",True,coding,coding_sequence_variant;intron_variant
+chr15:89315371:T:C,chr15,89315370,89315371,T,C,found,rs1138465,True,0.4123402555910543,1.0,2065.0,5008.0,2.0,257489.0,benign;likely-benign,criteria_provided_multiple_submitters_no_conflicts;criteria_provided_single_submitter,False,False,,,,,Benign/Likely benign,VCV000257489.31,"criteria provided, multiple submitters, no conflicts",True,coding,coding_sequence_variant
+chr15:89801434:C:G,chr15,89801433,89801434,C,G,request_failed,,False,,,,,,,,,False,False,,,,,,,,,unavailable,
+chr15:90873320:C:A,chr15,90873319,90873320,C,A,found,rs17514846,True,0.4746405750798722,1.0,2377.0,5008.0,2.0,1265365.0,benign,criteria_provided_single_submitter,False,False,,,,,Benign,VCV001265365.2,"criteria provided, single submitter",True,intronic,intron_variant
+chr15:90883330:G:A,chr15,90883329,90883330,G,A,found,rs4702,True,0.6461661341853036,1.0,3236.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,2KB_upstream_variant;3_prime_UTR_variant;non_coding_transcript_variant;upstream_transcript_variant
+chr15:92905834:G:A,chr15,92905833,92905834,G,A,found,rs11074118,True,0.2416134185303514,1.0,1210.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:92924124:G:T,chr15,92924123,92924124,G,T,found,rs8026695,True,0.6339856230031949,1.0,3175.0,5008.0,2.0,678357.0,benign,criteria_provided_single_submitter,False,False,,,,,Benign,VCV000678357.1,"criteria provided, single submitter",True,intronic,intron_variant
+chr15:92937777:A:G,chr15,92937776,92937777,A,G,found,rs2272463,True,0.0720846645367412,1.0,361.0,5008.0,2.0,681300.0,benign,criteria_provided_single_submitter,False,False,,,,,Benign,VCV000681300.2,"criteria provided, multiple submitters, no conflicts",True,intronic,intron_variant
+chr15:92942226:C:G,chr15,92942225,92942226,C,G,found,rs12904680,True,0.1138178913738019,1.0,570.0,5008.0,2.0,668076.0,benign,criteria_provided_single_submitter,False,False,,,,,Benign,VCV000668076.1,"criteria provided, single submitter",True,intronic,intron_variant
+chr15:92980968:A:G,chr15,92980967,92980968,A,G,found,rs8041241,True,0.0628993610223642,1.0,315.0,5008.0,2.0,681302.0,benign,criteria_provided_single_submitter,False,False,,,,,Benign,VCV000681302.2,"criteria provided, multiple submitters, no conflicts",True,intronic,genic_downstream_transcript_variant;intron_variant
+chr15:92984613:G:A,chr15,92984612,92984613,G,A,found,rs2272458,True,0.7480031948881789,1.0,3746.0,5008.0,2.0,1293025.0,benign,criteria_provided_single_submitter,False,False,,,,,Benign,VCV001293025.2,"criteria provided, single submitter",True,intronic,genic_downstream_transcript_variant;intron_variant
+chr15:92992967:C:T,chr15,92992966,92992967,C,T,found,rs2272457,True,0.1934904153354632,1.0,969.0,5008.0,2.0,257709.0,benign,criteria_provided_multiple_submitters_no_conflicts;criteria_provided_single_submitter,False,False,,,,,Benign,VCV000257709.22,"criteria provided, multiple submitters, no conflicts",True,coding,coding_sequence_variant;genic_downstream_transcript_variant
+chr15:93024634:A:C,chr15,93024633,93024634,A,C,found,rs12906163,True,0.1865015974440894,1.0,934.0,5008.0,2.0,257713.0,benign,criteria_provided_multiple_submitters_no_conflicts;criteria_provided_single_submitter,False,False,,,,,Benign,VCV000257713.22,"criteria provided, multiple submitters, no conflicts",True,coding,coding_sequence_variant;genic_downstream_transcript_variant
+chr15:93024778:G:A,chr15,93024777,93024778,G,A,found,rs4778070,True,0.0119808306709265,1.0,60.0,5008.0,2.0,1189217.0,likely-benign,criteria_provided_single_submitter,False,False,,,,,Likely benign,VCV001189217.3,"criteria provided, multiple submitters, no conflicts",True,UTR,3_prime_UTR_variant;genic_downstream_transcript_variant
+chr15:93025654:A:C,chr15,93025653,93025654,A,C,found,rs9672839,True,0.5207667731629393,1.0,2608.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,3_prime_UTR_variant;genic_downstream_transcript_variant
+chr15:94856753:A:T,chr15,94856752,94856753,A,T,found,rs11631484,True,0.5605031948881789,1.0,2807.0,5008.0,2.0,,,,False,False,,,,,,,,,other_annotated,non_coding_transcript_variant
+chr15:98709928:A:T,chr15,98709927,98709928,A,T,found,rs2311770,True,0.1389776357827476,1.0,696.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:98710452:G:A,chr15,98710451,98710452,G,A,found,rs28393695,True,0.1882987220447284,1.0,943.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,genic_upstream_transcript_variant;intron_variant
+chr15:98934996:G:A,chr15,98934995,98934996,G,A,found,rs2229765,True,0.3356629392971246,1.0,1681.0,5008.0,2.0,194610.0,benign,criteria_provided_single_submitter,False,False,,,,,Benign,VCV000194610.19,"criteria provided, multiple submitters, no conflicts",True,coding,coding_sequence_variant
+chr15:101387697:T:G,chr15,101387696,101387697,T,G,found,rs74846912,True,,,,,,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:101387705:C:T,chr15,101387704,101387705,C,T,found,rs28432089,True,,,,,,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:101411381:G:A,chr15,101411380,101411381,G,A,found,rs12442339,True,0.2164536741214057,1.0,1084.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:101414609:G:A,chr15,101414608,101414609,G,A,found,rs7169873,True,0.2945287539936102,1.0,1475.0,5008.0,2.0,,,,False,False,,,,,,,,,intronic,intron_variant
+chr15:101472421:C:T,chr15,101472420,101472421,C,T,found,rs2172851,True,0.6627396166134185,1.0,3319.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,3_prime_UTR_variant;intron_variant
+chr15:101481317:T:C,chr15,101481316,101481317,T,C,found,rs2006984,True,0.6383785942492013,1.0,3197.0,5008.0,2.0,,,,False,False,,,,,,,,,UTR,5_prime_UTR_variant;intron_variant

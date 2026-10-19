@@ -1,0 +1,19 @@
+{
+  "verified_utc": "2026-10-14T03:31:07.522566+00:00",
+  "status": "PASS",
+  "input_keys": 4669,
+  "queries_complete": 19,
+  "exact_matches": 6,
+  "no_matches": 4663,
+  "unresolved": 0,
+  "transcript_rows": 57,
+  "project_rows": 6,
+  "all_matched_variants_singleton": true,
+  "ssm_denominator_projects": 33,
+  "alleles_assembly_exact": true,
+  "transcript_rows_match_raw": true,
+  "aggregate_counts_match_raw": true,
+  "final_denominator_source_aggregate_only": true,
+  "model_inference_performed": false,
+  "downloaded_bytes": 229520
+}

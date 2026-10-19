@@ -1,0 +1,46 @@
+{
+  "rows": 8040,
+  "elapsed_s": 37.44072550000055,
+  "bootstrap_B": 10000,
+  "rng_seed": 20261004,
+  "numpy": "2.2.6",
+  "methods": [
+    "aligned_ensemble",
+    "aligned_seed11",
+    "aligned_seed23",
+    "aligned_seed47",
+    "sequence_only_ensemble",
+    "sequence_only_seed11",
+    "sequence_only_seed23",
+    "sequence_only_seed47",
+    "mean_ensemble",
+    "mean_seed11",
+    "mean_seed23",
+    "mean_seed47",
+    "permuted_ensemble",
+    "permuted_seed11",
+    "permuted_seed23",
+    "permuted_seed47",
+    "fixed_half"
+  ],
+  "scene_order": [
+    "all_core",
+    "identical7",
+    "identical7_phi05"
+  ],
+  "cohort_order": [
+    "adjusted",
+    "raw",
+    "adjusted_unexposed_gene"
+  ],
+  "task_order": [
+    "HNRNPK_K562_ENCSR268ETU",
+    "PTBP1_K562_ENCSR981WKN",
+    "HNRNPK_HepG2_ENCSR828ZID",
+    "PTBP1_HepG2_ENCSR384KAN",
+    "RBFOX2_K562_ENCSR756CKJ",
+    "RBFOX2_HepG2_ENCSR987FTF"
+  ],
+  "ensemble": "Average three native probability profiles in float64 before taking support shares",
+  "cluster": "Same genomic gene_id is resampled jointly across task-specific gene mean losses; each task averages its represented genes; tasks are then equally averaged. No repeated-seed biological replication."
+}

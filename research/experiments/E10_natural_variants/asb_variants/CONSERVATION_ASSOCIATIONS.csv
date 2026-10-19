@@ -1,0 +1,17 @@
+cohort,arm,outcome,unadjusted_spearman,adjusted_standardized_rank_slope,ci_low,ci_high,events,gene_clusters,RBPs,interval
+all,A_native,abs_delta,0.0924242766812688,0.08627597405684627,0.043681338545504544,0.13019963390992856,7262,1978,140,two-way exponential multiplier score approximation; exploratory
+all,A_native,credit,0.03845167422127965,0.015412969998084811,-0.0065582832801206765,0.037474880431472936,7262,1978,140,two-way exponential multiplier score approximation; exploratory
+all,S,abs_delta,0.05606763391654086,0.030506065482335032,-0.01593529826565547,0.0797969348752526,7262,1978,140,two-way exponential multiplier score approximation; exploratory
+all,S,credit,0.018919670246789862,0.0028130679579137074,-0.020521427201660343,0.025469011982768238,7262,1978,140,two-way exponential multiplier score approximation; exploratory
+all,A_flat,abs_delta,0.04079852274039286,0.04488086609499741,0.00396893719914383,0.08735908205982096,7262,1978,140,two-way exponential multiplier score approximation; exploratory
+all,A_flat,credit,0.027554570689914872,0.008051996293387244,-0.013285633965658485,0.029238150451130866,7262,1978,140,two-way exponential multiplier score approximation; exploratory
+all,A_permmean,abs_delta,0.026379345886985234,0.03155947799768003,-0.009983689482322582,0.07502644877690288,7262,1978,140,two-way exponential multiplier score approximation; exploratory
+all,A_permmean,credit,0.014118612327088595,0.002396157003964154,-0.018543701154727688,0.024606039396298063,7262,1978,140,two-way exponential multiplier score approximation; exploratory
+strict_test,A_native,abs_delta,0.12301754842403526,0.05848788293455619,-0.1317960700418731,0.2537750090676197,396,119,85,two-way exponential multiplier score approximation; exploratory
+strict_test,A_native,credit,0.07206122797007157,0.044151674447462534,-0.07391310077648362,0.1606692880460996,396,119,85,two-way exponential multiplier score approximation; exploratory
+strict_test,S,abs_delta,0.1025810883805205,0.03078215413541924,-0.18067350068988933,0.29225360142261964,396,119,85,two-way exponential multiplier score approximation; exploratory
+strict_test,S,credit,0.056073299860646963,0.03241275840954657,-0.08554397359487072,0.16522111300117642,396,119,85,two-way exponential multiplier score approximation; exploratory
+strict_test,A_flat,abs_delta,0.13593197646768798,0.06412855681835278,-0.10034305935221388,0.24608241734787317,396,119,85,two-way exponential multiplier score approximation; exploratory
+strict_test,A_flat,credit,0.035558009989761635,0.02558597660165895,-0.07376112384690287,0.126372288592983,396,119,85,two-way exponential multiplier score approximation; exploratory
+strict_test,A_permmean,abs_delta,0.09639868172906177,0.010006890616194386,-0.15233997846644773,0.18309648730932074,396,119,85,two-way exponential multiplier score approximation; exploratory
+strict_test,A_permmean,credit,0.021793795068876784,-0.01079481321364742,-0.11653405071636547,0.09929524843430328,396,119,85,two-way exponential multiplier score approximation; exploratory

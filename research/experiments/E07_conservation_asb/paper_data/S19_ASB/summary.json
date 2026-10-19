@@ -1,0 +1,768 @@
+{
+  "primary": {
+    "cohort": "primary_all_valid",
+    "n_events": 396,
+    "n_tasks": 112,
+    "n_rbps": 85,
+    "n_genomic_sites": 287,
+    "conditions": {
+      "aligned": {
+        "micro_direction_agreement": 0.5328282828282829,
+        "macro_direction_agreement": 0.5203558662213932,
+        "macro_direction_ci95": [
+          0.445056613186846,
+          0.5935967919585835
+        ],
+        "raw_event_signed_median": 0.002093791961669922,
+        "macro_signed_mean": 0.01058255525690684,
+        "macro_signed_mean_ci95": [
+          0.0008855757577469138,
+          0.021793963044136742
+        ],
+        "n_positive": 211,
+        "n_negative": 185,
+        "n_tie": 0
+      },
+      "window_mean": {
+        "micro_direction_agreement": 0.5378787878787878,
+        "macro_direction_agreement": 0.5345601856303163,
+        "macro_direction_ci95": [
+          0.4569208338941985,
+          0.6095199499708348
+        ],
+        "raw_event_signed_median": 0.0035140514373779297,
+        "macro_signed_mean": 0.011070710511183251,
+        "macro_signed_mean_ci95": [
+          0.0020592033520920087,
+          0.02097616706070443
+        ],
+        "n_positive": 213,
+        "n_negative": 183,
+        "n_tie": 0
+      },
+      "permutation17": {
+        "micro_direction_agreement": 0.5353535353535354,
+        "macro_direction_agreement": 0.5141420473605155,
+        "macro_direction_ci95": [
+          0.4401899139900049,
+          0.5866161685116456
+        ],
+        "raw_event_signed_median": 0.0034502744674682617,
+        "macro_signed_mean": 0.00972277970721041,
+        "macro_signed_mean_ci95": [
+          0.0008661628820591608,
+          0.01996847719818571
+        ],
+        "n_positive": 212,
+        "n_negative": 184,
+        "n_tie": 0
+      },
+      "permutation43": {
+        "micro_direction_agreement": 0.5416666666666666,
+        "macro_direction_agreement": 0.5488532125283371,
+        "macro_direction_ci95": [
+          0.4723358425368622,
+          0.6223152642636
+        ],
+        "raw_event_signed_median": 0.004122614860534668,
+        "macro_signed_mean": 0.010048852040437381,
+        "macro_signed_mean_ci95": [
+          0.0010460528260050866,
+          0.02029637213771223
+        ],
+        "n_positive": 214,
+        "n_negative": 181,
+        "n_tie": 1
+      },
+      "permutation97": {
+        "micro_direction_agreement": 0.5328282828282829,
+        "macro_direction_agreement": 0.4974743657951357,
+        "macro_direction_ci95": [
+          0.42148961865447937,
+          0.5717167794272553
+        ],
+        "raw_event_signed_median": 0.0027861595153808594,
+        "macro_signed_mean": 0.008643449043786552,
+        "macro_signed_mean_ci95": [
+          -0.00011272678024855285,
+          0.01872285548104713
+        ],
+        "n_positive": 211,
+        "n_negative": 185,
+        "n_tie": 0
+      }
+    },
+    "paired_macro_differences": {
+      "aligned_minus_window_mean": {
+        "difference": -0.014204319408922991,
+        "ci95": [
+          -0.05233270409613132,
+          0.021758164860147013
+        ]
+      },
+      "aligned_minus_permutation17": {
+        "difference": 0.00621381886087768,
+        "ci95": [
+          -0.04979575163398689,
+          0.06536134453781497
+        ]
+      },
+      "aligned_minus_permutation43": {
+        "difference": -0.028497346306943835,
+        "ci95": [
+          -0.08861456951201516,
+          0.029442868814192433
+        ]
+      },
+      "aligned_minus_permutation97": {
+        "difference": 0.022881500426257455,
+        "ci95": [
+          -0.023561685543782837,
+          0.07587793813177443
+        ]
+      }
+    }
+  },
+  "sensitivity": [
+    {
+      "cohort": "named_allele_total20",
+      "n_events": 395,
+      "n_tasks": 112,
+      "n_rbps": 85,
+      "n_genomic_sites": 286,
+      "conditions": {
+        "aligned": {
+          "micro_direction_agreement": 0.5341772151898734,
+          "macro_direction_agreement": 0.5232970426919814,
+          "macro_direction_ci95": [
+            0.4487405411439937,
+            0.5960223705042659
+          ],
+          "raw_event_signed_median": 0.0021886825561523438,
+          "macro_signed_mean": 0.01101353260141978,
+          "macro_signed_mean_ci95": [
+            0.001340480170607518,
+            0.022194080528137324
+          ],
+          "n_positive": 211,
+          "n_negative": 184,
+          "n_tie": 0
+        },
+        "window_mean": {
+          "micro_direction_agreement": 0.5392405063291139,
+          "macro_direction_agreement": 0.5375013621009045,
+          "macro_direction_ci95": [
+            0.46037620265497514,
+            0.612671697626419
+          ],
+          "raw_event_signed_median": 0.003626585006713867,
+          "macro_signed_mean": 0.011488236139217057,
+          "macro_signed_mean_ci95": [
+            0.0025103716241745124,
+            0.021361831118065736
+          ],
+          "n_positive": 213,
+          "n_negative": 182,
+          "n_tie": 0
+        },
+        "permutation17": {
+          "micro_direction_agreement": 0.5367088607594936,
+          "macro_direction_agreement": 0.5170832238311037,
+          "macro_direction_ci95": [
+            0.4432227093736044,
+            0.5894868501176214
+          ],
+          "raw_event_signed_median": 0.0037419795989990234,
+          "macro_signed_mean": 0.01006206407112535,
+          "macro_signed_mean_ci95": [
+            0.0012626156327301596,
+            0.02030439527826848
+          ],
+          "n_positive": 212,
+          "n_negative": 183,
+          "n_tie": 0
+        },
+        "permutation43": {
+          "micro_direction_agreement": 0.5430379746835443,
+          "macro_direction_agreement": 0.5517943889989253,
+          "macro_direction_ci95": [
+            0.4762526805344562,
+            0.6242753470953597
+          ],
+          "raw_event_signed_median": 0.00417327880859375,
+          "macro_signed_mean": 0.010487748387932068,
+          "macro_signed_mean_ci95": [
+            0.0015592690159547612,
+            0.020651518742471914
+          ],
+          "n_positive": 214,
+          "n_negative": 180,
+          "n_tie": 1
+        },
+        "permutation97": {
+          "micro_direction_agreement": 0.5341772151898734,
+          "macro_direction_agreement": 0.500415542265724,
+          "macro_direction_ci95": [
+            0.4248668383447963,
+            0.5758062296619638
+          ],
+          "raw_event_signed_median": 0.002792835235595703,
+          "macro_signed_mean": 0.009101020578336042,
+          "macro_signed_mean_ci95": [
+            0.0003858081004125059,
+            0.01916511384785781
+          ],
+          "n_positive": 211,
+          "n_negative": 184,
+          "n_tie": 0
+        }
+      },
+      "paired_macro_differences": {
+        "aligned_minus_window_mean": {
+          "difference": -0.014204319408922991,
+          "ci95": [
+            -0.05233270409613126,
+            0.021758164860147013
+          ]
+        },
+        "aligned_minus_permutation17": {
+          "difference": 0.00621381886087768,
+          "ci95": [
+            -0.049795751633986834,
+            0.06536134453781497
+          ]
+        },
+        "aligned_minus_permutation43": {
+          "difference": -0.028497346306943835,
+          "ci95": [
+            -0.08861456951201516,
+            0.029442868814192433
+          ]
+        },
+        "aligned_minus_permutation97": {
+          "difference": 0.022881500426257455,
+          "ci95": [
+            -0.023561685543782785,
+            0.07587793813177444
+          ]
+        }
+      }
+    },
+    {
+      "cohort": "each_replicate10",
+      "n_events": 310,
+      "n_tasks": 102,
+      "n_rbps": 77,
+      "n_genomic_sites": 229,
+      "conditions": {
+        "aligned": {
+          "micro_direction_agreement": 0.5129032258064516,
+          "macro_direction_agreement": 0.5189951462678735,
+          "macro_direction_ci95": [
+            0.44101714032720524,
+            0.5958602139202789
+          ],
+          "raw_event_signed_median": 0.0007212162017822266,
+          "macro_signed_mean": 0.0135583569940689,
+          "macro_signed_mean_ci95": [
+            0.003133484199700381,
+            0.025848385332563895
+          ],
+          "n_positive": 159,
+          "n_negative": 151,
+          "n_tie": 0
+        },
+        "window_mean": {
+          "micro_direction_agreement": 0.5290322580645161,
+          "macro_direction_agreement": 0.5486717827626919,
+          "macro_direction_ci95": [
+            0.4653067900714005,
+            0.6297992564794511
+          ],
+          "raw_event_signed_median": 0.0026912689208984375,
+          "macro_signed_mean": 0.014405664716984267,
+          "macro_signed_mean_ci95": [
+            0.004970050525935374,
+            0.024592763396171512
+          ],
+          "n_positive": 164,
+          "n_negative": 146,
+          "n_tie": 0
+        },
+        "permutation17": {
+          "micro_direction_agreement": 0.532258064516129,
+          "macro_direction_agreement": 0.5417969116021063,
+          "macro_direction_ci95": [
+            0.4637937819756001,
+            0.618154094282341
+          ],
+          "raw_event_signed_median": 0.0027434825897216797,
+          "macro_signed_mean": 0.01214902510426038,
+          "macro_signed_mean_ci95": [
+            0.0028569653874769623,
+            0.022595346214605457
+          ],
+          "n_positive": 165,
+          "n_negative": 145,
+          "n_tie": 0
+        },
+        "permutation43": {
+          "micro_direction_agreement": 0.5177419354838709,
+          "macro_direction_agreement": 0.5617904462060307,
+          "macro_direction_ci95": [
+            0.4807926786417046,
+            0.6417343893480257
+          ],
+          "raw_event_signed_median": 0.0023970603942871094,
+          "macro_signed_mean": 0.013404221789440257,
+          "macro_signed_mean_ci95": [
+            0.0039541809418427035,
+            0.02386583730776552
+          ],
+          "n_positive": 160,
+          "n_negative": 149,
+          "n_tie": 1
+        },
+        "permutation97": {
+          "micro_direction_agreement": 0.532258064516129,
+          "macro_direction_agreement": 0.5488057757538277,
+          "macro_direction_ci95": [
+            0.46872151477670954,
+            0.6269013535166129
+          ],
+          "raw_event_signed_median": 0.0024454593658447266,
+          "macro_signed_mean": 0.011429888701787854,
+          "macro_signed_mean_ci95": [
+            0.0025146516439374564,
+            0.021821807656084675
+          ],
+          "n_positive": 165,
+          "n_negative": 145,
+          "n_tie": 0
+        }
+      },
+      "paired_macro_differences": {
+        "aligned_minus_window_mean": {
+          "difference": -0.029676636494818314,
+          "ci95": [
+            -0.08013817441577196,
+            0.01735825321864274
+          ]
+        },
+        "aligned_minus_permutation17": {
+          "difference": -0.022801765334232865,
+          "ci95": [
+            -0.0828399252262889,
+            0.03677960026985995
+          ]
+        },
+        "aligned_minus_permutation43": {
+          "difference": -0.04279529993815708,
+          "ci95": [
+            -0.11271026592455179,
+            0.02359848484848468
+          ]
+        },
+        "aligned_minus_permutation97": {
+          "difference": -0.029810629485954157,
+          "ci95": [
+            -0.08366077284908448,
+            0.02438131313131316
+          ]
+        }
+      }
+    },
+    {
+      "cohort": "raw_direction_both_replicates",
+      "n_events": 387,
+      "n_tasks": 112,
+      "n_rbps": 85,
+      "n_genomic_sites": 281,
+      "conditions": {
+        "aligned": {
+          "micro_direction_agreement": 0.5348837209302325,
+          "macro_direction_agreement": 0.5233175124183336,
+          "macro_direction_ci95": [
+            0.447194958036609,
+            0.5975278183737263
+          ],
+          "raw_event_signed_median": 0.0021886825561523438,
+          "macro_signed_mean": 0.011851483118851858,
+          "macro_signed_mean_ci95": [
+            0.0012732747380593005,
+            0.024404878128828737
+          ],
+          "n_positive": 207,
+          "n_negative": 180,
+          "n_tie": 0
+        },
+        "window_mean": {
+          "micro_direction_agreement": 0.537467700258398,
+          "macro_direction_agreement": 0.5351161003038779,
+          "macro_direction_ci95": [
+            0.4577417317804315,
+            0.6106569369929512
+          ],
+          "raw_event_signed_median": 0.003401517868041992,
+          "macro_signed_mean": 0.012345999797447589,
+          "macro_signed_mean_ci95": [
+            0.002359966679873908,
+            0.023929282684254736
+          ],
+          "n_positive": 208,
+          "n_negative": 179,
+          "n_tie": 0
+        },
+        "permutation17": {
+          "micro_direction_agreement": 0.537467700258398,
+          "macro_direction_agreement": 0.5166587463478028,
+          "macro_direction_ci95": [
+            0.442887811925216,
+            0.589027843746194
+          ],
+          "raw_event_signed_median": 0.003902912139892578,
+          "macro_signed_mean": 0.011081265793411189,
+          "macro_signed_mean_ci95": [
+            0.001207868095068134,
+            0.023018292994593254
+          ],
+          "n_positive": 208,
+          "n_negative": 179,
+          "n_tie": 0
+        },
+        "permutation43": {
+          "micro_direction_agreement": 0.541343669250646,
+          "macro_direction_agreement": 0.549854074411552,
+          "macro_direction_ci95": [
+            0.47213760145700007,
+            0.6235551119585308
+          ],
+          "raw_event_signed_median": 0.004071950912475586,
+          "macro_signed_mean": 0.011397675963794108,
+          "macro_signed_mean_ci95": [
+            0.001286220425734666,
+            0.023473266756868786
+          ],
+          "n_positive": 209,
+          "n_negative": 177,
+          "n_tie": 1
+        },
+        "permutation97": {
+          "micro_direction_agreement": 0.5322997416020672,
+          "macro_direction_agreement": 0.4988900089754849,
+          "macro_direction_ci95": [
+            0.42317650072702895,
+            0.5742315934353557
+          ],
+          "raw_event_signed_median": 0.0027794837951660156,
+          "macro_signed_mean": 0.00989986636136296,
+          "macro_signed_mean_ci95": [
+            7.106754723945838e-05,
+            0.02187815798555675
+          ],
+          "n_positive": 206,
+          "n_negative": 181,
+          "n_tie": 0
+        }
+      },
+      "paired_macro_differences": {
+        "aligned_minus_window_mean": {
+          "difference": -0.011798587885544411,
+          "ci95": [
+            -0.0495874631904043,
+            0.023974511209165834
+          ]
+        },
+        "aligned_minus_permutation17": {
+          "difference": 0.006658766070530774,
+          "ci95": [
+            -0.04992169431875302,
+            0.06622260827407889
+          ]
+        },
+        "aligned_minus_permutation43": {
+          "difference": -0.02653656199321834,
+          "ci95": [
+            -0.08613359378839237,
+            0.03076876013563309
+          ]
+        },
+        "aligned_minus_permutation97": {
+          "difference": 0.024427503442848705,
+          "ci95": [
+            -0.02302886371940061,
+            0.07771218487394932
+          ]
+        }
+      }
+    },
+    {
+      "cohort": "published_same_task_isolated300",
+      "n_events": 323,
+      "n_tasks": 107,
+      "n_rbps": 82,
+      "n_genomic_sites": 249,
+      "conditions": {
+        "aligned": {
+          "micro_direction_agreement": 0.5325077399380805,
+          "macro_direction_agreement": 0.5282829298073201,
+          "macro_direction_ci95": [
+            0.4495726123470027,
+            0.6064191812591202
+          ],
+          "raw_event_signed_median": 0.0036191940307617188,
+          "macro_signed_mean": 0.009555415382430767,
+          "macro_signed_mean_ci95": [
+            0.0005417176328017904,
+            0.020071282164170968
+          ],
+          "n_positive": 172,
+          "n_negative": 151,
+          "n_tie": 0
+        },
+        "window_mean": {
+          "micro_direction_agreement": 0.5170278637770898,
+          "macro_direction_agreement": 0.5148239971410704,
+          "macro_direction_ci95": [
+            0.43543087755740195,
+            0.5949960633878315
+          ],
+          "raw_event_signed_median": 0.002002239227294922,
+          "macro_signed_mean": 0.009787709326188346,
+          "macro_signed_mean_ci95": [
+            0.0013453920705036434,
+            0.019109570989431012
+          ],
+          "n_positive": 167,
+          "n_negative": 156,
+          "n_tie": 0
+        },
+        "permutation17": {
+          "micro_direction_agreement": 0.5325077399380805,
+          "macro_direction_agreement": 0.5195229905595758,
+          "macro_direction_ci95": [
+            0.4424152185889991,
+            0.5954369267250365
+          ],
+          "raw_event_signed_median": 0.002810955047607422,
+          "macro_signed_mean": 0.008764520499278053,
+          "macro_signed_mean_ci95": [
+            0.0007515585023017062,
+            0.01836373188249129
+          ],
+          "n_positive": 172,
+          "n_negative": 151,
+          "n_tie": 0
+        },
+        "permutation43": {
+          "micro_direction_agreement": 0.5278637770897833,
+          "macro_direction_agreement": 0.5497792519133983,
+          "macro_direction_ci95": [
+            0.47225693048482686,
+            0.6248704733613268
+          ],
+          "raw_event_signed_median": 0.0034890174865722656,
+          "macro_signed_mean": 0.009037812097868041,
+          "macro_signed_mean_ci95": [
+            0.0007138556826493273,
+            0.018491229251153134
+          ],
+          "n_positive": 170,
+          "n_negative": 152,
+          "n_tie": 1
+        },
+        "permutation97": {
+          "micro_direction_agreement": 0.5232198142414861,
+          "macro_direction_agreement": 0.492446916227404,
+          "macro_direction_ci95": [
+            0.4120743154203521,
+            0.5713544365526073
+          ],
+          "raw_event_signed_median": 0.0016832351684570312,
+          "macro_signed_mean": 0.006653572709444872,
+          "macro_signed_mean_ci95": [
+            -0.0013561353694195246,
+            0.01579097285519158
+          ],
+          "n_positive": 169,
+          "n_negative": 154,
+          "n_tie": 0
+        }
+      },
+      "paired_macro_differences": {
+        "aligned_minus_window_mean": {
+          "difference": 0.013458932666249738,
+          "ci95": [
+            -0.01997021948241474,
+            0.046978338396021245
+          ]
+        },
+        "aligned_minus_permutation17": {
+          "difference": 0.008759939247744122,
+          "ci95": [
+            -0.048766193156436995,
+            0.06794207317073164
+          ]
+        },
+        "aligned_minus_permutation43": {
+          "difference": -0.021496322106078204,
+          "ci95": [
+            -0.08262449186991871,
+            0.040191093205575186
+          ]
+        },
+        "aligned_minus_permutation97": {
+          "difference": 0.03583601357991602,
+          "ci95": [
+            -0.009621806039488916,
+            0.08806053448583925
+          ]
+        }
+      }
+    },
+    {
+      "cohort": "joint_total20_raw_direction_isolated300",
+      "n_events": 316,
+      "n_tasks": 107,
+      "n_rbps": 82,
+      "n_genomic_sites": 244,
+      "conditions": {
+        "aligned": {
+          "micro_direction_agreement": 0.5348101265822784,
+          "macro_direction_agreement": 0.5295749304895646,
+          "macro_direction_ci95": [
+            0.4495271860591983,
+            0.6074564129975716
+          ],
+          "raw_event_signed_median": 0.004004001617431641,
+          "macro_signed_mean": 0.010096036487631691,
+          "macro_signed_mean_ci95": [
+            0.0011976861921809533,
+            0.020470216963092067
+          ],
+          "n_positive": 169,
+          "n_negative": 147,
+          "n_tie": 0
+        },
+        "window_mean": {
+          "micro_direction_agreement": 0.5189873417721519,
+          "macro_direction_agreement": 0.5165914370182664,
+          "macro_direction_ci95": [
+            0.43553670414950907,
+            0.5966465064407139
+          ],
+          "raw_event_signed_median": 0.0021827220916748047,
+          "macro_signed_mean": 0.01035183624350374,
+          "macro_signed_mean_ci95": [
+            0.0019932185165783115,
+            0.019463775731000124
+          ],
+          "n_positive": 164,
+          "n_negative": 152,
+          "n_tie": 0
+        },
+        "permutation17": {
+          "micro_direction_agreement": 0.5379746835443038,
+          "macro_direction_agreement": 0.5233229507619751,
+          "macro_direction_ci95": [
+            0.446174143437863,
+            0.5978613992714601
+          ],
+          "raw_event_signed_median": 0.003530740737915039,
+          "macro_signed_mean": 0.00933249779684098,
+          "macro_signed_mean_ci95": [
+            0.001359212580420977,
+            0.018848489187958065
+          ],
+          "n_positive": 170,
+          "n_negative": 146,
+          "n_tie": 0
+        },
+        "permutation43": {
+          "micro_direction_agreement": 0.5300632911392406,
+          "macro_direction_agreement": 0.5510712525956429,
+          "macro_direction_ci95": [
+            0.473171941540844,
+            0.6269860352215534
+          ],
+          "raw_event_signed_median": 0.003641843795776367,
+          "macro_signed_mean": 0.009716584845001744,
+          "macro_signed_mean_ci95": [
+            0.0015819656943124691,
+            0.019124296193073997
+          ],
+          "n_positive": 167,
+          "n_negative": 148,
+          "n_tie": 1
+        },
+        "permutation97": {
+          "micro_direction_agreement": 0.5253164556962026,
+          "macro_direction_agreement": 0.4942143561046,
+          "macro_direction_ci95": [
+            0.4124973603632142,
+            0.5740494008024495
+          ],
+          "raw_event_signed_median": 0.0017517805099487305,
+          "macro_signed_mean": 0.007268475139946215,
+          "macro_signed_mean_ci95": [
+            -0.0006187323793822384,
+            0.016338533317086835
+          ],
+          "n_positive": 166,
+          "n_negative": 150,
+          "n_tie": 0
+        }
+      },
+      "paired_macro_differences": {
+        "aligned_minus_window_mean": {
+          "difference": 0.01298349347129835,
+          "ci95": [
+            -0.020548307552880635,
+            0.046574719318621664
+          ]
+        },
+        "aligned_minus_permutation17": {
+          "difference": 0.006251979727589483,
+          "ci95": [
+            -0.05239131295533739,
+            0.06662667616935915
+          ]
+        },
+        "aligned_minus_permutation43": {
+          "difference": -0.021496322106078204,
+          "ci95": [
+            -0.08262449186991871,
+            0.040191093205575075
+          ]
+        },
+        "aligned_minus_permutation97": {
+          "difference": 0.03536057438496463,
+          "ci95": [
+            -0.010069389452011367,
+            0.087738095238095
+          ]
+        }
+      }
+    }
+  ],
+  "bootstrap": {
+    "unit": "RBP symbol; retain tasks and events",
+    "replicates": 5000,
+    "seed": 20260924,
+    "aggregation": "mean(events within task), mean(tasks within RBP), mean(RBPs)",
+    "interval": "percentile95%",
+    "paired_conditions": true
+  },
+  "limitations": [
+    "positive-only selected ASB events; no measured balanced controls",
+    "same ENCODE assay family; held-out chromosomes do not imply independent assay",
+    "some genomic sites are repeated across RBPs; RBP bootstrap alone does not model all cross-RBP locus dependence",
+    "many sparse task groups; do not interpret per-task direction fraction as precise population accuracy"
+  ],
+  "validation": {
+    "raw_saved_outputs_vs_csv": "1980 condition/event contrasts checked exactly",
+    "source_label_direction": "unchanged",
+    "candidate_count": 396,
+    "reference_gate_passed": true
+  }
+}

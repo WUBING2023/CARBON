@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-04-13T07:17:36Z",
+  "h5data": "/data/CARBON_PROJECT/数据/h5data",
+  "device": "cuda:0",
+  "n_bins": 4,
+  "use_bed": true,
+  "flattened_ap_note": "bin 内 Signal AP / Peak AP：将该 bin 内所有窗口的 Y 与 pred 展平为一维向量后，定义与 MARCP/MARCP/operations/train_ops.py calculate_batch_metrics_whole 一致 (Signal: y>median; Peak: find_peaks on y_flat with thresholds 2/2)。",
+  "peak_core_note": "无峰窗 peak_core_mean_phyloP 为 nan，不参与 peak_core_phyloP 分箱。",
+  "conservation_enrichment_note": "window_phyloP 分层下落在最高 conservation bin 的窗口比例。",
+  "ablation_gain_note": "全 test 窗上 mean(delta_pcc)。"
+}

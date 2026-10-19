@@ -1,0 +1,46 @@
+{
+  "wall_seconds": 177.15825369999948,
+  "script_sha256": "356bbe5815dbc70c1a371aee90a5482e588e693049b2ac2978719f094e591fa3",
+  "pred_sha256": "e1f558a3e59564ce82bec711955b8a6ca1f0c80f00823d28dcc66e33fe61a832",
+  "inputs_sha256": "e3dcb90d1bb97ba239cc642da98ae028cd3ce9984f0277892799949eeff5ec39",
+  "quantity": "event-weighted Spearman and AUROC with paired gene-cluster resampling",
+  "majority_direction_reported": true,
+  "outputs": [
+    {
+      "path": "CONTRASTS.csv",
+      "sha256": "0365cf6e39f253f6c3c67ed8e1e4763fa4d6aa4fafaa2ce251e14fb27f731625"
+    },
+    {
+      "path": "DENOMINATORS_FINAL.csv",
+      "sha256": "48c2b97cbcbdd16c97cc5d9e42311f9be25af261d2cecb2b087b8ce0abeed420"
+    },
+    {
+      "path": "DENOMINATORS_MAP.csv",
+      "sha256": "be8a2f332a7724f12e5823d3222725d6953666a4e88456a87f65881a524a5e84"
+    },
+    {
+      "path": "DIAGNOSTICS.csv",
+      "sha256": "2393468c483c9c0dac2526eb8c8b88265719f3193dfd6c5a1ceaf832427f4e71"
+    },
+    {
+      "path": "EVENT_SCORES_ALL.csv",
+      "sha256": "c86db938ac29ef160f30e8a19a49803de4fbcb97533b149085006c0d81e8e088"
+    },
+    {
+      "path": "METRICS.csv",
+      "sha256": "e580699995edcde0eb2cc9c5d1582ca26d0fef9b368abaa191d74095db147fa8"
+    },
+    {
+      "path": "QUALIFICATION_ALL.csv",
+      "sha256": "f3ee53cb618b993591b96b5f1bdd33851974e2fb01517fa9fceaa7a7d1b1468e"
+    },
+    {
+      "path": "QUALIFICATION_FINAL.csv",
+      "sha256": "338d68ecb48dcc57f563df3daf5f6a65a1e867d38c4b989011f26760202cdf47"
+    },
+    {
+      "path": "WINDOWS.csv",
+      "sha256": "5ab0796570b3c4bcd2c9a15fc3fc489a6f412ff3235f6c34361a4080c375c096"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "fig3.pdf": {
+    "pages": 1,
+    "page0_width_mm": 85.00000118679469,
+    "page0_height_mm": 198.99999796549477,
+    "sha256": "02910f8c9f57612085b27ab4b3f00656c367f7db846ebe2fbb110c3d7dda42f9",
+    "min_font_pt": [
+      6.5
+    ],
+    "text_outside_page": []
+  },
+  "fig3_supplement_atlas_readable.pdf": {
+    "pages": 5,
+    "page0_width_mm": 285.00000271267356,
+    "page0_height_mm": 285.00000271267356,
+    "sha256": "48feb7240b1d56201f636e74e406163b21b101d2454f63255a18d6a2bcf86ab0",
+    "min_font_pt": [
+      5.999999523162842,
+      7.835039138793945,
+      7.835039138793945,
+      7.8350396156311035,
+      7.8350396156311035
+    ],
+    "clipped_source_span_boxes": [
+      [
+        2,
+        "PRPF4 HepG2",
+        [
+          586.713134765625,
+          286.6828308105469,
+          602.1209716796875,
+          339.6279602050781
+        ]
+      ],
+      [
+        2,
+        "G2",
+        [
+          271.30999755859375,
+          664.0318603515625,
+          283.2523193359375,
+          674.6332397460938
+        ]
+      ],
+      [
+        2,
+        "NOL12 HepG2",
+        [
+          229.07522583007812,
+          656.1594848632812,
+          281.63128662109375,
+          673.30419921875
+        ]
+      ],
+      [
+        3,
+        "KHSRP K562",
+        [
+          313.5875244140625,
+          656.0985107421875,
+          361.7055358886719,
+          672.50439453125
+        ]
+      ],
+      [
+        3,
+        "FUS",
+        [
+          312.04827880859375,
+          664.037109375,
+          329.1099548339844,
+          675.6424560546875
+        ]
+      ],
+      [
+        3,
+        "XRCC6 HepG2",
+        [
+          -7.017752647399902,
+          285.3667297363281,
+          8.557546615600586,
+          339.6016540527344
+        ]
+      ],
+      [
+        4,
+        "NPM",
+        [
+          591.9888916015625,
+          373.9193420410156,
+          603.14111328125,
+          392.40142822265625
+        ]
+      ],
+      [
+        4,
+        "NSUN2 K562",
+        [
+          584.0510864257812,
+          375.0921936035156,
+          598.1317749023438,
+          422.8122863769531
+        ]
+      ],
+      [
+        4,
+        "IGF2BP3 HepG2",
+        [
+          231.42372131347656,
+          -3.735381603240967,
+          290.64459228515625,
+          21.809123992919922
+        ]
+      ],
+      [
+        4,
+        "GF1 HepG2",
+        [
+          250.37973022460938,
+          -7.535856246948242,
+          293.2148742675781,
+          14.163476943969727
+        ]
+      ],
+      [
+        4,
+        "K562",
+        [
+          275.8495178222656,
+          -7.968724250793457,
+          296.0405578613281,
+          6.548112869262695
+        ]
+      ],
+      [
+        5,
+        "SRS",
+        [
+          299.2064514160156,
+          -7.205840587615967,
+          317.3439636230469,
+          6.558006763458252
+        ]
+      ],
+      [
+        5,
+        "EWSR1 K5",
+        [
+          301.986572265625,
+          -6.735332489013672,
+          342.3399353027344,
+          14.133943557739258
+        ]
+      ],
+      [
+        5,
+        "XRN2 HepG2",
+        [
+          -2.9101815223693848,
+          375.1294250488281,
+          11.270095825195312,
+          423.7135009765625
+        ]
+      ],
+      [
+        5,
+        "pG2",
+        [
+          -7.449244499206543,
+          373.95794677734375,
+          3.3312137126922607,
+          389.8666076660156
+        ]
+      ]
+    ],
+    "text_outside_page": []
+  },
+  "fig3_supplement_direct_pairs.pdf": {
+    "pages": 13,
+    "page0_width_mm": 209.99999406602646,
+    "page0_height_mm": 297.0000023735894,
+    "sha256": "74ad91ab2be7aa772cbdb79e610d829bc7b880870513c9989a54b057f6e12b7a",
+    "min_font_pt": [
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0
+    ],
+    "text_outside_page": []
+  },
+  "fig3_supplement_all_193_pairs.pdf": {
+    "pages": 20,
+    "page0_width_mm": 209.99999406602646,
+    "page0_height_mm": 297.0000023735894,
+    "sha256": "7eb03fc51bf629874db61c8c6d82fc634ecaa5a7d97acedf63b98ae6cd521bec",
+    "min_font_pt": [
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0,
+      7.0
+    ],
+    "text_outside_page": []
+  },
+  "fig3_supplement_sensitivity.pdf": {
+    "pages": 1,
+    "page0_width_mm": 209.99999406602646,
+    "page0_height_mm": 269.99999237060547,
+    "sha256": "f4a2339cdcebfc9e40bc2926204c64cb17ebe4e90504e209f73028b4c287305e",
+    "min_font_pt": [
+      8.0
+    ],
+    "text_outside_page": []
+  },
+  "atlas_pdf_label_check": {
+    "expected": 219,
+    "missing": [],
+    "missing_complete_label_in_quadrants": [],
+    "quadrant_boundary_content": "Partial duplicates are clipped; every label must have a fully contained copy in another quadrant."
+  },
+  "scientific_invariants": {
+    "full_comparisons_retained": 193,
+    "p_q_recomputed": false,
+    "original_q_lt_0_05_count": 72,
+    "direct_experiment_comparisons": 126,
+    "direct_experiment_q_lt_0_05": 45,
+    "atlas_leaves": 219,
+    "atlas_rbp_symbols": 150,
+    "frozen_leaf_order_preserved": true,
+    "complete_219_labels_in_large_atlas": true,
+    "main_example_selection_uses_p_q_or_model_score": false,
+    "c_predictions_and_attribution_recomputed": false,
+    "c_geometry_method": "Existing vector glyphs/curves reprojected linearly using retained original ticks."
+  },
+  "visual_review": "Main PDF, original figure, published exemplar and full atlas actually opened; corrected overlapping main names with numbered leaders, aligned cropped main logos, and IC/IG tick separation. Complete pair booklet and sensitivity representative pages rendered for inspection.",
+  "geometry": {
+    "main_width_mm": 85,
+    "main_height_mm": 199,
+    "smallest_main_ordinary_font_pt": 6.5,
+    "main_tree_outer_radius_nominal_mm": 11.5,
+    "main_outer_annotation_radius_nominal_mm": 34.32,
+    "main_canvas_tree_center_x_mm": 39.3,
+    "canvas_midpoint_x_mm": 42.5,
+    "supplement_full_atlas_width_mm": 285,
+    "supplement_full_atlas_font_pt": 6
+  }
+}

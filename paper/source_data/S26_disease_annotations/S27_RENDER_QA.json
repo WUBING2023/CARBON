@@ -1,0 +1,12 @@
+{
+  "native_mm": [
+    178.0,
+    192.0
+  ],
+  "unique_ClinVar_points": 520,
+  "population_AF_points": 428,
+  "all_disease_events": 13,
+  "out_of_page_text": [],
+  "record_count": 1402,
+  "no_p_values_or_CIs_generated": true
+}

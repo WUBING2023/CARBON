@@ -1,0 +1,1 @@
+Display-only v18 transformations of frozen inputs. Same 2203 source values as v17 by identity; density counts represent all396 saved pairs. No new inference, fitting, endpoints, tests or biological labels. Complete input arrays and source manifests remain in S23/S25/S26 and work_fig5/frozen_inputs.

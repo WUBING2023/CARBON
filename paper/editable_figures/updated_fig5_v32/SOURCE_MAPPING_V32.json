@@ -1,0 +1,41 @@
+{
+  "version": "v32",
+  "accepted_baseline": "v29",
+  "native_mm": [
+    178.0,
+    178.0
+  ],
+  "panels": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "all_plotted_values_identical_to_accepted_v29": true,
+  "plotted_records": 2028,
+  "out_of_page_text": [],
+  "a_proteins": 25,
+  "b_nodes": 30,
+  "b_edges": 48,
+  "c_model_control_responses": 7,
+  "c_reporter_measurements": 6,
+  "d_events": 396,
+  "d_RBPs": 85,
+  "d_sites": 287,
+  "d_intervals": 5,
+  "e_sites": 8,
+  "e_events": 13,
+  "e_effects": 52,
+  "e_agreement": [
+    7,
+    10,
+    12,
+    9
+  ],
+  "constant_REF": 13,
+  "new_analysis": false,
+  "new_experiments": false,
+  "manuscript_changed": false,
+  "Overleaf_changed": false
+}

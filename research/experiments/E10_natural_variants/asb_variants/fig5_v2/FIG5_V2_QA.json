@@ -1,0 +1,42 @@
+{
+  "page_count": 1,
+  "canvas_mm": [
+    177.99999855889212,
+    183.0000055948893
+  ],
+  "a_b_preserved_at_unit_scale": true,
+  "a_b_pixel_comparison_outside_phi_mask": {
+    "exactly_equal": true,
+    "max_rgb_difference": 0,
+    "changed_pixels": 0,
+    "compared_pixels": 1032156,
+    "dpi": 300
+  },
+  "all25_original_order_proteins": true,
+  "all10_natural_example_RBPs": true,
+  "five_aggregate_arms": [
+    "A_native",
+    "S",
+    "A_flat",
+    "A_permmean",
+    "ref"
+  ],
+  "negative_difference_pp": -6.734139269742985,
+  "Full_minus_Sequence_CI_pp": [
+    -15.970237369747828,
+    1.6411083571633116
+  ],
+  "interval_methods": {
+    "quartile": "5000 paired RBP bootstrap, seed20261012",
+    "aggregate_and_Full_minus_Sequence": "2000 two-way RNA-region/RBP positive-exponential multiplier, seed20261015"
+  },
+  "quartile_and_aggregate_CIs_all_within_axes": true,
+  "unchanged_frozen_source_hashes": true,
+  "visible_font_range_pt": [
+    5.5,
+    9.0
+  ],
+  "full_figure_PDF_vector": true,
+  "heat_cells_are_vector_quads": true,
+  "visual_review": "150-dpi 178-mm overview and 300-dpi Phi detail inspected after final layout correction."
+}

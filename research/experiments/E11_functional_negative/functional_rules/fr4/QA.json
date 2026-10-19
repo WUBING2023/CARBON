@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "checks": 87869,
+  "failures": [],
+  "max_metric_difference": 9.71445146547012e-17,
+  "independent_scipy_readback": true,
+  "native_sequence_and_meanPhi_verified": true,
+  "all_window_external_identity_permutations_recreated": true,
+  "raw_count_outputs_verified": true,
+  "paired_saved_bootstrap_CI_verified": true,
+  "no_new_model_queries": true,
+  "input_and_prediction_hash": {
+    "input": "e3dcb90d1bb97ba239cc642da98ae028cd3ce9984f0277892799949eeff5ec39",
+    "predictions": "e1f558a3e59564ce82bec711955b8a6ca1f0c80f00823d28dcc66e33fe61a832",
+    "nogru": "be44579a89c1ae6dd509b2085f34dd46005e9b17e83736b0674a0278e991c275"
+  },
+  "scope": "same author dataset; event points with gene-cluster uncertainty; not new wetlab n; two HG response events insufficient functional confirmation"
+}

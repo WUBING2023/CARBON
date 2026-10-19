@@ -1,0 +1,48 @@
+{
+  "completed_utc": "2026-10-04T11:01:08.628132+00:00",
+  "cpu_wall_seconds": 56.566862600000604,
+  "new_model_queries": 0,
+  "historical_queries_replayed": 18704,
+  "source_WT_eligible_rows": 1169,
+  "unique_windows": 1169,
+  "reference_RNAs": [
+    "CKMT2-AS1",
+    "FIRRE",
+    "HERC2P7",
+    "JPX",
+    "LIN28A",
+    "LINC01252",
+    "LINC01347",
+    "NICN1",
+    "PAICS",
+    "PVT1",
+    "RNF207",
+    "UBE2Q2P1"
+  ],
+  "proven_human_RNAs": [
+    "JPX",
+    "PVT1"
+  ],
+  "KD_author_effect_formula_max_error": 3.1525543758273513,
+  "main_scope": "NucLibB reporter WT only, not endogenous gene-level KD",
+  "primary_endpoint": "D_HNRNPK = condition means siNT minus siHNRNPK nuclear/cytoplasmic log2",
+  "source_files_sha256": {
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\02_new_public_datasets\\sources\\hnrnkp_springer_44318_2021_BFEMBJ2020106357_MOESM5_ESM.xlsx": "ad478cbaff86d527fb74de61235f1225fed67a1598522c1b8cb5f002cff2ccd2",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\08_HNRNPK_SLTM_validation\\ROWS.csv": "64be208c93e7fd8875d57f7c3f0490a0f90edcaa9c8e8c44aa54e64c030ee756",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\08_HNRNPK_SLTM_validation\\INPUTS.npz": "f1079f4eddcd549224472151eb80d3e60fb602222ce07c6f613ea0bd507bb5c8",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\08_HNRNPK_SLTM_validation\\PREDICTIONS.npz": "c412567270964a89e48fec97a4e5b83c1ae69700847237187c50c9188f423d2e",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\08_HNRNPK_SLTM_validation\\PROTOCOL.json": "ff7796cd3ed99180b1f00026cbd15421690eb9ff4ecd0bbba5f1682067d7266c",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\08_HNRNPK_SLTM_validation\\RESULT.json": "cb9a222acebe32f589d342aa0604e91a26dcd6bd938faca0a58fbe7abcbd3d8e",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\PROTOCOL_FR1.md": "95befe2b6750951759f1146bf8ca6f3e6c2075731df41259d051e85bcbe57cbb",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\run_fr1.py": "54f56b4e81f5431ab5597eefa690272778f654cfc5c099bcd941bc58035c09de"
+  },
+  "model_family": "old paired A/S; flat/permuted are frozen input controls, not trained controls",
+  "comparison_cells_all_reported": [
+    "HNRNPK_HepG2_ENCSR828ZID",
+    "HNRNPK_K562_ENCSR268ETU",
+    "SLTM_HepG2_ENCSR351PVI",
+    "SLTM_K562_ENCSR000SSH"
+  ],
+  "biological_unit": "reference RNA; overlapping windows and experimental replicates not independent RNA",
+  "results_are_exploratory": true
+}

@@ -1,0 +1,25 @@
+{
+  "width_mm": 85,
+  "expanded_height_mm": 223,
+  "additional_height_mm": 91,
+  "natural_example": "chr8:1844440:C:T",
+  "natural_selection": "max distinct-RBP coverage; Phi and coordinate tie breakers; no model outcomes",
+  "preserve_B1": "original 132-mm accepted panel geometry and all numeric data preserved; original a/b/c relabelled b/c/d only",
+  "reference_views": [
+    "PrismNet Figure4: linked sequence/perturbation/prediction/assay readout",
+    "PrismNet Figure7: natural SNV localized at shared coordinates with downstream RBP readout"
+  ],
+  "transferred": "same-locus sequence/variant/Phi linked to paired model response and actual BEAPR direction; no structure assay, pull-down, odds ratio or causal conclusion inherited",
+  "source_files": {
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\intervention_linked_20261005\\direction_b\\render.py": "ebd5213bcc4cb37b5d63293d2daa3c5f2b6c059453a87b21d7601d70086521b3",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\intervention_linked_20261005\\direction_b\\INTERVENTION_PACKET.npz": "f184db62c3d5b2903dee51b7f3172e090b5c6f71a1d2d5c550cc6d2430b131a9",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v1\\work_variants\\FIG5_NATURAL_SNV_EXAMPLE_ALL10.csv": "25cc9dbd678b28444a7e85ba49ab4707b9299402958d8e2a3d554947a81fd8e9",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v1\\work_variants\\DIRECTION_SUMMARY.csv": "b0331307adf4c92455c32d070dc6f8d35cacafa9c069723cd72b473d4b63d75d",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v1\\work_variants\\CONSERVATION_ASSOCIATIONS.csv": "700c74286ed94268b0da6c2549e84cf06d2b3f3ad42360e25e7d57bb1bb1425b"
+  },
+  "manuscript_layout": {
+    "first_float": "original accepted B1 a/b/c, 85x132mm, byte-exact b1_reference/figure.pdf",
+    "continued_float": "FIG5_ADDITIONAL_d_e_85mm.pdf, natural variant d and cohort/conservation e, 85x91mm",
+    "expanded_composite": "engineering preview only, not manuscript"
+  }
+}

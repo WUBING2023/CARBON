@@ -1,0 +1,19 @@
+\begin{table}[H]
+\centering
+\caption{Task-mean values of six archived implementation-specific metrics across 222 task names. Window identity has not been verified across implementations; output scales and peak/tied-rank scoring differ (S1.3). This table does not establish a fair method ranking. Historical task-win counts are retained descriptively.}
+\label{tab:s1-benchmark}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Model & PCC & Spearman & Signal AUROC & Signal AP & Peak AUROC & Peak AP \\
+\midrule
+CARBON & 0.3092 & 0.4226 & 0.7574 & 0.5689 & 0.7576 & 0.5687 \\
+iDeepB & 0.2644 & 0.3661 & 0.7207 & 0.5239 & 0.7209 & 0.5236 \\
+RBPNet & 0.2471 & 0.3604 & 0.7180 & 0.5209 & 0.7381 & 0.4522 \\
+\midrule
+CARBON vs iDeepB & 220/222 & 222/222 & 222/222 & 222/222 & 222/222 & 222/222 \\
+CARBON vs RBPNet & 220/222 & 222/222 & 222/222 & 222/222 & 164/222 & 222/222 \\
+\bottomrule
+\end{tabular}
+\end{table}

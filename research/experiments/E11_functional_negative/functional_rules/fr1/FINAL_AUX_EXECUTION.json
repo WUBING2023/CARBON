@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-04T11:13:43.277937+00:00",
+  "new_model_queries": 0,
+  "input_sha256": {
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\fr1\\MODEL_FUNCTION_JOIN.csv": "26e4f5bbfd1f17c32573f3307ad8e6ea01735de2a5051e930215c07523e352e9",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\fr1\\EFFECT_AXIS_PER_TILE.csv": "0afe93b8679793caa24a262aeded5aa728ca736167d0c764c95f7f1e6942a5fd",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\PROTOCOL_FR1_SOURCE_ADDENDUM.md": "1ab885ec6ec31919a197d25eaee5a2029c12b358f5a2a631fcf33d450c751f7c",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\finalize_fr1.py": "da65dc6d1bf36ea840a6848a2ffbda5d0afb2ea20084b16cda0af17377269732"
+  },
+  "FR1_frozen": true,
+  "primary_retained": true
+}

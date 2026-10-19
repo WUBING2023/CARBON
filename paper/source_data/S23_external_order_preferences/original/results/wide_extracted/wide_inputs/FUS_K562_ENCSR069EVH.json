@@ -1,0 +1,22 @@
+{
+  "task": "FUS_K562_ENCSR069EVH",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/FUS_K562_ENCSR069EVH/_5ch/FUS_K562_ENCSR069EVH_chr8_5ch.h5",
+      "bytes": 7307250,
+      "n_windows": 16955,
+      "sha256": "890eec9152c966232cc24a76c1f8f0e191b59a92c982d36be12042d12dd1789b"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/FUS_K562_ENCSR069EVH/_5ch/FUS_K562_ENCSR069EVH_chr15_5ch.h5",
+      "bytes": 5850971,
+      "n_windows": 13549,
+      "sha256": "5e8359f797d9916d08601d7397ceca23df096e1433b950d677d43b748900530a"
+    }
+  ],
+  "n_total": 30504,
+  "n_eligible": 30504,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "0667212ff04d03d8a3c38fb2117c715d4a52d92f540446dc73d46d3123650bcc"
+}

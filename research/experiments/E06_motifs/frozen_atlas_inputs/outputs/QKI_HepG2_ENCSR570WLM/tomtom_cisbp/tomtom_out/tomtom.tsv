@@ -1,0 +1,18 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+pos_pattern_0	M00460_2.00	-1	1.13515e-06	0.000708333	0.000671156	7	UUACUAACC	UACUAAC	+
+pos_pattern_0	M00620_2.00	0	2.52211e-06	0.0015738	0.000745599	9	UUACUAACC	UUACUAACAAU	+
+pos_pattern_0	M13009_2.00	-1	4.97502e-06	0.00310441	0.000980493	8	UUACUAACC	UACUAACA	+
+pos_pattern_0	M00068_2.00	-2	1.55429e-05	0.00969876	0.00229743	7	UUACUAACC	ACUAACA	+
+pos_pattern_0	M00621_2.00	7	2.87114e-05	0.0179159	0.00339512	9	UUACUAACC	ACUAACAAUACUAACA	+
+pos_pattern_0	M00547_2.00	-2	0.000355907	0.222086	0.0350717	7	UUACUAACC	ACUAAUC	+
+pos_pattern_0	M00793_2.00	-3	0.00426252	2.65981	0.360031	5	UUACUAACC	CUUAC	+
+pos_pattern_0	M00054_2.00	-2	0.00587987	3.66904	0.419034	7	UUACUAACC	ACAAACA	+
+pos_pattern_0	M00615_2.00	7	0.00697551	4.35272	0.419034	9	UUACUAACC	UUAUAAAUUACUACAC	+
+pos_pattern_0	M00806_2.00	-3	0.00735244	4.58792	0.419034	6	UUACUAACC	UUAACA	+
+pos_pattern_0	M13090_2.00	0	0.00779598	4.86469	0.419034	8	UUACUAACC	UUACGUAA	+
+pos_pattern_0	M00185_2.00	-2	0.00892729	5.57063	0.439855	7	UUACUAACC	ACAAACA	+
+pos_pattern_0	M00737_2.00	-1	0.010153	6.33549	0.461767	6	UUACUAACC	UAUUAA	+
+
+# Tomtom (Motif Comparison Tool): Version 5.5.7 compiled on Apr 27 2025 at 01:51:24
+# The format of this file is described at https://meme-suite.org/meme/doc/tomtom-output-format.html.
+# tomtom -no-ssc -dist pearson -min-overlap 4 -oc /data/CARBON_PROJECT/可解释性分析/Motif/outputs/QKI_HepG2_ENCSR570WLM/tomtom_cisbp/tomtom_out /data/CARBON_PROJECT/可解释性分析/Motif/outputs/QKI_HepG2_ENCSR570WLM/tfmodisco_export/queries.meme /data/CARBON_PROJECT/可解释性分析/Motif/outputs/QKI_HepG2_ENCSR570WLM/tomtom_cisbp/cisbp_targets.meme

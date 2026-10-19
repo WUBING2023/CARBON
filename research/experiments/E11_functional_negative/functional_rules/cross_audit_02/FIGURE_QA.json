@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-04T14:02:40.416262+00:00",
+  "pass": true,
+  "checks": 620,
+  "max_error": 0.0,
+  "independent_ab_points": 250,
+  "independent_c_matrix_cells": 80,
+  "independent_c_external_values": 20,
+  "d_points_and_bounds": 18,
+  "source_hash": "cad5bb8c5ed35804cd830f1a2bf98ed4f03aa706cae010b242e52b8b2ed29eba",
+  "PNG_sha256": "46e838e61c0c5086a1a4516433169d9b0ef5248d2bf1b92bca0c7f9426bc58d2",
+  "no_new_experiments": true,
+  "scientific_scope": "Plotted data correctness does not establish Phi-specific, biological-function, or cross-assay advantage."
+}

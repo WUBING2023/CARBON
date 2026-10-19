@@ -1,0 +1,66 @@
+[
+  {
+    "reference": "PrismNet (2021), original Fig. 7",
+    "original_file": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\interpretability_strengthening_20261003\\01_literature\\sources\\prismnet_41422_2021_476_Fig7_HTML.png",
+    "delivered_exact_original": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\fig5_v3\\references\\prismnet_41422_2021_476_Fig7_HTML.png",
+    "sha256": "ef85c3f1c35a7fe5dad63403c53f31d78d2eee350cf20a9a5d96105b257688ef",
+    "original_pixel_size": [
+      2034,
+      2032
+    ],
+    "comparison_width_mm": 178,
+    "comparison_height_mm": 177.82497541789579,
+    "source": "https://www.nature.com/articles/s41422-021-00476-y/figures/7",
+    "scientific_job_and_limit": "Allele identity linked to common coordinates and inputs. CARBON uses fixed reference Phi and observed BEAPR ordering; no mutant-structure or splicing-validation claim.",
+    "whole_original_not_cropped": true,
+    "viewed_before_v3_drawing": true
+  },
+  {
+    "reference": "PrismNet (2021), original Fig. 6",
+    "original_file": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\interpretability_strengthening_20261003\\01_literature\\sources\\prismnet_41422_2021_476_Fig6_HTML.png",
+    "delivered_exact_original": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\fig5_v3\\references\\prismnet_41422_2021_476_Fig6_HTML.png",
+    "sha256": "e79b75ac2d5bd8f590889514356f3c4593fa41d3b77f40a0d99a7e9dee624605",
+    "original_pixel_size": [
+      1946,
+      1534
+    ],
+    "comparison_width_mm": 178,
+    "comparison_height_mm": 140.31449126413156,
+    "source": "https://www.nature.com/articles/s41422-021-00476-y/figures/6",
+    "scientific_job_and_limit": "Matched identity and comparative scope. CARBON retains the full cohort; no random-site/HAR control, disease enrichment or odds-ratio result is invented.",
+    "whole_original_not_cropped": true,
+    "viewed_before_v3_drawing": true
+  },
+  {
+    "reference": "Matreyek et al. (2018), original Fig. 2",
+    "original_file": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\candidate_portfolio_20261006\\reference_faithful_20261007\\B3\\references\\Matreyek2018_Fig2_full.jpg",
+    "delivered_exact_original": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\fig5_v3\\references\\Matreyek2018_Fig2_full.jpg",
+    "sha256": "670e940d99082fd71ec6fdf9cb45cf16df7102dfdac14b885e55d2abe0772146",
+    "original_pixel_size": [
+      2121,
+      1791
+    ],
+    "comparison_width_mm": 178,
+    "comparison_height_mm": 150.3055162659123,
+    "source": "https://www.nature.com/articles/s41588-018-0122-z",
+    "scientific_job_and_limit": "Complete object matrix and aligned annotation tracks. Here, cells are frozen RBP predictions and external word preference, not abundance or pathogenicity assays.",
+    "whole_original_not_cropped": true,
+    "viewed_before_v3_drawing": true
+  },
+  {
+    "reference": "Linder et al. (2022), Scrambler Fig. 3",
+    "original_file": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\candidate_portfolio_20261006\\reference_faithful_20261007\\B4\\references\\scrambler_Fig3.jpg",
+    "delivered_exact_original": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\fig5_v3\\references\\scrambler_Fig3.jpg",
+    "sha256": "04f454d04dea5bee17c34644e13de3396c0b328af432f2e2942d560c5c000b25",
+    "original_pixel_size": [
+      750,
+      552
+    ],
+    "comparison_width_mm": 178,
+    "comparison_height_mm": 131.008,
+    "source": "https://www.nature.com/articles/s42256-021-00428-6/figures/3",
+    "scientific_job_and_limit": "Literal operation identity carried through paired outputs. Here, a frozen edit/allele is matched across responses; APA function and attribution truth do not transfer.",
+    "whole_original_not_cropped": true,
+    "viewed_before_v3_drawing": true
+  }
+]

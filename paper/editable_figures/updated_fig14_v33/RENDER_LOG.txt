@@ -1,0 +1,1 @@
+{"png": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v33\\manuscript\\editable_figures\\updated_fig14_v33\\figure.png", "size_mm": [85.0, 124.0], "max_101_to22_error": 0, "atlas_rows": 865}

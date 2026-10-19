@@ -1,0 +1,7 @@
+ablation_subdir	no_multiscale
+ablation_no_se	0
+ablation_no_multiscale	1
+ablation_no_gru	0
+ablation_lstm_instead_of_gru	0
+ablation_no_combined_loss	0
+ablation_no_conservative	0

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "events": 396,
+  "changed_fields": {
+    "valid_events.csv": 396,
+    "event_predictions.csv": 396
+  },
+  "basis": "Archived passed genome/orientation gate plus per-event input hash, full-sequence one-hot, coordinate, allele-pair and strand consistency checks; no fresh genome fetch.",
+  "preservation": "All CSV values other than reference_allele_verified are unchanged; original candidate-stage records and source CSV files are untouched.",
+  "source": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\submission_review_20260927\\manuscript\\source_data\\S19_ASB",
+  "source_sha256": {
+    "input_gate.json": "de1d9fcb306ada23b714e5f6383a968fb0c37612668b723e8b971d6f5b00aead",
+    "inputs.npz": "0a0d06a9f26d647ce27664bbbe33d2231790be6edb0535a18b9f925570f65c7f",
+    "valid_events.csv": "a2876b37b376bc1d3d7790a2bd7b1493f8086365d95860b5e9622c1877e956e0",
+    "event_predictions.csv": "d73941360981313ea21596a3f5d66b604c795c3988c1fe2d88af9e47f1004a47"
+  },
+  "output_sha256": {
+    "valid_events.csv": "fc0696978da0d08c25aae9855e3ed8c95b51c1adf8d93eedefb4ef47fd375a1c",
+    "event_predictions.csv": "5b08e1cd99fee673e47fc772f64b649d249a1e88b81360a59ad43c3159621a8b"
+  },
+  "script_sha256": "8049fadd2e2aeccc5a3b828c998e93722e82ddbf5e9bab9e1f0a1e64337f458f"
+}

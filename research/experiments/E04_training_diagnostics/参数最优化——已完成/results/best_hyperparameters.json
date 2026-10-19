@@ -1,0 +1,17 @@
+{
+  "best_params": {
+    "lr": 0.0007851012975638842,
+    "bsz": 256,
+    "weight_decay": 0.0001143421222178074,
+    "alpha": 1.419421905352219,
+    "beta": 0.5402180541474885,
+    "gamma": 1.7983395804646456,
+    "grad_clip": 2.0,
+    "max_stopping_step": 9
+  },
+  "best_value": 0.3371398155909699,
+  "best_trial_number": 64,
+  "n_trials": 65,
+  "n_completed": 58,
+  "timestamp": "2026-03-19T07:29:51.947613"
+}

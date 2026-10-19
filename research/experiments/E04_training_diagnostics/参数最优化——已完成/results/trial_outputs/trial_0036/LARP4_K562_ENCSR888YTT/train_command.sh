@@ -1,0 +1,24 @@
+#!/bin/bash
+python3 -u /data/CARBON_PROJECT/MARCP/marcp_train.py \
+  --CUDA 1 \
+  --task LARP4_K562_ENCSR888YTT \
+  -train /data/CARBON_PROJECT/数据/h5data/LARP4_K562_ENCSR888YTT/_5ch/LARP4_K562_ENCSR888YTT_chr1_5ch.h5 \
+  -validation /data/CARBON_PROJECT/数据/h5data/LARP4_K562_ENCSR888YTT/_5ch/LARP4_K562_ENCSR888YTT_chr2_5ch.h5 \
+  -test /data/CARBON_PROJECT/数据/h5data/LARP4_K562_ENCSR888YTT/_5ch/LARP4_K562_ENCSR888YTT_chr3_5ch.h5 \
+  --output /data/CARBON_PROJECT/参数最优化/results/trial_outputs/trial_0036/LARP4_K562_ENCSR888YTT \
+  --epochs 100 \
+  --input_channels 5 \
+  --encode OneHot \
+  --modelFramework Treat \
+  --lossM CombinedProfileLoss \
+  --signalMax 0 \
+  --seqLength 101 \
+  --loss_scale 1.0 \
+  --lr 0.000942788 \
+  --bsz 256 \
+  --weight_decay 0.000599719 \
+  --alpha 1.77102 \
+  --beta 0.272755 \
+  --gamma 1.33027 \
+  --grad_clip 2.0 \
+  --max_stopping_step 8

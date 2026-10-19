@@ -1,0 +1,63 @@
+{
+  "isolated_directory": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v1\\work_variants\\replay_check_20261012_192217",
+  "network_used": false,
+  "external_original_paths_needed": false,
+  "compared_tables": [
+    {
+      "file": "DIRECTION_SUMMARY.csv",
+      "rows": 20,
+      "matched": true
+    },
+    {
+      "file": "DIRECTION_CONTRASTS.csv",
+      "rows": 16,
+      "matched": true
+    },
+    {
+      "file": "CONSERVATION_ASSOCIATIONS.csv",
+      "rows": 16,
+      "matched": true
+    },
+    {
+      "file": "DIRECTION_BY_CONSERVATION.csv",
+      "rows": 40,
+      "matched": true
+    },
+    {
+      "file": "DIRECTION_TWO_WAY_SENSITIVITY.csv",
+      "rows": 18,
+      "matched": true
+    },
+    {
+      "file": "WEIGHTED_REFIT_SENSITIVITY_200.csv",
+      "rows": 8,
+      "matched": true
+    },
+    {
+      "file": "WEIGHTED_REFIT_REGION_SENSITIVITY_200.csv",
+      "rows": 8,
+      "matched": true
+    },
+    {
+      "file": "ADJUSTED_ASSOCIATION_PAIRED_CONTRASTS.csv",
+      "rows": 6,
+      "matched": true
+    },
+    {
+      "file": "ANNOTATIONS_ALL287.csv",
+      "rows": 287,
+      "matched": true
+    },
+    {
+      "file": "STRICT396_WITH_ANNOTATIONS.csv",
+      "rows": 396,
+      "matched": true
+    },
+    {
+      "file": "CLINVAR_DIRECT_VERIFICATION.csv",
+      "rows": 31,
+      "matched": true
+    }
+  ],
+  "all_passed": true
+}

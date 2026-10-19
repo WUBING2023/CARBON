@@ -1,0 +1,24 @@
+#!/bin/bash
+python3 -u /data/CARBON_PROJECT/MARCP/marcp_train.py \
+  --CUDA 3 \
+  --task IGF2BP3_HepG2_ENCSR993OLA \
+  -train /data/CARBON_PROJECT/数据/h5data/IGF2BP3_HepG2_ENCSR993OLA/_5ch/IGF2BP3_HepG2_ENCSR993OLA_chr1_5ch.h5 \
+  -validation /data/CARBON_PROJECT/数据/h5data/IGF2BP3_HepG2_ENCSR993OLA/_5ch/IGF2BP3_HepG2_ENCSR993OLA_chr2_5ch.h5 \
+  -test /data/CARBON_PROJECT/数据/h5data/IGF2BP3_HepG2_ENCSR993OLA/_5ch/IGF2BP3_HepG2_ENCSR993OLA_chr3_5ch.h5 \
+  --output /data/CARBON_PROJECT/参数最优化/results/trial_outputs/trial_0061/IGF2BP3_HepG2_ENCSR993OLA \
+  --epochs 100 \
+  --input_channels 5 \
+  --encode OneHot \
+  --modelFramework Treat \
+  --lossM CombinedProfileLoss \
+  --signalMax 0 \
+  --seqLength 101 \
+  --loss_scale 1.0 \
+  --lr 0.000800526 \
+  --bsz 256 \
+  --weight_decay 0.000514971 \
+  --alpha 1.40264 \
+  --beta 0.292152 \
+  --gamma 1.81735 \
+  --grad_clip 2.0 \
+  --max_stopping_step 9

@@ -1,0 +1,13 @@
+{
+  "task": "PTBP1_HepG2_ENCSR384KAN",
+  "seed": 11,
+  "condition": "nogru",
+  "device": "CPU8",
+  "parameters": 44698,
+  "checkpoint_sha256": "b53936a5d1bac24908b2a08810f8c4fc03880f3a8e8c74e9f3855b11d0a79a10",
+  "input_sha256": "ff9694ad35b877c821565679783302f461591ab0370729991bf3c5d3acdaf1d9",
+  "script_sha256": "d1c54bd9a9ae04a8f9e39caba74ab3a36e6eee2e4f2573b813b098fcb96d5d6d",
+  "n_backgrounds": 16,
+  "n_words": 1024,
+  "elapsed_seconds": 2.2290170192718506
+}

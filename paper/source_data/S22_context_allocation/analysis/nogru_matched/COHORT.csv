@@ -1,0 +1,46 @@
+scene,cohort,group,pair_loci,genes,task_gene_units,genes_per_task_json,observed_ties,valid_bootstraps,estimable
+all_core,adjusted,PTBP1_K562_ENCSR981WKN,793,412,412,"{""PTBP1_K562_ENCSR981WKN"": 412}",32,10000,True
+all_core,adjusted,PTBP1_HepG2_ENCSR384KAN,1058,453,453,"{""PTBP1_HepG2_ENCSR384KAN"": 453}",40,10000,True
+all_core,adjusted,PTBP1,1851,659,865,"{""PTBP1_K562_ENCSR981WKN"": 412, ""PTBP1_HepG2_ENCSR384KAN"": 453}",72,10000,True
+all_core,adjusted,PTBP1_chr1,1358,489,652,"{""PTBP1_K562_ENCSR981WKN"": 307, ""PTBP1_HepG2_ENCSR384KAN"": 345}",48,10000,True
+all_core,adjusted,PTBP1_XY,493,170,213,"{""PTBP1_K562_ENCSR981WKN"": 105, ""PTBP1_HepG2_ENCSR384KAN"": 108}",24,10000,True
+all_core,raw,PTBP1_K562_ENCSR981WKN,2129,700,700,"{""PTBP1_K562_ENCSR981WKN"": 700}",80,10000,True
+all_core,raw,PTBP1_HepG2_ENCSR384KAN,2938,781,781,"{""PTBP1_HepG2_ENCSR384KAN"": 781}",116,10000,True
+all_core,raw,PTBP1,5067,988,1481,"{""PTBP1_K562_ENCSR981WKN"": 700, ""PTBP1_HepG2_ENCSR384KAN"": 781}",196,10000,True
+all_core,raw,PTBP1_chr1,3647,737,1117,"{""PTBP1_K562_ENCSR981WKN"": 522, ""PTBP1_HepG2_ENCSR384KAN"": 595}",143,10000,True
+all_core,raw,PTBP1_XY,1420,251,364,"{""PTBP1_K562_ENCSR981WKN"": 178, ""PTBP1_HepG2_ENCSR384KAN"": 186}",53,10000,True
+all_core,adjusted_unexposed_gene,PTBP1_K562_ENCSR981WKN,277,155,155,"{""PTBP1_K562_ENCSR981WKN"": 155}",11,10000,True
+all_core,adjusted_unexposed_gene,PTBP1_HepG2_ENCSR384KAN,258,157,157,"{""PTBP1_HepG2_ENCSR384KAN"": 157}",10,10000,True
+all_core,adjusted_unexposed_gene,PTBP1,535,260,312,"{""PTBP1_K562_ENCSR981WKN"": 155, ""PTBP1_HepG2_ENCSR384KAN"": 157}",21,10000,True
+all_core,adjusted_unexposed_gene,PTBP1_chr1,295,163,196,"{""PTBP1_K562_ENCSR981WKN"": 90, ""PTBP1_HepG2_ENCSR384KAN"": 106}",10,10000,True
+all_core,adjusted_unexposed_gene,PTBP1_XY,240,97,116,"{""PTBP1_K562_ENCSR981WKN"": 65, ""PTBP1_HepG2_ENCSR384KAN"": 51}",11,10000,True
+long_gap,adjusted,PTBP1_K562_ENCSR981WKN,336,225,225,"{""PTBP1_K562_ENCSR981WKN"": 225}",17,10000,True
+long_gap,adjusted,PTBP1_HepG2_ENCSR384KAN,498,284,284,"{""PTBP1_HepG2_ENCSR384KAN"": 284}",17,10000,True
+long_gap,adjusted,PTBP1,834,427,509,"{""PTBP1_K562_ENCSR981WKN"": 225, ""PTBP1_HepG2_ENCSR384KAN"": 284}",34,10000,True
+long_gap,adjusted,PTBP1_chr1,604,317,380,"{""PTBP1_K562_ENCSR981WKN"": 163, ""PTBP1_HepG2_ENCSR384KAN"": 217}",24,10000,True
+long_gap,adjusted,PTBP1_XY,230,110,129,"{""PTBP1_K562_ENCSR981WKN"": 62, ""PTBP1_HepG2_ENCSR384KAN"": 67}",10,10000,True
+long_gap,raw,PTBP1_K562_ENCSR981WKN,887,443,443,"{""PTBP1_K562_ENCSR981WKN"": 443}",35,10000,True
+long_gap,raw,PTBP1_HepG2_ENCSR384KAN,1274,523,523,"{""PTBP1_HepG2_ENCSR384KAN"": 523}",47,10000,True
+long_gap,raw,PTBP1,2161,704,966,"{""PTBP1_K562_ENCSR981WKN"": 443, ""PTBP1_HepG2_ENCSR384KAN"": 523}",82,10000,True
+long_gap,raw,PTBP1_chr1,1563,522,730,"{""PTBP1_K562_ENCSR981WKN"": 331, ""PTBP1_HepG2_ENCSR384KAN"": 399}",63,10000,True
+long_gap,raw,PTBP1_XY,598,182,236,"{""PTBP1_K562_ENCSR981WKN"": 112, ""PTBP1_HepG2_ENCSR384KAN"": 124}",19,10000,True
+long_gap,adjusted_unexposed_gene,PTBP1_K562_ENCSR981WKN,111,76,76,"{""PTBP1_K562_ENCSR981WKN"": 76}",5,10000,True
+long_gap,adjusted_unexposed_gene,PTBP1_HepG2_ENCSR384KAN,116,83,83,"{""PTBP1_HepG2_ENCSR384KAN"": 83}",7,10000,True
+long_gap,adjusted_unexposed_gene,PTBP1,227,146,159,"{""PTBP1_K562_ENCSR981WKN"": 76, ""PTBP1_HepG2_ENCSR384KAN"": 83}",12,10000,True
+long_gap,adjusted_unexposed_gene,PTBP1_chr1,126,87,96,"{""PTBP1_K562_ENCSR981WKN"": 40, ""PTBP1_HepG2_ENCSR384KAN"": 56}",6,10000,True
+long_gap,adjusted_unexposed_gene,PTBP1_XY,101,59,63,"{""PTBP1_K562_ENCSR981WKN"": 36, ""PTBP1_HepG2_ENCSR384KAN"": 27}",6,10000,True
+identical_local_input,adjusted,PTBP1_K562_ENCSR981WKN,0,0,0,"{""PTBP1_K562_ENCSR981WKN"": 0}",0,0,False
+identical_local_input,adjusted,PTBP1_HepG2_ENCSR384KAN,0,0,0,"{""PTBP1_HepG2_ENCSR384KAN"": 0}",0,0,False
+identical_local_input,adjusted,PTBP1,0,0,0,"{""PTBP1_K562_ENCSR981WKN"": 0, ""PTBP1_HepG2_ENCSR384KAN"": 0}",0,0,False
+identical_local_input,adjusted,PTBP1_chr1,0,0,0,"{""PTBP1_K562_ENCSR981WKN"": 0, ""PTBP1_HepG2_ENCSR384KAN"": 0}",0,0,False
+identical_local_input,adjusted,PTBP1_XY,0,0,0,"{""PTBP1_K562_ENCSR981WKN"": 0, ""PTBP1_HepG2_ENCSR384KAN"": 0}",0,0,False
+identical_local_input,raw,PTBP1_K562_ENCSR981WKN,0,0,0,"{""PTBP1_K562_ENCSR981WKN"": 0}",0,0,False
+identical_local_input,raw,PTBP1_HepG2_ENCSR384KAN,0,0,0,"{""PTBP1_HepG2_ENCSR384KAN"": 0}",0,0,False
+identical_local_input,raw,PTBP1,0,0,0,"{""PTBP1_K562_ENCSR981WKN"": 0, ""PTBP1_HepG2_ENCSR384KAN"": 0}",0,0,False
+identical_local_input,raw,PTBP1_chr1,0,0,0,"{""PTBP1_K562_ENCSR981WKN"": 0, ""PTBP1_HepG2_ENCSR384KAN"": 0}",0,0,False
+identical_local_input,raw,PTBP1_XY,0,0,0,"{""PTBP1_K562_ENCSR981WKN"": 0, ""PTBP1_HepG2_ENCSR384KAN"": 0}",0,0,False
+identical_local_input,adjusted_unexposed_gene,PTBP1_K562_ENCSR981WKN,0,0,0,"{""PTBP1_K562_ENCSR981WKN"": 0}",0,0,False
+identical_local_input,adjusted_unexposed_gene,PTBP1_HepG2_ENCSR384KAN,0,0,0,"{""PTBP1_HepG2_ENCSR384KAN"": 0}",0,0,False
+identical_local_input,adjusted_unexposed_gene,PTBP1,0,0,0,"{""PTBP1_K562_ENCSR981WKN"": 0, ""PTBP1_HepG2_ENCSR384KAN"": 0}",0,0,False
+identical_local_input,adjusted_unexposed_gene,PTBP1_chr1,0,0,0,"{""PTBP1_K562_ENCSR981WKN"": 0, ""PTBP1_HepG2_ENCSR384KAN"": 0}",0,0,False
+identical_local_input,adjusted_unexposed_gene,PTBP1_XY,0,0,0,"{""PTBP1_K562_ENCSR981WKN"": 0, ""PTBP1_HepG2_ENCSR384KAN"": 0}",0,0,False

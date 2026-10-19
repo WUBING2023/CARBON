@@ -1,134 +1,55 @@
 # CARBON
 
-**CARBON** (Base-resolution RBP binding profile prediction with conservation signals) combines RNA OneHot encoding with evolutionary conservation (e.g. PhyloP) to predict base-resolution RBP binding profiles (profile + total count).
+CARBON predicts base-resolution RNA-binding protein profiles from sequence and conservation. This private review candidate combines the existing model/demo code with selected frozen research results and the current manuscript sources.
 
-This repository is a complete code release for **GitHub / archival (DOI)**: training, validation, testing, preprocessing, and example plotting scripts, plus a **minimal demo** dataset (`AARS_K562_ENCSR825SVO`, one `_5ch.h5` per chr1/2/3).
+**Start here:** [S1-S27 data entries](paper/source_data/README_CURRENT.md) · [research evidence map](docs/EVIDENCE_MAP.md) · [replay and verification](docs/REPRODUCE.md) · [known limits](docs/KNOWN_LIMITS.md) · [data and weight availability](docs/DATA_AVAILABILITY.md).
 
-**Full datasets and weights:** The complete datasets and full model-weight archive will be released on **Zenodo**; the DOI is pending. This repository ships the small demo subset and demo weights for quick sanity checks.
+| Path | Purpose |
+|---|---|
+| CARBON/, carbon_train.py, preprocessing/ | Existing model, losses, training/evaluation and data preparation |
+| data/, carbon_trained_model/, configs/ | Small included AARS demonstration and checkpoint |
+| research/experiments/E01–E11/ | Original analysis code, complete frozen result cohorts, run records and per-experiment guides |
+| research/historical_model/ | MARCP implementation associated with archived historical launchers |
+| research/catalog/ | 1,332-run ablation index, canonical weight availability, source hashes and external-asset/duplicate maps |
+| paper/ | Current TeX, bibliography, used figure PDFs, source tables and editable figure inputs |
+| scripts/verify_demo_cpu.py | Executable CPU check against six saved demo metrics |
+| scripts/verify_frozen_results.py | Executable arithmetic checks for archived ablations, Figure 4 and Figure 5 cohorts |
 
-**Figure reproduction:** Full reproduction of main figures, supplementary figures, and associated statistics is available on **Code Ocean**: <https://codeocean.com/capsule/3401736/tree>. This repository offers a minimal local demo and scripts to verify the environment and API; batch plotting paths for publication-scale figures follow the Code Ocean configuration.
+## Install and run the checked paths
 
-## Repository layout (summary)
+Portable Conda setup:
 
-| Path | Description |
-|------|-------------|
-| `carbon_train.py` | Single entry for training, validation, **prediction / evaluation** (`--eval_only`) |
-| `CARBON/` | Model, losses, utilities, visualization |
-| `data/h5data/.../_5ch/*.h5` | Demo 5-channel HDF5 (relative paths) |
-| `configs/demo.yaml`, `configs/demo_paths.json` | Demo task id and data/output paths |
-| `preprocessing/` | `bed_to_h5.py` (17-col BED→h5), `preprocess_5ch.py` (PhyloP→5ch) |
-| `figures/plot_demo_signal_track.py` | **Main demo figure**: first **four tracks** as in paper Figure 2 (CARBON, eCLIP, two inverted controls) |
-| `figures/supplementary/plot_train_val_curves.py` | **Supplementary-style plot**: train/val loss and Pearson vs epoch |
-| `figures/stats/print_test_metrics.py` | Print `test_metrics_summary.txt` |
-| `scripts/run_demo_train.sh` | One-command training on demo data |
-| `scripts/run_demo_plot.sh` | One-command demo track figure |
-| `scripts/run_eval_only.sh` | Load weights and evaluate on test h5 only |
-| `demo/demo_input.json` | Small example input (path list) |
-| `exampledata/out_test/` | Example metrics text and small weights (optional) |
-| `environment.yml` | Conda env (remove trailing `prefix:` when recreating on another machine) |
-| `requirements.txt` | Core pip dependencies |
-| `LICENSE` | MIT |
+    conda env create -f environment.portable.yml
+    conda activate carbon
 
-## Environment
+Or create a Python 3.12 environment and install the CPU dependencies:
 
-**Conda (recommended)**
+    python -m pip install -r requirements.cpu.txt
 
-```bash
-conda env create -f environment.yml
-conda activate CARBON
-```
-
-If `environment.yml` contains a machine-specific `prefix:` line, delete it before creating the environment elsewhere.
-
-**pip**
-
-```bash
-pip install -r requirements.txt
-# Install torch/torchvision from https://pytorch.org for your CUDA/CPU setup
-```
-
-## Demo data and paths
-
-Demo files:
-
-- `data/h5data/AARS_K562_ENCSR825SVO/_5ch/AARS_K562_ENCSR825SVO_chr1_5ch.h5` (train)
-- `data/h5data/AARS_K562_ENCSR825SVO/_5ch/AARS_K562_ENCSR825SVO_chr2_5ch.h5` (validation)
-- `data/h5data/AARS_K562_ENCSR825SVO/_5ch/AARS_K562_ENCSR825SVO_chr3_5ch.h5` (test)
-
-Task ID: `AARS_K562_ENCSR825SVO` (matches `task_id` in `configs/demo.yaml`).
-
-When switching data, update `configs/demo.yaml`, `demo/demo_input.json`, and pass new `-train` / `-validation` / `-test` / `--task` on the command line.
-
-## Quick start (minimal demo)
+These dependency versions describe the environment used for validation; a fresh environment install has not been tested. The older environment.yml is a Linux-specific historical lock, not a portable installation recipe. Preprocessing and attribution use additional optional packages listed in requirements.txt; figure replays may also need PyMuPDF, R and circlize.
 
 From the repository root:
 
-```bash
-# 1) Train (default 3 epochs; set DEMO_EPOCHS=1 for a smoke test)
-bash scripts/run_demo_train.sh
+    python scripts/smoke_model.py
+    python scripts/verify_demo_cpu.py
+    python scripts/verify_frozen_results.py
+    python figures/plot_demo_signal_track.py --device cpu --out outputs/demo_signal_track.png
+    python scripts/verify_package.py
 
-# 2) Figure matching Figure 2 first four tracks (needs model_params.pth from step 1)
-bash scripts/run_demo_plot.sh
-```
+The AARS verifier explicitly passes CPU and task options and evaluates 1,283 included test windows. It compares the six saved metrics with absolute tolerance 1e-5. The four-track plot contains CARBON, pooled eCLIP, inverted pooled eCLIP and inverted input control. The last two tracks are display transforms of Y and Y_ctl, not biological replicates.
 
-Outputs:
+The demo chr1/2/3 split is illustrative. Formal archived experiments use their recorded chromosome splits and configurations. Fresh training should use a new output directory, for example:
 
-- Model and metrics: `carbon_trained_model/AARS_K562_ENCSR825SVO_demo/`
-- Figure: `figures/outputs/demo_signal_track_4rows.png`
+    bash scripts/run_demo_train.sh outputs/demo_train
 
-Without a GPU, training and plotting fall back to CPU (slower).
+## Scope of reproduction
 
-## Training / validation / evaluation
+The checked CPU demo and frozen-table calculations do not establish all historical training reproducibility, identical MARCP/refactor behavior, a unified fair three-model benchmark, or independent functional validation. Full/Sequence controls, unfavorable directions, and negative/mixed functional results are retained. Read each experiment's evidence boundary before interpreting its outputs.
 
-- **Training** (see `carbon_train.py --help` for all flags):
+A versioned, public full-data/full-weight download is **not available from this package**. Canonical archived checkpoint counts are CARBON 221, iDeepB 219 and RBPNet 222; exact missing tasks and SHA identities are listed. The older local Zenodo package contains a different 222-task set. No pending DOI or private platform URL is represented as a usable public data source. Code Ocean has only a historical demonstration run; complete-paper reproduction there has not been established.
 
-```bash
-python3 -u carbon_train.py \
-  --modelFramework Treat \
-  --lossM CombinedProfileLoss \
-  --input_channels 5 \
-  -train <train_5ch.h5> \
-  -validation <val_5ch.h5> \
-  -test <test_5ch.h5> \
-  --task <TASK_ID> \
-  --output <output_dir> \
-  ... # lr, epochs, etc.: see configs/demo.yaml or the paper
-```
+## Provenance and use
 
-- **Evaluation only** (existing `model_params.pth`):
+The candidate is based on GitHub main 40ca6bfe3b7d601a08aa7aa68abcebd5773f5317, locally checked against 71 downloaded files on 2026-10-19. Source hashes, path-only redactions and current manuscript binding are machine readable. Large identical assets have one canonical copy; materialize a separate scratch tree with scripts/materialize_replay.py before historical figure replays. Packaging preserves supplied scientific data and creates no new experimental observations; file and arithmetic checks do not certify the authenticity of every historical measurement.
 
-```bash
-bash scripts/run_eval_only.sh
-# or
-python3 carbon_train.py --eval_only --load_model <model_params.pth> -test <test_5ch.h5> \
-  --task <TASK_ID> --output <output_dir> ... # same model/data flags as training
-```
-
-## Data preprocessing
-
-1. **BED → 9-column h5** (`key=df`): `python3 preprocessing/bed_to_h5.py -i <bed> -o <out.h5>`
-2. **Per-chromosome split/merge** can be done upstream (see paper data pipeline).
-3. **4-channel table + PhyloP → 5ch HDF5** (`X`, `Y`, `Y_ctl`):  
-   `python3 preprocessing/preprocess_5ch.py --input_dir <h5data/TASK> --bw_path <hg38.phyloP100way.bw>`
-
-## Figures and statistics
-
-Full figure and statistics reproduction: **Code Ocean** <https://codeocean.com/capsule/3401736/tree>.
-
-Zenodo will host the **full datasets and full model weights**; the DOI is pending.
-
-- **Main demo**: `figures/plot_demo_signal_track.py` — four tracks aligned with Figure 2 (CARBON / eCLIP / inverted tracks); no other comparators required.
-- **Supplementary-style curves**: `python3 figures/supplementary/plot_train_val_curves.py --train-dir carbon_trained_model/AARS_K562_ENCSR825SVO_demo`
-- **Metrics**: `python3 figures/stats/print_test_metrics.py carbon_trained_model/.../test_metrics_summary.txt`
-
-## Prediction (Python API)
-
-See `CARBON.models.carbon_model.CARBON`: input shape `(batch, 101, 5)`; outputs `logits_profile` and `log_total_count`; profile is `softmax(logits) * exp(log_total_count)`.
-
-## Citation
-
-If you use this code, please cite: **CARBON: Base-resolution RBP binding profile prediction with conservation signals**.
-
-## License
-
-MIT. See `LICENSE`. Trained weights and evaluation metrics for the demonstration task are included under the same licence.
+The original software and included AARS demo retain their existing licence and third-party notices. External source datasets and papers retain their original terms; this candidate does not apply a new blanket licence to them. Cite the manuscript and external assay/data sources identified in the paper and manifests.

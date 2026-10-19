@@ -1,0 +1,32 @@
+variant_key,measure_set_id,query_spdi,direct_ClinVar_SPDI_match,VCV,classification,review_status,last_evaluated,query_status,canonical_spdis
+chr15:24974365:T:C,315447,NC_000015.10:24974364:T:C,True,VCV000315447.10,Benign/Likely benign,"criteria provided, multiple submitters, no conflicts",2021/06/19 00:00,returned,NC_000015.10:24974364:T:C
+chr15:30925961:T:C,1241902,NC_000015.10:30925960:T:C,True,VCV001241902.4,Benign,"criteria provided, multiple submitters, no conflicts",2021/08/10 00:00,returned,NC_000015.10:30925960:T:C
+chr15:40161296:G:A,1242493,NC_000015.10:40161295:G:A,True,VCV001242493.3,Benign,"criteria provided, multiple submitters, no conflicts",2019/01/10 00:00,returned,NC_000015.10:40161295:G:A
+chr15:40622847:T:G,128593,NC_000015.10:40622846:T:G,True,VCV000128593.16,Benign,"criteria provided, multiple submitters, no conflicts",2021/07/14 00:00,returned,NC_000015.10:40622846:T:G
+chr15:41020866:C:G,2688066,NC_000015.10:41020865:C:G,True,VCV002688066.2,Benign,"criteria provided, single submitter",2024/01/24 00:00,returned,NC_000015.10:41020865:C:G
+chr15:43761419:C:T,1250388,NC_000015.10:43761418:C:T,True,VCV001250388.5,Benign,"criteria provided, multiple submitters, no conflicts",2021/06/09 00:00,returned,NC_000015.10:43761418:C:T
+chr15:44633542:A:C,219609,NC_000015.10:44633541:A:C,True,VCV000219609.35,Conflicting classifications of pathogenicity,"criteria provided, conflicting classifications",2026/07/01 00:00,returned,NC_000015.10:44633541:A:C
+chr15:89260812:C:T,257484,NC_000015.10:89260811:C:T,True,VCV000257484.32,Benign/Likely benign,"criteria provided, multiple submitters, no conflicts",2026/02/04 00:00,returned,NC_000015.10:89260811:C:T
+chr15:89263490:G:A,257491,NC_000015.10:89263489:G:A,True,VCV000257491.6,Benign,"criteria provided, multiple submitters, no conflicts",2023/07/07 00:00,returned,NC_000015.10:89263489:G:A
+chr15:89295005:A:G,238316,NC_000015.10:89295004:A:G,True,VCV000238316.12,Benign,"criteria provided, single submitter",2026/02/04 00:00,returned,NC_000015.10:89295004:A:G
+chr15:89315371:T:C,257489,NC_000015.10:89315370:T:C,True,VCV000257489.31,Benign/Likely benign,"criteria provided, multiple submitters, no conflicts",2026/02/04 00:00,returned,NC_000015.10:89315370:T:C
+chr15:90873320:C:A,1265365,NC_000015.10:90873319:C:A,True,VCV001265365.2,Benign,"criteria provided, single submitter",2019/01/10 00:00,returned,NC_000015.10:90873319:C:A
+chr15:92924124:G:T,678357,NC_000015.10:92924123:G:T,True,VCV000678357.1,Benign,"criteria provided, single submitter",2018/06/14 00:00,returned,NC_000015.10:92924123:G:T
+chr15:92937777:A:G,681300,NC_000015.10:92937776:A:G,True,VCV000681300.2,Benign,"criteria provided, multiple submitters, no conflicts",2018/06/19 00:00,returned,NC_000015.10:92937776:A:G
+chr15:92942226:C:G,668076,NC_000015.10:92942225:C:G,True,VCV000668076.1,Benign,"criteria provided, single submitter",2018/06/18 00:00,returned,NC_000015.10:92942225:C:G
+chr15:92980968:A:G,681302,NC_000015.10:92980967:A:G,True,VCV000681302.2,Benign,"criteria provided, multiple submitters, no conflicts",2018/06/19 00:00,returned,NC_000015.10:92980967:A:G
+chr15:92984613:G:A,1293025,NC_000015.10:92984612:G:A,True,VCV001293025.2,Benign,"criteria provided, single submitter",2018/06/25 00:00,returned,NC_000015.10:92984612:G:A
+chr15:92992967:C:T,257709,NC_000015.10:92992966:C:T,True,VCV000257709.22,Benign,"criteria provided, multiple submitters, no conflicts",2026/02/03 00:00,returned,NC_000015.10:92992966:C:T
+chr15:93024634:A:C,257713,NC_000015.10:93024633:A:C,True,VCV000257713.22,Benign,"criteria provided, multiple submitters, no conflicts",2026/02/04 00:00,returned,NC_000015.10:93024633:A:C
+chr15:93024778:G:A,1189217,NC_000015.10:93024777:G:A,True,VCV001189217.3,Likely benign,"criteria provided, multiple submitters, no conflicts",2018/06/26 00:00,returned,NC_000015.10:93024777:G:A
+chr15:98934996:G:A,194610,NC_000015.10:98934995:G:A,True,VCV000194610.19,Benign,"criteria provided, multiple submitters, no conflicts",2026/05/08 00:00,returned,NC_000015.10:98934995:G:A
+chr8:11850846:G:A,1165038,NC_000008.11:11850845:G:A,True,VCV001165038.12,Benign,"criteria provided, multiple submitters, no conflicts",2026/01/26 00:00,returned,NC_000008.11:11850845:G:A
+chr8:133237922:A:G,362015,NC_000008.11:133237921:A:G,True,VCV000362015.6,Benign,"criteria provided, multiple submitters, no conflicts",2018/01/13 00:00,returned,NC_000008.11:133237921:A:G
+chr8:133238187:C:T,362019,NC_000008.11:133238186:C:T,True,VCV000362019.6,Benign,"criteria provided, multiple submitters, no conflicts",2018/01/13 00:00,returned,NC_000008.11:133238186:C:T
+chr8:143309558:A:G,1599764,NC_000008.11:143309557:A:G,True,VCV001599764.10,Benign,"criteria provided, multiple submitters, no conflicts",2026/02/03 00:00,returned,NC_000008.11:143309557:A:G
+chr8:143922855:C:T,93077,NC_000008.11:143922854:C:T,True,VCV000093077.60,Benign/Likely benign,"criteria provided, multiple submitters, no conflicts",2026/02/03 00:00,returned,NC_000008.11:143922854:C:T
+chr8:17284556:C:T,380876,NC_000008.11:17284555:C:T,True,VCV000380876.10,Benign,"criteria provided, multiple submitters, no conflicts",2026/02/03 00:00,returned,NC_000008.11:17284555:C:T
+chr8:22404670:G:C,1177990,NC_000008.11:22404669:G:C,True,VCV001177990.5,Benign,"criteria provided, multiple submitters, no conflicts",2024/07/31 00:00,returned,NC_000008.11:22404669:G:C
+chr8:23028507:A:G,3059674,NC_000008.11:23028506:A:G,True,VCV003059674.2,Benign,no assertion criteria provided,2019/09/24 00:00,returned,NC_000008.11:23028506:A:G
+chr8:41696410:C:G,261301,NC_000008.11:41696409:C:G,True,VCV000261301.33,Benign/Likely benign,"criteria provided, multiple submitters, no conflicts",2026/02/03 00:00,returned,NC_000008.11:41696409:C:G
+chr8:41725776:C:T,261319,NC_000008.11:41725775:C:T,True,VCV000261319.31,Benign/Likely benign,"criteria provided, multiple submitters, no conflicts",2026/02/03 00:00,returned,NC_000008.11:41725775:C:T

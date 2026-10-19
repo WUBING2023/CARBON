@@ -1,0 +1,12 @@
+gene,variant_key,assay,source_sheet,source_excel_row,assay_cell,biological_replicates_per_allele,ASB_events,split,Full_correct,Sequence_correct
+MAP2K3,chr17:21305037:C:G,exon exclusion (%),Figure 4e,2,HeLa,3,4,training,1.0,1.0
+PDE4DIP,chr1:148974518:C:T,exon exclusion (%),Figure 4e,3,HeLa,3,6,training,1.0,1.0
+LARS,chr5:146140258:G:A,exon exclusion (%),Figure 4e,4,HeLa,3,1,training,1.0,1.0
+OTUB1,chr11:63996830:G:C,intron exclusion (%),Figure 4e,5,HeLa,3,4,training,2.0,2.0
+IL17RB,chr3:53858526:C:T,intron inclusion (%),Figure 4e,6,HeLa,3,1,training,1.0,1.0
+UBE2I,chr16:1324950:C:G,mCherry/eYFP normalized expression,Figure 5e,2,HeLa,3,2,validation,2.0,1.0
+PDXK,chr21:43757374:C:A,mCherry/eYFP normalized expression,Figure 5e,3,HeLa,3,1,training,1.0,0.0
+ACVR1B,chr12:51995107:A:G,mCherry/eYFP normalized expression,Figure 5e,4,HeLa,3,1,training,1.0,0.0
+DNAJB2,chr2:219281680:C:T,intron exclusion (%),Figure 6c,2,HeLa,3,1,validation,1.0,1.0
+CERS2,chr1:150968149:T:G,exon inclusion (%),Figure 6c,3,HeLa,3,2,training,1.0,2.0
+SLC39A13,chr11:47415651:C:T,mCherry/eYFP normalized expression,Figure 6c,5,HeLa,3,1,training,0.0,1.0

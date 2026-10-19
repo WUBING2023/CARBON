@@ -1,0 +1,26 @@
+[
+  {
+    "cell": "HepG2",
+    "file": "ENCFF044JDS",
+    "all_SE_rows": 35483,
+    "finite_both_condition_PSI": 33087,
+    "sig_FDR05_absD05": 38,
+    "chr1_finite": 2982,
+    "chr1_sig": 0,
+    "chr1_sig_genes": 0,
+    "chr1_KD_inclusion": 0,
+    "chr1_KD_exclusion": 0
+  },
+  {
+    "cell": "K562",
+    "file": "ENCFF061DFK",
+    "all_SE_rows": 40998,
+    "finite_both_condition_PSI": 39053,
+    "sig_FDR05_absD05": 321,
+    "chr1_finite": 4496,
+    "chr1_sig": 50,
+    "chr1_sig_genes": 41,
+    "chr1_KD_inclusion": 10,
+    "chr1_KD_exclusion": 40
+  }
+]

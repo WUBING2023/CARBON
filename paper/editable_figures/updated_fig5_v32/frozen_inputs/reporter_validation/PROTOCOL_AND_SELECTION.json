@@ -1,0 +1,48 @@
+{
+  "written_at": "2026-10-14T23:41:13.592083+08:00",
+  "baseline": "v19 preserved",
+  "user_request": "Reduce emphasis of designed sequence edits; strengthen real variant biological application with useful and traceable cases.",
+  "status": "Exploratory case-selection plan, not preregistration or independent confirmation. All original outputs/labels previously exposed.",
+  "question": "Can an exact natural human variant have different source-preferred alleles for different RBPs, and do frozen CARBON predictions recover those distinctions? At particular events, does the aligned conservation input agree with measured direction where sequence-only or fixed-input controls fail?",
+  "population": "All7262 existing qualified BEAPR ASB-positive events /4669 variants; inspect full pool and strict chr8/15 separately. All13 clinical/tumor events remain separately complete. No new exclusion from global endpoints.",
+  "source_first_priority": [
+    "Exact variant/cell/strand; identical reference101 and Phi across grouped RBP events.",
+    "Unambiguous single gene for main-case interpretation, source FDR<0.1 retained; stronger FDR noted as confidence, not effect size.",
+    "Prefer at least3 distinct RBPs and both REF- and ALT-preferred events to expose RBP-specific allele judgments beyond a constant REF rule.",
+    "Strict396 subset preferred for display, with prior developmental exposure explicitly retained. Training/validation cases labelled if used."
+  ],
+  "outcome_aware_selection": "After source eligibility, order candidate illustrations by Full-minus-Sequence number of correct source directions, then Full-minus-fixed-control minimum gain, then RBP coverage, source confidence and lexical variant ID. Complete candidate census and all events per selected locus must be saved. No selected-subset performance or statistical significance is promoted as population evidence.",
+  "minimum_display_margin": "Flag near-zero predictions; main highlighted Full-versus-control disagreement should exceed1e-3 log-count units on both sides when feasible. This is a computational display/stability filter, not an assay effect-size threshold.",
+  "controls": "Full, historical Sequence, fixed Full with flat Phi, all3 saved Phi permutations and their mean; constant genomic REF preference. Training histories Full/Sequence are not matched/verified.",
+  "evidence_limits": [
+    "ASB-positive only: no detection AUROC/AP or variant-prioritization accuracy.",
+    "Source normalized major/minor fields identify preferred alleles; raw counts and FDR are not calibrated binding-effect magnitudes.",
+    "RBP/task events, contexts and variants are different units; no individual-case p-value or new bootstrap.",
+    "Allele-specific association alone does not isolate the causal focal SNV from linked haplotype variation.",
+    "ClinVar and singleton TCGA annotations provide context, not an independent RBP-binding or disease mechanism endpoint.",
+    "ReferencePhi is fixed for both alleles; no mutant evolutionary score.",
+    "Clinical complete subset remains Full7/13 versus Sequence10/13. Original396 macro results and negative Phi intervals remain unchanged."
+  ],
+  "new_experiment": "None launched. If isolated-variant functional validation is required, define an independent assay/control/endpoint/budget proposal before execution.",
+  "sources": [
+    {
+      "path": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v4\\work_variants\\EVENTS_WITH_CONSERVATION_AND_PREDICTIONS.csv",
+      "sha256": "d0b062cf31941ad26d3bc3478751825e67dc817a5f5263f27af1edc0af2fcc07"
+    },
+    {
+      "path": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v19\\work_fig5\\frozen_inputs\\work_variants\\source_inputs\\EVENTS_INCLUDED.json.gz",
+      "sha256": "fd53abc544d4f1f8e287f141fc05eed01503f1e72492a76ba5cb3e33056abfaf"
+    },
+    {
+      "path": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v19\\work_disease\\DISEASE_ALL13_EVENT_RESULTS.csv",
+      "sha256": "8e85eb6909f9e0e7d78ade7fbdc24666c0f67f2cfacaa6023eab590ac2c4f415"
+    }
+  ],
+  "reporter_addendum": {
+    "source": "Yang et al.2019 Nature Communications10:1338, doi:10.1038/s41467-019-09292-w",
+    "availability": "All11 two-allele reporter loci in original Figures4e/5e/6c; all24 qualified existing ASB events at exact loci;66 biological measurements. No new predictions or assays.",
+    "matching": "Both mutagenesis primers exactly match reference/alternate101 windows including focal position50, with direct/reverse-complement orientation recorded. UBE2I alternative C primer inferred from published C/G and verified against original hg19chr16:1374951 and both frozen allele windows; only G primer supplied. Source typo SCL39A13 is normalized explicitly to SLC39A13.",
+    "main_selection": "ACVR1B selected posthoc for a single-RBP expression-reporter locus where Full agrees with ASB and Sequence/flat/permutation mean disagree; individual perm2 also agrees and is displayed. CERS2 selected for exact GWAS rs267738 plus published isolated-allele splicing and GEMIN5-KD support; Full and Sequence agree for GEMIN5, and complete locus YBX3 Full failure displayed. No selected-case success estimate.",
+    "not_established": "CARBON does not predict the reporter expression/splicing measurement and no direct quantitative model-to-phenotype endpoint or RBP-mediated causality test is computed. All source ASB/model labels exposed; training chromosomes remain labelled."
+  }
+}

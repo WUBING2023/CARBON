@@ -1,0 +1,22 @@
+{
+  "task": "SRSF1_K562_ENCSR432XUP",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/SRSF1_K562_ENCSR432XUP/_5ch/SRSF1_K562_ENCSR432XUP_chr8_5ch.h5",
+      "bytes": 2048024,
+      "n_windows": 4290,
+      "sha256": "3c9590c9d620ed988854ebc369d88c529ad9409038159549e8319710df534cd0"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/SRSF1_K562_ENCSR432XUP/_5ch/SRSF1_K562_ENCSR432XUP_chr15_5ch.h5",
+      "bytes": 1667217,
+      "n_windows": 3488,
+      "sha256": "0ea9c7817b939cd6f80308790aea508f3934dc5a010fc13947764ea482f73730"
+    }
+  ],
+  "n_total": 7778,
+  "n_eligible": 7778,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "3a0dc0b0323787abb824466d93cf2208e22c9c891f3fb4e3455f0ba0abce692e"
+}

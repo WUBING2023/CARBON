@@ -1,0 +1,5 @@
+cell,scope,events,genes,responsive,responsive_genes,inclusion,exclusion,nonresponsive,intermediate
+HepG2,chr1_primary,1937,668,0,0,0,0,1098,839
+HepG2,other_holdouts_secondary,1817,635,2,2,1,1,996,819
+K562,chr1_primary,3277,780,43,36,9,34,1946,1288
+K562,other_holdouts_secondary,2707,740,27,21,5,22,1516,1164

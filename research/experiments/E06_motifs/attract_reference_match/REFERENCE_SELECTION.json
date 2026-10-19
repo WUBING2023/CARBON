@@ -1,0 +1,56 @@
+{
+  "reference": {
+    "paper": "Yang et al. Nature Communications 10, 1338 (2019)",
+    "doi": "10.1038/s41467-019-09292-w",
+    "figure": "5",
+    "url": "https://www.nature.com/articles/s41467-019-09292-w/figures/5",
+    "image": "references\\BEAPR_Yang2019_Figure5_complete.png",
+    "sha256": "7f5e3ff8398d89ebf658392ff8651b43746e207c01ae49de288c51e5f191c3bb",
+    "image_inspected_before_drawing": true
+  },
+  "pdf": "delivery\\CARBON_Fig5_reference_left_ours_right.pdf",
+  "pages": 2,
+  "page_mm": [
+    420,
+    297
+  ],
+  "placements": [
+    {
+      "page": 1,
+      "reference_full_image": "/data/CARBON_PROJECT\\reference_match_20261015\\references\\BEAPR_Yang2019_Figure5_complete.png",
+      "reference_pixel_size": [
+        1977,
+        1600
+      ],
+      "reference_width_mm": 178,
+      "reference_height_mm": 144.05665149215983,
+      "CARBON_pdf": "/data/CARBON_PROJECT\\reference_match_20261015\\layout_trial\\CARBON_BEAPR_layout_trial.pdf",
+      "CARBON_width_mm": 178,
+      "CARBON_height_mm": 151.00000054434446,
+      "both_complete": true,
+      "cropped": false
+    },
+    {
+      "page": 2,
+      "reference_full_image": "/data/CARBON_PROJECT\\reference_match_20261015\\references\\BEAPR_Yang2019_Figure5_complete.png",
+      "reference_pixel_size": [
+        1977,
+        1600
+      ],
+      "reference_width_mm": 178,
+      "reference_height_mm": 144.05665149215983,
+      "CARBON_pdf": "/data/CARBON_PROJECT\\reference_match_20261015\\baseline\\CARBON_Fig5_v25_candidate.pdf",
+      "CARBON_width_mm": 178,
+      "CARBON_height_mm": 184.00001064495805,
+      "both_complete": true,
+      "cropped": false
+    }
+  ],
+  "trial_native_mm": [
+    178,
+    151
+  ],
+  "new_experiments": false,
+  "formal_manuscript_changed": false,
+  "overleaf_changed": false
+}

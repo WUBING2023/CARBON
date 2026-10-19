@@ -1,0 +1,68 @@
+variant_key,rsid,allele_id,measure_set_id,RCV,terms,review_status,diseases,last_evaluated_date
+chr8:11850846:G:A,2272766,1155841,1165038,RCV001511764.8,benign,criteria_provided_single_submitter,not provided,2024-01-29T00:00Z
+chr8:17284556:C:T,2285269,369453,380876,RCV000422321.1,benign,criteria_provided_single_submitter,not specified,2016-03-3T00:00Z
+chr8:17284556:C:T,2285269,369453,380876,RCV001520866.6,benign,criteria_provided_multiple_submitters_no_conflicts,Hereditary spastic paraplegia 53,2024-01-30T00:00Z
+chr8:22404670:G:C,896377,1167438,1177990,RCV001534188.2,benign,criteria_provided_single_submitter,not provided,2021-05-15T00:00Z
+chr8:23028507:A:G,13265018,3193477,3059674,RCV003974645.1,benign,criteria_provided_single_submitter,TNFRSF10B-related disorder,2019-09-24T00:00Z
+chr8:41696410:C:G,504574,253125,261301,RCV000253390.6,benign,criteria_provided_single_submitter,not specified,
+chr8:41696410:C:G,504574,253125,261301,RCV000604238.20,benign,criteria_provided_multiple_submitters_no_conflicts,Hereditary spherocytosis type 1,2023-11-30T00:00Z
+chr8:41696410:C:G,504574,253125,261301,RCV001161487.4,benign,criteria_provided_single_submitter,Spherocytosis,2018-01-13T00:00Z
+chr8:41696410:C:G,504574,253125,261301,RCV002058297.5,benign,criteria_provided_single_submitter,not provided,2024-01-29T00:00Z
+chr8:41725776:C:T,2304873,253139,261319,RCV000243356.6,benign,criteria_provided_single_submitter,not specified,
+chr8:41725776:C:T,2304873,253139,261319,RCV000389220.18,benign,criteria_provided_multiple_submitters_no_conflicts,Hereditary spherocytosis type 1,2023-11-30T00:00Z
+chr8:41725776:C:T,2304873,253139,261319,RCV001163452.4,benign,criteria_provided_single_submitter,Spherocytosis,2018-01-13T00:00Z
+chr8:41725776:C:T,2304873,253139,261319,RCV001709554.6,benign,criteria_provided_multiple_submitters_no_conflicts,not provided,2024-01-29T00:00Z
+chr8:133237922:A:G,1049697,313152,362015,RCV000270893.5,benign,criteria_provided_single_submitter,Charcot-Marie-Tooth disease type 4D,2018-01-13T00:00Z
+chr8:133238187:C:T,1049694,308130,362019,RCV000320327.5,benign,criteria_provided_single_submitter,Charcot-Marie-Tooth disease type 4D,2018-01-13T00:00Z
+chr8:143309558:A:G,7386475,1661938,1599764,RCV002116140.7,benign,criteria_provided_single_submitter,not provided,2024-02-1T00:00Z
+chr8:143922855:C:T,146381488,98984,93077,RCV000078892.13,benign,criteria_provided_multiple_submitters_no_conflicts,not specified,2020-08-6T00:00Z
+chr8:143922855:C:T,146381488,98984,93077,RCV000559683.10,benign,criteria_provided_single_submitter,"Autosomal recessive limb-girdle muscular dystrophy type 2Q;Epidermolysis bullosa simplex 5B, with muscular dystrophy;Epidermolysis bullosa simplex 5C, with pyloric atresia;Epidermolysis bullosa simplex with nail dystrophy;Epidermolysis bullosa simplex, Ogna type",2024-01-31T00:00Z
+chr8:143922855:C:T,146381488,98984,93077,RCV001200490.22,likely-benign,criteria_provided_single_submitter,not provided,2024-04-1T00:00Z
+chr8:143922855:C:T,146381488,98984,93077,RCV004537320.1,benign,criteria_provided_single_submitter,PLEC-related disorder,2019-07-30T00:00Z
+chr15:24974365:T:C,705,331389,315447,RCV000302218.14,likely-benign,criteria_provided_single_submitter,Autism spectrum disorder,2016-06-14T00:00Z
+chr15:24974365:T:C,705,331389,315447,RCV001642979.11,benign,criteria_provided_single_submitter,not provided,2021-06-19T00:00Z
+chr15:30925961:T:C,2959037,1232677,1241902,RCV001647752.2,benign,criteria_provided_single_submitter,not provided,2019-08-20T00:00Z
+chr15:30925961:T:C,2959037,1232677,1241902,RCV001703142.2,benign,criteria_provided_single_submitter,Karyomegalic interstitial nephritis,2021-08-10T00:00Z
+chr15:40161296:G:A,2277560,1232035,1242493,RCV001641297.2,benign,criteria_provided_single_submitter,not provided,2019-01-10T00:00Z
+chr15:40622847:T:G,8041534,134042,128593,RCV000116565.6,benign,criteria_provided_single_submitter,not specified,2013-04-25T00:00Z
+chr15:40622847:T:G,8041534,134042,128593,RCV000364844.6,benign,criteria_provided_single_submitter,"Primary Microcephaly, Recessive",2016-06-14T00:00Z
+chr15:40622847:T:G,8041534,134042,128593,RCV000989291.4,benign,criteria_provided_multiple_submitters_no_conflicts,"Microcephaly 4, primary, autosomal recessive",2021-07-14T00:00Z
+chr15:40622847:T:G,8041534,134042,128593,RCV001675615.3,benign,criteria_provided_single_submitter,not provided,2015-03-3T00:00Z
+chr15:41020866:C:G,3214068,2849103,2688066,RCV003488975.2,benign,criteria_provided_single_submitter,not specified,2024-01-24T00:00Z
+chr15:43761419:C:T,8040336,1239475,1250388,RCV001652638.2,benign,criteria_provided_single_submitter,not provided,2021-06-9T00:00Z
+chr15:43761419:C:T,8040336,1239475,1250388,RCV003984032.1,benign,criteria_provided_single_submitter,PDIA3-related disorder,2019-10-17T00:00Z
+chr15:44633542:A:C,79708848,222425,219609,RCV000206327.21,benign-likely-benign,criteria_provided_multiple_submitters_no_conflicts,Hereditary spastic paraplegia 11,2024-02-1T00:00Z
+chr15:44633542:A:C,79708848,222425,219609,RCV000444113.8,benign-likely-benign,criteria_provided_multiple_submitters_no_conflicts,not specified,2021-12-10T00:00Z
+chr15:44633542:A:C,79708848,222425,219609,RCV001260213.3,uncertain-significance,criteria_provided_single_submitter,Amyotrophic lateral sclerosis,2020-09-9T00:00Z
+chr15:44633542:A:C,79708848,222425,219609,RCV001847925.3,benign,criteria_provided_single_submitter,Hereditary spastic paraplegia,2021-03-13T00:00Z
+chr15:89260812:C:T,17803620,255379,257484,RCV000247561.14,benign,criteria_provided_multiple_submitters_no_conflicts,not specified,2016-08-8T00:00Z
+chr15:89260812:C:T,17803620,255379,257484,RCV000262235.10,benign,criteria_provided_single_submitter,Fanconi anemia,2024-02-1T00:00Z
+chr15:89260812:C:T,17803620,255379,257484,RCV001094273.7,benign,criteria_provided_multiple_submitters_no_conflicts,Fanconi anemia complementation group I,2023-07-7T00:00Z
+chr15:89260812:C:T,17803620,255379,257484,RCV001706321.1,benign,criteria_provided_single_submitter,not provided,2018-07-5T00:00Z
+chr15:89263490:G:A,1981624,255382,257491,RCV000248274.5,benign,criteria_provided_single_submitter,not specified,
+chr15:89263490:G:A,1981624,255382,257491,RCV001689820.1,benign,criteria_provided_single_submitter,not provided,2018-07-9T00:00Z
+chr15:89263490:G:A,1981624,255382,257491,RCV001701896.3,benign,criteria_provided_multiple_submitters_no_conflicts,Fanconi anemia complementation group I,2023-07-7T00:00Z
+chr15:89295005:A:G,7183618,242133,238316,RCV000226449.12,benign,criteria_provided_single_submitter,Fanconi anemia,2024-02-1T00:00Z
+chr15:89315371:T:C,1138465,255389,257489,RCV000251297.14,benign,criteria_provided_multiple_submitters_no_conflicts,not specified,2016-08-8T00:00Z
+chr15:89315371:T:C,1138465,255389,257489,RCV000329693.6,likely-benign,criteria_provided_single_submitter,POLG-Related Spectrum Disorders,2016-06-14T00:00Z
+chr15:89315371:T:C,1138465,255389,257489,RCV000348737.13,benign,criteria_provided_multiple_submitters_no_conflicts,Fanconi anemia,2024-02-1T00:00Z
+chr15:89315371:T:C,1138465,255389,257489,RCV001117649.7,benign,criteria_provided_multiple_submitters_no_conflicts,Fanconi anemia complementation group I,2023-07-7T00:00Z
+chr15:89315371:T:C,1138465,255389,257489,RCV001706323.1,benign,criteria_provided_single_submitter,not provided,2018-07-5T00:00Z
+chr15:90873320:C:A,17514846,1254832,1265365,RCV001667891.2,benign,criteria_provided_single_submitter,not provided,2019-01-10T00:00Z
+chr15:92924124:G:T,8026695,668134,678357,RCV000837937.1,benign,criteria_provided_single_submitter,not provided,2018-06-14T00:00Z
+chr15:92937777:A:G,2272463,668147,681300,RCV000841160.1,benign,criteria_provided_single_submitter,not provided,2018-06-19T00:00Z
+chr15:92942226:C:G,12904680,668478,668076,RCV000826851.1,benign,criteria_provided_single_submitter,not provided,2018-06-18T00:00Z
+chr15:92980968:A:G,8041241,668168,681302,RCV000841162.1,benign,criteria_provided_single_submitter,not provided,2018-06-19T00:00Z
+chr15:92984613:G:A,2272458,1282831,1293025,RCV001714679.2,benign,criteria_provided_single_submitter,not provided,2018-06-25T00:00Z
+chr15:92992967:C:T,2272457,255446,257709,RCV000248541.14,benign,criteria_provided_multiple_submitters_no_conflicts,not specified,2024-07-15T00:00Z
+chr15:92992967:C:T,2272457,255446,257709,RCV000711187.10,benign,criteria_provided_single_submitter,not provided,2017-04-20T00:00Z
+chr15:92992967:C:T,2272457,255446,257709,RCV001521287.15,benign,criteria_provided_multiple_submitters_no_conflicts,Developmental and epileptic encephalopathy 94,2024-02-1T00:00Z
+chr15:92992967:C:T,2272457,255446,257709,RCV002311373.9,benign,criteria_provided_single_submitter,Inborn genetic diseases,2016-01-8T00:00Z
+chr15:93024634:A:C,12906163,255450,257713,RCV000242407.14,benign,criteria_provided_multiple_submitters_no_conflicts,not specified,2024-07-15T00:00Z
+chr15:93024634:A:C,12906163,255450,257713,RCV000711192.10,benign,criteria_provided_single_submitter,not provided,2017-04-20T00:00Z
+chr15:93024634:A:C,12906163,255450,257713,RCV001510400.15,benign,criteria_provided_multiple_submitters_no_conflicts,Developmental and epileptic encephalopathy 94,2024-02-1T00:00Z
+chr15:93024634:A:C,12906163,255450,257713,RCV002311376.9,benign,criteria_provided_single_submitter,Inborn genetic diseases,2016-01-8T00:00Z
+chr15:93024778:G:A,4778070,1181329,1189217,RCV001549509.2,likely-benign,criteria_provided_single_submitter,not provided,2018-06-26T00:00Z
+chr15:98934996:G:A,2229765,191773,194610,RCV000175020.4,benign,criteria_provided_single_submitter,not specified,2014-11-17T00:00Z
+chr15:98934996:G:A,2229765,191773,194610,RCV000279116.5,benign,criteria_provided_single_submitter,Growth delay due to insulin-like growth factor I resistance,2018-03-6T00:00Z
+chr15:98934996:G:A,2229765,191773,194610,RCV002054062.5,benign,criteria_provided_single_submitter,not provided,2024-02-1T00:00Z

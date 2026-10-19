@@ -1,0 +1,1396 @@
+{
+  "main_mm": [
+    85,
+    98.5
+  ],
+  "a_target_mm": [
+    0.5,
+    0.5,
+    46.5,
+    46.5
+  ],
+  "old_source_sha256": "bfc6c36dbaf8a54b3367a3d67fc5d8e0688ffb1a61aff95e70e9786998b53926",
+  "main_pdf_sha256": "476da19799fa880b50f1b6f9945af6732204830223fe508dde1c5e2eaf2d1416",
+  "B_C": {
+    "b": {
+      "pixel_identical": true,
+      "dpi": 300,
+      "position_mm": [
+        48,
+        0,
+        85,
+        60
+      ]
+    },
+    "c": {
+      "pixel_identical": true,
+      "dpi": 300,
+      "position_mm": [
+        0,
+        61,
+        85,
+        98.5
+      ]
+    }
+  },
+  "names": 219,
+  "raster_images": 0,
+  "all_219_names_in_R_export": true,
+  "S21_pages": 5,
+  "all_219_complete_in_quadrants": true,
+  "quadrant_units": [
+    {
+      "task": "HNRNPA1_HepG2_ENCSR769UEW",
+      "complete_in_quadrants": [
+        1,
+        2
+      ]
+    },
+    {
+      "task": "CSTF2T_K562_ENCSR840DRD",
+      "complete_in_quadrants": [
+        1,
+        2
+      ]
+    },
+    {
+      "task": "GTF2F1_HepG2_ENCSR265ZIS",
+      "complete_in_quadrants": [
+        1,
+        2
+      ]
+    },
+    {
+      "task": "GTF2F1_K562_ENCSR736AAG",
+      "complete_in_quadrants": [
+        1,
+        2
+      ]
+    },
+    {
+      "task": "PRPF4_HepG2_ENCSR977OXG",
+      "complete_in_quadrants": [
+        1,
+        2
+      ]
+    },
+    {
+      "task": "FAM120A_HepG2_ENCSR987NYS",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "FUS_K562_ENCSR069EVH",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "AKAP8L_K562_ENCSR206RXT",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "HNRNPU_adrenalgland_ENCSR368GER",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "HNRNPU_HepG2_ENCSR240MVJ",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SRSF9_HepG2_ENCSR773KRC",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "QKI_HepG2_ENCSR570WLM",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "HNRNPA1_K562_ENCSR154HRN",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "TAF15_HepG2_ENCSR841EQA",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "PRPF8_HepG2_ENCSR121NVA",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "PRPF8_K562_ENCSR534YOI",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "RBFOX2_HepG2_ENCSR987FTF",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SRSF1_HepG2_ENCSR989VIY",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "PUM2_K562_ENCSR661ICQ",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "DKC1_HepG2_ENCSR301TFY",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "EIF4G2_K562_ENCSR307YIW",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "TARDBP_K562_ENCSR584TCR",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "QKI_K562_ENCSR366YOG",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "HNRNPL_HepG2_ENCSR724RDN",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "HNRNPK_HepG2_ENCSR828ZID",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "RBM5_HepG2_ENCSR489ABS",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "YBX3_HepG2_ENCSR735HOK",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "RBM22_HepG2_ENCSR456JJQ",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SF3A3_HepG2_ENCSR331MIC",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "CSTF2_HepG2_ENCSR384MWO",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "KHDRBS1_K562_ENCSR628IDK",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "DROSHA_HepG2_ENCSR834YLD",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "DROSHA_K562_ENCSR653HQC",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "HNRNPL_K562_ENCSR795CAI",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "AATF_K562_ENCSR819XBT",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "BUD13_K562_ENCSR663WES",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "PUM1_K562_ENCSR308YNT",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "DDX59_HepG2_ENCSR214BZA",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SAFB_HepG2_ENCSR337XGI",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "AQR_K562_ENCSR606BPV",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "YBX3_K562_ENCSR529FKI",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SRSF7_K562_ENCSR468FSW",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "EWSR1_K562_ENCSR887LPK",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SRSF1_K562_ENCSR432XUP",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SFPQ_HepG2_ENCSR965DLL",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "AQR_HepG2_ENCSR018WPY",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "METAP2_K562_ENCSR303OQD",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SRSF7_HepG2_ENCSR513NDD",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SF3B4_HepG2_ENCSR279UJF",
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "LARP7_K562_ENCSR456KXI",
+      "complete_in_quadrants": [
+        2,
+        4
+      ]
+    },
+    {
+      "task": "BCCIP_HepG2_ENCSR485QCG",
+      "complete_in_quadrants": [
+        2,
+        4
+      ]
+    },
+    {
+      "task": "IGF2BP2_K562_ENCSR062NNB",
+      "complete_in_quadrants": [
+        2,
+        4
+      ]
+    },
+    {
+      "task": "SAFB2_K562_ENCSR943MHU",
+      "complete_in_quadrants": [
+        2,
+        4
+      ]
+    },
+    {
+      "task": "PPIG_HepG2_ENCSR097NEE",
+      "complete_in_quadrants": [
+        2,
+        4
+      ]
+    },
+    {
+      "task": "DDX24_K562_ENCSR999WKT",
+      "complete_in_quadrants": [
+        2,
+        4
+      ]
+    },
+    {
+      "task": "SERBP1_K562_ENCSR121GQH",
+      "complete_in_quadrants": [
+        2,
+        4
+      ]
+    },
+    {
+      "task": "U2AF1_K562_ENCSR862QCH",
+      "complete_in_quadrants": [
+        2,
+        4
+      ]
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "complete_in_quadrants": [
+        2,
+        4
+      ]
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "KHSRP_K562_ENCSR438GZQ",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "FUS_HepG2_ENCSR464OSH",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "TAF15_K562_ENCSR568DZW",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "PHF6_K562_ENCSR001KKZ",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "SUPV3L1_HepG2_ENCSR580MFX",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "GRSF1_HepG2_ENCSR668MJX",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "LARP4_HepG2_ENCSR805SRN",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "ZC3H8_K562_ENCSR181NRW",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "LIN28B_HepG2_ENCSR861GYE",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "UCHL5_K562_ENCSR349KMG",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "LIN28B_K562_ENCSR970NKP",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "NONO_K562_ENCSR861PAR",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "NOLC1_K562_ENCSR001VAC",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "HNRNPUL1_K562_ENCSR571VHI",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "STAU2_HepG2_ENCSR979EWD",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "ZRANB2_K562_ENCSR663NRA",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "SF3B1_K562_ENCSR133QEA",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "APOBEC3C_K562_ENCSR739VVT",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "GPKOW_K562_ENCSR647CLF",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "EXOSC5_K562_ENCSR013CTQ",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "SUB1_HepG2_ENCSR406OOZ",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "ILF3_K562_ENCSR438KWZ",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "IGF2BP1_K562_ENCSR975KIR",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "ILF3_HepG2_ENCSR786TSC",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "FAM120A_K562_ENCSR006OEQ",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "PABPC4_K562_ENCSR958FKZ",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "EFTUD2_K562_ENCSR844RVX",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "ZC3H11A_HepG2_ENCSR907GUB",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "KHSRP_HepG2_ENCSR366DGX",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "FUBP3_HepG2_ENCSR486YGP",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "SUPV3L1_K562_ENCSR580OFI",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "TIAL1_HepG2_ENCSR322HHA",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "RPS11_K562_ENCSR269AJF",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "TIA1_HepG2_ENCSR623VEQ",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "EIF3G_K562_ENCSR023PKW",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "LARP7_HepG2_ENCSR961OKA",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "DDX6_HepG2_ENCSR141OIM",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "PUS1_K562_ENCSR291XPT",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "WDR3_K562_ENCSR202HKN",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "SBDS_K562_ENCSR059CWF",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "UTP18_K562_ENCSR964VOX",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "WRN_K562_ENCSR038JME",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "DDX6_K562_ENCSR893EFU",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "HNRNPC_K562_ENCSR249ROI",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "NPM1_K562_ENCSR867DSZ",
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "NSUN2_K562_ENCSR081JYH",
+      "complete_in_quadrants": [
+        3,
+        4
+      ]
+    },
+    {
+      "task": "SF3B4_K562_ENCSR267OLV",
+      "complete_in_quadrants": [
+        3,
+        4
+      ]
+    },
+    {
+      "task": "U2AF2_K562_ENCSR893RAV",
+      "complete_in_quadrants": [
+        3,
+        4
+      ]
+    },
+    {
+      "task": "U2AF2_HepG2_ENCSR202BFN",
+      "complete_in_quadrants": [
+        3,
+        4
+      ]
+    },
+    {
+      "task": "TRA2A_K562_ENCSR365NVO",
+      "complete_in_quadrants": [
+        3,
+        4
+      ]
+    },
+    {
+      "task": "HLTF_K562_ENCSR589YHM",
+      "complete_in_quadrants": [
+        3,
+        4
+      ]
+    },
+    {
+      "task": "RBM22_K562_ENCSR295OKT",
+      "complete_in_quadrants": [
+        3,
+        4
+      ]
+    },
+    {
+      "task": "DDX3X_HepG2_ENCSR648LAH",
+      "complete_in_quadrants": [
+        3,
+        4
+      ]
+    },
+    {
+      "task": "XRN2_HepG2_ENCSR655NZA",
+      "complete_in_quadrants": [
+        3,
+        4
+      ]
+    },
+    {
+      "task": "SND1_HepG2_ENCSR061EVO",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SLTM_K562_ENCSR000SSH",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DDX42_K562_ENCSR576SHT",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "FMR1_K562_ENCSR331VNX",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "LSM11_K562_ENCSR022BVV",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "LARP4_K562_ENCSR888YTT",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SAFB_K562_ENCSR484LAB",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "XRN2_K562_ENCSR657TZB",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "RBM15_K562_ENCSR196INN",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "NCBP2_K562_ENCSR484LTQ",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SDAD1_K562_ENCSR906ZJF",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "TBRG4_HepG2_ENCSR916SRV",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DDX21_K562_ENCSR040QLV",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DGCR8_HepG2_ENCSR061SZV",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "POLR2G_HepG2_ENCSR820WHR",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "YWHAG_K562_ENCSR867ZVK",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "XPO5_HepG2_ENCSR921SXC",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SND1_K562_ENCSR128VXC",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "FTO_HepG2_ENCSR903PRV",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "ABCF1_K562_ENCSR089BXO",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "PPIL4_K562_ENCSR197INS",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DGCR8_adrenalgland_ENCSR634MFO",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "MTPAP_K562_ENCSR200DKE",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "FASTKD2_HepG2_ENCSR023UHL",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "G3BP1_HepG2_ENCSR721HPX",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "CPSF6_K562_ENCSR532VUB",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "TRA2A_HepG2_ENCSR314UMJ",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "ZNF800_K562_ENCSR586DGV",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "GRWD1_HepG2_ENCSR893NWB",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "ZNF622_K562_ENCSR657TZZ",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "BUD13_HepG2_ENCSR830BSQ",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "NOLC1_HepG2_ENCSR194HZU",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "EIF3H_HepG2_ENCSR916XIV",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "NCBP2_HepG2_ENCSR018RVZ",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "GEMIN5_K562_ENCSR238CLX",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "RPS3_K562_ENCSR120EAR",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DDX3X_K562_ENCSR930BZL",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DHX30_K562_ENCSR529GSJ",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "FXR2_K562_ENCSR224QWC",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "HNRNPM_HepG2_ENCSR267UCX",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "HNRNPM_K562_ENCSR412NOW",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "PCBP2_HepG2_ENCSR339FUY",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "GRWD1_K562_ENCSR999YGP",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "HLTF_HepG2_ENCSR647HOX",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "NOL12_HepG2_ENCSR820DQJ",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SLBP_K562_ENCSR483NOP",
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "FKBP4_HepG2_ENCSR018ZUE",
+      "complete_in_quadrants": [
+        1,
+        3
+      ]
+    },
+    {
+      "task": "SLTM_HepG2_ENCSR351PVI",
+      "complete_in_quadrants": [
+        1,
+        3
+      ]
+    },
+    {
+      "task": "SSB_HepG2_ENCSR352STY",
+      "complete_in_quadrants": [
+        1,
+        3
+      ]
+    },
+    {
+      "task": "RPS3_HepG2_ENCSR766FAC",
+      "complete_in_quadrants": [
+        1,
+        3
+      ]
+    },
+    {
+      "task": "PABPN1_HepG2_ENCSR820UYE",
+      "complete_in_quadrants": [
+        1,
+        3
+      ]
+    },
+    {
+      "task": "EIF3D_HepG2_ENCSR041NUV",
+      "complete_in_quadrants": [
+        1,
+        3
+      ]
+    },
+    {
+      "task": "LSM11_HepG2_ENCSR135VMS",
+      "complete_in_quadrants": [
+        1,
+        3
+      ]
+    },
+    {
+      "task": "DDX52_HepG2_ENCSR970FEW",
+      "complete_in_quadrants": [
+        1,
+        3
+      ]
+    },
+    {
+      "task": "AARS_K562_ENCSR825SVO",
+      "complete_in_quadrants": [
+        1,
+        3
+      ]
+    },
+    {
+      "task": "WDR43_HepG2_ENCSR085JPB",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "DDX52_K562_ENCSR154CSN",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "NIP7_HepG2_ENCSR361OCV",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "AKAP1_HepG2_ENCSR356ZMO",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "IGF2BP1_HepG2_ENCSR744GEU",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "IGF2BP3_HepG2_ENCSR993OLA",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "AGGF1_HepG2_ENCSR543TPH",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "CPEB4_K562_ENCSR046JHH",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "ZC3H11A_K562_ENCSR712IAG",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "UCHL5_HepG2_ENCSR490IEE",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "ZNF800_HepG2_ENCSR685AUR",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "BCLAF1_HepG2_ENCSR876EYA",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "XRCC6_K562_ENCSR258QKO",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "DGCR8_K562_ENCSR947JVR",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "EFTUD2_HepG2_ENCSR527DXF",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "FTO_K562_ENCSR989SMC",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "RBM15_HepG2_ENCSR754NDA",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "NKRF_HepG2_ENCSR277DEO",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "HNRNPK_K562_ENCSR268ETU",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "PCBP1_K562_ENCSR922WJV",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "MATR3_HepG2_ENCSR290VLT",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "MATR3_K562_ENCSR440SUX",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "AGGF1_K562_ENCSR725ARB",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "SUGP2_HepG2_ENCSR506UPY",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "U2AF1_HepG2_ENCSR328LLU",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "TIA1_K562_ENCSR057DWB",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "TROVE2_K562_ENCSR539ZTS",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "EXOSC5_HepG2_ENCSR693JWP",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "TBRG4_K562_ENCSR506OTC",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "FASTKD2_K562_ENCSR887FHF",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "WDR43_K562_ENCSR349CMI",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "GNL3_K562_ENCSR301UQM",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "SSB_K562_ENCSR356MSW",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "UPF1_K562_ENCSR456ASB",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "UTP3_K562_ENCSR734ZHL",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "FXR2_HepG2_ENCSR973HOJ",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "FXR1_K562_ENCSR774RFN",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "HNRNPUL1_HepG2_ENCSR755TJC",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "SMNDC1_K562_ENCSR658IQB",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "DDX55_HepG2_ENCSR845VGB",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "UPF1_HepG2_ENCSR539BEV",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "DHX30_HepG2_ENCSR565DGW",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "PCBP1_HepG2_ENCSR256CHX",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "DDX51_K562_ENCSR145NLR",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "SDAD1_HepG2_ENCSR050BDZ",
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "XRCC6_HepG2_ENCSR571ROL",
+      "complete_in_quadrants": [
+        1,
+        2
+      ]
+    },
+    {
+      "task": "CDC40_HepG2_ENCSR815VVI",
+      "complete_in_quadrants": [
+        1,
+        2
+      ]
+    },
+    {
+      "task": "AKAP1_K562_ENCSR177QQY",
+      "complete_in_quadrants": [
+        1,
+        2
+      ]
+    },
+    {
+      "task": "NIPBL_K562_ENCSR891RIC",
+      "complete_in_quadrants": [
+        1,
+        2
+      ]
+    },
+    {
+      "task": "UTP18_HepG2_ENCSR488JKQ",
+      "complete_in_quadrants": [
+        1,
+        2
+      ]
+    }
+  ],
+  "all_original_data_preserved": true,
+  "reference_data_imported": false
+}

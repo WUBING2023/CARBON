@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-04T11:47:03.855361+00:00",
+  "sha256": {
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_interpretability_20261003\\02_execution\\A\\INPUTS.npz": "4d545ad912232e9baef1d698e06cd44f64465bd2f7bf93190a96856905e37cf8",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_interpretability_20261003\\02_execution\\A\\LABELS_ALL150.csv": "856a77849066360245fcf50609c8df1458a31ac14780e43e03375875eb308b3c",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\fr3\\INPUTS_MATCHED.npz": "7b0d9133dd3c0f947b75a867d47875c0aaa6620836eb93de427ed0f2a4239c51",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\PROTOCOL_FR3.md": "13c754d5e0e56c26fc2b34b28e0a634f387529f1bd34379e5136e45b29383c96",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\fr3\\build_inputs.py": "d8108eb004db7a28af310e59fd16581d228e8b58006b0a6e720bf61af5687132"
+  },
+  "all151_inputs": true,
+  "WT_Phi_identical_ALT": true,
+  "not_ALT_specific_conservation": true
+}

@@ -1,0 +1,48 @@
+{
+  "version": "v29",
+  "baseline": "v28",
+  "native_mm": [
+    178.0,
+    184.0
+  ],
+  "unchanged_panel": "a",
+  "changed_panels": [
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "B": {
+    "nodes": 30,
+    "actual_edges": 48,
+    "ground_duplicate_edges": 0,
+    "vertical_guides": 4,
+    "node_response_scale": "unchanged shared asinh"
+  },
+  "C": {
+    "case": "chr12:51995107:A:G",
+    "all_arms": 7,
+    "permutation_view": "mean bar plus three separate markers",
+    "reporter_values": 6
+  },
+  "D": {
+    "events": 396,
+    "cloud_side_mm": 34.5,
+    "old_cloud_side_mm": 29.5,
+    "coordinates_and_5_intervals_unchanged": true
+  },
+  "E": {
+    "sites": 8,
+    "events": 13,
+    "effects": 52,
+    "plot_column_mm": 20,
+    "old_column_mm": 16,
+    "site_index": "CLINICAL_SITE_INDEX.csv",
+    "axis_scale": "unchanged common asinh"
+  },
+  "plotted_values": 2028,
+  "out_of_page_text": [],
+  "new_experiments": false,
+  "manuscript_changed": false,
+  "Overleaf_changed": false
+}

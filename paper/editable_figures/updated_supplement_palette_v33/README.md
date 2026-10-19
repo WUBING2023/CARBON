@@ -1,0 +1,3 @@
+S9/S12 palette adapters
+
+Run `python adapt_motif_palette.py` from any working directory; dependencies: PyMuPDF, pypdf, numpy. It reads the unchanged PDFs in inputs/ and PALETTE_V3.json and writes the two corrected PDFs beside the script. Only RGB operands inside the three logo clipping boxes change; all coordinates, text, matrices, noncolor raw stream bytes and other palettes remain. Copy the reproduced PDFs into ../../figures/ for a rebuild. S14 is independently runnable in ../updated_fig14_v33/render.py using its original arrays and source map. See PALETTE_REPAIR.json for original and corrected identities and ADAPTER_CHECK.json for the latest adapter execution. No inference or data re-estimation is performed.

@@ -1,0 +1,285 @@
+{
+  "utc": "2026-10-04T11:17:17.617514+00:00",
+  "source_zip": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\02_new_public_datasets\\sources\\sirloin2018_41586_2018_BFnature25757_MOESM3_ESM.zip",
+  "source_zip_sha256": "2efa88d8b93b42cc69c1ac3ebc9d16de8b8800a7b2f3e96daf7c449eb413a883",
+  "source_STable4_rows": 4884,
+  "STable1_human_design_groups": 34,
+  "human_design_rows": 3928,
+  "newRNA_source_groups": 31,
+  "designs": [
+    {
+      "author_library_gene": "Anril",
+      "official_gene": "CDKN2B-AS1",
+      "source_accession": "NR_003529",
+      "source_design_row": 2,
+      "source_class": "RefSeq",
+      "reference_gene": "CDKN2B-AS1"
+    },
+    {
+      "author_library_gene": "Bancr",
+      "official_gene": "BANCR",
+      "source_accession": "NR_047671",
+      "source_design_row": 3,
+      "source_class": "RefSeq",
+      "reference_gene": "BANCR"
+    },
+    {
+      "author_library_gene": "Casc15",
+      "official_gene": "CASC15",
+      "source_accession": "NR_015410",
+      "source_design_row": 4,
+      "source_class": "RefSeq",
+      "reference_gene": "CASC15"
+    },
+    {
+      "author_library_gene": "Crnde",
+      "official_gene": "CRNDE",
+      "source_accession": "NR_034105",
+      "source_design_row": 5,
+      "source_class": "RefSeq",
+      "reference_gene": "CRNDE"
+    },
+    {
+      "author_library_gene": "Emx2os",
+      "official_gene": "EMX2OS",
+      "source_accession": "NR_002791",
+      "source_design_row": 6,
+      "source_class": "RefSeq",
+      "reference_gene": "EMX2OS"
+    },
+    {
+      "author_library_gene": "Evf2",
+      "official_gene": "EVF2",
+      "source_accession": "NR_015448",
+      "source_design_row": 7,
+      "source_class": "RefSeq",
+      "reference_gene": "DLX6-AS1"
+    },
+    {
+      "author_library_gene": "Fendrr",
+      "official_gene": "FENDRR",
+      "source_accession": "NR_036444",
+      "source_design_row": 8,
+      "source_class": "RefSeq",
+      "reference_gene": "FENDRR"
+    },
+    {
+      "author_library_gene": "Ftx",
+      "official_gene": "FTX",
+      "source_accession": "NR_028379",
+      "source_design_row": 9,
+      "source_class": "RefSeq",
+      "reference_gene": "FTX"
+    },
+    {
+      "author_library_gene": "Gas5",
+      "official_gene": "GAS5",
+      "source_accession": "NR_002578",
+      "source_design_row": 10,
+      "source_class": "RefSeq",
+      "reference_gene": "GAS5"
+    },
+    {
+      "author_library_gene": "Hotair",
+      "official_gene": "HOTAIR",
+      "source_accession": "NR_003716",
+      "source_design_row": 11,
+      "source_class": "RefSeq",
+      "reference_gene": "HOTAIR"
+    },
+    {
+      "author_library_gene": "HotairM1",
+      "official_gene": "HOTAIRM1",
+      "source_accession": "NR_038366",
+      "source_design_row": 12,
+      "source_class": "RefSeq",
+      "reference_gene": "HOTAIRM1"
+    },
+    {
+      "author_library_gene": "Hoxa-AS3",
+      "official_gene": "HOXA-AS3",
+      "source_accession": "NR_038832",
+      "source_design_row": 13,
+      "source_class": "RefSeq",
+      "reference_gene": "HOXA-AS3"
+    },
+    {
+      "author_library_gene": "Hoxa11-AS",
+      "official_gene": "HOXA11-AS",
+      "source_accession": "NR_002795",
+      "source_design_row": 14,
+      "source_class": "RefSeq",
+      "reference_gene": "HOXA11-AS"
+    },
+    {
+      "author_library_gene": "JPX",
+      "official_gene": "JPX",
+      "source_accession": "NR_024582",
+      "source_design_row": 15,
+      "source_class": "RefSeq",
+      "reference_gene": "JPX"
+    },
+    {
+      "author_library_gene": "Lhx5-AS1",
+      "official_gene": "LHX5-AS1",
+      "source_accession": "NR_126425",
+      "source_design_row": 16,
+      "source_class": "RefSeq",
+      "reference_gene": "LHX5-AS1"
+    },
+    {
+      "author_library_gene": "linc-Chd2",
+      "official_gene": "LINC01578",
+      "source_accession": "NR_037600",
+      "source_design_row": 17,
+      "source_class": "RefSeq",
+      "reference_gene": "LINC01578"
+    },
+    {
+      "author_library_gene": "linc-Foxa2",
+      "official_gene": "LINC00261",
+      "source_accession": "NR_001558",
+      "source_design_row": 18,
+      "source_class": "RefSeq",
+      "reference_gene": "LINC00261"
+    },
+    {
+      "author_library_gene": "MALAT1",
+      "official_gene": "MALAT1",
+      "source_accession": "chr11:65,266,500-65,273,920 (hg19)",
+      "source_design_row": 19,
+      "source_class": "Custom region",
+      "reference_gene": "MALAT1"
+    },
+    {
+      "author_library_gene": "Meg3",
+      "official_gene": "MEG3",
+      "source_accession": "NR_046473",
+      "source_design_row": 20,
+      "source_class": "RefSeq",
+      "reference_gene": "MEG3"
+    },
+    {
+      "author_library_gene": "Megamind",
+      "official_gene": "TUNAR",
+      "source_accession": "NR_038861",
+      "source_design_row": 21,
+      "source_class": "RefSeq",
+      "reference_gene": "TUNAR"
+    },
+    {
+      "author_library_gene": "Miat",
+      "official_gene": "MIAT",
+      "source_accession": "NR_033320",
+      "source_design_row": 22,
+      "source_class": "RefSeq",
+      "reference_gene": "MIAT"
+    },
+    {
+      "author_library_gene": "Neat1",
+      "official_gene": "NEAT1",
+      "source_accession": "NR_028272",
+      "source_design_row": 23,
+      "source_class": "RefSeq",
+      "reference_gene": "NEAT1"
+    },
+    {
+      "author_library_gene": "Nr2f1-as1",
+      "official_gene": "NR2F1-AS1",
+      "source_accession": "NR_021490",
+      "source_design_row": 24,
+      "source_class": "RefSeq",
+      "reference_gene": "NR2F1-AS1"
+    },
+    {
+      "author_library_gene": "Pint",
+      "official_gene": "LINC-PINT",
+      "source_accession": "NR_015431",
+      "source_design_row": 25,
+      "source_class": "RefSeq",
+      "reference_gene": "LINC-PINT"
+    },
+    {
+      "author_library_gene": "PSMA3-AS1",
+      "official_gene": "PSMA3-AS1",
+      "source_accession": "NR_029434",
+      "source_design_row": 26,
+      "source_class": "RefSeq",
+      "reference_gene": "PSMA3-AS1"
+    },
+    {
+      "author_library_gene": "PVT1",
+      "official_gene": "PVT1",
+      "source_accession": "NR_003367",
+      "source_design_row": 27,
+      "source_class": "RefSeq",
+      "reference_gene": "PVT1"
+    },
+    {
+      "author_library_gene": "Rian",
+      "official_gene": "MEG8",
+      "source_accession": "NR_024149",
+      "source_design_row": 28,
+      "source_class": "RefSeq",
+      "reference_gene": "MEG8"
+    },
+    {
+      "author_library_gene": "Rmst",
+      "official_gene": "RMST",
+      "source_accession": "NR_024037",
+      "source_design_row": 29,
+      "source_class": "RefSeq",
+      "reference_gene": "RMST"
+    },
+    {
+      "author_library_gene": "Sencr",
+      "official_gene": "SENCR",
+      "source_accession": "NR_038908",
+      "source_design_row": 30,
+      "source_class": "RefSeq",
+      "reference_gene": "SENCR"
+    },
+    {
+      "author_library_gene": "Six3-as1",
+      "official_gene": "SIX3-AS1",
+      "source_accession": "NR_103786",
+      "source_design_row": 31,
+      "source_class": "RefSeq",
+      "reference_gene": "SIX3-AS1"
+    },
+    {
+      "author_library_gene": "Sox21-as1",
+      "official_gene": "SOX21-AS1",
+      "source_accession": "NR_046514",
+      "source_design_row": 32,
+      "source_class": "RefSeq",
+      "reference_gene": "SOX21-AS1"
+    },
+    {
+      "author_library_gene": "Terc",
+      "official_gene": "TERC",
+      "source_accession": "NR_001566",
+      "source_design_row": 33,
+      "source_class": "RefSeq",
+      "reference_gene": "TERC"
+    },
+    {
+      "author_library_gene": "Tug1",
+      "official_gene": "TUG1",
+      "source_accession": "NR_002323",
+      "source_design_row": 34,
+      "source_class": "RefSeq",
+      "reference_gene": "TUG1"
+    },
+    {
+      "author_library_gene": "Xist",
+      "official_gene": "XIST",
+      "source_accession": "NR_001564",
+      "source_design_row": 35,
+      "source_class": "RefSeq",
+      "reference_gene": "XIST"
+    }
+  ],
+  "protocol_sha256": "6f6bf1da484c63c265f6c1c4e2e45df3d658ea5fcfa590e728f4cde7711dcb9b",
+  "model_queries_performed": false
+}

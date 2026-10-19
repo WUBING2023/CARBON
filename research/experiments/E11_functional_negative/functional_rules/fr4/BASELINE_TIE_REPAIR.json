@@ -1,0 +1,1 @@
+{"reason":"CT/C proportion subtraction caused numerical 1e-17 differences among equal count-difference baselines","repair":"subtract exact integer counts then divide101; mean count divide202","conceptual_baseline_changed":false,"model_scores_or_main_endpoint_changed":false}

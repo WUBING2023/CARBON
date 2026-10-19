@@ -1,0 +1,15 @@
+cohort,arm,new_threshold,old_threshold,old_ties,new_ties,changed_events
+all,A_native,1e-07,1e-06,0,0,0
+all,S,1e-07,1e-06,0,0,0
+all,A_flat,1e-07,1e-06,0,0,0
+all,A_perm0,1e-07,1e-06,0,0,0
+all,A_perm1,1e-07,1e-06,0,0,0
+all,A_perm2,1e-07,1e-06,0,0,0
+all,A_permmean,1e-07,1e-06,0,0,0
+strict_test,A_native,1e-07,1e-06,0,0,0
+strict_test,S,1e-07,1e-06,0,0,0
+strict_test,A_flat,1e-07,1e-06,0,0,0
+strict_test,A_perm0,1e-07,1e-06,0,0,0
+strict_test,A_perm1,1e-07,1e-06,0,0,0
+strict_test,A_perm2,1e-07,1e-06,0,0,0
+strict_test,A_permmean,1e-07,1e-06,0,0,0

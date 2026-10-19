@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-04T11:33:49.739361+00:00",
+  "files_sha256": {
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\02_new_public_datasets\\sources\\hnrnkp_springer_44318_2021_BFEMBJ2020106357_MOESM5_ESM.xlsx": "ad478cbaff86d527fb74de61235f1225fed67a1598522c1b8cb5f002cff2ccd2",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_interpretability_20261003\\02_execution\\A\\ATTRIBUTIONS.npz": "92424f2b276e21a74402673e72193460496ec23921c9e9ea8c8a10e48ba99026",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_interpretability_20261003\\02_execution\\A\\LABELS_ALL150.csv": "856a77849066360245fcf50609c8df1458a31ac14780e43e03375875eb308b3c",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_interpretability_20261003\\02_execution\\A\\LABELS_NucLibB_ALL75.csv": "2d7eb44f44352c9573aa56070942b9f47c72ef86f9424b682264e69ff1fc42a0",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\two_directions_exploration_20261004\\direction2\\VARIANT_EFFECTS_ALL.csv": "5700f73dea46b2181762fdc467d8f35a45235fb5e1550af4867b307ab93ddef0",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\PROTOCOL_FR3.md": "13c754d5e0e56c26fc2b34b28e0a634f387529f1bd34379e5136e45b29383c96",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\run_fr3_replay.py": "8bdb4a84a97a324c1ee1fca563483523572498e38054da8539a81a958f825377"
+  },
+  "old_binding_exposure": true,
+  "new_NC_endpoint_exploratory": true
+}

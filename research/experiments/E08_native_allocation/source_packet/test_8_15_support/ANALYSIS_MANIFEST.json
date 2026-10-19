@@ -1,0 +1,40 @@
+{
+  "rows": 3133,
+  "seconds": 81.68036080000093,
+  "B": 10000,
+  "rng_seed": 20261009,
+  "numpy": "2.2.6",
+  "methods": [
+    "aligned_ensemble",
+    "aligned_seed11",
+    "aligned_seed23",
+    "aligned_seed47",
+    "sequence_only_ensemble",
+    "sequence_only_seed11",
+    "sequence_only_seed23",
+    "sequence_only_seed47",
+    "mean_ensemble",
+    "mean_seed11",
+    "mean_seed23",
+    "mean_seed47",
+    "permuted_ensemble",
+    "permuted_seed11",
+    "permuted_seed23",
+    "permuted_seed47",
+    "fixed_half"
+  ],
+  "task_order": [
+    "PTBP1_K562_ENCSR981WKN",
+    "PTBP1_HepG2_ENCSR384KAN"
+  ],
+  "scenes": [
+    "all_core",
+    "ambiguous_S",
+    "ambiguous_S_phi05",
+    "confident_S"
+  ],
+  "primary": "PTBP1 / ambiguous_S / adjusted; protein-level same geneID clusters jointly across cells;3controls",
+  "supporting": "protein\u00d7scene\u00d7control27; task\u00d7scene\u00d7control54. confident_S complement descriptive only, not confirmatory family.",
+  "ensemble": "Float64 average native3seed profiles before ratio",
+  "exposure": "15table conservative coordinate/gene-name ledger; not whole study blinding"
+}

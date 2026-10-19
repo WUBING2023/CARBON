@@ -2,8 +2,8 @@
 """
 Demo: load a window from this repo's 5ch h5 and plot the same layout as the first four
 tracks in paper Figure 2:
-  1) CARBON prediction  2) eCLIP signal  3) Encode replicate 1 (−|Y|, inverted)
-  4) Encode replicate 2 (−|Y_ctl|, inverted)
+  1) CARBON prediction  2) eCLIP signal  3) pooled eCLIP (−|Y|, inverted)
+  4) input control (−|Y_ctl|, inverted)
 
 No iDeepB / RBPNet. Run scripts/run_demo_train.sh first to produce model_params.pth,
 or pass --weights to a checkpoint.
@@ -31,8 +31,8 @@ from CARBON.models.carbon_model import CARBON  # noqa: E402
 # NPG-style colors (aligned with paper Figure 2)
 MODEL_COLOR = {"CARBON": "#E64B35"}
 _ECLIP_MAIN_FILL = "#91D1C2"
-_ENCODE_REP_FILL = "#8491B4"
-_ENCODE_REP2_FILL = "#3C5488"
+_POOLED_INVERTED_FILL = "#8491B4"
+_INPUT_CONTROL_FILL = "#3C5488"
 FIGURE2_TRACK_R_GAP = "  "
 
 
@@ -86,10 +86,12 @@ def plot_profile_tracks(
 
     def _fill_color(lab: str) -> str:
         key = _track_name_for_color(lab)
-        if key in ("Signal", "eCLIP signal"):
+        if key in ("Signal", "eCLIP signal", "Pooled eCLIP"):
             return _ECLIP_MAIN_FILL
-        if key.startswith("Encode replicate"):
-            return _ENCODE_REP2_FILL if key.endswith(" 2") else _ENCODE_REP_FILL
+        if key == "Pooled eCLIP (inverted)":
+            return _POOLED_INVERTED_FILL
+        if key == "Input control (inverted)":
+            return _INPUT_CONTROL_FILL
         return MODEL_COLOR.get(key, "#cccccc")
 
     fs = 9 * font_scale
@@ -226,16 +228,16 @@ def main() -> None:
     rhs = f"r = {rm:.2f}" if np.isfinite(rm) else "r = NA"
     label_carbon = FIGURE2_TRACK_R_GAP.join(("CARBON", rhs))
 
-    y_rep1 = -np.abs(np.asarray(Y, dtype=np.float64))
-    y_rep2 = -np.abs(np.asarray(Y_ctl, dtype=np.float64))
+    y_pooled_inverted = -np.abs(np.asarray(Y, dtype=np.float64))
+    y_input_inverted = -np.abs(np.asarray(Y_ctl, dtype=np.float64))
 
-    title = f"AARS_K562 chr1 (demo window idx={idx})"
+    title = f"AARS_K562 demo window idx={idx} ({args.h5.stem})"
     plot_profile_tracks(
         [
             (label_carbon, pred_m, False),
-            ("eCLIP signal", Y, False),
-            ("Encode replicate 1", y_rep1, True),
-            ("Encode replicate 2", y_rep2, True),
+            ("Pooled eCLIP", Y, False),
+            ("Pooled eCLIP (inverted)", y_pooled_inverted, True),
+            ("Input control (inverted)", y_input_inverted, True),
         ],
         title,
         args.out,

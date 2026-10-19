@@ -1,0 +1,42 @@
+{
+  "scope": "Descriptive exact disease annotation, existing development-exposed ASB predictions; not independent clinical or tumor binding validation",
+  "all_events": 7262,
+  "all_variants": 4669,
+  "ClinVar_exact_variants": 520,
+  "ClinVar_missing": 4149,
+  "ClinVar_groups": {
+    "No matching ClinVar record": 4149,
+    "Benign/Likely benign": 453,
+    "No germline classification": 52,
+    "Uncertain significance": 4,
+    "Conflicting classifications": 7,
+    "Other classification": 1,
+    "Pathogenic/Likely pathogenic": 3
+  },
+  "ClinVar_PLP_variants": 3,
+  "ClinVar_PLP_events": 6,
+  "TCGA_variants": 6,
+  "TCGA_events": 10,
+  "union_variants": 8,
+  "union_events": 13,
+  "union_RBPs": 8,
+  "union_splits": {
+    "training": 11,
+    "validation": 2
+  },
+  "union_full_direction_matches": 7.0,
+  "union_sequence_direction_matches": 10.0,
+  "all_TGCA_single_cases": true,
+  "strict_chr8_15_disease_variants": 0,
+  "example_selection": "Clinical RNA splice consequence first, known reported condition and >=2 review stars; no model response criterion. ELP1 is the sole splice-donor site among the three ClinVar P/LP matches.",
+  "no_new_training_or_inference": true,
+  "additional_ClinVar_pool": "Availability inventory only; not evaluated because exact old cohort supplies clinical cases.",
+  "analysis_units": "Exact variant for source coverage; event=variant/RBP/cell for descriptive binding direction; no inferential significance test.",
+  "primary_boundaries": [
+    "VCV aggregate classification is not per-condition proof.",
+    "TCGA singleton occurrence is not recurrent cancer driver or a locus-callable frequency.",
+    "All13 ASB labels/predictions were previously exposed; none belongs to chr8/15 subset.",
+    "Reference PhyloP is unchanged across alleles; no mutant evolutionary score.",
+    "ClinVar/TCGA classification is not a RBP-binding endpoint; no disease AUROC or RNA-causality claim."
+  ]
+}

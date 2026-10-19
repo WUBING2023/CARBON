@@ -1,0 +1,908 @@
+[
+  {
+    "construct_id": "NucLibC:Jpx_9",
+    "is_WT": true,
+    "position0": -1,
+    "ALT_base": ""
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:55:A->C",
+    "is_WT": false,
+    "position0": 55,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:55:A->G",
+    "is_WT": false,
+    "position0": 55,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:55:A->T",
+    "is_WT": false,
+    "position0": 55,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:56:C->A",
+    "is_WT": false,
+    "position0": 56,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:56:C->G",
+    "is_WT": false,
+    "position0": 56,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:56:C->T",
+    "is_WT": false,
+    "position0": 56,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:57:C->A",
+    "is_WT": false,
+    "position0": 57,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:57:C->G",
+    "is_WT": false,
+    "position0": 57,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:57:C->T",
+    "is_WT": false,
+    "position0": 57,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:58:T->A",
+    "is_WT": false,
+    "position0": 58,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:58:T->C",
+    "is_WT": false,
+    "position0": 58,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:58:T->G",
+    "is_WT": false,
+    "position0": 58,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:59:C->A",
+    "is_WT": false,
+    "position0": 59,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:59:C->G",
+    "is_WT": false,
+    "position0": 59,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:59:C->T",
+    "is_WT": false,
+    "position0": 59,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:60:T->A",
+    "is_WT": false,
+    "position0": 60,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:60:T->C",
+    "is_WT": false,
+    "position0": 60,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:60:T->G",
+    "is_WT": false,
+    "position0": 60,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:61:G->A",
+    "is_WT": false,
+    "position0": 61,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:61:G->C",
+    "is_WT": false,
+    "position0": 61,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:61:G->T",
+    "is_WT": false,
+    "position0": 61,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:62:C->A",
+    "is_WT": false,
+    "position0": 62,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:62:C->G",
+    "is_WT": false,
+    "position0": 62,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:62:C->T",
+    "is_WT": false,
+    "position0": 62,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:63:C->A",
+    "is_WT": false,
+    "position0": 63,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:63:C->G",
+    "is_WT": false,
+    "position0": 63,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:63:C->T",
+    "is_WT": false,
+    "position0": 63,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:64:T->A",
+    "is_WT": false,
+    "position0": 64,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:64:T->C",
+    "is_WT": false,
+    "position0": 64,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:64:T->G",
+    "is_WT": false,
+    "position0": 64,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:65:C->A",
+    "is_WT": false,
+    "position0": 65,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:65:C->G",
+    "is_WT": false,
+    "position0": 65,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:65:C->T",
+    "is_WT": false,
+    "position0": 65,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:66:C->A",
+    "is_WT": false,
+    "position0": 66,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:66:C->G",
+    "is_WT": false,
+    "position0": 66,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:66:C->T",
+    "is_WT": false,
+    "position0": 66,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:67:C->A",
+    "is_WT": false,
+    "position0": 67,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:67:C->G",
+    "is_WT": false,
+    "position0": 67,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:67:C->T",
+    "is_WT": false,
+    "position0": 67,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:68:C->A",
+    "is_WT": false,
+    "position0": 68,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:68:C->G",
+    "is_WT": false,
+    "position0": 68,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:68:C->T",
+    "is_WT": false,
+    "position0": 68,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:69:A->C",
+    "is_WT": false,
+    "position0": 69,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:69:A->G",
+    "is_WT": false,
+    "position0": 69,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:69:A->T",
+    "is_WT": false,
+    "position0": 69,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:70:G->A",
+    "is_WT": false,
+    "position0": 70,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:70:G->C",
+    "is_WT": false,
+    "position0": 70,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:70:G->T",
+    "is_WT": false,
+    "position0": 70,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:71:T->A",
+    "is_WT": false,
+    "position0": 71,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:71:T->C",
+    "is_WT": false,
+    "position0": 71,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:71:T->G",
+    "is_WT": false,
+    "position0": 71,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:72:T->A",
+    "is_WT": false,
+    "position0": 72,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:72:T->C",
+    "is_WT": false,
+    "position0": 72,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:72:T->G",
+    "is_WT": false,
+    "position0": 72,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:73:C->A",
+    "is_WT": false,
+    "position0": 73,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:73:C->G",
+    "is_WT": false,
+    "position0": 73,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:73:C->T",
+    "is_WT": false,
+    "position0": 73,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:74:A->C",
+    "is_WT": false,
+    "position0": 74,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:74:A->G",
+    "is_WT": false,
+    "position0": 74,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:74:A->T",
+    "is_WT": false,
+    "position0": 74,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:75:A->C",
+    "is_WT": false,
+    "position0": 75,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:75:A->G",
+    "is_WT": false,
+    "position0": 75,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:75:A->T",
+    "is_WT": false,
+    "position0": 75,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:76:G->A",
+    "is_WT": false,
+    "position0": 76,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:76:G->C",
+    "is_WT": false,
+    "position0": 76,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:76:G->T",
+    "is_WT": false,
+    "position0": 76,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:77:T->A",
+    "is_WT": false,
+    "position0": 77,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:77:T->C",
+    "is_WT": false,
+    "position0": 77,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:77:T->G",
+    "is_WT": false,
+    "position0": 77,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:78:G->A",
+    "is_WT": false,
+    "position0": 78,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:78:G->C",
+    "is_WT": false,
+    "position0": 78,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:78:G->T",
+    "is_WT": false,
+    "position0": 78,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:79:G->A",
+    "is_WT": false,
+    "position0": 79,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:79:G->C",
+    "is_WT": false,
+    "position0": 79,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:79:G->T",
+    "is_WT": false,
+    "position0": 79,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:80:T->A",
+    "is_WT": false,
+    "position0": 80,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:80:T->C",
+    "is_WT": false,
+    "position0": 80,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:80:T->G",
+    "is_WT": false,
+    "position0": 80,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:81:T->A",
+    "is_WT": false,
+    "position0": 81,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:81:T->C",
+    "is_WT": false,
+    "position0": 81,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:81:T->G",
+    "is_WT": false,
+    "position0": 81,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:82:C->A",
+    "is_WT": false,
+    "position0": 82,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:82:C->G",
+    "is_WT": false,
+    "position0": 82,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:82:C->T",
+    "is_WT": false,
+    "position0": 82,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:83:T->A",
+    "is_WT": false,
+    "position0": 83,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:83:T->C",
+    "is_WT": false,
+    "position0": 83,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:83:T->G",
+    "is_WT": false,
+    "position0": 83,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:84:C->A",
+    "is_WT": false,
+    "position0": 84,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:84:C->G",
+    "is_WT": false,
+    "position0": 84,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:84:C->T",
+    "is_WT": false,
+    "position0": 84,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:85:C->A",
+    "is_WT": false,
+    "position0": 85,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:85:C->G",
+    "is_WT": false,
+    "position0": 85,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:85:C->T",
+    "is_WT": false,
+    "position0": 85,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:86:T->A",
+    "is_WT": false,
+    "position0": 86,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:86:T->C",
+    "is_WT": false,
+    "position0": 86,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:86:T->G",
+    "is_WT": false,
+    "position0": 86,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:87:G->A",
+    "is_WT": false,
+    "position0": 87,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:87:G->C",
+    "is_WT": false,
+    "position0": 87,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:87:G->T",
+    "is_WT": false,
+    "position0": 87,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:88:C->A",
+    "is_WT": false,
+    "position0": 88,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:88:C->G",
+    "is_WT": false,
+    "position0": 88,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:88:C->T",
+    "is_WT": false,
+    "position0": 88,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:89:C->A",
+    "is_WT": false,
+    "position0": 89,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:89:C->G",
+    "is_WT": false,
+    "position0": 89,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:89:C->T",
+    "is_WT": false,
+    "position0": 89,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:90:T->A",
+    "is_WT": false,
+    "position0": 90,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:90:T->C",
+    "is_WT": false,
+    "position0": 90,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:90:T->G",
+    "is_WT": false,
+    "position0": 90,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:91:C->A",
+    "is_WT": false,
+    "position0": 91,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:91:C->G",
+    "is_WT": false,
+    "position0": 91,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:91:C->T",
+    "is_WT": false,
+    "position0": 91,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:92:A->C",
+    "is_WT": false,
+    "position0": 92,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:92:A->G",
+    "is_WT": false,
+    "position0": 92,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:92:A->T",
+    "is_WT": false,
+    "position0": 92,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:93:G->A",
+    "is_WT": false,
+    "position0": 93,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:93:G->C",
+    "is_WT": false,
+    "position0": 93,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:93:G->T",
+    "is_WT": false,
+    "position0": 93,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:94:C->A",
+    "is_WT": false,
+    "position0": 94,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:94:C->G",
+    "is_WT": false,
+    "position0": 94,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:94:C->T",
+    "is_WT": false,
+    "position0": 94,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:95:C->A",
+    "is_WT": false,
+    "position0": 95,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:95:C->G",
+    "is_WT": false,
+    "position0": 95,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:95:C->T",
+    "is_WT": false,
+    "position0": 95,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:96:T->A",
+    "is_WT": false,
+    "position0": 96,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:96:T->C",
+    "is_WT": false,
+    "position0": 96,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:96:T->G",
+    "is_WT": false,
+    "position0": 96,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:97:C->A",
+    "is_WT": false,
+    "position0": 97,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:97:C->G",
+    "is_WT": false,
+    "position0": 97,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:97:C->T",
+    "is_WT": false,
+    "position0": 97,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:98:C->A",
+    "is_WT": false,
+    "position0": 98,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:98:C->G",
+    "is_WT": false,
+    "position0": 98,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:98:C->T",
+    "is_WT": false,
+    "position0": 98,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:99:C->A",
+    "is_WT": false,
+    "position0": 99,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:99:C->G",
+    "is_WT": false,
+    "position0": 99,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:99:C->T",
+    "is_WT": false,
+    "position0": 99,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:100:G->A",
+    "is_WT": false,
+    "position0": 100,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:100:G->C",
+    "is_WT": false,
+    "position0": 100,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:100:G->T",
+    "is_WT": false,
+    "position0": 100,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:101:A->C",
+    "is_WT": false,
+    "position0": 101,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:101:A->G",
+    "is_WT": false,
+    "position0": 101,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:101:A->T",
+    "is_WT": false,
+    "position0": 101,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:102:G->A",
+    "is_WT": false,
+    "position0": 102,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:102:G->C",
+    "is_WT": false,
+    "position0": 102,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:102:G->T",
+    "is_WT": false,
+    "position0": 102,
+    "ALT_base": "T"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:103:T->A",
+    "is_WT": false,
+    "position0": 103,
+    "ALT_base": "A"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:103:T->C",
+    "is_WT": false,
+    "position0": 103,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:103:T->G",
+    "is_WT": false,
+    "position0": 103,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:104:A->C",
+    "is_WT": false,
+    "position0": 104,
+    "ALT_base": "C"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:104:A->G",
+    "is_WT": false,
+    "position0": 104,
+    "ALT_base": "G"
+  },
+  {
+    "construct_id": "NucLibC:Jpx_9:Mut:104:A->T",
+    "is_WT": false,
+    "position0": 104,
+    "ALT_base": "T"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "input_keys": 4669,
+  "completed_keys": 4669,
+  "exact_matched_variants": 6,
+  "exact_ssm_records": 6,
+  "unresolved_keys": 0,
+  "status_counts": {
+    "exact_TCGA_match": 6,
+    "no_match_in_open_GDC_release": 4663
+  }
+}

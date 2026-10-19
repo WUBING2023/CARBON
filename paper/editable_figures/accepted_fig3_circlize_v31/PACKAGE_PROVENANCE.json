@@ -1,0 +1,34 @@
+[
+  {
+    "package": "GlobalOptions",
+    "version": "0.1.4",
+    "url": "https://mirrors.huaweicloud.com/cran/src/contrib/GlobalOptions_0.1.4.tar.gz",
+    "bytes": 382348,
+    "MD5": "a384a77386d8847c4bdf72667bf32bed",
+    "sha256": "bed5f4afdb9d0565deac866c3793fc5c62d5259eadf8c8a5f57cc67ef0b47753"
+  },
+  {
+    "package": "shape",
+    "version": "1.4.6.1",
+    "url": "https://mirrors.huaweicloud.com/cran/src/contrib/shape_1.4.6.1.tar.gz",
+    "bytes": 646412,
+    "MD5": "42b7951c69b6c93178c07f2d189d0c89",
+    "sha256": "43f9bd0f997fd6cf1838efd8b2509c9a6396513f4e54a20360481634affd22a4"
+  },
+  {
+    "package": "circlize",
+    "version": "0.4.18",
+    "url": "https://mirrors.huaweicloud.com/cran/src/contrib/circlize_0.4.18.tar.gz",
+    "bytes": 2498639,
+    "MD5": "14864d68a46b05150947469797f272ab",
+    "sha256": "3e875b9138763eefaa85599e287c6c1f1399f988522bc2c6270075d2cde5481b"
+  },
+  {
+    "package": "ggseqlogo",
+    "version": "0.2.2",
+    "url": "https://mirrors.huaweicloud.com/cran/src/contrib/ggseqlogo_0.2.2.tar.gz",
+    "bytes": 740087,
+    "MD5": "9c835e5eaae870b5b235737d46e2c3a5",
+    "sha256": "28a5d9b728a2155c0869200ed426e4b2cb7b768d98d801fce46b6360c9eb2d08"
+  }
+]

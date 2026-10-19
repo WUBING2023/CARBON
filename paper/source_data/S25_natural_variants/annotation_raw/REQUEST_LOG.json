@@ -1,0 +1,102 @@
+[
+  {
+    "url": "https://rest.ensembl.org/info/rest",
+    "error": "<HTTPError 503: 'Service Unavailable'>"
+  },
+  {
+    "url": "https://rest.ensembl.org/info/software",
+    "status": 200,
+    "retrieved_utc": "2026-10-12T10:49:50.735946+00:00"
+  },
+  {
+    "url": "https://rest.ensembl.org/info/data",
+    "error": "<HTTPError 500: 'Internal Server Error'>"
+  },
+  {
+    "url": "https://rest.ensembl.org/vep/human/region",
+    "batch_start": 0,
+    "attempt": 0,
+    "error": "<HTTPError 500: 'Internal Server Error'>"
+  },
+  {
+    "url": "https://rest.ensembl.org/vep/human/region",
+    "batch_start": 0,
+    "attempt": 1,
+    "error": "<HTTPError 500: 'Internal Server Error'>"
+  },
+  {
+    "url": "https://rest.ensembl.org/vep/human/region",
+    "batch_start": 50,
+    "attempt": 0,
+    "error": "<HTTPError 500: 'Internal Server Error'>"
+  },
+  {
+    "url": "https://rest.ensembl.org/vep/human/region",
+    "batch_start": 50,
+    "attempt": 1,
+    "error": "<HTTPError 500: 'Internal Server Error'>"
+  },
+  {
+    "url": "https://rest.ensembl.org/vep/human/region",
+    "batch_start": 100,
+    "attempt": 0,
+    "error": "<HTTPError 500: 'Internal Server Error'>"
+  },
+  {
+    "url": "https://rest.ensembl.org/vep/human/region",
+    "batch_start": 100,
+    "n": 50,
+    "status": 200,
+    "headers": {
+      "Vary": "Content-Type",
+      "Content-Type": "application/json",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "Date": "Mon, 12 Oct 2026 10:50:26 GMT",
+      "X-RateLimit-Limit": "55000",
+      "X-RateLimit-Reset": "574",
+      "X-Runtime": "4.814260",
+      "Connection": "close",
+      "X-RateLimit-Period": "3600",
+      "X-RateLimit-Remaining": "54998",
+      "Content-Length": "870312"
+    },
+    "sha256": "2c6c652a19753e8b03aee0a7f5467f28b1b59dd0c569115940a6cfae081e4ac2",
+    "retrieved_utc": "2026-10-12T10:50:28.258574+00:00"
+  },
+  {
+    "url": "https://rest.ensembl.org/vep/human/region",
+    "batch_start": 150,
+    "attempt": 0,
+    "error": "<HTTPError 500: 'Internal Server Error'>"
+  },
+  {
+    "url": "https://rest.ensembl.org/vep/human/region",
+    "batch_start": 150,
+    "attempt": 1,
+    "error": "<HTTPError 500: 'Internal Server Error'>"
+  },
+  {
+    "url": "https://rest.ensembl.org/vep/human/region",
+    "batch_start": 200,
+    "attempt": 0,
+    "error": "<HTTPError 500: 'Internal Server Error'>"
+  },
+  {
+    "url": "https://rest.ensembl.org/vep/human/region",
+    "batch_start": 200,
+    "attempt": 1,
+    "error": "<HTTPError 500: 'Internal Server Error'>"
+  },
+  {
+    "url": "https://rest.ensembl.org/vep/human/region",
+    "batch_start": 250,
+    "attempt": 0,
+    "error": "<HTTPError 500: 'Internal Server Error'>"
+  },
+  {
+    "url": "https://rest.ensembl.org/vep/human/region",
+    "batch_start": 250,
+    "attempt": 1,
+    "error": "<HTTPError 500: 'Internal Server Error'>"
+  }
+]

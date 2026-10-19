@@ -1,0 +1,8 @@
+{
+  "id": "E02_benchmark",
+  "title": "历史三模型比较",
+  "question": "CARBON、iDeepB、RBPNet历史指标与任务对应",
+  "paper": "Figure 2; S1/S3/S20",
+  "status": "历史结果可追溯；公平重评未完成",
+  "limits": "评分规则、ties及输出尺度存在差别。此归档不把旧分数包装成公平SOTA比较。缺失iDeepB权重按本次实查清单记录。"
+}

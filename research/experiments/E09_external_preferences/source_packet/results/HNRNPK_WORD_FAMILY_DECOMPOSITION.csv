@@ -1,0 +1,9 @@
+arm,is_polyC4plus,in_model_top20
+aligned,False,0.23148148148148148
+aligned,True,0.8333333333333334
+mean,False,0.18518518518518517
+mean,True,0.9166666666666666
+permuted,False,0.18518518518518517
+permuted,True,0.75
+sequence_only,False,0.14814814814814814
+sequence_only,True,0.8333333333333334

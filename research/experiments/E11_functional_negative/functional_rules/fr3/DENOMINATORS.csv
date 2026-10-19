@@ -1,0 +1,3 @@
+library,positions,variants,RNA_n,all_ALT_complete,NC_all_reps_finite,NC_reps,source_author_average_max_difference,binding_vs_function_position_rho
+NucLibC,50,150,1,True,True,4,5.551115123125783e-16,-0.22343337334933974
+NucLibB,25,75,1,True,True,2,4.884981308350689e-15,0.6423076923076924

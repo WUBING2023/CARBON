@@ -1,0 +1,1004 @@
+[
+  {
+    "id": "65d04182-951a-5626-9e4b-f2d508d449d9",
+    "start_position": 7994518,
+    "consequence": [
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000677121",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000678132",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000677179",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000677795",
+          "consequence_type": "non_coding_transcript_exon_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000533626",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000528763",
+          "consequence_type": "non_coding_transcript_exon_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000651655",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000678993",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000531329",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000530219",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000677866",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000528653",
+          "consequence_type": "non_coding_transcript_exon_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000531572",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": true
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000532882",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000640290",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "EIF3F",
+            "gene_id": "ENSG00000175390"
+          },
+          "is_canonical": false
+        }
+      }
+    ],
+    "reference_allele": "G",
+    "ncbi_build": "GRCh38",
+    "chromosome": "chr11",
+    "ssm_id": "65d04182-951a-5626-9e4b-f2d508d449d9",
+    "genomic_dna_change": "chr11:g.7994518G>T",
+    "tumor_allele": "T",
+    "end_position": 7994518,
+    "variant_key": "chr11:7994518:G:T",
+    "query_batch": "existing_01"
+  },
+  {
+    "id": "8662111c-8f4c-55f5-ba82-e1fd1cc85e55",
+    "start_position": 103947412,
+    "consequence": [
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000552051",
+          "consequence_type": "downstream_gene_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "HSP90B1",
+            "gene_id": "ENSG00000166598"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODERATE"
+          },
+          "transcript_id": "ENST00000550595",
+          "consequence_type": "missense_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "HSP90B1",
+            "gene_id": "ENSG00000166598"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000551983",
+          "consequence_type": "downstream_gene_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "HSP90B1",
+            "gene_id": "ENSG00000166598"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODERATE"
+          },
+          "transcript_id": "ENST00000299767",
+          "consequence_type": "missense_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "HSP90B1",
+            "gene_id": "ENSG00000166598"
+          },
+          "is_canonical": true
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000548462",
+          "consequence_type": "non_coding_transcript_exon_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "HSP90B1",
+            "gene_id": "ENSG00000166598"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000614327",
+          "consequence_type": "3_prime_UTR_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "HSP90B1",
+            "gene_id": "ENSG00000166598"
+          },
+          "is_canonical": false
+        }
+      }
+    ],
+    "reference_allele": "A",
+    "ncbi_build": "GRCh38",
+    "chromosome": "chr12",
+    "ssm_id": "8662111c-8f4c-55f5-ba82-e1fd1cc85e55",
+    "genomic_dna_change": "chr12:g.103947412A>T",
+    "tumor_allele": "T",
+    "end_position": 103947412,
+    "variant_key": "chr12:103947412:A:T",
+    "query_batch": "existing_01"
+  },
+  {
+    "id": "31886d90-0cf8-55ac-a25f-060911f8c2cb",
+    "start_position": 21312245,
+    "consequence": [
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000395491",
+          "consequence_type": "3_prime_UTR_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODERATE"
+          },
+          "transcript_id": "ENST00000527123",
+          "consequence_type": "missense_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000477540",
+          "consequence_type": "non_coding_transcript_exon_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODERATE"
+          },
+          "transcript_id": "ENST00000316920",
+          "consequence_type": "missense_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000496046",
+          "consequence_type": "3_prime_UTR_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODERATE"
+          },
+          "transcript_id": "ENST00000613338",
+          "consequence_type": "missense_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODERATE"
+          },
+          "transcript_id": "ENST00000342679",
+          "consequence_type": "missense_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": true
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODERATE"
+          },
+          "transcript_id": "ENST00000361818",
+          "consequence_type": "missense_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      }
+    ],
+    "reference_allele": "G",
+    "ncbi_build": "GRCh38",
+    "chromosome": "chr17",
+    "ssm_id": "31886d90-0cf8-55ac-a25f-060911f8c2cb",
+    "genomic_dna_change": "chr17:g.21312245G>A",
+    "tumor_allele": "A",
+    "end_position": 21312245,
+    "variant_key": "chr17:21312245:G:A",
+    "query_batch": "existing_04"
+  },
+  {
+    "id": "d84ac266-d63d-526b-b591-39d7fd32e76a",
+    "start_position": 21312240,
+    "consequence": [
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000496046",
+          "consequence_type": "3_prime_UTR_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "LOW"
+          },
+          "transcript_id": "ENST00000342679",
+          "consequence_type": "synonymous_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": true
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "LOW"
+          },
+          "transcript_id": "ENST00000361818",
+          "consequence_type": "synonymous_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000395491",
+          "consequence_type": "3_prime_UTR_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "LOW"
+          },
+          "transcript_id": "ENST00000316920",
+          "consequence_type": "synonymous_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "LOW"
+          },
+          "transcript_id": "ENST00000527123",
+          "consequence_type": "synonymous_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000477540",
+          "consequence_type": "non_coding_transcript_exon_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "LOW"
+          },
+          "transcript_id": "ENST00000613338",
+          "consequence_type": "synonymous_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "MAP2K3",
+            "gene_id": "ENSG00000034152"
+          },
+          "is_canonical": false
+        }
+      }
+    ],
+    "reference_allele": "C",
+    "ncbi_build": "GRCh38",
+    "chromosome": "chr17",
+    "ssm_id": "d84ac266-d63d-526b-b591-39d7fd32e76a",
+    "genomic_dna_change": "chr17:g.21312240C>T",
+    "tumor_allele": "T",
+    "end_position": 21312240,
+    "variant_key": "chr17:21312240:C:T",
+    "query_batch": "existing_04"
+  },
+  {
+    "id": "d4b55021-ee0d-5640-9bc0-ae4f3e9a011f",
+    "start_position": 6686745,
+    "consequence": [
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000596179",
+          "consequence_type": "upstream_gene_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": -1,
+            "symbol": "C3",
+            "gene_id": "ENSG00000125730"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000596238",
+          "consequence_type": "upstream_gene_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": -1,
+            "symbol": "C3",
+            "gene_id": "ENSG00000125730"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000599899",
+          "consequence_type": "upstream_gene_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": -1,
+            "symbol": "C3",
+            "gene_id": "ENSG00000125730"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000601008",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": -1,
+            "symbol": "C3",
+            "gene_id": "ENSG00000125730"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000245907",
+          "consequence_type": "splice_donor_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": -1,
+            "symbol": "C3",
+            "gene_id": "ENSG00000125730"
+          },
+          "is_canonical": true
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000598805",
+          "consequence_type": "non_coding_transcript_exon_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": -1,
+            "symbol": "C3",
+            "gene_id": "ENSG00000125730"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000596548",
+          "consequence_type": "upstream_gene_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": -1,
+            "symbol": "C3",
+            "gene_id": "ENSG00000125730"
+          },
+          "is_canonical": false
+        }
+      }
+    ],
+    "reference_allele": "C",
+    "ncbi_build": "GRCh38",
+    "chromosome": "chr19",
+    "ssm_id": "d4b55021-ee0d-5640-9bc0-ae4f3e9a011f",
+    "genomic_dna_change": "chr19:g.6686745C>T",
+    "tumor_allele": "T",
+    "end_position": 6686745,
+    "variant_key": "chr19:6686745:C:T",
+    "query_batch": "existing_07"
+  },
+  {
+    "id": "51b7c71d-798c-5a05-9e1c-837f90c1c3a6",
+    "start_position": 32434485,
+    "consequence": [
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000553345",
+          "consequence_type": "downstream_gene_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000644615",
+          "consequence_type": "downstream_gene_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000613218",
+          "consequence_type": "stop_gained",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000647223",
+          "consequence_type": "non_coding_transcript_exon_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000306058",
+          "consequence_type": "stop_gained",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000375687",
+          "consequence_type": "stop_gained",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": true
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000619344",
+          "consequence_type": "downstream_gene_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000646985",
+          "consequence_type": "stop_gained",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000651418",
+          "consequence_type": "stop_gained",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000644168",
+          "consequence_type": "non_coding_transcript_exon_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "HIGH"
+          },
+          "transcript_id": "ENST00000620121",
+          "consequence_type": "stop_gained",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000555564",
+          "consequence_type": "downstream_gene_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": false
+        }
+      },
+      {
+        "transcript": {
+          "annotation": {
+            "vep_impact": "MODIFIER"
+          },
+          "transcript_id": "ENST00000470145",
+          "consequence_type": "downstream_gene_variant",
+          "gene": {
+            "biotype": "protein_coding",
+            "gene_strand": 1,
+            "symbol": "ASXL1",
+            "gene_id": "ENSG00000171456"
+          },
+          "is_canonical": false
+        }
+      }
+    ],
+    "reference_allele": "C",
+    "ncbi_build": "GRCh38",
+    "chromosome": "chr20",
+    "ssm_id": "51b7c71d-798c-5a05-9e1c-837f90c1c3a6",
+    "genomic_dna_change": "chr20:g.32434485C>A",
+    "tumor_allele": "A",
+    "end_position": 32434485,
+    "variant_key": "chr20:32434485:C:A",
+    "query_batch": "existing_09"
+  }
+]

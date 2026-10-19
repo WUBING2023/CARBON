@@ -1,0 +1,5 @@
+scene,pairs,genes,task_gene_units,genes_per_task,ties,valid_bootstraps
+all,1851,659,865,"{""PTBP1_HepG2_ENCSR384KAN"": 453, ""PTBP1_K562_ENCSR981WKN"": 412}",72,10000
+equal_distance,23,23,23,"{""PTBP1_HepG2_ENCSR384KAN"": 13, ""PTBP1_K562_ENCSR981WKN"": 10}",0,10000
+difference_le2,92,80,83,"{""PTBP1_HepG2_ENCSR384KAN"": 48, ""PTBP1_K562_ENCSR981WKN"": 35}",5,10000
+difference_le5,195,150,160,"{""PTBP1_HepG2_ENCSR384KAN"": 90, ""PTBP1_K562_ENCSR981WKN"": 70}",9,10000

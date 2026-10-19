@@ -1,0 +1,7 @@
+{
+  "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/liftOver/hg19ToHg38.over.chain.gz",
+  "status": 200,
+  "sha256": "5c0598e500ceb5a78c73086929e8ef993aec309bcafb595139b53d440b125a1d",
+  "utc": "2026-10-04T11:55:48.299957+00:00",
+  "bytes": 227698
+}

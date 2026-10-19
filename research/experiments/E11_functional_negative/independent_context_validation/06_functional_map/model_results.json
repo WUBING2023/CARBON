@@ -1,0 +1,146 @@
+{
+  "query_start_utc": "2026-10-03T05:39:29.294093+00:00",
+  "query_end_utc": "2026-10-03T05:40:52.328469+00:00",
+  "models": [
+    {
+      "task": "G3BP1_HepG2_ENCSR721HPX",
+      "arm": "A",
+      "seed": null,
+      "path": "/data/CARBON_PROJECT/消融实验/全量消融运行/模型权重/MARCP/G3BP1_HepG2_ENCSR721HPX/baseline/model_params.pth",
+      "checkpoint_sha256": "b9a5bb154648fac2500ad22bdae6ec54ed4d67ed0c15bd63c356532b0328b9cd",
+      "model_class": "CARBON",
+      "model_source_sha256": "79d439020163d1788af2f9f9007037378920030a2d914a36d4910c5f7cc21600"
+    },
+    {
+      "task": "G3BP1_HepG2_ENCSR721HPX",
+      "arm": "S",
+      "seed": null,
+      "path": "/data/CARBON_PROJECT/消融实验/全量消融运行/模型权重/MARCP/G3BP1_HepG2_ENCSR721HPX/no_conservative/model_params.pth",
+      "checkpoint_sha256": "5fe360ce0f99a9055506c3a3953f443c108a49b5ed95c77685ab61e8895b726a",
+      "model_class": "CARBON",
+      "model_source_sha256": "79d439020163d1788af2f9f9007037378920030a2d914a36d4910c5f7cc21600"
+    }
+  ],
+  "outputs": [
+    {
+      "model_index": 0,
+      "block": "101",
+      "condition": "A_native",
+      "key": "m0__101__A_native",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "101",
+      "condition": "A_flat",
+      "key": "m0__101__A_flat",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "101",
+      "condition": "A_perm0",
+      "key": "m0__101__A_perm0",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "101",
+      "condition": "A_perm1",
+      "key": "m0__101__A_perm1",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "101",
+      "condition": "A_perm2",
+      "key": "m0__101__A_perm2",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "101",
+      "condition": "A_roll_minus10",
+      "key": "m0__101__A_roll_minus10",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "101",
+      "condition": "A_roll_plus10",
+      "key": "m0__101__A_roll_plus10",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "90",
+      "condition": "A_native",
+      "key": "m0__90__A_native",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "90",
+      "condition": "A_flat",
+      "key": "m0__90__A_flat",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "90",
+      "condition": "A_perm0",
+      "key": "m0__90__A_perm0",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "90",
+      "condition": "A_perm1",
+      "key": "m0__90__A_perm1",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "90",
+      "condition": "A_perm2",
+      "key": "m0__90__A_perm2",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "90",
+      "condition": "A_roll_minus10",
+      "key": "m0__90__A_roll_minus10",
+      "rows": 1833
+    },
+    {
+      "model_index": 0,
+      "block": "90",
+      "condition": "A_roll_plus10",
+      "key": "m0__90__A_roll_plus10",
+      "rows": 1833
+    },
+    {
+      "model_index": 1,
+      "block": "101",
+      "condition": "S",
+      "key": "m1__101__S",
+      "rows": 1833
+    },
+    {
+      "model_index": 1,
+      "block": "90",
+      "condition": "S",
+      "key": "m1__90__S",
+      "rows": 1833
+    }
+  ],
+  "examples_evaluated": 29328,
+  "elapsed_seconds": 83.03438925743103,
+  "device": "CPU",
+  "threads": 2,
+  "arrays_sha256": "1a56eb12cbeca5924fc6c5b87d40f6cda4580387b1b2a65cfdf448ebd2650169",
+  "input_manifest_sha256": "f12c0735b31afa7c9863526e8dc57ad2e88e5abef345e9a769e9e3be6032bba0",
+  "all_checkpoint_hashes_verified": true,
+  "strict_load": true
+}

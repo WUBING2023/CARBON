@@ -1,0 +1,13 @@
+{
+  "task": "HNRNPK_HepG2_ENCSR828ZID",
+  "seed": 11,
+  "condition": "nogru",
+  "device": "CPU8",
+  "parameters": 44698,
+  "checkpoint_sha256": "2c2f975c0497bd9a0c728396dc697cb56e150dd035a91bf58eaf1d3c40b0f6f8",
+  "input_sha256": "ac096fec941fbbb929889eb254954a183ed84bf61b7ee118c2e4d845ea4637c4",
+  "script_sha256": "507c739d1a53cc729fbe7bed08f508328c9dd1b0cab811d35a22b591d34a9650",
+  "n_backgrounds": 16,
+  "n_words": 1024,
+  "elapsed_seconds": 2.281611442565918
+}

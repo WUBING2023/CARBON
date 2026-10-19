@@ -1,0 +1,17 @@
+{
+  "source": "Sun et al. Cell Research 2021 Fig5 publisher PNG, dominant solid logo colors sampled from reference region before rendering",
+  "nucleotides": {
+    "A": "#6BB72D",
+    "C": "#19499C",
+    "G": "#F4A016",
+    "U": "#E6211A",
+    "T": "#E6211A"
+  },
+  "models": {
+    "Full": "#E64B35",
+    "Sequence": "#4DBBD5",
+    "Frequency": "#3C5488"
+  },
+  "observed": "#19499C",
+  "rule": "Nucleotide colors applied consistently; model and quantitative palettes retain their separate semantics. User explicitly overrides earlier NPG-only nucleotide preference."
+}

@@ -1,0 +1,5 @@
+# Cross-protein NoGRU cost pilot
+
+2026-10-04 12:27 UTC. Root explicitly authorized scope confirmation of the same recurrentpath hypothesis after PTBP1 positive; it is not replacing PTBP1's primary or claiming an untouchedblindstudy. All other availability-defined matched proteinsHNRNPK/RBFOX2, two cells, seed11costpilot, each one completeoriginaltraining+validationepoch. Constructor/sharedseededinitialization, source/split/steps/max100/earlystop9/optimizer/loss copiedexactly from prior NoGRUprotocol. Thispilot tests runtimefeasibility only, not scientificadvantage; nochr1/X/Ylabels or modeloutputs readforfitselection.
+
+GPU2only afterUUID+memoryguard noapps/<=10MiB. Fourtask completeepochtimes+loading/checkpointIO logged, upper12fits100epochs3×100×sumepochtime. If<=60min, full12fits may proceed, aiming statistics before13:30UTC. Otherwise ordered HNRNPK thenRBFOX2, cellsK562thenHepG2, seeds11/23/47, fullbudgetruns only as feasible; incompleteavailability explicitlyreported, no reducedepochs/datacalledmatched. Noautomaticwait/抢卡. Existing NoGRU PTBP1 primary/negativePhi findings stay.

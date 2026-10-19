@@ -1,0 +1,566 @@
+[
+  {
+    "protein": "CPEB4",
+    "task": "CPEB4_K562_ENCSR046JHH",
+    "experiments": [
+      "RNCMPT00158"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\CPEB4_K562_ENCSR046JHH\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\CPEB4_K562_ENCSR046JHH\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "FMR1",
+    "task": "FMR1_K562_ENCSR331VNX",
+    "experiments": [
+      "RNCMPT00016"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FMR1_K562_ENCSR331VNX\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FMR1_K562_ENCSR331VNX\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "FUS",
+    "task": "FUS_HepG2_ENCSR464OSH",
+    "experiments": [
+      "RNCMPT00018"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FUS_HepG2_ENCSR464OSH\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FUS_HepG2_ENCSR464OSH\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "FUS",
+    "task": "FUS_K562_ENCSR069EVH",
+    "experiments": [
+      "RNCMPT00018"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FUS_K562_ENCSR069EVH\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FUS_K562_ENCSR069EVH\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "FXR1",
+    "task": "FXR1_K562_ENCSR774RFN",
+    "experiments": [
+      "RNCMPT00161"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FXR1_K562_ENCSR774RFN\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FXR1_K562_ENCSR774RFN\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "FXR2",
+    "task": "FXR2_HepG2_ENCSR973HOJ",
+    "experiments": [
+      "RNCMPT00020"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FXR2_HepG2_ENCSR973HOJ\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FXR2_HepG2_ENCSR973HOJ\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "FXR2",
+    "task": "FXR2_K562_ENCSR224QWC",
+    "experiments": [
+      "RNCMPT00020"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FXR2_K562_ENCSR224QWC\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FXR2_K562_ENCSR224QWC\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "HNRNPA1",
+    "task": "HNRNPA1_HepG2_ENCSR769UEW",
+    "experiments": [
+      "RNCMPT00022"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPA1_HepG2_ENCSR769UEW\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPA1_HepG2_ENCSR769UEW\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "HNRNPA1",
+    "task": "HNRNPA1_K562_ENCSR154HRN",
+    "experiments": [
+      "RNCMPT00022"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPA1_K562_ENCSR154HRN\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPA1_K562_ENCSR154HRN\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "HNRNPC",
+    "task": "HNRNPC_K562_ENCSR249ROI",
+    "experiments": [
+      "RNCMPT00025"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPC_K562_ENCSR249ROI\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPC_K562_ENCSR249ROI\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "HNRNPK",
+    "task": "HNRNPK_HepG2_ENCSR828ZID",
+    "experiments": [
+      "RNCMPT00026"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPK_HepG2_ENCSR828ZID\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPK_HepG2_ENCSR828ZID\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "HNRNPK",
+    "task": "HNRNPK_K562_ENCSR268ETU",
+    "experiments": [
+      "RNCMPT00026"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPK_K562_ENCSR268ETU\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPK_K562_ENCSR268ETU\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "HNRNPL",
+    "task": "HNRNPL_HepG2_ENCSR724RDN",
+    "experiments": [
+      "RNCMPT00027",
+      "RNCMPT00091"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPL_HepG2_ENCSR724RDN\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPL_HepG2_ENCSR724RDN\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "HNRNPL",
+    "task": "HNRNPL_K562_ENCSR795CAI",
+    "experiments": [
+      "RNCMPT00027",
+      "RNCMPT00091"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPL_K562_ENCSR795CAI\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPL_K562_ENCSR795CAI\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "IGF2BP2",
+    "task": "IGF2BP2_K562_ENCSR062NNB",
+    "experiments": [
+      "RNCMPT00033"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\IGF2BP2_K562_ENCSR062NNB\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\IGF2BP2_K562_ENCSR062NNB\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "IGF2BP3",
+    "task": "IGF2BP3_HepG2_ENCSR993OLA",
+    "experiments": [
+      "RNCMPT00172"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\IGF2BP3_HepG2_ENCSR993OLA\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\IGF2BP3_HepG2_ENCSR993OLA\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "KHDRBS1",
+    "task": "KHDRBS1_K562_ENCSR628IDK",
+    "experiments": [
+      "RNCMPT00169"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\KHDRBS1_K562_ENCSR628IDK\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\KHDRBS1_K562_ENCSR628IDK\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "MATR3",
+    "task": "MATR3_HepG2_ENCSR290VLT",
+    "experiments": [
+      "RNCMPT00037"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\MATR3_HepG2_ENCSR290VLT\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\MATR3_HepG2_ENCSR290VLT\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "MATR3",
+    "task": "MATR3_K562_ENCSR440SUX",
+    "experiments": [
+      "RNCMPT00037"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\MATR3_K562_ENCSR440SUX\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\MATR3_K562_ENCSR440SUX\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "PABPC4",
+    "task": "PABPC4_K562_ENCSR958FKZ",
+    "experiments": [
+      "RNCMPT00043"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PABPC4_K562_ENCSR958FKZ\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PABPC4_K562_ENCSR958FKZ\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "PABPN1",
+    "task": "PABPN1_HepG2_ENCSR820UYE",
+    "experiments": [
+      "RNCMPT00157"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PABPN1_HepG2_ENCSR820UYE\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PABPN1_HepG2_ENCSR820UYE\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "PCBP1",
+    "task": "PCBP1_HepG2_ENCSR256CHX",
+    "experiments": [
+      "RNCMPT00186"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PCBP1_HepG2_ENCSR256CHX\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PCBP1_HepG2_ENCSR256CHX\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "PCBP1",
+    "task": "PCBP1_K562_ENCSR922WJV",
+    "experiments": [
+      "RNCMPT00186"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PCBP1_K562_ENCSR922WJV\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PCBP1_K562_ENCSR922WJV\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "PCBP2",
+    "task": "PCBP2_HepG2_ENCSR339FUY",
+    "experiments": [
+      "RNCMPT00044"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PCBP2_HepG2_ENCSR339FUY\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PCBP2_HepG2_ENCSR339FUY\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "PTBP1",
+    "task": "PTBP1_HepG2_ENCSR384KAN",
+    "experiments": [
+      "RNCMPT00268",
+      "RNCMPT00269"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PTBP1_HepG2_ENCSR384KAN\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PTBP1_HepG2_ENCSR384KAN\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "PTBP1",
+    "task": "PTBP1_K562_ENCSR981WKN",
+    "experiments": [
+      "RNCMPT00268",
+      "RNCMPT00269"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PTBP1_K562_ENCSR981WKN\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PTBP1_K562_ENCSR981WKN\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "QKI",
+    "task": "QKI_HepG2_ENCSR570WLM",
+    "experiments": [
+      "RNCMPT00047"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\QKI_HepG2_ENCSR570WLM\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\QKI_HepG2_ENCSR570WLM\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "QKI",
+    "task": "QKI_K562_ENCSR366YOG",
+    "experiments": [
+      "RNCMPT00047"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\QKI_K562_ENCSR366YOG\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\QKI_K562_ENCSR366YOG\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "RBFOX2",
+    "task": "RBFOX2_HepG2_ENCSR987FTF",
+    "experiments": [
+      "RNCMPT00818"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\RBFOX2_HepG2_ENCSR987FTF\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\RBFOX2_HepG2_ENCSR987FTF\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "RBFOX2",
+    "task": "RBFOX2_K562_ENCSR756CKJ",
+    "experiments": [
+      "RNCMPT00818"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\RBFOX2_K562_ENCSR756CKJ\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\RBFOX2_K562_ENCSR756CKJ\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "RBM5",
+    "task": "RBM5_HepG2_ENCSR489ABS",
+    "experiments": [
+      "RNCMPT00055",
+      "RNCMPT00154"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\RBM5_HepG2_ENCSR489ABS\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\RBM5_HepG2_ENCSR489ABS\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "SFPQ",
+    "task": "SFPQ_HepG2_ENCSR965DLL",
+    "experiments": [
+      "RNCMPT00177"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SFPQ_HepG2_ENCSR965DLL\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SFPQ_HepG2_ENCSR965DLL\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "SRSF1",
+    "task": "SRSF1_HepG2_ENCSR989VIY",
+    "experiments": [
+      "RNCMPT00106",
+      "RNCMPT00107",
+      "RNCMPT00108",
+      "RNCMPT00109",
+      "RNCMPT00110",
+      "RNCMPT00163"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF1_HepG2_ENCSR989VIY\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF1_HepG2_ENCSR989VIY\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "SRSF1",
+    "task": "SRSF1_K562_ENCSR432XUP",
+    "experiments": [
+      "RNCMPT00106",
+      "RNCMPT00107",
+      "RNCMPT00108",
+      "RNCMPT00109",
+      "RNCMPT00110",
+      "RNCMPT00163"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF1_K562_ENCSR432XUP\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF1_K562_ENCSR432XUP\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "SRSF7",
+    "task": "SRSF7_HepG2_ENCSR513NDD",
+    "experiments": [
+      "RNCMPT00073"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF7_HepG2_ENCSR513NDD\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF7_HepG2_ENCSR513NDD\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "SRSF7",
+    "task": "SRSF7_K562_ENCSR468FSW",
+    "experiments": [
+      "RNCMPT00073"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF7_K562_ENCSR468FSW\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF7_K562_ENCSR468FSW\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "SRSF9",
+    "task": "SRSF9_HepG2_ENCSR773KRC",
+    "experiments": [
+      "RNCMPT00067",
+      "RNCMPT00074"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF9_HepG2_ENCSR773KRC\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF9_HepG2_ENCSR773KRC\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "TARDBP",
+    "task": "TARDBP_K562_ENCSR584TCR",
+    "experiments": [
+      "RNCMPT00076"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\TARDBP_K562_ENCSR584TCR\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\TARDBP_K562_ENCSR584TCR\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "TIA1",
+    "task": "TIA1_HepG2_ENCSR623VEQ",
+    "experiments": [
+      "RNCMPT00077",
+      "RNCMPT00165"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\TIA1_HepG2_ENCSR623VEQ\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\TIA1_HepG2_ENCSR623VEQ\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "TIA1",
+    "task": "TIA1_K562_ENCSR057DWB",
+    "experiments": [
+      "RNCMPT00077",
+      "RNCMPT00165"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\TIA1_K562_ENCSR057DWB\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\TIA1_K562_ENCSR057DWB\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "U2AF2",
+    "task": "U2AF2_HepG2_ENCSR202BFN",
+    "experiments": [
+      "RNCMPT00079"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\U2AF2_HepG2_ENCSR202BFN\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\U2AF2_HepG2_ENCSR202BFN\\no_conservative\\model_params.pth"
+  },
+  {
+    "protein": "U2AF2",
+    "task": "U2AF2_K562_ENCSR893RAV",
+    "experiments": [
+      "RNCMPT00079"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\U2AF2_K562_ENCSR893RAV\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\U2AF2_K562_ENCSR893RAV\\no_conservative\\model_params.pth"
+  }
+]

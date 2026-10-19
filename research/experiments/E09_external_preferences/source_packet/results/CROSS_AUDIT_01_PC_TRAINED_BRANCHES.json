@@ -1,0 +1,822 @@
+{
+  "device": "local CPU2",
+  "no_forward_no_training": true,
+  "six_checkpoint_hashes_verified": true,
+  "all_zero_initialized_private_tensors_trained_nonzero": true,
+  "n_independent_norm_checks": 90,
+  "max_abs_error": 0.0,
+  "checks": [
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "position_profile_bias",
+      "metric": "l1",
+      "independent": 2.8295018672943115,
+      "reported": 2.8295018672943115,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "position_profile_bias",
+      "metric": "l2",
+      "independent": 0.4309471845626831,
+      "reported": 0.4309471845626831,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "position_profile_bias",
+      "metric": "max_abs",
+      "independent": 0.2119787037372589,
+      "reported": 0.2119787037372589,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "l1",
+      "independent": 2414.515625,
+      "reported": 2414.515625,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "l2",
+      "independent": 19.573244094848633,
+      "reported": 19.573244094848633,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "max_abs",
+      "independent": 1.7814836502075195,
+      "reported": 1.7814836502075195,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "l1",
+      "independent": 26.718505859375,
+      "reported": 26.718505859375,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "l2",
+      "independent": 2.40323543548584,
+      "reported": 2.40323543548584,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "max_abs",
+      "independent": 0.5083910822868347,
+      "reported": 0.5083910822868347,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "l1",
+      "independent": 2499.699951171875,
+      "reported": 2499.699951171875,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "l2",
+      "independent": 20.780746459960938,
+      "reported": 20.780746459960938,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "max_abs",
+      "independent": 0.8888841867446899,
+      "reported": 0.8888841867446899,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "l1",
+      "independent": 18.951120376586914,
+      "reported": 18.951120376586914,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "l2",
+      "independent": 2.485053062438965,
+      "reported": 2.485053062438965,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "max_abs",
+      "independent": 0.9441851377487183,
+      "reported": 0.9441851377487183,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "position_profile_bias",
+      "metric": "l1",
+      "independent": 2.712082624435425,
+      "reported": 2.712082624435425,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "position_profile_bias",
+      "metric": "l2",
+      "independent": 0.47341999411582947,
+      "reported": 0.47341999411582947,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "position_profile_bias",
+      "metric": "max_abs",
+      "independent": 0.23206038773059845,
+      "reported": 0.23206038773059845,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "l1",
+      "independent": 2590.77294921875,
+      "reported": 2590.77294921875,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "l2",
+      "independent": 21.00055694580078,
+      "reported": 21.00055694580078,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "max_abs",
+      "independent": 1.8940331935882568,
+      "reported": 1.8940331935882568,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "l1",
+      "independent": 27.370298385620117,
+      "reported": 27.370298385620117,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "l2",
+      "independent": 2.4039111137390137,
+      "reported": 2.4039111137390137,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "max_abs",
+      "independent": 0.48481395840644836,
+      "reported": 0.48481395840644836,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "l1",
+      "independent": 2705.989501953125,
+      "reported": 2705.989501953125,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "l2",
+      "independent": 21.590505599975586,
+      "reported": 21.590505599975586,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "max_abs",
+      "independent": 0.8575102686882019,
+      "reported": 0.8575102686882019,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "l1",
+      "independent": 18.319721221923828,
+      "reported": 18.319721221923828,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "l2",
+      "independent": 2.3174943923950195,
+      "reported": 2.3174943923950195,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "max_abs",
+      "independent": 0.8581327795982361,
+      "reported": 0.8581327795982361,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "position_profile_bias",
+      "metric": "l1",
+      "independent": 3.1729390621185303,
+      "reported": 3.1729390621185303,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "position_profile_bias",
+      "metric": "l2",
+      "independent": 0.5154916048049927,
+      "reported": 0.5154916048049927,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "position_profile_bias",
+      "metric": "max_abs",
+      "independent": 0.2916984260082245,
+      "reported": 0.2916984260082245,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "l1",
+      "independent": 2779.82666015625,
+      "reported": 2779.82666015625,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "l2",
+      "independent": 22.51344108581543,
+      "reported": 22.51344108581543,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "max_abs",
+      "independent": 2.068751335144043,
+      "reported": 2.068751335144043,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "l1",
+      "independent": 30.284669876098633,
+      "reported": 30.284669876098633,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "l2",
+      "independent": 2.587404251098633,
+      "reported": 2.587404251098633,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "max_abs",
+      "independent": 0.44964247941970825,
+      "reported": 0.44964247941970825,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "l1",
+      "independent": 3106.5732421875,
+      "reported": 3106.5732421875,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "l2",
+      "independent": 24.487747192382812,
+      "reported": 24.487747192382812,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "max_abs",
+      "independent": 0.920014500617981,
+      "reported": 0.920014500617981,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "l1",
+      "independent": 21.373092651367188,
+      "reported": 21.373092651367188,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "l2",
+      "independent": 2.4987330436706543,
+      "reported": 2.4987330436706543,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "max_abs",
+      "independent": 0.8049869537353516,
+      "reported": 0.8049869537353516,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "position_profile_bias",
+      "metric": "l1",
+      "independent": 3.1642231941223145,
+      "reported": 3.1642231941223145,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "position_profile_bias",
+      "metric": "l2",
+      "independent": 0.4827895164489746,
+      "reported": 0.4827895164489746,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "position_profile_bias",
+      "metric": "max_abs",
+      "independent": 0.2358674257993698,
+      "reported": 0.2358674257993698,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "l1",
+      "independent": 1836.21875,
+      "reported": 1836.21875,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "l2",
+      "independent": 14.478699684143066,
+      "reported": 14.478699684143066,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "max_abs",
+      "independent": 1.1317499876022339,
+      "reported": 1.1317499876022339,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "l1",
+      "independent": 15.303277969360352,
+      "reported": 15.303277969360352,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "l2",
+      "independent": 1.353987455368042,
+      "reported": 1.353987455368042,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "max_abs",
+      "independent": 0.3032325208187103,
+      "reported": 0.3032325208187103,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "l1",
+      "independent": 1386.43017578125,
+      "reported": 1386.43017578125,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "l2",
+      "independent": 11.303937911987305,
+      "reported": 11.303937911987305,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "max_abs",
+      "independent": 0.3566584885120392,
+      "reported": 0.3566584885120392,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "l1",
+      "independent": 9.390328407287598,
+      "reported": 9.390328407287598,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "l2",
+      "independent": 1.1156004667282104,
+      "reported": 1.1156004667282104,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "max_abs",
+      "independent": 0.4016493856906891,
+      "reported": 0.4016493856906891,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "position_profile_bias",
+      "metric": "l1",
+      "independent": 2.9064717292785645,
+      "reported": 2.9064717292785645,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "position_profile_bias",
+      "metric": "l2",
+      "independent": 0.42074379324913025,
+      "reported": 0.42074379324913025,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "position_profile_bias",
+      "metric": "max_abs",
+      "independent": 0.1660987138748169,
+      "reported": 0.1660987138748169,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "l1",
+      "independent": 1944.5538330078125,
+      "reported": 1944.5538330078125,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "l2",
+      "independent": 15.398544311523438,
+      "reported": 15.398544311523438,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "max_abs",
+      "independent": 1.3156287670135498,
+      "reported": 1.3156287670135498,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "l1",
+      "independent": 17.59356689453125,
+      "reported": 17.59356689453125,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "l2",
+      "independent": 1.542883038520813,
+      "reported": 1.542883038520813,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "max_abs",
+      "independent": 0.360032856464386,
+      "reported": 0.360032856464386,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "l1",
+      "independent": 1545.873291015625,
+      "reported": 1545.873291015625,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "l2",
+      "independent": 12.314827919006348,
+      "reported": 12.314827919006348,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "max_abs",
+      "independent": 0.4822958707809448,
+      "reported": 0.4822958707809448,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "l1",
+      "independent": 9.017943382263184,
+      "reported": 9.017943382263184,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "l2",
+      "independent": 0.94440758228302,
+      "reported": 0.94440758228302,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "max_abs",
+      "independent": 0.32167622447013855,
+      "reported": 0.32167622447013855,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "position_profile_bias",
+      "metric": "l1",
+      "independent": 3.5113348960876465,
+      "reported": 3.5113348960876465,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "position_profile_bias",
+      "metric": "l2",
+      "independent": 0.5078086853027344,
+      "reported": 0.5078086853027344,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "position_profile_bias",
+      "metric": "max_abs",
+      "independent": 0.25340381264686584,
+      "reported": 0.25340381264686584,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "l1",
+      "independent": 1967.1551513671875,
+      "reported": 1967.1551513671875,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "l2",
+      "independent": 15.677446365356445,
+      "reported": 15.677446365356445,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.0.weight",
+      "metric": "max_abs",
+      "independent": 1.2676231861114502,
+      "reported": 1.2676231861114502,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "l1",
+      "independent": 18.589101791381836,
+      "reported": 18.589101791381836,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "l2",
+      "independent": 1.6118642091751099,
+      "reported": 1.6118642091751099,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.0.bias",
+      "metric": "max_abs",
+      "independent": 0.32922184467315674,
+      "reported": 0.32922184467315674,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "l1",
+      "independent": 1590.98046875,
+      "reported": 1590.98046875,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "l2",
+      "independent": 12.83464241027832,
+      "reported": 12.83464241027832,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.2.weight",
+      "metric": "max_abs",
+      "independent": 0.5259659886360168,
+      "reported": 0.5259659886360168,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "l1",
+      "independent": 10.803901672363281,
+      "reported": 10.803901672363281,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "l2",
+      "independent": 1.2453937530517578,
+      "reported": 1.2453937530517578,
+      "abs_difference": 0.0
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "tensor": "mixer.position_mlp.2.bias",
+      "metric": "max_abs",
+      "independent": 0.4075847566127777,
+      "reported": 0.4075847566127777,
+      "abs_difference": 0.0
+    }
+  ],
+  "control_source_sha256": "905f265eb1bce43c5afcce75969672105f15f80735ed08f4d13481872a8c5404",
+  "audit_is_implementation_validity_not_biological_mechanism": true
+}

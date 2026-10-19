@@ -1,0 +1,22 @@
+{
+  "task": "TIA1_K562_ENCSR057DWB",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/TIA1_K562_ENCSR057DWB/_5ch/TIA1_K562_ENCSR057DWB_chr8_5ch.h5",
+      "bytes": 6463857,
+      "n_windows": 14119,
+      "sha256": "47f35f224e9ab53db463c04dc95409920d2e1413af14205750d7c0c3c9058341"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/TIA1_K562_ENCSR057DWB/_5ch/TIA1_K562_ENCSR057DWB_chr15_5ch.h5",
+      "bytes": 4988064,
+      "n_windows": 10703,
+      "sha256": "236e5a7e5962f702af17181764c89ab43cddfd479cbf8b7bdc58073c03906b85"
+    }
+  ],
+  "n_total": 24822,
+  "n_eligible": 24822,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "7ba7a230212394440433a588b5f9b71c7f1e51c3f93db53abbd08e0f24457841"
+}

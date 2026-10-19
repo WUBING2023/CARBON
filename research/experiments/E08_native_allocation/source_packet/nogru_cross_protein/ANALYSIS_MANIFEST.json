@@ -1,0 +1,43 @@
+{
+  "rows": 4616,
+  "seconds": 129.6754144000006,
+  "B": 10000,
+  "rng_seed": 20261006,
+  "numpy": "2.2.6",
+  "methods": [
+    "aligned_ensemble",
+    "aligned_seed11",
+    "aligned_seed23",
+    "aligned_seed47",
+    "sequence_only_ensemble",
+    "sequence_only_seed11",
+    "sequence_only_seed23",
+    "sequence_only_seed47",
+    "mean_ensemble",
+    "mean_seed11",
+    "mean_seed23",
+    "mean_seed47",
+    "permuted_ensemble",
+    "permuted_seed11",
+    "permuted_seed23",
+    "permuted_seed47",
+    "nogru_ensemble",
+    "nogru_seed11",
+    "nogru_seed23",
+    "nogru_seed47",
+    "fixed_half"
+  ],
+  "task_order": [
+    "HNRNPK_K562_ENCSR268ETU",
+    "HNRNPK_HepG2_ENCSR828ZID"
+  ],
+  "scenes": [
+    "all_core",
+    "long_gap",
+    "identical_local_input"
+  ],
+  "primary": "HNRNPK combinedchr1XY / allcore / adjusted, Full\u2212NoGRU;95%CI, samegeneIDclusters joint acrosscells",
+  "supporting": "3scenes\u00d74controls Bonf12 for combinedrange; Bonf36 conservativeall3ranges. Bothranges also reportedseparately. ModelsseedsnotRNAreplicates.",
+  "ensemble": "Float64 average native3seed profiles before ratio",
+  "exposure": "15table conservative coordinate/gene-name ledger; not whole study blinding"
+}

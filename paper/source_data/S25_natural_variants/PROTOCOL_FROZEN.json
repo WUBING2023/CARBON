@@ -1,0 +1,41 @@
+{
+  "frozen_utc": "2026-10-12T10:47:57.559656+00:00",
+  "status": "local frozen descriptive protocol, not preregistration",
+  "question": "How do existing natural ASB direction judgments and predicted REF/ALT perturbations vary with reference conservation and population annotation?",
+  "already_exposed": "All historical ASB labels/model outputs already examined; no blind independent validation is claimed.",
+  "cohort": {
+    "all_events": 7262,
+    "strict_events": 396,
+    "strict_loci": 287,
+    "annotation_variants": 287,
+    "all_RBPs": 140,
+    "strict_RBPs": 85
+  },
+  "eligibility": "All 7262 previously qualified BEAPR ASB-positive events retained; no outcome-dependent filtering. Annotation: ALL unique REF/ALT variants in the prior strict chr8/15 subset.",
+  "coordinate_audit": "Existing whole101 unique contiguous GRCh37-to-GRCh38 and reciprocal center mapping retained. Query genome-plus REF/ALT; RNA inputs remain strand oriented.",
+  "assay": "Published BEAPR eCLIP-derived significant ASB direction, FDR<0.1; normalized major/minor BASE identity, not numerical normalized binding values. Raw count ratios are not the binding effect size.",
+  "primary_descriptive_outputs": [
+    "RBP-equal direction accuracy by native center PhyloP quartiles, all and strict separately",
+    "Full, Sequence, fixed-input Flat-Phi, fixed-input permutation mean and constant REF preference comparator",
+    "center PhyloP association with absolute predicted REF/ALT log-total-count difference for each arm",
+    "population frequency and clinical-annotation coverage at allele-matched frozen variants"
+  ],
+  "analysis": "Direction credits preserved: sign>1e-7 1; abs<=1e-7 .5; else0. Macro: events within task, tasks within RBP, RBPs equal. Quartiles defined from unique loci in each cohort independently, without inspecting outcomes; ties remain in the same bin. Paired RBP resampling 5000 seed20261012. Adjusted association: rank centerPhi or predicted magnitude residualized on task, GC101, GC7, local +/-2 bases, REF>ALT mutation class, strand, log1p raw total depth, and source REF preference as applicable; 2000 two-way positive-exponential gene/locus x RBP multipliers, seed20261013. Refit adjusted rank slopes with weights. These intervals describe sampling sensitivity, not new validation or causal effects.",
+  "annotation": "Official Ensembl REST VEP GRCh38 queries; only exact coordinate and REF/ALT matching colocated records. 1000G AF for exact ALT (0..1); minor allele frequency min(AF,1-AF) for biallelic matched records. Missing annotation is not AF0 or benign. Clinical labels cross-check by direct NCBI public ClinVar E-utilities for returned IDs. No clinical label is a measured RBP-binding endpoint.",
+  "controls_limits": "The source includes ASB positives only: no ASB detection AUROC/AP. FDR is ascertainment, not effect magnitude. No independent cognate motif-score control is available; local sequence controls are a limited proxy. ENCODE assay overlap and old unmatched Full/Sequence training remain. Flat/permutedPhi are test-time inputs to the Full checkpoint, not retrained models. Same referencePhi for both alleles; no mutant evolution measurement.",
+  "TCGA": "Inspect official GDC source suitability. Tumor somatic catalogs do not supply the matched allele-specific RBP-binding endpoint; do not add unlabelled cancer mutations to the binding evaluation. No controlled individual data requested.",
+  "resources": {
+    "cpu_max": 4,
+    "annotation_loci_max": 500,
+    "gpu": "not planned; reuse real existing predictions",
+    "bootstrap_max": 5000
+  },
+  "sources": {
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\EVENTS_INCLUDED.json": "d5901d15bc86d7113e8cff2cd5ca12ebf23a9e3e9950c53f401389d08ef58d52",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\INPUTS.npz": "b2def142493a2ead41de63eb5303a5ad169cfcecab2151f5db505eb42cba82bc",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\PREDICTIONS.npz": "9af1e179f2b166010dd11e17b6b73bf8a53092e8f1ac0266bf646ba5e33213b2",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\06_ASB_expansion\\PROTOCOL.json": "12ae8f21f6794be70553eb1b553da392bf5fd36cdeb6395573433c2a95b3edf9",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\expanded_functional_validation_20261003\\07_results\\ASB_ALL_EVENT_RESULTS.csv": "11113efbf0f4156ed3bc1494291441b719287e9ff45bd6722a1c42faaec845fa"
+  },
+  "deviation_policy": "Any later changes documented before or with analysis; no search for an advantageous subset."
+}

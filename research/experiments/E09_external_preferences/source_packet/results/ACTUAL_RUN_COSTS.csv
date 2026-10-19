@@ -1,0 +1,7 @@
+phase,n_runs,summed_run_elapsed_seconds,source,cost_is_individual_run_sum_not_campaign_parallel_wall
+native_IG_primary72,72,146.12849926948547,IG_AUDIT.csv,True
+controlled_matched72,72,31.899064302444458,CONTROLLED_AUDIT.csv,True
+wide42task_fourconditions168,168,1139.7720248699188,WIDE_EXECUTION_QA.csv,True
+PTBP1_NoGRU_external6,6,11.475969552993774,NOGRU_EXTERNAL_QA.csv,True
+HNRNPK_NoGRU_external6,6,10.998347997665405,HNR_COMPONENT_QA.csv,True
+parser_local_frozen_replay,6,33.74646679999569,PARSER_REPLAY_EXECUTION.json,True

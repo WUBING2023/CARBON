@@ -1,0 +1,49 @@
+cell,scope,endpoint,comparison,point,CI_low,CI_high,Bonf3_low,Bonf3_high,multiplicity_scope,valid_bootstrap,n_events,n_genes
+K562,chr1_primary,responsive_direction,aligned-sequence_only,-0.059123343569150236,-0.25539114842407395,0.14312957030218293,-0.30217175270214774,0.19090251746178832,three necessary Phi contrasts,10000,43,36
+K562,chr1_primary,responsive_direction,aligned-mean,-0.13576471486249314,-0.3398239546670263,0.0662742843477175,-0.3900560401040925,0.10995799473146116,three necessary Phi contrasts,10000,43,36
+K562,chr1_primary,responsive_direction,aligned-permuted,-0.060180465931817036,-0.21754973835515382,0.11670482488012449,-0.25628601509981197,0.1601028496586258,three necessary Phi contrasts,10000,43,36
+K562,chr1_primary,responsive_direction,aligned-no_gru,0.02016083363085966,-0.20615865499701627,0.2629470294762195,,,registered extra component diagnostic; unadjusted CI,10000,43,36
+K562,chr1_primary,all_event_direction,aligned-sequence_only,0.018103780515334587,-0.006692568517358184,0.043238913724751527,-0.013072607278429713,0.04807234555673098,three necessary Phi contrasts,10000,3277,780
+K562,chr1_primary,all_event_direction,aligned-mean,0.015514738920933788,-0.004808832958704343,0.036227023944016584,-0.009487135811091734,0.041180569086391214,three necessary Phi contrasts,10000,3277,780
+K562,chr1_primary,all_event_direction,aligned-permuted,0.007898799804326504,-0.012649230270234887,0.028425501828308903,-0.016416663089507923,0.03281367271903231,three necessary Phi contrasts,10000,3277,780
+K562,chr1_primary,all_event_direction,aligned-no_gru,0.0018033108539728879,-0.02208607508244653,0.026583351576359177,,,registered extra component diagnostic; unadjusted CI,10000,3277,780
+K562,chr1_primary,response_detection,aligned-sequence_only,0.08432323908315204,0.02705491764183905,0.14901476855786,0.014819626444694301,0.1641112468264178,three necessary Phi contrasts,10000,1989,608
+K562,chr1_primary,response_detection,aligned-mean,0.029458161045914033,-0.014696970328066708,0.07531775486781306,-0.025042293637719957,0.08675570521302627,three necessary Phi contrasts,10000,1989,608
+K562,chr1_primary,response_detection,aligned-permuted,0.056352924305074215,0.01366497628971408,0.09700141003604194,0.004194176978259937,0.106300416651112,three necessary Phi contrasts,10000,1989,608
+K562,chr1_primary,response_detection,aligned-no_gru,0.009632161380530135,-0.035764266096350784,0.05188829873287173,,,registered extra component diagnostic; unadjusted CI,10000,1989,608
+K562,other_holdouts_secondary,responsive_direction,aligned-sequence_only,-0.37246222384794553,-0.8496856290756939,0.006485169454321767,-0.9889991258741259,0.11309277167174589,three necessary Phi contrasts,10000,27,21
+K562,other_holdouts_secondary,responsive_direction,aligned-mean,-0.10685391667768929,-0.4971826237500107,0.16582229144812755,-0.6035436484824952,0.2298040051338027,three necessary Phi contrasts,10000,27,21
+K562,other_holdouts_secondary,responsive_direction,aligned-permuted,-0.21765274095254308,-0.5513162186165925,0.004548232908271284,-0.649168678390052,0.03560282410896704,three necessary Phi contrasts,10000,27,21
+K562,other_holdouts_secondary,responsive_direction,aligned-no_gru,-0.11723401144066481,-0.40133534889587247,0.19300771380045342,,,registered extra component diagnostic; unadjusted CI,10000,27,21
+K562,other_holdouts_secondary,all_event_direction,aligned-sequence_only,0.034570209355105026,0.008343043251764909,0.061649587072549965,0.0019195967071212927,0.066952729407642,three necessary Phi contrasts,10000,2707,740
+K562,other_holdouts_secondary,all_event_direction,aligned-mean,0.0219294298813587,-0.002621946353726036,0.04685770289567477,-0.008212088303503177,0.05264784671592764,three necessary Phi contrasts,10000,2707,740
+K562,other_holdouts_secondary,all_event_direction,aligned-permuted,0.01930957652725524,-0.004069929345126625,0.043406715621710244,-0.00888150791255788,0.04916947213423217,three necessary Phi contrasts,10000,2707,740
+K562,other_holdouts_secondary,all_event_direction,aligned-no_gru,-0.026781601336948596,-0.05616551650551844,0.0026026126507471986,,,registered extra component diagnostic; unadjusted CI,10000,2707,740
+K562,other_holdouts_secondary,response_detection,aligned-sequence_only,0.039357959542656085,-0.026734133541108845,0.10879982753029907,-0.044824747166055966,0.12862232443281596,three necessary Phi contrasts,10000,1543,542
+K562,other_holdouts_secondary,response_detection,aligned-mean,0.03847845206684253,-0.0004248370804822538,0.08439447856800407,-0.009906599989485334,0.09708049405166354,three necessary Phi contrasts,10000,1543,542
+K562,other_holdouts_secondary,response_detection,aligned-permuted,0.032749438092446015,-0.0014919392212834025,0.06897433340801144,-0.009912336080024836,0.08029994482599533,three necessary Phi contrasts,10000,1543,542
+K562,other_holdouts_secondary,response_detection,aligned-no_gru,0.04238737418156946,-0.00882397618466838,0.08368224287488947,,,registered extra component diagnostic; unadjusted CI,10000,1543,542
+HepG2,chr1_primary,responsive_direction,aligned-sequence_only,,,,,,three necessary Phi contrasts,0,0,0
+HepG2,chr1_primary,responsive_direction,aligned-mean,,,,,,three necessary Phi contrasts,0,0,0
+HepG2,chr1_primary,responsive_direction,aligned-permuted,,,,,,three necessary Phi contrasts,0,0,0
+HepG2,chr1_primary,responsive_direction,aligned-no_gru,,,,,,registered extra component diagnostic; unadjusted CI,0,0,0
+HepG2,chr1_primary,all_event_direction,aligned-sequence_only,0.004764413900213892,-0.019509795704856683,0.028534342291542406,-0.025441812248342438,0.033769700064937076,three necessary Phi contrasts,10000,1937,668
+HepG2,chr1_primary,all_event_direction,aligned-mean,-0.004979653079287511,-0.02790299780597772,0.0174141897219133,-0.03273453607174506,0.022555802231695544,three necessary Phi contrasts,10000,1937,668
+HepG2,chr1_primary,all_event_direction,aligned-permuted,-0.00694906113065304,-0.02853934022840049,0.015204600471001984,-0.03340316768822046,0.019914070582299288,three necessary Phi contrasts,10000,1937,668
+HepG2,chr1_primary,all_event_direction,aligned-no_gru,-0.00813744196727599,-0.037683284737016605,0.021682637200123048,,,registered extra component diagnostic; unadjusted CI,10000,1937,668
+HepG2,chr1_primary,response_detection,aligned-sequence_only,,,,,,three necessary Phi contrasts,0,1098,481
+HepG2,chr1_primary,response_detection,aligned-mean,,,,,,three necessary Phi contrasts,0,1098,481
+HepG2,chr1_primary,response_detection,aligned-permuted,,,,,,three necessary Phi contrasts,0,1098,481
+HepG2,chr1_primary,response_detection,aligned-no_gru,,,,,,registered extra component diagnostic; unadjusted CI,0,1098,481
+HepG2,other_holdouts_secondary,responsive_direction,aligned-sequence_only,,,,,,three necessary Phi contrasts,0,2,2
+HepG2,other_holdouts_secondary,responsive_direction,aligned-mean,,,,,,three necessary Phi contrasts,0,2,2
+HepG2,other_holdouts_secondary,responsive_direction,aligned-permuted,,,,,,three necessary Phi contrasts,0,2,2
+HepG2,other_holdouts_secondary,responsive_direction,aligned-no_gru,,,,,,registered extra component diagnostic; unadjusted CI,0,2,2
+HepG2,other_holdouts_secondary,all_event_direction,aligned-sequence_only,-0.01971931285466697,-0.04599402188304395,0.006671479359062368,-0.05201342821611773,0.012520698515514293,three necessary Phi contrasts,10000,1817,635
+HepG2,other_holdouts_secondary,all_event_direction,aligned-mean,-0.010360523999126972,-0.03513304099873248,0.014330680918054315,-0.04079937673110784,0.020453215169264648,three necessary Phi contrasts,10000,1817,635
+HepG2,other_holdouts_secondary,all_event_direction,aligned-permuted,-0.020197393212672773,-0.04149099122887381,0.001258430963739998,-0.04531692755503692,0.005952307532948849,three necessary Phi contrasts,10000,1817,635
+HepG2,other_holdouts_secondary,all_event_direction,aligned-no_gru,-0.021395022319386853,-0.05339629354741483,0.010614751157201936,,,registered extra component diagnostic; unadjusted CI,10000,1817,635
+HepG2,other_holdouts_secondary,response_detection,aligned-sequence_only,-0.026104417670682722,-0.15059375113412285,0.0956161694684676,-0.15812391707543258,0.10198580035763909,three necessary Phi contrasts,8688,998,423
+HepG2,other_holdouts_secondary,response_detection,aligned-mean,-0.041666666666666685,-0.0892687559354226,0.01024223490562872,-0.09392691975402755,0.015392571477335061,three necessary Phi contrasts,8688,998,423
+HepG2,other_holdouts_secondary,response_detection,aligned-permuted,0.06224899598393574,0.041850331990625135,0.08389255064927593,0.037721047156726764,0.08919053251500199,three necessary Phi contrasts,8688,998,423
+HepG2,other_holdouts_secondary,response_detection,aligned-no_gru,0.029116465863453816,0.006755080277893139,0.05285927692315423,,,registered extra component diagnostic; unadjusted CI,8688,998,423

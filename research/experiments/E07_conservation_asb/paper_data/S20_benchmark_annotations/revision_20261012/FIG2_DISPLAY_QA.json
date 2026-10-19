@@ -1,0 +1,47 @@
+{
+  "dimensions_mm": [
+    85.0,
+    195.0
+  ],
+  "ordinary_font_pt": 6.5,
+  "tasks": 222,
+  "ring_values": 666,
+  "scatter_points_per_panel": 222,
+  "matrix_shape": [
+    222,
+    12
+  ],
+  "ring_encoding": {
+    "model_identity": "outer CARBON red; both controls blue",
+    "common_tint_transform": "t=((PCC+0.1)/0.6)^0.7",
+    "pcc_limits": [
+      -0.1,
+      0.5
+    ],
+    "gamma_all_models": 0.7,
+    "clipping": false,
+    "same_PCC_same_tint_fraction": true,
+    "two_matched_ramps": "red and blue share all PCC positions"
+  },
+  "matrix_encoding": {
+    "limits": [
+      -0.12,
+      0.12
+    ],
+    "zero_colour": "#FFFFFF",
+    "negative_blue": true,
+    "positive_red": true,
+    "transform": "raw differences, no per-column standardization",
+    "below_scale": 0,
+    "above_scale": 195,
+    "data_range": [
+      -0.02916505465670116,
+      0.3432614813025742
+    ]
+  },
+  "profile_geometry_unchanged": true,
+  "track_identity_correction": "tracks 3/4 are inverted pooled eCLIP and inverted control; the frozen JSON mislabels them ENCODE replicates",
+  "paired_summary_relocated_to_csv": true,
+  "no_score_recomputation_or_model_rerun": true,
+  "fair_comparison_limitations_remain": true
+}

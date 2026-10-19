@@ -1,0 +1,54 @@
+{
+  "n_conditions": 128,
+  "seed_conditions_all_retained": true,
+  "source_hashes_unchanged": true,
+  "n_RNA": 1,
+  "ensemble_definition": "mean log counts and mean signed nucleotideIG acrossseed; ensemble importance abs(mean signedIG), equivalent to IG of average scalar, not mean absoluteIG",
+  "IG_steps": 32,
+  "IG_max_absolute_completeness_error": 0.0021239817142486572,
+  "IG_max_relative_error": 0.18103857583340782,
+  "IG_conditions_relative_error_gt_002": [
+    {
+      "task": "HNRNPK_HepG2_ENCSR828ZID",
+      "arm": "permuted",
+      "seed": 11,
+      "IG_steps": 32,
+      "f_WT_minus_f_base": 0.023424386978149414,
+      "sum_IG": 0.022622644901275635,
+      "absolute_error": 0.0008017420768737793,
+      "relative_error": 0.03422681146881902
+    },
+    {
+      "task": "HNRNPK_HepG2_ENCSR828ZID",
+      "arm": "permuted",
+      "seed": 23,
+      "IG_steps": 32,
+      "f_WT_minus_f_base": -0.04527091979980469,
+      "sum_IG": -0.04327947646379471,
+      "absolute_error": 0.0019914433360099792,
+      "relative_error": 0.04398946044870444
+    },
+    {
+      "task": "HNRNPK_HepG2_ENCSR828ZID",
+      "arm": "aligned",
+      "seed": 47,
+      "IG_steps": 32,
+      "f_WT_minus_f_base": 0.08925962448120117,
+      "sum_IG": 0.09128569066524506,
+      "absolute_error": 0.0020260661840438843,
+      "relative_error": 0.022698573916481026
+    },
+    {
+      "task": "HNRNPK_K562_ENCSR268ETU",
+      "arm": "sequence_only",
+      "seed": 47,
+      "IG_steps": 32,
+      "f_WT_minus_f_base": -0.010670661926269531,
+      "sum_IG": -0.012602463364601135,
+      "absolute_error": 0.001931801438331604,
+      "relative_error": 0.18103857583340782
+    }
+  ],
+  "source_old_IG_fact": "reused old ATTRIBUTIONS were final64-step upgrade, not 32-step; source old prepare_freeze/run_ig and QUERY_LOG.json establish this. Original protocol wording corrected in report, no score rerank",
+  "script_sha256": "6fd35d6bb2557d06f28cfe88c4ebb04cfce865eb849611ad099cf65f47254a96"
+}

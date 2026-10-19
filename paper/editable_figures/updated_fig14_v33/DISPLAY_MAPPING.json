@@ -1,0 +1,113 @@
+{
+  "dimensions_mm": [
+    85.0,
+    124.0
+  ],
+  "source_101_to_original22_checks": {
+    "LEPR": {
+      "lengths": {
+        "observed_signal": 101,
+        "input_signal": 101,
+        "full_profile": 101,
+        "nogru_profile": 101,
+        "local_position_profile": 101,
+        "phi": 101
+      },
+      "errors": {
+        "observed_signal": 0.0,
+        "input_signal": 0.0,
+        "full_profile": 0.0,
+        "nogru_profile": 0.0,
+        "local_position_profile": 0.0,
+        "phi": 0.0
+      },
+      "support_positions": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "gene_row": 181,
+      "gene_row_pairs": 5
+    },
+    "OCRL": {
+      "lengths": {
+        "observed_signal": 101,
+        "input_signal": 101,
+        "full_profile": 101,
+        "nogru_profile": 101,
+        "local_position_profile": 101,
+        "phi": 101
+      },
+      "errors": {
+        "observed_signal": 0.0,
+        "input_signal": 0.0,
+        "full_profile": 0.0,
+        "nogru_profile": 0.0,
+        "local_position_profile": 0.0,
+        "phi": 0.0
+      },
+      "support_positions": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "gene_row": 550,
+      "gene_row_pairs": 1
+    }
+  },
+  "literal_base_palette": {
+    "A": "#6BB72D",
+    "C": "#19499C",
+    "G": "#F4A016",
+    "T": "#E6211A",
+    "U": "#E6211A",
+    "N": "#9A9A9A"
+  },
+  "identity_glyphs_uniform_height": true,
+  "full_window_counts_only_no_fake_attribution": true,
+  "coordinate_domain": "overview original0\u2013100; detail two separated11nt supports atoriginal0-based coords; no intervening signal invented",
+  "local_core_artist_indices": "4..7 and19..22 atdisplay0..10,15..25, exactly floor-relative\u22121..+2",
+  "atlas_height_mm": 37,
+  "atlas_min_png_height_px": 874.0157480314961,
+  "all_865_rows_retained": true,
+  "source_packet_sha256": "6383572632a118a982187ab8f684339e8b99b1a88ed50646c18b2455bf91ec30",
+  "references": "PrismNet native identity\u2192input/response coordinate linkage; RBPNet whole context\u2192literal local enlargement; no transferred assays or IG"
+}

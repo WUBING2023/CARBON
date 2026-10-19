@@ -1,0 +1,7 @@
+cohort,contrast,outcome,rank_slope_difference,ci_low,ci_high,replicates,interval
+strict_test,A_native minus S,abs_delta,0.027705728799137023,-0.13311289521493438,0.2175115534361822,200,paired full weighted nuisance refits; secondary sensitivity
+strict_test,A_native minus S,credit,0.011738916037915777,-0.08346016916181387,0.11444655589414521,200,paired full weighted nuisance refits; secondary sensitivity
+strict_test,A_native minus A_flat,abs_delta,-0.005640673883797444,-0.12914879015848024,0.15139425708145243,200,paired full weighted nuisance refits; secondary sensitivity
+strict_test,A_native minus A_flat,credit,0.018565697845803315,-0.05225619394807003,0.09567495474655847,200,paired full weighted nuisance refits; secondary sensitivity
+strict_test,A_native minus A_permmean,abs_delta,0.04848099231836238,-0.06941233043101079,0.1680747323328979,200,paired full weighted nuisance refits; secondary sensitivity
+strict_test,A_native minus A_permmean,credit,0.05494648766110975,-0.012600371836788329,0.11655093871765007,200,paired full weighted nuisance refits; secondary sensitivity

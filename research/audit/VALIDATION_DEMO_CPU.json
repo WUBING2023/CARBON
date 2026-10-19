@@ -1,0 +1,34 @@
+{
+  "scope": "Included AARS checkpoint CPU evaluation; no training or MARCP equivalence proof.",
+  "test_windows": 1283,
+  "tolerance": 1e-05,
+  "maximum_absolute_error": 9.020960056727034e-07,
+  "passed": true,
+  "reference": {
+    "Mean_PCC": 0.1806243216309397,
+    "Spearman": 0.25638617789417645,
+    "Signal_AUC": 0.7296351619699608,
+    "Signal_AP": 0.28796216248989215,
+    "Peak_AUC": 0.7303447187790142,
+    "Peak_AP": 0.2880947714926352
+  },
+  "actual": {
+    "Mean_PCC": 0.18062455788527543,
+    "Spearman": 0.2563860384808987,
+    "Signal_AUC": 0.7296350469162484,
+    "Signal_AP": 0.28796126368426556,
+    "Peak_AUC": 0.7303446267608235,
+    "Peak_AP": 0.2880938693966295
+  },
+  "absolute_errors": {
+    "Mean_PCC": 2.362543357337099e-07,
+    "Spearman": 1.3941327775546242e-07,
+    "Signal_AUC": 1.1505371244613372e-07,
+    "Signal_AP": 8.988056265923916e-07,
+    "Peak_AUC": 9.201819073378914e-08,
+    "Peak_AP": 9.020960056727034e-07
+  },
+  "checkpoint_sha256": "da9009d7a6d46c689cd68193d08535ba7744deb1e9fd089a4bd8f1d04614411c",
+  "test_h5_sha256": "03c66cc3b255a76cbf65394d6166ca7b7eeabd159cab645119b71e0968a879a4",
+  "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]"
+}

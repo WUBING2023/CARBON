@@ -1,0 +1,70 @@
+{
+  "dimensions_mm": [
+    85.0,
+    185.0
+  ],
+  "ordinary_font_pt_range": [
+    5.5,
+    5.8
+  ],
+  "tasks": 222,
+  "ring_values": 666,
+  "scatter_points_per_panel": 222,
+  "matrix_shape": [
+    222,
+    12
+  ],
+  "ring_encoding": {
+    "model_identity": "radial position and black labels only; hue encodes the same PCC for every model",
+    "common_map": "common continuous signed cube-root gamma1/3; blue below0.30, white at0.30, NPG red above0.30; visual contrast only",
+    "pcc_limits": [
+      -0.1,
+      0.5
+    ],
+    "white_anchor": 0.3,
+    "exponent": 0.3333333333333333,
+    "pooled_median": 0.2853291903436592,
+    "pooled_records": 666,
+    "clipping": false,
+    "same_PCC_same_RGBA": true,
+    "palette": [
+      "#3C5488",
+      "#FFFFFF",
+      "#E64B35"
+    ],
+    "median_by_model": {
+      "CARBON": 0.31856443642752397,
+      "iDeepB": 0.2831706371112051,
+      "RBPNet": 0.2536311919711455
+    },
+    "fraction_above_common_center": {
+      "CARBON": 0.5675675675675675,
+      "iDeepB": 0.43243243243243246,
+      "RBPNet": 0.35585585585585583
+    }
+  },
+  "matrix_encoding": {
+    "limits": [
+      -0.12,
+      0.12
+    ],
+    "zero_colour": "#FFFFFF",
+    "negative_blue": true,
+    "positive_red": true,
+    "transform": "raw differences, no per-column standardization",
+    "below_scale": 0,
+    "above_scale": 195,
+    "data_range": [
+      -0.02916505465670116,
+      0.3432614813025742
+    ]
+  },
+  "profile_geometry_unchanged": true,
+  "track_identity_correction": "tracks 3/4 are inverted pooled eCLIP and inverted control; the frozen JSON mislabels them ENCODE replicates",
+  "paired_summary_preserved_in_b": true,
+  "one_complete_figure": true,
+  "one_float_required": true,
+  "b_original_vertical_mark_style_retained": true,
+  "no_score_recomputation_or_model_rerun": true,
+  "fair_comparison_limitations_remain": true
+}

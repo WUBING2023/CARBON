@@ -1,0 +1,123 @@
+{
+  "canvas_mm": [
+    178.0,
+    190.0
+  ],
+  "base_palette": {
+    "A": "#6BB72D",
+    "C": "#19499C",
+    "G": "#F4A016",
+    "U": "#E6211A",
+    "T": "#E6211A"
+  },
+  "original_geometry_retained": true,
+  "base_glyph_fill_changes": 62,
+  "only_other_a_b_change_phi_mask_mm": [
+    35,
+    5,
+    50,
+    15.1
+  ],
+  "all25_original_order": [
+    "CPEB4",
+    "FMR1",
+    "FUS",
+    "FXR1",
+    "FXR2",
+    "HNRNPA1",
+    "HNRNPC",
+    "HNRNPL",
+    "IGF2BP2",
+    "IGF2BP3",
+    "KHDRBS1",
+    "MATR3",
+    "PABPC4",
+    "PABPN1",
+    "PCBP1",
+    "PCBP2",
+    "QKI",
+    "RBM5",
+    "SFPQ",
+    "SRSF1",
+    "SRSF7",
+    "SRSF9",
+    "TARDBP",
+    "TIA1",
+    "U2AF2"
+  ],
+  "c_complete_context_response_cells": 1152,
+  "c_existing_tasks": 36,
+  "c_primary": "spearman_all5mer, exact all1024-word frozen protein estimates",
+  "c_secondary": "within_composition_concordance, original frozen summary and full table retained",
+  "c_selected_edits": "external-first frequency-opposed; all25; no selection changed",
+  "e_complete_event_columns": 396,
+  "e_variant_count": 287,
+  "e_RBPs": 85,
+  "e_region_clusters": 119,
+  "e_sort": [
+    "phi_center",
+    "chromosome",
+    "pos1",
+    "ref",
+    "alt",
+    "cell",
+    "RBP",
+    "event_id"
+  ],
+  "e_response_fields": [
+    "A_native_major_minus_minor",
+    "S_major_minus_minor",
+    "A_flat_major_minus_minor",
+    "A_permmean_major_minus_minor"
+  ],
+  "shared_response_scale": {
+    "range": [
+      -1.8,
+      1.8
+    ],
+    "display_transform": "asinh",
+    "linear_width": 0.02,
+    "model_specific_normalization": false
+  },
+  "shared_phi_raw_scale": [
+    -7,
+    10
+  ],
+  "d_example_e_columns_1based": [
+    17,
+    26
+  ],
+  "e_quartile_counts": [
+    116,
+    101,
+    86,
+    93
+  ],
+  "e_quartile_summary": "exact frozen RBP-equal means; full RBP-bootstrap intervals retained in source/supplement",
+  "aggregate_CI_method": "2000 two-way RNA-region/RBP multiplier, seed20261015",
+  "no_new_scientific_statistics": true,
+  "source_hashes": {
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\b1_reference\\figure.pdf": "a69d19fb841318ecfb07cd1301ccf963b4095e100f845f9ad078ce753ce920e3",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\b1_reference\\figure.svg": "a0e34ed891a3bbb742a81cfa801d996c77f3f5894f451a6e67dc0dac3d53edae",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\b1_reference\\INTERVENTION_PACKET.npz": "f184db62c3d5b2903dee51b7f3172e090b5c6f71a1d2d5c550cc6d2430b131a9",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\manuscript\\source_data\\S23_external_order_preferences\\FROZEN_PRIMARY_METRICS.csv": "f5451b6521dcbd77845da10138a1fad32cb396f72a2037b0f07464595ba2713c",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\manuscript\\source_data\\S23_external_order_preferences\\FROZEN_PRIMARY_CONTRASTS.csv": "cd9e00d1a6e38c54d54af85f4f7d99225bd064a39a6ca8bf59bd58b8a864d1d6",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\STRICT396_WITH_ANNOTATIONS.csv": "e18c7702ee63bf929f094aebbf4ffdd190c65d6baf11283d09b97bef91d06a00",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\FIG5_NATURAL_SNV_EXAMPLE_ALL10.csv": "25cc9dbd678b28444a7e85ba49ab4707b9299402958d8e2a3d554947a81fd8e9",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\QUARTILE_ASSIGNMENTS_strict_test.csv": "f7f12d5defba29f0b4172a00d1b57291955d9e785c1a0e4151a425bac7cb25d0",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\DIRECTION_BY_CONSERVATION.csv": "7380a3c4703ac79af7dd1b5ac539a9bf94238790857b097c8ac7b1d47dc54e3a",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\DIRECTION_SUMMARY.csv": "b0331307adf4c92455c32d070dc6f8d35cacafa9c069723cd72b473d4b63d75d",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\DIRECTION_CONTRASTS.csv": "f30300861eab1ae2b523d18543e79d2baf375feb2206a381a3816bf5fd3724a7",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\DIRECTION_TWO_WAY_SENSITIVITY.csv": "3492b8b4e1a61211dc30ec6f3d20e9fc013911d2c8ac76fd0425b14f241b21a3",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\source_inputs\\EVENTS_INCLUDED.json.gz": "fd53abc544d4f1f8e287f141fc05eed01503f1e72492a76ba5cb3e33056abfaf",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\fig5_v3\\frozen_inputs\\ALL_1152_PAIRED_MODEL_RESPONSES.csv": "c67fd04058c455f097183076890e3b97fbb79e7559c12f2bf2b15650b8c1d722",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\fig5_v3\\frozen_inputs\\ALL_25_SELECTED_EDITS.csv": "c973d13930bdcef62f11fa0bcfffb42ca3dcfff88f3fa19d26aeaba1349e3a79",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\fig5_v3\\frozen_inputs\\ALL_36_TASKS.csv": "1c6928405d79dd47b943ffd13e7bb912dabb221b1ad0104dff2e7d27ae18f099",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\fig5_v3\\frozen_inputs\\SOURCE_PACKET.npz": "eee2cafcc2fff34cbc4af64a2735ec8aca3b9bbbb539c540950a7dbd35bb07ce"
+  },
+  "exports": {
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\fig5_v3\\fig5.pdf": "664fc6e8f6c01629b765141baf30be7bfa6422039f782aea631e77785083f03d",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\fig5_v3\\fig5.svg": "7bc32cb319eb1f2d1ff959ed352b2dac9b9f55c0a82e2b9814e062517a111a99",
+    "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v3\\work_variants\\fig5_v3\\fig5.png": "f0f6907e1cf2102ac03ddbb2e137cf89266d68f6bf993d06bada691e88cbb05c"
+  }
+}

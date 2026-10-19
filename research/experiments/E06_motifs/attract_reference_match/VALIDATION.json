@@ -1,0 +1,31 @@
+{
+  "scope": "reference selection and local scientific layout trial; not manuscript acceptance",
+  "frozen_files_identical": 39,
+  "displayed_numeric_records": 1221,
+  "pdf_checks": [
+    {
+      "page": 1,
+      "text_chars": 2112,
+      "links": 1,
+      "nonwhite_channels_fraction": 0.08675147592554215
+    },
+    {
+      "page": 2,
+      "text_chars": 2395,
+      "links": 1,
+      "nonwhite_channels_fraction": 0.09255952855404465
+    }
+  ],
+  "reference_and_trial_complete": true,
+  "both_width_mm": 178,
+  "trial_native_mm": [
+    178,
+    151
+  ],
+  "formal_main_pdf_unchanged": true,
+  "formal_pointer": "revision_v20_20261015",
+  "current_figure_pointer_unchanged": "revision_v25",
+  "overleaf_updated": false,
+  "local_visual_review": "Complete reference, native trial and both comparison pages inspected.",
+  "independent_review": "review\\INDEPENDENT_REVIEW.md"
+}

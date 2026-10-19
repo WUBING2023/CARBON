@@ -1,0 +1,26 @@
+\subsubsection{Training objective}\label{subsec:loss}
+
+CARBON jointly supervises allocation, spatial displacement and total signal. For batch size $B$, observed signal $y_{b,i}$ and total $S_b=\sum_i y_{b,i}$, define
+\begin{align}
+\mathcal L_{\rm shape}
+&=-\frac1B\sum_{b=1}^{B}\sum_{i=1}^{L}y_{b,i}\log p_{b,i},
+\label{eq:shape_loss}\\
+\mathcal L_{\rm CDF}
+&=\frac1{BL}\sum_{b=1}^{B}\sum_{i=1}^{L}
+\left(\sum_{j\leq i}p_{b,j}-\sum_{j\leq i}\tilde y_{b,j}\right)^2,
+\label{eq:cdf_loss}\\
+\mathcal L_{\rm count}
+&=\frac1B\sum_{b=1}^{B}\left[z_b-\log(S_b+1)\right]^2,
+\label{eq:main_count_loss}
+\end{align}
+with $\tilde y_{b,i}=y_{b,i}/(S_b+\varepsilon)$ and $\varepsilon=10^{-6}$. The shape term is count-weighted cross-entropy: high-total windows contribute more strongly. The squared CDF term penalises displacement of predicted mass; it is distinct from the transport-cost definition of Earth Mover's Distance \citep{rubner2000emd} and from one-dimensional Wasserstein-1. Its separate contribution to assay-shift tolerance was not tested. For zero-count windows, the shape term vanishes and $\tilde{\mathbf y}_b=\mathbf0$; the other terms remain defined.
+
+The combined objective is
+\begin{equation}
+\mathcal L=\frac1s
+\left(\alpha\mathcal L_{\rm shape}+
+\beta\mathcal L_{\rm CDF}+\gamma\mathcal L_{\rm count}\right),
+\label{eq:total_loss}
+\end{equation}
+where $s=1$ and the selected weights are $\alpha=1.4194219$, $\beta=0.5402181$ and $\gamma=1.7983396$. An eight-parameter Optuna search selected these weights jointly with optimisation settings \citep{akiba2019optuna}. The reconstruction in Equation~\ref{eq:dual_head_decode} uses $\exp(z)$ although the target is $\log(S+1)$, giving total $S+1$ at an exact fit. Replacing the multiplier by $\max(\exp(z)-1,0)$ in the same chromosome-8/15 forward passes changed mean pooled PCC and Spearman by $6.5\times10^{-5}$ and $3.7\times10^{-5}$, respectively. We retain the evaluated convention (\supsect{S1.5,S1.11}; Data S14).
+

@@ -1,0 +1,776 @@
+[
+  {
+    "protein": "CPEB4",
+    "task": "CPEB4_K562_ENCSR046JHH",
+    "experiments": [
+      "RNCMPT00158"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\CPEB4_K562_ENCSR046JHH\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\CPEB4_K562_ENCSR046JHH\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "2aeb07f674e6ad95d908d3c2ec580c7ec603230625f3d8de4eaadd30ccf12139",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/CPEB4_K562_ENCSR046JHH/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "646ab4ef47ea38a691854e62152603700220150560d1a98a1c3a236ba25ef05d",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/CPEB4_K562_ENCSR046JHH/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "FMR1",
+    "task": "FMR1_K562_ENCSR331VNX",
+    "experiments": [
+      "RNCMPT00016"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FMR1_K562_ENCSR331VNX\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FMR1_K562_ENCSR331VNX\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "ff2f4d3bf14748d04ece18e37afdb063775e7f3ba6800d2e42ebcf9c4a572bff",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FMR1_K562_ENCSR331VNX/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "5fa9a5211b67105eb17b026ff6b689c7cb7a70b68015ae1e3fa10f948fcfda35",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FMR1_K562_ENCSR331VNX/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "FUS",
+    "task": "FUS_HepG2_ENCSR464OSH",
+    "experiments": [
+      "RNCMPT00018"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FUS_HepG2_ENCSR464OSH\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FUS_HepG2_ENCSR464OSH\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "962b482a8bc05f102ed8ac1b38259b32627854711f3c1bdda94243cd657022ca",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FUS_HepG2_ENCSR464OSH/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "e916527bff74bd5e1e0d3218c0faedf9f7c220ffbf3284ba9f44530fa34c6c92",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FUS_HepG2_ENCSR464OSH/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "FUS",
+    "task": "FUS_K562_ENCSR069EVH",
+    "experiments": [
+      "RNCMPT00018"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FUS_K562_ENCSR069EVH\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FUS_K562_ENCSR069EVH\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "dc868317d700dbe25ebd73ed0d68f7f2616853973811cac676d78fe3ac26e4b0",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FUS_K562_ENCSR069EVH/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "2cf065d9c9114c9013c9dfbe872c66cea6a8bc3db15916b8253c46cc6d293f50",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FUS_K562_ENCSR069EVH/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "FXR1",
+    "task": "FXR1_K562_ENCSR774RFN",
+    "experiments": [
+      "RNCMPT00161"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FXR1_K562_ENCSR774RFN\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FXR1_K562_ENCSR774RFN\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "96d2951a2e2ab2cd88c2fdf1e66344d389d93fd2031ce18ece5af69aaadf89df",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FXR1_K562_ENCSR774RFN/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "1101cae52f7a3cef11c763726a85673553acc08d00b915f603e08e492e657fa7",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FXR1_K562_ENCSR774RFN/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "FXR2",
+    "task": "FXR2_HepG2_ENCSR973HOJ",
+    "experiments": [
+      "RNCMPT00020"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FXR2_HepG2_ENCSR973HOJ\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FXR2_HepG2_ENCSR973HOJ\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "c5db121284e3f6cd6521f08c6e91a5a7ac71536302eb6bd72efdbeb7dfb3c995",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FXR2_HepG2_ENCSR973HOJ/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "541ee727774980938b047d2d9943e34e09d77e91c942b8c0da9267f14d3fdb72",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FXR2_HepG2_ENCSR973HOJ/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "FXR2",
+    "task": "FXR2_K562_ENCSR224QWC",
+    "experiments": [
+      "RNCMPT00020"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FXR2_K562_ENCSR224QWC\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\FXR2_K562_ENCSR224QWC\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "299d34f574f5c2213029ecd3684909cf1d284312bc91cb15feefc65a6e1ca66b",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FXR2_K562_ENCSR224QWC/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "4da3432e71bfbe50abaf202046d55a22026f22f814bfc85fa330fb113c853947",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/FXR2_K562_ENCSR224QWC/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "HNRNPA1",
+    "task": "HNRNPA1_HepG2_ENCSR769UEW",
+    "experiments": [
+      "RNCMPT00022"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPA1_HepG2_ENCSR769UEW\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPA1_HepG2_ENCSR769UEW\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "da3c10f03950b52f16a0f5a26b7d197d5aa1a10de2d3acdadfa18bafaedb088b",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPA1_HepG2_ENCSR769UEW/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "322611c8c407760779f18fc909c720dd6e314056ebc59b1e87b537529103ffe3",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPA1_HepG2_ENCSR769UEW/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "HNRNPA1",
+    "task": "HNRNPA1_K562_ENCSR154HRN",
+    "experiments": [
+      "RNCMPT00022"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPA1_K562_ENCSR154HRN\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPA1_K562_ENCSR154HRN\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "274e835b20b62ceb6cdf60cad2bac033812ffb62383788e1030e8ff3e92b1eec",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPA1_K562_ENCSR154HRN/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "3b41374013ed0c4854f4cf7d3bb72ff6c711fd5ba678641af9d4dd4cd0e65820",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPA1_K562_ENCSR154HRN/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "HNRNPC",
+    "task": "HNRNPC_K562_ENCSR249ROI",
+    "experiments": [
+      "RNCMPT00025"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPC_K562_ENCSR249ROI\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPC_K562_ENCSR249ROI\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "c232d092b194ebea636b5ece95bef85f1b84d794dc05edf708d40b6606f449f6",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPC_K562_ENCSR249ROI/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "294bc70d9034d7933a61468ae4d00536d05d803193b578058ad9e2637b90dc68",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPC_K562_ENCSR249ROI/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "HNRNPK",
+    "task": "HNRNPK_HepG2_ENCSR828ZID",
+    "experiments": [
+      "RNCMPT00026"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPK_HepG2_ENCSR828ZID\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPK_HepG2_ENCSR828ZID\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "7fd8283460f52f8e3f94b9127c10068bfdd08b057509bf503fa6550657b5331f",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPK_HepG2_ENCSR828ZID/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "2e94b182be17e79b5bb4c9d09ea958e183f4b6e91406388ee44a45462d8a255c",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPK_HepG2_ENCSR828ZID/no_conservative/model_params.pth",
+    "exposed_protein": true
+  },
+  {
+    "protein": "HNRNPK",
+    "task": "HNRNPK_K562_ENCSR268ETU",
+    "experiments": [
+      "RNCMPT00026"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPK_K562_ENCSR268ETU\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPK_K562_ENCSR268ETU\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "059b4939b5689354c5ae81de3d54dd14e3b05715573f87034d087bc0fcfb8bd1",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPK_K562_ENCSR268ETU/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "34b90605892a19b78908498f367b4ffd73cc4c1501338fc9183abdc2d9b70473",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPK_K562_ENCSR268ETU/no_conservative/model_params.pth",
+    "exposed_protein": true
+  },
+  {
+    "protein": "HNRNPL",
+    "task": "HNRNPL_HepG2_ENCSR724RDN",
+    "experiments": [
+      "RNCMPT00027",
+      "RNCMPT00091"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPL_HepG2_ENCSR724RDN\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPL_HepG2_ENCSR724RDN\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "e05685b9e5db30515c30462460c2ca9d09eb786a360b9396be0a18e80d017de8",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPL_HepG2_ENCSR724RDN/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "19339345976e593abbe2b43e87956db421cada9c09db16e6a3ecd5d810724880",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPL_HepG2_ENCSR724RDN/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "HNRNPL",
+    "task": "HNRNPL_K562_ENCSR795CAI",
+    "experiments": [
+      "RNCMPT00027",
+      "RNCMPT00091"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPL_K562_ENCSR795CAI\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\HNRNPL_K562_ENCSR795CAI\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "82ed65e17c52eed801f444e633977de1991e4d4941d9a3253a149216c751aed4",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPL_K562_ENCSR795CAI/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "d04a00457c0ee4b426fef184364b9803c2f311235f81a7e235949aedee6a7c45",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/HNRNPL_K562_ENCSR795CAI/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "IGF2BP2",
+    "task": "IGF2BP2_K562_ENCSR062NNB",
+    "experiments": [
+      "RNCMPT00033"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\IGF2BP2_K562_ENCSR062NNB\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\IGF2BP2_K562_ENCSR062NNB\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "e13e2201d7d0a410ae3b0a1e5ff7b289ba409c83f5e5faa6dc01f6c27adfb905",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/IGF2BP2_K562_ENCSR062NNB/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "5d43d872b700c9ad4f00a76a0c17ad56afb297cee96bb797b0a4ac79ba9d29ac",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/IGF2BP2_K562_ENCSR062NNB/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "IGF2BP3",
+    "task": "IGF2BP3_HepG2_ENCSR993OLA",
+    "experiments": [
+      "RNCMPT00172"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\IGF2BP3_HepG2_ENCSR993OLA\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\IGF2BP3_HepG2_ENCSR993OLA\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "060900ab69495ac11026aa6f23341da643b5189e58cbdde3203db61aacf003e8",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/IGF2BP3_HepG2_ENCSR993OLA/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "44fa2180176891f9f9ee9b4567c9938860601e8dd26580d20cee39841c7ff237",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/IGF2BP3_HepG2_ENCSR993OLA/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "KHDRBS1",
+    "task": "KHDRBS1_K562_ENCSR628IDK",
+    "experiments": [
+      "RNCMPT00169"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\KHDRBS1_K562_ENCSR628IDK\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\KHDRBS1_K562_ENCSR628IDK\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "f162cd17469742729d03145c606259703fb505748abf074fce11cd285fadbae8",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/KHDRBS1_K562_ENCSR628IDK/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "20afa6079a691e541bf56c374f9dc762f32c656624e09a705fe8e2cc47bfe713",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/KHDRBS1_K562_ENCSR628IDK/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "MATR3",
+    "task": "MATR3_HepG2_ENCSR290VLT",
+    "experiments": [
+      "RNCMPT00037"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\MATR3_HepG2_ENCSR290VLT\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\MATR3_HepG2_ENCSR290VLT\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "b8758717c4e133f10dbde85db5de27a6a0982e892fa91dc335a556fa667fcaae",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/MATR3_HepG2_ENCSR290VLT/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "eb6cb500fa78b3a232b555879ab47f93039554259112df85bb6bf615d6ed23af",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/MATR3_HepG2_ENCSR290VLT/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "MATR3",
+    "task": "MATR3_K562_ENCSR440SUX",
+    "experiments": [
+      "RNCMPT00037"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\MATR3_K562_ENCSR440SUX\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\MATR3_K562_ENCSR440SUX\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "6e02558d43a54722b5e041b32db6b43d34fe06036eb3fa214b1685168c731087",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/MATR3_K562_ENCSR440SUX/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "9291d9a585279cfed721db64d2286d53a9902f79a32c12cf32c12770c4c6a422",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/MATR3_K562_ENCSR440SUX/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "PABPC4",
+    "task": "PABPC4_K562_ENCSR958FKZ",
+    "experiments": [
+      "RNCMPT00043"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PABPC4_K562_ENCSR958FKZ\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PABPC4_K562_ENCSR958FKZ\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "acdfc9e2adcf10488386e0478301bd48a69d032a35760548a170885414137852",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PABPC4_K562_ENCSR958FKZ/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "0e6ce0aafc25d7e6c5ba9f3ed022d7b616bdb2a03b9f0dadaf98fb064c197177",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PABPC4_K562_ENCSR958FKZ/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "PABPN1",
+    "task": "PABPN1_HepG2_ENCSR820UYE",
+    "experiments": [
+      "RNCMPT00157"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PABPN1_HepG2_ENCSR820UYE\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PABPN1_HepG2_ENCSR820UYE\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "60bd413ed2cf80a781c30f4a7ee34342b7fb2985f36c7f3d6b632367ac0e7217",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PABPN1_HepG2_ENCSR820UYE/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "a6a8340cd1462232ea177c08e3c477cfc53f7a96ac200b4fb45c711e3f71312b",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PABPN1_HepG2_ENCSR820UYE/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "PCBP1",
+    "task": "PCBP1_HepG2_ENCSR256CHX",
+    "experiments": [
+      "RNCMPT00186"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PCBP1_HepG2_ENCSR256CHX\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PCBP1_HepG2_ENCSR256CHX\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "9b49c797666cb57873a809bee31f6c938dd5f894759c50ab5b8d04aa6bcd4007",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PCBP1_HepG2_ENCSR256CHX/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "92787d8bf88e8ff0ceda3670abf1af7cc44e212fbde2c26798cac9dbc6cf62c0",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PCBP1_HepG2_ENCSR256CHX/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "PCBP1",
+    "task": "PCBP1_K562_ENCSR922WJV",
+    "experiments": [
+      "RNCMPT00186"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PCBP1_K562_ENCSR922WJV\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PCBP1_K562_ENCSR922WJV\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "9a5e0d9e0aaa35c5ec9521323a339dc787c7415dd512eeca64a3dbd967b2b97d",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PCBP1_K562_ENCSR922WJV/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "b87ad76968a511c143941ac706dcac9adb571b001f952818dabcd2a63e428197",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PCBP1_K562_ENCSR922WJV/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "PCBP2",
+    "task": "PCBP2_HepG2_ENCSR339FUY",
+    "experiments": [
+      "RNCMPT00044"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PCBP2_HepG2_ENCSR339FUY\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PCBP2_HepG2_ENCSR339FUY\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "f74236ec97c2110e5f77ae956884a845767d944f93e680d619fdbdcf16219c60",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PCBP2_HepG2_ENCSR339FUY/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "ee73709335a7307a0b6606d6068dc67ba9ad2a3d5eb2c14accefb78aabb1f819",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PCBP2_HepG2_ENCSR339FUY/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "PTBP1",
+    "task": "PTBP1_HepG2_ENCSR384KAN",
+    "experiments": [
+      "RNCMPT00268",
+      "RNCMPT00269"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PTBP1_HepG2_ENCSR384KAN\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PTBP1_HepG2_ENCSR384KAN\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "4a4955e81d6bac4a83d79b363f528653b40a7e6e5ad92f033085bedba014f73d",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PTBP1_HepG2_ENCSR384KAN/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "c915a765d6d8aec20a86e1825ee8edec316c6dccf133da810352fa674880d690",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PTBP1_HepG2_ENCSR384KAN/no_conservative/model_params.pth",
+    "exposed_protein": true
+  },
+  {
+    "protein": "PTBP1",
+    "task": "PTBP1_K562_ENCSR981WKN",
+    "experiments": [
+      "RNCMPT00268",
+      "RNCMPT00269"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PTBP1_K562_ENCSR981WKN\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\PTBP1_K562_ENCSR981WKN\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "61387c833f3ecafe0dcae4d875183076d06c91b84f1dc38c179204c4ccb58ac6",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PTBP1_K562_ENCSR981WKN/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "07c0a07e7306358f9c89612bba054c041ea05765cd70c3691d307eea37a1b903",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/PTBP1_K562_ENCSR981WKN/no_conservative/model_params.pth",
+    "exposed_protein": true
+  },
+  {
+    "protein": "QKI",
+    "task": "QKI_HepG2_ENCSR570WLM",
+    "experiments": [
+      "RNCMPT00047"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\QKI_HepG2_ENCSR570WLM\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\QKI_HepG2_ENCSR570WLM\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "051c2ff37ce3ae8846468f497f1729fb013dfa69d1307405ee2604295f22ca4e",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/QKI_HepG2_ENCSR570WLM/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "8038520db3ed07571fee1db7007705aa5a62a3717561fbcd77bca383ec00e914",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/QKI_HepG2_ENCSR570WLM/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "QKI",
+    "task": "QKI_K562_ENCSR366YOG",
+    "experiments": [
+      "RNCMPT00047"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\QKI_K562_ENCSR366YOG\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\QKI_K562_ENCSR366YOG\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "24fc4ea7915e7fcd54fdb0628ef627686eb98e95ac49a2c2ece21a5e8476ffa6",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/QKI_K562_ENCSR366YOG/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "c76d8eaf96ffafe4d5d4e4a943778de0a2a965d2c102a2d3682ee5f7f4a9ca4d",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/QKI_K562_ENCSR366YOG/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "RBFOX2",
+    "task": "RBFOX2_HepG2_ENCSR987FTF",
+    "experiments": [
+      "RNCMPT00818"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\RBFOX2_HepG2_ENCSR987FTF\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\RBFOX2_HepG2_ENCSR987FTF\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "68a4af819991ec511c895cce8fdbee451bf25eb1adc5d6700e6d874bfe6e39de",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/RBFOX2_HepG2_ENCSR987FTF/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "a41446b54a2d407bb3eabedf163dfda655eeea9f8c2f5f3254cc2256ff683f2e",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/RBFOX2_HepG2_ENCSR987FTF/no_conservative/model_params.pth",
+    "exposed_protein": true
+  },
+  {
+    "protein": "RBFOX2",
+    "task": "RBFOX2_K562_ENCSR756CKJ",
+    "experiments": [
+      "RNCMPT00818"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\RBFOX2_K562_ENCSR756CKJ\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\RBFOX2_K562_ENCSR756CKJ\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "a68a482a75459ccece00a3cd47c1dcc9b266c3473aa817bb6ee0f23e9200406c",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/RBFOX2_K562_ENCSR756CKJ/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "60c242e230b3045d87c44ca87fa49155942794007fb7911da0675101e9510a7d",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/RBFOX2_K562_ENCSR756CKJ/no_conservative/model_params.pth",
+    "exposed_protein": true
+  },
+  {
+    "protein": "RBM5",
+    "task": "RBM5_HepG2_ENCSR489ABS",
+    "experiments": [
+      "RNCMPT00055",
+      "RNCMPT00154"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\RBM5_HepG2_ENCSR489ABS\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\RBM5_HepG2_ENCSR489ABS\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "3bff6bb76b13a5336977063dcb723e89897141fe54f6c05710e697f5f2f49105",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/RBM5_HepG2_ENCSR489ABS/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "f451aa1e0aab3635053a923cfd69972143e9834434439c20b7bdf505393921ec",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/RBM5_HepG2_ENCSR489ABS/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "SFPQ",
+    "task": "SFPQ_HepG2_ENCSR965DLL",
+    "experiments": [
+      "RNCMPT00177"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SFPQ_HepG2_ENCSR965DLL\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SFPQ_HepG2_ENCSR965DLL\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "69ffd7311812297b1c1517904b473cac79646d05a2630951dbd0a55c8f987658",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/SFPQ_HepG2_ENCSR965DLL/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "2d748247af83bb6492eacd78c4a775728fd2c2302806b538f2134192ca65982b",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/SFPQ_HepG2_ENCSR965DLL/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "SRSF1",
+    "task": "SRSF1_HepG2_ENCSR989VIY",
+    "experiments": [
+      "RNCMPT00106",
+      "RNCMPT00107",
+      "RNCMPT00108",
+      "RNCMPT00109",
+      "RNCMPT00110",
+      "RNCMPT00163"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF1_HepG2_ENCSR989VIY\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF1_HepG2_ENCSR989VIY\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "6a0c71f341194ee6e76c9952e67f073ad36bada301fc23a54d042be03f200453",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/SRSF1_HepG2_ENCSR989VIY/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "4e1254587e21a68f1f742848bf06e0a526b925b3cc7ce8e745aacb7e34fc1127",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/SRSF1_HepG2_ENCSR989VIY/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "SRSF1",
+    "task": "SRSF1_K562_ENCSR432XUP",
+    "experiments": [
+      "RNCMPT00106",
+      "RNCMPT00107",
+      "RNCMPT00108",
+      "RNCMPT00109",
+      "RNCMPT00110",
+      "RNCMPT00163"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF1_K562_ENCSR432XUP\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF1_K562_ENCSR432XUP\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "20350b76d3b6a6f4b98b26ccd74158459580458b39198119eaf7b7ef9fd9b0fa",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/SRSF1_K562_ENCSR432XUP/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "c0c03bbf234b1c9ae27a0890340554163ec0f1df25ddd9fd62e1041ad7f1da54",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/SRSF1_K562_ENCSR432XUP/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "SRSF7",
+    "task": "SRSF7_HepG2_ENCSR513NDD",
+    "experiments": [
+      "RNCMPT00073"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF7_HepG2_ENCSR513NDD\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF7_HepG2_ENCSR513NDD\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "30cd8e85b92b79064fd5224c91b9006de8447b4a44aaa1edfc044074758c74fa",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/SRSF7_HepG2_ENCSR513NDD/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "04b56745f96ecb2f493208f5d802f37d9e37fde43ec7edfc6d0588eafc81353a",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/SRSF7_HepG2_ENCSR513NDD/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "SRSF7",
+    "task": "SRSF7_K562_ENCSR468FSW",
+    "experiments": [
+      "RNCMPT00073"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF7_K562_ENCSR468FSW\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF7_K562_ENCSR468FSW\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "9f6e70eb6a6d9edbff2de51a98cf089153761372c9fe9ac4882eb3ad8128ebc4",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/SRSF7_K562_ENCSR468FSW/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "7e80fd8cd8dbb49a9a78def0e00e06d3d0a8beecab61989ffcc7ea2e70824fff",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/SRSF7_K562_ENCSR468FSW/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "SRSF9",
+    "task": "SRSF9_HepG2_ENCSR773KRC",
+    "experiments": [
+      "RNCMPT00067",
+      "RNCMPT00074"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF9_HepG2_ENCSR773KRC\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\SRSF9_HepG2_ENCSR773KRC\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "b567c5f735699f666375964cd69472059745858569701247881246b65fdaf24d",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/SRSF9_HepG2_ENCSR773KRC/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "a544e64845d82dcac24d4e30305aa4d75db3de18549898bd519b2a156e793d58",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/SRSF9_HepG2_ENCSR773KRC/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "TARDBP",
+    "task": "TARDBP_K562_ENCSR584TCR",
+    "experiments": [
+      "RNCMPT00076"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\TARDBP_K562_ENCSR584TCR\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\TARDBP_K562_ENCSR584TCR\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "e33263226426d0c5b5f2422fb262d6321bc070bf248f841bb285d4170de91074",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/TARDBP_K562_ENCSR584TCR/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "8975e1a293b79844fdafc860d6e5cf4eef44631d1353e4afc03d5ef078b404d1",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/TARDBP_K562_ENCSR584TCR/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "TIA1",
+    "task": "TIA1_HepG2_ENCSR623VEQ",
+    "experiments": [
+      "RNCMPT00077",
+      "RNCMPT00165"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\TIA1_HepG2_ENCSR623VEQ\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\TIA1_HepG2_ENCSR623VEQ\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "924b6cea1f42bf12821fa6fd6f0d53ab2e9002210502cd2ea2ab173d889b1a6c",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/TIA1_HepG2_ENCSR623VEQ/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "0d49e8bf48eec176b3d0ba5d0ca044093081e1c127083ad8b1f8e07956de09f4",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/TIA1_HepG2_ENCSR623VEQ/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "TIA1",
+    "task": "TIA1_K562_ENCSR057DWB",
+    "experiments": [
+      "RNCMPT00077",
+      "RNCMPT00165"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\TIA1_K562_ENCSR057DWB\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\TIA1_K562_ENCSR057DWB\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "3022ddb5cbaa3f33516eb00a6a6f4ac8e58df30e6ca9635da1f13b1b3503dfc0",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/TIA1_K562_ENCSR057DWB/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "31bcbf1c0df40765493e615f3b5a51c214a1e6e2d111fa54397271e623049114",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/TIA1_K562_ENCSR057DWB/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "U2AF2",
+    "task": "U2AF2_HepG2_ENCSR202BFN",
+    "experiments": [
+      "RNCMPT00079"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\U2AF2_HepG2_ENCSR202BFN\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\U2AF2_HepG2_ENCSR202BFN\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "94ed2f498f94c299ee9453f5d4f23eff24497b5881d483f95d93cc5dd6850c25",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/U2AF2_HepG2_ENCSR202BFN/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "cb8eb2a7a70fd553e63c87d1d1ebfaf27d3547a7d66a4366a1198867faba0fa6",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/U2AF2_HepG2_ENCSR202BFN/no_conservative/model_params.pth",
+    "exposed_protein": false
+  },
+  {
+    "protein": "U2AF2",
+    "task": "U2AF2_K562_ENCSR893RAV",
+    "experiments": [
+      "RNCMPT00079"
+    ],
+    "full_exists": true,
+    "sequence_exists": true,
+    "full_bytes": 424494,
+    "sequence_bytes": 422190,
+    "local_full": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\U2AF2_K562_ENCSR893RAV\\baseline\\model_params.pth",
+    "local_sequence": "M:\\RBP\\26\u5e74\u6570\u636eRBP\\\u6d88\u878d\u5b9e\u9a8c\\\u5168\u91cf\u6d88\u878d\u8fd0\u884c\\\u6a21\u578b\u6743\u91cd\\MARCP\\U2AF2_K562_ENCSR893RAV\\no_conservative\\model_params.pth",
+    "full_checkpoint_sha256": "dbb4408dc23ed5600d842f27f6441e8cc4de7dd294c947a7ba114b808522909b",
+    "full_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/U2AF2_K562_ENCSR893RAV/baseline/model_params.pth",
+    "sequence_checkpoint_sha256": "6ecaab59dc5eb304c1b65d81f61b7d1a297fdeaedfd7ff4aefff8ddd3a731c89",
+    "sequence_checkpoint_path": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/\u6a21\u578b\u6743\u91cd/MARCP/U2AF2_K562_ENCSR893RAV/no_conservative/model_params.pth",
+    "exposed_protein": false
+  }
+]

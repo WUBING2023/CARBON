@@ -1,0 +1,7 @@
+# Exposure audit boundary
+
+The chromosome-1 matched inference is new to this campaign and excluded from all matched model fitting/selection. It is not certified as previously unseen by the wider paper project. A coordinate-only audit of 15 historical CSV tables from independent_context_validation_20261003, interpretability_strengthening_20261003 and expanded_functional_validation_20261003 found 4,790 chr1 records covering 2,766 distinct reported spans. These include the broad earlier ASB screen. Existing primary manuscript chr1 benchmarking is also broader prior exposure, not covered by this case ledger.
+
+HISTORICAL_EXPOSURE.json retains source table paths, coordinates and gene names. The main frozen cohort is not changed. A conservative supporting sensitivity excludes any overlapping reported historical locus and any matching reported historical gene_name, irrespective of prior wins or losses. It does not certify absolute blindness: absent coordinates or studies outside those three trees cannot be discovered by this audit.
+
+The identical7/high-PhyloP-contrast unexposed sensitivity is very small (12 unique genes) and only 2,723/10,000 global gene-cluster bootstrap resamples retain representation of all six tasks. The resulting interval is conditional on those represented-task resamples and should not be treated as strong confirmatory evidence. This limitation is retained even if its Full−Sequence interval happens to exclude zero; necessary Mean/Perm contrasts do not pass.

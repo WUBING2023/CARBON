@@ -1,0 +1,10 @@
+{
+  "n_bootstrap": 2000,
+  "n_clusters": 385,
+  "rng_seed": 20261004,
+  "cluster_definition": "Gencode v29 shared gene plus interval overlap; conservative strand-independent union",
+  "n_proteins": 1,
+  "scope": "conditional rule-extraction uncertainty within the observed HNRNPK loci; not external biological/population confidence",
+  "all_seed_backgrounds_retained": true,
+  "do_not_choose_new_endpoint": true
+}

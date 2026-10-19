@@ -1,0 +1,52 @@
+{
+  "Figure1": {
+    "pdf": "figures/fig1.pdf",
+    "pdf_sha256": "150ac52c5dd9a3a7ff9854d6865fbcbbd96b1b3ff6717d39b2c5cdc0acbd4da9",
+    "source_entry": "editable_figures/updated_fig1_v32/render_fig1_v32.py",
+    "source_sha256": "e59ce46754f34f981db845125855501513cf186c563f4709e1796aa93a94857a"
+  },
+  "Figure2": {
+    "pdf": "figures/fig2.pdf",
+    "pdf_sha256": "c4762627730faa6ddee5e2c9cee4e39c6c15181c83eeba8c27305b23aaa5eb0e",
+    "source_entry": "editable_figures/updated_fig2_v33/render_fig2_v33.py",
+    "source_sha256": "f8af73fd6e0d04cf591451b49f1a959ac9667335536690bd034876045b084d6a"
+  },
+  "Figure3": {
+    "pdf": "figures/fig3.pdf",
+    "pdf_sha256": "476da19799fa880b50f1b6f9945af6732204830223fe508dde1c5e2eaf2d1416",
+    "source_entry": "editable_figures/accepted_fig3_circlize_v31/render_circos.R",
+    "source_sha256": "1cc8e21632305a4a11d82967b47a112bb485e6cda9f8c7dba251ef13e6a64c26",
+    "scope": "R entry recreates circle; original compose_and_package.py retains the historical full-composition dependencies. Current complete Figure3 and enlarged S21 PDFs are supplied."
+  },
+  "Figure4": {
+    "pdf": "figures/fig4.pdf",
+    "pdf_sha256": "190795a5c416ee2b0b2ccd69baa836cd78d2754eeb360937cbbca30e696a5773",
+    "source_entry": "editable_figures/updated_fig4_v32/render_fig4_v32.py",
+    "source_sha256": "13cdc1ab331d4a87313addb3d1321a2bbc76531f8a279980d6cfcb643b67d890"
+  },
+  "Figure5": {
+    "pdf": "figures/fig5.pdf",
+    "pdf_sha256": "b8c0c0a4b287f920148185a0236d04ff7705785f8f1cece11e50157fd8a70af7",
+    "source_entry": "editable_figures/updated_fig5_v32/render_v32.py",
+    "source_sha256": "b11a1e9c89f8b5a6bc90f91cc00ee12b345583b8b466d2f53fd209866a866dda"
+  },
+  "FigureS9": {
+    "pdf": "figures/figS9_conservation_complete.pdf",
+    "pdf_sha256": "44d9437609ea6b8148efde00db640bbe1ac94b34d71da66adad7beb907746d6a",
+    "source_entry": "editable_figures/updated_supplement_palette_v33/adapt_motif_palette.py",
+    "source_sha256": "148719278e462b2a3292a531b5d8a92ddb4aa0c74e519017afbc4fc4e3560036"
+  },
+  "FigureS12": {
+    "pdf": "figures/figS12_previous.pdf",
+    "pdf_sha256": "3be0824bf4163a03041d36f38c8ae884ec1a69cc3b5e2bc33a12602b09ff9190",
+    "source_entry": "editable_figures/updated_supplement_palette_v33/adapt_motif_palette.py",
+    "source_sha256": "148719278e462b2a3292a531b5d8a92ddb4aa0c74e519017afbc4fc4e3560036"
+  },
+  "FigureS14": {
+    "pdf": "figures/figS14_previous_LEPR.pdf",
+    "pdf_sha256": "d0e920a59168c1575e2c1810ef5de4c3a376e259f78700b9003373f0ed08c512",
+    "source_entry": "editable_figures/updated_fig14_v33/render.py",
+    "source_sha256": "b9127ddc066e778d7411dbadbfee94aae5d9a329f0a92b436a51b0b09911bb81"
+  },
+  "display_authority": "Current figure PDFs, their captions and these editables govern current display; old per-packet display metadata remain historical records."
+}

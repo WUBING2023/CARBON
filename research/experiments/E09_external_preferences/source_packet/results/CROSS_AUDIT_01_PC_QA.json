@@ -1,0 +1,20 @@
+{
+  "readback_windows": 1851,
+  "unique_genes": 659,
+  "point_checks": 48,
+  "max_point_difference": 4.776179451937423e-13,
+  "bootstrap_10000_max_abs_error": 4.163336342344337e-17,
+  "paired_ci95": [
+    -0.03870447296928081,
+    -0.025719230982227698
+  ],
+  "center_rank": 0.5240614551132949,
+  "input_rank": 0.5155705632036902,
+  "same_coordinate_profiles": true,
+  "all_arms_retained": true,
+  "parameter_counts_near_matched": true,
+  "parameter_count_difference": 45,
+  "flexible_absolute_position_control": true,
+  "architecture_equivalence_not_claimed": true,
+  "biological_mechanism_not_directly_measured": true
+}

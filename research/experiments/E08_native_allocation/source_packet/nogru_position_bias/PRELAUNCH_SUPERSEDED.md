@@ -1,0 +1,1 @@
+2026-10-04 12:52 UTC: no pure-position pilot, fits or predictions were executed. Root required capacity and local position-interaction control before execution. Final arm is nogru_position_capacity. The earlier files remain as design history; they are not experimental results.

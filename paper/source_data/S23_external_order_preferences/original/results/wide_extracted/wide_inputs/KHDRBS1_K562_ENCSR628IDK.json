@@ -1,0 +1,22 @@
+{
+  "task": "KHDRBS1_K562_ENCSR628IDK",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/KHDRBS1_K562_ENCSR628IDK/_5ch/KHDRBS1_K562_ENCSR628IDK_chr8_5ch.h5",
+      "bytes": 9299493,
+      "n_windows": 21621,
+      "sha256": "a39c9e6896aff8bcccce03275cc1029ff3af8e84f2175a6519a5a63303275af0"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/KHDRBS1_K562_ENCSR628IDK/_5ch/KHDRBS1_K562_ENCSR628IDK_chr15_5ch.h5",
+      "bytes": 7189004,
+      "n_windows": 16379,
+      "sha256": "edfc3bdeb91337f2a5a17e1207fbde070d8d23a765b1c97dbe7dcb4b31595ca5"
+    }
+  ],
+  "n_total": 38000,
+  "n_eligible": 38000,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "62a3db682d69d77c2dfbcb6460d7c6dccece71e457db6863dda0f36af18f49de"
+}

@@ -1,0 +1,13 @@
+task,arm,lexicographic_recall20,expected_tie_recall20,tie_rule
+HNRNPK_HepG2_ENCSR828ZID,frequency,0.1,0.1,uniform among all boundary ties; true ties independent
+HNRNPK_HepG2_ENCSR828ZID,phi_priority,0.05,0.05,uniform among all boundary ties; true ties independent
+HNRNPK_HepG2_ENCSR828ZID,A_count,0.0,0.0044444444444444444,uniform among all boundary ties; true ties independent
+HNRNPK_HepG2_ENCSR828ZID,C_count,0.25,0.12888888888888891,uniform among all boundary ties; true ties independent
+HNRNPK_HepG2_ENCSR828ZID,G_count,0.0,0.0,uniform among all boundary ties; true ties independent
+HNRNPK_HepG2_ENCSR828ZID,T_count,0.0,0.0,uniform among all boundary ties; true ties independent
+HNRNPK_K562_ENCSR268ETU,frequency,0.1,0.1,uniform among all boundary ties; true ties independent
+HNRNPK_K562_ENCSR268ETU,phi_priority,0.0,0.0,uniform among all boundary ties; true ties independent
+HNRNPK_K562_ENCSR268ETU,A_count,0.0,0.0044444444444444444,uniform among all boundary ties; true ties independent
+HNRNPK_K562_ENCSR268ETU,C_count,0.25,0.12888888888888891,uniform among all boundary ties; true ties independent
+HNRNPK_K562_ENCSR268ETU,G_count,0.0,0.0,uniform among all boundary ties; true ties independent
+HNRNPK_K562_ENCSR268ETU,T_count,0.0,0.0,uniform among all boundary ties; true ties independent

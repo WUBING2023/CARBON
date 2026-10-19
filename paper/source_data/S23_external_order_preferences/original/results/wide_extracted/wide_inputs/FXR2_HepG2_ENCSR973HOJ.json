@@ -1,0 +1,22 @@
+{
+  "task": "FXR2_HepG2_ENCSR973HOJ",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/FXR2_HepG2_ENCSR973HOJ/_5ch/FXR2_HepG2_ENCSR973HOJ_chr8_5ch.h5",
+      "bytes": 1182017,
+      "n_windows": 2645,
+      "sha256": "58de967d73f8accd844a0b418bbed3d4565864f695552abbaeba62cccc68149f"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/FXR2_HepG2_ENCSR973HOJ/_5ch/FXR2_HepG2_ENCSR973HOJ_chr15_5ch.h5",
+      "bytes": 792129,
+      "n_windows": 1643,
+      "sha256": "aa173771659d91e73052ad4a4fdfd807023dcb033ddec5384e0e93284b531925"
+    }
+  ],
+  "n_total": 4288,
+  "n_eligible": 4288,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "07ae459c1598737de0fc15e9514a66c648e5a8901890ae19a2342334c1cb1eb6"
+}

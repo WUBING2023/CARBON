@@ -1,0 +1,8 @@
+{
+  "id": "E05_cross_cell",
+  "title": "跨细胞评估",
+  "question": "同名RBP跨细胞的汇总与配对关系",
+  "paper": "Data S4/S5; supplement",
+  "status": "汇总/配对表保留",
+  "limits": "跨细胞、跨任务及生物学重复不能混为一谈；完整集合与128交集分母分别保留。"
+}

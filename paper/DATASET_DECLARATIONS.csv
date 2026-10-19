@@ -1,0 +1,17 @@
+declared_path,files,restorable_aliases,exists
+source_data/Data_S23_QKI_graph_v12/,10,0,True
+source_data/S15_conditional_conservation/,4,0,True
+source_data/S16_motif_instances/,6,0,True
+source_data/S17_factorial/,4,0,True
+source_data/S18_fixed_cases/,8,0,True
+source_data/S19_ASB/,15,1,True
+source_data/S1_S14_original/,15,0,True
+source_data/S20_benchmark_annotations/,3,0,True
+source_data/S21_seed_sensitivity/,8,0,True
+source_data/S22_context_allocation/,57,5,True
+source_data/S23_external_order_preferences/,479,1,True
+source_data/S23_external_order_preferences/original/sources/Zscores_420_origrncmpt.tar.gz,1,0,True
+source_data/S24_motif_reference_audit/,200,1,True
+source_data/S25_natural_variants/,705,2,True
+source_data/S26_disease_annotations/,73,1,True
+source_data/S27_reporter_validation/,12,3,True

@@ -1,0 +1,1464 @@
+{
+  "experiment": "CARBON_Figure5_matched_conservation_retraining",
+  "protocol_sha256": "c4b33a84d919a40138049bcc9d71c3819328d6097f5560939b326779469feda8",
+  "prepared_unix": 1790667481.5829058,
+  "seeds": [
+    11,
+    23,
+    47
+  ],
+  "arms": [
+    "aligned",
+    "mean",
+    "permuted",
+    "sequence_only"
+  ],
+  "tasks": {
+    "HNRNPK_K562_ENCSR268ETU": {
+      "inputs": {
+        "train": [
+          {
+            "chromosome": 3,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr3_5ch.h5",
+            "n": 2570,
+            "sha256": "a0403a939a28c324643efdbf4f8209eb2c6f31055e9ad39de54eaa76e60aa9dd",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr3.npy",
+            "permutation_sha256": "dcd9b1e4371acc219f560e91d00a57f9e0a5ad8bd5fa900c39266d3547162387"
+          },
+          {
+            "chromosome": 4,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr4_5ch.h5",
+            "n": 1246,
+            "sha256": "b38564392c08884f3d5a8e44ae3df4f113d84300a62122f85a8713580c8b9479",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr4.npy",
+            "permutation_sha256": "99945fdd775fb93377b6315aaf36cf0885b76a071916cb573658fc6953686c62"
+          },
+          {
+            "chromosome": 5,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr5_5ch.h5",
+            "n": 2010,
+            "sha256": "c4baed12725c5973b7f8b3ca532c2b1d10315728ed58d7d492c78d1dfe6375bb",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr5.npy",
+            "permutation_sha256": "18190162301ca47765c07042c33f45c437f38ec3f58c42562062838eddbc0b33"
+          },
+          {
+            "chromosome": 6,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr6_5ch.h5",
+            "n": 3366,
+            "sha256": "1ec721e30384064af126d3725f2ac4127a8f6774c789a35280bbf58fc92ca932",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr6.npy",
+            "permutation_sha256": "042c2503705ed9363581e8cbb7c153ced58d7c1091ab2564f10f05f8cd39de07"
+          },
+          {
+            "chromosome": 7,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr7_5ch.h5",
+            "n": 4546,
+            "sha256": "5eb0c0bb5524855461de19d930114638b749e2eb9ca4318a8fe6f9dd44362399",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr7.npy",
+            "permutation_sha256": "9f383982d1774adc6db6cb117e6d0a6462573ec4f0ef226eb1c065122ebc9f15"
+          },
+          {
+            "chromosome": 10,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr10_5ch.h5",
+            "n": 1582,
+            "sha256": "865747954ff29c422f70811d6c1b1883bdbb3253e0f5535d4b964feff9764857",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr10.npy",
+            "permutation_sha256": "17c66a66f229c8f56cab662bb57bcd0f96577f01f6cdc0b6fb6beb76c2a4940a"
+          },
+          {
+            "chromosome": 11,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr11_5ch.h5",
+            "n": 3994,
+            "sha256": "80bfe9ddf9ef84d3971bb6cda0ffe26414e78c53527b938623da154441d823a7",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr11.npy",
+            "permutation_sha256": "7e5590bebfba82b76b732211b3292b3501b5f34fb7ffc45d51a7d9b0a2330c46"
+          },
+          {
+            "chromosome": 12,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr12_5ch.h5",
+            "n": 2941,
+            "sha256": "2ff4653a8a92b6313b26c6d0043cb90fa7a5c74e3fd95c043db0e920f7b1644a",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr12.npy",
+            "permutation_sha256": "57dc355bb46b523710064620d6d03c1c190d0fa5ff8917fee798a222beafb3dc"
+          },
+          {
+            "chromosome": 13,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr13_5ch.h5",
+            "n": 524,
+            "sha256": "aa8bd3c1774c661d3b9a2d3207a46c8782196948963965c081af7350fa530aca",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr13.npy",
+            "permutation_sha256": "ae2a7d1c6192dd7147c1440bd3e012af1b1c60e29b34562e02d135be340da035"
+          },
+          {
+            "chromosome": 14,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr14_5ch.h5",
+            "n": 1018,
+            "sha256": "3e415c19ddc90ed22d9f559da05ab1cda0d0b2ad0699ac9bf226fe2dc9970e6c",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr14.npy",
+            "permutation_sha256": "022bc0267f33cef172f53bc3cb2b51db275eb43530276e1cfdd62e1abc158e61"
+          },
+          {
+            "chromosome": 17,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr17_5ch.h5",
+            "n": 3686,
+            "sha256": "6699545baf142552febf94f794a59510c6e3853fd14ba54755f3637fb660f2ff",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr17.npy",
+            "permutation_sha256": "201225ccbe007e68216b8f30a5b1ccdfc35410c7a549dfe4cc46fb434bcf6f11"
+          },
+          {
+            "chromosome": 18,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr18_5ch.h5",
+            "n": 477,
+            "sha256": "db7a8488ab3dbebae11a7898de08d32e2f3bd2bf5c72d8d327aa8cbb1c522f5c",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr18.npy",
+            "permutation_sha256": "43df4e1cd533734257c85e897dcaee21968568e97ccee3ad2878188ff3f20e31"
+          },
+          {
+            "chromosome": 19,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr19_5ch.h5",
+            "n": 7538,
+            "sha256": "3dd3f4b2d14465614a7e1b11bc7e8e6c13afc673d276f1fbd5f7cb0aa4cf0abf",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr19.npy",
+            "permutation_sha256": "0b9ce00164a8e3bb52e9a8cea86945da5489f8f3836c1c453c5528f89b3000e5"
+          },
+          {
+            "chromosome": 20,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr20_5ch.h5",
+            "n": 2067,
+            "sha256": "9da9c19d926012e2a52bf06c054036ab5f555c919a99f9d97b144bc270429a5f",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr20.npy",
+            "permutation_sha256": "25ffcc402bd04afbb765386071f5076d90bdd37fa8bc8589fc1ea8f44e9188f1"
+          },
+          {
+            "chromosome": 21,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr21_5ch.h5",
+            "n": 902,
+            "sha256": "9dfba26a5ccefc93d802c3baea8dc44d296a053d1027de97f27a3e11b3c8237c",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr21.npy",
+            "permutation_sha256": "18f3e1f4cc3b7aed16a1e17a18c328208427774e62c011f85dea90ffe557ff45"
+          },
+          {
+            "chromosome": 22,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr22_5ch.h5",
+            "n": 3523,
+            "sha256": "3c5fea522f7a6d2ebf7d19de8016469d3e97ce1ad8bffaba5094159349017e8b",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr22.npy",
+            "permutation_sha256": "9cc24c08c9d30c35be5339b33da030a5eac9d11b757a7059d0ff1d59c2d16702"
+          }
+        ],
+        "validation": [
+          {
+            "chromosome": 2,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr2_5ch.h5",
+            "n": 2845,
+            "sha256": "009ccf24359e24478fa97fda2c2536f20bb3f7642b1c6be47d3efc1e3698db8b",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr2.npy",
+            "permutation_sha256": "7fc1b6685dae8872dfef83415c8c560a3ecbf61b8685062943285abc9aaa0051"
+          },
+          {
+            "chromosome": 9,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr9_5ch.h5",
+            "n": 2506,
+            "sha256": "5f5e34c1b94abe415ac0d79742c8ea78656a4665a5d5dcfaa0f8b0fa8b8f9c41",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr9.npy",
+            "permutation_sha256": "510dfaada58328843132418e04cca4bedbaa12806542c1b7252ef07b2bb520c4"
+          },
+          {
+            "chromosome": 16,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr16_5ch.h5",
+            "n": 4927,
+            "sha256": "cac5e1926a968c02cb1d4e7c0fa3ca3c7cab8a150bf4936daa340672b9680863",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr16.npy",
+            "permutation_sha256": "8ce2cea1e0847af329fbd0cc6f319ca5794d3a747225dd83aa235467f92689db"
+          }
+        ],
+        "test": [
+          {
+            "chromosome": 8,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr8_5ch.h5",
+            "n": 1958,
+            "sha256": "21970b1b95f6d284615cb4b7084f73165cb1e217259235a5d4d33e44ccfb99eb",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr8.npy",
+            "permutation_sha256": "43322eabb937ab08c4a3f48a2dfc55cb5d59ba38d06734d7d2f504c3a891292f"
+          },
+          {
+            "chromosome": 15,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_K562_ENCSR268ETU/_5ch/HNRNPK_K562_ENCSR268ETU_chr15_5ch.h5",
+            "n": 1369,
+            "sha256": "42f90de8539cbfeac6df9467f156df650f3f1ec28c055fb593bc0c48d18afffa",
+            "permutation_path": "permutations/HNRNPK_K562_ENCSR268ETU/chr15.npy",
+            "permutation_sha256": "aad6a8225a9e12de6d4b854dd624a48e2afd7490b4cb8f985f692df3c3ca75fd"
+          }
+        ]
+      },
+      "counts": {
+        "train": 41990,
+        "validation": 10278,
+        "test": 3327
+      },
+      "validation_quartiles": {
+        "mean_phylop": [
+          -0.42249754071235657,
+          -0.13504454493522644,
+          0.15083663538098335
+        ],
+        "signal_total": [
+          32.0,
+          50.0,
+          87.75
+        ]
+      },
+      "example": {
+        "test_index": 438,
+        "chromosome": 8,
+        "source_row": 438,
+        "rule": "lowest fixed row hash in middle signal and conservation quartiles; target valid",
+        "sequence": "TGCTTGTCTTCGTATTCTGCAAAGACCAAAGGAGTCCCTTAGGGAGATTTCTGGAGCTCTTTTCCTGCCTAGCTTCCTCCTCTCCAGAACTCTGCCCCGTG"
+      },
+      "test_observed_sha256": "21f2bed4c7050b095ede2b937945166d3ad0c55607ee44cd7a31442515ed43cc"
+    },
+    "PTBP1_K562_ENCSR981WKN": {
+      "inputs": {
+        "train": [
+          {
+            "chromosome": 3,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr3_5ch.h5",
+            "n": 3703,
+            "sha256": "b70ea89028beb66079b9f28f409140c98c673fb288083b224db6e6964e3885cd",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr3.npy",
+            "permutation_sha256": "32ff1746cdafbf8162733b0f1e951460b059e6845a68b0a68f549d83a796c921"
+          },
+          {
+            "chromosome": 4,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr4_5ch.h5",
+            "n": 2385,
+            "sha256": "3a5951b6bf5122fb553479335c199513b5cd3dd79ce1cab729e1b47f1929e921",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr4.npy",
+            "permutation_sha256": "6c849ab2bb83ad3551e125c38c9b535c34bf20767b08acfcc24849aae0c7eb3d"
+          },
+          {
+            "chromosome": 5,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr5_5ch.h5",
+            "n": 3245,
+            "sha256": "d2fd3421a83f2f6933423462d0e1aa1504db697fa9ea04ca64f1e678ddecb293",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr5.npy",
+            "permutation_sha256": "f0f1c8316911a6e481bf9abace988c7005ee72f3ad34fc2b515c4d60c051e73c"
+          },
+          {
+            "chromosome": 6,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr6_5ch.h5",
+            "n": 4658,
+            "sha256": "03377bc79b486ad32e7c2a6e8074c729c70bbcfbe2f4d0f1a0c0e27c6f4fde08",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr6.npy",
+            "permutation_sha256": "abb41ac08d60e5e8e79ea57dff03166cfbacb6dd7ff0c144e228e1187e4a6c91"
+          },
+          {
+            "chromosome": 7,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr7_5ch.h5",
+            "n": 6298,
+            "sha256": "582a35d728b1fd6c6f389a80a54f09a8e0ca75f4c3274bd51f817299130b5ec2",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr7.npy",
+            "permutation_sha256": "f07fbb26336737a6a1828b090e58940fc9e75620c49291806c5d9907ea89bfe6"
+          },
+          {
+            "chromosome": 10,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr10_5ch.h5",
+            "n": 2493,
+            "sha256": "8a9bda4bf746774e8202498c4e31f94b15baf5565b29bd615ed23a39e33b0521",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr10.npy",
+            "permutation_sha256": "42d8be7f5db69ca86a341b59cac0324f370bafa61087d8289b713b9ac090466b"
+          },
+          {
+            "chromosome": 11,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr11_5ch.h5",
+            "n": 4353,
+            "sha256": "413a332b6c826c8bf074c079c1efd384d10b88bbc6533089f55669cd8f2bba88",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr11.npy",
+            "permutation_sha256": "9255bc4ce1bd03c045e8eda5aac8e0ebee6b1ef39e0b10158e50edd3ab05d163"
+          },
+          {
+            "chromosome": 12,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr12_5ch.h5",
+            "n": 3457,
+            "sha256": "20b61dc1bd2264eed623f6a4ff184b4f6a327981dbef28bbb1c1d59a37605089",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr12.npy",
+            "permutation_sha256": "6eeefd12c75e3309f579b10a51cb882b98a352e08b3ba457932bfcde2bed39c0"
+          },
+          {
+            "chromosome": 13,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr13_5ch.h5",
+            "n": 911,
+            "sha256": "447793fd311dcfa7fb4fcaa424ae3b52489689743b782f3d2e71f3788dc6a0e9",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr13.npy",
+            "permutation_sha256": "919c932c65bda786322eba596f00345dfd2a7e7f2b2f22b9bc85837afc3cb1b2"
+          },
+          {
+            "chromosome": 14,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr14_5ch.h5",
+            "n": 1467,
+            "sha256": "4aa01b974637e4ef8bd4ffd3dc6451e6700d17952dfa627efee5a6a80772790e",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr14.npy",
+            "permutation_sha256": "2ad04fface1a5afb73a31094ace1e18044e34e0531d7ef935f2b9de5f06b96df"
+          },
+          {
+            "chromosome": 17,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr17_5ch.h5",
+            "n": 3688,
+            "sha256": "cc93e40e1608a925730520a83e0815a322bcdaabe54caeb3ec55a3056de955c9",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr17.npy",
+            "permutation_sha256": "80e952a1a793b0f112aab1b097c590a9777a7c561f1b9008e92a2719aa9c3171"
+          },
+          {
+            "chromosome": 18,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr18_5ch.h5",
+            "n": 976,
+            "sha256": "428c4af28b16a87741f0b200163fcb1fa38bcf52de1a6c2f724d285ad8385156",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr18.npy",
+            "permutation_sha256": "b0a5320da09ebea024d245fcc1efb89d53fa60d6fe2e7dd12cb138f885954725"
+          },
+          {
+            "chromosome": 19,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr19_5ch.h5",
+            "n": 5604,
+            "sha256": "171fd457d3334e1bd93a6b43d3d7ce16fca3923e147e277893b51aeb528220e3",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr19.npy",
+            "permutation_sha256": "0fbc00ba5786b8cc10c467f827edf853cfe754f32d03e7f2fd153db6bdea9c6e"
+          },
+          {
+            "chromosome": 20,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr20_5ch.h5",
+            "n": 1557,
+            "sha256": "ad8d61e32e28f121977bccc179ed2868e40d9113125df604f0aaf268e8737f8e",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr20.npy",
+            "permutation_sha256": "7069194cebe84f6360626155828099bb446be70fb05d60fd20be6bd6c3141c8d"
+          },
+          {
+            "chromosome": 21,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr21_5ch.h5",
+            "n": 1062,
+            "sha256": "a9cea66184c5bc848f8eea6826765ba621e3a3dce9ae51b0f6489af730130aa5",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr21.npy",
+            "permutation_sha256": "282bd45f4fc189cdb96bee8c1ae320a286c41c9193abce4e486bc7c42ae5685d"
+          },
+          {
+            "chromosome": 22,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr22_5ch.h5",
+            "n": 2838,
+            "sha256": "5cd11c769c760fd8b251c67e09acd8130a02b9f1e2df37e05fc55c4a36fa399d",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr22.npy",
+            "permutation_sha256": "d0cddf50dd32d4709ea7405df34b136ab20c70c87f44fafd16dbf974b2b72ba7"
+          }
+        ],
+        "validation": [
+          {
+            "chromosome": 2,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr2_5ch.h5",
+            "n": 4582,
+            "sha256": "160dd126c848f8898e44205dcedbb239dd35bc9a792a990b818a1095072d0b01",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr2.npy",
+            "permutation_sha256": "2243ca5d75e2aa26040488e5d7020ce9494bbe1175dc2ccd0e17a9c111b2fd63"
+          },
+          {
+            "chromosome": 9,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr9_5ch.h5",
+            "n": 2842,
+            "sha256": "2be46c5c3a26a1d6a8c10f4bf807e704ac585727abb6acfc5e24b49a703ac89c",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr9.npy",
+            "permutation_sha256": "8e07d2d8cdc3e72cc34f4e763110414e0eb1ed05d5e1e1dee3844efb55729e2d"
+          },
+          {
+            "chromosome": 16,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr16_5ch.h5",
+            "n": 4687,
+            "sha256": "ff2c042f5ca37a80b0b31694354d440803af4e56f497802c5434a9d7a0380040",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr16.npy",
+            "permutation_sha256": "d4ca8b00056523a86d00e3a937c3629eca46d46cfe409d727df2f6a7eaf2f9c0"
+          }
+        ],
+        "test": [
+          {
+            "chromosome": 8,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr8_5ch.h5",
+            "n": 3170,
+            "sha256": "dca8b9dd78f92ef27d0950970d0750a48bf6e86404e8b7f0b5e5e0a8c71c7d8e",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr8.npy",
+            "permutation_sha256": "aba8d947230e9d23f371ed6e19624129e4132d322bc4a59275624745b03396e9"
+          },
+          {
+            "chromosome": 15,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_K562_ENCSR981WKN/_5ch/PTBP1_K562_ENCSR981WKN_chr15_5ch.h5",
+            "n": 2129,
+            "sha256": "0f002e80a9e66eb2ae6793b98f2b66b62e87dcaf7d06e55f6664f74705ada529",
+            "permutation_path": "permutations/PTBP1_K562_ENCSR981WKN/chr15.npy",
+            "permutation_sha256": "5d81c92c8d26446066214e1c3ed5325bea08664ffbddd7f129b0ee2d6874d024"
+          }
+        ]
+      },
+      "counts": {
+        "train": 48695,
+        "validation": 12111,
+        "test": 5299
+      },
+      "validation_quartiles": {
+        "mean_phylop": [
+          -0.2633069157600403,
+          0.0072178225964307785,
+          0.37871287763118744
+        ],
+        "signal_total": [
+          27.0,
+          44.0,
+          74.0
+        ]
+      },
+      "example": {
+        "test_index": 1458,
+        "chromosome": 8,
+        "source_row": 1458,
+        "rule": "lowest fixed row hash in middle signal and conservation quartiles; target valid",
+        "sequence": "TAAAGTCTTGAATCACTTGTAATTTCATCTGCACTGTTTTTTGATATAATCTGCAGGGAGGACTTGAGGAGAGATTCAGGTTCAGGAGGGCACCCTTTTTC"
+      },
+      "test_observed_sha256": "3b403332ba7a69a50f8dd84dfd66bf5362d853d5d1e0575e9d95a35399b30386"
+    },
+    "HNRNPK_HepG2_ENCSR828ZID": {
+      "inputs": {
+        "train": [
+          {
+            "chromosome": 3,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr3_5ch.h5",
+            "n": 7163,
+            "sha256": "b030d2ba3cb6181c050d6e49ecea5cdfe17be9ea8d0d24e74beebd6038de8b97",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr3.npy",
+            "permutation_sha256": "2f52a258257d92a000155203ebd4a374e34b2364ebfd7d40060c37bd49189b46"
+          },
+          {
+            "chromosome": 4,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr4_5ch.h5",
+            "n": 2931,
+            "sha256": "d307216062ea5d259e30c7663680ca4ede448c17a008b792a68c007406f0b534",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr4.npy",
+            "permutation_sha256": "24df9ed8cbc54af55ca3db6a4edb579cc693665511263b7602839c29d4fe7ffa"
+          },
+          {
+            "chromosome": 5,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr5_5ch.h5",
+            "n": 3575,
+            "sha256": "04a56528a5de278d69f1150ee2fc64c9f65bf7f7f52a192040efd29295474f38",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr5.npy",
+            "permutation_sha256": "09019f56e4b6f6cdd09e98403a9f0aa1f73d6d392149cca6c75c7b80d5993986"
+          },
+          {
+            "chromosome": 6,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr6_5ch.h5",
+            "n": 7597,
+            "sha256": "c099104e2abd23400417cca33d55258cd9fe4657ffa5be5d3ec91774c6fdbbc1",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr6.npy",
+            "permutation_sha256": "0439a2ee5ceabb62b3ce4d629115afee46f2da8a656a11ee4a6ac727c0ddc6ba"
+          },
+          {
+            "chromosome": 7,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr7_5ch.h5",
+            "n": 7621,
+            "sha256": "148e6af64216f7b1a226966dd394e5470b719df8aff1016f6499ef0c6e386b73",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr7.npy",
+            "permutation_sha256": "a05783e8a6c71e334709da0a10a15a8aa5f3a7a06781a2182496e600db185f9b"
+          },
+          {
+            "chromosome": 10,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr10_5ch.h5",
+            "n": 4615,
+            "sha256": "55a3bcac37105314a607f3398eeeaf915dbef55a7b20036cc3dba3dd7f7c4c9c",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr10.npy",
+            "permutation_sha256": "92e0c8b9f1a4ef1ac519e03ffe764bdc4a549dce9583a9f440bcae3d1b63b252"
+          },
+          {
+            "chromosome": 11,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr11_5ch.h5",
+            "n": 7286,
+            "sha256": "2e03716694a20939631cb1e6d545e3d3bfa4ad40ac49a094f9d22906987ec4ea",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr11.npy",
+            "permutation_sha256": "3993977757152b487ddc499b2d0d153e0c8d92d6dad5a6d93673b8cf2c79e3ba"
+          },
+          {
+            "chromosome": 12,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr12_5ch.h5",
+            "n": 5097,
+            "sha256": "713f31d446fdae75d4b1094c38083f0aa900e52890f277b6ff5de5e78f148ddf",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr12.npy",
+            "permutation_sha256": "d989fb04c6b217ad5efa882da8c00dc5a069cc5911b3bccc593fd83e75454cbe"
+          },
+          {
+            "chromosome": 13,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr13_5ch.h5",
+            "n": 2341,
+            "sha256": "148eb2622f738f3508a8c035709d84f1d0d9311f7130b118e1f5fd4daba2c976",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr13.npy",
+            "permutation_sha256": "3a059ab5ea7e9681d26125cfab7e2fc51254a30c1b9ea11c56ab86e37181c9f1"
+          },
+          {
+            "chromosome": 14,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr14_5ch.h5",
+            "n": 4118,
+            "sha256": "9645f6e0c358cfad5d4711465991ba0f6e30f9da0a4adb264cba2e41aa41446c",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr14.npy",
+            "permutation_sha256": "f32550b8c8f924e34b6f4d15fdb9255e07184a43353c92951cb3432353568d0c"
+          },
+          {
+            "chromosome": 17,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr17_5ch.h5",
+            "n": 11841,
+            "sha256": "67a30e3439a6e8c47775ec0b64bf04511c85bb68d8a0111c7086be25fba264ce",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr17.npy",
+            "permutation_sha256": "dd1a611192283ad97d1bf8e075ceb023acf4289b6f7b8696d72ce97530323b17"
+          },
+          {
+            "chromosome": 18,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr18_5ch.h5",
+            "n": 1210,
+            "sha256": "fc19ebab750cdc201632800505b47dc800d8aabd2d4f74b2f7aeef4a35c4003b",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr18.npy",
+            "permutation_sha256": "13bee88c88af68b8667e601d75938fe29e6af8d7ac9655e878a4e707aa7a051f"
+          },
+          {
+            "chromosome": 19,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr19_5ch.h5",
+            "n": 9576,
+            "sha256": "564fed82114cd2c97d98a0eb3c9a1d872a6fd76bf4d34f5891602d486051a5c9",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr19.npy",
+            "permutation_sha256": "c0cc9fd55405545118ef7637de313befe6e7c0e6b6ca346df169270bd77a3e82"
+          },
+          {
+            "chromosome": 20,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr20_5ch.h5",
+            "n": 8404,
+            "sha256": "d28320e0915dcae00a1cc1b2703927b323e4df29a2fc9d6290c34cdbc1626668",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr20.npy",
+            "permutation_sha256": "a85facc47c02e8a1e55f30822652e2f6d09781b00875c7c416b173684b0eb278"
+          },
+          {
+            "chromosome": 21,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr21_5ch.h5",
+            "n": 1376,
+            "sha256": "b73b3df5859f88d8ba61078cdab062ae6828f3cb1b1511328d2592f1863b9196",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr21.npy",
+            "permutation_sha256": "99ac17fa8cb6942a39ff6bc82e30225ed2e58bcaa8519a3ec896e8501c34f48a"
+          },
+          {
+            "chromosome": 22,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr22_5ch.h5",
+            "n": 3739,
+            "sha256": "3707acdc71df446538b3dfa22d793446ed3d26dedcc94bf896a7df382375d214",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr22.npy",
+            "permutation_sha256": "ae83c537ff1411c9fed1ac572f3561174bec27ab3b09e4077138f5a63698219e"
+          }
+        ],
+        "validation": [
+          {
+            "chromosome": 2,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr2_5ch.h5",
+            "n": 10725,
+            "sha256": "ed1e6d22e4346932b98197a528308452affa4919c30cc2cd8d782a1a8472bbc4",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr2.npy",
+            "permutation_sha256": "1db62c9d2029a1f83abe75f21193ccb85449e61f0a3badf632147afca667f421"
+          },
+          {
+            "chromosome": 9,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr9_5ch.h5",
+            "n": 5183,
+            "sha256": "294fad01d00e9d494b9b37d677d38b98e432e9d64f298e95670f836525828f44",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr9.npy",
+            "permutation_sha256": "208ee1156bd281985844544d53d562709d9b4ba80e647aab384bb4f4ef66852d"
+          },
+          {
+            "chromosome": 16,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr16_5ch.h5",
+            "n": 11104,
+            "sha256": "6e401e3a2823656660f580e691bb2a13e4cf1b63c738180f695548acbb5430c6",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr16.npy",
+            "permutation_sha256": "b19fc9b6fba6269086c6e2bae3121945597bfe2db7978b78ec6dcbdbebb9d095"
+          }
+        ],
+        "test": [
+          {
+            "chromosome": 8,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr8_5ch.h5",
+            "n": 4412,
+            "sha256": "4b9558ff9e85d52eef7b654530d2ab9de78a38cc2b027b6ccd4aa74b46dfcb71",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr8.npy",
+            "permutation_sha256": "927fc838b49570d53c6496ad27a8c6b3b858b13cd6f61946c071af994549c6d3"
+          },
+          {
+            "chromosome": 15,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPK_HepG2_ENCSR828ZID/_5ch/HNRNPK_HepG2_ENCSR828ZID_chr15_5ch.h5",
+            "n": 2360,
+            "sha256": "0e941c70a8fd4661d4abc43c020ec87634a7a78a8df4658aa1d31adbb47275a6",
+            "permutation_path": "permutations/HNRNPK_HepG2_ENCSR828ZID/chr15.npy",
+            "permutation_sha256": "b68e79d59b17ba45f5c35e445112eea8050f2449684d01250391a2592e85240f"
+          }
+        ]
+      },
+      "counts": {
+        "train": 88490,
+        "validation": 27012,
+        "test": 6772
+      },
+      "validation_quartiles": {
+        "mean_phylop": [
+          -0.37791091203689575,
+          -0.13510891050100327,
+          0.08767821826040745
+        ],
+        "signal_total": [
+          30.0,
+          47.0,
+          81.0
+        ]
+      },
+      "example": {
+        "test_index": 3016,
+        "chromosome": 8,
+        "source_row": 3016,
+        "rule": "lowest fixed row hash in middle signal and conservation quartiles; target valid",
+        "sequence": "GCTCCTGATCCAGCAGGTTTTATTCTTAAATTTGTAACAAAGTAAATCACAGAACCTCCACCCAGCATCCAGGCCTCTGGTTCTCTCCCTCCTTCCCAGGT"
+      },
+      "test_observed_sha256": "ac096fec941fbbb929889eb254954a183ed84bf61b7ee118c2e4d845ea4637c4"
+    },
+    "PTBP1_HepG2_ENCSR384KAN": {
+      "inputs": {
+        "train": [
+          {
+            "chromosome": 3,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr3_5ch.h5",
+            "n": 11144,
+            "sha256": "2f9c1a7122aea12c8b7ff9f7bc543d88ae15ce6ffe2983bd3c94f061548f4a26",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr3.npy",
+            "permutation_sha256": "95560ec2f95ea451b48578de1af61639e3587191879faade80e829205f0b6f86"
+          },
+          {
+            "chromosome": 4,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr4_5ch.h5",
+            "n": 5153,
+            "sha256": "7963aca988c30b8cf5eb4e1182138375769da578069b4df94e396af8da6670e1",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr4.npy",
+            "permutation_sha256": "7a10bd8c97a7f9ea1ce89bb09e58d8db56c913fd0367dd1246bed8814117e25d"
+          },
+          {
+            "chromosome": 5,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr5_5ch.h5",
+            "n": 5757,
+            "sha256": "627484028cf9fcf4f8f463b92059f0f1b2111a3f51e127638836da736c59f74b",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr5.npy",
+            "permutation_sha256": "75b6b94020880c8056fccd751f04e794a609525ea8c0c2ef120c38dc3be9ec6e"
+          },
+          {
+            "chromosome": 6,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr6_5ch.h5",
+            "n": 12409,
+            "sha256": "4247c79ec85ced5c848e52b31f937fca647088a6efdbaf4fbcbb2bb61d4c560a",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr6.npy",
+            "permutation_sha256": "453d15c5908f7df3cae20ec4542472e9798530c9beab0ef257cf0d63fe7bb8c9"
+          },
+          {
+            "chromosome": 7,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr7_5ch.h5",
+            "n": 9919,
+            "sha256": "a29eaaa43d0207dd7bd48c0f92f01633a11be4593fe9efd97fcaf216d6c29c61",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr7.npy",
+            "permutation_sha256": "80d666e7afbe0aa1fadbdb5410bd7f589b595ac4acbc941297d6210b4d225f85"
+          },
+          {
+            "chromosome": 10,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr10_5ch.h5",
+            "n": 7025,
+            "sha256": "09a14aec3b9818be557e7deb298f4417c365c0e8e424ed36182bfca579cba051",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr10.npy",
+            "permutation_sha256": "9141d7eef1e861d27664c9083eda012c59697cdab8c76d37941d84144fd797b6"
+          },
+          {
+            "chromosome": 11,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr11_5ch.h5",
+            "n": 8959,
+            "sha256": "08661e2fb63be2cbc6dd0a04fb0980ffa4ad4c269072a43270bcda931f3d7ae6",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr11.npy",
+            "permutation_sha256": "e52e38ad6dfb3dad2b6a067223fee54fab36dd99d5c3ba96d8a35bba9eabd4c7"
+          },
+          {
+            "chromosome": 12,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr12_5ch.h5",
+            "n": 7819,
+            "sha256": "423e04123db1fe394d2ea28fe54421aca68dc26d97edcebc98864746a81bad15",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr12.npy",
+            "permutation_sha256": "5c5557ba62465442b44e39552f71d363458a37b7d291891632bb95759d8a57ec"
+          },
+          {
+            "chromosome": 13,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr13_5ch.h5",
+            "n": 3562,
+            "sha256": "f0dd4d3076e66d0182d096dd18198d343c2edde50e4891e5260590d781718798",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr13.npy",
+            "permutation_sha256": "ad5ee86dde464f81fb69276a3aa609f93dfd4d97870515f09cf4809cc8f51a6b"
+          },
+          {
+            "chromosome": 14,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr14_5ch.h5",
+            "n": 6532,
+            "sha256": "950231456289a54a06550d17fe522e9b20bf854c0e696e5385d7a85cafc44207",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr14.npy",
+            "permutation_sha256": "74c48fc8bdb5d0f4c70a12c6630542009e0dec39c939e15ddd134eaaff5bbdea"
+          },
+          {
+            "chromosome": 17,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr17_5ch.h5",
+            "n": 12105,
+            "sha256": "f15fa907d8ec1f62a4f6a17105d2e51b5c2ca6e75ca128976d5ac111c7c5659d",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr17.npy",
+            "permutation_sha256": "9d0fca84e37ab8a8627313ff0ff1ca8321ae5f723f7001b1e7d0311860f50cef"
+          },
+          {
+            "chromosome": 18,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr18_5ch.h5",
+            "n": 2363,
+            "sha256": "7f64cf9c6d9f4ba58755a53c2bf8792b698fb3202dbb397b44cd74774cb1ad1a",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr18.npy",
+            "permutation_sha256": "1d68b6cb252228ad8f5d9e1273bf882909aa406099bbec8820b547b8c10fb2a4"
+          },
+          {
+            "chromosome": 19,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr19_5ch.h5",
+            "n": 8202,
+            "sha256": "7f01eaa4a4bb76c8d17fb2f9bc5e775183e7353573ae0c5a4c4b9c348e63c4ed",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr19.npy",
+            "permutation_sha256": "360a68aec8664b0a08c66ef336f995ad7f62a9a1f4351c0966a80f0fac8eb51a"
+          },
+          {
+            "chromosome": 20,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr20_5ch.h5",
+            "n": 9437,
+            "sha256": "e199c90faddcd124170a6eafde6cd489fc2b810c2bd1c7d89521be6b0e899bc5",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr20.npy",
+            "permutation_sha256": "2ffce11bd7b2daf3142325b56a289fc9e76c8e3f8da1826a5adf8eb44c73baac"
+          },
+          {
+            "chromosome": 21,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr21_5ch.h5",
+            "n": 2266,
+            "sha256": "e7cfc1b03e45b777293d2ee5d7f6ed3991558fe836afb7d8ff1c11268b8531d8",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr21.npy",
+            "permutation_sha256": "4b53fbc4f1dc4682c9a202d49fb778136299fcf042a1c29ffc30fe5df86fa1c3"
+          },
+          {
+            "chromosome": 22,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr22_5ch.h5",
+            "n": 3808,
+            "sha256": "5695b0f037e752d83fa6afd9624e4d31efe1b09859b023133eee4bd1d11e2fd8",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr22.npy",
+            "permutation_sha256": "957c229b9ef6df5a698b23af643dc1ba1b39120b64554ca2111e55af4d564f14"
+          }
+        ],
+        "validation": [
+          {
+            "chromosome": 2,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr2_5ch.h5",
+            "n": 18831,
+            "sha256": "520101b0f861ea8e6010bd2ad8c06572122f1a10294af23c67cfda3430077759",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr2.npy",
+            "permutation_sha256": "e0abd62803181bb099dad4ffa61fbfc90f7560953a931cdcce5e72cea481fd26"
+          },
+          {
+            "chromosome": 9,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr9_5ch.h5",
+            "n": 6763,
+            "sha256": "1e65c411624f0cd0e89bd7bd377f81d5bfba382111d929918c5d40058705dbb8",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr9.npy",
+            "permutation_sha256": "562d0682366985404c0fb83624779f9db710c36870b457ef032f14e15a4be501"
+          },
+          {
+            "chromosome": 16,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr16_5ch.h5",
+            "n": 11705,
+            "sha256": "46889b2debf4e187bcbf7a04572d4fc7a0eaeed0fea1996d6193a779240fc8c3",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr16.npy",
+            "permutation_sha256": "99a978640a6098d80db0b142938e81e036e831e7ae5d67a3377393e0d4c0463d"
+          }
+        ],
+        "test": [
+          {
+            "chromosome": 8,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr8_5ch.h5",
+            "n": 6566,
+            "sha256": "ddbb10b5709f802d4bc70d93849f0ae238c45aef4c85fe241b20dfdf9bb5bc98",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr8.npy",
+            "permutation_sha256": "a6fa7157c2a9879f23d40227e36ca1ce7accaa348c4edb9fe8bec24e0cc7b3a1"
+          },
+          {
+            "chromosome": 15,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PTBP1_HepG2_ENCSR384KAN/_5ch/PTBP1_HepG2_ENCSR384KAN_chr15_5ch.h5",
+            "n": 3727,
+            "sha256": "c216af3fb4fe0c82cdd09445fbfacece74efbc97f723b7a39ef2399ffe71c579",
+            "permutation_path": "permutations/PTBP1_HepG2_ENCSR384KAN/chr15.npy",
+            "permutation_sha256": "fa6ca7650fc0628b542b43377e0f45c79a587ec695baeaf91f65d0cb4072c9fd"
+          }
+        ]
+      },
+      "counts": {
+        "train": 116460,
+        "validation": 37299,
+        "test": 10293
+      },
+      "validation_quartiles": {
+        "mean_phylop": [
+          -0.22896038740873337,
+          0.026712875813245773,
+          0.4184504896402359
+        ],
+        "signal_total": [
+          33.0,
+          51.0,
+          87.0
+        ]
+      },
+      "example": {
+        "test_index": 7656,
+        "chromosome": 15,
+        "source_row": 1090,
+        "rule": "lowest fixed row hash in middle signal and conservation quartiles; target valid",
+        "sequence": "CCCTCCCCCTCTCCTCATTCATCCGGACTCCTTTTTCTAACCCTTCTCAATCTTCCCCCATTCCTCATCTCCTCTTCCTCTGTCTCCCTGTTCCACCTCTC"
+      },
+      "test_observed_sha256": "ff9694ad35b877c821565679783302f461591ab0370729991bf3c5d3acdaf1d9"
+    },
+    "RBFOX2_K562_ENCSR756CKJ": {
+      "inputs": {
+        "train": [
+          {
+            "chromosome": 3,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr3_5ch.h5",
+            "n": 16071,
+            "sha256": "98a1c3e900ac777a747307027940f9525dad17cc30140464a2ed0283593e4e2a",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr3.npy",
+            "permutation_sha256": "be9df957df3e92b1c660e2c7cc230bdcad77858d3bc89821da6f6c4cd6627b24"
+          },
+          {
+            "chromosome": 4,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr4_5ch.h5",
+            "n": 9742,
+            "sha256": "cad1d342d5a974fe32fa7c8cced3839ed9ac1f4744fa702e4295935fdfd864d7",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr4.npy",
+            "permutation_sha256": "17b18cd3ef7d88ea256657e38d6d4c95ab4e8e61db03015ace780a7240e28413"
+          },
+          {
+            "chromosome": 5,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr5_5ch.h5",
+            "n": 12456,
+            "sha256": "45ad109db5d3c0821e215b484ee0a051c336945764da3a6704ecd1f56bf534b0",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr5.npy",
+            "permutation_sha256": "f9786999b39615bb49e1ec0730ef9532116b5bd97f7cfc6258adeb1e982ae628"
+          },
+          {
+            "chromosome": 6,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr6_5ch.h5",
+            "n": 16517,
+            "sha256": "827bf77dfc157fbbe8d343bdcd37a274e7665997586ee55e6dddbd7eb7a4837c",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr6.npy",
+            "permutation_sha256": "414fca51918bf3ddbb8fd3e1aaf224b4dca85b955670d9ca43cf5f3a0ce31fad"
+          },
+          {
+            "chromosome": 7,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr7_5ch.h5",
+            "n": 21483,
+            "sha256": "80e880ba3e739ae408b7148f9fb5396eeb227935ddfc1fbd93fdc8a9ac9c4979",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr7.npy",
+            "permutation_sha256": "585d4e53469df5b57432ac88acc774e6ad749533cd22894b77ef7c09e8eeff43"
+          },
+          {
+            "chromosome": 10,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr10_5ch.h5",
+            "n": 10515,
+            "sha256": "afdad1119419c53f0ede0ea7882a3a94511bfac252c735030e19f3be5ad57fc9",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr10.npy",
+            "permutation_sha256": "a99ebf12d3ddef042cc38fe3b9d5e8688adfa03121cc92b175bf34512c36f7d7"
+          },
+          {
+            "chromosome": 11,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr11_5ch.h5",
+            "n": 16452,
+            "sha256": "8faaa0bda5211689154356acb8fd12066df22389c3ab1d94f2f9e9929de7fc5f",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr11.npy",
+            "permutation_sha256": "358603d46f7fff606ebcb8734a48cd4d2a6238012c84c3781e7aba3a819d65cf"
+          },
+          {
+            "chromosome": 12,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr12_5ch.h5",
+            "n": 13227,
+            "sha256": "cf6c9f246372462a79418d0cbbd502fe9257e5742615344b724550a3ed1f4393",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr12.npy",
+            "permutation_sha256": "ceb3581198a892c01171c094dbf3cbde7c8c72b4b11a8acdff3dfd37ec5b45c5"
+          },
+          {
+            "chromosome": 13,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr13_5ch.h5",
+            "n": 3134,
+            "sha256": "adba895ae509b5a9c9a87e9d05355f8009254c0c63a5646a72cbb977ef698394",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr13.npy",
+            "permutation_sha256": "0f1e3b53e720d0125b231f98ccae6c2abe1e084d4c836f22ba74bfaaf81799e4"
+          },
+          {
+            "chromosome": 14,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr14_5ch.h5",
+            "n": 5686,
+            "sha256": "0f9b991dcaabb4299fed889f71e4d902afe376766a8d6e216b28ad9c073f2218",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr14.npy",
+            "permutation_sha256": "6d04b2ecda9077719aa6ba51f8bb22f8eb7d6e02a4571f30474b278fe5b79369"
+          },
+          {
+            "chromosome": 17,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr17_5ch.h5",
+            "n": 16957,
+            "sha256": "05f154350021c9fff8b2d8e8f0d57965599d88da022808f3780a2c684b676788",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr17.npy",
+            "permutation_sha256": "19012e841cda4c0b8c2a98d5fd9f917663b3f78680561a03b00baaadbb6ffdd8"
+          },
+          {
+            "chromosome": 18,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr18_5ch.h5",
+            "n": 4021,
+            "sha256": "e40e7b0f4e63273485d8b017029dd84494059aa0b4db78b575fb9d8bae4f8bde",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr18.npy",
+            "permutation_sha256": "98527dd7651b9be71c8b1648873b7ccfe9cabd435daa316256a481cfac29fada"
+          },
+          {
+            "chromosome": 19,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr19_5ch.h5",
+            "n": 21860,
+            "sha256": "df475d1405440160705b3ea22b3d21823779503a0d5d537a29ef22c893e8302b",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr19.npy",
+            "permutation_sha256": "7083aea367fd7f832ea5c412158601b2bb92d85b4e85d4ca5b92bbc5d558738d"
+          },
+          {
+            "chromosome": 20,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr20_5ch.h5",
+            "n": 8013,
+            "sha256": "257a5a3c95e3a2b66f253dfe48e830bd9456d21a9431fc9a343d1559f377cf8e",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr20.npy",
+            "permutation_sha256": "1309be4e486b415ec198b1beac6d074e056afbb3a42ce63a14c3ad442f8f3e78"
+          },
+          {
+            "chromosome": 21,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr21_5ch.h5",
+            "n": 6137,
+            "sha256": "fc95b4958162dda46a545d9c63916bd284dab3377cb134cb2e32051e3dfecc13",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr21.npy",
+            "permutation_sha256": "a3160d6c890c92f7d0ad51b19b9978eade3af043afd442b75fc9ee16b9d2d775"
+          },
+          {
+            "chromosome": 22,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr22_5ch.h5",
+            "n": 13149,
+            "sha256": "bfbfcc4efbc519877ade340760fe3a2ae3c0deb73c52349510a1bff03e839309",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr22.npy",
+            "permutation_sha256": "58b0440a1868d200aaca4ec3259a276a46715b93a13ca13b0ba1b37ff3dd75bd"
+          }
+        ],
+        "validation": [
+          {
+            "chromosome": 2,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr2_5ch.h5",
+            "n": 17700,
+            "sha256": "7cba9a39bb7e744c5bebd502177e401c3b00d5483cf6f4bfff71d30616381439",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr2.npy",
+            "permutation_sha256": "57935c6ec87f363994ff364bc4c21fff37cdefc2eb0445f2a3e208c5f45e744f"
+          },
+          {
+            "chromosome": 9,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr9_5ch.h5",
+            "n": 11844,
+            "sha256": "381e26742c707324a0f3e353c69a53c3dd6bb40a11583fd5ae4fc535c615d0c3",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr9.npy",
+            "permutation_sha256": "abb90aba56baa509994da5f15084000956f57ef220fe876b8858d003b4eddeea"
+          },
+          {
+            "chromosome": 16,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr16_5ch.h5",
+            "n": 18516,
+            "sha256": "2df60272f2dde4e192078d86ca993b151a61e7cb61fe74782c07ba2d9693ea4a",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr16.npy",
+            "permutation_sha256": "714d56ab6a3b093269f7341c01944947dbcde0ff4b39a96afc5ffd03fcee1bf8"
+          }
+        ],
+        "test": [
+          {
+            "chromosome": 8,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr8_5ch.h5",
+            "n": 10613,
+            "sha256": "dfb1f5aec79722da44996f4888897bdbfe8dfb099711a2f06601c7d977e921c4",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr8.npy",
+            "permutation_sha256": "a93e9d4f983bc14891e5c5c557eeacd78a0845be702241d9ab0f9b0e49f9370a"
+          },
+          {
+            "chromosome": 15,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_K562_ENCSR756CKJ/_5ch/RBFOX2_K562_ENCSR756CKJ_chr15_5ch.h5",
+            "n": 8855,
+            "sha256": "14dbfc135e53e89db5e95d9b4c57df11e75ef5d987af5663c6e61fe6ba3ebf1c",
+            "permutation_path": "permutations/RBFOX2_K562_ENCSR756CKJ/chr15.npy",
+            "permutation_sha256": "3826033be8fc8f32bb09846c1d3fd26625573910a55ce6aa34d5401912f8f375"
+          }
+        ]
+      },
+      "counts": {
+        "train": 195420,
+        "validation": 48060,
+        "test": 19468
+      },
+      "validation_quartiles": {
+        "mean_phylop": [
+          -0.23485395684838295,
+          0.06358909979462624,
+          0.938044473528862
+        ],
+        "signal_total": [
+          33.0,
+          52.0,
+          92.0
+        ]
+      },
+      "example": {
+        "test_index": 19054,
+        "chromosome": 15,
+        "source_row": 8441,
+        "rule": "lowest fixed row hash in middle signal and conservation quartiles; target valid",
+        "sequence": "TGATTCGGGTCACCACTCCTGCACTTTGGCACCCCATCCCATTCCAGCCTAGTTCTGGCCTCCCACTTTGACGGGCACTTGGAGGAGGAGCTGACTGTGTG"
+      },
+      "test_observed_sha256": "4a9daff5b80d6c39f302987f8eeb5ea3db1bdb657255a542ae72183492890672"
+    },
+    "RBFOX2_HepG2_ENCSR987FTF": {
+      "inputs": {
+        "train": [
+          {
+            "chromosome": 3,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr3_5ch.h5",
+            "n": 30225,
+            "sha256": "d09dca7430e766638a3886017db0bded39dccf64ab86b6d326650405ac233dd2",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr3.npy",
+            "permutation_sha256": "e0a7b4587e9b14cbf067c4aa0073fd56d7413968b51c44f674b22c062f735ff0"
+          },
+          {
+            "chromosome": 4,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr4_5ch.h5",
+            "n": 14738,
+            "sha256": "0ee008c0ed8daa0b6b8aca366dbfa840b88e24aa487b53813913eebdb8a69d8c",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr4.npy",
+            "permutation_sha256": "78c525f664a8ba48c858849f4fcc1a42d7d956dcc72cd43b7c5325ca7027108c"
+          },
+          {
+            "chromosome": 5,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr5_5ch.h5",
+            "n": 16307,
+            "sha256": "d7241f1fe94603ef385f0ce23202549c22cf46798100e2564a133a8ff2bd7161",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr5.npy",
+            "permutation_sha256": "97c4da91aee42d57f56ff0089fa7e2793579f7b92ba5339df5cd5071a8fdc6e6"
+          },
+          {
+            "chromosome": 6,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr6_5ch.h5",
+            "n": 28589,
+            "sha256": "01725020ae5af1c11b993591f20ed10b44205d940ede836d331137fd584e217b",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr6.npy",
+            "permutation_sha256": "c0bf067b4e09781b23982efb2067cfd7731d2f100ea9c683eb445d8c8d1200da"
+          },
+          {
+            "chromosome": 7,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr7_5ch.h5",
+            "n": 32306,
+            "sha256": "76e2e1da9a6af453700dae8c768549d4d3c6b95498bf9a9a53af7c7974dfdfa1",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr7.npy",
+            "permutation_sha256": "f2d70c57c84a7b46150f8ba2aa9b6526390f12d0ae0c7443fb89d3c8827fd861"
+          },
+          {
+            "chromosome": 10,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr10_5ch.h5",
+            "n": 22016,
+            "sha256": "3b6646dd6dfd832a455e66b157c8202af60f65f51d8d9c84df3b9002ad67daf6",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr10.npy",
+            "permutation_sha256": "ea77930c91d935066ae8b6a7a6e0779afe533ead27a0073e2d35e10bc4479983"
+          },
+          {
+            "chromosome": 11,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr11_5ch.h5",
+            "n": 29502,
+            "sha256": "9a0674695df83161fe4890ca249c2ef503595cb90dc592965a1a97e42cd9cf12",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr11.npy",
+            "permutation_sha256": "f4da112af51844b74a31cff17a08420c292f3bb7075dccbe8c3da02c22ec784c"
+          },
+          {
+            "chromosome": 12,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr12_5ch.h5",
+            "n": 22476,
+            "sha256": "7c93f9053a2109f102efbf66b11c4cc253a7ec5f6fea98948bb590b65d6f56d9",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr12.npy",
+            "permutation_sha256": "03293813033cbb6840cb623e7b42e2d4cbcc0faa5b881af7b66acf93a609cf6b"
+          },
+          {
+            "chromosome": 13,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr13_5ch.h5",
+            "n": 9852,
+            "sha256": "716d1e511256c55bc897a663c81ce83fff2aaa7e9f095fc7ad01e92e8f31d0c3",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr13.npy",
+            "permutation_sha256": "3be76c729f86b0c13db1222dfb23118df82f0a1871ea21db8a57fc45965c758b"
+          },
+          {
+            "chromosome": 14,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr14_5ch.h5",
+            "n": 16280,
+            "sha256": "e320ea0e2d4878d5a0419f9ec83c25f0e995316be8e27425cb88f359b6c19f10",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr14.npy",
+            "permutation_sha256": "e520a975cc652df8ee96b06d689add5e8f48985ec71e6c092788bc7c2f2af633"
+          },
+          {
+            "chromosome": 17,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr17_5ch.h5",
+            "n": 44566,
+            "sha256": "1f9461f2d8dbef20fefb4e78f527dbf906d2b06374cf1c6bead5a5c70789252c",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr17.npy",
+            "permutation_sha256": "e91b0f2a6830dc1bccab89b396724f88c98f37ee235a0fde9de45db0e477ab7e"
+          },
+          {
+            "chromosome": 18,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr18_5ch.h5",
+            "n": 6973,
+            "sha256": "ff275db53b83a1e739c2a8b66a042af152072bf6c0f0c4b423b1b8e70a3dad35",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr18.npy",
+            "permutation_sha256": "6ebbc0d032a41f24a0ca42a4f08085b647166140d72a2ca7a0e8abf738023e80"
+          },
+          {
+            "chromosome": 19,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr19_5ch.h5",
+            "n": 39085,
+            "sha256": "655beb327fa038c660879d40448b6388e1f46b519aed17c2fd99c010ad0571f6",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr19.npy",
+            "permutation_sha256": "61c62f99ca6888652fcbde15b8c026567974ef0c6a9a778244e555a8185d42f5"
+          },
+          {
+            "chromosome": 20,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr20_5ch.h5",
+            "n": 26648,
+            "sha256": "5da7d064428e41f86bd91ae0fef84e1ed718d79e165cebcab38bf2fa685ee0a6",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr20.npy",
+            "permutation_sha256": "d23d260a0c28dfd5759acc981f19bc3d0b9ff77315b595404cfba1eba44ed088"
+          },
+          {
+            "chromosome": 21,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr21_5ch.h5",
+            "n": 7212,
+            "sha256": "c5e267623b05d1aa1b6308165b5fd93ea1c33f826f3cc4c398aa05ba6719bf5a",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr21.npy",
+            "permutation_sha256": "49390ef38832da93105c0619546f52abe7c1d6f2c3f88619bb16ee7ec2a2a24d"
+          },
+          {
+            "chromosome": 22,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr22_5ch.h5",
+            "n": 19485,
+            "sha256": "749fdfe32c6ab353b817212fc9e724f958a2ccea047fe0cd3b48a8062cdd91b2",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr22.npy",
+            "permutation_sha256": "482f5888d172f88b92f3e041cf81b536850a4e679a5d03a4cba3e207d2e7644e"
+          }
+        ],
+        "validation": [
+          {
+            "chromosome": 2,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr2_5ch.h5",
+            "n": 45514,
+            "sha256": "be6e10e09eb174c7c92156ff042c39fee2f3c8b868f9fc0b1f292ab95a3be17c",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr2.npy",
+            "permutation_sha256": "856a555b4e072af0eea9baa8a2a07b83df68f912687839f132816b1936248341"
+          },
+          {
+            "chromosome": 9,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr9_5ch.h5",
+            "n": 24250,
+            "sha256": "0f85956869ff429459763cfe4d2fbe89c14231508bb77e812b40dbca2ed98660",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr9.npy",
+            "permutation_sha256": "07882583974da9fa16624cf7c8c10f099be7b508a62e5249adc8b525a6f26c77"
+          },
+          {
+            "chromosome": 16,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr16_5ch.h5",
+            "n": 41865,
+            "sha256": "38054dd311848c3b4e11c0e69266d3d9b0a707c51ad56cbe5fb58df866de0f21",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr16.npy",
+            "permutation_sha256": "0cdfc25eaffee59b19223b9707d2f7836b4e8211e46e874dbc4eb178e9c1a001"
+          }
+        ],
+        "test": [
+          {
+            "chromosome": 8,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr8_5ch.h5",
+            "n": 19527,
+            "sha256": "554cea6f172942e0348c82343fcb7ea58c1f922b71d1eace0ec85299fd204673",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr8.npy",
+            "permutation_sha256": "cb9fced2a94fe893eb16ec1bdd30a9eebe67ff55823b78bda9d958ac1ef7605a"
+          },
+          {
+            "chromosome": 15,
+            "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/RBFOX2_HepG2_ENCSR987FTF/_5ch/RBFOX2_HepG2_ENCSR987FTF_chr15_5ch.h5",
+            "n": 11761,
+            "sha256": "8ca8a39c5cdd00e5b919728293a0fb0e39ee8702e49d93808cf0b0854cda455f",
+            "permutation_path": "permutations/RBFOX2_HepG2_ENCSR987FTF/chr15.npy",
+            "permutation_sha256": "ad5f1d596a3ceed2b110ff61e5dfc0b3ac8905d2225cb51fa0865ad53a8f8b19"
+          }
+        ]
+      },
+      "counts": {
+        "train": 366260,
+        "validation": 111629,
+        "test": 31288
+      },
+      "validation_quartiles": {
+        "mean_phylop": [
+          -0.343524694442749,
+          -0.08503960072994232,
+          0.18216830492019653
+        ],
+        "signal_total": [
+          12.0,
+          21.0,
+          45.0
+        ]
+      },
+      "example": {
+        "test_index": 22617,
+        "chromosome": 15,
+        "source_row": 3090,
+        "rule": "lowest fixed row hash in middle signal and conservation quartiles; target valid",
+        "sequence": "GAGCAAATTTCAAGGGAGAGGACGGAGGGGCCTGGGACAAGCCTGCAGGAGGATGAGCTGGGGAACAGGCACTGCAGCTCACTTGGCTATTGTTTATAAAA"
+      },
+      "test_observed_sha256": "91133c39375f1e43b36ce0fb0ed7162d95ec6ecc7a3f5482b0cc26d2e2ed87c3"
+    }
+  },
+  "blocks": [
+    {
+      "task": "HNRNPK_K562_ENCSR268ETU",
+      "seed": 11,
+      "arm_order": [
+        "sequence_only",
+        "mean",
+        "aligned",
+        "permuted"
+      ]
+    },
+    {
+      "task": "HNRNPK_K562_ENCSR268ETU",
+      "seed": 23,
+      "arm_order": [
+        "permuted",
+        "sequence_only",
+        "mean",
+        "aligned"
+      ]
+    },
+    {
+      "task": "HNRNPK_K562_ENCSR268ETU",
+      "seed": 47,
+      "arm_order": [
+        "aligned",
+        "sequence_only",
+        "mean",
+        "permuted"
+      ]
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": 11,
+      "arm_order": [
+        "sequence_only",
+        "aligned",
+        "mean",
+        "permuted"
+      ]
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": 23,
+      "arm_order": [
+        "sequence_only",
+        "permuted",
+        "aligned",
+        "mean"
+      ]
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": 47,
+      "arm_order": [
+        "sequence_only",
+        "mean",
+        "permuted",
+        "aligned"
+      ]
+    },
+    {
+      "task": "HNRNPK_HepG2_ENCSR828ZID",
+      "seed": 11,
+      "arm_order": [
+        "permuted",
+        "sequence_only",
+        "mean",
+        "aligned"
+      ]
+    },
+    {
+      "task": "HNRNPK_HepG2_ENCSR828ZID",
+      "seed": 23,
+      "arm_order": [
+        "permuted",
+        "mean",
+        "aligned",
+        "sequence_only"
+      ]
+    },
+    {
+      "task": "HNRNPK_HepG2_ENCSR828ZID",
+      "seed": 47,
+      "arm_order": [
+        "sequence_only",
+        "mean",
+        "aligned",
+        "permuted"
+      ]
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": 11,
+      "arm_order": [
+        "permuted",
+        "aligned",
+        "sequence_only",
+        "mean"
+      ]
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": 23,
+      "arm_order": [
+        "permuted",
+        "sequence_only",
+        "aligned",
+        "mean"
+      ]
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": 47,
+      "arm_order": [
+        "permuted",
+        "aligned",
+        "mean",
+        "sequence_only"
+      ]
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "seed": 11,
+      "arm_order": [
+        "sequence_only",
+        "mean",
+        "permuted",
+        "aligned"
+      ]
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "seed": 23,
+      "arm_order": [
+        "aligned",
+        "permuted",
+        "sequence_only",
+        "mean"
+      ]
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "seed": 47,
+      "arm_order": [
+        "mean",
+        "aligned",
+        "sequence_only",
+        "permuted"
+      ]
+    },
+    {
+      "task": "RBFOX2_HepG2_ENCSR987FTF",
+      "seed": 11,
+      "arm_order": [
+        "sequence_only",
+        "permuted",
+        "mean",
+        "aligned"
+      ]
+    },
+    {
+      "task": "RBFOX2_HepG2_ENCSR987FTF",
+      "seed": 23,
+      "arm_order": [
+        "permuted",
+        "aligned",
+        "mean",
+        "sequence_only"
+      ]
+    },
+    {
+      "task": "RBFOX2_HepG2_ENCSR987FTF",
+      "seed": 47,
+      "arm_order": [
+        "mean",
+        "sequence_only",
+        "aligned",
+        "permuted"
+      ]
+    }
+  ],
+  "gpu_indices": [
+    0,
+    2,
+    3
+  ],
+  "max_concurrent_jobs": 2,
+  "environment": {
+    "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+    "torch": "2.4.1+cu121",
+    "numpy": "1.24.4",
+    "h5py": "3.11.0",
+    "hostname": "server15"
+  },
+  "execution_sha256": {
+    "matched_common.py": "88cf7d839b1a83781bb85746ad19ecc4ac4b20441ae9ac0386d8fdaed15d870c",
+    "matched_train.py": "8b5225769fa87b4a3732cf968f028e4687faf857392f7c2558b2193b50f3df40",
+    "prepare_matched.py": "88d2565d14cb208b87b612d6e50e3602f0c9b6b5cbb784336bf78bfc78d8c7e4",
+    "supervise_matched.py": "57cf6dfad0cb704901748e9428e4f2cddcb3e202216c05370ee3b6be8588b09d",
+    "summarize_matched.py": "6feb78bebd7d048be240a2c7f00a45abfd0798b1ac8d610c0c5a83a1a6634fe9",
+    "verify_matched.py": "27f28e7f4d14a20a9b610962aac4b08fcf823e449bbe410931063f6bc9b020db",
+    "source/MARCP/__init__.py": "86ea6307987dd0661c86fb796e8f9173eb68a1fc8919abdbc76b73303c2072d8",
+    "source/MARCP/interpretability/__init__.py": "d2c2f563182ef80e3b785488b60eb697722c9439730767cd75e6a14e40f6b494",
+    "source/MARCP/interpretability/attribution/__init__.py": "98ca0d352617408a87b3aeace62f87db1231ea5eb5a5f2460541a28a7163e03b",
+    "source/MARCP/interpretability/attribution/marcp_attribution.py": "b4055200352d41ceb5cb8fedd48fecd9f75310d80d288c02e0b15deeb46ff142",
+    "source/MARCP/interpretability/attribution/plot.py": "1c0cde933fb6c5f0f4c60283402931fd972d81fb6a10f9f1a0c171abecb4a3f8",
+    "source/MARCP/interpretability/captum/__init__.py": "919b031aafd2d0422659e4404f35fa792054f84ab81f9a64b740411dabf4256d",
+    "source/MARCP/interpretability/captum/captum_deeplift_hypothetical.py": "521b99b69f831f267f4913b3bc0102753b227cff4fc5573012f5abd116a933fa",
+    "source/MARCP/interpretability/captum/reference_seq.py": "772f0c7c74780cdfd967c7db77a922b89c2ca1644e494292d78ab5e0ec34e7cd",
+    "source/MARCP/loss/__init__.py": "39d06ab5582d288abe6495348565ae62c05eca45237d7ccf887c2188b53db89d",
+    "source/MARCP/loss/loss.py": "6f06f377e64f05c33ad3b693cc47957cdd6c29c328039c5f23ea4acc553e3f4e",
+    "source/MARCP/models/__init__.py": "5d20f7b619efaf4e338e81ad77d912382499928c6e8bd0855ddf0161e846bc90",
+    "source/MARCP/models/marcp_model.py": "e101164b9bf0d5d8cb4a3471e5cfdf2ac7a6a1cdc4f6b710f4132c3bf2fff55a",
+    "source/MARCP/models/marcp_model_rnafm.py": "49eb069c5caa2314f3410d766ab729dfeb58b859999a7a4ed40eae2a6c849b8e",
+    "source/MARCP/operations/__init__.py": "d9224a780cf090cea0e27b8b9b0b63eb12bdf5b67402ffc713986089558f90d3",
+    "source/MARCP/operations/predict.py": "6dbb92ca04e12c16f6f14622863040a246284b1e262e7778a550df17520774ff",
+    "source/MARCP/operations/train_ops.py": "45b5858ef7ecfe274e426786f67275b50992082829e174bd084681ff666c3d4f",
+    "source/MARCP/utils/__init__.py": "824311931d15dce4b329513f358ef061146f8787eb3fb22ca376daf02d56c5d9",
+    "source/MARCP/utils/functions.py": "01578956d5ec527b73e351d69294164df635b019feeac8192af8bb4135685150",
+    "source/MARCP/utils/u_statistics.py": "129fbb9507fccc84175e892069fd9a9fc26cfb876b6244afa7001811b667d8e9",
+    "source/MARCP/utils/utils.py": "4710cfaad5083f445b88194d49b29a54995f8dc1be1312c7e7b91b7c9ef73d87",
+    "source/MARCP/visualization/__init__.py": "0e0a759206af8cb719b52ac87019cb5322c36d0b86179d015e663ccafa560f3c",
+    "source/MARCP/visualization/plot.py": "3771f184e2107690f7feae89e2b1e066a43a7bd60d480aa930d0dc3cdeffedde",
+    "source/MARCP/visualization/track.py": "9c63165dd99f7e1f72634478a51fb0ecaad2cef0137c5ebc025de370de88c16d",
+    "source/MARCP/visualization/viz_sequence.py": "e9ab67c071001ec2428729b1ee7b15222f3fa8129db126076435684696a87668",
+    "source/marcp_train.py": "125b379f25b3894697e64ce435e5051325969e6e1e4687f3424c3dc3cff221d3"
+  }
+}

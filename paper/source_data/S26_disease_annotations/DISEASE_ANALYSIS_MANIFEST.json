@@ -1,0 +1,34 @@
+{
+  "inputs": [
+    {
+      "path": "/data/CARBON_PROJECT\\revision_v4\\work_variants\\EVENTS_WITH_CONSERVATION_AND_PREDICTIONS.csv",
+      "sha256": "d0b062cf31941ad26d3bc3478751825e67dc817a5f5263f27af1edc0af2fcc07"
+    },
+    {
+      "path": "/data/CARBON_PROJECT\\revision_v15\\work_disease\\clinvar\\ALL4669_EXACT_CLINVAR_ANNOTATIONS.csv",
+      "sha256": "fdec317ff4f742e3d968121bd07108be77379e4e88541d1540db403c1800661c"
+    },
+    {
+      "path": "/data/CARBON_PROJECT\\revision_v15\\work_disease\\clinvar\\ALL3_PLP_DIRECT_VERIFICATION.csv",
+      "sha256": "83e45376e31dba00f1641543911d50a2108b0bfadd67b2f97b4a5f37fa4375c5"
+    },
+    {
+      "path": "/data/CARBON_PROJECT\\revision_v15\\work_disease\\tcga\\TCGA_EXISTING_VARIANTS.csv",
+      "sha256": "54461e0c768d3081511cdcdf64f39a80cc9fdc5aa10497ee97ceeb11ca74bff8"
+    },
+    {
+      "path": "/data/CARBON_PROJECT\\revision_v15\\work_disease\\tcga\\TCGA_VARIANT_PROJECT_COUNTS.csv",
+      "sha256": "32478dfc24b54fd1a9666572c1a1969302b22c1978404c704737716311f0cb2b"
+    },
+    {
+      "path": "/data/CARBON_PROJECT\\revision_v15\\work_disease\\population\\ALL4669_POPULATION_ANNOTATIONS.csv",
+      "sha256": "8e1ea85c16b10e099c205fe17d871607a5d0887c1fffe39b4e5ef4c6501fd2b9"
+    }
+  ],
+  "script": "/data/CARBON_PROJECT\\revision_v15\\work_disease\\analyze_disease.py",
+  "script_sha256": "24cf467946fcbe2da25584a4650ddbbbd946c91f54aa2ac97101b44ebdbe4852",
+  "complete_exact_cohort": true,
+  "new_model_run": false,
+  "output_variants": 8,
+  "output_events": 13
+}

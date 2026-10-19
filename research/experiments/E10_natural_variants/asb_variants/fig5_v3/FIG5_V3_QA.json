@@ -1,0 +1,83 @@
+{
+  "page_count": 1,
+  "canvas_mm": [
+    177.99999855889212,
+    190.0000089857313
+  ],
+  "all_scientific_artwork_native_vector": true,
+  "base_palette_glyph_changes": 62,
+  "accepted_a_b_noncolor_PDF_operations_unchanged": true,
+  "accepted_a_b_all_character_geometry_unchanged_within_0_00002pt_extraction_roundoff": true,
+  "max_color_run_text_extraction_delta_pt": 0.0,
+  "SVG_geometry_unchanged_except_62_base_fill_styles": true,
+  "a_b_pixel_regression": {
+    "mask": "62 original nucleotide glyph boxes plus x35..85,y5..20.1 mm Phi inset; 2px antialias margin",
+    "dpi": 300,
+    "masked_base_glyphs": 62,
+    "max_rgb_difference_outside_masks": 0,
+    "changed_pixels_outside_masks": 0,
+    "compared_pixels": 972876
+  },
+  "c_all25_original_order": true,
+  "c_complete_36_tasks_1152_paired_model_responses": true,
+  "c_primary_all1024_word_endpoint_retained": true,
+  "c_secondary_within_composition_frozen_summary_retained": true,
+  "c_deltaZ5_and_frequency_bars_unclipped": true,
+  "c_Z5_bounds": [
+    0.9605503727007146,
+    5.466287719730714
+  ],
+  "c_frequency_bounds": [
+    -217.5,
+    -3.0
+  ],
+  "d_all10_example_events_retained": true,
+  "e_all396_original_events_exact_field_match": true,
+  "e_counts_variants_RBPs_regions": [
+    287,
+    85,
+    119
+  ],
+  "e_nonoutcome_shared_sort_verified": true,
+  "shared_c_d_e_response_scale": {
+    "range": [
+      -1.8,
+      1.8
+    ],
+    "display_transform": "asinh",
+    "linear_width": 0.02,
+    "model_specific_normalization": false
+  },
+  "e_raw_response_bounds": {
+    "A_native_major_minus_minor": [
+      -0.1524558067321777,
+      1.4694209098815918
+    ],
+    "S_major_minus_minor": [
+      -0.1336994171142578,
+      1.682225227355957
+    ],
+    "A_flat_major_minus_minor": [
+      -0.1405198574066162,
+      1.4853508472442627
+    ],
+    "A_permmean_major_minus_minor": [
+      -0.1396513779958089,
+      1.4919928709665935
+    ]
+  },
+  "all_five_aggregate_CIs_inside_40_to_80_axis": true,
+  "Full_minus_Sequence_two_way_CI_pp": [
+    -15.970237369747828,
+    1.6411083571633116
+  ],
+  "no_new_scientific_statistics": true,
+  "source_hashes_and_original_canonical_copies_unchanged": true,
+  "visible_font_range_pt": [
+    4.0,
+    9.0
+  ],
+  "font_note": "4 pt H/K identity glyphs only; 5-mer bases are 5.8 pt monospaced with 1.4 mm spacing.",
+  "SVG_export_rendered_and_visually_inspected": true,
+  "visual_review": "Parent and author inspected updated 178-mm PDF preview; 300-dpi c/e detail and the independently rendered SVG preview inspected after final readability fixes."
+}

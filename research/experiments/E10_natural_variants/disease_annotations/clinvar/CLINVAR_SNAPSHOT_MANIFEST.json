@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-10-14T03:30:01.134967+00:00",
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20261011.vcf.gz",
+  "source_release": "2026-10-11",
+  "source_reference": "GRCh38",
+  "source_bytes": 200437060,
+  "source_sha256": "05d9481dd7217cc4df15803362d4a4c9eae5875b27b1750867d6bfd2643b3d10",
+  "source_md5_expected": "0f3a1a5e84252386033d5fcab1bf1f6a",
+  "source_md5_actual": "0f3a1a5e84252386033d5fcab1bf1f6a",
+  "input_keys": 4669,
+  "context_gene_symbols": 2183,
+  "existing_unique_matches": 520,
+  "existing_match_rows": 520,
+  "existing_missing_keys": 4149,
+  "matched_groups": {
+    "Benign/Likely benign": 453,
+    "No germline classification": 52,
+    "Uncertain significance": 4,
+    "Conflicting classifications": 7,
+    "Pathogenic/Likely pathogenic": 3,
+    "Other classification": 1
+  },
+  "plp_splice_utr_context_gene_candidates": 7668,
+  "plp_within_existing_101nt_candidates": 364,
+  "benign_splice_utr_context_gene_controls": 10737,
+  "vcf_records": 4594764,
+  "selection": "Entire existing allele cohort. Extra candidates: exact SNV, aggregate germline P/LP (no conflicts), review >=1 star, molecular consequence splice or UTR, gene-symbol overlap with preexisting model gene contexts. No model outcomes used.",
+  "limits": [
+    "Missing VCF match is not benign.",
+    "Gene symbol overlap is availability screening, not a transcript coordinate/strand verification.",
+    "Clinical classification is not an RBP-binding or measured mutation effect label.",
+    "VCV accession intentionally unversioned; release-bound variation IDs supplied.",
+    "Inside existing 101nt intervals uses exact old variant centers +/-50; new off-center edits require REF-sequence validation before inference."
+  ],
+  "input_keys_sha256": "237360a93765a9bd3240e6bf86a43a23cf8693e0feb4cf282b3385824021da1d",
+  "input_events_sha256": "82e992adb15e4f62b435a9a2d8220c4d396ec04952eb05465dcccd1a520664a9"
+}

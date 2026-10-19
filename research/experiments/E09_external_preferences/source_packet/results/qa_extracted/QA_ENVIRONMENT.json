@@ -1,0 +1,8 @@
+{
+  "start_utc": "2026-10-04 11:38:00",
+  "torch": "2.4.1+cu121",
+  "cuda_visible_devices": "",
+  "device": "cpu",
+  "cuda_name": null,
+  "script_sha256": "27e816d7d8216862f3f9b72db912200348f981bbfc115d5317dc9185b8e05ddd"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "E06_motifs",
+  "title": "Motif识别、金标对照与环图",
+  "question": "219任务图谱、原CISBP-RNA对照及后续ATtRACT检索",
+  "paper": "Figure 3; S21; S24; Data S6/S10",
+  "status": "冻结输入、查询/参考、统计及新R绘图源保留",
+  "limits": "图谱219不表示219任务均显著；参考有实测/汇编/推断来源。ATtRACT全查询的检索家族与原CISBP统计不同；选择案例是事后展示。"
+}

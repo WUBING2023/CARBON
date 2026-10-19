@@ -1,0 +1,44 @@
+{
+  "scope": "Display adaptation only; no inference, motif selection, new reference search or significance test.",
+  "n_tasks": 219,
+  "n_rbp_symbols": 150,
+  "crop_nt": 9,
+  "linkage": "Existing Euclidean PPM distance, average linkage; child rotations only to retain the exact frozen leaf order.",
+  "all_original_clades_and_heights_preserved": true,
+  "sources": [
+    {
+      "file": "atlas_source_matrices.npz",
+      "sha256": "da54a7dacc0163d05d7a3e68071b8de095a2263670de169e201b8693bfcb4bb7"
+    },
+    {
+      "file": "figureA_dist_matrix.csv",
+      "sha256": "76cb5014bb97fdfe545659260b1bc16f76a54d77d0e179ed305db33a78b61193"
+    },
+    {
+      "file": "leaf_metadata.csv",
+      "sha256": "95f7de3021e9d88e3464735f126efcb45273e42f30bacd347d387cc059cfbf89"
+    },
+    {
+      "file": "motif_ppms.csv",
+      "sha256": "56eb1cb7020684409d0fd6720c055242d7f7ff8b100498dbfeefe076a1c258bf"
+    },
+    {
+      "file": "Supplementary_Data_S10_motif_leaf_mapping.csv",
+      "sha256": "a1acaca246ac08584112f5441bcb6cddec0b34f3d7303fd103b3e72c5f0af7d8"
+    },
+    {
+      "file": "tree_input_ids.csv",
+      "sha256": "60faf6ffc68eccf9e8d4d66434613c926bd5a5de64a78e8b0ee9a88310dd6e7d"
+    },
+    {
+      "file": "tree_merge.csv",
+      "sha256": "898a5cbbfd60a81e61fe5813bae29184697c930a729b1dd0caec4cdae3a0dc69"
+    }
+  ],
+  "reference_code": "../reference_bundle/plot_circos.R",
+  "base_revision": "revision_v30",
+  "unchanged_panels": [
+    "b",
+    "c"
+  ]
+}

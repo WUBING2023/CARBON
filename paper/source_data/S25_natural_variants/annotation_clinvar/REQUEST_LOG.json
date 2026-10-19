@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=1165038,1177990,1189217,1241902,1242493,1250388,1265365,128593,1293025,1599764,194610,219609,238316,257484,257489,257491,257709,257713,261301,261319,2688066,3059674,315447,362015,362019,380876,668076,678357,681300,681302,93077&retmode=json",
+    "headers": {
+      "Date": "Mon, 12 Oct 2026 11:02:25 GMT",
+      "Server": "Finatra",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Referrer-Policy": "origin-when-cross-origin",
+      "Ncbi-Sid": "435E68A3FFA29F5C_A549SID",
+      "Ncbi-Phid": "1D343D4AD45EF8C5000030C83C26AF78.1.1.m_1",
+      "Content-Type": "application/json; charset=UTF-8",
+      "Cache-Control": "private",
+      "X-Ratelimit-Limit": "3",
+      "X-Ratelimit-Remaining": "2",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Expose-Headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+      "Set-Cookie": "ncbi_sid=435E68A3FFA29F5C_A549SID; domain=.nih.gov; path=/; expires=Tue, 12 Oct 2027 11:02:25 GMT",
+      "Vary": "Accept-Encoding",
+      "X-Ua-Compatible": "IE=Edge",
+      "X-Xss-Protection": "1; mode=block",
+      "Transfer-Encoding": "chunked",
+      "Via": "1.1 google",
+      "Alt-Svc": "clear",
+      "Connection": "close"
+    },
+    "retrieved_utc": "2026-10-12T11:02:26.228057+00:00",
+    "sha256": "65ddaa2404a3c10388d9e94114928e7913a0cbd7aeddf0313d097a0e68ce0e0b"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "scope": "Public ClinVar source retrieval; no result filled from a failed request",
+  "failures": [
+    {"resource": "official dated VCF", "failure": "curl56 receive failure at95663599bytes", "resolution": "HTTP206 byte-range continuation to200437060bytes; final official MD5 matched"},
+    {"resource": "official MD5 firstrequest", "failure": "TLS handshake", "resolution": "bounded retry succeeded"},
+    {"resource": "VCV webpages1066986and2498883 viawebtool", "failure": "Internal Error", "resolution": "Current ESummary exact canonicalSPDI/class/review returned and archived for all3"},
+    {"resource": "ELP1 VCV webpage via curl", "failure": "TLS handshake", "resolution": "VCV-level ESummary disease names available; not disease-specific RCV assertions"},
+    {"resource": "ELP1 RCV001378128/RCV001826136/RCV005050363 viawebtool", "failure": "inaccessible", "resolution": "Per-condition classification remains unverified; do not map aggregate LP to every listed condition"},
+    {"resource": "ELP1 VCV XML efetch", "failure": "TLS handshake", "resolution": "No extra request; per-condition classification remains unverified"}
+  ]
+}

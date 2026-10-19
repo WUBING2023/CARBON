@@ -1,0 +1,29 @@
+{
+  "protocol_sha256": "9c3cef0ba13fa580dbdae7b7613f59a71943c0868791edafa229b0567dbf8260",
+  "runner_sha256": "fee459f77bdc8043aa6bfd15642d7be86a85cbfc6b0fb033a2ef012ce4c4f9d7",
+  "inputs_sha256": "0a0d06a9f26d647ce27664bbbe33d2231790be6edb0535a18b9f925570f65c7f",
+  "events_sha256": "a2876b37b376bc1d3d7790a2bd7b1493f8086365d95860b5e9622c1877e956e0",
+  "model_source_sha256": "79d439020163d1788af2f9f9007037378920030a2d914a36d4910c5f7cc21600",
+  "inventory_sha256": "5a0ddd70a76a2c334f2d9f7d105321c761dd6d61222ee6451f0645c28d8c2144",
+  "states": [
+    "aligned",
+    "window_mean",
+    "permutation17",
+    "permutation43",
+    "permutation97"
+  ],
+  "allele_order": [
+    "source_major",
+    "source_minor"
+  ],
+  "primary_endpoint": "log_total_count(major)-log_total_count(minor)",
+  "tie_absolute_tolerance": 1e-06,
+  "device": "cpu",
+  "threads": 2,
+  "torch": "2.4.1+cu121",
+  "numpy": "1.24.4",
+  "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+  "executable": "/data/CARBON_PROJECT/\u6d88\u878d\u5b9e\u9a8c/\u5168\u91cf\u6d88\u878d\u8fd0\u884c/venv/bin/python",
+  "hostname": "server15",
+  "reference_center_rna": 50
+}

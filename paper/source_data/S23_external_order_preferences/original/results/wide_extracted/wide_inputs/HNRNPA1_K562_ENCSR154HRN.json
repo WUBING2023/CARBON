@@ -1,0 +1,22 @@
+{
+  "task": "HNRNPA1_K562_ENCSR154HRN",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPA1_K562_ENCSR154HRN/_5ch/HNRNPA1_K562_ENCSR154HRN_chr8_5ch.h5",
+      "bytes": 2799331,
+      "n_windows": 5898,
+      "sha256": "fd3d0a68b7d0732780a22fd84801d9b17c37cbdbfcb67d787f89274c30f5f1eb"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/HNRNPA1_K562_ENCSR154HRN/_5ch/HNRNPA1_K562_ENCSR154HRN_chr15_5ch.h5",
+      "bytes": 2429221,
+      "n_windows": 5068,
+      "sha256": "eb741cf591b121d94ba63f3402ef0de609d942183e0172e529ee982fcf31408c"
+    }
+  ],
+  "n_total": 10966,
+  "n_eligible": 10966,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "452bf1df9464cd8384eeb70466d14b793019618ccfcda217993185f4351759c0"
+}

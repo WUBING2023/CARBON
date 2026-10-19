@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-04T13:55:22.301552+00:00",
+  "old_strict_62_failures_preserved": true,
+  "files": [
+    {
+      "file": "FAMILY_QA.json",
+      "sha256": "7762d2c03aae46cba6616f9e39063d591967d8bd7ed51f1bbd6aa0f0e6957b77"
+    },
+    {
+      "file": "FAMILY_CHECKS.csv",
+      "sha256": "63d595808e4a265a4306402a73d1996bdc204ef1a4bf74ab28a45ef756ea8ff2"
+    },
+    {
+      "file": "FAMILY_INDEPENDENT_METRICS.csv",
+      "sha256": "70d0f768d48ff7f778a4271060a608dacec53fc1e88db5d1f1c85e46174d472d"
+    },
+    {
+      "file": "FAMILY_INDEPENDENT_CONTRASTS.csv",
+      "sha256": "786a81ae1058aac80412bd8c690b4f998230e054274691d878a9514425f33afb"
+    },
+    {
+      "file": "FIGURE_QA.json",
+      "sha256": "aabcf9df913fabfda195c6764269de5d04768efe3f968a7563ef7f9af7aa4e2b"
+    },
+    {
+      "file": "FIGURE_CHECKS.csv",
+      "sha256": "2c15ff0b037c0fca1d641c9a75fb0f2f6a0af7bb97168e8ad4bbedf6d059cf35"
+    },
+    {
+      "file": "QA.json",
+      "sha256": "7270c7be41863b5fc4a3e486becad5d819b420457e0cbce1086e996c1419e8a8"
+    },
+    {
+      "file": "INDEPENDENT_POINTS.csv",
+      "sha256": "058bacc46d5ad44bfff1925d1ec7247b770d6b978d83dec478800a1a8f4d6f6a"
+    },
+    {
+      "file": "INDEPENDENT_BOOTSTRAP_SUMMARY.csv",
+      "sha256": "63ecc3c4600296abd6ccb00b177bdd6bdbff99e533fdbc2e75c0c5e0566beb92"
+    },
+    {
+      "file": "CHECKS.csv",
+      "sha256": "c95c43bc0b5cc563fa3ac7f2cbcdd11c3f1f40c78e91ecff580fa37bec5338de"
+    }
+  ]
+}

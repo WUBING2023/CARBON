@@ -1,0 +1,24 @@
+#!/bin/bash
+python3 -u /data/CARBON_PROJECT/MARCP/marcp_train.py \
+  --CUDA 0 \
+  --task DHX30_HepG2_ENCSR565DGW \
+  -train /data/CARBON_PROJECT/数据/h5data/DHX30_HepG2_ENCSR565DGW/_5ch/DHX30_HepG2_ENCSR565DGW_chr1_5ch.h5 \
+  -validation /data/CARBON_PROJECT/数据/h5data/DHX30_HepG2_ENCSR565DGW/_5ch/DHX30_HepG2_ENCSR565DGW_chr2_5ch.h5 \
+  -test /data/CARBON_PROJECT/数据/h5data/DHX30_HepG2_ENCSR565DGW/_5ch/DHX30_HepG2_ENCSR565DGW_chr3_5ch.h5 \
+  --output /data/CARBON_PROJECT/参数最优化/results/trial_outputs/trial_0003/DHX30_HepG2_ENCSR565DGW \
+  --epochs 100 \
+  --input_channels 5 \
+  --encode OneHot \
+  --modelFramework Treat \
+  --lossM CombinedProfileLoss \
+  --signalMax 0 \
+  --seqLength 101 \
+  --loss_scale 1.0 \
+  --lr 0.000638527 \
+  --bsz 256 \
+  --weight_decay 0.00109711 \
+  --alpha 1.30795 \
+  --beta 0.383594 \
+  --gamma 0.95169 \
+  --grad_clip 2.0 \
+  --max_stopping_step 8

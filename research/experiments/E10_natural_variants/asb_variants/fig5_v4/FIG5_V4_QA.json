@@ -1,0 +1,236 @@
+{
+  "canvas_mm": [
+    178,
+    142
+  ],
+  "page_count": 1,
+  "all_scientific_artwork_native_vector": true,
+  "old_to_new_panels": {
+    "a": "a",
+    "b": "b",
+    "c": "d",
+    "d": "c",
+    "e": "e"
+  },
+  "a_b_uniform_transform_pixel_regression": {
+    "a": {
+      "dpi": 300,
+      "compared_pixels": 318985,
+      "max_rgb_difference": 0,
+      "changed_pixels": 0,
+      "scale": 0.6764705882352942,
+      "source_crop_mm": [
+        0,
+        0,
+        85,
+        60
+      ],
+      "destination_mm": [
+        0,
+        1,
+        57.5,
+        41.58823529411765
+      ],
+      "exception": "panel identifier glyph only; 2px antialias margin"
+    },
+    "b": {
+      "dpi": 300,
+      "compared_pixels": 185692,
+      "max_rgb_difference": 0,
+      "changed_pixels": 0,
+      "scale": 0.6764705882352942,
+      "source_crop_mm": [
+        0,
+        60,
+        85,
+        95.4
+      ],
+      "destination_mm": [
+        59.25,
+        1,
+        116.75,
+        24.947058823529414
+      ],
+      "exception": "panel identifier glyph only; 2px antialias margin"
+    }
+  },
+  "a_b_original_data_geometry_ticks_and_response_points_preserved_under_uniform_scale": true,
+  "a_b_original_axis_font_pt_6_5_becomes_pt": 4.397058823529412,
+  "a_original_fixed_Phi_inset_font_pt_5_2_becomes_pt": 3.51764705882353,
+  "d_H_K_identity_font_pt": 4.0,
+  "d_5mer_letters_font_pt": 5.8,
+  "d_5mer_letter_spacing_mm": 1.4,
+  "c_all10_actual_events_retained": true,
+  "c_response_direction": "C reference minus U alternate; positive favors REF",
+  "e_response_direction": "BEAPR-observed preferred minus other; positive agrees with BEAPR; REF can be either allele",
+  "all396_event_fields_exactly_match_frozen_source": true,
+  "all396_display_csv_byte_identical_to_v3": true,
+  "e_non_output_sort_unchanged": true,
+  "counts_25_RBPs_36_tasks_1152_responses_396_events_287_variants_85_RBPs_119_regions_verified": true,
+  "all17_native_heatmaps_5690_cells_source_to_export_exact": [
+    {
+      "mesh": "c_phi",
+      "cells": 11,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "c_10x4",
+      "cells": 40,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "d_all25x3_primary_rho",
+      "cells": 75,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "d_Full_50x16",
+      "cells": 800,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "d_Sequence_50x16",
+      "cells": 800,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "d_rho_colorbar",
+      "cells": 80,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "d_response_colorbar",
+      "cells": 160,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "e_phi",
+      "cells": 396,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "e_REF",
+      "cells": 396,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "e_ALT",
+      "cells": 396,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "e_BEAPR",
+      "cells": 396,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "e_region",
+      "cells": 396,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "e_A_native",
+      "cells": 396,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "e_S",
+      "cells": 396,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "e_A_flat",
+      "cells": 396,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "e_A_permmean",
+      "cells": 396,
+      "source_to_export_exact_color_match": true
+    },
+    {
+      "mesh": "e_response_colorbar",
+      "cells": 160,
+      "source_to_export_exact_color_match": true
+    }
+  ],
+  "shared_c_d_e_response_mapping": {
+    "range": [
+      -1.8,
+      1.8
+    ],
+    "display_transform": "asinh",
+    "linear_width": 0.02,
+    "model_specific_normalization": false
+  },
+  "common_response_colorbars_exactly_identical": true,
+  "d_all1024_primary_and_within_composition_secondary_unchanged": true,
+  "d_all25_edits_and_negative_response_cells_retained": true,
+  "all5_accuracy_arms_unclipped": {
+    "A_native": {
+      "accuracy_pct": 52.03558662213932,
+      "ci_pct": [
+        43.5882522791112,
+        59.87210906005673
+      ]
+    },
+    "S": {
+      "accuracy_pct": 58.76972589188232,
+      "ci_pct": [
+        50.582937839249986,
+        66.49777852759783
+      ]
+    },
+    "A_flat": {
+      "accuracy_pct": 53.45601856303163,
+      "ci_pct": [
+        44.93860100382617,
+        61.484631241081665
+      ]
+    },
+    "A_permmean": {
+      "accuracy_pct": 52.36471827480038,
+      "ci_pct": [
+        44.223028761963164,
+        60.36197182508929
+      ]
+    },
+    "ref": {
+      "accuracy_pct": 64.76746480438094,
+      "ci_pct": [
+        55.87112303600647,
+        73.14731559582866
+      ]
+    }
+  },
+  "e_quartile_counts": [
+    116,
+    101,
+    86,
+    93
+  ],
+  "Full_minus_Sequence_two_way_CI_pp": [
+    -15.970237369747828,
+    1.6411083571633116
+  ],
+  "source_and_export_sha256_all_verified": true,
+  "no_new_scientific_statistics_or_inference": true,
+  "final_pdf_sha256": "0023e4217e66b0846d8118f9294cde4a279b63317c3129c082c4be973af5a3e6",
+  "final_svg_sha256": "8f2d0bcc51651c1517763b824776d84d1023e8f797a7c325f1b71b6dab4319a9",
+  "SVG_independent_Cairo_render_exists": true,
+  "visual_review": "Author inspected full 178-mm PDF and independently rendered SVG preview; parent inspected early 178-mm PNG and accepted this compact arrangement. Detail inspection is recorded in the caption/mapping note.",
+  "installed_pdf": {
+    "path": "M:\\RBP\\CARBON_\u6295\u7a3f\u524d\u5927\u6539_20261012\\revision_v4\\manuscript\\figures\\fig5.pdf",
+    "sha256": "0023e4217e66b0846d8118f9294cde4a279b63317c3129c082c4be973af5a3e6",
+    "byte_identical_to_reviewed_export": true
+  },
+  "actual_visual_detail_review": [
+    "full178mm PDF preview",
+    "full178mm independent Cairo SVG preview",
+    "300dpi top row",
+    "300dpi complete d with all25 five-mer rows",
+    "300dpi complete e with all396 columns"
+  ],
+  "reference_comparison_pdf_sha256": "34ea86a19b7d74568a88e79a0cc5a6ed0f74470124345f06205a3a9836495df1",
+  "remaining_readability_limit": "Uniform scaling makes original a/b axis labels 4.397pt and Phi scale labels 3.518pt; scaling was explicitly authorized. All values and glyph geometry scale together, not selectively enlarged or deformed."
+}

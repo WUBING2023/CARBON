@@ -7,7 +7,7 @@ cd "$ROOT"
 TASK="AARS_K562_ENCSR825SVO"
 TEST="data/h5data/${TASK}/_5ch/${TASK}_chr3_5ch.h5"
 MODEL="${1:-carbon_trained_model/AARS_K562_ENCSR825SVO_demo/model_params.pth}"
-OUT="${2:-carbon_trained_model/AARS_K562_ENCSR825SVO_demo_eval_only}"
+OUT="${2:-outputs/demo_eval_only}"
 
 if [[ ! -f "$MODEL" ]]; then
   echo "Not found: $MODEL" >&2
@@ -17,7 +17,7 @@ fi
 python3 -u carbon_train.py \
   --eval_only \
   --load_model "$MODEL" \
-  --CUDA 0 \
+  --CUDA "${CUDA_DEVICE:--1}" \
   --signalMax 0 \
   --seqLength 101 \
   --bsz 64 \

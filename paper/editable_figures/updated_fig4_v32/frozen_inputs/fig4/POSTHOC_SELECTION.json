@@ -1,0 +1,95 @@
+{
+  "type": "explicit posthoc illustration after three model outputs; not preregistered or confirmatory",
+  "original_eligible_denominator": 1851,
+  "rules": [
+    "original eligible pairs",
+    "identical seven-mer",
+    "absolute adjusted observed margin >=0.2",
+    "support counts >=10",
+    "Full direction correct",
+    "both control directions wrong"
+  ],
+  "direction_definition": "strict sign agreement/wrong side of0.5; exact predicted ties excluded",
+  "sort": "minimum of NoGRU-minus-Full and Local+pos-minus-Full allocation squared-error improvements descending; pair hash ascending for exact-score ties",
+  "funnel": [
+    {
+      "stage": "original eligible pairs",
+      "remaining": 1851,
+      "original_denominator": 1851
+    },
+    {
+      "stage": "identical seven-mer",
+      "remaining": 86,
+      "original_denominator": 1851
+    },
+    {
+      "stage": "absolute adjusted observed margin >=0.2",
+      "remaining": 55,
+      "original_denominator": 1851
+    },
+    {
+      "stage": "support counts >=10",
+      "remaining": 42,
+      "original_denominator": 1851
+    },
+    {
+      "stage": "Full direction correct",
+      "remaining": 33,
+      "original_denominator": 1851
+    },
+    {
+      "stage": "both control directions wrong",
+      "remaining": 8,
+      "original_denominator": 1851
+    }
+  ],
+  "final_candidates": 8,
+  "selected_task": "PTBP1_K562_ENCSR981WKN",
+  "selected_chromosome": "chr1",
+  "selected_original_index": 2360,
+  "selected_pair_row": 1489,
+  "selected_hash": "500b3e37b87d9f761a16b6ad69e28895d68237a8d5f0816dc439f80cc0c8ea2d",
+  "selected_gene_row": 212,
+  "selected_gene_mean_pairs": 2,
+  "selected_centers": [
+    67,
+    83
+  ],
+  "selected_shares": {
+    "observed": 0.9333333333333333,
+    "aligned": 0.9301274882274136,
+    "nogru": 0.49735143422582984,
+    "local_pos": 0.48448731637751596
+  },
+  "native101_to_original22_max_error": {
+    "observed_signal": 0.0,
+    "input_signal": 0.0,
+    "full_profile": 0.0,
+    "nogru_profile": 0.0,
+    "local_position_profile": 0.0,
+    "phi": 0.0
+  },
+  "actual_three_seed_support_shares": {
+    "aligned": [
+      0.9410938353380391,
+      0.9069808846554631,
+      0.9397189684879975
+    ],
+    "nogru": [
+      0.49298863495341705,
+      0.5037412791160243,
+      0.4955001169775724
+    ],
+    "nogru_position_capacity": [
+      0.4886128109521194,
+      0.49018854453977834,
+      0.4749263884496345
+    ]
+  },
+  "no_new_model_fits_or_inferential_tests": true,
+  "source_csv_sha256": "3bbffa8446c8428dcc6cb7adeb0dd68afb25d1a7a31ece1a3d15f8719186f357",
+  "original22_packet_sha256": "6383572632a118a982187ab8f684339e8b99b1a88ed50646c18b2455bf91ec30",
+  "candidate_table": "SELECTION_CANDIDATES.csv",
+  "all1851_table": "SELECTION_ALL_1851.csv",
+  "preserved_previous_positive_case": "SUPPLEMENT_PREVIOUS_LEPR.pdf"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "E08_native_allocation",
+  "title": "原生重复核心分配",
+  "question": "PTBP1: Full、NoGRU与近同容量Local+pos，三seed",
+  "paper": "Figure 4; S1.17; Data S22",
+  "status": "完整pair表、原始profile、训练/推理manifest保留",
+  "limits": "主1851对/659gene/865cell-gene；先gene内再细胞等权。所有对照保留Phi和global SE，结果是架构分配证据，不是保守性独有机制证据。"
+}

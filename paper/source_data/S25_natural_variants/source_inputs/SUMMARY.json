@@ -1,0 +1,40 @@
+{
+  "source_rows": 7489,
+  "exact_task_matched_source_rows": 7289,
+  "qualified_events": 7262,
+  "input_allele_rows": 14524,
+  "included_RBPs": 140,
+  "included_RBP_cell_tasks": 200,
+  "global_RNA_clusters": 1978,
+  "split_events": {
+    "training": 5409,
+    "validation": 1457,
+    "strict_test": 396
+  },
+  "source_cells": {
+    "HepG2": 3706,
+    "K562": 3783
+  },
+  "qualified_cells": {
+    "HepG2": 3557,
+    "K562": 3705
+  },
+  "verified_checkpoints": 404,
+  "verified_all_hashes_match_prior": true,
+  "source_PTBP1_rows": 123,
+  "included_PTBP1_events": 123,
+  "model_outputs_queried": false,
+  "exclusions": {
+    "101_window_nonfinite_PhyloP": 18,
+    "no_exact_existing_RBP_cell_task": 200,
+    "non_unique_center_liftover": 1,
+    "non_reciprocal_center_liftover": 1,
+    "101nt_liftover_not_unique": 2,
+    "101nt_liftover_not_contiguous": 1,
+    "invalid_source_normalized_allele_encoding;boolean_not_coerced_to_T": 5,
+    "reference_query_error:KeyError": 1
+  },
+  "preferred_direction": "normalized major > normalized minor, not raw-count ordering",
+  "sampling_unit": "events nested withinRBP/cell task andRNA gene-connected-component; fixed intergenic1Mb bins",
+  "prior_scope": "Strict396 previouslyexamined;PTBP1source123 previouslyexamined;not newindependentassay;training/validationnot unseen"
+}

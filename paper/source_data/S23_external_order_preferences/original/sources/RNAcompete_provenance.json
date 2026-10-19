@@ -1,0 +1,14 @@
+{
+  "url": "https://raw.githubusercontent.com/morrislab/RBPbinding/b67d8fba065b3c010da672a4980c4ed440745710/Data/Zscores_420_origrncmpt.tar.gz",
+  "commit": "b67d8fba065b3c010da672a4980c4ed440745710",
+  "git_blob_sha1": "1bf4ebb9103ea17dfe734e00f26f3e6d29a96508",
+  "sha256": "bf65e4bdd12fb1f8fd5db585e5165db24cc1dba6a1b2708f2cc0e12255a676bd",
+  "gene_ids": [
+    "ENSG00000011304"
+  ],
+  "experiment_ids": [
+    "RNCMPT00268",
+    "RNCMPT00269"
+  ],
+  "select_all_matching_PTBB1_experiments_before_score_evaluation": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "E03_ablation",
+  "title": "222任务全量消融",
+  "question": "222任务×5去除项，另含完整baseline：模型组件预测价值",
+  "paper": "Results 5.2; Data S2",
+  "status": "逐任务指标、配置、权重身份可对照",
+  "limits": "任务不是生物学重复；noGRU容量改变；no_multiscale容量也改变；reconstruction-only存在指标取舍。保守性预测价值不等于功能解释正确性。"
+}

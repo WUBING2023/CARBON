@@ -1,0 +1,22 @@
+{
+  "task": "FXR2_K562_ENCSR224QWC",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/FXR2_K562_ENCSR224QWC/_5ch/FXR2_K562_ENCSR224QWC_chr8_5ch.h5",
+      "bytes": 1573268,
+      "n_windows": 3496,
+      "sha256": "e2b60269729295c07650570dbaf3e0c30165b5291392251380eefdc5b99beaf6"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/FXR2_K562_ENCSR224QWC/_5ch/FXR2_K562_ENCSR224QWC_chr15_5ch.h5",
+      "bytes": 1409052,
+      "n_windows": 2995,
+      "sha256": "9046afe33db40939e75f831f9b6e36b7a6b71262f5acd674350365e077a577a2"
+    }
+  ],
+  "n_total": 6491,
+  "n_eligible": 6491,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "024f475374c1f052781e91f41ef006b4755e33e5eb6b13ce489c49920ffac5bd"
+}

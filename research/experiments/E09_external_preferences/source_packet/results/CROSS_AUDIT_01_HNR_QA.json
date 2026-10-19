@@ -1,0 +1,18 @@
+{
+  "readback_windows": 1418,
+  "unique_genes": 527,
+  "point_checks": 40,
+  "max_point_difference": 4.856115509710435e-13,
+  "CI_from_saved_arm_draws_independently_recomputed": true,
+  "bootstrap_draw_generation_repeated": false,
+  "paired_ci95": [
+    -0.03178611994820283,
+    -0.01998982040521624
+  ],
+  "center_rank": 0.5089831254257978,
+  "input_rank": 0.4997966278314277,
+  "same_coordinate_profiles": true,
+  "all_arms_retained": true,
+  "parameter_capacity_confound": true,
+  "window_center_prior_not_fully_ruled_out": true
+}

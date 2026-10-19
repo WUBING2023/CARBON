@@ -1,0 +1,91 @@
+{
+  "dimensions_mm": [
+    85,
+    139
+  ],
+  "one_complete_figure": true,
+  "native_geometry_values_line_colours_preserved": true,
+  "native_fill_alpha": 0.55,
+  "common_heatmap_white_blend": 0.24,
+  "matrix_shape_each": [
+    865,
+    22
+  ],
+  "all_four_arrays_preserved": true,
+  "row_order_frozen": true,
+  "865_rows_preserved": true,
+  "1851_pairs_preserved": true,
+  "support_grouping": "Support1/2 each11nt; O/F/G/L adjacent within each support; no column interpolation",
+  "mass_mapping": {
+    "gamma": 0.5,
+    "anchors_L_C_U": [
+      0,
+      0.03956027423918412,
+      0.2
+    ],
+    "pooled_records": 76120,
+    "pooled_median_white": true,
+    "pooled_q99_high": true,
+    "same_mass_same_RGBA_for_all_models": true,
+    "saturation_count": 701,
+    "saturation_fraction": 0.009209143457698372,
+    "upper_extension": true,
+    "scale_unchanged_from_v3": true
+  },
+  "raw_share_mapping": {
+    "operation": "sum11nt of first support from frozen22nt matrix",
+    "anchors": [
+      0,
+      0.5,
+      1
+    ],
+    "linear_common_scale": true,
+    "observed_full_columns_all865": true,
+    "no_error_or_adjusted_q_in_raw_atlas": true
+  },
+  "scatter": {
+    "x": "raw observed first-support mass q",
+    "y": "Full first-support mass p",
+    "diagonal": "y=x",
+    "all865_points": true,
+    "cell_panels": [
+      {
+        "cell": "K562",
+        "rows": 412,
+        "first_row": 0,
+        "last_row": 411,
+        "q_sha256": "a7ec2c01454e2c6b8ef213043faaaded3439be2dede2e8e6b97cc871a2b3fb8f",
+        "p_sha256": "39c051283e57c02aa587027384700c261c455913faec78d8907290c7b99bf6ed"
+      },
+      {
+        "cell": "HepG2",
+        "rows": 453,
+        "first_row": 412,
+        "last_row": 864,
+        "q_sha256": "e58c1f828aecd2e39547ef4c822c4fd35cc029c01a364644f0103030af968e1e",
+        "p_sha256": "42fb7e65bbdfaf29ce7e4381d0d3694058a1295048f7794c5aecfda21a11c4f2"
+      }
+    ],
+    "not_heatmap_row_coordinates": true
+  },
+  "selected_cell_gene_rows": {
+    "ZMYM4": {
+      "row": 212,
+      "q_raw": 0.4666666666666666,
+      "p_full": 0.6088207937832847,
+      "a_b_are_pair_specific": true,
+      "c_is_gene_average": true
+    },
+    "OCRL": {
+      "row": 550,
+      "q_raw": 0.6410256410256411,
+      "p_full": 0.3963952815994112,
+      "a_b_are_pair_specific": true,
+      "c_is_gene_average": true
+    }
+  },
+  "no_training_or_inference_or_bootstrap_rerun": true,
+  "no_per_model_normalization": true,
+  "control_arrays_retained": true,
+  "soft_prediction_not_forced_to_match_sparse_observed_saturation": true
+}

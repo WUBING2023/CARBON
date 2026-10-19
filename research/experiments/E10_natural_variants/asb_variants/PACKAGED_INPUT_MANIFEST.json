@@ -1,0 +1,64 @@
+{
+  "files": {
+    "source_inputs\\ASB_ALL_EVENT_RESULTS.csv": {
+      "bytes": 2153213,
+      "sha256": "11113efbf0f4156ed3bc1494291441b719287e9ff45bd6722a1c42faaec845fa"
+    },
+    "source_inputs\\EVENTS_INCLUDED.json.gz": {
+      "bytes": 7880287,
+      "sha256": "fd53abc544d4f1f8e287f141fc05eed01503f1e72492a76ba5cb3e33056abfaf"
+    },
+    "source_inputs\\INPUTS.npz": {
+      "bytes": 3683260,
+      "sha256": "b2def142493a2ead41de63eb5303a5ad169cfcecab2151f5db505eb42cba82bc"
+    },
+    "source_inputs\\INPUT_CONTRACT.json": {
+      "bytes": 5523,
+      "sha256": "25bab18ef707d54cbd8d6e945792abfffc3ecac1c12df9b7ebf24ec1a282f60b"
+    },
+    "source_inputs\\PREDICTIONS.npz": {
+      "bytes": 291754,
+      "sha256": "9af1e179f2b166010dd11e17b6b73bf8a53092e8f1ac0266bf646ba5e33213b2"
+    },
+    "source_inputs\\SUMMARY.json": {
+      "bytes": 1358,
+      "sha256": "0cc097f05e855c53dec4f26c7f004d6e4018376c27050085c557ae992928b699"
+    },
+    "b1_reference\\CAPTION.md": {
+      "bytes": 1819,
+      "sha256": "170ef112b6be39ef9611b93e2bd8bcacb2f39de4cb7a926de63fced52f53d3dd"
+    },
+    "b1_reference\\figure.pdf": {
+      "bytes": 78030,
+      "sha256": "a69d19fb841318ecfb07cd1301ccf963b4095e100f845f9ad078ce753ce920e3"
+    },
+    "b1_reference\\figure.png": {
+      "bytes": 578514,
+      "sha256": "598ce65c6b134df6dacf8b12b6369a30125124fc3788cccb45b9e8e05e98c6ed"
+    },
+    "b1_reference\\figure.svg": {
+      "bytes": 132548,
+      "sha256": "a0e34ed891a3bbb742a81cfa801d996c77f3f5894f451a6e67dc0dac3d53edae"
+    },
+    "b1_reference\\INTERVENTION_PACKET.npz": {
+      "bytes": 29492,
+      "sha256": "f184db62c3d5b2903dee51b7f3172e090b5c6f71a1d2d5c550cc6d2430b131a9"
+    },
+    "b1_reference\\INTERVENTION_SOURCE.json": {
+      "bytes": 8547,
+      "sha256": "34f28b40bc270a1a26f40707f6fa0773d0712c578092d1d7cb42d5e563ed7af3"
+    },
+    "b1_reference\\prepare.py": {
+      "bytes": 5920,
+      "sha256": "b1dc7ecbab1dc3fe898484bb7740172c36b61b4492f2e7dfead524bfedaaa012"
+    },
+    "b1_reference\\render.py": {
+      "bytes": 7408,
+      "sha256": "ebd5213bcc4cb37b5d63293d2daa3c5f2b6c059453a87b21d7601d70086521b3"
+    }
+  },
+  "events_source_sha256": "d5901d15bc86d7113e8cff2cd5ca12ebf23a9e3e9950c53f401389d08ef58d52",
+  "compressed_JSON_is_byte_exact_after_decompression": true,
+  "training_weights_not_included": true,
+  "new_inference": false
+}

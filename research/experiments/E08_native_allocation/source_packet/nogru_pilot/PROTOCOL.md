@@ -1,0 +1,9 @@
+# NoGRU cost feasibility pilot
+
+Registered 2026-10-04 11:43 UTC. Hypothesis3 only proceeds if exactly matched six NoGRU runs can finish within90minutes. Pilot uses only original matched training/validation, not chr1/X/Y labels, and does not report one-epoch validation as a scientific advantage.
+
+Two PTBP1 tasks; seed11; native frozen MARCP ablation_no_gru=True. Initialize Full with matched random seed, construct NoGRU and copy every shared tensor from the same Full random state. Remove mixer.proj and bidirectionalGRU; preserve96→128 residual projection, LayerNorm/dropout, multiscale local extractor, global SE pooled gating, profile/count heads. Parameter count falls; this is architectural ablation, not a parameter-matched isolating recurrent-capacity effect. Profile receptive field has local convolution up to7nt plus global SE gates; no claim that all global information vanishes.
+
+Run one complete training+validation epoch with identical batch256, dropped final train remainder, AdamW lr.000785/wd.000114, combinedloss1.42/.54/1.80, gradclip2, sampler seed+10000, stochastic seed+20000 and original strict deterministic settings. Time IO separately and record parameter/state hashes. No heldout selection, no new fitted checkpoint used for a claim.
+
+GPU2 only when immediate nvidia-smi guard shows zero live compute jobs and <=10MiB memory; otherwise CPU4 pilot/explicit failure and no contention. Do not wait or seize another card. Upper training cost=3×100×(epochK+epochH), plus6×measured loading/checkpointIO. If<=90minutes, a separately frozen production protocol may authorize all3seeds with same100epoch maximum, validationPCC bestselection and patience9 as frozen Full. No reduced-data/short-epoch substitute may be called matched. Keep original Full budget/historical logs beside new runs.

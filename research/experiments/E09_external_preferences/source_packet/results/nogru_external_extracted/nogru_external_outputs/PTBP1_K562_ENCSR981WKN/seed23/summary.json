@@ -1,0 +1,13 @@
+{
+  "task": "PTBP1_K562_ENCSR981WKN",
+  "seed": 23,
+  "condition": "nogru",
+  "device": "CPU8",
+  "parameters": 44698,
+  "checkpoint_sha256": "ebee5a12e0e406c6e4b46851952004c937879cded9d7473354326294bf3f1bef",
+  "input_sha256": "3b403332ba7a69a50f8dd84dfd66bf5362d853d5d1e0575e9d95a35399b30386",
+  "script_sha256": "d1c54bd9a9ae04a8f9e39caba74ab3a36e6eee2e4f2573b813b098fcb96d5d6d",
+  "n_backgrounds": 16,
+  "n_words": 1024,
+  "elapsed_seconds": 1.869253396987915
+}

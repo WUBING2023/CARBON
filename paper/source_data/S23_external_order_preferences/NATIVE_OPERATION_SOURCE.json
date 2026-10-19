@@ -1,0 +1,24 @@
+{
+  "QKI": {
+    "first_existing_native_id": "QKI_HepG2_ENCSR570WLM|chr15|row4628",
+    "native_101nt_DNA": "CTTCTTCTAAAGCTAATCACTATTTTGACTCCTGTCATAGATTACTTTTCTCTGTGCTTAGCTGTCATATCAGTATAACTGTACCACATGTGTTCTTTTAT",
+    "original_central_DNA": "TCTCT",
+    "intervention_zero_based_interval": [
+      48,
+      53
+    ],
+    "Phi_fixed": "original native101nt Phi array remains unchanged in every word substitution",
+    "background_sets": "16 HepG2+16K562; not biological replicates"
+  },
+  "TIA1": {
+    "first_existing_native_id": "TIA1_HepG2_ENCSR623VEQ|chr8|row9648",
+    "native_101nt_DNA": "ACTATTGATAGATGAGACCAAGAATAACTGGGAAGTGTCAGCTCTTTCTCGGGCTGCCCAGAAAGGATTTAATAAAGTGGTGTTAAAGCATCTGAAGAAGA",
+    "original_central_DNA": "TCGGG",
+    "intervention_zero_based_interval": [
+      48,
+      53
+    ],
+    "Phi_fixed": "original native101nt Phi array remains unchanged in every word substitution",
+    "background_sets": "16 HepG2+16K562; not biological replicates"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "readback_windows": 1851,
+  "unique_genes": 659,
+  "point_checks": 40,
+  "max_point_difference": 4.776179451937423e-13,
+  "bootstrap_10000_max_abs_error": 4.163336342344337e-17,
+  "paired_ci95": [
+    -0.04205746483041478,
+    -0.028576756277553312
+  ],
+  "center_rank": 0.5240614551132949,
+  "input_rank": 0.5155705632036902,
+  "same_coordinate_profiles": true,
+  "all_arms_retained": true,
+  "parameter_capacity_confound": true,
+  "window_center_prior_not_fully_ruled_out": true
+}

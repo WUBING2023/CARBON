@@ -1,0 +1,7 @@
+variant_key,ssm_id,project_id,cancer_project_name,case_occurrence_count,count_source,gdc_cases_with_ssm_denominator,open_gdc_ssm_case_fraction,frequency_interpretation
+chr11:7994518:G:T,65d04182-951a-5626-9e4b-f2d508d449d9,TCGA-LUSC,Lung Squamous Cell Carcinoma,1,match_00_project_counts,504,0.001984126984126984,open_GDC_ssm_case_fraction; no locus_callability denominator
+chr12:103947412:A:T,8662111c-8f4c-55f5-ba82-e1fd1cc85e55,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,1,match_01_project_counts,559,0.0017889087656529517,open_GDC_ssm_case_fraction; no locus_callability denominator
+chr17:21312245:G:A,31886d90-0cf8-55ac-a25f-060911f8c2cb,TCGA-STAD,Stomach Adenocarcinoma,1,match_02_project_counts,443,0.002257336343115124,open_GDC_ssm_case_fraction; no locus_callability denominator
+chr17:21312240:C:T,d84ac266-d63d-526b-b591-39d7fd32e76a,TCGA-BRCA,Breast Invasive Carcinoma,1,match_03_project_counts,1098,0.0009107468123861566,open_GDC_ssm_case_fraction; no locus_callability denominator
+chr19:6686745:C:T,d4b55021-ee0d-5640-9bc0-ae4f3e9a011f,TCGA-LGG,Brain Lower Grade Glioma,1,match_04_project_counts,516,0.001937984496124031,open_GDC_ssm_case_fraction; no locus_callability denominator
+chr20:32434485:C:A,51b7c71d-798c-5a05-9e1c-837f90c1c3a6,TCGA-BLCA,Bladder Urothelial Carcinoma,1,match_05_project_counts,412,0.0024271844660194173,open_GDC_ssm_case_fraction; no locus_callability denominator

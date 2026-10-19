@@ -1,0 +1,110 @@
+{
+  "dimensions_mm": [
+    85.0,
+    168.0
+  ],
+  "ordinary_font_pt_range": [
+    5.5,
+    5.8
+  ],
+  "tasks": 222,
+  "ring_values": 666,
+  "scatter_points_per_panel": 222,
+  "matrix_shape": [
+    222,
+    12
+  ],
+  "geometry_a": {
+    "axis_box_mm": 33.5,
+    "axis_origin_mm": [
+      -1.5303030303030312,
+      -1.5303030303030312
+    ],
+    "ring_center_mm": [
+      15.219696969696969,
+      15.219696969696969
+    ],
+    "outer_diameter_mm": 29.439393939393938,
+    "v5_outer_diameter_mm": 26.363636363636363,
+    "radii_data_units": [
+      29,
+      21.2,
+      16.4
+    ],
+    "widths_data_units": [
+      7,
+      3.8,
+      3.8
+    ],
+    "widths_mm": [
+      3.553030303030303,
+      1.9287878787878787,
+      1.9287878787878787
+    ],
+    "start_angle_deg": 1,
+    "span_angle_deg": 315,
+    "gap_deg": 45,
+    "all_models_share_task_angles": true,
+    "rotation_from_v5_deg": -89,
+    "task_order_unchanged": true,
+    "outer_width_encodes_visual_emphasis_only_not_a_score": true,
+    "emphasis_variant": "moderate",
+    "cell_strip_radius_data_units": 12,
+    "cell_strip_width_data_units": 1.1
+  },
+  "ring_encoding": {
+    "model_identity": "radial position and black labels only; hue encodes the same PCC for every model",
+    "common_map": "common continuous power; white at the pooled median of all 666 scores; visual contrast only",
+    "pcc_limits": [
+      -0.1,
+      0.5
+    ],
+    "white_anchor": 0.2853291903436592,
+    "exponent": 0.65,
+    "tanh_scale": null,
+    "contrast_function": "power",
+    "pooled_median": 0.2853291903436592,
+    "pooled_records": 666,
+    "clipping": false,
+    "same_PCC_same_RGBA": true,
+    "palette": [
+      "#4DBBD5",
+      "#FFFFFF",
+      "#E64B35"
+    ],
+    "median_by_model": {
+      "CARBON": 0.31856443642752397,
+      "iDeepB": 0.2831706371112051,
+      "RBPNet": 0.2536311919711455
+    },
+    "fraction_above_common_center": {
+      "CARBON": 0.6126126126126126,
+      "iDeepB": 0.4864864864864865,
+      "RBPNet": 0.4009009009009009
+    }
+  },
+  "matrix_encoding": {
+    "limits": [
+      -0.12,
+      0.12
+    ],
+    "zero_colour": "#FFFFFF",
+    "negative_blue": true,
+    "positive_red": true,
+    "transform": "raw differences, no per-column standardization",
+    "below_scale": 0,
+    "above_scale": 195,
+    "data_range": [
+      -0.02916505465670116,
+      0.3432614813025742
+    ]
+  },
+  "profile_geometry_unchanged": true,
+  "track_identity_correction": "tracks 3/4 are inverted pooled eCLIP and inverted control; the frozen JSON mislabels them ENCODE replicates",
+  "paired_summary_preserved_in_b": true,
+  "one_complete_figure": true,
+  "one_float_required": true,
+  "b_original_vertical_mark_style_retained": true,
+  "no_score_recomputation_or_model_rerun": true,
+  "fair_comparison_limitations_remain": true
+}

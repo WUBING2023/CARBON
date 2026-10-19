@@ -1,0 +1,198 @@
+{
+  "six_complete_checkpoints": 6,
+  "all_zero_initialized_private_tensors_trained_nonzero": true,
+  "checkpoints": [
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed11",
+      "checkpoint_sha256": "0f08af0acf32adae20b5dccba9410051ac8277384560ca132b8270cabcc4a9d2",
+      "learned_tensors": {
+        "position_profile_bias": {
+          "l1": 2.8295018672943115,
+          "l2": 0.4309471845626831,
+          "max_abs": 0.2119787037372589
+        },
+        "mixer.position_mlp.0.weight": {
+          "l1": 2414.515625,
+          "l2": 19.573244094848633,
+          "max_abs": 1.7814836502075195
+        },
+        "mixer.position_mlp.0.bias": {
+          "l1": 26.718505859375,
+          "l2": 2.40323543548584,
+          "max_abs": 0.5083910822868347
+        },
+        "mixer.position_mlp.2.weight": {
+          "l1": 2499.699951171875,
+          "l2": 20.780746459960938,
+          "max_abs": 0.8888841867446899
+        },
+        "mixer.position_mlp.2.bias": {
+          "l1": 18.951120376586914,
+          "l2": 2.485053062438965,
+          "max_abs": 0.9441851377487183
+        }
+      }
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed23",
+      "checkpoint_sha256": "d3f0363ad4e3a776f498b1e94cb4bee4e10aae982989d189a6fcf77170b123ce",
+      "learned_tensors": {
+        "position_profile_bias": {
+          "l1": 2.712082624435425,
+          "l2": 0.47341999411582947,
+          "max_abs": 0.23206038773059845
+        },
+        "mixer.position_mlp.0.weight": {
+          "l1": 2590.77294921875,
+          "l2": 21.00055694580078,
+          "max_abs": 1.8940331935882568
+        },
+        "mixer.position_mlp.0.bias": {
+          "l1": 27.370298385620117,
+          "l2": 2.4039111137390137,
+          "max_abs": 0.48481395840644836
+        },
+        "mixer.position_mlp.2.weight": {
+          "l1": 2705.989501953125,
+          "l2": 21.590505599975586,
+          "max_abs": 0.8575102686882019
+        },
+        "mixer.position_mlp.2.bias": {
+          "l1": 18.319721221923828,
+          "l2": 2.3174943923950195,
+          "max_abs": 0.8581327795982361
+        }
+      }
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "seed": "seed47",
+      "checkpoint_sha256": "a39c746fcf5d63e66fcaafeb619c306051349083ff5b0fa743a93b90cf9460c8",
+      "learned_tensors": {
+        "position_profile_bias": {
+          "l1": 3.1729390621185303,
+          "l2": 0.5154916048049927,
+          "max_abs": 0.2916984260082245
+        },
+        "mixer.position_mlp.0.weight": {
+          "l1": 2779.82666015625,
+          "l2": 22.51344108581543,
+          "max_abs": 2.068751335144043
+        },
+        "mixer.position_mlp.0.bias": {
+          "l1": 30.284669876098633,
+          "l2": 2.587404251098633,
+          "max_abs": 0.44964247941970825
+        },
+        "mixer.position_mlp.2.weight": {
+          "l1": 3106.5732421875,
+          "l2": 24.487747192382812,
+          "max_abs": 0.920014500617981
+        },
+        "mixer.position_mlp.2.bias": {
+          "l1": 21.373092651367188,
+          "l2": 2.4987330436706543,
+          "max_abs": 0.8049869537353516
+        }
+      }
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed11",
+      "checkpoint_sha256": "7b4908412ea861222988e7aaf137303546e173eceac4bf8dee946e8628ffacbf",
+      "learned_tensors": {
+        "position_profile_bias": {
+          "l1": 3.1642231941223145,
+          "l2": 0.4827895164489746,
+          "max_abs": 0.2358674257993698
+        },
+        "mixer.position_mlp.0.weight": {
+          "l1": 1836.21875,
+          "l2": 14.478699684143066,
+          "max_abs": 1.1317499876022339
+        },
+        "mixer.position_mlp.0.bias": {
+          "l1": 15.303277969360352,
+          "l2": 1.353987455368042,
+          "max_abs": 0.3032325208187103
+        },
+        "mixer.position_mlp.2.weight": {
+          "l1": 1386.43017578125,
+          "l2": 11.303937911987305,
+          "max_abs": 0.3566584885120392
+        },
+        "mixer.position_mlp.2.bias": {
+          "l1": 9.390328407287598,
+          "l2": 1.1156004667282104,
+          "max_abs": 0.4016493856906891
+        }
+      }
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed23",
+      "checkpoint_sha256": "fc0ff9b1c308e560aac378e551611fe0ab48635891574c222fa7057eee7eb61c",
+      "learned_tensors": {
+        "position_profile_bias": {
+          "l1": 2.9064717292785645,
+          "l2": 0.42074379324913025,
+          "max_abs": 0.1660987138748169
+        },
+        "mixer.position_mlp.0.weight": {
+          "l1": 1944.5538330078125,
+          "l2": 15.398544311523438,
+          "max_abs": 1.3156287670135498
+        },
+        "mixer.position_mlp.0.bias": {
+          "l1": 17.59356689453125,
+          "l2": 1.542883038520813,
+          "max_abs": 0.360032856464386
+        },
+        "mixer.position_mlp.2.weight": {
+          "l1": 1545.873291015625,
+          "l2": 12.314827919006348,
+          "max_abs": 0.4822958707809448
+        },
+        "mixer.position_mlp.2.bias": {
+          "l1": 9.017943382263184,
+          "l2": 0.94440758228302,
+          "max_abs": 0.32167622447013855
+        }
+      }
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "seed": "seed47",
+      "checkpoint_sha256": "e61b3cb689e905183b700d16e5eeefbbe77dc193cd998cd00bab8cf7b799e623",
+      "learned_tensors": {
+        "position_profile_bias": {
+          "l1": 3.5113348960876465,
+          "l2": 0.5078086853027344,
+          "max_abs": 0.25340381264686584
+        },
+        "mixer.position_mlp.0.weight": {
+          "l1": 1967.1551513671875,
+          "l2": 15.677446365356445,
+          "max_abs": 1.2676231861114502
+        },
+        "mixer.position_mlp.0.bias": {
+          "l1": 18.589101791381836,
+          "l2": 1.6118642091751099,
+          "max_abs": 0.32922184467315674
+        },
+        "mixer.position_mlp.2.weight": {
+          "l1": 1590.98046875,
+          "l2": 12.83464241027832,
+          "max_abs": 0.5259659886360168
+        },
+        "mixer.position_mlp.2.bias": {
+          "l1": 10.803901672363281,
+          "l2": 1.2453937530517578,
+          "max_abs": 0.4075847566127777
+        }
+      }
+    }
+  ]
+}

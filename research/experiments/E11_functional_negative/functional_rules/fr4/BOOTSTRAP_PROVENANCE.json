@@ -1,0 +1,155 @@
+[
+  {
+    "cell": "K562",
+    "scope": "chr1_primary",
+    "endpoint": "responsive_direction",
+    "n_events": 43,
+    "genes": 36,
+    "RNG_state_before": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 329407829967798446345214718860187265773,
+        "inc": 130191785777869103741416805075500630729
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "bootstrap": "10000 whole-gene resamples; event-weighted point statistic"
+  },
+  {
+    "cell": "K562",
+    "scope": "chr1_primary",
+    "endpoint": "all_event_direction",
+    "n_events": 3277,
+    "genes": 780,
+    "RNG_state_before": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 5132386268421729954733843960895170996,
+        "inc": 130191785777869103741416805075500630729
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "bootstrap": "10000 whole-gene resamples; event-weighted point statistic"
+  },
+  {
+    "cell": "K562",
+    "scope": "chr1_primary",
+    "endpoint": "response_detection",
+    "n_events": 1989,
+    "genes": 608,
+    "RNG_state_before": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 120577427268047488717515067675213695492,
+        "inc": 130191785777869103741416805075500630729
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "bootstrap": "10000 whole-gene resamples; event-weighted point statistic"
+  },
+  {
+    "cell": "K562",
+    "scope": "other_holdouts_secondary",
+    "endpoint": "responsive_direction",
+    "n_events": 27,
+    "genes": 21,
+    "RNG_state_before": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 18229477824391999392172183453948933553,
+        "inc": 130191785777869103741416805075500630729
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "bootstrap": "10000 whole-gene resamples; event-weighted point statistic"
+  },
+  {
+    "cell": "K562",
+    "scope": "other_holdouts_secondary",
+    "endpoint": "all_event_direction",
+    "n_events": 2707,
+    "genes": 740,
+    "RNG_state_before": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 217215947593625796720151750059159517308,
+        "inc": 130191785777869103741416805075500630729
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "bootstrap": "10000 whole-gene resamples; event-weighted point statistic"
+  },
+  {
+    "cell": "K562",
+    "scope": "other_holdouts_secondary",
+    "endpoint": "response_detection",
+    "n_events": 1543,
+    "genes": 542,
+    "RNG_state_before": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 11666403657370793640771821142928589027,
+        "inc": 130191785777869103741416805075500630729
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "bootstrap": "10000 whole-gene resamples; event-weighted point statistic"
+  },
+  {
+    "cell": "HepG2",
+    "scope": "chr1_primary",
+    "endpoint": "all_event_direction",
+    "n_events": 1937,
+    "genes": 668,
+    "RNG_state_before": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 315060813349345716565726072090445916536,
+        "inc": 130191785777869103741416805075500630729
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "bootstrap": "10000 whole-gene resamples; event-weighted point statistic"
+  },
+  {
+    "cell": "HepG2",
+    "scope": "other_holdouts_secondary",
+    "endpoint": "all_event_direction",
+    "n_events": 1817,
+    "genes": 635,
+    "RNG_state_before": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 295428779978423965890529989126391118372,
+        "inc": 130191785777869103741416805075500630729
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "bootstrap": "10000 whole-gene resamples; event-weighted point statistic"
+  },
+  {
+    "cell": "HepG2",
+    "scope": "other_holdouts_secondary",
+    "endpoint": "response_detection",
+    "n_events": 998,
+    "genes": 423,
+    "RNG_state_before": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 191723968742184842202792602878837263340,
+        "inc": 130191785777869103741416805075500630729
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "bootstrap": "10000 whole-gene resamples; event-weighted point statistic"
+  }
+]

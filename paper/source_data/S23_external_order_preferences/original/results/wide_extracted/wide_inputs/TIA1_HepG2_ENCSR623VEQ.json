@@ -1,0 +1,22 @@
+{
+  "task": "TIA1_HepG2_ENCSR623VEQ",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/TIA1_HepG2_ENCSR623VEQ/_5ch/TIA1_HepG2_ENCSR623VEQ_chr8_5ch.h5",
+      "bytes": 12837290,
+      "n_windows": 28812,
+      "sha256": "7819acca0cf48fa902d9ad05b09c93287c66b476d0a7eba1d9997a502611b195"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/TIA1_HepG2_ENCSR623VEQ/_5ch/TIA1_HepG2_ENCSR623VEQ_chr15_5ch.h5",
+      "bytes": 8789508,
+      "n_windows": 19377,
+      "sha256": "51b56746d144003cd3655445b186d40506cba6ff6da8e9fe10401cc9fd72e32c"
+    }
+  ],
+  "n_total": 48189,
+  "n_eligible": 48189,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "205072f91fdfa84a7d3413431753ea6b11cdf2147652e5d6293a33bfb4024dec"
+}

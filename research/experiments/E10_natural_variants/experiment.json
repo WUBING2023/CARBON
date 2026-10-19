@@ -1,0 +1,8 @@
+{
+  "id": "E10_natural_variants",
+  "title": "真实变异、疾病注释与报告基因",
+  "question": "BEAPR ASB、ClinVar/TCGA/人群注释及原作者reporter测量",
+  "paper": "Figure5c/d/e; S26/S27/S31/S32",
+  "status": "完整母群、精确位点及实测来源保留",
+  "limits": "8个临床/肿瘤位点共13事件，均开发曝光；Full7/13、Sequence10/13。注释不是RBP结合实测；11 reporter变异/66测量与选例规则完整保留。"
+}

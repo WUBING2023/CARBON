@@ -8,3 +8,18 @@ build/
 .DS_Store
 carbon_trained_model/**/tensorboard/
 *.log
+
+/outputs/
+/figures/outputs/*
+!/figures/outputs/.gitkeep
+*.bam
+*.bai
+*.fastq*
+*.vcf*
+*.bw
+.env
+.env.*
+
+# Small exact source records intentionally included for the published analyses.
+!paper/source_data/S26_disease_annotations/clinvar/raw/ALL_RETAINED_SOURCE_RECORDS.vcf.gz
+!paper/source_data/S26_disease_annotations/clinvar/raw/clinvar_20261011.vcf.gz.md5

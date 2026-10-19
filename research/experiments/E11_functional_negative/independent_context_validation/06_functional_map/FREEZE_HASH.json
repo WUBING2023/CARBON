@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-03T05:38:49.083210+00:00",
+  "files": {
+    "inputs.npz": "6adda7513be80a5bd5f29c6258060a43389f6a88ee83f2ed7c45da46e5dd30ec",
+    "PROTOCOL.md": "93db33f5eebed994a7871068f3fbce372d9ef14630bb8fc76721bfb2d21a92c2",
+    "INPUT_MANIFEST.json": "f12c0735b31afa7c9863526e8dc57ad2e88e5abef345e9a769e9e3be6032bba0"
+  },
+  "prepare_script_sha256": "400ed8fa4ad6885c51cac4fe5fd595279bdff3a8a4f46d2d7b14e1df53b92344",
+  "inference_script_sha256": "c7f407a48c60b56164595332a4419abf32e0f7a5296eb6c7c4dddd96ddcb171a",
+  "remote_script_sha256": "480f7071d6cbcc8368118652c636f9bfba4f747745259d6821925e8d5e56188b"
+}

@@ -1,0 +1,9 @@
+# Previously exposed test-range support, frozen 2026-10-04 13:18 UTC
+
+Reuse the unchanged bounded old direction1 native chr8/15 caches and four trained arms × three seeds for both PTBP1 cells. These labels and model outputs have previously been analyzed. This is support for the same sequence-ambiguity hypothesis, not a new blind confirmation and not a replacement for the registered chrX/Y primary. No additional models or experiments are selected by effects.
+
+Keep every original retained task-local locus representative and its original source-row/chromosome identity; no newly favorable sample cap. Map the complete 101-nt window to exactly one same-strand GENCODE v29 gene using the same interval rule. Use the same raw and strict nonnegative size-normalized input-adjusted local-share endpoints, inclusive c±5 supports and three-seed native probability average. The ambiguity margin is the already frozen abs(Sequence share−0.5)<=0.1. Report all_core, ambiguous_S, ambiguous_S with |Phi difference|>=0.5, and the confident complement descriptively. No changed margin, support, threshold or comparator orientation.
+
+Equal genes within each cell and equal cells. Joint real gene-ID bootstrap 10,000 PCG64 seed 20261009; paired Full-minus-Sequence/Mean/Perm intervals with Bonferroni-3 for the unchanged ambiguous_S main comparisons. Wider scenes and ranges stay exploratory; ordinary and more conservative intervals are retained. Preserve ties for squared-share error, exclude observed ties only for ranking, no clipping of negative residuals. Old-exposure exclusions are descriptive and may be empty because this entire range was previously used.
+
+Only public annotation is read from server15; original local DNA and predictions are not uploaded. No GPU or new native inference is required. IO and annotation capture must fit the requested ten-minute support budget; otherwise stop with availability record rather than expanding to training chromosomes.

@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-04-13T13:06:19Z",
+  "h5data": "/data/CARBON_PROJECT/数据/h5data",
+  "device": "cuda:0",
+  "multi_gpu": true,
+  "multi_gpu_policy": "每 GPU 单进程串行 task；workers_* 为任务分配权重，不是同卡并发进程数",
+  "gpu_ids": "0,1,2,3",
+  "task_weight_gpu0": 10,
+  "task_weight_other_gpu": 6,
+  "cpu_threads_per_worker": 4,
+  "n_bins": 4,
+  "use_bed": true,
+  "flattened_ap_note": "bin 内 Signal AP / Peak AP：将该 bin 内所有窗口的 Y 与 pred 展平为一维向量后，定义与 MARCP/MARCP/operations/train_ops.py calculate_batch_metrics_whole 一致 (Signal: y>median; Peak: find_peaks on y_flat with thresholds 2/2)。",
+  "peak_core_note": "无峰窗 peak_core_mean_phyloP 为 nan，不参与 peak_core_phyloP 分箱。",
+  "conservation_enrichment_note": "window_phyloP 分层下落在最高 conservation bin 的窗口比例。",
+  "ablation_gain_note": "全 test 窗上 mean(delta_pcc)。"
+}

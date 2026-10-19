@@ -1,0 +1,19 @@
+cohort,arm,ci_low,ci_high,kind,replicates
+strict_test,A_native,0.43588252279111206,0.5987210906005673,macro direction two-way multiplier,2000
+strict_test,S,0.5058293783924999,0.6649777852759783,macro direction two-way multiplier,2000
+strict_test,A_flat,0.44938601003826173,0.6148463124108167,macro direction two-way multiplier,2000
+strict_test,A_permmean,0.4422302876196316,0.6036197182508929,macro direction two-way multiplier,2000
+strict_test,ref,0.5587112303600648,0.7314731559582865,macro direction two-way multiplier,2000
+strict_test,A_native minus S,-0.15970237369747828,0.016411083571633116,paired macro contrast two-way multiplier,2000
+strict_test,A_native minus A_flat,-0.06815219779451344,0.025825179961054275,paired macro contrast two-way multiplier,2000
+strict_test,A_native minus A_permmean,-0.04750421517942198,0.03743323269551052,paired macro contrast two-way multiplier,2000
+strict_test,A_native minus ref,-0.2469485923739696,-0.02064517153804692,paired macro contrast two-way multiplier,2000
+all,A_native,0.50286243954177,0.5833270523598371,macro direction two-way multiplier,2000
+all,S,0.5268702017046184,0.6182500001193729,macro direction two-way multiplier,2000
+all,A_flat,0.5137779616654033,0.6039116078670035,macro direction two-way multiplier,2000
+all,A_permmean,0.5234194907115971,0.6098720094289851,macro direction two-way multiplier,2000
+all,ref,0.6816058267975257,0.7927315913431758,macro direction two-way multiplier,2000
+all,A_native minus S,-0.08167221076056662,0.02039157856773511,paired macro contrast two-way multiplier,2000
+all,A_native minus A_flat,-0.05378420386275035,0.02442646070091783,paired macro contrast two-way multiplier,2000
+all,A_native minus A_permmean,-0.06169639646891893,0.010728265929099895,paired macro contrast two-way multiplier,2000
+all,A_native minus ref,-0.26194963173079405,-0.12755303469467372,paired macro contrast two-way multiplier,2000

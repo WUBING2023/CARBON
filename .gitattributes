@@ -1,0 +1,2 @@
+# Preserve frozen SHA256 identities across Windows and Linux checkouts.
+* -text

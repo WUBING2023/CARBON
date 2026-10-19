@@ -1,0 +1,21 @@
+{
+  "16": {
+    "mean_abs_error": 0.0009863193845376372,
+    "max_abs_error": 0.0029565542936325073,
+    "mean_abs_output_difference": 0.44535359740257263
+  },
+  "32": {
+    "mean_abs_error": 0.00042583595495671034,
+    "max_abs_error": 0.0012847185134887695,
+    "mean_abs_output_difference": 0.44535359740257263
+  },
+  "64": {
+    "mean_abs_error": 0.0001475949538871646,
+    "max_abs_error": 0.000545501708984375,
+    "mean_abs_output_difference": 0.44535359740257263
+  },
+  "32_64": {
+    "relative_l1": 0.0013186425203457475,
+    "winner_agreement": 1.0
+  }
+}

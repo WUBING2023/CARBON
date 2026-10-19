@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "elapsed_s": 13.47242709999773,
+  "code_sha256": "a468d6fd5fc22094e27a539f316d96ba80cd815e673e7ef7ab06de82c40846fe",
+  "protocol_sha256": "ada37a30967507e24fa41f7586598f3265670f6793e78bddb48e1382315f0681",
+  "uploaded": "Only executable Python code and protocol; no local derived sequence inputs uploaded"
+}

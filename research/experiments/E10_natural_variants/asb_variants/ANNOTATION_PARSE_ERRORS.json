@@ -1,0 +1,266 @@
+[
+  {
+    "variant_key": "chr8:1834329:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 6558551,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr8:11803407:C:T",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2252567,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr8:11808009:A:G",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 1736067,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr8:13229253:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 1653032,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr8:13229253:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 1653032,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr8:17755366:A:G",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 3739407,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr8:17755366:A:G",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 3739407,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr8:23028507:A:G",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 13265018,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr8:23566245:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 10992,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr8:26587153:T:C",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 327234,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr8:75300521:G:T",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 1479102,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr8:89725030:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 7841459,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr8:90522877:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 7817954,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr8:122873461:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 10089605,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr8:128004101:C:T",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 1529335,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr8:140515228:A:G",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2231524,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr8:141269984:T:C",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 13267590,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:24955890:C:T",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 220028,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr15:24974365:T:C",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 705,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr15:24974365:T:C",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 705,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:24979194:G:T",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 11637528,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:24988403:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2732028,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr15:25030619:T:C",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2732043,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:25117417:A:G",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2356294,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr15:25117417:A:G",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2356294,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:25133465:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2714714,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr15:25133465:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2714714,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:30925961:T:C",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2959037,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:43761419:C:T",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 8040336,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:60448642:C:T",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 17270146,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:78540490:T:C",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 3813570,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr15:85107246:C:T",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 35204319,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr15:89260812:C:T",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 17803620,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr15:89315371:T:C",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 1138465,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:90873320:C:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 17514846,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:90883330:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 4702,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:92924124:G:T",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 8026695,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr15:92924124:G:T",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 8026695,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:92937777:A:G",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2272463,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:92980968:A:G",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 8041241,
+    "study": "Daghestan"
+  },
+  {
+    "variant_key": "chr15:92984613:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2272458,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:92992967:C:T",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2272457,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:93024634:A:C",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 12906163,
+    "study": "HGDP_Stanford"
+  },
+  {
+    "variant_key": "chr15:98934996:G:A",
+    "reason": "frequency_observation_not_equivalent_to_exact_allele",
+    "rsid": 2229765,
+    "study": "HGDP_Stanford"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "task": "IGF2BP2_K562_ENCSR062NNB",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/IGF2BP2_K562_ENCSR062NNB/_5ch/IGF2BP2_K562_ENCSR062NNB_chr8_5ch.h5",
+      "bytes": 1982004,
+      "n_windows": 4221,
+      "sha256": "9f0f364b5205eebba38cf3561494cc945c7bcbb0b99a28120635fc305d65e08e"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/IGF2BP2_K562_ENCSR062NNB/_5ch/IGF2BP2_K562_ENCSR062NNB_chr15_5ch.h5",
+      "bytes": 1728633,
+      "n_windows": 3669,
+      "sha256": "c6515372c61d49cf3b004705ec99e26cc55391b55e7165bb9c76f39507dc4d8f"
+    }
+  ],
+  "n_total": 7890,
+  "n_eligible": 7890,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "87da0d7948e83317b4f04b1ff41c7d88e2bf2575ca8f8f21a685f50fc0655332"
+}

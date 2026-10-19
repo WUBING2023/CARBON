@@ -1,0 +1,31 @@
+from pathlib import Path
+R=Path(__file__).resolve().parent
+s=(R/'render_candidate.py').read_text()
+s=s.replace("'phi':'#8491B4'","'phi':'#8491B4','local_pos':'#7E6148'").replace('119/25.4','125/25.4')
+s=s.replace("fig=plt.figure(figsize=(85/25.4,125/25.4));sources=[]","C=R/'nogru_position_capacity'\ndf=pd.read_csv(C/'PAIR_RESULTS_ALL.csv');sd=df[df.adj_good&df.unique_gene]\nfig=plt.figure(figsize=(85/25.4,125/25.4));sources=[]")
+s=s.replace(" assert int(nz['index'][i])==v['index']",""" assert int(nz['index'][i])==v['index']
+ with np.load(C/'remote/data'/task/ch/'data.npz') as f:cz={k:f[k] for k in f.files}
+ assert int(cz['index'][i])==v['index']
+ crow=sd[(sd.task==task)&(sd.chromosome==v['chromosome'])&(sd['index']==v['index'])].iloc[0]""")
+s=s.replace("'phi':z['x'][i,:,4]}","'phi':z['x'][i,:,4],'local_pos':np.mean([cz[f'nogru_position_capacity_seed{s}'][i].astype(float) for s in [11,23,47]],axis=0)}")
+s=s.replace("['observed','input','aligned','nogru','phi']","['observed','input','aligned','nogru','local_pos','phi']")
+s=s.replace('top-ti*.055-.045,width,.045','top-ti*.047-.037,width,.037').replace('top-ti*.055-.022','top-ti*.047-.0185')
+s=s.replace("['aligned','nogru']","['aligned','nogru','local_pos']").replace("max(np.max(data['aligned']),np.max(data['nogru']))","max(np.max(data['aligned']),np.max(data['nogru']),np.max(data['local_pos']))")
+s=s.replace('if ti<4:','if ti<5:').replace("'phi':'PhyloP'}","'phi':'PhyloP','local_pos':'Local+pos'}")
+s=s.replace("sources.append(dict(**v,","assert abs(shares['local_pos']-crow.nogru_position_capacity_ensemble_share)<1e-10\n sources.append(dict(**v,local_position_profile=data['local_pos'].tolist(),")
+s=s.replace("df=pd.read_csv(S/'PAIR_RESULTS_ALL.csv');sd=df[df.adj_good&df.unique_gene]","df=pd.read_csv(C/'PAIR_RESULTS_ALL.csv');sd=df[df.adj_good&df.unique_gene]")
+s=s.replace('.505,.34,.091','.491,.34,.107').replace('row.nogru_ensemble_share]','row.nogru_ensemble_share,row.nogru_position_capacity_ensemble_share]')
+s=s.replace("[colors['observed'],colors['aligned'],colors['nogru']]","[colors['observed'],colors['aligned'],colors['nogru'],colors['local_pos']]")
+s=s.replace('ax.set_ylim(2.5,-.5)','ax.set_ylim(3.5,-.5)').replace("ax.set_yticks([0,1,2],['eCLIP','Full','NoGRU']","ax.set_yticks([0,1,2,3],['eCLIP','Full','NoGRU','Local+pos']")
+s=s.replace("fig.text(.015,.455,'c'","fig.text(.015,.440,'c'").replace("'nogru_ensemble_adjusted_loss'","'nogru_position_capacity_ensemble_adjusted_loss'").replace("'Full − NoGRU paired-share error'","'Full − Local+pos paired-share error'")
+s=s.replace("con=pd.read_csv(S/'CONTRASTS.csv')","con=pd.read_csv(C/'CONTRASTS.csv')").replace("&(con.control=='nogru')","&(con.control=='nogru_position_capacity')&(con.comparison=='full_minus_control')")
+s=s.replace('95% CI {rr.bonf1_low:.4f}, {rr.bonf1_high:.4f}','adjusted CI {rr.bonf2_low:.4f}, {rr.bonf2_high:.4f}')
+s=s.replace("'CONTEXT_CANDIDATE.'","'CONTEXT_FINAL.'").replace("'FIGURE_SOURCE.json'","'FINAL_FIGURE_SOURCE.json'").replace("'FIGURE_QA.json'","'FINAL_FIGURE_QA.json'").replace("'PLOTTED_GENES.csv'","'FINAL_PLOTTED_GENES.csv'")
+s=s.replace("'ci95':[rr.bonf1_low,rr.bonf1_high]","'ci_bonf2':[rr.bonf2_low,rr.bonf2_high]").replace("'dimensions_mm':[85,119]","'dimensions_mm':[85,125]").replace("'position_capacity_control':'training not complete; absent from figure'","'position_capacity_control':'Complete six fresh matched fits; native predictions for all original windows; near-capacity100871vsFull100826; explicit position interactions'")
+s=s.replace("'CONTEXT_CANDIDATE.png'","'CONTEXT_FINAL.png'").replace("'CONTEXT_CANDIDATE.pdf'","'CONTEXT_FINAL.pdf'").replace("'size_mm':[85,119]","'size_mm':[85,125]")
+s=s.replace("C=R/'nogru_position_capacity'","CAP=R/'nogru_position_capacity'").replace("C/'","CAP/'")
+s=s.replace('fig.text(.126,','fig.text(.151,')
+s=s.replace("ax.set_xlim(-.35,.28)","ax.set_xlim(min(v['loss_delta'] for v in plot)-.015,max(v['loss_delta'] for v in plot)+.015)")
+s=s.replace('ax.set_xticks([-.3,-.15,0,.15])','ax.set_xticks([-.4,-.2,0,.2])')
+(R/'render_final.py').write_text(s,encoding='utf-8')
+compile(s,'render_final','exec');print('Final three linked panels add actual control profiles/shares and primary gene contrast; prior versions unchanged.')

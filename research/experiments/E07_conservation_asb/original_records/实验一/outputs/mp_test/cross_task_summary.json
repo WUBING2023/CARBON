@@ -1,0 +1,14 @@
+{
+  "n_tasks": 8,
+  "median_delta_across_tasks": 0.054502784636699525,
+  "mean_delta_across_tasks": 0.05818068625696538,
+  "fraction_delta_gt0": 1.0,
+  "wilcoxon_vs0_statistic": 0.0,
+  "wilcoxon_vs0_pvalue": 0.0078125,
+  "rbp_root": "/data/CARBON_PROJECT",
+  "h5data": "/data/CARBON_PROJECT/\u6570\u636e/h5data",
+  "use_bed_filter": true,
+  "signal_sum_threshold": 4.0,
+  "workers": 4,
+  "threads_per_worker": 2
+}

@@ -1,0 +1,262 @@
+{
+  "figure": "FIGURE_B",
+  "canvas_mm": [
+    85,
+    132
+  ],
+  "shared_palette": {
+    "Full": "#E64B35",
+    "Sequence": "#4DBBD5",
+    "Frequency": "#3C5488",
+    "Phi": "#8491B4",
+    "A": "#3C5488",
+    "C": "#00A087",
+    "G": "#7E6148",
+    "U_T": "#E64B35",
+    "N": "#9A9A9A",
+    "mean_ticks": "darker derived arm tints, #A82F1E / #238EAB"
+  },
+  "panels": {
+    "a": {
+      "protein": "QKI",
+      "literal_words": "QKI_words_RNA",
+      "assay_proxy": "QKI_assay_Z5",
+      "response_arrays": [
+        "QKI_full_paired_edit_delta",
+        "QKI_sequence_paired_edit_delta"
+      ],
+      "all_three_anchor_neighbors": true,
+      "native_contexts": 32,
+      "independent_biological_n": false,
+      "native_input_track": {
+        "array": "QKI_native_conservation[0]",
+        "input": "PhyloP",
+        "context_id": "QKI_HepG2_ENCSR570WLM|chr15|row4628",
+        "n_positions": 101,
+        "actual_minimum": -1.899999976158142,
+        "actual_maximum": 1.8259999752044678,
+        "gray_band_one_based": [
+          49,
+          53
+        ],
+        "not_attribution": true
+      }
+    },
+    "b": {
+      "protein": "HNRNPA1",
+      "literal_words": "HNRNPA1_words_RNA",
+      "assay_proxy": "HNRNPA1_assay_Z5",
+      "frequency": "HNRNPA1_native_frequency",
+      "response_arrays": [
+        "HNRNPA1_full_paired_edit_delta",
+        "HNRNPA1_sequence_paired_edit_delta"
+      ],
+      "native_contexts": 32,
+      "selection": "second-largest independent external-first frequency-opposed protein candidate; exploratory root illustration, not preregistered; no model effect used in within-protein edge selection"
+    },
+    "c": {
+      "arrays": [
+        "cohort_proteins",
+        "cohort_order_accuracy_percent"
+      ],
+      "n_RBPs": 25,
+      "source_table": "FROZEN_PRIMARY_METRICS.csv",
+      "arms": [
+        "Full",
+        "Sequence",
+        "Frequency"
+      ],
+      "endpoint": "within_composition_concordance",
+      "conversion": "original frozen value multiplied by 100 only",
+      "inference": "FROZEN_PRIMARY_CONTRASTS.csv new25 / within_composition_concordance / frequency"
+    }
+  },
+  "operation": {
+    "center_zero_based": [
+      48,
+      53
+    ],
+    "center_one_based": [
+      49,
+      53
+    ],
+    "full_Phi_input_fixed_to_original_native_vector": true,
+    "Sequence_has_no_Phi_input": true,
+    "wordpair_equalcomposition_not_nativeequalcomposition": true,
+    "paired_delta": "subtract existing wordoutputs afterfloat64promotion; native baseline cancels; no refit/normalization/bootstrap",
+    "model_output_unit": "original delta_log_count; not affinity, raw count ratio or biological mutant response",
+    "32_contexts_not_biological_replication": true,
+    "sources": [
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\sequence_landscape_20261005\\direction_b\\display_packet.npz",
+        "sha256": "e9f40e6450ae9cf3e434565730c377b34372b31c2a59e602e879b31e73727009",
+        "bytes": 749531
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_inputs\\HNRNPA1_HepG2_ENCSR769UEW.npz",
+        "sha256": "d0a25d2741835ae6665e7e4402a525becddb2ab07d266a7bd9a05f8547c34367",
+        "bytes": 575847
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_HepG2_ENCSR769UEW\\full\\responses.npz",
+        "sha256": "6cc817b978348b98b2d415201150146829040ff67197f5c68b8e047fe82fff0d",
+        "bytes": 67664
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_HepG2_ENCSR769UEW\\full\\summary.json",
+        "sha256": "54b126bb41e666b3bf673c2888756e2b634b241b042c1e19c72fd106720bbae5",
+        "bytes": 1025
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_HepG2_ENCSR769UEW\\sequence\\responses.npz",
+        "sha256": "db508ccaad07e1bb98b8c149600a4707b27aef77e309793e9c1a9f08f92c6c56",
+        "bytes": 63499
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_HepG2_ENCSR769UEW\\sequence\\summary.json",
+        "sha256": "cb0b60c0de8f98d521b626bca2157f45fd519c6094eeee7534dd45d7dec40145",
+        "bytes": 1036
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_inputs\\HNRNPA1_K562_ENCSR154HRN.npz",
+        "sha256": "452bf1df9464cd8384eeb70466d14b793019618ccfcda217993185f4351759c0",
+        "bytes": 575114
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_K562_ENCSR154HRN\\full\\responses.npz",
+        "sha256": "bd7db0dbb223bddff1c758b5a32cd79fc3392923c2e669e2df1f55dade7f6bce",
+        "bytes": 67440
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_K562_ENCSR154HRN\\full\\summary.json",
+        "sha256": "55d03f234b60c95c1d14361d2da35329fbd3d011547bad95457e149ed395c678",
+        "bytes": 1022
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_K562_ENCSR154HRN\\sequence\\responses.npz",
+        "sha256": "02397096e03c3a5d5e084b65218c0fe933f623bd64269bbf41d727c50d4e337e",
+        "bytes": 62039
+      },
+      {
+        "path": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\wide_extracted\\wide_outputs\\HNRNPA1_K562_ENCSR154HRN\\sequence\\summary.json",
+        "sha256": "6099fdc4b9d30505b1dfc00c446a7310680e0969d0bed8f3fc9038e5e05f50e0",
+        "bytes": 1034
+      }
+    ],
+    "displayed_edits": [
+      {
+        "protein": "QKI",
+        "low_word": "UCAAC",
+        "high_word": "CUAAC",
+        "independent_delta_Z5": 2.1106776861645873,
+        "native_frequency_delta": 165.5,
+        "full_mean_delta_log_count": 0.29444901645183563,
+        "full_median_delta_log_count": 0.2303938865661621,
+        "full_positive_context_count": 32,
+        "full_minimum": 0.012829780578613281,
+        "full_maximum": 1.1001770496368408,
+        "sequence_mean_delta_log_count": 0.28010393679142,
+        "sequence_median_delta_log_count": 0.21110773086547852,
+        "sequence_positive_context_count": 32,
+        "sequence_minimum": 0.020717382431030273,
+        "sequence_maximum": 0.9198136329650879
+      },
+      {
+        "protein": "QKI",
+        "low_word": "CAUAC",
+        "high_word": "CUAAC",
+        "independent_delta_Z5": 2.152488872819712,
+        "native_frequency_delta": 156.5,
+        "full_mean_delta_log_count": 0.2677321955561638,
+        "full_median_delta_log_count": 0.2030320167541504,
+        "full_positive_context_count": 32,
+        "full_minimum": 0.01255178451538086,
+        "full_maximum": 1.0445780754089355,
+        "sequence_mean_delta_log_count": 0.273407906293869,
+        "sequence_median_delta_log_count": 0.20694375038146973,
+        "sequence_positive_context_count": 31,
+        "sequence_minimum": -0.05613446235656738,
+        "sequence_maximum": 0.9177582263946533
+      },
+      {
+        "protein": "QKI",
+        "low_word": "CUACA",
+        "high_word": "CUAAC",
+        "independent_delta_Z5": 2.0613439847555894,
+        "native_frequency_delta": 154.5,
+        "full_mean_delta_log_count": 0.2894543632864952,
+        "full_median_delta_log_count": 0.23053741455078125,
+        "full_positive_context_count": 32,
+        "full_minimum": 0.02674555778503418,
+        "full_maximum": 1.044990062713623,
+        "sequence_mean_delta_log_count": 0.2886628359556198,
+        "sequence_median_delta_log_count": 0.2374798059463501,
+        "sequence_positive_context_count": 31,
+        "sequence_minimum": -0.06603288650512695,
+        "sequence_maximum": 1.002938985824585
+      },
+      {
+        "protein": "HNRNPA1",
+        "low_word": "UGAGG",
+        "high_word": "UAGGG",
+        "independent_delta_Z5": 5.050396285037319,
+        "native_frequency_delta": -101.0,
+        "full_mean_delta_log_count": 0.041782207787036896,
+        "full_median_delta_log_count": 0.03493475914001465,
+        "full_positive_context_count": 27,
+        "full_minimum": -0.029744863510131836,
+        "full_maximum": 0.20673584938049316,
+        "sequence_mean_delta_log_count": 0.0362979993224144,
+        "sequence_median_delta_log_count": 0.04172825813293457,
+        "sequence_positive_context_count": 24,
+        "sequence_minimum": -0.045686960220336914,
+        "sequence_maximum": 0.15180277824401855
+      }
+    ]
+  },
+  "checkpoint_scope": "Each displayed cell/task/arm uses its original single existing checkpoint; no three-seed claim and no retraining. Frozen per-task assay metrics then cell/protein aggregation is unchanged.",
+  "display_only": {
+    "context_offsets": "deterministic context-ID index offsets, same between models; points not selected or sorted by response",
+    "paired_lines": "same original native-context ID across Full and Sequence",
+    "mean_ticks": "descriptive arithmetic means of original paired computational contrasts; no new CI",
+    "letter_heights": "equal literal identity glyphs; not attribution, frequency logo or motif",
+    "RNA_notation": "original data DNA T is displayed as RNA U"
+  },
+  "scientific_limits": [
+    "Assay Z5 is independent word preference, not measured altered-native-background response or Kd",
+    "Native abundance is a scalar word-frequency baseline, not predicted delta log count",
+    "Compared replacements have identical composition; original native center need not share that composition",
+    "Full uses native Phi fixed within replacement comparison; models are not established matched-training controls",
+    "Full-versus-Sequence is not generally superior and these comparisons do not establish conservation causality"
+  ],
+  "complete_support": {
+    "all_anchor_neighbors": "FROZEN_ANCHOR_ALL_NEIGHBORS.csv",
+    "all_QKI_and_TIA_adjacent_edges": "ALL_52_ADJACENT_EDITS.csv",
+    "all_QKI_and_TIA_context_contrasts": "ALL_52_EDIT_NATIVE_CONTRASTS.csv",
+    "all25_external_first_freq_opposed_candidates": "EXTERNAL_FIRST_FREQ_OPPOSED_EDIT_PER_PROTEIN.csv",
+    "complete35word_native_atlas": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\reference_polished_20261005\\direction_b\\figure.pdf",
+    "complete1024word_all25_atlas": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\sequence_landscape_20261005\\direction_b\\FULL_1024_ATLAS.pdf",
+    "complete_QKI30_TIA5_context_details": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\sequence_landscape_20261005\\direction_b\\COMPOSITION_DETAIL.pdf",
+    "frozeninput_controls_HNR20words_negative_RBNS": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\publication_redraw_20261005\\direction_b\\supplement.pdf"
+  },
+  "reference_structure": [
+    {
+      "source": "RBPNet Genome Biology 2023 Fig.5",
+      "DOI": "10.1186/s13059-023-03015-7",
+      "transferred": "literal operation linked to predicted readout then systematic validation",
+      "not_transferred": "IG/ASB/experimental mutation truth"
+    },
+    {
+      "source": "Borzoi Nature Genetics 2025 Fig.5",
+      "DOI": "10.1038/s41588-024-02053-6",
+      "transferred": "dominant concrete case plus broad validation",
+      "not_transferred": "matched allele RNA-seq"
+    },
+    {
+      "source": "SQUID Nature Machine Intelligence 2024 Fig.5",
+      "DOI": "10.1038/s42256-024-00851-5",
+      "transferred": "same literal sequence object across native contexts",
+      "not_transferred": "pairwise surrogate/epistasis triangles"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+cell,scope,source_rows,qualified_events,genes,responsive,KD_inclusion,KD_exclusion,nonresponsive,intermediate,exclusions
+K562,chr1_primary,4699,3280,780,43,9,34,1949,1288,"{""intron_below101"": 196, ""coverage_below10"": 1001, ""flank101_nonunique_indel_or_wrong_chr"": 11, ""six_boundary_nonunique_or_wrong_chr"": 8, ""nonfinite_or_invalid_source"": 203}"
+K562,other_holdouts_secondary,4060,2707,740,27,5,22,1516,1164,"{""coverage_below10"": 987, ""intron_below101"": 132, ""flank101_nonunique_indel_or_wrong_chr"": 9, ""nonfinite_or_invalid_source"": 225}"
+HepG2,chr1_primary,3208,1938,668,0,0,0,1099,839,"{""coverage_below10"": 911, ""intron_below101"": 121, ""nonfinite_or_invalid_source"": 226, ""flank101_nonunique_indel_or_wrong_chr"": 10, ""six_boundary_nonunique_or_wrong_chr"": 2}"
+HepG2,other_holdouts_secondary,3107,1820,635,2,1,1,996,822,"{""coverage_below10"": 988, ""intron_below101"": 72, ""nonfinite_or_invalid_source"": 223, ""flank101_nonunique_indel_or_wrong_chr"": 4}"

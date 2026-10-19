@@ -1,0 +1,6 @@
+{
+  "all_one_cluster_weights_reproduce_primary_24_fit_recalls_exactly": true,
+  "n_comparisons": 24,
+  "score_aggregation": "sum windows within true gene/locus then sum genes",
+  "confidence_boundary": "discrete ranking percentile resampling intervals; primary point can exceed resampling upper percentile; no posthoc correction"
+}

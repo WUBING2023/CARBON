@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-04T13:37:49.265460+00:00",
+  "pass": false,
+  "checks": 2631,
+  "max_error": 3.8838674190841416e-06,
+  "all28": 28,
+  "new25": 25,
+  "author_matrix_7mers": 16382,
+  "same_composition_candidate_pairs": 15240,
+  "bootstrap_n": 10000,
+  "bootstrap_unit": "protein; cell backgrounds/assay columns first averaged within protein",
+  "scope": "Original RNAcompete truth and raw response means, all protein metrics and paired bootstrap readback; no new model inference",
+  "source_hashes": {
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\sources\\Zscores_420_origrncmpt.txt": "c4225eefb9561dfdb360858aad1a50545176df23638e62b077b7eb683877d6bd",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\WIDE_ALL_5MER_PREDICTIONS.csv": "8a2cdeb1e767935f003343c4b4ff70b5a5ca958f588d177e577b65a604b1432e",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\02_external_preferences\\results\\WIDE_PAIRED_PROTEIN_BOOTSTRAP.csv": "fec5ff7f7e69d50acd5d820cc0f4a06007117f5f799fce639c737f56d1dd0f01",
+    "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\03_functional_rules\\check_02_family.py": "b6956d7dd23305136101dd64e9a921ac320f5e3816d9d138d159dbfa70a48e80"
+  }
+}

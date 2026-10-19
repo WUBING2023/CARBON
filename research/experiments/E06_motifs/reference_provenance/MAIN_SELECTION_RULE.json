@@ -1,0 +1,15 @@
+{
+  "rbps_in_display_order": [
+    "QKI",
+    "PUM2",
+    "HNRNPA1",
+    "HNRNPL",
+    "RBFOX2",
+    "U2AF2"
+  ],
+  "rationale": "Frozen named examples linking the pattern atlas, heterogeneous sequence preferences and retained PUM2/HNRNPA1 sensitivity examples; not an estimate of population validation rate.",
+  "eligibility": "Exact same RBP_Name and Motif_ID; at least one D record; measured Motif_Type in RNAcompete/HTR-SELEX/RNA-Bind-n-Seq/SEQRS; stored positive pattern 0 comparison.",
+  "choice_within_rbp": "Ascending task identifier (HepG2 before K562 where both are available), then ascending Target_ID. p/q and model scores are not sorting fields.",
+  "statistics": "Original S6 p, E and q retained verbatim; original Tomtom database/search family unchanged.",
+  "main_display_window": "Shared coordinates centered on the stored aligned reference; width max(9, reference width + 2). Matrix values and p/q unchanged."
+}

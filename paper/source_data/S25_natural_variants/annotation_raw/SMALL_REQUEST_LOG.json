@@ -1,0 +1,212 @@
+[
+  {
+    "batch": 0,
+    "error": "TimeoutError('The read operation timed out')",
+    "retrieved_utc": "2026-10-12T10:52:53.782683+00:00"
+  },
+  {
+    "batch": 10,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:52:56.773346+00:00"
+  },
+  {
+    "batch": 20,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:52:58.926984+00:00"
+  },
+  {
+    "batch": 30,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:53:01.124037+00:00"
+  },
+  {
+    "batch": 40,
+    "n": 10,
+    "status": 200,
+    "headers": {
+      "Vary": "Content-Type",
+      "Content-Type": "application/json",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "Date": "Mon, 12 Oct 2026 10:53:16 GMT",
+      "X-RateLimit-Limit": "55000",
+      "X-RateLimit-Reset": "404",
+      "X-Runtime": "1.096386",
+      "Connection": "close",
+      "X-RateLimit-Period": "3600",
+      "X-RateLimit-Remaining": "54997",
+      "Content-Length": "121876"
+    },
+    "retrieved_utc": "2026-10-12T10:53:17.676979+00:00",
+    "sha256": "2364ade16f2a4c563c50fe3a2f36923596085464f831365c5b43945ed47b9b51"
+  },
+  {
+    "batch": 50,
+    "n": 10,
+    "status": 200,
+    "headers": {
+      "Vary": "Content-Type",
+      "Content-Type": "application/json",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "Date": "Mon, 12 Oct 2026 10:53:51 GMT",
+      "X-RateLimit-Limit": "55000",
+      "X-RateLimit-Reset": "369",
+      "X-Runtime": "0.953250",
+      "Connection": "close",
+      "X-RateLimit-Period": "3600",
+      "X-RateLimit-Remaining": "54996",
+      "Content-Length": "90184"
+    },
+    "retrieved_utc": "2026-10-12T10:53:52.856363+00:00",
+    "sha256": "76f6c5472070978c8220ba768f9a971752d5e8994406bbe2bd7eba9eb652db28"
+  },
+  {
+    "batch": 60,
+    "n": 10,
+    "status": 200,
+    "headers": {
+      "Vary": "Content-Type",
+      "Content-Type": "application/json",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "Date": "Mon, 12 Oct 2026 10:54:25 GMT",
+      "X-RateLimit-Limit": "55000",
+      "X-RateLimit-Reset": "335",
+      "X-Runtime": "2.610377",
+      "Connection": "close",
+      "X-RateLimit-Period": "3600",
+      "X-RateLimit-Remaining": "54995",
+      "Content-Length": "70767"
+    },
+    "retrieved_utc": "2026-10-12T10:54:26.040094+00:00",
+    "sha256": "7dbf7f0bf6244587ad25971b6f747fc3410d165e6d2a7d5da3128099a5f75bdf"
+  },
+  {
+    "batch": 70,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:54:28.351281+00:00"
+  },
+  {
+    "batch": 80,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:54:30.720137+00:00"
+  },
+  {
+    "batch": 90,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:54:33.038676+00:00"
+  },
+  {
+    "batch": 150,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:54:39.784580+00:00"
+  },
+  {
+    "batch": 160,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:54:42.582521+00:00"
+  },
+  {
+    "batch": 170,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:54:44.806381+00:00"
+  },
+  {
+    "batch": 180,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:54:47.009648+00:00"
+  },
+  {
+    "batch": 190,
+    "n": 10,
+    "status": 200,
+    "headers": {
+      "Vary": "Content-Type",
+      "Content-Type": "application/json",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "Date": "Mon, 12 Oct 2026 10:54:53 GMT",
+      "X-RateLimit-Limit": "55000",
+      "X-RateLimit-Reset": "307",
+      "X-Runtime": "1.512921",
+      "Connection": "close",
+      "X-RateLimit-Period": "3600",
+      "X-RateLimit-Remaining": "54994",
+      "Content-Length": "75911"
+    },
+    "retrieved_utc": "2026-10-12T10:54:54.376194+00:00",
+    "sha256": "00525f26a9c47a06d4ff9030c94c9a8d9014592817b15479bee70062a2a2e7af"
+  },
+  {
+    "batch": 200,
+    "n": 10,
+    "status": 200,
+    "headers": {
+      "Vary": "Content-Type",
+      "Content-Type": "application/json",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "Date": "Mon, 12 Oct 2026 10:55:17 GMT",
+      "X-RateLimit-Limit": "55000",
+      "X-RateLimit-Reset": "283",
+      "X-Runtime": "2.228675",
+      "Connection": "close",
+      "X-RateLimit-Period": "3600",
+      "X-RateLimit-Remaining": "54993",
+      "Content-Length": "99511"
+    },
+    "retrieved_utc": "2026-10-12T10:55:18.009679+00:00",
+    "sha256": "8fdc3fce2affc563518e5646f1fdc53c154a1502bbc38011fc0f0df573c8df54"
+  },
+  {
+    "batch": 210,
+    "n": 10,
+    "status": 200,
+    "headers": {
+      "Vary": "Content-Type",
+      "Content-Type": "application/json",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "Date": "Mon, 12 Oct 2026 10:55:46 GMT",
+      "X-RateLimit-Limit": "55000",
+      "X-RateLimit-Reset": "254",
+      "X-Runtime": "0.861538",
+      "Connection": "close",
+      "X-RateLimit-Period": "3600",
+      "X-RateLimit-Remaining": "54992",
+      "Content-Length": "72989"
+    },
+    "retrieved_utc": "2026-10-12T10:55:47.362995+00:00",
+    "sha256": "7c01d495586853e47b4bb015d58aa83a9db037747af210f3ab31ea6933f3aeb0"
+  },
+  {
+    "batch": 220,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:55:50.780345+00:00"
+  },
+  {
+    "batch": 230,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:55:53.095746+00:00"
+  },
+  {
+    "batch": 240,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:55:56.189696+00:00"
+  },
+  {
+    "batch": 250,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:55:58.486119+00:00"
+  },
+  {
+    "batch": 260,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:56:00.567565+00:00"
+  },
+  {
+    "batch": 270,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:56:03.835236+00:00"
+  },
+  {
+    "batch": 280,
+    "error": "<HTTPError 500: 'Internal Server Error'>",
+    "retrieved_utc": "2026-10-12T10:56:06.019938+00:00"
+  }
+]

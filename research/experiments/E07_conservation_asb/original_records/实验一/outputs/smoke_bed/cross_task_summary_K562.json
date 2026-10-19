@@ -1,0 +1,8 @@
+{
+  "n_tasks": 1,
+  "median_delta_across_tasks": 0.07408339578735967,
+  "mean_delta_across_tasks": 0.07408339578735967,
+  "fraction_delta_gt0": 1.0,
+  "wilcoxon_vs0_statistic": 0.0,
+  "wilcoxon_vs0_pvalue": 1.0
+}

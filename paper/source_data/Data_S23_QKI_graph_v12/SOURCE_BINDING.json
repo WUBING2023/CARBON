@@ -1,0 +1,54 @@
+{
+  "scope": "Data S23 v12 display addition, not new training, inference, endpoint selection or resampling.",
+  "provenance": "Exact historical QKI closed-composition graph restored. Main 5b and Figure S26 share these frozen sources.",
+  "quantity": "replacement-minus-native log total count; paired exchange is higher external Z5 minus lower.",
+  "node_count": 30,
+  "edge_count": 48,
+  "backgrounds": 32,
+  "arms": [
+    "Full",
+    "Sequence"
+  ],
+  "response_cells": 1920,
+  "original_four_word_packet_identity": "exact elementwise equality; identical context IDs",
+  "review_boundaries": "Previously explored, descriptive example. Backgrounds are computational, not biological replicates. Native Phi fixed. Not fitness, RNA structure, epistasis, evolution or a natural measured mutation assay.",
+  "source_origin": "/data/CARBON_PROJECT\\revision_v12\\work_fig5\\frozen_inputs\\qki_complete_graph",
+  "files": {
+    "ALL_1920_QKI_BACKGROUND_RESPONSES.csv": {
+      "bytes": 148583,
+      "sha256": "0e57fafb049c975bba7c498eb3d4ef76472b7a8b3f0e632c204f183ca4df890d"
+    },
+    "ALL_30_NODE_PLOT_DATA.csv": {
+      "bytes": 3747,
+      "sha256": "3bbc74f5e135b650ce9d7a8d96a985bf33e75fff4de61f2098d7291394aa47bb"
+    },
+    "ALL_48_EDGE_PLOT_DATA.csv": {
+      "bytes": 11439,
+      "sha256": "7de6ee8757c954ad1ed8aaea5764fb7183762b1f9154c5538e8d875a6750c6ec"
+    },
+    "CAPTION.md": {
+      "bytes": 2563,
+      "sha256": "d60b579da1c0320df46ff30200e44e061977841ee7b4512088d9f41ced55a52c"
+    },
+    "DESIGN.md": {
+      "bytes": 3620,
+      "sha256": "d2510e5a6a2917b81068153772385ec26a4e6fa5a229865ea6a50ef9cc459a07"
+    },
+    "ORIGINAL_THREE_SWAP_PACKET.npz": {
+      "bytes": 29492,
+      "sha256": "f184db62c3d5b2903dee51b7f3172e090b5c6f71a1d2d5c550cc6d2430b131a9"
+    },
+    "QKI_ALL_48_ADJACENT_EDGES.csv": {
+      "bytes": 11003,
+      "sha256": "139bbafb0dc1d6605431f3b8e9e69ab445f152da2e005a41d6b6e988883947f8"
+    },
+    "SOURCE_PACKET.npz": {
+      "bytes": 33260,
+      "sha256": "cbe8ac777f3261c7a7f9c162901ca44c4adcb6c281a92907af35f76a6090c518"
+    },
+    "source_render.py": {
+      "bytes": 12678,
+      "sha256": "bc929aa576ba6824d58ba9c22977432b2917a864bab3d5fc901f30210d710fa6"
+    }
+  }
+}

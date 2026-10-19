@@ -1,0 +1,16 @@
+{
+  "native_context_edits": 128,
+  "paired_model_contrasts": 256,
+  "cohort_protein_arm_values": 75,
+  "max_display_contrast_error": 0.0,
+  "copied_original_packet_sha_identical": true,
+  "canvas_mm": [
+    85.00000118679469,
+    131.99999627007378
+  ],
+  "minimum_pdf_text_size_pt": 6.5,
+  "outside_canvas_text": [],
+  "all_literal_edits_exact_adjacent_different_base_swaps": true,
+  "no_clipped_data_values": true,
+  "no_new_inferential_endpoint": true
+}

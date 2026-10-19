@@ -1,0 +1,4004 @@
+{
+  "submitter_comment": "For details on the software used to generate the peaks files, please contact the Burge Lab (MIT).",
+  "assay_term_name": "RNA Bind-n-Seq",
+  "biosample_ontology": {
+    "term_name": "cell-free sample",
+    "aliases": [],
+    "status": "released",
+    "classification": "cell-free sample",
+    "dbxrefs": [],
+    "schema_version": "1",
+    "references": [],
+    "term_id": "NTR:0000471",
+    "@id": "/biosample-types/cell-free_sample_NTR_0000471/",
+    "@type": [
+      "BiosampleType",
+      "Item"
+    ],
+    "uuid": "36737320-d883-4df0-ba5f-88f8162ba2e4",
+    "name": "cell-free_sample_NTR_0000471",
+    "organ_slims": [],
+    "cell_slims": [],
+    "developmental_slims": [],
+    "system_slims": [],
+    "synonyms": []
+  },
+  "documents": [
+    "/documents/f2cef92c-ae02-4d83-b31b-fdcec62e5356/",
+    "/documents/c8b3442a-7e63-4847-af11-c72597bf65b3/",
+    "/documents/a8e24af0-257a-4535-91f9-7327e1794d5f/",
+    "/documents/df5cbde9-cb3b-4728-9c12-88facc93e6fe/"
+  ],
+  "references": [
+    {
+      "documents": [],
+      "status": "released",
+      "lab": "/labs/brenton-graveley/",
+      "award": "/awards/U54HG007005/",
+      "date_created": "2017-08-03T21:25:39.994261+00:00",
+      "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+      "schema_version": "9",
+      "title": "A large-scale binding and functional map of human RNA-binding proteins",
+      "abstract": "Many proteins regulate the expression of genes by binding to specific regions encoded in the genome. Here we introduce a new data set of RNA elements in the human genome that are recognized by RNA-binding proteins (RBPs), generated as part of the Encyclopedia of DNA Elements (ENCODE) project phase III. This class of regulatory elements functions only when transcribed into RNA, as they serve as the binding sites for RBPs that control post-transcriptional processes such as splicing, cleavage and polyadenylation, and the editing, localization, stability and translation of mRNAs. We describe the mapping and characterization of RNA elements recognized by a large collection of human RBPs in K562 and HepG2 cells. Integrative analyses using five assays identify RBP binding sites on RNA and chromatin in vivo, the in vitro binding preferences of RBPs, the function of RBP binding sites and the subcellular localization of RBPs, producing 1,223 replicated data sets for 356 RBPs. We describe the spectrum of RBP binding throughout the transcriptome and the connections between these interactions and various aspects of RNA biology, including RNA stability, splicing regulation and RNA localization. These data expand the catalogue of functional elements encoded in the human genome by the addition of a large set of elements that function at the RNA level by interacting with RBPs.",
+      "authors": "Eric L. Van Nostrand, Peter Freese, Gabriel A. Pratt, Xiaofeng Wang, Xintao Wei, Rui Xiao, Steven M. Blue, Jia-Yu Chen, Neal A. L. Cody, Daniel Dominguez, Sara Olson, Balaji Sundararaman, Lijun Zhan, Cassandra Bazile, Louis Philip Benoit Bouvrette, Julie Bergalet, Michael O. Duff, Keri E. Garcia, Chelsea Gelboin-Burkhart, Myles Hochman, Nicole J. Lambert, Hairi Li, Michael P. McGurk, Thai B. Nguyen, Tsultrim Palden, Ines Rabano, Shashank Sathe, Rebecca Stanton, Amanda Su, Ruth Wang, Brian A. Yee, Bing Zhou, Ashley L. Louie, Stefan Aigner, Xiang-Dong Fu, Eric L\u00e9cuyer, Christopher B. Burge, Brenton R. Graveley, Gene W. Yeo",
+      "date_published": "2020-07-29",
+      "page": "711-719",
+      "volume": "583",
+      "journal": "Nature",
+      "identifiers": [
+        "PMCID:PMC7410833",
+        "PMID:32728246",
+        "doi:10.1038/s41586-020-2077-3"
+      ],
+      "supplementary_data": [],
+      "published_by": [
+        "ENCODE"
+      ],
+      "carts": [],
+      "@id": "/publications/4928df3e-6995-4401-b643-84980bb94057/",
+      "@type": [
+        "Publication",
+        "Item"
+      ],
+      "uuid": "4928df3e-6995-4401-b643-84980bb94057",
+      "publication_year": 2020
+    }
+  ],
+  "schema_version": "37",
+  "accession": "ENCSR368NMO",
+  "alternate_accessions": [],
+  "analyses": [
+    {
+      "documents": [],
+      "date_created": "2020-12-08T01:09:22.509805+00:00",
+      "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+      "aliases": [
+        "encode:Burge_RBNS_v1_ENCSR368NMO"
+      ],
+      "accession": "ENCAN966KHX",
+      "schema_version": "1",
+      "files": [
+        "/files/ENCFF574ANJ/",
+        "/files/ENCFF346XPF/",
+        "/files/ENCFF715DIL/",
+        "/files/ENCFF813TVN/",
+        "/files/ENCFF298QFN/"
+      ],
+      "status": "released",
+      "@id": "/analyses/ENCAN966KHX/",
+      "@type": [
+        "Analysis",
+        "Item"
+      ],
+      "uuid": "a73dfcb2-36ab-469c-b6cb-1b645b856136",
+      "datasets": [
+        "/experiments/ENCSR368NMO/"
+      ],
+      "assembly": "hg19",
+      "pipelines": [
+        "/pipelines/ENCPL133ALO/"
+      ],
+      "pipeline_award_rfas": [
+        "ENCODE4"
+      ],
+      "pipeline_labs": [
+        "/labs/chris-burge/"
+      ],
+      "superseded_by": [],
+      "title": "Lab custom hg19"
+    }
+  ],
+  "description": "RNA Bind-n-Seq (RBNS) pulldown experiment against HNRNPK",
+  "dbxrefs": [],
+  "date_released": "2015-08-18",
+  "doi": "10.17989/ENCSR368NMO",
+  "internal_tags": [
+    "ENCORE",
+    "ENCYCLOPEDIAv2"
+  ],
+  "status": "released",
+  "date_created": "2014-11-25T04:05:11.024972+00:00",
+  "submitted_by": {
+    "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+    "@type": [
+      "User",
+      "Item"
+    ],
+    "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+    "lab": "/labs/brenton-graveley/",
+    "title": "Xintao Wei",
+    "submits_for": [
+      "/labs/brenton-graveley/",
+      "/labs/gene-yeo/",
+      "/labs/xiang-dong-fu/",
+      "/labs/chris-burge/",
+      "/labs/eric-lecuyer/"
+    ]
+  },
+  "lab": {
+    "fax": "617-452-2936",
+    "address2": "31 Ames Street, 68-271A",
+    "address1": "Department of Biology",
+    "state": "MA",
+    "institute_name": "Massachusetts Institute of Technology",
+    "awards": [
+      "/awards/U54HG007005/"
+    ],
+    "title": "Chris Burge, MIT",
+    "phone1": "617-258-5997",
+    "city": "Cambridge",
+    "phone2": "617-253-9395",
+    "schema_version": "5",
+    "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+    "postal_code": "02139-4307",
+    "name": "chris-burge",
+    "institute_label": "MIT",
+    "country": "USA",
+    "status": "current",
+    "@id": "/labs/chris-burge/",
+    "@type": [
+      "Lab",
+      "Item"
+    ],
+    "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+  },
+  "award": {
+    "status": "disabled",
+    "url": "http://projectreporter.nih.gov/project_info_details.cfm?aid=8402439",
+    "schema_version": "11",
+    "title": "COMPREHENSIVE ANALYSIS OF FUNCTIONAL RNA ELEMENTS ENCODED IN THE HUMAN GENOME",
+    "name": "U54HG007005",
+    "description": "The goal of this proposal is to comprehensively characterize the functional sequence elements encoded in the human genome that are recognized by 250 RNA binding proteins (RBPs) in two cell lines. To do this, we will generate stable HeLa-S3 and GM 12878 cell lines expressing epitope-tagged RBPs and determine the sub cellular localization pattern of each RBP. These cells will be used to perform CLIP-Seq assays to define genome-wide, and at single-nucleotide resolution, the RNA sequence elements recognized by 250 RBPs. The RNA sequence elements identified will be validated using sequence-based in vitro binding assays. Furthermore, ChlP-Seq will be performed for all nuclear localized RBPs to determine the regions of the genome and chromatin that each RBP associates with. These binding assays will be supplemented with functional assays in RBP-depleted cells that will be critical for assigning functions to the identified binding sites. These assays include RNA-Seq of total cellular RNA and RNA purified from various cellular fractions, ribosomal footprint profiling, and Gro-Seq. Together, these assays will provide functional information regarding the roles of each RBP in splicing, cleavage and polyadenylation, RNA stability, RNA editing, translation, RNA localization, and transcription. Bioinformatic analysis will be performed, largely using software generated by our group, to quantitate all assays and to associate functions to the sequence elements identified in the binding assays. Together, these experiments will provide a comprehensive and in depth measure of the functions of approximately half of the human RBPs and the functional sequence elements that they interact with. This project will fill a major gap in the catalog of functional elements encoded in the human genome that are being characterized by the ENCODE consortium. The product of this project will be a unique and valuable community resource that will push the field forward in new and exciting ways and will almost certainly create new paradigms regarding the functions of RBPs and RNA-protein networks in human biology and disease.",
+    "start_date": "2012-09-21",
+    "end_date": "2016-07-31",
+    "pi": {
+      "@id": "/users/4fa80b58-322a-4c8e-9b33-d2a00c8405bd/",
+      "@type": [
+        "User",
+        "Item"
+      ],
+      "uuid": "4fa80b58-322a-4c8e-9b33-d2a00c8405bd",
+      "lab": {
+        "fax": "860-679-8345",
+        "address2": "400 Farmington Ave.",
+        "address1": "Department of Genetics and Developmental Biology",
+        "state": "CT",
+        "institute_name": "University of Connecticut",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Brenton Graveley, UConn",
+        "phone1": "860-679-2090",
+        "city": "Farmington",
+        "phone2": "",
+        "schema_version": "5",
+        "pi": "/users/4fa80b58-322a-4c8e-9b33-d2a00c8405bd/",
+        "postal_code": "06030-6403",
+        "name": "brenton-graveley",
+        "institute_label": "UConn",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/brenton-graveley/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "308baeae-c7f8-481b-b7c5-e364593ac7af"
+      },
+      "title": "Brenton Graveley",
+      "submits_for": [
+        "/labs/brenton-graveley/",
+        "/labs/gene-yeo/",
+        "/labs/xiang-dong-fu/",
+        "/labs/chris-burge/"
+      ]
+    },
+    "rfa": "ENCODE3",
+    "project": "ENCODE",
+    "viewing_group": "ENCODE3",
+    "@id": "/awards/U54HG007005/",
+    "@type": [
+      "Award",
+      "Item"
+    ],
+    "uuid": "d85c9929-1169-472e-b377-3f7dbbe61e09"
+  },
+  "aliases": [
+    "chris-burge:HNRNPK"
+  ],
+  "date_submitted": "2015-10-31",
+  "target": {
+    "status": "released",
+    "aliases": [],
+    "schema_version": "14",
+    "dbxrefs": [
+      "FactorBook:HNRNPK"
+    ],
+    "genes": [
+      {
+        "status": "released",
+        "schema_version": "3",
+        "geneid": "3190",
+        "ncbi_entrez_status": "live",
+        "symbol": "HNRNPK",
+        "name": "heterogeneous nuclear ribonucleoprotein K",
+        "synonyms": [
+          "AUKS",
+          "CSBP",
+          "HNRPK",
+          "TUNP"
+        ],
+        "dbxrefs": [
+          "ENSEMBL:ENSG00000165119",
+          "RefSeq:NM_031262.3",
+          "Vega:OTTHUMG00000020107",
+          "MIM:600712",
+          "UniProtKB:P61978",
+          "UniProtKB:B4DUQ1",
+          "GeneCards:HNRNPK",
+          "HGNC:5044"
+        ],
+        "locations": [
+          {
+            "assembly": "GRCh38",
+            "chromosome": "chr9",
+            "start": 83968083,
+            "end": 83980782
+          },
+          {
+            "assembly": "hg19",
+            "chromosome": "chr9",
+            "start": 86582998,
+            "end": 86595697
+          }
+        ],
+        "organism": "/organisms/human/",
+        "@id": "/genes/3190/",
+        "@type": [
+          "Gene",
+          "Item"
+        ],
+        "uuid": "eeed2ef0-53bb-4101-80e1-ccec85cb11b7",
+        "title": "HNRNPK (Homo sapiens)",
+        "targets": [
+          "/targets/HNRNPK-human/",
+          "/targets/eGFP-HNRNPK-human/"
+        ]
+      }
+    ],
+    "label": "HNRNPK",
+    "investigated_as": [
+      "transcription factor"
+    ],
+    "@id": "/targets/HNRNPK-human/",
+    "@type": [
+      "Target",
+      "Item"
+    ],
+    "uuid": "3b594b8a-fde5-42b0-b5d1-bc897914638b",
+    "organism": {
+      "schema_version": "6",
+      "scientific_name": "Homo sapiens",
+      "name": "human",
+      "status": "released",
+      "taxon_id": "9606",
+      "@id": "/organisms/human/",
+      "@type": [
+        "Organism",
+        "Item"
+      ],
+      "uuid": "7745b647-ff15-4ff3-9ced-b897d4e2983c"
+    },
+    "name": "HNRNPK-human",
+    "title": "HNRNPK (Homo sapiens)"
+  },
+  "possible_controls": [
+    {
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "documents": [
+        "/documents/36f0744a-6870-444e-b3ce-532e4be2cab3/"
+      ],
+      "references": [
+        "/publications/4928df3e-6995-4401-b643-84980bb94057/"
+      ],
+      "schema_version": "37",
+      "accession": "ENCSR944GMN",
+      "alternate_accessions": [],
+      "description": "RNA Bind-n-Seq (RBNS) input control experiment of HNRNPK",
+      "dbxrefs": [],
+      "date_released": "2015-08-18",
+      "doi": "10.17989/ENCSR944GMN",
+      "internal_tags": [
+        "ENCORE"
+      ],
+      "status": "released",
+      "date_created": "2015-08-17T18:10:50.303736+00:00",
+      "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+      "lab": "/labs/chris-burge/",
+      "award": "/awards/U54HG007005/",
+      "aliases": [
+        "chris-burge:HNRNPK-input-cntl"
+      ],
+      "date_submitted": "2015-08-17",
+      "possible_controls": [],
+      "supersedes": [],
+      "related_files": [],
+      "internal_status": "no available pipeline",
+      "control_type": "input library",
+      "bio_replicate_count": 1,
+      "tech_replicate_count": 1,
+      "replication_type": "unreplicated",
+      "objective_slims": [],
+      "type_slims": [],
+      "category_slims": [],
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_slims": [
+        "RNA binding"
+      ],
+      "replicates": [
+        "/replicates/09cc2741-e6a4-4b3c-90ba-02dd93655dfc/"
+      ],
+      "simple_biosample_summary": "",
+      "assay_term_id": "OBI:0002044",
+      "@id": "/experiments/ENCSR944GMN/",
+      "@type": [
+        "Experiment",
+        "Dataset",
+        "Item"
+      ],
+      "uuid": "3ca9b4bb-b8af-4e85-9ff3-72b13c356b4c",
+      "original_files": [
+        "/files/ENCFF537ORU/"
+      ],
+      "contributing_files": [],
+      "files": [
+        "/files/ENCFF537ORU/"
+      ],
+      "revoked_files": [],
+      "assembly": [],
+      "related_series": [],
+      "superseded_by": [],
+      "related_annotations": [],
+      "perturbed": false
+    }
+  ],
+  "supersedes": [],
+  "related_files": [],
+  "internal_status": "no available pipeline",
+  "bio_replicate_count": 1,
+  "tech_replicate_count": 5,
+  "replication_type": "unreplicated",
+  "objective_slims": [],
+  "type_slims": [],
+  "category_slims": [],
+  "assay_title": "RNA Bind-n-Seq",
+  "assay_slims": [
+    "RNA binding"
+  ],
+  "replicates": [
+    {
+      "technical_replicate_number": 1,
+      "schema_version": "9",
+      "rbns_protein_concentration": 5,
+      "status": "released",
+      "experiment": "/experiments/ENCSR368NMO/",
+      "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+      "library": {
+        "notes": "The strand_specificity of this library was defaulted to unstranded in an upgrade.",
+        "documents": [],
+        "date_created": "2015-08-17T18:12:31.573377+00:00",
+        "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "status": "released",
+        "lab": "/labs/chris-burge/",
+        "award": "/awards/U54HG007005/",
+        "aliases": [
+          "chris-burge:lib-HNRNPK-1"
+        ],
+        "accession": "ENCLB391HQR",
+        "schema_version": "20",
+        "alternate_accessions": [],
+        "spikeins_used": [],
+        "barcode_details": [],
+        "nucleic_acid_term_name": "RNA",
+        "dbxrefs": [],
+        "size_range": "20-20",
+        "strand_specificity": "unstranded",
+        "treatments": [],
+        "@id": "/libraries/ENCLB391HQR/",
+        "@type": [
+          "Library",
+          "Item"
+        ],
+        "uuid": "69dce0da-06d3-498c-aacc-507e6b0b5e17",
+        "nucleic_acid_term_id": "SO:0000356"
+      },
+      "aliases": [
+        "chris-burge:rep-HNRNPK-1"
+      ],
+      "date_created": "2015-08-17T18:12:47.639367+00:00",
+      "biological_replicate_number": 1,
+      "rbns_protein_concentration_units": "nM",
+      "@id": "/replicates/afde0b30-1afc-462b-b7f6-de685b7a5e35/",
+      "@type": [
+        "Replicate",
+        "Item"
+      ],
+      "uuid": "afde0b30-1afc-462b-b7f6-de685b7a5e35"
+    },
+    {
+      "technical_replicate_number": 2,
+      "schema_version": "9",
+      "rbns_protein_concentration": 20,
+      "status": "released",
+      "experiment": "/experiments/ENCSR368NMO/",
+      "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+      "library": {
+        "notes": "The strand_specificity of this library was defaulted to unstranded in an upgrade.",
+        "documents": [],
+        "date_created": "2015-08-17T18:12:31.997892+00:00",
+        "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "status": "released",
+        "lab": "/labs/chris-burge/",
+        "award": "/awards/U54HG007005/",
+        "aliases": [
+          "chris-burge:lib-HNRNPK-2"
+        ],
+        "accession": "ENCLB133EVE",
+        "schema_version": "20",
+        "alternate_accessions": [],
+        "spikeins_used": [],
+        "barcode_details": [],
+        "nucleic_acid_term_name": "RNA",
+        "dbxrefs": [],
+        "size_range": "20-20",
+        "strand_specificity": "unstranded",
+        "treatments": [],
+        "@id": "/libraries/ENCLB133EVE/",
+        "@type": [
+          "Library",
+          "Item"
+        ],
+        "uuid": "d1151019-59da-4289-8d37-ebbd11d20134",
+        "nucleic_acid_term_id": "SO:0000356"
+      },
+      "aliases": [
+        "chris-burge:rep-HNRNPK-2"
+      ],
+      "date_created": "2015-08-17T18:12:48.048717+00:00",
+      "biological_replicate_number": 1,
+      "rbns_protein_concentration_units": "nM",
+      "@id": "/replicates/3b88c2ae-1046-4ce0-b6b1-18cd28c64fc1/",
+      "@type": [
+        "Replicate",
+        "Item"
+      ],
+      "uuid": "3b88c2ae-1046-4ce0-b6b1-18cd28c64fc1"
+    },
+    {
+      "technical_replicate_number": 3,
+      "schema_version": "9",
+      "rbns_protein_concentration": 80,
+      "status": "released",
+      "experiment": "/experiments/ENCSR368NMO/",
+      "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+      "library": {
+        "notes": "The strand_specificity of this library was defaulted to unstranded in an upgrade.",
+        "documents": [],
+        "date_created": "2015-08-17T18:12:32.413339+00:00",
+        "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "status": "released",
+        "lab": "/labs/chris-burge/",
+        "award": "/awards/U54HG007005/",
+        "aliases": [
+          "chris-burge:lib-HNRNPK-3"
+        ],
+        "accession": "ENCLB624BWH",
+        "schema_version": "20",
+        "alternate_accessions": [],
+        "spikeins_used": [],
+        "barcode_details": [],
+        "nucleic_acid_term_name": "RNA",
+        "dbxrefs": [],
+        "size_range": "20-20",
+        "strand_specificity": "unstranded",
+        "treatments": [],
+        "@id": "/libraries/ENCLB624BWH/",
+        "@type": [
+          "Library",
+          "Item"
+        ],
+        "uuid": "7eff943d-7dd5-45de-9011-47e82d76a22e",
+        "nucleic_acid_term_id": "SO:0000356"
+      },
+      "aliases": [
+        "chris-burge:rep-HNRNPK-3"
+      ],
+      "date_created": "2015-08-17T18:12:48.448839+00:00",
+      "biological_replicate_number": 1,
+      "rbns_protein_concentration_units": "nM",
+      "@id": "/replicates/ae31e375-1abd-40bd-b51c-240cdaf6bde6/",
+      "@type": [
+        "Replicate",
+        "Item"
+      ],
+      "uuid": "ae31e375-1abd-40bd-b51c-240cdaf6bde6"
+    },
+    {
+      "technical_replicate_number": 4,
+      "schema_version": "9",
+      "rbns_protein_concentration": 320,
+      "status": "released",
+      "experiment": "/experiments/ENCSR368NMO/",
+      "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+      "library": {
+        "notes": "The strand_specificity of this library was defaulted to unstranded in an upgrade.",
+        "documents": [],
+        "date_created": "2015-08-17T18:12:32.833340+00:00",
+        "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "status": "released",
+        "lab": "/labs/chris-burge/",
+        "award": "/awards/U54HG007005/",
+        "aliases": [
+          "chris-burge:lib-HNRNPK-4"
+        ],
+        "accession": "ENCLB245NWT",
+        "schema_version": "20",
+        "alternate_accessions": [],
+        "spikeins_used": [],
+        "barcode_details": [],
+        "nucleic_acid_term_name": "RNA",
+        "dbxrefs": [],
+        "size_range": "20-20",
+        "strand_specificity": "unstranded",
+        "treatments": [],
+        "@id": "/libraries/ENCLB245NWT/",
+        "@type": [
+          "Library",
+          "Item"
+        ],
+        "uuid": "b98af2e3-27c0-4e88-b2cc-3584cd0b14b4",
+        "nucleic_acid_term_id": "SO:0000356"
+      },
+      "aliases": [
+        "chris-burge:rep-HNRNPK-4"
+      ],
+      "date_created": "2015-08-17T18:12:48.850396+00:00",
+      "biological_replicate_number": 1,
+      "rbns_protein_concentration_units": "nM",
+      "@id": "/replicates/7081b0c0-8e55-4f06-a94e-86b74cf37253/",
+      "@type": [
+        "Replicate",
+        "Item"
+      ],
+      "uuid": "7081b0c0-8e55-4f06-a94e-86b74cf37253"
+    },
+    {
+      "technical_replicate_number": 5,
+      "schema_version": "9",
+      "rbns_protein_concentration": 1300,
+      "status": "released",
+      "experiment": "/experiments/ENCSR368NMO/",
+      "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+      "library": {
+        "notes": "The strand_specificity of this library was defaulted to unstranded in an upgrade.",
+        "documents": [],
+        "date_created": "2015-08-17T18:12:33.256554+00:00",
+        "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "status": "released",
+        "lab": "/labs/chris-burge/",
+        "award": "/awards/U54HG007005/",
+        "aliases": [
+          "chris-burge:lib-HNRNPK-5"
+        ],
+        "accession": "ENCLB448TEV",
+        "schema_version": "20",
+        "alternate_accessions": [],
+        "spikeins_used": [],
+        "barcode_details": [],
+        "nucleic_acid_term_name": "RNA",
+        "dbxrefs": [],
+        "size_range": "20-20",
+        "strand_specificity": "unstranded",
+        "treatments": [],
+        "@id": "/libraries/ENCLB448TEV/",
+        "@type": [
+          "Library",
+          "Item"
+        ],
+        "uuid": "41619453-af4d-4e0f-aa37-72ac935d61c9",
+        "nucleic_acid_term_id": "SO:0000356"
+      },
+      "aliases": [
+        "chris-burge:rep-HNRNPK-5"
+      ],
+      "date_created": "2015-08-17T18:12:49.244140+00:00",
+      "biological_replicate_number": 1,
+      "rbns_protein_concentration_units": "nM",
+      "@id": "/replicates/dc305125-578d-4410-abbe-f4a56f630096/",
+      "@type": [
+        "Replicate",
+        "Item"
+      ],
+      "uuid": "dc305125-578d-4410-abbe-f4a56f630096"
+    }
+  ],
+  "simple_biosample_summary": "",
+  "assay_term_id": "OBI:0002044",
+  "@id": "/experiments/ENCSR368NMO/",
+  "@type": [
+    "Experiment",
+    "Dataset",
+    "Item"
+  ],
+  "uuid": "505796b6-4b63-4f73-a1ec-7c7b3f12e4ae",
+  "original_files": [
+    "/files/ENCFF261ZHZ/",
+    "/files/ENCFF715DIL/",
+    "/files/ENCFF281CNE/",
+    "/files/ENCFF004OKN/",
+    "/files/ENCFF674RCB/",
+    "/files/ENCFF346XPF/",
+    "/files/ENCFF595IBV/",
+    "/files/ENCFF850EVL/",
+    "/files/ENCFF732XFP/",
+    "/files/ENCFF775OKJ/",
+    "/files/ENCFF574ANJ/",
+    "/files/ENCFF813TVN/",
+    "/files/ENCFF298QFN/"
+  ],
+  "contributing_files": [
+    "/files/ENCFF993NVI/",
+    "/files/ENCFF448SCQ/",
+    "/files/ENCFF537ORU/"
+  ],
+  "files": [
+    {
+      "accession": "ENCFF261ZHZ",
+      "aliases": [
+        "chris-burge:HNRNPK_5.fastq.gz"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2015-08-17T18:20:49.571861+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "read_count": 9632989,
+      "file_format": "fastq",
+      "no_file_available": false,
+      "submitted_file_name": "/archive/TGCore_User_Data/ENCODE/DATA/HNRNPK/RBNS/HNRNPK_5.fastq.gz",
+      "md5sum": "3c1770cc8337f4f03e7d0902c4b75684",
+      "content_md5sum": "9e3ccd9a7fab95709b3636e0c0b3ecff",
+      "fastq_signature": [
+        "TEMP:5:1::@HWI-ST1133R:5:1101:1068:2128#CGGAATATGTTCAGAG/1"
+      ],
+      "file_size": 242507833,
+      "platform": {
+        "submitted_by": "/users/ff7b77e7-bb55-4307-b665-814c9f1e65fb/",
+        "aliases": [
+          "encode:Illumina_HiSeq_2000",
+          "encode:HiSeq2000"
+        ],
+        "url": "http://www.illumina.com/documents/products/datasheets/datasheet_hiseq2000.pdf",
+        "schema_version": "7",
+        "dbxrefs": [
+          "UCSC-ENCODE-cv:Illumina_HiSeq_2000"
+        ],
+        "term_id": "OBI:0002001",
+        "term_name": "Illumina HiSeq 2000",
+        "date_created": "2013-11-14T22:17:00.135861+00:00",
+        "status": "released",
+        "@id": "/platforms/OBI:0002001/",
+        "@type": [
+          "Platform",
+          "Item"
+        ],
+        "uuid": "03a96eaf-75da-44e2-b4f6-e349e8c3655e",
+        "title": "Illumina HiSeq 2000"
+      },
+      "read_length": 20,
+      "run_type": "single-ended",
+      "flowcell_details": [],
+      "output_type": "reads",
+      "controlled_by": [
+        "/files/ENCFF537ORU/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "replicate": {
+        "technical_replicate_number": 1,
+        "schema_version": "9",
+        "rbns_protein_concentration": 5,
+        "status": "released",
+        "experiment": {
+          "submitter_comment": "For details on the software used to generate the peaks files, please contact the Burge Lab (MIT).",
+          "assay_term_name": "RNA Bind-n-Seq",
+          "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+          "documents": [
+            "/documents/f2cef92c-ae02-4d83-b31b-fdcec62e5356/",
+            "/documents/c8b3442a-7e63-4847-af11-c72597bf65b3/",
+            "/documents/a8e24af0-257a-4535-91f9-7327e1794d5f/",
+            "/documents/df5cbde9-cb3b-4728-9c12-88facc93e6fe/"
+          ],
+          "references": [
+            "/publications/4928df3e-6995-4401-b643-84980bb94057/"
+          ],
+          "schema_version": "37",
+          "accession": "ENCSR368NMO",
+          "alternate_accessions": [],
+          "analyses": [
+            "/analyses/ENCAN966KHX/"
+          ],
+          "description": "RNA Bind-n-Seq (RBNS) pulldown experiment against HNRNPK",
+          "dbxrefs": [],
+          "date_released": "2015-08-18",
+          "doi": "10.17989/ENCSR368NMO",
+          "internal_tags": [
+            "ENCORE",
+            "ENCYCLOPEDIAv2"
+          ],
+          "status": "released",
+          "date_created": "2014-11-25T04:05:11.024972+00:00",
+          "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+          "lab": {
+            "fax": "617-452-2936",
+            "address2": "31 Ames Street, 68-271A",
+            "address1": "Department of Biology",
+            "state": "MA",
+            "institute_name": "Massachusetts Institute of Technology",
+            "awards": [
+              "/awards/U54HG007005/"
+            ],
+            "title": "Chris Burge, MIT",
+            "phone1": "617-258-5997",
+            "city": "Cambridge",
+            "phone2": "617-253-9395",
+            "schema_version": "5",
+            "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+            "postal_code": "02139-4307",
+            "name": "chris-burge",
+            "institute_label": "MIT",
+            "country": "USA",
+            "status": "current",
+            "@id": "/labs/chris-burge/",
+            "@type": [
+              "Lab",
+              "Item"
+            ],
+            "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+          },
+          "award": "/awards/U54HG007005/",
+          "aliases": [
+            "chris-burge:HNRNPK"
+          ],
+          "date_submitted": "2015-10-31",
+          "target": {
+            "status": "released",
+            "aliases": [],
+            "schema_version": "14",
+            "dbxrefs": [
+              "FactorBook:HNRNPK"
+            ],
+            "genes": [
+              {
+                "status": "released",
+                "schema_version": "3",
+                "geneid": "3190",
+                "ncbi_entrez_status": "live",
+                "symbol": "HNRNPK",
+                "name": "heterogeneous nuclear ribonucleoprotein K",
+                "synonyms": [
+                  "AUKS",
+                  "CSBP",
+                  "HNRPK",
+                  "TUNP"
+                ],
+                "dbxrefs": [
+                  "ENSEMBL:ENSG00000165119",
+                  "RefSeq:NM_031262.3",
+                  "Vega:OTTHUMG00000020107",
+                  "MIM:600712",
+                  "UniProtKB:P61978",
+                  "UniProtKB:B4DUQ1",
+                  "GeneCards:HNRNPK",
+                  "HGNC:5044"
+                ],
+                "locations": [
+                  {
+                    "assembly": "GRCh38",
+                    "chromosome": "chr9",
+                    "start": 83968083,
+                    "end": 83980782
+                  },
+                  {
+                    "assembly": "hg19",
+                    "chromosome": "chr9",
+                    "start": 86582998,
+                    "end": 86595697
+                  }
+                ],
+                "organism": "/organisms/human/",
+                "@id": "/genes/3190/",
+                "@type": [
+                  "Gene",
+                  "Item"
+                ],
+                "uuid": "eeed2ef0-53bb-4101-80e1-ccec85cb11b7",
+                "title": "HNRNPK (Homo sapiens)",
+                "targets": [
+                  "/targets/HNRNPK-human/",
+                  "/targets/eGFP-HNRNPK-human/"
+                ]
+              }
+            ],
+            "label": "HNRNPK",
+            "investigated_as": [
+              "transcription factor"
+            ],
+            "@id": "/targets/HNRNPK-human/",
+            "@type": [
+              "Target",
+              "Item"
+            ],
+            "uuid": "3b594b8a-fde5-42b0-b5d1-bc897914638b",
+            "organism": "/organisms/human/",
+            "name": "HNRNPK-human",
+            "title": "HNRNPK (Homo sapiens)"
+          },
+          "possible_controls": [
+            "/experiments/ENCSR944GMN/"
+          ],
+          "supersedes": [],
+          "related_files": [],
+          "internal_status": "no available pipeline",
+          "bio_replicate_count": 1,
+          "tech_replicate_count": 5,
+          "replication_type": "unreplicated",
+          "objective_slims": [],
+          "type_slims": [],
+          "category_slims": [],
+          "assay_title": "RNA Bind-n-Seq",
+          "assay_slims": [
+            "RNA binding"
+          ],
+          "replicates": [
+            "/replicates/afde0b30-1afc-462b-b7f6-de685b7a5e35/",
+            "/replicates/3b88c2ae-1046-4ce0-b6b1-18cd28c64fc1/",
+            "/replicates/ae31e375-1abd-40bd-b51c-240cdaf6bde6/",
+            "/replicates/7081b0c0-8e55-4f06-a94e-86b74cf37253/",
+            "/replicates/dc305125-578d-4410-abbe-f4a56f630096/"
+          ],
+          "simple_biosample_summary": "",
+          "assay_term_id": "OBI:0002044",
+          "@id": "/experiments/ENCSR368NMO/",
+          "@type": [
+            "Experiment",
+            "Dataset",
+            "Item"
+          ],
+          "uuid": "505796b6-4b63-4f73-a1ec-7c7b3f12e4ae",
+          "original_files": [
+            "/files/ENCFF261ZHZ/",
+            "/files/ENCFF715DIL/",
+            "/files/ENCFF281CNE/",
+            "/files/ENCFF004OKN/",
+            "/files/ENCFF674RCB/",
+            "/files/ENCFF346XPF/",
+            "/files/ENCFF595IBV/",
+            "/files/ENCFF850EVL/",
+            "/files/ENCFF732XFP/",
+            "/files/ENCFF775OKJ/",
+            "/files/ENCFF574ANJ/",
+            "/files/ENCFF813TVN/",
+            "/files/ENCFF298QFN/"
+          ],
+          "contributing_files": [
+            "/files/ENCFF993NVI/",
+            "/files/ENCFF448SCQ/",
+            "/files/ENCFF537ORU/"
+          ],
+          "files": [
+            "/files/ENCFF261ZHZ/",
+            "/files/ENCFF715DIL/",
+            "/files/ENCFF281CNE/",
+            "/files/ENCFF004OKN/",
+            "/files/ENCFF674RCB/",
+            "/files/ENCFF346XPF/",
+            "/files/ENCFF595IBV/",
+            "/files/ENCFF850EVL/",
+            "/files/ENCFF732XFP/",
+            "/files/ENCFF775OKJ/",
+            "/files/ENCFF574ANJ/",
+            "/files/ENCFF813TVN/",
+            "/files/ENCFF298QFN/"
+          ],
+          "revoked_files": [],
+          "assembly": [
+            "hg19"
+          ],
+          "hub": "/experiments/ENCSR368NMO/@@hub/hub.txt",
+          "default_analysis": "/analyses/ENCAN966KHX/",
+          "related_series": [],
+          "superseded_by": [],
+          "related_annotations": [],
+          "perturbed": false
+        },
+        "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "library": "/libraries/ENCLB391HQR/",
+        "aliases": [
+          "chris-burge:rep-HNRNPK-1"
+        ],
+        "date_created": "2015-08-17T18:12:47.639367+00:00",
+        "biological_replicate_number": 1,
+        "rbns_protein_concentration_units": "nM",
+        "@id": "/replicates/afde0b30-1afc-462b-b7f6-de685b7a5e35/",
+        "@type": [
+          "Replicate",
+          "Item"
+        ],
+        "uuid": "afde0b30-1afc-462b-b7f6-de685b7a5e35"
+      },
+      "status": "released",
+      "dbxrefs": [],
+      "@id": "/files/ENCFF261ZHZ/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "4b050320-4243-4b1d-b203-561544e9a72c",
+      "title": "ENCFF261ZHZ",
+      "href": "/files/ENCFF261ZHZ/@@download/ENCFF261ZHZ.fastq.gz",
+      "read_length_units": "nt",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_1"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "output_category": "raw data",
+      "quality_metrics": [],
+      "file_type": "fastq",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2015/08/17/4b050320-4243-4b1d-b203-561544e9a72c/ENCFF261ZHZ.fastq.gz",
+        "md5sum_base64": "PBdwzIM39PA+fQkCxLdWhA==",
+        "file_size": 242507833
+      },
+      "s3_uri": "s3://encode-public/2015/08/17/4b050320-4243-4b1d-b203-561544e9a72c/ENCFF261ZHZ.fastq.gz",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2015/08/17/4b050320-4243-4b1d-b203-561544e9a72c/ENCFF261ZHZ.fastq.gz?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [],
+      "processed": false
+    },
+    {
+      "accession": "ENCFF715DIL",
+      "aliases": [
+        "chris-burge:HNRNPK_enrichment_R.5mers.txt"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2015-08-17T18:25:43.267030+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "file_format": "tsv",
+      "no_file_available": false,
+      "submitted_file_name": "/archive/TGCore_User_Data/ENCODE/DATA/HNRNPK/RBNS/HNRNPK_enrichment_R.5mers.txt",
+      "md5sum": "543b8593092378c5b79a81ec99261898",
+      "fastq_signature": [],
+      "file_size": 42025,
+      "flowcell_details": [],
+      "output_type": "enrichment",
+      "derived_from": [
+        "/files/ENCFF732XFP/",
+        "/files/ENCFF281CNE/",
+        "/files/ENCFF261ZHZ/",
+        "/files/ENCFF537ORU/",
+        "/files/ENCFF674RCB/",
+        "/files/ENCFF004OKN/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "status": "released",
+      "dbxrefs": [],
+      "step_run": "/analysis-step-runs/463e2984-a646-4104-a511-89abf6d39294/",
+      "preferred_default": true,
+      "@id": "/files/ENCFF715DIL/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "62258dcb-87fa-4252-a415-20ab000b2872",
+      "title": "ENCFF715DIL",
+      "href": "/files/ENCFF715DIL/@@download/ENCFF715DIL.tsv",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_1",
+        "1_2",
+        "1_3",
+        "1_4",
+        "1_5"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "analysis_step_version": {
+        "minor_version": 0,
+        "aliases": [],
+        "date_created": "2019-05-09T22:21:01.726117+00:00",
+        "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+        "status": "released",
+        "analysis_step": {
+          "documents": [],
+          "date_created": "2019-05-09T22:15:30.560146+00:00",
+          "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+          "status": "released",
+          "aliases": [],
+          "schema_version": "17",
+          "step_label": "rbns-calculate-enrichment-and-estimated-binding-fraction-step",
+          "title": "RBNS Calculate Enrichment and Estimated Binding Fraction Step",
+          "major_version": 1,
+          "analysis_step_types": [
+            "enrichment"
+          ],
+          "input_file_types": [
+            "raw data"
+          ],
+          "output_file_types": [
+            "enrichment",
+            "library fraction"
+          ],
+          "@id": "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/",
+          "@type": [
+            "AnalysisStep",
+            "Item"
+          ],
+          "uuid": "8e94a343-8c4a-411b-8db7-364b40f97ac8",
+          "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1",
+          "pipelines": [
+            {
+              "documents": [],
+              "date_created": "2019-05-09T22:12:42.300595+00:00",
+              "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+              "references": [],
+              "lab": "/labs/chris-burge/",
+              "award": "/awards/U41HG009889/",
+              "aliases": [
+                "chris-burge:rbns-pipeline"
+              ],
+              "accession": "ENCPL133ALO",
+              "schema_version": "14",
+              "alternate_accessions": [],
+              "assay_term_names": [
+                "RNA Bind-n-Seq"
+              ],
+              "status": "released",
+              "title": "RBNS Pipeline",
+              "description": "From Burge lab (Freese, P.): \"The RBNS pipeline is a set of bioinformatics tools to analyze data from high-throughput sequencing experiments of protein-bound RNAs. The current version includes read splitting, calculation of kmer frequencies and enrichments, QC metrics, production of motif sequence logos, and RNA secondary structure analysis.\"",
+              "analysis_steps": [
+                "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/"
+              ],
+              "source_url": "https://bitbucket.org/pfreese/rbns_pipeline/src/master",
+              "standards_page": "/rbns/",
+              "pipeline_version": 1,
+              "@id": "/pipelines/ENCPL133ALO/",
+              "@type": [
+                "Pipeline",
+                "Item"
+              ],
+              "uuid": "ef637d0f-fa4c-4d1b-84b9-c124d70b34ec"
+            }
+          ],
+          "current_version": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+          "versions": [
+            "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/"
+          ]
+        },
+        "schema_version": "4",
+        "software_versions": [
+          "/software-versions/5cea0e65-1bf1-4eb4-9959-90a02c257ea2/"
+        ],
+        "@id": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+        "@type": [
+          "AnalysisStepVersion",
+          "Item"
+        ],
+        "uuid": "4a5b3bfa-589d-471d-b8ff-93dd597d2113",
+        "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0"
+      },
+      "output_category": "quantification",
+      "quality_metrics": [],
+      "file_type": "tsv",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2015/08/17/62258dcb-87fa-4252-a415-20ab000b2872/ENCFF715DIL.tsv",
+        "md5sum_base64": "VDuFkwkjeMW3moHsmSYYmA==",
+        "file_size": 42025
+      },
+      "s3_uri": "s3://encode-public/2015/08/17/62258dcb-87fa-4252-a415-20ab000b2872/ENCFF715DIL.tsv",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2015/08/17/62258dcb-87fa-4252-a415-20ab000b2872/ENCFF715DIL.tsv?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [
+        {
+          "status": "released",
+          "@id": "/analyses/ENCAN966KHX/",
+          "@type": [
+            "Analysis",
+            "Item"
+          ],
+          "uuid": "a73dfcb2-36ab-469c-b6cb-1b645b856136",
+          "pipeline_award_rfas": [
+            "ENCODE4"
+          ],
+          "title": "Lab custom hg19"
+        }
+      ],
+      "processed": true
+    },
+    {
+      "accession": "ENCFF281CNE",
+      "aliases": [
+        "chris-burge:HNRNPK_80.fastq.gz"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2015-08-17T18:21:41.605707+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "read_count": 10313436,
+      "file_format": "fastq",
+      "no_file_available": false,
+      "submitted_file_name": "/archive/TGCore_User_Data/ENCODE/DATA/HNRNPK/RBNS/HNRNPK_80.fastq.gz",
+      "md5sum": "05bd188a52f3f07a03ae55c47cc651ca",
+      "content_md5sum": "14ec4049d44f2a2e896b003e706910a2",
+      "fastq_signature": [
+        "TEMP:5:1::@HWI-ST1133R:5:1101:1428:2164#CTATACATGTTCAGAG/1"
+      ],
+      "file_size": 257024964,
+      "platform": {
+        "submitted_by": "/users/ff7b77e7-bb55-4307-b665-814c9f1e65fb/",
+        "aliases": [
+          "encode:Illumina_HiSeq_2000",
+          "encode:HiSeq2000"
+        ],
+        "url": "http://www.illumina.com/documents/products/datasheets/datasheet_hiseq2000.pdf",
+        "schema_version": "7",
+        "dbxrefs": [
+          "UCSC-ENCODE-cv:Illumina_HiSeq_2000"
+        ],
+        "term_id": "OBI:0002001",
+        "term_name": "Illumina HiSeq 2000",
+        "date_created": "2013-11-14T22:17:00.135861+00:00",
+        "status": "released",
+        "@id": "/platforms/OBI:0002001/",
+        "@type": [
+          "Platform",
+          "Item"
+        ],
+        "uuid": "03a96eaf-75da-44e2-b4f6-e349e8c3655e",
+        "title": "Illumina HiSeq 2000"
+      },
+      "read_length": 20,
+      "run_type": "single-ended",
+      "flowcell_details": [],
+      "output_type": "reads",
+      "controlled_by": [
+        "/files/ENCFF537ORU/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "replicate": {
+        "technical_replicate_number": 3,
+        "schema_version": "9",
+        "rbns_protein_concentration": 80,
+        "status": "released",
+        "experiment": {
+          "submitter_comment": "For details on the software used to generate the peaks files, please contact the Burge Lab (MIT).",
+          "assay_term_name": "RNA Bind-n-Seq",
+          "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+          "documents": [
+            "/documents/f2cef92c-ae02-4d83-b31b-fdcec62e5356/",
+            "/documents/c8b3442a-7e63-4847-af11-c72597bf65b3/",
+            "/documents/a8e24af0-257a-4535-91f9-7327e1794d5f/",
+            "/documents/df5cbde9-cb3b-4728-9c12-88facc93e6fe/"
+          ],
+          "references": [
+            "/publications/4928df3e-6995-4401-b643-84980bb94057/"
+          ],
+          "schema_version": "37",
+          "accession": "ENCSR368NMO",
+          "alternate_accessions": [],
+          "analyses": [
+            "/analyses/ENCAN966KHX/"
+          ],
+          "description": "RNA Bind-n-Seq (RBNS) pulldown experiment against HNRNPK",
+          "dbxrefs": [],
+          "date_released": "2015-08-18",
+          "doi": "10.17989/ENCSR368NMO",
+          "internal_tags": [
+            "ENCORE",
+            "ENCYCLOPEDIAv2"
+          ],
+          "status": "released",
+          "date_created": "2014-11-25T04:05:11.024972+00:00",
+          "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+          "lab": {
+            "fax": "617-452-2936",
+            "address2": "31 Ames Street, 68-271A",
+            "address1": "Department of Biology",
+            "state": "MA",
+            "institute_name": "Massachusetts Institute of Technology",
+            "awards": [
+              "/awards/U54HG007005/"
+            ],
+            "title": "Chris Burge, MIT",
+            "phone1": "617-258-5997",
+            "city": "Cambridge",
+            "phone2": "617-253-9395",
+            "schema_version": "5",
+            "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+            "postal_code": "02139-4307",
+            "name": "chris-burge",
+            "institute_label": "MIT",
+            "country": "USA",
+            "status": "current",
+            "@id": "/labs/chris-burge/",
+            "@type": [
+              "Lab",
+              "Item"
+            ],
+            "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+          },
+          "award": "/awards/U54HG007005/",
+          "aliases": [
+            "chris-burge:HNRNPK"
+          ],
+          "date_submitted": "2015-10-31",
+          "target": {
+            "status": "released",
+            "aliases": [],
+            "schema_version": "14",
+            "dbxrefs": [
+              "FactorBook:HNRNPK"
+            ],
+            "genes": [
+              {
+                "status": "released",
+                "schema_version": "3",
+                "geneid": "3190",
+                "ncbi_entrez_status": "live",
+                "symbol": "HNRNPK",
+                "name": "heterogeneous nuclear ribonucleoprotein K",
+                "synonyms": [
+                  "AUKS",
+                  "CSBP",
+                  "HNRPK",
+                  "TUNP"
+                ],
+                "dbxrefs": [
+                  "ENSEMBL:ENSG00000165119",
+                  "RefSeq:NM_031262.3",
+                  "Vega:OTTHUMG00000020107",
+                  "MIM:600712",
+                  "UniProtKB:P61978",
+                  "UniProtKB:B4DUQ1",
+                  "GeneCards:HNRNPK",
+                  "HGNC:5044"
+                ],
+                "locations": [
+                  {
+                    "assembly": "GRCh38",
+                    "chromosome": "chr9",
+                    "start": 83968083,
+                    "end": 83980782
+                  },
+                  {
+                    "assembly": "hg19",
+                    "chromosome": "chr9",
+                    "start": 86582998,
+                    "end": 86595697
+                  }
+                ],
+                "organism": "/organisms/human/",
+                "@id": "/genes/3190/",
+                "@type": [
+                  "Gene",
+                  "Item"
+                ],
+                "uuid": "eeed2ef0-53bb-4101-80e1-ccec85cb11b7",
+                "title": "HNRNPK (Homo sapiens)",
+                "targets": [
+                  "/targets/HNRNPK-human/",
+                  "/targets/eGFP-HNRNPK-human/"
+                ]
+              }
+            ],
+            "label": "HNRNPK",
+            "investigated_as": [
+              "transcription factor"
+            ],
+            "@id": "/targets/HNRNPK-human/",
+            "@type": [
+              "Target",
+              "Item"
+            ],
+            "uuid": "3b594b8a-fde5-42b0-b5d1-bc897914638b",
+            "organism": "/organisms/human/",
+            "name": "HNRNPK-human",
+            "title": "HNRNPK (Homo sapiens)"
+          },
+          "possible_controls": [
+            "/experiments/ENCSR944GMN/"
+          ],
+          "supersedes": [],
+          "related_files": [],
+          "internal_status": "no available pipeline",
+          "bio_replicate_count": 1,
+          "tech_replicate_count": 5,
+          "replication_type": "unreplicated",
+          "objective_slims": [],
+          "type_slims": [],
+          "category_slims": [],
+          "assay_title": "RNA Bind-n-Seq",
+          "assay_slims": [
+            "RNA binding"
+          ],
+          "replicates": [
+            "/replicates/afde0b30-1afc-462b-b7f6-de685b7a5e35/",
+            "/replicates/3b88c2ae-1046-4ce0-b6b1-18cd28c64fc1/",
+            "/replicates/ae31e375-1abd-40bd-b51c-240cdaf6bde6/",
+            "/replicates/7081b0c0-8e55-4f06-a94e-86b74cf37253/",
+            "/replicates/dc305125-578d-4410-abbe-f4a56f630096/"
+          ],
+          "simple_biosample_summary": "",
+          "assay_term_id": "OBI:0002044",
+          "@id": "/experiments/ENCSR368NMO/",
+          "@type": [
+            "Experiment",
+            "Dataset",
+            "Item"
+          ],
+          "uuid": "505796b6-4b63-4f73-a1ec-7c7b3f12e4ae",
+          "original_files": [
+            "/files/ENCFF261ZHZ/",
+            "/files/ENCFF715DIL/",
+            "/files/ENCFF281CNE/",
+            "/files/ENCFF004OKN/",
+            "/files/ENCFF674RCB/",
+            "/files/ENCFF346XPF/",
+            "/files/ENCFF595IBV/",
+            "/files/ENCFF850EVL/",
+            "/files/ENCFF732XFP/",
+            "/files/ENCFF775OKJ/",
+            "/files/ENCFF574ANJ/",
+            "/files/ENCFF813TVN/",
+            "/files/ENCFF298QFN/"
+          ],
+          "contributing_files": [
+            "/files/ENCFF993NVI/",
+            "/files/ENCFF448SCQ/",
+            "/files/ENCFF537ORU/"
+          ],
+          "files": [
+            "/files/ENCFF261ZHZ/",
+            "/files/ENCFF715DIL/",
+            "/files/ENCFF281CNE/",
+            "/files/ENCFF004OKN/",
+            "/files/ENCFF674RCB/",
+            "/files/ENCFF346XPF/",
+            "/files/ENCFF595IBV/",
+            "/files/ENCFF850EVL/",
+            "/files/ENCFF732XFP/",
+            "/files/ENCFF775OKJ/",
+            "/files/ENCFF574ANJ/",
+            "/files/ENCFF813TVN/",
+            "/files/ENCFF298QFN/"
+          ],
+          "revoked_files": [],
+          "assembly": [
+            "hg19"
+          ],
+          "hub": "/experiments/ENCSR368NMO/@@hub/hub.txt",
+          "default_analysis": "/analyses/ENCAN966KHX/",
+          "related_series": [],
+          "superseded_by": [],
+          "related_annotations": [],
+          "perturbed": false
+        },
+        "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "library": "/libraries/ENCLB624BWH/",
+        "aliases": [
+          "chris-burge:rep-HNRNPK-3"
+        ],
+        "date_created": "2015-08-17T18:12:48.448839+00:00",
+        "biological_replicate_number": 1,
+        "rbns_protein_concentration_units": "nM",
+        "@id": "/replicates/ae31e375-1abd-40bd-b51c-240cdaf6bde6/",
+        "@type": [
+          "Replicate",
+          "Item"
+        ],
+        "uuid": "ae31e375-1abd-40bd-b51c-240cdaf6bde6"
+      },
+      "status": "released",
+      "dbxrefs": [],
+      "@id": "/files/ENCFF281CNE/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "00ddeb46-990b-4305-8d8b-cd3b180b8574",
+      "title": "ENCFF281CNE",
+      "href": "/files/ENCFF281CNE/@@download/ENCFF281CNE.fastq.gz",
+      "read_length_units": "nt",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_3"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "output_category": "raw data",
+      "quality_metrics": [],
+      "file_type": "fastq",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2015/08/17/00ddeb46-990b-4305-8d8b-cd3b180b8574/ENCFF281CNE.fastq.gz",
+        "md5sum_base64": "Bb0YilLz8HoDrlXEfMZRyg==",
+        "file_size": 257024964
+      },
+      "s3_uri": "s3://encode-public/2015/08/17/00ddeb46-990b-4305-8d8b-cd3b180b8574/ENCFF281CNE.fastq.gz",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2015/08/17/00ddeb46-990b-4305-8d8b-cd3b180b8574/ENCFF281CNE.fastq.gz?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [],
+      "processed": false
+    },
+    {
+      "accession": "ENCFF004OKN",
+      "aliases": [
+        "chris-burge:HNRNPK_320.fastq.gz"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2015-08-17T18:22:18.103378+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "read_count": 12358519,
+      "file_format": "fastq",
+      "no_file_available": false,
+      "submitted_file_name": "/archive/TGCore_User_Data/ENCODE/DATA/HNRNPK/RBNS/HNRNPK_320.fastq.gz",
+      "md5sum": "7b287369c116e1c72443e7af1dbbc642",
+      "content_md5sum": "7158dd61200035232bced0e31ece94dd",
+      "fastq_signature": [
+        "TEMP:5:1::@HWI-ST1133R:5:1101:1251:2177#CTCAGAATGTTCAGAG/1"
+      ],
+      "file_size": 306665444,
+      "platform": {
+        "submitted_by": "/users/ff7b77e7-bb55-4307-b665-814c9f1e65fb/",
+        "aliases": [
+          "encode:Illumina_HiSeq_2000",
+          "encode:HiSeq2000"
+        ],
+        "url": "http://www.illumina.com/documents/products/datasheets/datasheet_hiseq2000.pdf",
+        "schema_version": "7",
+        "dbxrefs": [
+          "UCSC-ENCODE-cv:Illumina_HiSeq_2000"
+        ],
+        "term_id": "OBI:0002001",
+        "term_name": "Illumina HiSeq 2000",
+        "date_created": "2013-11-14T22:17:00.135861+00:00",
+        "status": "released",
+        "@id": "/platforms/OBI:0002001/",
+        "@type": [
+          "Platform",
+          "Item"
+        ],
+        "uuid": "03a96eaf-75da-44e2-b4f6-e349e8c3655e",
+        "title": "Illumina HiSeq 2000"
+      },
+      "read_length": 20,
+      "run_type": "single-ended",
+      "flowcell_details": [],
+      "output_type": "reads",
+      "controlled_by": [
+        "/files/ENCFF537ORU/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "replicate": {
+        "technical_replicate_number": 4,
+        "schema_version": "9",
+        "rbns_protein_concentration": 320,
+        "status": "released",
+        "experiment": {
+          "submitter_comment": "For details on the software used to generate the peaks files, please contact the Burge Lab (MIT).",
+          "assay_term_name": "RNA Bind-n-Seq",
+          "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+          "documents": [
+            "/documents/f2cef92c-ae02-4d83-b31b-fdcec62e5356/",
+            "/documents/c8b3442a-7e63-4847-af11-c72597bf65b3/",
+            "/documents/a8e24af0-257a-4535-91f9-7327e1794d5f/",
+            "/documents/df5cbde9-cb3b-4728-9c12-88facc93e6fe/"
+          ],
+          "references": [
+            "/publications/4928df3e-6995-4401-b643-84980bb94057/"
+          ],
+          "schema_version": "37",
+          "accession": "ENCSR368NMO",
+          "alternate_accessions": [],
+          "analyses": [
+            "/analyses/ENCAN966KHX/"
+          ],
+          "description": "RNA Bind-n-Seq (RBNS) pulldown experiment against HNRNPK",
+          "dbxrefs": [],
+          "date_released": "2015-08-18",
+          "doi": "10.17989/ENCSR368NMO",
+          "internal_tags": [
+            "ENCORE",
+            "ENCYCLOPEDIAv2"
+          ],
+          "status": "released",
+          "date_created": "2014-11-25T04:05:11.024972+00:00",
+          "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+          "lab": {
+            "fax": "617-452-2936",
+            "address2": "31 Ames Street, 68-271A",
+            "address1": "Department of Biology",
+            "state": "MA",
+            "institute_name": "Massachusetts Institute of Technology",
+            "awards": [
+              "/awards/U54HG007005/"
+            ],
+            "title": "Chris Burge, MIT",
+            "phone1": "617-258-5997",
+            "city": "Cambridge",
+            "phone2": "617-253-9395",
+            "schema_version": "5",
+            "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+            "postal_code": "02139-4307",
+            "name": "chris-burge",
+            "institute_label": "MIT",
+            "country": "USA",
+            "status": "current",
+            "@id": "/labs/chris-burge/",
+            "@type": [
+              "Lab",
+              "Item"
+            ],
+            "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+          },
+          "award": "/awards/U54HG007005/",
+          "aliases": [
+            "chris-burge:HNRNPK"
+          ],
+          "date_submitted": "2015-10-31",
+          "target": {
+            "status": "released",
+            "aliases": [],
+            "schema_version": "14",
+            "dbxrefs": [
+              "FactorBook:HNRNPK"
+            ],
+            "genes": [
+              {
+                "status": "released",
+                "schema_version": "3",
+                "geneid": "3190",
+                "ncbi_entrez_status": "live",
+                "symbol": "HNRNPK",
+                "name": "heterogeneous nuclear ribonucleoprotein K",
+                "synonyms": [
+                  "AUKS",
+                  "CSBP",
+                  "HNRPK",
+                  "TUNP"
+                ],
+                "dbxrefs": [
+                  "ENSEMBL:ENSG00000165119",
+                  "RefSeq:NM_031262.3",
+                  "Vega:OTTHUMG00000020107",
+                  "MIM:600712",
+                  "UniProtKB:P61978",
+                  "UniProtKB:B4DUQ1",
+                  "GeneCards:HNRNPK",
+                  "HGNC:5044"
+                ],
+                "locations": [
+                  {
+                    "assembly": "GRCh38",
+                    "chromosome": "chr9",
+                    "start": 83968083,
+                    "end": 83980782
+                  },
+                  {
+                    "assembly": "hg19",
+                    "chromosome": "chr9",
+                    "start": 86582998,
+                    "end": 86595697
+                  }
+                ],
+                "organism": "/organisms/human/",
+                "@id": "/genes/3190/",
+                "@type": [
+                  "Gene",
+                  "Item"
+                ],
+                "uuid": "eeed2ef0-53bb-4101-80e1-ccec85cb11b7",
+                "title": "HNRNPK (Homo sapiens)",
+                "targets": [
+                  "/targets/HNRNPK-human/",
+                  "/targets/eGFP-HNRNPK-human/"
+                ]
+              }
+            ],
+            "label": "HNRNPK",
+            "investigated_as": [
+              "transcription factor"
+            ],
+            "@id": "/targets/HNRNPK-human/",
+            "@type": [
+              "Target",
+              "Item"
+            ],
+            "uuid": "3b594b8a-fde5-42b0-b5d1-bc897914638b",
+            "organism": "/organisms/human/",
+            "name": "HNRNPK-human",
+            "title": "HNRNPK (Homo sapiens)"
+          },
+          "possible_controls": [
+            "/experiments/ENCSR944GMN/"
+          ],
+          "supersedes": [],
+          "related_files": [],
+          "internal_status": "no available pipeline",
+          "bio_replicate_count": 1,
+          "tech_replicate_count": 5,
+          "replication_type": "unreplicated",
+          "objective_slims": [],
+          "type_slims": [],
+          "category_slims": [],
+          "assay_title": "RNA Bind-n-Seq",
+          "assay_slims": [
+            "RNA binding"
+          ],
+          "replicates": [
+            "/replicates/afde0b30-1afc-462b-b7f6-de685b7a5e35/",
+            "/replicates/3b88c2ae-1046-4ce0-b6b1-18cd28c64fc1/",
+            "/replicates/ae31e375-1abd-40bd-b51c-240cdaf6bde6/",
+            "/replicates/7081b0c0-8e55-4f06-a94e-86b74cf37253/",
+            "/replicates/dc305125-578d-4410-abbe-f4a56f630096/"
+          ],
+          "simple_biosample_summary": "",
+          "assay_term_id": "OBI:0002044",
+          "@id": "/experiments/ENCSR368NMO/",
+          "@type": [
+            "Experiment",
+            "Dataset",
+            "Item"
+          ],
+          "uuid": "505796b6-4b63-4f73-a1ec-7c7b3f12e4ae",
+          "original_files": [
+            "/files/ENCFF261ZHZ/",
+            "/files/ENCFF715DIL/",
+            "/files/ENCFF281CNE/",
+            "/files/ENCFF004OKN/",
+            "/files/ENCFF674RCB/",
+            "/files/ENCFF346XPF/",
+            "/files/ENCFF595IBV/",
+            "/files/ENCFF850EVL/",
+            "/files/ENCFF732XFP/",
+            "/files/ENCFF775OKJ/",
+            "/files/ENCFF574ANJ/",
+            "/files/ENCFF813TVN/",
+            "/files/ENCFF298QFN/"
+          ],
+          "contributing_files": [
+            "/files/ENCFF993NVI/",
+            "/files/ENCFF448SCQ/",
+            "/files/ENCFF537ORU/"
+          ],
+          "files": [
+            "/files/ENCFF261ZHZ/",
+            "/files/ENCFF715DIL/",
+            "/files/ENCFF281CNE/",
+            "/files/ENCFF004OKN/",
+            "/files/ENCFF674RCB/",
+            "/files/ENCFF346XPF/",
+            "/files/ENCFF595IBV/",
+            "/files/ENCFF850EVL/",
+            "/files/ENCFF732XFP/",
+            "/files/ENCFF775OKJ/",
+            "/files/ENCFF574ANJ/",
+            "/files/ENCFF813TVN/",
+            "/files/ENCFF298QFN/"
+          ],
+          "revoked_files": [],
+          "assembly": [
+            "hg19"
+          ],
+          "hub": "/experiments/ENCSR368NMO/@@hub/hub.txt",
+          "default_analysis": "/analyses/ENCAN966KHX/",
+          "related_series": [],
+          "superseded_by": [],
+          "related_annotations": [],
+          "perturbed": false
+        },
+        "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "library": "/libraries/ENCLB245NWT/",
+        "aliases": [
+          "chris-burge:rep-HNRNPK-4"
+        ],
+        "date_created": "2015-08-17T18:12:48.850396+00:00",
+        "biological_replicate_number": 1,
+        "rbns_protein_concentration_units": "nM",
+        "@id": "/replicates/7081b0c0-8e55-4f06-a94e-86b74cf37253/",
+        "@type": [
+          "Replicate",
+          "Item"
+        ],
+        "uuid": "7081b0c0-8e55-4f06-a94e-86b74cf37253"
+      },
+      "status": "released",
+      "dbxrefs": [],
+      "@id": "/files/ENCFF004OKN/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "b1542d14-7e26-42d7-9e9a-8730128372de",
+      "title": "ENCFF004OKN",
+      "href": "/files/ENCFF004OKN/@@download/ENCFF004OKN.fastq.gz",
+      "read_length_units": "nt",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_4"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "output_category": "raw data",
+      "quality_metrics": [],
+      "file_type": "fastq",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2015/08/17/b1542d14-7e26-42d7-9e9a-8730128372de/ENCFF004OKN.fastq.gz",
+        "md5sum_base64": "eyhzacEW4cckQ+evHbvGQg==",
+        "file_size": 306665444
+      },
+      "s3_uri": "s3://encode-public/2015/08/17/b1542d14-7e26-42d7-9e9a-8730128372de/ENCFF004OKN.fastq.gz",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2015/08/17/b1542d14-7e26-42d7-9e9a-8730128372de/ENCFF004OKN.fastq.gz?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [],
+      "processed": false
+    },
+    {
+      "accession": "ENCFF674RCB",
+      "aliases": [
+        "chris-burge:HNRNPK_1300.fastq.gz"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2015-08-17T18:22:53.178128+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "read_count": 12023750,
+      "file_format": "fastq",
+      "no_file_available": false,
+      "submitted_file_name": "/archive/TGCore_User_Data/ENCODE/DATA/HNRNPK/RBNS/HNRNPK_1300.fastq.gz",
+      "md5sum": "aa0921b0fb0bff677fb3a1cac8ab8fed",
+      "content_md5sum": "17e1e5860719ec30cfc82b41263198b5",
+      "fastq_signature": [
+        "TEMP:5:1::@HWI-ST1133R:5:1101:1773:2178#GACGACATGTTCAGAG/1"
+      ],
+      "file_size": 299016362,
+      "platform": {
+        "submitted_by": "/users/ff7b77e7-bb55-4307-b665-814c9f1e65fb/",
+        "aliases": [
+          "encode:Illumina_HiSeq_2000",
+          "encode:HiSeq2000"
+        ],
+        "url": "http://www.illumina.com/documents/products/datasheets/datasheet_hiseq2000.pdf",
+        "schema_version": "7",
+        "dbxrefs": [
+          "UCSC-ENCODE-cv:Illumina_HiSeq_2000"
+        ],
+        "term_id": "OBI:0002001",
+        "term_name": "Illumina HiSeq 2000",
+        "date_created": "2013-11-14T22:17:00.135861+00:00",
+        "status": "released",
+        "@id": "/platforms/OBI:0002001/",
+        "@type": [
+          "Platform",
+          "Item"
+        ],
+        "uuid": "03a96eaf-75da-44e2-b4f6-e349e8c3655e",
+        "title": "Illumina HiSeq 2000"
+      },
+      "read_length": 20,
+      "run_type": "single-ended",
+      "flowcell_details": [],
+      "output_type": "reads",
+      "controlled_by": [
+        "/files/ENCFF537ORU/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "replicate": {
+        "technical_replicate_number": 5,
+        "schema_version": "9",
+        "rbns_protein_concentration": 1300,
+        "status": "released",
+        "experiment": {
+          "submitter_comment": "For details on the software used to generate the peaks files, please contact the Burge Lab (MIT).",
+          "assay_term_name": "RNA Bind-n-Seq",
+          "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+          "documents": [
+            "/documents/f2cef92c-ae02-4d83-b31b-fdcec62e5356/",
+            "/documents/c8b3442a-7e63-4847-af11-c72597bf65b3/",
+            "/documents/a8e24af0-257a-4535-91f9-7327e1794d5f/",
+            "/documents/df5cbde9-cb3b-4728-9c12-88facc93e6fe/"
+          ],
+          "references": [
+            "/publications/4928df3e-6995-4401-b643-84980bb94057/"
+          ],
+          "schema_version": "37",
+          "accession": "ENCSR368NMO",
+          "alternate_accessions": [],
+          "analyses": [
+            "/analyses/ENCAN966KHX/"
+          ],
+          "description": "RNA Bind-n-Seq (RBNS) pulldown experiment against HNRNPK",
+          "dbxrefs": [],
+          "date_released": "2015-08-18",
+          "doi": "10.17989/ENCSR368NMO",
+          "internal_tags": [
+            "ENCORE",
+            "ENCYCLOPEDIAv2"
+          ],
+          "status": "released",
+          "date_created": "2014-11-25T04:05:11.024972+00:00",
+          "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+          "lab": {
+            "fax": "617-452-2936",
+            "address2": "31 Ames Street, 68-271A",
+            "address1": "Department of Biology",
+            "state": "MA",
+            "institute_name": "Massachusetts Institute of Technology",
+            "awards": [
+              "/awards/U54HG007005/"
+            ],
+            "title": "Chris Burge, MIT",
+            "phone1": "617-258-5997",
+            "city": "Cambridge",
+            "phone2": "617-253-9395",
+            "schema_version": "5",
+            "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+            "postal_code": "02139-4307",
+            "name": "chris-burge",
+            "institute_label": "MIT",
+            "country": "USA",
+            "status": "current",
+            "@id": "/labs/chris-burge/",
+            "@type": [
+              "Lab",
+              "Item"
+            ],
+            "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+          },
+          "award": "/awards/U54HG007005/",
+          "aliases": [
+            "chris-burge:HNRNPK"
+          ],
+          "date_submitted": "2015-10-31",
+          "target": {
+            "status": "released",
+            "aliases": [],
+            "schema_version": "14",
+            "dbxrefs": [
+              "FactorBook:HNRNPK"
+            ],
+            "genes": [
+              {
+                "status": "released",
+                "schema_version": "3",
+                "geneid": "3190",
+                "ncbi_entrez_status": "live",
+                "symbol": "HNRNPK",
+                "name": "heterogeneous nuclear ribonucleoprotein K",
+                "synonyms": [
+                  "AUKS",
+                  "CSBP",
+                  "HNRPK",
+                  "TUNP"
+                ],
+                "dbxrefs": [
+                  "ENSEMBL:ENSG00000165119",
+                  "RefSeq:NM_031262.3",
+                  "Vega:OTTHUMG00000020107",
+                  "MIM:600712",
+                  "UniProtKB:P61978",
+                  "UniProtKB:B4DUQ1",
+                  "GeneCards:HNRNPK",
+                  "HGNC:5044"
+                ],
+                "locations": [
+                  {
+                    "assembly": "GRCh38",
+                    "chromosome": "chr9",
+                    "start": 83968083,
+                    "end": 83980782
+                  },
+                  {
+                    "assembly": "hg19",
+                    "chromosome": "chr9",
+                    "start": 86582998,
+                    "end": 86595697
+                  }
+                ],
+                "organism": "/organisms/human/",
+                "@id": "/genes/3190/",
+                "@type": [
+                  "Gene",
+                  "Item"
+                ],
+                "uuid": "eeed2ef0-53bb-4101-80e1-ccec85cb11b7",
+                "title": "HNRNPK (Homo sapiens)",
+                "targets": [
+                  "/targets/HNRNPK-human/",
+                  "/targets/eGFP-HNRNPK-human/"
+                ]
+              }
+            ],
+            "label": "HNRNPK",
+            "investigated_as": [
+              "transcription factor"
+            ],
+            "@id": "/targets/HNRNPK-human/",
+            "@type": [
+              "Target",
+              "Item"
+            ],
+            "uuid": "3b594b8a-fde5-42b0-b5d1-bc897914638b",
+            "organism": "/organisms/human/",
+            "name": "HNRNPK-human",
+            "title": "HNRNPK (Homo sapiens)"
+          },
+          "possible_controls": [
+            "/experiments/ENCSR944GMN/"
+          ],
+          "supersedes": [],
+          "related_files": [],
+          "internal_status": "no available pipeline",
+          "bio_replicate_count": 1,
+          "tech_replicate_count": 5,
+          "replication_type": "unreplicated",
+          "objective_slims": [],
+          "type_slims": [],
+          "category_slims": [],
+          "assay_title": "RNA Bind-n-Seq",
+          "assay_slims": [
+            "RNA binding"
+          ],
+          "replicates": [
+            "/replicates/afde0b30-1afc-462b-b7f6-de685b7a5e35/",
+            "/replicates/3b88c2ae-1046-4ce0-b6b1-18cd28c64fc1/",
+            "/replicates/ae31e375-1abd-40bd-b51c-240cdaf6bde6/",
+            "/replicates/7081b0c0-8e55-4f06-a94e-86b74cf37253/",
+            "/replicates/dc305125-578d-4410-abbe-f4a56f630096/"
+          ],
+          "simple_biosample_summary": "",
+          "assay_term_id": "OBI:0002044",
+          "@id": "/experiments/ENCSR368NMO/",
+          "@type": [
+            "Experiment",
+            "Dataset",
+            "Item"
+          ],
+          "uuid": "505796b6-4b63-4f73-a1ec-7c7b3f12e4ae",
+          "original_files": [
+            "/files/ENCFF261ZHZ/",
+            "/files/ENCFF715DIL/",
+            "/files/ENCFF281CNE/",
+            "/files/ENCFF004OKN/",
+            "/files/ENCFF674RCB/",
+            "/files/ENCFF346XPF/",
+            "/files/ENCFF595IBV/",
+            "/files/ENCFF850EVL/",
+            "/files/ENCFF732XFP/",
+            "/files/ENCFF775OKJ/",
+            "/files/ENCFF574ANJ/",
+            "/files/ENCFF813TVN/",
+            "/files/ENCFF298QFN/"
+          ],
+          "contributing_files": [
+            "/files/ENCFF993NVI/",
+            "/files/ENCFF448SCQ/",
+            "/files/ENCFF537ORU/"
+          ],
+          "files": [
+            "/files/ENCFF261ZHZ/",
+            "/files/ENCFF715DIL/",
+            "/files/ENCFF281CNE/",
+            "/files/ENCFF004OKN/",
+            "/files/ENCFF674RCB/",
+            "/files/ENCFF346XPF/",
+            "/files/ENCFF595IBV/",
+            "/files/ENCFF850EVL/",
+            "/files/ENCFF732XFP/",
+            "/files/ENCFF775OKJ/",
+            "/files/ENCFF574ANJ/",
+            "/files/ENCFF813TVN/",
+            "/files/ENCFF298QFN/"
+          ],
+          "revoked_files": [],
+          "assembly": [
+            "hg19"
+          ],
+          "hub": "/experiments/ENCSR368NMO/@@hub/hub.txt",
+          "default_analysis": "/analyses/ENCAN966KHX/",
+          "related_series": [],
+          "superseded_by": [],
+          "related_annotations": [],
+          "perturbed": false
+        },
+        "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "library": "/libraries/ENCLB448TEV/",
+        "aliases": [
+          "chris-burge:rep-HNRNPK-5"
+        ],
+        "date_created": "2015-08-17T18:12:49.244140+00:00",
+        "biological_replicate_number": 1,
+        "rbns_protein_concentration_units": "nM",
+        "@id": "/replicates/dc305125-578d-4410-abbe-f4a56f630096/",
+        "@type": [
+          "Replicate",
+          "Item"
+        ],
+        "uuid": "dc305125-578d-4410-abbe-f4a56f630096"
+      },
+      "status": "released",
+      "dbxrefs": [],
+      "@id": "/files/ENCFF674RCB/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "a3f4ebf9-8549-4743-88f6-60704dc1e1d5",
+      "title": "ENCFF674RCB",
+      "href": "/files/ENCFF674RCB/@@download/ENCFF674RCB.fastq.gz",
+      "read_length_units": "nt",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_5"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "output_category": "raw data",
+      "quality_metrics": [],
+      "file_type": "fastq",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2015/08/17/a3f4ebf9-8549-4743-88f6-60704dc1e1d5/ENCFF674RCB.fastq.gz",
+        "md5sum_base64": "qgkhsPsL/2d/s6HKyKuP7Q==",
+        "file_size": 299016362
+      },
+      "s3_uri": "s3://encode-public/2015/08/17/a3f4ebf9-8549-4743-88f6-60704dc1e1d5/ENCFF674RCB.fastq.gz",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2015/08/17/a3f4ebf9-8549-4743-88f6-60704dc1e1d5/ENCFF674RCB.fastq.gz?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [],
+      "processed": false
+    },
+    {
+      "accession": "ENCFF346XPF",
+      "aliases": [
+        "chris-burge:HNRNPK_enrichment_R.6mers.txt"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2015-08-17T18:25:45.609810+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "file_format": "tsv",
+      "no_file_available": false,
+      "submitted_file_name": "/archive/TGCore_User_Data/ENCODE/DATA/HNRNPK/RBNS/HNRNPK_enrichment_R.6mers.txt",
+      "md5sum": "7905b8bed411e77e2151e32b42898b97",
+      "fastq_signature": [],
+      "file_size": 172073,
+      "flowcell_details": [],
+      "output_type": "enrichment",
+      "derived_from": [
+        "/files/ENCFF732XFP/",
+        "/files/ENCFF281CNE/",
+        "/files/ENCFF261ZHZ/",
+        "/files/ENCFF537ORU/",
+        "/files/ENCFF674RCB/",
+        "/files/ENCFF004OKN/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "status": "released",
+      "dbxrefs": [],
+      "step_run": "/analysis-step-runs/463e2984-a646-4104-a511-89abf6d39294/",
+      "preferred_default": true,
+      "@id": "/files/ENCFF346XPF/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "a1a6a949-89f7-432b-8be3-df12e22745d5",
+      "title": "ENCFF346XPF",
+      "href": "/files/ENCFF346XPF/@@download/ENCFF346XPF.tsv",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_1",
+        "1_2",
+        "1_3",
+        "1_4",
+        "1_5"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "analysis_step_version": {
+        "minor_version": 0,
+        "aliases": [],
+        "date_created": "2019-05-09T22:21:01.726117+00:00",
+        "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+        "status": "released",
+        "analysis_step": {
+          "documents": [],
+          "date_created": "2019-05-09T22:15:30.560146+00:00",
+          "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+          "status": "released",
+          "aliases": [],
+          "schema_version": "17",
+          "step_label": "rbns-calculate-enrichment-and-estimated-binding-fraction-step",
+          "title": "RBNS Calculate Enrichment and Estimated Binding Fraction Step",
+          "major_version": 1,
+          "analysis_step_types": [
+            "enrichment"
+          ],
+          "input_file_types": [
+            "raw data"
+          ],
+          "output_file_types": [
+            "enrichment",
+            "library fraction"
+          ],
+          "@id": "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/",
+          "@type": [
+            "AnalysisStep",
+            "Item"
+          ],
+          "uuid": "8e94a343-8c4a-411b-8db7-364b40f97ac8",
+          "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1",
+          "pipelines": [
+            {
+              "documents": [],
+              "date_created": "2019-05-09T22:12:42.300595+00:00",
+              "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+              "references": [],
+              "lab": "/labs/chris-burge/",
+              "award": "/awards/U41HG009889/",
+              "aliases": [
+                "chris-burge:rbns-pipeline"
+              ],
+              "accession": "ENCPL133ALO",
+              "schema_version": "14",
+              "alternate_accessions": [],
+              "assay_term_names": [
+                "RNA Bind-n-Seq"
+              ],
+              "status": "released",
+              "title": "RBNS Pipeline",
+              "description": "From Burge lab (Freese, P.): \"The RBNS pipeline is a set of bioinformatics tools to analyze data from high-throughput sequencing experiments of protein-bound RNAs. The current version includes read splitting, calculation of kmer frequencies and enrichments, QC metrics, production of motif sequence logos, and RNA secondary structure analysis.\"",
+              "analysis_steps": [
+                "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/"
+              ],
+              "source_url": "https://bitbucket.org/pfreese/rbns_pipeline/src/master",
+              "standards_page": "/rbns/",
+              "pipeline_version": 1,
+              "@id": "/pipelines/ENCPL133ALO/",
+              "@type": [
+                "Pipeline",
+                "Item"
+              ],
+              "uuid": "ef637d0f-fa4c-4d1b-84b9-c124d70b34ec"
+            }
+          ],
+          "current_version": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+          "versions": [
+            "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/"
+          ]
+        },
+        "schema_version": "4",
+        "software_versions": [
+          "/software-versions/5cea0e65-1bf1-4eb4-9959-90a02c257ea2/"
+        ],
+        "@id": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+        "@type": [
+          "AnalysisStepVersion",
+          "Item"
+        ],
+        "uuid": "4a5b3bfa-589d-471d-b8ff-93dd597d2113",
+        "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0"
+      },
+      "output_category": "quantification",
+      "quality_metrics": [],
+      "file_type": "tsv",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2015/08/17/a1a6a949-89f7-432b-8be3-df12e22745d5/ENCFF346XPF.tsv",
+        "md5sum_base64": "eQW4vtQR534hUeMrQomLlw==",
+        "file_size": 172073
+      },
+      "s3_uri": "s3://encode-public/2015/08/17/a1a6a949-89f7-432b-8be3-df12e22745d5/ENCFF346XPF.tsv",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2015/08/17/a1a6a949-89f7-432b-8be3-df12e22745d5/ENCFF346XPF.tsv?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [
+        {
+          "status": "released",
+          "@id": "/analyses/ENCAN966KHX/",
+          "@type": [
+            "Analysis",
+            "Item"
+          ],
+          "uuid": "a73dfcb2-36ab-469c-b6cb-1b645b856136",
+          "pipeline_award_rfas": [
+            "ENCODE4"
+          ],
+          "title": "Lab custom hg19"
+        }
+      ],
+      "processed": true
+    },
+    {
+      "accession": "ENCFF595IBV",
+      "aliases": [
+        "chris-burge:HNRNPK_est_binding_frac.4mers.ordered_by_enrichment.txt"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2015-08-17T18:28:55.490315+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "file_format": "tsv",
+      "no_file_available": false,
+      "submitted_file_name": "/archive/TGCore_User_Data/ENCODE/DATA/HNRNPK/RBNS/HNRNPK_est_binding_frac.4mers.ordered_by_enrichment.txt",
+      "md5sum": "423330d271f410f637835411bb5a1674",
+      "fastq_signature": [],
+      "file_size": 15575,
+      "flowcell_details": [],
+      "output_type": "library fraction",
+      "derived_from": [
+        "/files/ENCFF732XFP/",
+        "/files/ENCFF281CNE/",
+        "/files/ENCFF261ZHZ/",
+        "/files/ENCFF537ORU/",
+        "/files/ENCFF674RCB/",
+        "/files/ENCFF004OKN/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "status": "archived",
+      "dbxrefs": [],
+      "step_run": "/analysis-step-runs/463e2984-a646-4104-a511-89abf6d39294/",
+      "@id": "/files/ENCFF595IBV/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "a31349b3-b932-4f4e-a731-04c88f5ef750",
+      "title": "ENCFF595IBV",
+      "href": "/files/ENCFF595IBV/@@download/ENCFF595IBV.tsv",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_1",
+        "1_2",
+        "1_3",
+        "1_4",
+        "1_5"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "analysis_step_version": {
+        "minor_version": 0,
+        "aliases": [],
+        "date_created": "2019-05-09T22:21:01.726117+00:00",
+        "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+        "status": "released",
+        "analysis_step": {
+          "documents": [],
+          "date_created": "2019-05-09T22:15:30.560146+00:00",
+          "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+          "status": "released",
+          "aliases": [],
+          "schema_version": "17",
+          "step_label": "rbns-calculate-enrichment-and-estimated-binding-fraction-step",
+          "title": "RBNS Calculate Enrichment and Estimated Binding Fraction Step",
+          "major_version": 1,
+          "analysis_step_types": [
+            "enrichment"
+          ],
+          "input_file_types": [
+            "raw data"
+          ],
+          "output_file_types": [
+            "enrichment",
+            "library fraction"
+          ],
+          "@id": "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/",
+          "@type": [
+            "AnalysisStep",
+            "Item"
+          ],
+          "uuid": "8e94a343-8c4a-411b-8db7-364b40f97ac8",
+          "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1",
+          "pipelines": [
+            {
+              "documents": [],
+              "date_created": "2019-05-09T22:12:42.300595+00:00",
+              "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+              "references": [],
+              "lab": "/labs/chris-burge/",
+              "award": "/awards/U41HG009889/",
+              "aliases": [
+                "chris-burge:rbns-pipeline"
+              ],
+              "accession": "ENCPL133ALO",
+              "schema_version": "14",
+              "alternate_accessions": [],
+              "assay_term_names": [
+                "RNA Bind-n-Seq"
+              ],
+              "status": "released",
+              "title": "RBNS Pipeline",
+              "description": "From Burge lab (Freese, P.): \"The RBNS pipeline is a set of bioinformatics tools to analyze data from high-throughput sequencing experiments of protein-bound RNAs. The current version includes read splitting, calculation of kmer frequencies and enrichments, QC metrics, production of motif sequence logos, and RNA secondary structure analysis.\"",
+              "analysis_steps": [
+                "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/"
+              ],
+              "source_url": "https://bitbucket.org/pfreese/rbns_pipeline/src/master",
+              "standards_page": "/rbns/",
+              "pipeline_version": 1,
+              "@id": "/pipelines/ENCPL133ALO/",
+              "@type": [
+                "Pipeline",
+                "Item"
+              ],
+              "uuid": "ef637d0f-fa4c-4d1b-84b9-c124d70b34ec"
+            }
+          ],
+          "current_version": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+          "versions": [
+            "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/"
+          ]
+        },
+        "schema_version": "4",
+        "software_versions": [
+          "/software-versions/5cea0e65-1bf1-4eb4-9959-90a02c257ea2/"
+        ],
+        "@id": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+        "@type": [
+          "AnalysisStepVersion",
+          "Item"
+        ],
+        "uuid": "4a5b3bfa-589d-471d-b8ff-93dd597d2113",
+        "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0"
+      },
+      "output_category": "quantification",
+      "quality_metrics": [],
+      "file_type": "tsv",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2015/08/17/a31349b3-b932-4f4e-a731-04c88f5ef750/ENCFF595IBV.tsv",
+        "md5sum_base64": "QjMw0nH0EPY3g1QRu1oWdA==",
+        "file_size": 15575
+      },
+      "s3_uri": "s3://encode-public/2015/08/17/a31349b3-b932-4f4e-a731-04c88f5ef750/ENCFF595IBV.tsv",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2015/08/17/a31349b3-b932-4f4e-a731-04c88f5ef750/ENCFF595IBV.tsv?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [],
+      "processed": true
+    },
+    {
+      "accession": "ENCFF850EVL",
+      "aliases": [
+        "chris-burge:HNRNPK_est_binding_frac.5mers.ordered_by_enrichment.txt"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2015-08-17T18:28:57.882962+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "file_format": "tsv",
+      "no_file_available": false,
+      "submitted_file_name": "/archive/TGCore_User_Data/ENCODE/DATA/HNRNPK/RBNS/HNRNPK_est_binding_frac.5mers.ordered_by_enrichment.txt",
+      "md5sum": "ae3275d20bfdadfb05be8ad52b5a6fcd",
+      "fastq_signature": [],
+      "file_size": 65495,
+      "flowcell_details": [],
+      "output_type": "library fraction",
+      "derived_from": [
+        "/files/ENCFF732XFP/",
+        "/files/ENCFF281CNE/",
+        "/files/ENCFF261ZHZ/",
+        "/files/ENCFF537ORU/",
+        "/files/ENCFF674RCB/",
+        "/files/ENCFF004OKN/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "status": "archived",
+      "dbxrefs": [],
+      "step_run": "/analysis-step-runs/463e2984-a646-4104-a511-89abf6d39294/",
+      "@id": "/files/ENCFF850EVL/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "e5ee2968-668d-4caa-a2b1-674b36957cd0",
+      "title": "ENCFF850EVL",
+      "href": "/files/ENCFF850EVL/@@download/ENCFF850EVL.tsv",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_1",
+        "1_2",
+        "1_3",
+        "1_4",
+        "1_5"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "analysis_step_version": {
+        "minor_version": 0,
+        "aliases": [],
+        "date_created": "2019-05-09T22:21:01.726117+00:00",
+        "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+        "status": "released",
+        "analysis_step": {
+          "documents": [],
+          "date_created": "2019-05-09T22:15:30.560146+00:00",
+          "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+          "status": "released",
+          "aliases": [],
+          "schema_version": "17",
+          "step_label": "rbns-calculate-enrichment-and-estimated-binding-fraction-step",
+          "title": "RBNS Calculate Enrichment and Estimated Binding Fraction Step",
+          "major_version": 1,
+          "analysis_step_types": [
+            "enrichment"
+          ],
+          "input_file_types": [
+            "raw data"
+          ],
+          "output_file_types": [
+            "enrichment",
+            "library fraction"
+          ],
+          "@id": "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/",
+          "@type": [
+            "AnalysisStep",
+            "Item"
+          ],
+          "uuid": "8e94a343-8c4a-411b-8db7-364b40f97ac8",
+          "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1",
+          "pipelines": [
+            {
+              "documents": [],
+              "date_created": "2019-05-09T22:12:42.300595+00:00",
+              "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+              "references": [],
+              "lab": "/labs/chris-burge/",
+              "award": "/awards/U41HG009889/",
+              "aliases": [
+                "chris-burge:rbns-pipeline"
+              ],
+              "accession": "ENCPL133ALO",
+              "schema_version": "14",
+              "alternate_accessions": [],
+              "assay_term_names": [
+                "RNA Bind-n-Seq"
+              ],
+              "status": "released",
+              "title": "RBNS Pipeline",
+              "description": "From Burge lab (Freese, P.): \"The RBNS pipeline is a set of bioinformatics tools to analyze data from high-throughput sequencing experiments of protein-bound RNAs. The current version includes read splitting, calculation of kmer frequencies and enrichments, QC metrics, production of motif sequence logos, and RNA secondary structure analysis.\"",
+              "analysis_steps": [
+                "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/"
+              ],
+              "source_url": "https://bitbucket.org/pfreese/rbns_pipeline/src/master",
+              "standards_page": "/rbns/",
+              "pipeline_version": 1,
+              "@id": "/pipelines/ENCPL133ALO/",
+              "@type": [
+                "Pipeline",
+                "Item"
+              ],
+              "uuid": "ef637d0f-fa4c-4d1b-84b9-c124d70b34ec"
+            }
+          ],
+          "current_version": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+          "versions": [
+            "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/"
+          ]
+        },
+        "schema_version": "4",
+        "software_versions": [
+          "/software-versions/5cea0e65-1bf1-4eb4-9959-90a02c257ea2/"
+        ],
+        "@id": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+        "@type": [
+          "AnalysisStepVersion",
+          "Item"
+        ],
+        "uuid": "4a5b3bfa-589d-471d-b8ff-93dd597d2113",
+        "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0"
+      },
+      "output_category": "quantification",
+      "quality_metrics": [],
+      "file_type": "tsv",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2015/08/17/e5ee2968-668d-4caa-a2b1-674b36957cd0/ENCFF850EVL.tsv",
+        "md5sum_base64": "rjJ10gv9rfsFvorVK1pvzQ==",
+        "file_size": 65495
+      },
+      "s3_uri": "s3://encode-public/2015/08/17/e5ee2968-668d-4caa-a2b1-674b36957cd0/ENCFF850EVL.tsv",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2015/08/17/e5ee2968-668d-4caa-a2b1-674b36957cd0/ENCFF850EVL.tsv?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [],
+      "processed": true
+    },
+    {
+      "accession": "ENCFF732XFP",
+      "aliases": [
+        "chris-burge:HNRNPK_20.fastq.gz"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2015-08-17T18:21:14.373555+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "read_count": 8207457,
+      "file_format": "fastq",
+      "no_file_available": false,
+      "submitted_file_name": "/archive/TGCore_User_Data/ENCODE/DATA/HNRNPK/RBNS/HNRNPK_20.fastq.gz",
+      "md5sum": "a2414890201ddd6b1292b1f2d78f197e",
+      "content_md5sum": "205de6cd9f98aa846c99e028f2073a1b",
+      "fastq_signature": [
+        "TEMP:5:1::@HWI-ST1133R:5:1101:1415:2182#CTAGCTATGTTCAGAG/1"
+      ],
+      "file_size": 205375651,
+      "platform": {
+        "submitted_by": "/users/ff7b77e7-bb55-4307-b665-814c9f1e65fb/",
+        "aliases": [
+          "encode:Illumina_HiSeq_2000",
+          "encode:HiSeq2000"
+        ],
+        "url": "http://www.illumina.com/documents/products/datasheets/datasheet_hiseq2000.pdf",
+        "schema_version": "7",
+        "dbxrefs": [
+          "UCSC-ENCODE-cv:Illumina_HiSeq_2000"
+        ],
+        "term_id": "OBI:0002001",
+        "term_name": "Illumina HiSeq 2000",
+        "date_created": "2013-11-14T22:17:00.135861+00:00",
+        "status": "released",
+        "@id": "/platforms/OBI:0002001/",
+        "@type": [
+          "Platform",
+          "Item"
+        ],
+        "uuid": "03a96eaf-75da-44e2-b4f6-e349e8c3655e",
+        "title": "Illumina HiSeq 2000"
+      },
+      "read_length": 20,
+      "run_type": "single-ended",
+      "flowcell_details": [],
+      "output_type": "reads",
+      "controlled_by": [
+        "/files/ENCFF537ORU/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "replicate": {
+        "technical_replicate_number": 2,
+        "schema_version": "9",
+        "rbns_protein_concentration": 20,
+        "status": "released",
+        "experiment": {
+          "submitter_comment": "For details on the software used to generate the peaks files, please contact the Burge Lab (MIT).",
+          "assay_term_name": "RNA Bind-n-Seq",
+          "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+          "documents": [
+            "/documents/f2cef92c-ae02-4d83-b31b-fdcec62e5356/",
+            "/documents/c8b3442a-7e63-4847-af11-c72597bf65b3/",
+            "/documents/a8e24af0-257a-4535-91f9-7327e1794d5f/",
+            "/documents/df5cbde9-cb3b-4728-9c12-88facc93e6fe/"
+          ],
+          "references": [
+            "/publications/4928df3e-6995-4401-b643-84980bb94057/"
+          ],
+          "schema_version": "37",
+          "accession": "ENCSR368NMO",
+          "alternate_accessions": [],
+          "analyses": [
+            "/analyses/ENCAN966KHX/"
+          ],
+          "description": "RNA Bind-n-Seq (RBNS) pulldown experiment against HNRNPK",
+          "dbxrefs": [],
+          "date_released": "2015-08-18",
+          "doi": "10.17989/ENCSR368NMO",
+          "internal_tags": [
+            "ENCORE",
+            "ENCYCLOPEDIAv2"
+          ],
+          "status": "released",
+          "date_created": "2014-11-25T04:05:11.024972+00:00",
+          "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+          "lab": {
+            "fax": "617-452-2936",
+            "address2": "31 Ames Street, 68-271A",
+            "address1": "Department of Biology",
+            "state": "MA",
+            "institute_name": "Massachusetts Institute of Technology",
+            "awards": [
+              "/awards/U54HG007005/"
+            ],
+            "title": "Chris Burge, MIT",
+            "phone1": "617-258-5997",
+            "city": "Cambridge",
+            "phone2": "617-253-9395",
+            "schema_version": "5",
+            "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+            "postal_code": "02139-4307",
+            "name": "chris-burge",
+            "institute_label": "MIT",
+            "country": "USA",
+            "status": "current",
+            "@id": "/labs/chris-burge/",
+            "@type": [
+              "Lab",
+              "Item"
+            ],
+            "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+          },
+          "award": "/awards/U54HG007005/",
+          "aliases": [
+            "chris-burge:HNRNPK"
+          ],
+          "date_submitted": "2015-10-31",
+          "target": {
+            "status": "released",
+            "aliases": [],
+            "schema_version": "14",
+            "dbxrefs": [
+              "FactorBook:HNRNPK"
+            ],
+            "genes": [
+              {
+                "status": "released",
+                "schema_version": "3",
+                "geneid": "3190",
+                "ncbi_entrez_status": "live",
+                "symbol": "HNRNPK",
+                "name": "heterogeneous nuclear ribonucleoprotein K",
+                "synonyms": [
+                  "AUKS",
+                  "CSBP",
+                  "HNRPK",
+                  "TUNP"
+                ],
+                "dbxrefs": [
+                  "ENSEMBL:ENSG00000165119",
+                  "RefSeq:NM_031262.3",
+                  "Vega:OTTHUMG00000020107",
+                  "MIM:600712",
+                  "UniProtKB:P61978",
+                  "UniProtKB:B4DUQ1",
+                  "GeneCards:HNRNPK",
+                  "HGNC:5044"
+                ],
+                "locations": [
+                  {
+                    "assembly": "GRCh38",
+                    "chromosome": "chr9",
+                    "start": 83968083,
+                    "end": 83980782
+                  },
+                  {
+                    "assembly": "hg19",
+                    "chromosome": "chr9",
+                    "start": 86582998,
+                    "end": 86595697
+                  }
+                ],
+                "organism": "/organisms/human/",
+                "@id": "/genes/3190/",
+                "@type": [
+                  "Gene",
+                  "Item"
+                ],
+                "uuid": "eeed2ef0-53bb-4101-80e1-ccec85cb11b7",
+                "title": "HNRNPK (Homo sapiens)",
+                "targets": [
+                  "/targets/HNRNPK-human/",
+                  "/targets/eGFP-HNRNPK-human/"
+                ]
+              }
+            ],
+            "label": "HNRNPK",
+            "investigated_as": [
+              "transcription factor"
+            ],
+            "@id": "/targets/HNRNPK-human/",
+            "@type": [
+              "Target",
+              "Item"
+            ],
+            "uuid": "3b594b8a-fde5-42b0-b5d1-bc897914638b",
+            "organism": "/organisms/human/",
+            "name": "HNRNPK-human",
+            "title": "HNRNPK (Homo sapiens)"
+          },
+          "possible_controls": [
+            "/experiments/ENCSR944GMN/"
+          ],
+          "supersedes": [],
+          "related_files": [],
+          "internal_status": "no available pipeline",
+          "bio_replicate_count": 1,
+          "tech_replicate_count": 5,
+          "replication_type": "unreplicated",
+          "objective_slims": [],
+          "type_slims": [],
+          "category_slims": [],
+          "assay_title": "RNA Bind-n-Seq",
+          "assay_slims": [
+            "RNA binding"
+          ],
+          "replicates": [
+            "/replicates/afde0b30-1afc-462b-b7f6-de685b7a5e35/",
+            "/replicates/3b88c2ae-1046-4ce0-b6b1-18cd28c64fc1/",
+            "/replicates/ae31e375-1abd-40bd-b51c-240cdaf6bde6/",
+            "/replicates/7081b0c0-8e55-4f06-a94e-86b74cf37253/",
+            "/replicates/dc305125-578d-4410-abbe-f4a56f630096/"
+          ],
+          "simple_biosample_summary": "",
+          "assay_term_id": "OBI:0002044",
+          "@id": "/experiments/ENCSR368NMO/",
+          "@type": [
+            "Experiment",
+            "Dataset",
+            "Item"
+          ],
+          "uuid": "505796b6-4b63-4f73-a1ec-7c7b3f12e4ae",
+          "original_files": [
+            "/files/ENCFF261ZHZ/",
+            "/files/ENCFF715DIL/",
+            "/files/ENCFF281CNE/",
+            "/files/ENCFF004OKN/",
+            "/files/ENCFF674RCB/",
+            "/files/ENCFF346XPF/",
+            "/files/ENCFF595IBV/",
+            "/files/ENCFF850EVL/",
+            "/files/ENCFF732XFP/",
+            "/files/ENCFF775OKJ/",
+            "/files/ENCFF574ANJ/",
+            "/files/ENCFF813TVN/",
+            "/files/ENCFF298QFN/"
+          ],
+          "contributing_files": [
+            "/files/ENCFF993NVI/",
+            "/files/ENCFF448SCQ/",
+            "/files/ENCFF537ORU/"
+          ],
+          "files": [
+            "/files/ENCFF261ZHZ/",
+            "/files/ENCFF715DIL/",
+            "/files/ENCFF281CNE/",
+            "/files/ENCFF004OKN/",
+            "/files/ENCFF674RCB/",
+            "/files/ENCFF346XPF/",
+            "/files/ENCFF595IBV/",
+            "/files/ENCFF850EVL/",
+            "/files/ENCFF732XFP/",
+            "/files/ENCFF775OKJ/",
+            "/files/ENCFF574ANJ/",
+            "/files/ENCFF813TVN/",
+            "/files/ENCFF298QFN/"
+          ],
+          "revoked_files": [],
+          "assembly": [
+            "hg19"
+          ],
+          "hub": "/experiments/ENCSR368NMO/@@hub/hub.txt",
+          "default_analysis": "/analyses/ENCAN966KHX/",
+          "related_series": [],
+          "superseded_by": [],
+          "related_annotations": [],
+          "perturbed": false
+        },
+        "submitted_by": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "library": "/libraries/ENCLB133EVE/",
+        "aliases": [
+          "chris-burge:rep-HNRNPK-2"
+        ],
+        "date_created": "2015-08-17T18:12:48.048717+00:00",
+        "biological_replicate_number": 1,
+        "rbns_protein_concentration_units": "nM",
+        "@id": "/replicates/3b88c2ae-1046-4ce0-b6b1-18cd28c64fc1/",
+        "@type": [
+          "Replicate",
+          "Item"
+        ],
+        "uuid": "3b88c2ae-1046-4ce0-b6b1-18cd28c64fc1"
+      },
+      "status": "released",
+      "dbxrefs": [],
+      "@id": "/files/ENCFF732XFP/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "7f40d6fd-0977-4683-90fa-d2e1c3d7b5eb",
+      "title": "ENCFF732XFP",
+      "href": "/files/ENCFF732XFP/@@download/ENCFF732XFP.fastq.gz",
+      "read_length_units": "nt",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_2"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "output_category": "raw data",
+      "quality_metrics": [],
+      "file_type": "fastq",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2015/08/17/7f40d6fd-0977-4683-90fa-d2e1c3d7b5eb/ENCFF732XFP.fastq.gz",
+        "md5sum_base64": "okFIkCAd3WsSkrHy148Zfg==",
+        "file_size": 205375651
+      },
+      "s3_uri": "s3://encode-public/2015/08/17/7f40d6fd-0977-4683-90fa-d2e1c3d7b5eb/ENCFF732XFP.fastq.gz",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2015/08/17/7f40d6fd-0977-4683-90fa-d2e1c3d7b5eb/ENCFF732XFP.fastq.gz?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [],
+      "processed": false
+    },
+    {
+      "accession": "ENCFF775OKJ",
+      "aliases": [
+        "chris-burge:HNRNPK_est_binding_frac.6mers.ordered_by_enrichment.txt"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2015-08-17T18:29:00.258008+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "file_format": "tsv",
+      "no_file_available": false,
+      "submitted_file_name": "/archive/TGCore_User_Data/ENCODE/DATA/HNRNPK/RBNS/HNRNPK_est_binding_frac.6mers.ordered_by_enrichment.txt",
+      "md5sum": "cdd3f2578be8f828228eac75f3ddd08b",
+      "fastq_signature": [],
+      "file_size": 271427,
+      "flowcell_details": [],
+      "output_type": "library fraction",
+      "derived_from": [
+        "/files/ENCFF732XFP/",
+        "/files/ENCFF281CNE/",
+        "/files/ENCFF261ZHZ/",
+        "/files/ENCFF537ORU/",
+        "/files/ENCFF674RCB/",
+        "/files/ENCFF004OKN/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "status": "archived",
+      "dbxrefs": [],
+      "step_run": "/analysis-step-runs/463e2984-a646-4104-a511-89abf6d39294/",
+      "@id": "/files/ENCFF775OKJ/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "5f4651b2-0731-42d7-9339-a8eec515a795",
+      "title": "ENCFF775OKJ",
+      "href": "/files/ENCFF775OKJ/@@download/ENCFF775OKJ.tsv",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_1",
+        "1_2",
+        "1_3",
+        "1_4",
+        "1_5"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "analysis_step_version": {
+        "minor_version": 0,
+        "aliases": [],
+        "date_created": "2019-05-09T22:21:01.726117+00:00",
+        "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+        "status": "released",
+        "analysis_step": {
+          "documents": [],
+          "date_created": "2019-05-09T22:15:30.560146+00:00",
+          "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+          "status": "released",
+          "aliases": [],
+          "schema_version": "17",
+          "step_label": "rbns-calculate-enrichment-and-estimated-binding-fraction-step",
+          "title": "RBNS Calculate Enrichment and Estimated Binding Fraction Step",
+          "major_version": 1,
+          "analysis_step_types": [
+            "enrichment"
+          ],
+          "input_file_types": [
+            "raw data"
+          ],
+          "output_file_types": [
+            "enrichment",
+            "library fraction"
+          ],
+          "@id": "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/",
+          "@type": [
+            "AnalysisStep",
+            "Item"
+          ],
+          "uuid": "8e94a343-8c4a-411b-8db7-364b40f97ac8",
+          "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1",
+          "pipelines": [
+            {
+              "documents": [],
+              "date_created": "2019-05-09T22:12:42.300595+00:00",
+              "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+              "references": [],
+              "lab": "/labs/chris-burge/",
+              "award": "/awards/U41HG009889/",
+              "aliases": [
+                "chris-burge:rbns-pipeline"
+              ],
+              "accession": "ENCPL133ALO",
+              "schema_version": "14",
+              "alternate_accessions": [],
+              "assay_term_names": [
+                "RNA Bind-n-Seq"
+              ],
+              "status": "released",
+              "title": "RBNS Pipeline",
+              "description": "From Burge lab (Freese, P.): \"The RBNS pipeline is a set of bioinformatics tools to analyze data from high-throughput sequencing experiments of protein-bound RNAs. The current version includes read splitting, calculation of kmer frequencies and enrichments, QC metrics, production of motif sequence logos, and RNA secondary structure analysis.\"",
+              "analysis_steps": [
+                "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/"
+              ],
+              "source_url": "https://bitbucket.org/pfreese/rbns_pipeline/src/master",
+              "standards_page": "/rbns/",
+              "pipeline_version": 1,
+              "@id": "/pipelines/ENCPL133ALO/",
+              "@type": [
+                "Pipeline",
+                "Item"
+              ],
+              "uuid": "ef637d0f-fa4c-4d1b-84b9-c124d70b34ec"
+            }
+          ],
+          "current_version": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+          "versions": [
+            "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/"
+          ]
+        },
+        "schema_version": "4",
+        "software_versions": [
+          "/software-versions/5cea0e65-1bf1-4eb4-9959-90a02c257ea2/"
+        ],
+        "@id": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+        "@type": [
+          "AnalysisStepVersion",
+          "Item"
+        ],
+        "uuid": "4a5b3bfa-589d-471d-b8ff-93dd597d2113",
+        "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0"
+      },
+      "output_category": "quantification",
+      "quality_metrics": [],
+      "file_type": "tsv",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2015/08/17/5f4651b2-0731-42d7-9339-a8eec515a795/ENCFF775OKJ.tsv",
+        "md5sum_base64": "zdPyV4vo+Cgijqx1893Qiw==",
+        "file_size": 271427
+      },
+      "s3_uri": "s3://encode-public/2015/08/17/5f4651b2-0731-42d7-9339-a8eec515a795/ENCFF775OKJ.tsv",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2015/08/17/5f4651b2-0731-42d7-9339-a8eec515a795/ENCFF775OKJ.tsv?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [],
+      "processed": true
+    },
+    {
+      "accession": "ENCFF574ANJ",
+      "aliases": [
+        "chris-burge:HNRNPK_enrichment_R.4mers.txt"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2015-08-17T18:25:40.822945+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "file_format": "tsv",
+      "no_file_available": false,
+      "submitted_file_name": "/archive/TGCore_User_Data/ENCODE/DATA/HNRNPK/RBNS/HNRNPK_enrichment_R.4mers.txt",
+      "md5sum": "72281a651cc9344a26e2e0c194dda1fd",
+      "fastq_signature": [],
+      "file_size": 10281,
+      "flowcell_details": [],
+      "output_type": "enrichment",
+      "derived_from": [
+        "/files/ENCFF732XFP/",
+        "/files/ENCFF281CNE/",
+        "/files/ENCFF261ZHZ/",
+        "/files/ENCFF537ORU/",
+        "/files/ENCFF674RCB/",
+        "/files/ENCFF004OKN/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "status": "released",
+      "dbxrefs": [],
+      "step_run": "/analysis-step-runs/463e2984-a646-4104-a511-89abf6d39294/",
+      "preferred_default": true,
+      "@id": "/files/ENCFF574ANJ/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "633dfeb8-cc96-4a35-aeb5-c295d653108c",
+      "title": "ENCFF574ANJ",
+      "href": "/files/ENCFF574ANJ/@@download/ENCFF574ANJ.tsv",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_1",
+        "1_2",
+        "1_3",
+        "1_4",
+        "1_5"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "analysis_step_version": {
+        "minor_version": 0,
+        "aliases": [],
+        "date_created": "2019-05-09T22:21:01.726117+00:00",
+        "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+        "status": "released",
+        "analysis_step": {
+          "documents": [],
+          "date_created": "2019-05-09T22:15:30.560146+00:00",
+          "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+          "status": "released",
+          "aliases": [],
+          "schema_version": "17",
+          "step_label": "rbns-calculate-enrichment-and-estimated-binding-fraction-step",
+          "title": "RBNS Calculate Enrichment and Estimated Binding Fraction Step",
+          "major_version": 1,
+          "analysis_step_types": [
+            "enrichment"
+          ],
+          "input_file_types": [
+            "raw data"
+          ],
+          "output_file_types": [
+            "enrichment",
+            "library fraction"
+          ],
+          "@id": "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/",
+          "@type": [
+            "AnalysisStep",
+            "Item"
+          ],
+          "uuid": "8e94a343-8c4a-411b-8db7-364b40f97ac8",
+          "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1",
+          "pipelines": [
+            {
+              "documents": [],
+              "date_created": "2019-05-09T22:12:42.300595+00:00",
+              "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+              "references": [],
+              "lab": "/labs/chris-burge/",
+              "award": "/awards/U41HG009889/",
+              "aliases": [
+                "chris-burge:rbns-pipeline"
+              ],
+              "accession": "ENCPL133ALO",
+              "schema_version": "14",
+              "alternate_accessions": [],
+              "assay_term_names": [
+                "RNA Bind-n-Seq"
+              ],
+              "status": "released",
+              "title": "RBNS Pipeline",
+              "description": "From Burge lab (Freese, P.): \"The RBNS pipeline is a set of bioinformatics tools to analyze data from high-throughput sequencing experiments of protein-bound RNAs. The current version includes read splitting, calculation of kmer frequencies and enrichments, QC metrics, production of motif sequence logos, and RNA secondary structure analysis.\"",
+              "analysis_steps": [
+                "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/"
+              ],
+              "source_url": "https://bitbucket.org/pfreese/rbns_pipeline/src/master",
+              "standards_page": "/rbns/",
+              "pipeline_version": 1,
+              "@id": "/pipelines/ENCPL133ALO/",
+              "@type": [
+                "Pipeline",
+                "Item"
+              ],
+              "uuid": "ef637d0f-fa4c-4d1b-84b9-c124d70b34ec"
+            }
+          ],
+          "current_version": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+          "versions": [
+            "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/"
+          ]
+        },
+        "schema_version": "4",
+        "software_versions": [
+          "/software-versions/5cea0e65-1bf1-4eb4-9959-90a02c257ea2/"
+        ],
+        "@id": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+        "@type": [
+          "AnalysisStepVersion",
+          "Item"
+        ],
+        "uuid": "4a5b3bfa-589d-471d-b8ff-93dd597d2113",
+        "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0"
+      },
+      "output_category": "quantification",
+      "quality_metrics": [],
+      "file_type": "tsv",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2015/08/17/633dfeb8-cc96-4a35-aeb5-c295d653108c/ENCFF574ANJ.tsv",
+        "md5sum_base64": "cigaZRzJNEom4uDBlN2h/Q==",
+        "file_size": 10281
+      },
+      "s3_uri": "s3://encode-public/2015/08/17/633dfeb8-cc96-4a35-aeb5-c295d653108c/ENCFF574ANJ.tsv",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2015/08/17/633dfeb8-cc96-4a35-aeb5-c295d653108c/ENCFF574ANJ.tsv?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [
+        {
+          "status": "released",
+          "@id": "/analyses/ENCAN966KHX/",
+          "@type": [
+            "Analysis",
+            "Item"
+          ],
+          "uuid": "a73dfcb2-36ab-469c-b6cb-1b645b856136",
+          "pipeline_award_rfas": [
+            "ENCODE4"
+          ],
+          "title": "Lab custom hg19"
+        }
+      ],
+      "processed": true
+    },
+    {
+      "accession": "ENCFF813TVN",
+      "aliases": [
+        "chris-burge:HepG2.with_motif.HNRNPK.bed.gz"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2018-09-04T18:48:36.335806+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "file_format": "bed",
+      "file_format_type": "bed3+",
+      "no_file_available": false,
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/RBNS_eCLIP_integrated_20180903/HepG2/with_motif.HNRNPK.bed.gz",
+      "md5sum": "5d5c7b90c59ab35b8209a789c2c2f56f",
+      "content_md5sum": "8e5951342ff7083a69b4738a0fdae490",
+      "fastq_signature": [],
+      "file_size": 436176,
+      "flowcell_details": [],
+      "output_type": "peaks",
+      "derived_from": [
+        "/files/ENCFF715DIL/",
+        "/files/ENCFF993NVI/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "assembly": "hg19",
+      "status": "released",
+      "dbxrefs": [],
+      "preferred_default": true,
+      "@id": "/files/ENCFF813TVN/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "0d586d76-39b9-4cd0-bec1-e8bfca6b486e",
+      "title": "ENCFF813TVN",
+      "href": "/files/ENCFF813TVN/@@download/ENCFF813TVN.bed.gz",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_1",
+        "1_2",
+        "1_3",
+        "1_4",
+        "1_5"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "output_category": "annotation",
+      "quality_metrics": [],
+      "file_type": "bed bed3+",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2018/09/04/0d586d76-39b9-4cd0-bec1-e8bfca6b486e/ENCFF813TVN.bed.gz",
+        "md5sum_base64": "XVx7kMWas1uCCaeJwsL1bw==",
+        "file_size": 436176
+      },
+      "s3_uri": "s3://encode-public/2018/09/04/0d586d76-39b9-4cd0-bec1-e8bfca6b486e/ENCFF813TVN.bed.gz",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2018/09/04/0d586d76-39b9-4cd0-bec1-e8bfca6b486e/ENCFF813TVN.bed.gz?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [
+        {
+          "status": "released",
+          "@id": "/analyses/ENCAN966KHX/",
+          "@type": [
+            "Analysis",
+            "Item"
+          ],
+          "uuid": "a73dfcb2-36ab-469c-b6cb-1b645b856136",
+          "pipeline_award_rfas": [
+            "ENCODE4"
+          ],
+          "title": "Lab custom hg19"
+        }
+      ],
+      "processed": true
+    },
+    {
+      "accession": "ENCFF298QFN",
+      "aliases": [
+        "chris-burge:K562.with_motif.HNRNPK.bed.gz"
+      ],
+      "schema_version": "31",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "award": "/awards/U54HG007005/",
+      "date_created": "2018-09-04T19:42:21.300662+00:00",
+      "submitted_by": {
+        "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+        "@type": [
+          "User",
+          "Item"
+        ],
+        "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+        "lab": "/labs/brenton-graveley/",
+        "title": "Xintao Wei",
+        "submits_for": [
+          "/labs/brenton-graveley/",
+          "/labs/gene-yeo/",
+          "/labs/xiang-dong-fu/",
+          "/labs/chris-burge/",
+          "/labs/eric-lecuyer/"
+        ]
+      },
+      "alternate_accessions": [],
+      "file_format": "bed",
+      "file_format_type": "bed3+",
+      "no_file_available": false,
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/RBNS_eCLIP_integrated_20180903/K562/with_motif.HNRNPK.bed.gz",
+      "md5sum": "e4f55ff27248a760750a0d261faf1c56",
+      "content_md5sum": "f9d9383d73cc0fa5d3a0b810dd476961",
+      "fastq_signature": [],
+      "file_size": 240753,
+      "flowcell_details": [],
+      "output_type": "peaks",
+      "derived_from": [
+        "/files/ENCFF715DIL/",
+        "/files/ENCFF448SCQ/"
+      ],
+      "dataset": "/experiments/ENCSR368NMO/",
+      "assembly": "hg19",
+      "status": "released",
+      "dbxrefs": [],
+      "preferred_default": true,
+      "@id": "/files/ENCFF298QFN/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "uuid": "fad38cea-eb10-4276-b77d-c7db6cc5f931",
+      "title": "ENCFF298QFN",
+      "href": "/files/ENCFF298QFN/@@download/ENCFF298QFN.bed.gz",
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_1",
+        "1_2",
+        "1_3",
+        "1_4",
+        "1_5"
+      ],
+      "biological_replicates_formatted": "Rep 1",
+      "donors": [],
+      "output_category": "annotation",
+      "quality_metrics": [],
+      "file_type": "bed bed3+",
+      "superseded_by": [],
+      "cloud_metadata": {
+        "url": "https://encode-public.s3.amazonaws.com/2018/09/04/fad38cea-eb10-4276-b77d-c7db6cc5f931/ENCFF298QFN.bed.gz",
+        "md5sum_base64": "5PVf8nJIp2B1Cg0mH68cVg==",
+        "file_size": 240753
+      },
+      "s3_uri": "s3://encode-public/2018/09/04/fad38cea-eb10-4276-b77d-c7db6cc5f931/ENCFF298QFN.bed.gz",
+      "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2018/09/04/fad38cea-eb10-4276-b77d-c7db6cc5f931/ENCFF298QFN.bed.gz?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+      "assay_title": "RNA Bind-n-Seq",
+      "assay_term_name": "RNA Bind-n-Seq",
+      "biosample_ontology": "/biosample-types/cell-free_sample_NTR_0000471/",
+      "simple_biosample_summary": "",
+      "target": "/targets/HNRNPK-human/",
+      "analyses": [
+        {
+          "status": "released",
+          "@id": "/analyses/ENCAN966KHX/",
+          "@type": [
+            "Analysis",
+            "Item"
+          ],
+          "uuid": "a73dfcb2-36ab-469c-b6cb-1b645b856136",
+          "pipeline_award_rfas": [
+            "ENCODE4"
+          ],
+          "title": "Lab custom hg19"
+        }
+      ],
+      "processed": true
+    }
+  ],
+  "revoked_files": [],
+  "assembly": [
+    "hg19"
+  ],
+  "hub": "/experiments/ENCSR368NMO/@@hub/hub.txt",
+  "default_analysis": "/analyses/ENCAN966KHX/",
+  "related_series": [],
+  "superseded_by": [],
+  "related_annotations": [],
+  "perturbed": false,
+  "@context": "/terms/",
+  "audit": {
+    "WARNING": [
+      {
+        "category": "missing analysis_step_run",
+        "detail": "Missing analysis_step_run information in file {ENCFF813TVN|/files/ENCFF813TVN/}.",
+        "level": 40,
+        "level_name": "WARNING",
+        "path": "/files/ENCFF813TVN/",
+        "name": "audit_file"
+      },
+      {
+        "category": "missing analysis_step_run",
+        "detail": "Missing analysis_step_run information in file {ENCFF298QFN|/files/ENCFF298QFN/}.",
+        "level": 40,
+        "level_name": "WARNING",
+        "path": "/files/ENCFF298QFN/",
+        "name": "audit_file"
+      }
+    ]
+  }
+}

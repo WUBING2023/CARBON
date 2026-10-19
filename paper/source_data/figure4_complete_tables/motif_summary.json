@@ -1,0 +1,79 @@
+{
+  "n_instances": 9308,
+  "n_tasks": 208,
+  "n_task_motif": 361,
+  "alignment_failure_count": 0,
+  "short_core_valid": 9308,
+  "short_core_excluded": 0,
+  "exclusion_reasons": {},
+  "reverse_complement_instances": 302,
+  "source_chromosome_counts": {
+    "1": 6002,
+    "8": 1847,
+    "15": 1459
+  },
+  "max_X_ohe_error": 0.0,
+  "max_seqlet_sequence_error": 0.0,
+  "max_reference_ohe_error": 0.0,
+  "max_legacy_50nt_mean_replay_error": 0.0,
+  "max_PPM_seqlet_mean_error": 2.9602306828024894e-08,
+  "elapsed_seconds": 148.3,
+  "endpoints": {
+    "all_archived_chr1_8_15": {
+      "n_instances": 9308,
+      "n_task_motif": 361,
+      "n_tasks": 208,
+      "n_rbps": 149,
+      "instance_weighted_core9_mean": 2.580917715247813,
+      "instance_weighted_flank18_mean": 2.465828916006953,
+      "instance_weighted_paired_difference": 0.11508879924085921,
+      "task_to_rbp_macro_core9_mean": 2.1173430122563865,
+      "task_to_rbp_macro_flank18_mean": 2.066820243322659,
+      "task_to_rbp_macro_paired_difference": 0.05052276893372777,
+      "rbp_bootstrap_95CI": [
+        0.004283907821133889,
+        0.10546122354735034
+      ],
+      "bootstrap_replicates": 5000,
+      "bootstrap_seed": 20260924,
+      "task_signs": {
+        "positive": 116,
+        "zero": 0,
+        "negative": 92
+      },
+      "rbp_signs": {
+        "positive": 81,
+        "zero": 0,
+        "negative": 68
+      }
+    },
+    "chr8_15": {
+      "n_instances": 3306,
+      "n_task_motif": 350,
+      "n_tasks": 208,
+      "n_rbps": 149,
+      "instance_weighted_core9_mean": 2.4543524898323446,
+      "instance_weighted_flank18_mean": 2.3390460119523335,
+      "instance_weighted_paired_difference": 0.11530647788001108,
+      "task_to_rbp_macro_core9_mean": 1.9785012774346353,
+      "task_to_rbp_macro_flank18_mean": 1.93543131290781,
+      "task_to_rbp_macro_paired_difference": 0.04306996452682538,
+      "rbp_bootstrap_95CI": [
+        -0.010072412749005074,
+        0.10216934725775154
+      ],
+      "bootstrap_replicates": 5000,
+      "bootstrap_seed": 20260924,
+      "task_signs": {
+        "positive": 101,
+        "zero": 0,
+        "negative": 107
+      },
+      "rbp_signs": {
+        "positive": 74,
+        "zero": 0,
+        "negative": 75
+      }
+    }
+  }
+}

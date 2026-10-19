@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-14T03:24:04.104752+00:00",
+  "input_keys": 4669,
+  "input_sha256": "237360a93765a9bd3240e6bf86a43a23cf8693e0feb4cf282b3385824021da1d",
+  "assembly": "GRCh38",
+  "match": "exact genomic chromosome + 1-based position + REF + ALT",
+  "batch_size": 250,
+  "cohort_filter": "occurrence.case.project.program.name = TCGA",
+  "selection": "all frozen existing variant keys; no model response selection",
+  "output_policy": "successful complete query with no hit = no_match_in_open_GDC_release; failed/incomplete = query_unresolved",
+  "consequences": "all returned transcripts retained; canonical separately recorded",
+  "disease_scope": "TCGA open somatic occurrence annotation; neither pathogenicity nor RBP binding truth"
+}

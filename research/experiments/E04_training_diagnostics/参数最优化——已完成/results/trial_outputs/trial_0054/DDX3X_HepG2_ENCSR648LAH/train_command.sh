@@ -1,0 +1,24 @@
+#!/bin/bash
+python3 -u /data/CARBON_PROJECT/MARCP/marcp_train.py \
+  --CUDA 2 \
+  --task DDX3X_HepG2_ENCSR648LAH \
+  -train /data/CARBON_PROJECT/数据/h5data/DDX3X_HepG2_ENCSR648LAH/_5ch/DDX3X_HepG2_ENCSR648LAH_chr1_5ch.h5 \
+  -validation /data/CARBON_PROJECT/数据/h5data/DDX3X_HepG2_ENCSR648LAH/_5ch/DDX3X_HepG2_ENCSR648LAH_chr2_5ch.h5 \
+  -test /data/CARBON_PROJECT/数据/h5data/DDX3X_HepG2_ENCSR648LAH/_5ch/DDX3X_HepG2_ENCSR648LAH_chr3_5ch.h5 \
+  --output /data/CARBON_PROJECT/参数最优化/results/trial_outputs/trial_0054/DDX3X_HepG2_ENCSR648LAH \
+  --epochs 100 \
+  --input_channels 5 \
+  --encode OneHot \
+  --modelFramework Treat \
+  --lossM CombinedProfileLoss \
+  --signalMax 0 \
+  --seqLength 101 \
+  --loss_scale 1.0 \
+  --lr 0.000515371 \
+  --bsz 256 \
+  --weight_decay 0.000253385 \
+  --alpha 1.74576 \
+  --beta 0.472171 \
+  --gamma 1.99735 \
+  --grad_clip 2.0 \
+  --max_stopping_step 8

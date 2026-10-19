@@ -1,0 +1,383 @@
+{
+  "accession": "ENCFF002DFE",
+  "aliases": [
+    "chris-burge:RBFOX2_enrichment_R.5mers.txt"
+  ],
+  "schema_version": "31",
+  "lab": {
+    "fax": "617-452-2936",
+    "address2": "31 Ames Street, 68-271A",
+    "address1": "Department of Biology",
+    "state": "MA",
+    "institute_name": "Massachusetts Institute of Technology",
+    "awards": [
+      "/awards/U54HG007005/"
+    ],
+    "title": "Chris Burge, MIT",
+    "phone1": "617-258-5997",
+    "city": "Cambridge",
+    "phone2": "617-253-9395",
+    "schema_version": "5",
+    "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+    "postal_code": "02139-4307",
+    "name": "chris-burge",
+    "institute_label": "MIT",
+    "country": "USA",
+    "status": "current",
+    "@id": "/labs/chris-burge/",
+    "@type": [
+      "Lab",
+      "Item"
+    ],
+    "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+  },
+  "award": {
+    "status": "disabled",
+    "url": "http://projectreporter.nih.gov/project_info_description.cfm?aid=8652981",
+    "schema_version": "11",
+    "title": "FUNCTION OF SEQUENCE-SPECIFIC REGULATORS OF RNA SPLICING",
+    "name": "R01GM085319",
+    "description": "Most human genes produce multiple distinct mRNA and protein isoforms through alternative splicing that may have distinct or even antagonistic biological functions. Alternative splicing is regulated by a set of RNA binding proteins (RBPs) whose functions are important in development and in a number of diseases. Our approach to the long-term goal of understanding the function of RBPs and their roles in alternative splicing is organized around the following specific aims: SA1. To develop a method for determination of the quantitative in vitro RNA binding specificity of a protein at unprecedented depth and to determine the RNA affinity landscape of RBFOX family proteins. SA2. To understand the sequence and RNA structural basis of RNA binding by MBNL and CELF family splicing factors, the extent of cooperativity and competition, and to understand the regulation of distinct subsets of targets in developmental and pathogenic contexts. SA3. To understand the binding affinity landscapes of factors that recognize motifs at the 3' ends of introns and their roles in regulation of alternative 3' splice site (3'SS) choice. We have recently developed a method called HiTS-FLIP, which provides a quantitative description of the in vitro DNA binding affinity landscape of a protein at unprecedented depth. We propose to develop a variation of this method, \"HiTS-FLIP-R\", to assess RNA binding affinity at a similarly high resolution. The essential idea is to sequence tens of millions of DNA clusters on an Illumina Genome Analyzer 2 (GA2) flow cell, to generate the corresponding RNA sequences by primer extension of anchored DNA adapters, to add a fluorescently tagged RNA binding protein to the flow cell at various concentrations and to image binding to RNA clusters using the GA2's optics. This approach will be applied to key factors involved in development and disease, including RBFOX2 and the myotonic dystrophy (DM) related factors MBNL1 and CELF1, as well as major factors that recognize the 3' splice site and contribute to constitutive and alternative splicing. These data will be used to develop quantitative models that predict the effects on binding and regulation of defined perturbations in the levels of specific RBPs, and the roles of these factors in development and in DM.",
+    "start_date": "2008-08-01",
+    "end_date": "2016-04-30",
+    "pi": {
+      "@id": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+      "@type": [
+        "User",
+        "Item"
+      ],
+      "uuid": "de7f5444-ee87-4e4e-b621-9c136ea1d4b1",
+      "lab": {
+        "fax": "617-452-2936",
+        "address2": "31 Ames Street, 68-271A",
+        "address1": "Department of Biology",
+        "state": "MA",
+        "institute_name": "Massachusetts Institute of Technology",
+        "awards": [
+          "/awards/U54HG007005/"
+        ],
+        "title": "Chris Burge, MIT",
+        "phone1": "617-258-5997",
+        "city": "Cambridge",
+        "phone2": "617-253-9395",
+        "schema_version": "5",
+        "pi": "/users/de7f5444-ee87-4e4e-b621-9c136ea1d4b1/",
+        "postal_code": "02139-4307",
+        "name": "chris-burge",
+        "institute_label": "MIT",
+        "country": "USA",
+        "status": "current",
+        "@id": "/labs/chris-burge/",
+        "@type": [
+          "Lab",
+          "Item"
+        ],
+        "uuid": "bc8e3211-c653-4ae1-92e8-112336199ec7"
+      },
+      "title": "Chris Burge",
+      "submits_for": [
+        "/labs/brenton-graveley/",
+        "/labs/gene-yeo/",
+        "/labs/xiang-dong-fu/",
+        "/labs/chris-burge/"
+      ]
+    },
+    "rfa": "ENCODE3",
+    "project": "ENCODE",
+    "viewing_group": "ENCODE3",
+    "@id": "/awards/R01GM085319/",
+    "@type": [
+      "Award",
+      "Item"
+    ],
+    "uuid": "76a40237-c01c-42d3-9a32-1f0055069bb0"
+  },
+  "date_created": "2014-06-10T00:00:00.000000+00:00",
+  "submitted_by": {
+    "@id": "/users/599e4901-78bf-422f-b65d-f3443c6a6450/",
+    "@type": [
+      "User",
+      "Item"
+    ],
+    "uuid": "599e4901-78bf-422f-b65d-f3443c6a6450",
+    "lab": "/labs/brenton-graveley/",
+    "title": "Xintao Wei",
+    "submits_for": [
+      "/labs/brenton-graveley/",
+      "/labs/gene-yeo/",
+      "/labs/xiang-dong-fu/",
+      "/labs/chris-burge/",
+      "/labs/eric-lecuyer/"
+    ]
+  },
+  "alternate_accessions": [],
+  "file_format": "tsv",
+  "no_file_available": false,
+  "submitted_file_name": "RBFOX2/RBNS/RBFOX2_enrichment_R.5mers.txt",
+  "md5sum": "6f38bb80a1028cf593b0cc6977e3228d",
+  "fastq_signature": [],
+  "file_size": 98346,
+  "flowcell_details": [],
+  "output_type": "enrichment",
+  "derived_from": [
+    "/files/ENCFF002DHF/",
+    "/files/ENCFF002DHC/",
+    "/files/ENCFF002DHE/",
+    "/files/ENCFF002DHB/",
+    "/files/ENCFF002DHI/",
+    "/files/ENCFF002DHG/",
+    "/files/ENCFF002DHD/",
+    "/files/ENCFF002DHH/",
+    "/files/ENCFF002DHA/"
+  ],
+  "dataset": "/experiments/ENCSR441HLP/",
+  "status": "released",
+  "dbxrefs": [],
+  "step_run": {
+    "schema_version": "5",
+    "date_created": "2019-05-09T22:21:59.160056+00:00",
+    "status": "released",
+    "aliases": [],
+    "analysis_step_version": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+    "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+    "@id": "/analysis-step-runs/463e2984-a646-4104-a511-89abf6d39294/",
+    "@type": [
+      "AnalysisStepRun",
+      "Item"
+    ],
+    "uuid": "463e2984-a646-4104-a511-89abf6d39294"
+  },
+  "preferred_default": true,
+  "@id": "/files/ENCFF002DFE/",
+  "@type": [
+    "File",
+    "Item"
+  ],
+  "uuid": "d5eb4c42-c4e5-4d11-9b9e-d6f6ad051ecc",
+  "title": "ENCFF002DFE",
+  "href": "/files/ENCFF002DFE/@@download/ENCFF002DFE.tsv",
+  "biological_replicates": [
+    1
+  ],
+  "technical_replicates": [
+    "1_1",
+    "1_2",
+    "1_3",
+    "1_4",
+    "1_5",
+    "1_6",
+    "1_7",
+    "1_8",
+    "1_9"
+  ],
+  "biological_replicates_formatted": "Rep 1",
+  "donors": [],
+  "analysis_step_version": {
+    "minor_version": 0,
+    "aliases": [],
+    "date_created": "2019-05-09T22:21:01.726117+00:00",
+    "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+    "status": "released",
+    "analysis_step": {
+      "documents": [],
+      "date_created": "2019-05-09T22:15:30.560146+00:00",
+      "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+      "status": "released",
+      "aliases": [],
+      "schema_version": "17",
+      "step_label": "rbns-calculate-enrichment-and-estimated-binding-fraction-step",
+      "title": "RBNS Calculate Enrichment and Estimated Binding Fraction Step",
+      "major_version": 1,
+      "analysis_step_types": [
+        "enrichment"
+      ],
+      "input_file_types": [
+        "raw data"
+      ],
+      "output_file_types": [
+        "enrichment",
+        "library fraction"
+      ],
+      "@id": "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/",
+      "@type": [
+        "AnalysisStep",
+        "Item"
+      ],
+      "uuid": "8e94a343-8c4a-411b-8db7-364b40f97ac8",
+      "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1",
+      "pipelines": [
+        {
+          "documents": [],
+          "date_created": "2019-05-09T22:12:42.300595+00:00",
+          "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+          "references": [],
+          "lab": "/labs/chris-burge/",
+          "award": "/awards/U41HG009889/",
+          "aliases": [
+            "chris-burge:rbns-pipeline"
+          ],
+          "accession": "ENCPL133ALO",
+          "schema_version": "14",
+          "alternate_accessions": [],
+          "assay_term_names": [
+            "RNA Bind-n-Seq"
+          ],
+          "status": "released",
+          "title": "RBNS Pipeline",
+          "description": "From Burge lab (Freese, P.): \"The RBNS pipeline is a set of bioinformatics tools to analyze data from high-throughput sequencing experiments of protein-bound RNAs. The current version includes read splitting, calculation of kmer frequencies and enrichments, QC metrics, production of motif sequence logos, and RNA secondary structure analysis.\"",
+          "analysis_steps": [
+            "/analysis-steps/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1/"
+          ],
+          "source_url": "https://bitbucket.org/pfreese/rbns_pipeline/src/master",
+          "standards_page": "/rbns/",
+          "pipeline_version": 1,
+          "@id": "/pipelines/ENCPL133ALO/",
+          "@type": [
+            "Pipeline",
+            "Item"
+          ],
+          "uuid": "ef637d0f-fa4c-4d1b-84b9-c124d70b34ec"
+        }
+      ],
+      "current_version": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+      "versions": [
+        "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/"
+      ]
+    },
+    "schema_version": "4",
+    "software_versions": [
+      {
+        "software": {
+          "lab": "/labs/chris-burge/",
+          "award": "/awards/U41HG009889/",
+          "references": [],
+          "date_created": "2019-05-09T22:19:07.178912+00:00",
+          "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+          "status": "released",
+          "aliases": [],
+          "schema_version": "10",
+          "software_type": [
+            "other"
+          ],
+          "name": "rbns_pipeline",
+          "title": "RBNS Pipeline",
+          "source_url": "https://bitbucket.org/pfreese/rbns_pipeline/src/master",
+          "purpose": [
+            "RNA Bind-n-Seq"
+          ],
+          "used_by": [
+            "ENCODE"
+          ],
+          "description": "From Burge lab (Freese, P.): \"The RBNS pipeline is a set of bioinformatics tools to analyze data from high-throughput sequencing experiments of protein-bound RNAs. The current version includes read splitting, calculation of kmer frequencies and enrichments, QC metrics, production of motif sequence logos, and RNA secondary structure analysis.\"",
+          "@id": "/software/rbns_pipeline/",
+          "@type": [
+            "Software",
+            "Item"
+          ],
+          "uuid": "49b8085c-264b-4872-bf05-8dd26d9f67aa",
+          "versions": [
+            "/software-versions/5cea0e65-1bf1-4eb4-9959-90a02c257ea2/"
+          ]
+        },
+        "submitted_by": "/users/43f2f757-5cbf-490a-9787-a1ee85a4cdcd/",
+        "aliases": [],
+        "date_created": "2019-05-09T22:20:07.802142+00:00",
+        "downloaded_url": "https://bitbucket.org/pfreese/rbns_pipeline/src/master",
+        "status": "released",
+        "schema_version": "4",
+        "version": "1",
+        "@id": "/software-versions/5cea0e65-1bf1-4eb4-9959-90a02c257ea2/",
+        "@type": [
+          "SoftwareVersion",
+          "Item"
+        ],
+        "uuid": "5cea0e65-1bf1-4eb4-9959-90a02c257ea2"
+      }
+    ],
+    "@id": "/analysis-step-versions/rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0/",
+    "@type": [
+      "AnalysisStepVersion",
+      "Item"
+    ],
+    "uuid": "4a5b3bfa-589d-471d-b8ff-93dd597d2113",
+    "name": "rbns-calculate-enrichment-and-estimated-binding-fraction-step-v-1-0"
+  },
+  "output_category": "quantification",
+  "quality_metrics": [],
+  "file_type": "tsv",
+  "superseded_by": [],
+  "cloud_metadata": {
+    "url": "https://encode-public.s3.amazonaws.com/2014/06/10/d5eb4c42-c4e5-4d11-9b9e-d6f6ad051ecc/ENCFF002DFE.tsv",
+    "md5sum_base64": "bzi7gKECjPWTsMxpd+MijQ==",
+    "file_size": 98346
+  },
+  "s3_uri": "s3://encode-public/2014/06/10/d5eb4c42-c4e5-4d11-9b9e-d6f6ad051ecc/ENCFF002DFE.tsv",
+  "azure_uri": "https://datasetencode.blob.core.windows.net/dataset/2014/06/10/d5eb4c42-c4e5-4d11-9b9e-d6f6ad051ecc/ENCFF002DFE.tsv?sv=2019-10-10&si=prod&sr=c&sig=9qSQZo4ggrCNpybBExU8SypuUZV33igI11xw0P7rB3c%3D",
+  "assay_title": "RNA Bind-n-Seq",
+  "assay_term_name": "RNA Bind-n-Seq",
+  "biosample_ontology": {
+    "term_name": "cell-free sample",
+    "aliases": [],
+    "status": "released",
+    "classification": "cell-free sample",
+    "dbxrefs": [],
+    "schema_version": "1",
+    "references": [],
+    "term_id": "NTR:0000471",
+    "@id": "/biosample-types/cell-free_sample_NTR_0000471/",
+    "@type": [
+      "BiosampleType",
+      "Item"
+    ],
+    "uuid": "36737320-d883-4df0-ba5f-88f8162ba2e4",
+    "name": "cell-free_sample_NTR_0000471",
+    "organ_slims": [],
+    "cell_slims": [],
+    "developmental_slims": [],
+    "system_slims": [],
+    "synonyms": []
+  },
+  "simple_biosample_summary": "",
+  "target": {
+    "status": "released",
+    "aliases": [],
+    "schema_version": "14",
+    "dbxrefs": [
+      "FactorBook:RBFOX2"
+    ],
+    "genes": [
+      "/genes/23543/"
+    ],
+    "label": "RBFOX2",
+    "investigated_as": [
+      "cofactor"
+    ],
+    "@id": "/targets/RBFOX2-human/",
+    "@type": [
+      "Target",
+      "Item"
+    ],
+    "uuid": "f5948201-36cb-49f0-9cff-d7c8679819c8",
+    "organism": "/organisms/human/",
+    "name": "RBFOX2-human",
+    "title": "RBFOX2 (Homo sapiens)"
+  },
+  "analyses": [
+    {
+      "status": "released",
+      "@id": "/analyses/ENCAN146JYZ/",
+      "@type": [
+        "Analysis",
+        "Item"
+      ],
+      "uuid": "4ec1d70e-c713-40ad-8937-8dc1454397ff",
+      "pipeline_award_rfas": [
+        "ENCODE4"
+      ],
+      "title": "Lab custom hg19"
+    }
+  ],
+  "processed": true,
+  "@context": "/terms/",
+  "audit": {}
+}

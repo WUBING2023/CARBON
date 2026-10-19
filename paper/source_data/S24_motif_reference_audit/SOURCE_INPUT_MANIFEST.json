@@ -1,0 +1,1072 @@
+{
+  "copy_date": "2026-10-12",
+  "existing_local_download_date_record": "2026-03-27",
+  "database_build": "2.00",
+  "comparisons": 193,
+  "unique_reference_matrices": 78,
+  "tasks": 45,
+  "files": [
+    {
+      "original_path": "/data/CARBON_PROJECT\\revision_v1\\manuscript\\source_data\\S1_S14_original\\Supplementary_Data_S6_motif_comparisons.csv",
+      "retained_path": "source_inputs\\Supplementary_Data_S6_motif_comparisons.csv",
+      "bytes": 19428,
+      "sha256": "d9effae28d6c57779999ef71151b07b66cfc47728f0fc1a4e5a372b192a9f83d"
+    },
+    {
+      "original_path": "/data/CARBON_PROJECT\\revision_v1\\manuscript\\source_data\\S1_S14_original\\Supplementary_Data_S10_motif_leaf_mapping.csv",
+      "retained_path": "source_inputs\\Supplementary_Data_S10_motif_leaf_mapping.csv",
+      "bytes": 40011,
+      "sha256": "a1acaca246ac08584112f5441bcb6cddec0b34f3d7303fd103b3e72c5f0af7d8"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\图\\figure5\\figureA_data\\figureA_dist_matrix.csv",
+      "retained_path": "source_inputs\\figureA_dist_matrix.csv",
+      "bytes": 678255,
+      "sha256": "76cb5014bb97fdfe545659260b1bc16f76a54d77d0e179ed305db33a78b61193"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\RBP_Information_all_motifs.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\RBP_Information_all_motifs.txt",
+      "bytes": 269791,
+      "sha256": "d3e338864066f365d1a690c480c50bf15a33a2bbe6910abca5cb580bc3cd1b2f"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\RBP_Information.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\RBP_Information.txt",
+      "bytes": 193752,
+      "sha256": "9c249d56fcdbfcc935946d807e8c621ae05b9228edeef40710187554059da9e6"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00038_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00038_2.00.txt",
+      "bytes": 541,
+      "sha256": "8a87cc4a29b04ceb88babc98186d10f0514aeacc9553266ff701205788d63117"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00044_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00044_2.00.txt",
+      "bytes": 557,
+      "sha256": "7aab588ed34647ceca8124ad6b0c00916c215f0ba43643615f138b16c91c21d9"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00047_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00047_2.00.txt",
+      "bytes": 559,
+      "sha256": "b4c32a0f519df7e923f373df7c46c5a84bd5d0f8d696eb4e15d4e4e2cb50bca7"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00048_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00048_2.00.txt",
+      "bytes": 541,
+      "sha256": "1a0216d5f9e6e72de3fa52fca335459ab8f83cfeb76036102d5d9928cf1c31dc"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00049_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00049_2.00.txt",
+      "bytes": 539,
+      "sha256": "c807b997c6fabafec009015be164645e3ba8edf453845b60a276eeff6b79e577"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00057_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00057_2.00.txt",
+      "bytes": 542,
+      "sha256": "2e25d671d1db0b86ecaa38b2959cacccc3441c23fbb4f0a6c132581f4091bc0f"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00065_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00065_2.00.txt",
+      "bytes": 531,
+      "sha256": "6e26654a3b39acaabc35a44c31b5a553f491766376c272a1627b774f687aee4e"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00068_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00068_2.00.txt",
+      "bytes": 547,
+      "sha256": "3ea781616952139dc800b70ba441ee742d72921ea5db36c3f470766c2866a3f8"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00087_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00087_2.00.txt",
+      "bytes": 543,
+      "sha256": "335842db0bd982cd04068aef8ae20fe99fefc5cf93819211a3124900416203c7"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00093_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00093_2.00.txt",
+      "bytes": 626,
+      "sha256": "47b52b92890f13ef176ea908c1ffc586d8223d08aa9ea58d843f3bffbdbad536"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00094_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00094_2.00.txt",
+      "bytes": 537,
+      "sha256": "3b4e038a5a425e35739c1db0ee274c281a82e0f4cb1cc982dd5e1cfff69e3b60"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00096_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00096_2.00.txt",
+      "bytes": 602,
+      "sha256": "e2da6d12f918bab56f05c905deee4cec77e224bc1784b22199cd83c750c0d52a"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00097_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00097_2.00.txt",
+      "bytes": 547,
+      "sha256": "c1e8782834074b0dd272781cf83aa76e5040789ead377e61760dad382de85b61"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00099_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00099_2.00.txt",
+      "bytes": 560,
+      "sha256": "ee9325088856deb45e90059d4e3724c30b23e366a66f69be9ab8cdbddda73eed"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00111_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00111_2.00.txt",
+      "bytes": 543,
+      "sha256": "202c94116a5807c5b767f9a461280c39659ea209119d04a1894ffe1ebe31f7f9"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00124_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00124_2.00.txt",
+      "bytes": 554,
+      "sha256": "3fb9586cefd8230726d77c235accc80e90f9e0fffb82034f60d1e7c3c927b70f"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00125_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00125_2.00.txt",
+      "bytes": 558,
+      "sha256": "8eb495a22ae99209ddf0b13451880b83a5ae337b56fbb5aea31c137b9bbe07a8"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00126_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00126_2.00.txt",
+      "bytes": 558,
+      "sha256": "e2b411600c0c6edf6831a6c48419121d4bc3cec428bae4dc7d7c527fe55727f1"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00127_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00127_2.00.txt",
+      "bytes": 558,
+      "sha256": "5859fa47cee7782b6d3f99df56d89d2d2fc0cdded4db01baa43da102f1fa7e9f"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00171_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00171_2.00.txt",
+      "bytes": 559,
+      "sha256": "33948eccaa4c468b6b5e7beb72e47fafcbd08c6390db3940d9468128827a3015"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00174_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00174_2.00.txt",
+      "bytes": 615,
+      "sha256": "67866d37a0d2b5acf16e19c3f1703420773575919d15d296663e5bdee1a2da7f"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00175_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00175_2.00.txt",
+      "bytes": 543,
+      "sha256": "d816dff837b15a83c78e9e5cabcbd71735ebce9a3b5469979a818aa70e134ffa"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00176_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00176_2.00.txt",
+      "bytes": 549,
+      "sha256": "60ea701e92ea25b176b2777b0d092b928f89c2c5357fd7697b00006a272a94be"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00178_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00178_2.00.txt",
+      "bytes": 546,
+      "sha256": "fdd1bdd27366549ed402489b83640d6dfc64870c01a405784d16719b922fcf88"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00182_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00182_2.00.txt",
+      "bytes": 553,
+      "sha256": "fc33af153f7df6a1dd50e56a5a73b378aa5905569159d570908ee45ede6fab29"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00199_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00199_2.00.txt",
+      "bytes": 531,
+      "sha256": "9b25a7513026b747e3c43c685da02befa71c7dc86487e629a1f7b5e177520578"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00249_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00249_2.00.txt",
+      "bytes": 545,
+      "sha256": "a94af776c2ed414fa95e16d21292e6db2f9b0b72e0fd227a56c29fa49d880783"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00250_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00250_2.00.txt",
+      "bytes": 543,
+      "sha256": "4f3985620487e8c4ae1b4b83e2896ebf320c48dfe1479fc99fcdb78c33392d8b"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00413_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00413_2.00.txt",
+      "bytes": 552,
+      "sha256": "348268abfaa312fbe637cb559d57fbc6facbdede6ac6a25bbecf7d5bae50634c"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00460_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00460_2.00.txt",
+      "bytes": 174,
+      "sha256": "a775342a04a89c2d1deee5cb6c85a888bd94cccbffbbb6d17a98bc60791ab35f"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00469_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00469_2.00.txt",
+      "bytes": 223,
+      "sha256": "3df51b16364b5ec2c9dfc51ca9fcdebb1379369922bcc973995dcbeaceebad91"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00494_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00494_2.00.txt",
+      "bytes": 235,
+      "sha256": "4c0a9c8b1cdfcd83879d677c0961db4d174f61e3918bc9074d7425a9a29155dd"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00531_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00531_2.00.txt",
+      "bytes": 308,
+      "sha256": "2cc77ba891ea4b4f6c8a389fb99aaf7af9f036aa5475022f73a4d79042d871b4"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00549_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00549_2.00.txt",
+      "bytes": 559,
+      "sha256": "158e499ea87ddb7370629793c9f603cacc44d33b43ec9567f286aeeeeb06f754"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00558_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00558_2.00.txt",
+      "bytes": 162,
+      "sha256": "7815e88f9b444dd716386f972bf2f202f46db84a51246526d5b20a70af58f4ef"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00567_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00567_2.00.txt",
+      "bytes": 483,
+      "sha256": "14c86a93eef14128545252ca8f99e877034ca57f8898ec90ea1db7a88ce2094a"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00616_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00616_2.00.txt",
+      "bytes": 840,
+      "sha256": "ca1392a4b182abb1c5387286b7dcd20bd406adb5248ad48cbcabb371cc5dbd39"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00618_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00618_2.00.txt",
+      "bytes": 709,
+      "sha256": "98c9eac069cbf88037b67d00c020a12e15b04d1be9cc2b15fa439bbba4281149"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00619_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00619_2.00.txt",
+      "bytes": 808,
+      "sha256": "9fd68d9e325e53f88cc792adff00302c9997675b5ce19f54108fc6068f6d744f"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00620_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00620_2.00.txt",
+      "bytes": 870,
+      "sha256": "5a3ddf723957ba960df12a6f72503c351d57c2066462dec3eaf0886461ce8b2e"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00621_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00621_2.00.txt",
+      "bytes": 1226,
+      "sha256": "f836c8250ee9850bfa6ebfb359565041790a4446eb04ee5fde15eb9a40c33026"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00676_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00676_2.00.txt",
+      "bytes": 772,
+      "sha256": "7f45fc2f3365e848a33f23833bc64706e991b52fcbe3a28d841a2ca3555ff6eb"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00677_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00677_2.00.txt",
+      "bytes": 839,
+      "sha256": "ea3ecc78c7d6dd790c1e8802b46f59670e03c6d75808ca434d8dfa30e3357ed7"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00723_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00723_2.00.txt",
+      "bytes": 450,
+      "sha256": "a3501642cfe3d10f64e1cb7be7236a6c8d99e64acf590ae0026323cb9194f4a5"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00728_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00728_2.00.txt",
+      "bytes": 198,
+      "sha256": "20de86a44ff2f0442f35cc2ea7a1712387feb772be4950ed6ef9505b05177cc8"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00730_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00730_2.00.txt",
+      "bytes": 88,
+      "sha256": "6f6ea63315ee49d9ab810808b210f1a127d0793e79e3be674b230f52e5d9bad4"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00735_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00735_2.00.txt",
+      "bytes": 102,
+      "sha256": "a6ef42be6acaf4d102b1e047b582f02d6a4a429e05abd7b3fd208de02b60722a"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00744_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00744_2.00.txt",
+      "bytes": 62,
+      "sha256": "2daa863676188370e34fd64726ad3d3c5d42fe878113a3bd0ebcdaca71bd3776"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00745_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00745_2.00.txt",
+      "bytes": 62,
+      "sha256": "5a06c33ad310cf8255e729e1c51d66c0e6a808a5584bb8181ef142209330d997"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00746_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00746_2.00.txt",
+      "bytes": 313,
+      "sha256": "6337a259b20d4b63947891723342cbaa59d5a19d9a0adfebb16ca460781132b0"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00748_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00748_2.00.txt",
+      "bytes": 318,
+      "sha256": "31618ff016a3ab79a9d74bcd070eb541e9b87e5d7c8787b24142d33a3df3636a"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00753_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00753_2.00.txt",
+      "bytes": 114,
+      "sha256": "27992276c76e38e704431ff8e581d849c5946060f8b0dee36b6c1cd04bfaf49b"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00754_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00754_2.00.txt",
+      "bytes": 88,
+      "sha256": "565261956a1f8eae9eb553d844fba186f492ff28488144e8e1ff4cb765fefb63"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00765_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00765_2.00.txt",
+      "bytes": 309,
+      "sha256": "332d1aaa6f025a9d4b54563d1415f58d94a01ae39967925c833abe48adde4740"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00766_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00766_2.00.txt",
+      "bytes": 579,
+      "sha256": "1eeb487bb8b6ada224a66def18a8af07bfc5b897c406f7e446913f5479dcbb43"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00767_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00767_2.00.txt",
+      "bytes": 114,
+      "sha256": "139c9e2812a75b18dc80debd630c57dcd6fb4586d80048e537ebec43b2fcfe43"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00780_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00780_2.00.txt",
+      "bytes": 88,
+      "sha256": "e2f34ea8b62e4fed88f6588e3dd1ab38e0570ca2335b25422a4fe83886e85d02"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00819_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00819_2.00.txt",
+      "bytes": 155,
+      "sha256": "66043f6e33933023dbb9aae7b11be05fef3867adea23e232c209eaa97b7d3f13"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00821_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00821_2.00.txt",
+      "bytes": 328,
+      "sha256": "10705f449688590d1c60c419b25ba8ef85489ce3f7b25657c3d9881d3a3ef148"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00823_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00823_2.00.txt",
+      "bytes": 114,
+      "sha256": "11043e62ca526797095b9c8289af703c7b4f74a82f590c462022d444a70102da"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00824_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00824_2.00.txt",
+      "bytes": 62,
+      "sha256": "bfd97d92b0972d810d3d44d909e584caf3f535e0d50d5780a6589cb2a5a4c3df"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00825_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M00825_2.00.txt",
+      "bytes": 198,
+      "sha256": "d4b328612d4f31fd137930adf83246c12fe87f2e130f48ddf0c329acdb4a55fc"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M12970_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M12970_2.00.txt",
+      "bytes": 312,
+      "sha256": "7a062a0acac3b7afecb6cad5e94e10cdafac811d9b940035b00e9ae367a029a8"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M12973_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M12973_2.00.txt",
+      "bytes": 316,
+      "sha256": "9704539bba6f6edffb6b7d9e8f9a83bc6a520f937b1afa98fa109507b24a741b"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M12988_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M12988_2.00.txt",
+      "bytes": 314,
+      "sha256": "b22da567b29f3db54fc75a86f4bd6508c122faa7e1de85477baeb659fe74a59a"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M12990_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M12990_2.00.txt",
+      "bytes": 316,
+      "sha256": "7ea1e343b279e39e8d8812d5b897deeff11161da0c1c00aa492670c0561376b0"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M12998_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M12998_2.00.txt",
+      "bytes": 275,
+      "sha256": "c620c6db84bd5bd305a2bd2751209462592ef842265f04e1269b8852c62eaa1d"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13005_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13005_2.00.txt",
+      "bytes": 277,
+      "sha256": "74a97427dd98ce38fdaf085ff219c7be4dc87f83d52a65a726488faa280cbe9a"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13009_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13009_2.00.txt",
+      "bytes": 316,
+      "sha256": "9640d1b43168e8eb4e6a59f19efdd727d22d801addac72a180fffe02f1918ed0"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13010_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13010_2.00.txt",
+      "bytes": 311,
+      "sha256": "cf315eca3940632288dfcc5f3f511c2bc757215637ee16c2249d56968aaed509"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13013_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13013_2.00.txt",
+      "bytes": 316,
+      "sha256": "ce9382428650e16815d09475a8ffbffd4b9a97984fd02bc71dcdbc4872fea141"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13018_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13018_2.00.txt",
+      "bytes": 313,
+      "sha256": "a34d40b4bdc56dc73577e2d64ca86c13ddaaa647155d999036eb1078b9096562"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13030_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13030_2.00.txt",
+      "bytes": 309,
+      "sha256": "916499a30c346110c405d92de95d08822479be9480212e45eb02ecbcba963b71"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13035_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13035_2.00.txt",
+      "bytes": 276,
+      "sha256": "3e24fd6c1ec5cda9be448e173dd05117319383e619de1598683313ea877cf532"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13037_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13037_2.00.txt",
+      "bytes": 314,
+      "sha256": "5b347857bb1dee9b6aa272c3646c78a0636cfe56daf30ac5e98789197370baa8"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13053_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13053_2.00.txt",
+      "bytes": 313,
+      "sha256": "dbd01e5c1b321a42104c1da61b5f8705c5844183c03ff0e90e80426f67107b1d"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13074_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13074_2.00.txt",
+      "bytes": 312,
+      "sha256": "0d496948fb0b6754611e79e17627610a20c334ca4bedef398e25d973491860e2"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13095_2.00.txt",
+      "retained_path": "source_inputs\\reference_data\\CISBP-RNA\\homo_sapiens\\pwms\\M13095_2.00.txt",
+      "bytes": 316,
+      "sha256": "25f1348d09544ebf37c2c1bc6b07cd621d544b1434e67c50f9e0e21bcd980a4b"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\CPEB4_K562_ENCSR046JHH\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\CPEB4_K562_ENCSR046JHH\\tfmodisco_export\\queries.meme",
+      "bytes": 484,
+      "sha256": "b90d50e19677d17e5e962d5c78c439d9055ccec2758f4d2c8b76491ea553f87c"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\CPEB4_K562_ENCSR046JHH\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\CPEB4_K562_ENCSR046JHH\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 6849,
+      "sha256": "57bd73fd26749656e87c6a67c508dd50f3d3833d5930928336dc12b22bda79ae"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\EWSR1_K562_ENCSR887LPK\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\EWSR1_K562_ENCSR887LPK\\tfmodisco_export\\queries.meme",
+      "bytes": 1739,
+      "sha256": "405bf40fa33e7cf087f62f2a9addaa169e72fc8d5ec321fd4702667a7bdcda72"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\EWSR1_K562_ENCSR887LPK\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\EWSR1_K562_ENCSR887LPK\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 7753,
+      "sha256": "72b7d19d1afdcd8a928b60b89441de876b874511e8c207cf3487b007b741d9b9"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\FMR1_K562_ENCSR331VNX\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\FMR1_K562_ENCSR331VNX\\tfmodisco_export\\queries.meme",
+      "bytes": 4789,
+      "sha256": "395afbd6b8ae7169f2a7869fdfb58e25c3ad21dbf89ecad79b74b3dd1c69b001"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\FMR1_K562_ENCSR331VNX\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\FMR1_K562_ENCSR331VNX\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 11877,
+      "sha256": "53bdaa40c2e457537cccc18c0844e412f80ab4f4bfcb080130367e68329f3a75"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\FUBP3_HepG2_ENCSR486YGP\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\FUBP3_HepG2_ENCSR486YGP\\tfmodisco_export\\queries.meme",
+      "bytes": 637,
+      "sha256": "a06a9e947cf25b53b2b815094ca552e990322a8cf5c9f010363a2167fee87e6a"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\FUBP3_HepG2_ENCSR486YGP\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\FUBP3_HepG2_ENCSR486YGP\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 8962,
+      "sha256": "51db34f84f63efcf228914fab4aa950557033a7b980ef663879580e326022ae5"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\FUS_HepG2_ENCSR464OSH\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\FUS_HepG2_ENCSR464OSH\\tfmodisco_export\\queries.meme",
+      "bytes": 2081,
+      "sha256": "8d5146f44f5c2e6857830ca3d22e9148405c5091895a523a644db955e6592fc7"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\FUS_HepG2_ENCSR464OSH\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\FUS_HepG2_ENCSR464OSH\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 4124,
+      "sha256": "bdbc145c84fee9c5e282edde7591d851317e888406fc36cad66ca0f2c82fab77"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\FUS_K562_ENCSR069EVH\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\FUS_K562_ENCSR069EVH\\tfmodisco_export\\queries.meme",
+      "bytes": 4827,
+      "sha256": "f9042d3283ff222075aa73afad2e2becf67a3ae2059655a991635985a93bdaf9"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\FUS_K562_ENCSR069EVH\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\FUS_K562_ENCSR069EVH\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 15204,
+      "sha256": "ec23b009d352ee592ed742e76cb55dde4764735c1d822c299c9e3c41666fd90c"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\FXR1_K562_ENCSR774RFN\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\FXR1_K562_ENCSR774RFN\\tfmodisco_export\\queries.meme",
+      "bytes": 4599,
+      "sha256": "7cafc6546affe89bea5e8cddfd496219f9cba7bf443e882673c83814595ebadd"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\FXR1_K562_ENCSR774RFN\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\FXR1_K562_ENCSR774RFN\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 17353,
+      "sha256": "89207604adb9cafa97c098ec885f6452aeac8e10d8fc83f87b41d10b26638c99"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\GRSF1_HepG2_ENCSR668MJX\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\GRSF1_HepG2_ENCSR668MJX\\tfmodisco_export\\queries.meme",
+      "bytes": 4789,
+      "sha256": "b9ddeec28ccc51c7b530ad4d3d4beb86b1156f43f1ffc4bccf1fb508a661eb13"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\GRSF1_HepG2_ENCSR668MJX\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\GRSF1_HepG2_ENCSR668MJX\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 17612,
+      "sha256": "a8fb05c7f0d8cb57c3f276e0e0db68b719968b5e2d91bea86987b67364132442"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPA1_HepG2_ENCSR769UEW\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\HNRNPA1_HepG2_ENCSR769UEW\\tfmodisco_export\\queries.meme",
+      "bytes": 408,
+      "sha256": "f93456c153b65904cc93e38934447a594986a6d550cd37d5c6ac239c62383314"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPA1_HepG2_ENCSR769UEW\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\HNRNPA1_HepG2_ENCSR769UEW\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 3931,
+      "sha256": "33f0451bcde8adbf322fc503a54eadd5e975b316bbd4d24dfc65e410a32d4797"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPA1_K562_ENCSR154HRN\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\HNRNPA1_K562_ENCSR154HRN\\tfmodisco_export\\queries.meme",
+      "bytes": 408,
+      "sha256": "5e01254b0afe8a2983e874a6e304d00a282b4a190476d3d68bdb4e0f805f9cc0"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPA1_K562_ENCSR154HRN\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\HNRNPA1_K562_ENCSR154HRN\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 4532,
+      "sha256": "949cc6a6c73d8212101a6a4636402f1ea985487c5d3636228382b284ed8484f9"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPC_K562_ENCSR249ROI\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\HNRNPC_K562_ENCSR249ROI\\tfmodisco_export\\queries.meme",
+      "bytes": 789,
+      "sha256": "1c9ad5e2f9d8b14984d995770e351fdd0463a63311f216493b29e449a28af5d4"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPC_K562_ENCSR249ROI\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\HNRNPC_K562_ENCSR249ROI\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 8070,
+      "sha256": "e04c67c0ad67b149bdade970beac6d1174d361857555454314b3cb498859ed52"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPK_HepG2_ENCSR828ZID\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\HNRNPK_HepG2_ENCSR828ZID\\tfmodisco_export\\queries.meme",
+      "bytes": 5858,
+      "sha256": "cde06064e42c99ce132464a0448ec8dc033051c89a71af51f55091835c5d7eb4"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPK_HepG2_ENCSR828ZID\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\HNRNPK_HepG2_ENCSR828ZID\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 24479,
+      "sha256": "9198c88b015d72816f931fce9635b2286a0149cdb54ad9ba258c53a4a91c2a62"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPK_K562_ENCSR268ETU\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\HNRNPK_K562_ENCSR268ETU\\tfmodisco_export\\queries.meme",
+      "bytes": 2736,
+      "sha256": "ee0f782f3de8bcbf1d31dd57e4ea30341a8be33fc6822f110ae70f8f335a0eca"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPK_K562_ENCSR268ETU\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\HNRNPK_K562_ENCSR268ETU\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 14427,
+      "sha256": "bcaf1e225480d9949bb911b49130e9a7dd1f35e9a7df5449d0a158c4566100ae"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPL_HepG2_ENCSR724RDN\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\HNRNPL_HepG2_ENCSR724RDN\\tfmodisco_export\\queries.meme",
+      "bytes": 2043,
+      "sha256": "87632f1d36a7187954719183766d75fad6eedabb033b45a2013d653cac0560ae"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPL_HepG2_ENCSR724RDN\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\HNRNPL_HepG2_ENCSR724RDN\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 2242,
+      "sha256": "35f210c11819399adcec31c576bfd531a1ca2aa4e1aef5a5a1737737ce35d2a3"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPL_K562_ENCSR795CAI\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\HNRNPL_K562_ENCSR795CAI\\tfmodisco_export\\queries.meme",
+      "bytes": 3534,
+      "sha256": "547bc5e9668f0ac56f40516dc728953041617a1902dab612a7816ee9baaf2475"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\HNRNPL_K562_ENCSR795CAI\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\HNRNPL_K562_ENCSR795CAI\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 7069,
+      "sha256": "a7d930b65503e77370f1e76789c7bbdef2981e533250d6695b47c895d3812692"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\IGF2BP1_HepG2_ENCSR744GEU\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\IGF2BP1_HepG2_ENCSR744GEU\\tfmodisco_export\\queries.meme",
+      "bytes": 12424,
+      "sha256": "c9a51cbd8c02d32716c8e1e351be4c0273a458a420c803d43172ac40e31833a7"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\IGF2BP1_HepG2_ENCSR744GEU\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\IGF2BP1_HepG2_ENCSR744GEU\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 48446,
+      "sha256": "97151770f79d51b6c410abed4e1e5074248117f8b790a853f74b9e7bc285b796"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\IGF2BP1_K562_ENCSR975KIR\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\IGF2BP1_K562_ENCSR975KIR\\tfmodisco_export\\queries.meme",
+      "bytes": 4062,
+      "sha256": "09db97cf85259fc7bab5f387dd1163218aac2f7d3a592a76b0bd5f9629df3c18"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\IGF2BP1_K562_ENCSR975KIR\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\IGF2BP1_K562_ENCSR975KIR\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 19347,
+      "sha256": "aa95f2a37bdf270c7c3ae178197b095e048e73b05abbd202467768529cb67169"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\IGF2BP2_K562_ENCSR062NNB\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\IGF2BP2_K562_ENCSR062NNB\\tfmodisco_export\\queries.meme",
+      "bytes": 10334,
+      "sha256": "7fb485ce107d8d077f79128008d7595aa9aab82a9da4d748fc507aa25810ae7b"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\IGF2BP2_K562_ENCSR062NNB\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\IGF2BP2_K562_ENCSR062NNB\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 38545,
+      "sha256": "20a2a3cf74e46459120dc312df36793b071d0a7509e52f722513f20a088cb307"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\KHDRBS1_K562_ENCSR628IDK\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\KHDRBS1_K562_ENCSR628IDK\\tfmodisco_export\\queries.meme",
+      "bytes": 4599,
+      "sha256": "74fb9ee8b6ecdecafe7631de525a9006fdcaa33caa52e3344965180309ebeef1"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\KHDRBS1_K562_ENCSR628IDK\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\KHDRBS1_K562_ENCSR628IDK\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 20203,
+      "sha256": "77b530a1e0586a9d71b3eb75e44fee920e8c77c8d166470b849df00eccde35d5"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\KHSRP_HepG2_ENCSR366DGX\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\KHSRP_HepG2_ENCSR366DGX\\tfmodisco_export\\queries.meme",
+      "bytes": 446,
+      "sha256": "1eb749cd6efaba22f10fcc98a4c3b4637fd3db6348dd3e87746308d47fcbbcea"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\KHSRP_HepG2_ENCSR366DGX\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\KHSRP_HepG2_ENCSR366DGX\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 8664,
+      "sha256": "092bd37b5332e4008e290b5d70262cf4d223e404ba3a298085435786bd395504"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\KHSRP_K562_ENCSR438GZQ\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\KHSRP_K562_ENCSR438GZQ\\tfmodisco_export\\queries.meme",
+      "bytes": 1245,
+      "sha256": "e5800aa913b84d9d5861b9ccb1fdfebf8974654d8dcd5cf6e14a96e8903b775c"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\KHSRP_K562_ENCSR438GZQ\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\KHSRP_K562_ENCSR438GZQ\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 8880,
+      "sha256": "6e31ed92e62b101e6b86c1aadf169643dd024de01557f015ff801f5bb90ea7f3"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\LIN28B_K562_ENCSR970NKP\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\LIN28B_K562_ENCSR970NKP\\tfmodisco_export\\queries.meme",
+      "bytes": 6355,
+      "sha256": "0a7c17061e5b621f8d348fd6660c2d06501447f2ab4a41bdea5790795779674e"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\LIN28B_K562_ENCSR970NKP\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\LIN28B_K562_ENCSR970NKP\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 24212,
+      "sha256": "a0f669b9511dafe2e0dbd300bdc9e0a9be1c8265ffeabc4fe0edc414da93a8b0"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\PCBP1_HepG2_ENCSR256CHX\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\PCBP1_HepG2_ENCSR256CHX\\tfmodisco_export\\queries.meme",
+      "bytes": 2884,
+      "sha256": "704602cc883ad65f47d19e9b1d250cbcf8dc2f47683c1241759ebb0b471fe83c"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\PCBP1_HepG2_ENCSR256CHX\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\PCBP1_HepG2_ENCSR256CHX\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 7401,
+      "sha256": "aa1d1426f93f8f88e1cda16e38e1deea07a850e3ead1922fc0ebdc569f7fef46"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\PCBP1_K562_ENCSR922WJV\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\PCBP1_K562_ENCSR922WJV\\tfmodisco_export\\queries.meme",
+      "bytes": 522,
+      "sha256": "4a8640f988bbc0d3f6fc6101ee27d2298d87520a9709c002f3a39132ff03a732"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\PCBP1_K562_ENCSR922WJV\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\PCBP1_K562_ENCSR922WJV\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 8215,
+      "sha256": "14391ad16ad2136b5a7a64eb0c503929e8f11344073d4126bc5007200730881b"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\PCBP2_HepG2_ENCSR339FUY\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\PCBP2_HepG2_ENCSR339FUY\\tfmodisco_export\\queries.meme",
+      "bytes": 2005,
+      "sha256": "e57420e2e487f9e6da2d01626bc5724cfe69961d0ee3c48ef9695808e7c92014"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\PCBP2_HepG2_ENCSR339FUY\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\PCBP2_HepG2_ENCSR339FUY\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 10145,
+      "sha256": "cdb137b990c2380db303686700a4165d22b78da05483f2f08f8018e25b5ecc91"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\PTBP1_HepG2_ENCSR384KAN\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\PTBP1_HepG2_ENCSR384KAN\\tfmodisco_export\\queries.meme",
+      "bytes": 2081,
+      "sha256": "af72bfb4920bec68767a9bf32b28a3c38b11729ca6683734d3e565e9113b13c1"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\PTBP1_HepG2_ENCSR384KAN\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\PTBP1_HepG2_ENCSR384KAN\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 11638,
+      "sha256": "15b2e81f9d54d54b06f6f2eef0e2dcbbe747d69d18f7fecada7eae87b7c98be2"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\PTBP1_K562_ENCSR981WKN\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\PTBP1_K562_ENCSR981WKN\\tfmodisco_export\\queries.meme",
+      "bytes": 1853,
+      "sha256": "b8913ecc449b6b29225c13b8c2eb1c169caaa46d9de8c9564aea03822507988b"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\PTBP1_K562_ENCSR981WKN\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\PTBP1_K562_ENCSR981WKN\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 11180,
+      "sha256": "05a6fc16c1f9b2d3d4fda0bfc482f31495ebc0a578cc3ba47cc3399fa10c4225"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\PUM2_K562_ENCSR661ICQ\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\PUM2_K562_ENCSR661ICQ\\tfmodisco_export\\queries.meme",
+      "bytes": 906,
+      "sha256": "145b0778bc3fb9683ebf45ff29c218248c06f471483a832ef8587d86954d9bb1"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\PUM2_K562_ENCSR661ICQ\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\PUM2_K562_ENCSR661ICQ\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 1689,
+      "sha256": "9e44b03ef555c0c4ee4b75a578f8bc6b1562141e5116f0f9168fbff6f36fd762"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\QKI_HepG2_ENCSR570WLM\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\QKI_HepG2_ENCSR570WLM\\tfmodisco_export\\queries.meme",
+      "bytes": 522,
+      "sha256": "d5d68997b0c5ad6f47967c837f2d1032f6bcec5456d1a5a613a1de8bbc2b885a"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\QKI_HepG2_ENCSR570WLM\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\QKI_HepG2_ENCSR570WLM\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 1725,
+      "sha256": "e7dfba9b8b4fa9cd2b2a3ba0ed8b8626c3b54e7e48ef53e556831d5c735aef83"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\QKI_K562_ENCSR366YOG\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\QKI_K562_ENCSR366YOG\\tfmodisco_export\\queries.meme",
+      "bytes": 1862,
+      "sha256": "d44703cbad2e813325c5ff4459445a9a89206bb7cb48e428930ebced2af0ec69"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\QKI_K562_ENCSR366YOG\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\QKI_K562_ENCSR366YOG\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 21459,
+      "sha256": "96b2198b7278144698e2cd0a8eca8b3bddcda801d6ec0e22efb9774fb6f47405"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\RBFOX2_HepG2_ENCSR987FTF\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\RBFOX2_HepG2_ENCSR987FTF\\tfmodisco_export\\queries.meme",
+      "bytes": 599,
+      "sha256": "9874618f7a77d0adb89bfa1e65d1be21f76c079088541dffebf7308846c68114"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\RBFOX2_HepG2_ENCSR987FTF\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\RBFOX2_HepG2_ENCSR987FTF\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 5004,
+      "sha256": "753990175f5056082142672848689d5881b1c15e8542febfeaf505f58ab4463d"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\RBFOX2_K562_ENCSR756CKJ\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\RBFOX2_K562_ENCSR756CKJ\\tfmodisco_export\\queries.meme",
+      "bytes": 5211,
+      "sha256": "f4ef5dffb013ae065e5666686eef4f68d747045494cf4bbbd513b0af27c3d94c"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\RBFOX2_K562_ENCSR756CKJ\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\RBFOX2_K562_ENCSR756CKJ\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 33938,
+      "sha256": "42b05467e506bfbacfd30b3698840113c81789b4dd39d915700a5329c743cdc8"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\SRSF1_HepG2_ENCSR989VIY\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\SRSF1_HepG2_ENCSR989VIY\\tfmodisco_export\\queries.meme",
+      "bytes": 4371,
+      "sha256": "aaae3d638469d59d414b686c8abcd93801c5a813aa6088cfbe9a090eac624c3a"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\SRSF1_HepG2_ENCSR989VIY\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\SRSF1_HepG2_ENCSR989VIY\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 10176,
+      "sha256": "116d723763ac5ce888ac171b1f5852ea0043070b98f422b804ecca2e6b8f5330"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\SRSF1_K562_ENCSR432XUP\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\SRSF1_K562_ENCSR432XUP\\tfmodisco_export\\queries.meme",
+      "bytes": 2389,
+      "sha256": "b21658756ba87da88e9898bc928591354bc91bbba2fb684e116a648dbae8eb98"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\SRSF1_K562_ENCSR432XUP\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\SRSF1_K562_ENCSR432XUP\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 6032,
+      "sha256": "04fe49f2319773fd60bc546fda019012ac88375f1a06e40c3f00980ea274f9f4"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\SRSF7_K562_ENCSR468FSW\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\SRSF7_K562_ENCSR468FSW\\tfmodisco_export\\queries.meme",
+      "bytes": 5853,
+      "sha256": "d17b2b16c317a8f63d36ec2499aef9d867dbfb4a8de044edb14f68566beff0f6"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\SRSF7_K562_ENCSR468FSW\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\SRSF7_K562_ENCSR468FSW\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 6588,
+      "sha256": "1852cae65fe862c5495478acc8891e1f7a70eee896b8ca6431ccf327104165c6"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\SRSF9_HepG2_ENCSR773KRC\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\SRSF9_HepG2_ENCSR773KRC\\tfmodisco_export\\queries.meme",
+      "bytes": 7734,
+      "sha256": "e4856176c2f2832733439762d93a36ef2afce8838a2ab9b1df9cd7ec29c20378"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\SRSF9_HepG2_ENCSR773KRC\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\SRSF9_HepG2_ENCSR773KRC\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 32251,
+      "sha256": "8e6c200f7fe010ba48c3679e36dd557dafa138beda1780cb4145ecedac193606"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\TAF15_HepG2_ENCSR841EQA\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\TAF15_HepG2_ENCSR841EQA\\tfmodisco_export\\queries.meme",
+      "bytes": 1896,
+      "sha256": "ae3af7a4e1777b9de6705f90c1ac4535a3308e523b20563f7ac32ba05a7e8fb6"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\TAF15_HepG2_ENCSR841EQA\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\TAF15_HepG2_ENCSR841EQA\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 6927,
+      "sha256": "fdecda1797e95e993e8ec2283c681676b01390236c664b9b0cf491cf53b436bb"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\TAF15_K562_ENCSR568DZW\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\TAF15_K562_ENCSR568DZW\\tfmodisco_export\\queries.meme",
+      "bytes": 4028,
+      "sha256": "9ec71e42d60747c12b1d763414d313d70703c84ce23099f1f189bff076d913b4"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\TAF15_K562_ENCSR568DZW\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\TAF15_K562_ENCSR568DZW\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 9461,
+      "sha256": "fa5b011d1f865c86954f993c68b96ee7639ff7e876afb40554fdf5f00bfda700"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\TARDBP_K562_ENCSR584TCR\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\TARDBP_K562_ENCSR584TCR\\tfmodisco_export\\queries.meme",
+      "bytes": 599,
+      "sha256": "c197a7e0463d1481f578ef186990815eb0c4791af4628863a0d091f3e865dbec"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\TARDBP_K562_ENCSR584TCR\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\TARDBP_K562_ENCSR584TCR\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 6145,
+      "sha256": "6039b49e5ef7ff162da6cff1958f0ab146b23bb510db4aa16778d35b36f6edff"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\TIA1_HepG2_ENCSR623VEQ\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\TIA1_HepG2_ENCSR623VEQ\\tfmodisco_export\\queries.meme",
+      "bytes": 2390,
+      "sha256": "8c16d805e53f316831431835ae6fef533b87c964474fef1ef19845fdf551dd79"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\TIA1_HepG2_ENCSR623VEQ\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\TIA1_HepG2_ENCSR623VEQ\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 20305,
+      "sha256": "486983adf6d9acb0457fae5d05abb52cab328b7c86de38615b9bf91aa6f2d69c"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\TIA1_K562_ENCSR057DWB\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\TIA1_K562_ENCSR057DWB\\tfmodisco_export\\queries.meme",
+      "bytes": 2081,
+      "sha256": "c6b4b81e82c3e3c943a9400f8b723599465e01b640bb93dba9c625ede6754a8d"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\TIA1_K562_ENCSR057DWB\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\TIA1_K562_ENCSR057DWB\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 15127,
+      "sha256": "888a65915170118f66275728a50db18b6717d88c8003f27b45df8610129622a5"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\TIAL1_HepG2_ENCSR322HHA\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\TIAL1_HepG2_ENCSR322HHA\\tfmodisco_export\\queries.meme",
+      "bytes": 2081,
+      "sha256": "111b208f16bcc71c22746c1445bb6e153630b42ba93d38c095b0c59eaf826fa0"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\TIAL1_HepG2_ENCSR322HHA\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\TIAL1_HepG2_ENCSR322HHA\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 8700,
+      "sha256": "f97f789a69d2edfe42c6248da753179c22aded072e36177cb1aa6dc9a5b8bfc7"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\U2AF2_HepG2_ENCSR202BFN\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\U2AF2_HepG2_ENCSR202BFN\\tfmodisco_export\\queries.meme",
+      "bytes": 11583,
+      "sha256": "84143450ab841ef93fca3ce5ce79e087b3ac1f7541e52ffe69a343dccb29570d"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\U2AF2_HepG2_ENCSR202BFN\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\U2AF2_HepG2_ENCSR202BFN\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 80894,
+      "sha256": "0cb7325d5e3a3ac2cfbe3abd322310699f5d52ccdf89c740b98b7f13a11bd7be"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\U2AF2_K562_ENCSR893RAV\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\U2AF2_K562_ENCSR893RAV\\tfmodisco_export\\queries.meme",
+      "bytes": 9146,
+      "sha256": "d3cb68b60ec97d496718546660a10a25c2ebf6fc21b868c23a3aa0e79cecfcd6"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\U2AF2_K562_ENCSR893RAV\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\U2AF2_K562_ENCSR893RAV\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 78879,
+      "sha256": "3cbd0f4393c176eb5eaefd08edbc47e46ccbb11bbc61f4ae48bbf7f646909258"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\YBX3_HepG2_ENCSR735HOK\\tfmodisco_export\\queries.meme",
+      "retained_path": "source_inputs\\outputs\\YBX3_HepG2_ENCSR735HOK\\tfmodisco_export\\queries.meme",
+      "bytes": 3691,
+      "sha256": "01565b1f55bd2be3c4fb5fd8166fc0cbaeedf2eb72d748fd9b5bfe54cc7d5d8f"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\outputs\\YBX3_HepG2_ENCSR735HOK\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "retained_path": "source_inputs\\outputs\\YBX3_HepG2_ENCSR735HOK\\tomtom_cisbp\\tomtom_out\\tomtom.tsv",
+      "bytes": 8038,
+      "sha256": "ed9679901d661e5541741cd1143eda8f4bd84f6bf698e0c2e85e80773dcf71b2"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\reference_data\\CISBP-RNA\\README.txt",
+      "retained_path": "source_inputs\\acquisition_records\\CISBP-RNA_README.txt",
+      "bytes": 1461,
+      "sha256": "09e5110a63331a365f053e512ad40331afde4b2f6369a7721d5aa27d3a72f1bd"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\scripts\\下载脚本\\download_cisbp_pwm.sh",
+      "retained_path": "source_inputs\\acquisition_records\\download_cisbp_pwm.sh",
+      "bytes": 2203,
+      "sha256": "877e12bb9c1ff8ddfd11f32933b3b76e455e5e7654e236cde733648afbddfb4e"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\scripts\\下载脚本\\download_cisbp_homo_sapiens.sh",
+      "retained_path": "source_inputs\\acquisition_records\\download_cisbp_homo_sapiens.sh",
+      "bytes": 3155,
+      "sha256": "99d8e845f92e1d5400969e5d684c3c79668c85f8f41e88bc5e09b7a190afb9e4"
+    },
+    {
+      "original_path": "M:\\RBP\\26年数据RBP\\可解释性分析\\Motif\\scripts\\下载脚本\\filter_cisbp_homo_sapiens.py",
+      "retained_path": "source_inputs\\acquisition_records\\filter_cisbp_homo_sapiens.py",
+      "bytes": 4081,
+      "sha256": "9614dfdb7755b3bfcdb43dbb7651044f7fe4db848d81fe89f7ea094ac456ccc7"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "tasks": [
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "chromosome": "1",
+      "windows": 1795,
+      "native_data_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/data/PTBP1_K562_ENCSR981WKN/data.npz",
+      "native_data_sha256": "3aeb8f051814373a4b4d0eb04d6b4a003c744cdb518ea01b3e1c529858aeb6d0",
+      "native_metadata_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/data/PTBP1_K562_ENCSR981WKN/metadata.json",
+      "native_metadata_sha256": "bb03affcc7e82a9766e1f462728677a87964d3ba0ee6c18cd327d4dade468fcb",
+      "native_input_sha256": "a7600816e26d947cd2b80bd8ce5b10353648a8271632c9ee5563978f51597772",
+      "checkpoints": [
+        {
+          "seed": 11,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_K562_ENCSR981WKN/seed11/best.pth",
+          "checkpoint_sha256": "7b4908412ea861222988e7aaf137303546e173eceac4bf8dee946e8628ffacbf",
+          "run_sha256": "2a9a6242c34db584f7e81f6bc559a540ea3ef24ff91a6d5c2eee83b19b269148",
+          "complete_sha256": "5aba999b9f4ff9ba6ec94b84b8806d14974072b2aaede8bd06bfde2b42c99a4f",
+          "seconds": 0.40583133697509766,
+          "best_epoch": 45,
+          "parameters": 100871,
+          "initial_state_sha256": "06b9f5cbbbcfdd2ec4497489985103d1df4994a6e9aef1ad5fb7b2ecdda56a0a"
+        },
+        {
+          "seed": 23,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_K562_ENCSR981WKN/seed23/best.pth",
+          "checkpoint_sha256": "fc0ff9b1c308e560aac378e551611fe0ab48635891574c222fa7057eee7eb61c",
+          "run_sha256": "7f6540a6ebfcb4a4dc35fa4a06e5f66b99d67d8f494273392b0f0ccce6adb08f",
+          "complete_sha256": "81826319382e86075ae55e6258f9cd9cad551f4d636b7a57e55fc8801fe29cf2",
+          "seconds": 0.3846735954284668,
+          "best_epoch": 65,
+          "parameters": 100871,
+          "initial_state_sha256": "a8ddebc239bbd220780b35a86a404a0416207df70da40a3d40e8dd7e027f66c8"
+        },
+        {
+          "seed": 47,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_K562_ENCSR981WKN/seed47/best.pth",
+          "checkpoint_sha256": "e61b3cb689e905183b700d16e5eeefbbe77dc193cd998cd00bab8cf7b799e623",
+          "run_sha256": "cf159ce074ddc2825ccc9280cf7741aa96e7b54937e1472378b168f1ebadfeb6",
+          "complete_sha256": "82e0f139739e27772aa4d71b4c4dc80f6ae4d1c0408225730ed33c074b5be3d8",
+          "seconds": 0.4242885112762451,
+          "best_epoch": 53,
+          "parameters": 100871,
+          "initial_state_sha256": "d76f17c7eabc4e67a5230e339bc043b9314b63fb52916a8fd6cf6acca504366f"
+        }
+      ],
+      "output_data_sha256": "f20d0b206e68dd033ebd79cf81bcc09ee3be19c037319494769b6192d195383f"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "chromosome": "X",
+      "windows": 669,
+      "native_data_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/PTBP1_K562_ENCSR981WKN/X/data.npz",
+      "native_data_sha256": "cc088f017f4f6298239b57c8413db64fa61a8b52e66b6983b72cc15c06faf559",
+      "native_metadata_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/PTBP1_K562_ENCSR981WKN/X/metadata.json",
+      "native_metadata_sha256": "531fd20abd63abf7a46e184c4c2e10021e5d1fd4c936270159622b1dc54502d6",
+      "native_input_sha256": "de65c3d3678913cd758f3f270ad98fb2480630a276db782b05730eae4d34c5b4",
+      "checkpoints": [
+        {
+          "seed": 11,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_K562_ENCSR981WKN/seed11/best.pth",
+          "checkpoint_sha256": "7b4908412ea861222988e7aaf137303546e173eceac4bf8dee946e8628ffacbf",
+          "run_sha256": "2a9a6242c34db584f7e81f6bc559a540ea3ef24ff91a6d5c2eee83b19b269148",
+          "complete_sha256": "5aba999b9f4ff9ba6ec94b84b8806d14974072b2aaede8bd06bfde2b42c99a4f",
+          "seconds": 0.1689136028289795,
+          "best_epoch": 45,
+          "parameters": 100871,
+          "initial_state_sha256": "06b9f5cbbbcfdd2ec4497489985103d1df4994a6e9aef1ad5fb7b2ecdda56a0a"
+        },
+        {
+          "seed": 23,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_K562_ENCSR981WKN/seed23/best.pth",
+          "checkpoint_sha256": "fc0ff9b1c308e560aac378e551611fe0ab48635891574c222fa7057eee7eb61c",
+          "run_sha256": "7f6540a6ebfcb4a4dc35fa4a06e5f66b99d67d8f494273392b0f0ccce6adb08f",
+          "complete_sha256": "81826319382e86075ae55e6258f9cd9cad551f4d636b7a57e55fc8801fe29cf2",
+          "seconds": 0.14754009246826172,
+          "best_epoch": 65,
+          "parameters": 100871,
+          "initial_state_sha256": "a8ddebc239bbd220780b35a86a404a0416207df70da40a3d40e8dd7e027f66c8"
+        },
+        {
+          "seed": 47,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_K562_ENCSR981WKN/seed47/best.pth",
+          "checkpoint_sha256": "e61b3cb689e905183b700d16e5eeefbbe77dc193cd998cd00bab8cf7b799e623",
+          "run_sha256": "cf159ce074ddc2825ccc9280cf7741aa96e7b54937e1472378b168f1ebadfeb6",
+          "complete_sha256": "82e0f139739e27772aa4d71b4c4dc80f6ae4d1c0408225730ed33c074b5be3d8",
+          "seconds": 0.15908169746398926,
+          "best_epoch": 53,
+          "parameters": 100871,
+          "initial_state_sha256": "d76f17c7eabc4e67a5230e339bc043b9314b63fb52916a8fd6cf6acca504366f"
+        }
+      ],
+      "output_data_sha256": "f466e646786e41d8ed5311b1d3065465b888a3ee82efcac8d09d12bd5137f2c2"
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "chromosome": "Y",
+      "windows": 0,
+      "native_data_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/PTBP1_K562_ENCSR981WKN/Y/data.npz",
+      "native_data_sha256": "24f5816aae9a0fbfee50a1ae4e58a0b3e681e19f2430c8065e006bad8cdb6013",
+      "native_metadata_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/PTBP1_K562_ENCSR981WKN/Y/metadata.json",
+      "native_metadata_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "native_input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checkpoints": [
+        {
+          "seed": 11,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_K562_ENCSR981WKN/seed11/best.pth",
+          "checkpoint_sha256": "7b4908412ea861222988e7aaf137303546e173eceac4bf8dee946e8628ffacbf",
+          "run_sha256": "2a9a6242c34db584f7e81f6bc559a540ea3ef24ff91a6d5c2eee83b19b269148",
+          "complete_sha256": "5aba999b9f4ff9ba6ec94b84b8806d14974072b2aaede8bd06bfde2b42c99a4f",
+          "seconds": 0.0010423660278320312,
+          "best_epoch": 45,
+          "parameters": 100871,
+          "initial_state_sha256": "06b9f5cbbbcfdd2ec4497489985103d1df4994a6e9aef1ad5fb7b2ecdda56a0a"
+        },
+        {
+          "seed": 23,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_K562_ENCSR981WKN/seed23/best.pth",
+          "checkpoint_sha256": "fc0ff9b1c308e560aac378e551611fe0ab48635891574c222fa7057eee7eb61c",
+          "run_sha256": "7f6540a6ebfcb4a4dc35fa4a06e5f66b99d67d8f494273392b0f0ccce6adb08f",
+          "complete_sha256": "81826319382e86075ae55e6258f9cd9cad551f4d636b7a57e55fc8801fe29cf2",
+          "seconds": 0.001001596450805664,
+          "best_epoch": 65,
+          "parameters": 100871,
+          "initial_state_sha256": "a8ddebc239bbd220780b35a86a404a0416207df70da40a3d40e8dd7e027f66c8"
+        },
+        {
+          "seed": 47,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_K562_ENCSR981WKN/seed47/best.pth",
+          "checkpoint_sha256": "e61b3cb689e905183b700d16e5eeefbbe77dc193cd998cd00bab8cf7b799e623",
+          "run_sha256": "cf159ce074ddc2825ccc9280cf7741aa96e7b54937e1472378b168f1ebadfeb6",
+          "complete_sha256": "82e0f139739e27772aa4d71b4c4dc80f6ae4d1c0408225730ed33c074b5be3d8",
+          "seconds": 0.0010044574737548828,
+          "best_epoch": 53,
+          "parameters": 100871,
+          "initial_state_sha256": "d76f17c7eabc4e67a5230e339bc043b9314b63fb52916a8fd6cf6acca504366f"
+        }
+      ],
+      "output_data_sha256": "4a9aaa47fb265fa9d7d97f69f08caad942bad3b2589f166a9e028838546668e1"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "chromosome": "1",
+      "windows": 2425,
+      "native_data_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/data/PTBP1_HepG2_ENCSR384KAN/data.npz",
+      "native_data_sha256": "1934e9279741fb627888beaa05ad5ae40fe5a9799f2423c931dad3ca91c44cf7",
+      "native_metadata_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/data/PTBP1_HepG2_ENCSR384KAN/metadata.json",
+      "native_metadata_sha256": "41edd5ab67ba0c89510112f777540c83cb1832103115d42442b2242821751ece",
+      "native_input_sha256": "cf3e7a0f094154b6017548c9639ccd3353356ba5db0facb2622ecf8f5f98c5f9",
+      "checkpoints": [
+        {
+          "seed": 11,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_HepG2_ENCSR384KAN/seed11/best.pth",
+          "checkpoint_sha256": "0f08af0acf32adae20b5dccba9410051ac8277384560ca132b8270cabcc4a9d2",
+          "run_sha256": "f7fc6db78d467ecead96f52acc16156a51fdfeaa6c9c2ee9b4007ec7b2d8d8ee",
+          "complete_sha256": "b57d37e423461c7042122281a5f63c5bf8bc5f7b8e75bf08e6fe594e69470816",
+          "seconds": 0.5108675956726074,
+          "best_epoch": 55,
+          "parameters": 100871,
+          "initial_state_sha256": "06b9f5cbbbcfdd2ec4497489985103d1df4994a6e9aef1ad5fb7b2ecdda56a0a"
+        },
+        {
+          "seed": 23,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_HepG2_ENCSR384KAN/seed23/best.pth",
+          "checkpoint_sha256": "d3f0363ad4e3a776f498b1e94cb4bee4e10aae982989d189a6fcf77170b123ce",
+          "run_sha256": "bb1c8bf65457ff3823d6181a9099b980db99f07196c27c7b2eebbefaec5cd4e5",
+          "complete_sha256": "077e820db023a085a1c9d12cbbbd4c89486dfc1ed67554c58aea227ec66bb184",
+          "seconds": 0.5259618759155273,
+          "best_epoch": 64,
+          "parameters": 100871,
+          "initial_state_sha256": "a8ddebc239bbd220780b35a86a404a0416207df70da40a3d40e8dd7e027f66c8"
+        },
+        {
+          "seed": 47,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_HepG2_ENCSR384KAN/seed47/best.pth",
+          "checkpoint_sha256": "a39c746fcf5d63e66fcaafeb619c306051349083ff5b0fa743a93b90cf9460c8",
+          "run_sha256": "e7ee8d76fcae585cde920ee79c1c319c1eb202c0c4d7aeb8736fc55e84cc2b14",
+          "complete_sha256": "728cc193313be0667fc031826e6a17a6f435b54732fa9f0bd97fd866cf51354a",
+          "seconds": 0.5041673183441162,
+          "best_epoch": 85,
+          "parameters": 100871,
+          "initial_state_sha256": "d76f17c7eabc4e67a5230e339bc043b9314b63fb52916a8fd6cf6acca504366f"
+        }
+      ],
+      "output_data_sha256": "42126c66347790be894701ea29c97d7e4980dc953df5d46dd7320aa4205c43cc"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "chromosome": "X",
+      "windows": 913,
+      "native_data_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/PTBP1_HepG2_ENCSR384KAN/X/data.npz",
+      "native_data_sha256": "7947898b1284e261245b57ab7d9749e9a821fb62e435425b60c9171dd0fa106c",
+      "native_metadata_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/PTBP1_HepG2_ENCSR384KAN/X/metadata.json",
+      "native_metadata_sha256": "cea6f1d6dd1964932456bfa5a3c3238c7f5d7265a840b7f69f0f733ca356ed60",
+      "native_input_sha256": "17323aa2f089717d81fbc0f2f593f0c5f810a711cc6868799d340a0cfa8fbd22",
+      "checkpoints": [
+        {
+          "seed": 11,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_HepG2_ENCSR384KAN/seed11/best.pth",
+          "checkpoint_sha256": "0f08af0acf32adae20b5dccba9410051ac8277384560ca132b8270cabcc4a9d2",
+          "run_sha256": "f7fc6db78d467ecead96f52acc16156a51fdfeaa6c9c2ee9b4007ec7b2d8d8ee",
+          "complete_sha256": "b57d37e423461c7042122281a5f63c5bf8bc5f7b8e75bf08e6fe594e69470816",
+          "seconds": 0.2310793399810791,
+          "best_epoch": 55,
+          "parameters": 100871,
+          "initial_state_sha256": "06b9f5cbbbcfdd2ec4497489985103d1df4994a6e9aef1ad5fb7b2ecdda56a0a"
+        },
+        {
+          "seed": 23,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_HepG2_ENCSR384KAN/seed23/best.pth",
+          "checkpoint_sha256": "d3f0363ad4e3a776f498b1e94cb4bee4e10aae982989d189a6fcf77170b123ce",
+          "run_sha256": "bb1c8bf65457ff3823d6181a9099b980db99f07196c27c7b2eebbefaec5cd4e5",
+          "complete_sha256": "077e820db023a085a1c9d12cbbbd4c89486dfc1ed67554c58aea227ec66bb184",
+          "seconds": 0.20490407943725586,
+          "best_epoch": 64,
+          "parameters": 100871,
+          "initial_state_sha256": "a8ddebc239bbd220780b35a86a404a0416207df70da40a3d40e8dd7e027f66c8"
+        },
+        {
+          "seed": 47,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_HepG2_ENCSR384KAN/seed47/best.pth",
+          "checkpoint_sha256": "a39c746fcf5d63e66fcaafeb619c306051349083ff5b0fa743a93b90cf9460c8",
+          "run_sha256": "e7ee8d76fcae585cde920ee79c1c319c1eb202c0c4d7aeb8736fc55e84cc2b14",
+          "complete_sha256": "728cc193313be0667fc031826e6a17a6f435b54732fa9f0bd97fd866cf51354a",
+          "seconds": 0.2006535530090332,
+          "best_epoch": 85,
+          "parameters": 100871,
+          "initial_state_sha256": "d76f17c7eabc4e67a5230e339bc043b9314b63fb52916a8fd6cf6acca504366f"
+        }
+      ],
+      "output_data_sha256": "20fc71bc51c30dca23220224736b0dbaaab871013045252d74b385de77dd0eea"
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "chromosome": "Y",
+      "windows": 32,
+      "native_data_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/PTBP1_HepG2_ENCSR384KAN/Y/data.npz",
+      "native_data_sha256": "ccb8718d2647f1036a19cd0f5a95e620d23d703a25c160c100dbf19299f711b6",
+      "native_metadata_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/PTBP1_HepG2_ENCSR384KAN/Y/metadata.json",
+      "native_metadata_sha256": "1f5f519a7c5e775b7a21a367d1f420d3cb9e48de769328f9aec3bfd4e0db9d23",
+      "native_input_sha256": "49698368c6b0a09cb9b1d5029ef8edb6d329475aa0ccf3950fdcc73fe07e9966",
+      "checkpoints": [
+        {
+          "seed": 11,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_HepG2_ENCSR384KAN/seed11/best.pth",
+          "checkpoint_sha256": "0f08af0acf32adae20b5dccba9410051ac8277384560ca132b8270cabcc4a9d2",
+          "run_sha256": "f7fc6db78d467ecead96f52acc16156a51fdfeaa6c9c2ee9b4007ec7b2d8d8ee",
+          "complete_sha256": "b57d37e423461c7042122281a5f63c5bf8bc5f7b8e75bf08e6fe594e69470816",
+          "seconds": 0.01756882667541504,
+          "best_epoch": 55,
+          "parameters": 100871,
+          "initial_state_sha256": "06b9f5cbbbcfdd2ec4497489985103d1df4994a6e9aef1ad5fb7b2ecdda56a0a"
+        },
+        {
+          "seed": 23,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_HepG2_ENCSR384KAN/seed23/best.pth",
+          "checkpoint_sha256": "d3f0363ad4e3a776f498b1e94cb4bee4e10aae982989d189a6fcf77170b123ce",
+          "run_sha256": "bb1c8bf65457ff3823d6181a9099b980db99f07196c27c7b2eebbefaec5cd4e5",
+          "complete_sha256": "077e820db023a085a1c9d12cbbbd4c89486dfc1ed67554c58aea227ec66bb184",
+          "seconds": 0.017660856246948242,
+          "best_epoch": 64,
+          "parameters": 100871,
+          "initial_state_sha256": "a8ddebc239bbd220780b35a86a404a0416207df70da40a3d40e8dd7e027f66c8"
+        },
+        {
+          "seed": 47,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_position_capacity/outputs/PTBP1_HepG2_ENCSR384KAN/seed47/best.pth",
+          "checkpoint_sha256": "a39c746fcf5d63e66fcaafeb619c306051349083ff5b0fa743a93b90cf9460c8",
+          "run_sha256": "e7ee8d76fcae585cde920ee79c1c319c1eb202c0c4d7aeb8736fc55e84cc2b14",
+          "complete_sha256": "728cc193313be0667fc031826e6a17a6f435b54732fa9f0bd97fd866cf51354a",
+          "seconds": 0.013763427734375,
+          "best_epoch": 85,
+          "parameters": 100871,
+          "initial_state_sha256": "d76f17c7eabc4e67a5230e339bc043b9314b63fb52916a8fd6cf6acca504366f"
+        }
+      ],
+      "output_data_sha256": "185f1e141d8b265970a6216e2abd38c790e63a92fb6980976ab2ff941095e70f"
+    }
+  ],
+  "device": "CPU4",
+  "started_unix": 1791120893.541314,
+  "source_sha256": "1b193f7e4264e44da429984abb2ee3c03b2a5e3c0a31911ee840dbfa419a4367",
+  "protocol_sha256": "ada37a30967507e24fa41f7586598f3265670f6793e78bddb48e1382315f0681",
+  "seconds": 5.09735894203186,
+  "cpu_user_seconds": 16.79892,
+  "cpu_system_seconds": 7.258549
+}

@@ -1,0 +1,8 @@
+{
+  "id": "E04_training_diagnostics",
+  "title": "超参、种子及BiLSTM对照",
+  "question": "保留搜索过程、有限多seed和BiGRU/BiLSTM比较",
+  "paper": "S1.5; S1.16; Data S21",
+  "status": "历史运行/配置已索引",
+  "limits": "早期搜索用过chr1；主222任务并非全部多seed。不得把小范围种子诊断当全量重复训练。"
+}

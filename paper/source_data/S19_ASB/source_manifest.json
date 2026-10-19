@@ -1,0 +1,119 @@
+[
+  {
+    "file": "yang2019.html",
+    "url": "https://www.nature.com/articles/s41467-019-09292-w",
+    "sha256": "353a27ffe40c6280ce9e063da678a936b7d51c2b60cccb645112d504c009757a",
+    "local_file_sha256": "ca0f146dd00b235f86760e198dce0847b38badfc77918db2724923db39c4bba0"
+  },
+  {
+    "file": "41467_2019_9292_MOESM1_ESM.pdf",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-019-09292-w/MediaObjects/41467_2019_9292_MOESM1_ESM.pdf",
+    "label": "Supplementary Information (download PDF )",
+    "bytes": 27588633,
+    "sha256": "2ddb374aeb750e815ccf9b13ee4975249fbf4f5037c2368d296b0781334cc8f0",
+    "local_file_sha256": "2ddb374aeb750e815ccf9b13ee4975249fbf4f5037c2368d296b0781334cc8f0"
+  },
+  {
+    "file": "41467_2019_9292_MOESM2_ESM.pdf",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-019-09292-w/MediaObjects/41467_2019_9292_MOESM2_ESM.pdf",
+    "label": "Reporting Summary (download PDF )",
+    "bytes": 81898,
+    "sha256": "900e68c47560d8ec8d02eebd62b580107991b0f3dcb0a3dd4be3b475af50d5dc",
+    "local_file_sha256": "900e68c47560d8ec8d02eebd62b580107991b0f3dcb0a3dd4be3b475af50d5dc"
+  },
+  {
+    "file": "41467_2019_9292_MOESM3_ESM.pdf",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-019-09292-w/MediaObjects/41467_2019_9292_MOESM3_ESM.pdf",
+    "label": "Description of Additional Supplementary Files (download PDF )",
+    "bytes": 53611,
+    "sha256": "c6189d7c70024ec8cfd83f9bdfb491a5ee4129c27f008975cf46dc549265fc17",
+    "local_file_sha256": "c6189d7c70024ec8cfd83f9bdfb491a5ee4129c27f008975cf46dc549265fc17"
+  },
+  {
+    "file": "41467_2019_9292_MOESM4_ESM.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-019-09292-w/MediaObjects/41467_2019_9292_MOESM4_ESM.xlsx",
+    "label": "Supplementary Data 1 (download XLSX )",
+    "bytes": 12215,
+    "sha256": "6812f36df49cf1ab244c4bd190468af5a4db879c66530be4fcbac6816b4f124f",
+    "local_file_sha256": "6812f36df49cf1ab244c4bd190468af5a4db879c66530be4fcbac6816b4f124f"
+  },
+  {
+    "file": "41467_2019_9292_MOESM5_ESM.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-019-09292-w/MediaObjects/41467_2019_9292_MOESM5_ESM.xlsx",
+    "label": "Supplementary Data 2 (download XLSX )",
+    "bytes": 715786,
+    "sha256": "4778405fec57568f084a287af251bc95d85c0dbae453b5bef5f06be5239440c8",
+    "local_file_sha256": "4778405fec57568f084a287af251bc95d85c0dbae453b5bef5f06be5239440c8"
+  },
+  {
+    "file": "41467_2019_9292_MOESM6_ESM.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-019-09292-w/MediaObjects/41467_2019_9292_MOESM6_ESM.xlsx",
+    "label": "Source Data (download XLSX )",
+    "bytes": 1905129,
+    "sha256": "586686e43819ef94556ff92728dabe751e11f76d176375c515152c91ba81591b",
+    "local_file_sha256": "586686e43819ef94556ff92728dabe751e11f76d176375c515152c91ba81591b"
+  },
+  {
+    "file": "rbpnet2023.html",
+    "url": "https://link.springer.com/article/10.1186/s13059-023-03015-7",
+    "sha256": "8c9a0092502d82c25459b77ca62820e88e6f63ecffc8d6c9a7cc8c9505f16af4",
+    "local_file_sha256": "044ff0925fa843fec9652deab6d1e0d49413be25de6b6f8900f3e58f1fd4ffa2"
+  },
+  {
+    "file": "hg19ToHg38.over.chain.gz",
+    "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/liftOver/hg19ToHg38.over.chain.gz",
+    "bytes": 227698,
+    "sha256": "5c0598e500ceb5a78c73086929e8ef993aec309bcafb595139b53d440b125a1d",
+    "local_file_sha256": "5c0598e500ceb5a78c73086929e8ef993aec309bcafb595139b53d440b125a1d"
+  },
+  {
+    "file": "BEAPR_bin_Reg_denovo.r",
+    "url": "https://raw.githubusercontent.com/gxiaolab/BEAPR/c443d908c07abcd72c003ccebb5a868f4c153486/BEAPR/bin/Reg_denovo.r",
+    "bytes": 3203,
+    "sha256": "f0d40fa22d6e36ef6c648befb279d4b4aac6374578c52a85e48e3db369cf536a",
+    "local_file_sha256": "f0d40fa22d6e36ef6c648befb279d4b4aac6374578c52a85e48e3db369cf536a"
+  },
+  {
+    "file": "BEAPR_source_data_readme.txt",
+    "url": "https://raw.githubusercontent.com/gxiaolab/BEAPR/c443d908c07abcd72c003ccebb5a868f4c153486/souce_data_files/readme",
+    "bytes": 54,
+    "sha256": "b5d68ecd5222b5585d2fa15d39062017613be4ee047c80beb93154dbe0b09f4f",
+    "local_file_sha256": "b5d68ecd5222b5585d2fa15d39062017613be4ee047c80beb93154dbe0b09f4f"
+  },
+  {
+    "file": "UCSC_chain_directory_README.html",
+    "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/liftOver/",
+    "sha256": "d89dddcfd51c7b3c646314881ec022d18d716e063e0f4d93596a2d279e2b4f22",
+    "local_file_sha256": "d89dddcfd51c7b3c646314881ec022d18d716e063e0f4d93596a2d279e2b4f22"
+  },
+  {
+    "file": "BEAPR_BEAPR_src_bias_main.cpp",
+    "url": "https://raw.githubusercontent.com/gxiaolab/BEAPR/c443d908c07abcd72c003ccebb5a868f4c153486/BEAPR/src/bias/main.cpp",
+    "sha256": "89b2d341bd9b9ba4f6a04bf0a3cd71f82272602b1cb850cb7ab59ab43c268187",
+    "local_file_sha256": "89b2d341bd9b9ba4f6a04bf0a3cd71f82272602b1cb850cb7ab59ab43c268187"
+  },
+  {
+    "file": "BEAPR_BEAPR_src_bias_Prep.cpp",
+    "url": "https://raw.githubusercontent.com/gxiaolab/BEAPR/c443d908c07abcd72c003ccebb5a868f4c153486/BEAPR/src/bias/Prep.cpp",
+    "sha256": "b336b6c4f813737af359b9066ef38d72aa547d03eae7ea0adf2d5cade58b2549",
+    "local_file_sha256": "b336b6c4f813737af359b9066ef38d72aa547d03eae7ea0adf2d5cade58b2549"
+  },
+  {
+    "file": "BEAPR_BEAPR_src_bias_Reg.cpp",
+    "url": "https://raw.githubusercontent.com/gxiaolab/BEAPR/c443d908c07abcd72c003ccebb5a868f4c153486/BEAPR/src/bias/Reg.cpp",
+    "sha256": "74dbaf1bbdf93bbb0a5e3da58c84a88042f3fd82d95a47d6707595359c89c220",
+    "local_file_sha256": "74dbaf1bbdf93bbb0a5e3da58c84a88042f3fd82d95a47d6707595359c89c220"
+  },
+  {
+    "file": "BEAPR_BEAPR_src_bias_SNP.cpp",
+    "url": "https://raw.githubusercontent.com/gxiaolab/BEAPR/c443d908c07abcd72c003ccebb5a868f4c153486/BEAPR/src/bias/SNP.cpp",
+    "sha256": "08e22916ed40377d6b41ba82e596f7ac3e82e78efbbc315ac9c6e0e15dd75b3f",
+    "local_file_sha256": "08e22916ed40377d6b41ba82e596f7ac3e82e78efbbc315ac9c6e0e15dd75b3f"
+  },
+  {
+    "file": "BEAPR_BEAPR_src_postproc_main.cpp",
+    "url": "https://raw.githubusercontent.com/gxiaolab/BEAPR/c443d908c07abcd72c003ccebb5a868f4c153486/BEAPR/src/postproc/main.cpp",
+    "sha256": "5f1c5c00b4d6fdb91721fc5c017d1b513494707c09d1395dc0c786fbe725b5f7",
+    "local_file_sha256": "5f1c5c00b4d6fdb91721fc5c017d1b513494707c09d1395dc0c786fbe725b5f7"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "id": "E09_external_preferences",
+  "title": "外部RNAcompete序列偏好",
+  "question": "1024个5mer、同组成词序、25蛋白完整主群体",
+  "paper": "Figure5a/b; S1.18; Data S23",
+  "status": "外部原始分数、冻结模型响应和完整负例保留",
+  "limits": "主终点全词Spearman，次终点同组成一致率。Full超过frequency，但不普遍超过Sequence；Full/Sequence训练路径未完全匹配。"
+}

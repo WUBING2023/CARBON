@@ -1,0 +1,378 @@
+{
+  "contract": "pandas float_precision='round_trip' equals Python float(original token)",
+  "raw_numeric_tokens_checked": 622516,
+  "raw_literal_bit_equal": true,
+  "n_original_experiment_columns": 38,
+  "all_columns_recomputed_uniformly": true,
+  "new25_primary_points_bit_unchanged": true,
+  "all_snapshots_retained": true,
+  "original_independent_62_microdifference_failures_retained": true,
+  "no_new_model_inference": true,
+  "RBFOX2_ATCCG": -0.12273739705577143,
+  "RBFOX2_GTAGA": -0.12273739705577145,
+  "ATCCG_rank": 446.0,
+  "GTAGA_rank": 445.0,
+  "before_after_table_checks": [
+    {
+      "file": "ALL_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 8
+    },
+    {
+      "file": "BACKGROUND_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 2
+    },
+    {
+      "file": "COMPOSITION_GROUPS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 5
+    },
+    {
+      "file": "CONTROLLED_5MER_SCORES.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 2
+    },
+    {
+      "file": "CONTROLLED_ALL_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 9
+    },
+    {
+      "file": "CONTROLLED_AUDIT.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 6
+    },
+    {
+      "file": "CONTROLLED_BACKGROUND_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 2
+    },
+    {
+      "file": "CONTROLLED_DIFFERENCES.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 2
+    },
+    {
+      "file": "CONTROLLED_PROTEIN_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 2
+    },
+    {
+      "file": "CROSS_ASSAY_5MER_TRUTH.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 4.163336342344337e-17,
+      "numeric_columns": 2
+    },
+    {
+      "file": "CROSS_ASSAY_ALL_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 3.5863004273495314e-06,
+      "numeric_columns": 8
+    },
+    {
+      "file": "CROSS_ASSAY_BACKGROUNDS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 2.9055643887623828e-06,
+      "numeric_columns": 4
+    },
+    {
+      "file": "CROSS_ASSAY_PROTEINS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 2.6662446871994483e-06,
+      "numeric_columns": 4
+    },
+    {
+      "file": "CROSS_AUDIT_01_CELL_SEED.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 42
+    },
+    {
+      "file": "CROSS_AUDIT_01_HNR_CELL_SEED.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 42
+    },
+    {
+      "file": "CROSS_AUDIT_01_HNR_POINTS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 3
+    },
+    {
+      "file": "CROSS_AUDIT_01_HNR_TRAINING.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 7
+    },
+    {
+      "file": "CROSS_AUDIT_01_PC_CELL_SEED.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 50
+    },
+    {
+      "file": "CROSS_AUDIT_01_PC_POINTS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 3
+    },
+    {
+      "file": "CROSS_AUDIT_01_PC_TRAINING.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 7
+    },
+    {
+      "file": "CROSS_AUDIT_01_POINTS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 3
+    },
+    {
+      "file": "CROSS_AUDIT_01_TRAINING.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 7
+    },
+    {
+      "file": "EXTERNAL_5MER_SCORES.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 1
+    },
+    {
+      "file": "EXTERNAL_COLUMNS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 8
+    },
+    {
+      "file": "HNR_COMPONENT_ALL_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 8.326672684688674e-17,
+      "numeric_columns": 10
+    },
+    {
+      "file": "HNR_COMPONENT_BACKGROUNDS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 8.326672684688674e-17,
+      "numeric_columns": 2
+    },
+    {
+      "file": "HNR_COMPONENT_PROTEIN_BY_ASSAY.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 1.1102230246251565e-16,
+      "numeric_columns": 2
+    },
+    {
+      "file": "HNR_COMPONENT_QA.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 5
+    },
+    {
+      "file": "HNR_COMPONENT_WORD_SCORES.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 2
+    },
+    {
+      "file": "HNRNPK_ALL_TOP20_WORDS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 4.440892098500626e-16,
+      "numeric_columns": 7
+    },
+    {
+      "file": "HNRNPK_PAIRED_GENE_BOOTSTRAP.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 5.551115123125783e-17,
+      "numeric_columns": 8
+    },
+    {
+      "file": "HNRNPK_PRIMARY_STABILITY.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 5
+    },
+    {
+      "file": "HNRNPK_SIMPLE_BASELINE_TIES.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 2
+    },
+    {
+      "file": "HNRNPK_WORD_FAMILY_DECOMPOSITION.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 2
+    },
+    {
+      "file": "IG_AUDIT.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 8
+    },
+    {
+      "file": "MAPPING_SENSITIVITY_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 3.88386755265091e-06,
+      "numeric_columns": 6
+    },
+    {
+      "file": "MAPPING_SENSITIVITY_SUMMARY.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 3.88386755265091e-06,
+      "numeric_columns": 5
+    },
+    {
+      "file": "MAPPING_SENSITIVITY_TRUTH.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 4.163336342344337e-17,
+      "numeric_columns": 2
+    },
+    {
+      "file": "MAPPING_SENSITIVITY_TRUTH_RANKS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 8.448797217397441e-14,
+      "numeric_columns": 3
+    },
+    {
+      "file": "MODEL_5MER_SCORES.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 5
+    },
+    {
+      "file": "NOGRU_EXTERNAL_ALL_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 8.326672684688674e-17,
+      "numeric_columns": 8
+    },
+    {
+      "file": "NOGRU_EXTERNAL_BACKGROUNDS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 1.1102230246251565e-16,
+      "numeric_columns": 2
+    },
+    {
+      "file": "NOGRU_EXTERNAL_PROTEIN.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 5.551115123125783e-17,
+      "numeric_columns": 2
+    },
+    {
+      "file": "NOGRU_EXTERNAL_QA.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 6
+    },
+    {
+      "file": "NOGRU_EXTERNAL_WORD_SCORES.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 2
+    },
+    {
+      "file": "NUMERICAL_QA_ALL72.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 5
+    },
+    {
+      "file": "PAIRED_PROTEIN_DIFFERENCES.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 2
+    },
+    {
+      "file": "PROTEIN_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 2
+    },
+    {
+      "file": "WIDE_ALL_5MER_PREDICTIONS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 2
+    },
+    {
+      "file": "WIDE_ALL_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 3.883867419000875e-06,
+      "numeric_columns": 9
+    },
+    {
+      "file": "WIDE_BACKGROUND_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 3.883867419000875e-06,
+      "numeric_columns": 3
+    },
+    {
+      "file": "WIDE_EXECUTION_QA.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 7
+    },
+    {
+      "file": "WIDE_EXPERIMENT_METADATA.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 8
+    },
+    {
+      "file": "WIDE_EXTERNAL_5MER_SCORES.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 4.163336342344337e-17,
+      "numeric_columns": 2
+    },
+    {
+      "file": "WIDE_GROUP_SUMMARY.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 3.883867419000875e-06,
+      "numeric_columns": 6
+    },
+    {
+      "file": "WIDE_MODELS_VS_FREQUENCY.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 5.551115123125783e-17,
+      "numeric_columns": 9
+    },
+    {
+      "file": "WIDE_NATIVE_PHI_COMMON_DOMAIN.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 3.883867419000875e-06,
+      "numeric_columns": 5
+    },
+    {
+      "file": "WIDE_OBSERVED_DOMAIN_QA.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 0.0,
+      "numeric_columns": 4
+    },
+    {
+      "file": "WIDE_PAIRED_PROTEIN_BOOTSTRAP.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 3.0516449853190686e-06,
+      "numeric_columns": 11
+    },
+    {
+      "file": "WIDE_PROTEIN_METRICS.csv",
+      "shape_unchanged": true,
+      "max_numeric_difference": 3.883867419000875e-06,
+      "numeric_columns": 3
+    }
+  ],
+  "original_source_sha256": "c4225eefb9561dfdb360858aad1a50545176df23638e62b077b7eb683877d6bd"
+}

@@ -1,0 +1,6 @@
+Exploratory external functional validation, not a blinded confirmatory experiment. Public experimental directions were known before input freezing. All source-eligible constructs and loci retained, without selection by model success. Primary output is native log_total_count, ALT-WT, not calibrated experimental affinity. A versus sequence-only S and within-A flat/native spatial controls are necessary comparisons; any isolated success does not establish a general conservation advantage. 101nt natural context is primary. Literal 90/32/129nt natural sequence is a separate trained-length extrapolation sensitivity; neither includes artificial assay adapters. Same WT genomic Phi assigned to WT and all ALT. No evolved ALT Phi. One checkpoint per A/S G3BP1/HNRNPC arm; PTBP1 uses 3 genuinely separately trained seeds per cell. Genomic training overlap unknown: all 8 genes are on training chromosomes. No new model training, no labels used for optimization.
+{
+  "primary_block": "101_0",
+  "primary_contrast": "ALT-WT expected negative; seed mean per cell, all3 seed results retained",
+  "scope": "Qualitative MS2-isolated RNP associated PTB in HeLa, not purified Kd; native101/natural129 are not complete assayed vector transcript. +10 window partially omits PPT so sensitivity cannot imply unchanged full motif coverage."
+}

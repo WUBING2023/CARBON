@@ -1,0 +1,526 @@
+{
+  "passed": 130,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "four_complete_jobs",
+      "pass": true
+    },
+    {
+      "check": "supervisor_complete",
+      "pass": true
+    },
+    {
+      "check": "frozen_protocol",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/interpretability/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/interpretability/attribution/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/interpretability/attribution/marcp_attribution.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/interpretability/attribution/plot.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/interpretability/captum/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/interpretability/captum/captum_deeplift_hypothetical.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/interpretability/captum/reference_seq.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/loss/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/loss/loss.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/models/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/models/marcp_model.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/models/marcp_model_rnafm.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/operations/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/operations/predict.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/operations/train_ops.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/utils/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/utils/functions.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/utils/u_statistics.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/utils/utils.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/visualization/__init__.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/visualization/plot.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/visualization/track.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:MARCP/visualization/viz_sequence.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:marcp_train_seed0.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:marcp_train_seed1.py",
+      "pass": true
+    },
+    {
+      "check": "source_hash:marcp_train_seed2.py",
+      "pass": true
+    },
+    {
+      "check": "frozen_execution_hash:evaluate_repeats.py",
+      "pass": true
+    },
+    {
+      "check": "frozen_execution_hash:prepare_remote.py",
+      "pass": true
+    },
+    {
+      "check": "frozen_execution_hash:supervise.py",
+      "pass": true
+    },
+    {
+      "check": "evaluation_complete",
+      "pass": true
+    },
+    {
+      "check": "downloaded_predictions_hash:HNRNPK_K562_ENCSR268ETU:0",
+      "pass": true
+    },
+    {
+      "check": "historical_checkpoint_hash:HNRNPK_K562_ENCSR268ETU",
+      "pass": true
+    },
+    {
+      "check": "downloaded_predictions_hash:HNRNPK_K562_ENCSR268ETU:1",
+      "pass": true
+    },
+    {
+      "check": "downloaded_checkpoint_hash:HNRNPK_K562_ENCSR268ETU:1",
+      "pass": true
+    },
+    {
+      "check": "downloaded_predictions_hash:HNRNPK_K562_ENCSR268ETU:2",
+      "pass": true
+    },
+    {
+      "check": "downloaded_checkpoint_hash:HNRNPK_K562_ENCSR268ETU:2",
+      "pass": true
+    },
+    {
+      "check": "downloaded_predictions_hash:PTBP1_K562_ENCSR981WKN:0",
+      "pass": true
+    },
+    {
+      "check": "historical_checkpoint_hash:PTBP1_K562_ENCSR981WKN",
+      "pass": true
+    },
+    {
+      "check": "downloaded_predictions_hash:PTBP1_K562_ENCSR981WKN:1",
+      "pass": true
+    },
+    {
+      "check": "downloaded_checkpoint_hash:PTBP1_K562_ENCSR981WKN:1",
+      "pass": true
+    },
+    {
+      "check": "downloaded_predictions_hash:PTBP1_K562_ENCSR981WKN:2",
+      "pass": true
+    },
+    {
+      "check": "downloaded_checkpoint_hash:PTBP1_K562_ENCSR981WKN:2",
+      "pass": true
+    },
+    {
+      "check": "seed_only_patch:1",
+      "pass": true
+    },
+    {
+      "check": "seed_only_patch:2",
+      "pass": true
+    },
+    {
+      "check": "checkpoint_best_validation:HNRNPK_K562_ENCSR268ETU:1",
+      "pass": true
+    },
+    {
+      "check": "saved_epoch_matches:HNRNPK_K562_ENCSR268ETU:1",
+      "pass": true
+    },
+    {
+      "check": "cpu_complete_log:HNRNPK_K562_ENCSR268ETU:1",
+      "pass": true
+    },
+    {
+      "check": "checkpoint_best_validation:HNRNPK_K562_ENCSR268ETU:2",
+      "pass": true
+    },
+    {
+      "check": "saved_epoch_matches:HNRNPK_K562_ENCSR268ETU:2",
+      "pass": true
+    },
+    {
+      "check": "cpu_complete_log:HNRNPK_K562_ENCSR268ETU:2",
+      "pass": true
+    },
+    {
+      "check": "checkpoint_best_validation:PTBP1_K562_ENCSR981WKN:1",
+      "pass": true
+    },
+    {
+      "check": "saved_epoch_matches:PTBP1_K562_ENCSR981WKN:1",
+      "pass": true
+    },
+    {
+      "check": "cpu_complete_log:PTBP1_K562_ENCSR981WKN:1",
+      "pass": true
+    },
+    {
+      "check": "checkpoint_best_validation:PTBP1_K562_ENCSR981WKN:2",
+      "pass": true
+    },
+    {
+      "check": "saved_epoch_matches:PTBP1_K562_ENCSR981WKN:2",
+      "pass": true
+    },
+    {
+      "check": "cpu_complete_log:PTBP1_K562_ENCSR981WKN:2",
+      "pass": true
+    },
+    {
+      "check": "metrics_rows30",
+      "pass": true
+    },
+    {
+      "check": "contrast_rows24",
+      "pass": true
+    },
+    {
+      "check": "full_chr8_15:HNRNPK_K562_ENCSR268ETU",
+      "pass": true
+    },
+    {
+      "check": "recomputed_window_pcc:HNRNPK_K562_ENCSR268ETU:0",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:0:true",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:0:window_mean",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:HNRNPK_K562_ENCSR268ETU:0:window_mean",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:0:permuted17",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:HNRNPK_K562_ENCSR268ETU:0:permuted17",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:0:permuted43",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:HNRNPK_K562_ENCSR268ETU:0:permuted43",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:0:permuted97",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:HNRNPK_K562_ENCSR268ETU:0:permuted97",
+      "pass": true
+    },
+    {
+      "check": "window_csv_count:HNRNPK_K562_ENCSR268ETU:0",
+      "pass": true
+    },
+    {
+      "check": "recomputed_window_pcc:HNRNPK_K562_ENCSR268ETU:1",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:1:true",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:1:window_mean",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:HNRNPK_K562_ENCSR268ETU:1:window_mean",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:1:permuted17",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:HNRNPK_K562_ENCSR268ETU:1:permuted17",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:1:permuted43",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:HNRNPK_K562_ENCSR268ETU:1:permuted43",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:1:permuted97",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:HNRNPK_K562_ENCSR268ETU:1:permuted97",
+      "pass": true
+    },
+    {
+      "check": "window_csv_count:HNRNPK_K562_ENCSR268ETU:1",
+      "pass": true
+    },
+    {
+      "check": "recomputed_window_pcc:HNRNPK_K562_ENCSR268ETU:2",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:2:true",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:2:window_mean",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:HNRNPK_K562_ENCSR268ETU:2:window_mean",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:2:permuted17",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:HNRNPK_K562_ENCSR268ETU:2:permuted17",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:2:permuted43",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:HNRNPK_K562_ENCSR268ETU:2:permuted43",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:HNRNPK_K562_ENCSR268ETU:2:permuted97",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:HNRNPK_K562_ENCSR268ETU:2:permuted97",
+      "pass": true
+    },
+    {
+      "check": "window_csv_count:HNRNPK_K562_ENCSR268ETU:2",
+      "pass": true
+    },
+    {
+      "check": "full_chr8_15:PTBP1_K562_ENCSR981WKN",
+      "pass": true
+    },
+    {
+      "check": "recomputed_window_pcc:PTBP1_K562_ENCSR981WKN:0",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:0:true",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:0:window_mean",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:PTBP1_K562_ENCSR981WKN:0:window_mean",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:0:permuted17",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:PTBP1_K562_ENCSR981WKN:0:permuted17",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:0:permuted43",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:PTBP1_K562_ENCSR981WKN:0:permuted43",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:0:permuted97",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:PTBP1_K562_ENCSR981WKN:0:permuted97",
+      "pass": true
+    },
+    {
+      "check": "window_csv_count:PTBP1_K562_ENCSR981WKN:0",
+      "pass": true
+    },
+    {
+      "check": "recomputed_window_pcc:PTBP1_K562_ENCSR981WKN:1",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:1:true",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:1:window_mean",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:PTBP1_K562_ENCSR981WKN:1:window_mean",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:1:permuted17",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:PTBP1_K562_ENCSR981WKN:1:permuted17",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:1:permuted43",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:PTBP1_K562_ENCSR981WKN:1:permuted43",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:1:permuted97",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:PTBP1_K562_ENCSR981WKN:1:permuted97",
+      "pass": true
+    },
+    {
+      "check": "window_csv_count:PTBP1_K562_ENCSR981WKN:1",
+      "pass": true
+    },
+    {
+      "check": "recomputed_window_pcc:PTBP1_K562_ENCSR981WKN:2",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:2:true",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:2:window_mean",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:PTBP1_K562_ENCSR981WKN:2:window_mean",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:2:permuted17",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:PTBP1_K562_ENCSR981WKN:2:permuted17",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:2:permuted43",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:PTBP1_K562_ENCSR981WKN:2:permuted43",
+      "pass": true
+    },
+    {
+      "check": "mean_metric:PTBP1_K562_ENCSR981WKN:2:permuted97",
+      "pass": true
+    },
+    {
+      "check": "paired_delta:PTBP1_K562_ENCSR981WKN:2:permuted97",
+      "pass": true
+    },
+    {
+      "check": "window_csv_count:PTBP1_K562_ENCSR981WKN:2",
+      "pass": true
+    }
+  ]
+}

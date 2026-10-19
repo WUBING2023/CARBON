@@ -1,0 +1,22 @@
+{
+  "task": "PABPC4_K562_ENCSR958FKZ",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PABPC4_K562_ENCSR958FKZ/_5ch/PABPC4_K562_ENCSR958FKZ_chr8_5ch.h5",
+      "bytes": 1109858,
+      "n_windows": 2355,
+      "sha256": "2187c58f1d5b3f7982125f0adf9847f6cc50222be1aa54e00089e46c053b71ba"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/PABPC4_K562_ENCSR958FKZ/_5ch/PABPC4_K562_ENCSR958FKZ_chr15_5ch.h5",
+      "bytes": 908683,
+      "n_windows": 1907,
+      "sha256": "db9244278f0d0225862a94b08796cafc2cce44629b5e2e8ebb3c84698c646af0"
+    }
+  ],
+  "n_total": 4262,
+  "n_eligible": 4262,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "23508fc3acd2f370ad3a796f8d441461eee33cab3fcb7bab73e1bc651dbd5452"
+}

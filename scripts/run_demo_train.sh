@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Train CARBON on minimal demo data (chr1/2/3) from configs/demo.yaml; output to carbon_trained_model/AARS_K562_ENCSR825SVO_demo/
+# Train CARBON on minimal demo data (chr1/2/3) from configs/demo.yaml; output to a new outputs/demo_train directory
 set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
-OUT="${1:-carbon_trained_model/AARS_K562_ENCSR825SVO_demo}"
+OUT="${1:-outputs/demo_train}"
 EPOCHS="${DEMO_EPOCHS:-3}"
 TASK="AARS_K562_ENCSR825SVO"
 TRAIN="data/h5data/${TASK}/_5ch/${TASK}_chr1_5ch.h5"
@@ -20,7 +20,7 @@ done
 
 python3 -u carbon_train.py \
   --lr 0.000785 \
-  --CUDA 0 \
+  --CUDA "${CUDA_DEVICE:--1}" \
   --signalMax 0 \
   --seqLength 101 \
   --bsz 64 \

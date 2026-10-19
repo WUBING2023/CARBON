@@ -1,0 +1,2 @@
+n_peaks,delta_mean,delta_median,frac_delta_gt0,wilcoxon_statistic,wilcoxon_pvalue,task_id,cell_line
+8257,0.1950902329834394,0.07408339578735967,0.5365144725687295,15184504.0,1.5106968282876555e-17,AARS_K562_ENCSR825SVO,K562

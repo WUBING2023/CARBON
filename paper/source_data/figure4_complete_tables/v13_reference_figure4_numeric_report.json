@@ -1,0 +1,238 @@
+{
+  "seed": 20260921,
+  "bootstrap_resamples": 5000,
+  "rbp_n": 150,
+  "task_n": 222,
+  "shared_rbp_n": 70,
+  "shared_rbp_both_positive": 60,
+  "shared_rbp_sign_agreement": 63,
+  "shared_rbp_spearman": 0.666835797393054,
+  "heatmap_clipped_cells_at_abs_0p10": {
+    "median_delta_pcc": 1,
+    "median_delta_spearman": 1,
+    "delta_signal_ap": 3,
+    "delta_peak_ap": 3
+  },
+  "heatmap_cells": 3552,
+  "task_stats": {
+    "median_delta_pcc": {
+      "quartile_medians": [
+        0.00120442555995065,
+        0.00159888613895,
+        0.0028875636172621504,
+        0.01295970920167335
+      ],
+      "quartile_positive_counts": [
+        138,
+        154,
+        163,
+        204
+      ],
+      "endpoint_median": 0.01109934881156565,
+      "endpoint_positive_count": 204
+    },
+    "median_delta_spearman": {
+      "quartile_medians": [
+        0.0001848349850892,
+        0.00037858587408135,
+        0.001303306658131,
+        0.0101799045070015
+      ],
+      "quartile_positive_counts": [
+        126,
+        139,
+        150,
+        203
+      ],
+      "endpoint_median": 0.00845487353321505,
+      "endpoint_positive_count": 207
+    },
+    "delta_signal_ap": {
+      "quartile_medians": [
+        0.00102636533607995,
+        0.0033715911684409,
+        0.012758356977212,
+        0.02891886912444295
+      ],
+      "quartile_positive_counts": [
+        138,
+        169,
+        197,
+        216
+      ],
+      "endpoint_median": 0.025293762663070152,
+      "endpoint_positive_count": 211
+    },
+    "delta_peak_ap": {
+      "quartile_medians": [
+        0.0011093404900767,
+        0.003353555545554,
+        0.01270859015821465,
+        0.02890648191625955
+      ],
+      "quartile_positive_counts": [
+        138,
+        169,
+        197,
+        216
+      ],
+      "endpoint_median": 0.02525922354944555,
+      "endpoint_positive_count": 210
+    }
+  },
+  "rbp_endpoint_stats": [
+    {
+      "stratification": "peak_core_phyloP",
+      "metric": "median_delta_pcc",
+      "comparison": "Q4-Q1",
+      "estimate": 0.011093655034700426,
+      "ci_low": 0.00861409442566195,
+      "ci_high": 0.0134979217962077,
+      "rbp_n": 150,
+      "positive_rbp_n": 140,
+      "resamples": 5000,
+      "seed": 20260921
+    },
+    {
+      "stratification": "peak_core_phyloP",
+      "metric": "median_delta_spearman",
+      "comparison": "Q4-Q1",
+      "estimate": 0.009356006454195633,
+      "ci_low": 0.0070746559366989745,
+      "ci_high": 0.01286384796051515,
+      "rbp_n": 150,
+      "positive_rbp_n": 140,
+      "resamples": 5000,
+      "seed": 20260921
+    },
+    {
+      "stratification": "peak_core_phyloP",
+      "metric": "delta_signal_ap",
+      "comparison": "Q4-Q1",
+      "estimate": 0.0271439166451816,
+      "ci_low": 0.0211320410782992,
+      "ci_high": 0.031939895429550696,
+      "rbp_n": 150,
+      "positive_rbp_n": 147,
+      "resamples": 5000,
+      "seed": 20260921
+    },
+    {
+      "stratification": "peak_core_phyloP",
+      "metric": "delta_peak_ap",
+      "comparison": "Q4-Q1",
+      "estimate": 0.02717249352990698,
+      "ci_low": 0.021090119267430294,
+      "ci_high": 0.032019362123787,
+      "rbp_n": 150,
+      "positive_rbp_n": 146,
+      "resamples": 5000,
+      "seed": 20260921
+    },
+    {
+      "stratification": "window_phyloP",
+      "metric": "median_delta_pcc",
+      "comparison": "Q4-Q1",
+      "estimate": 0.00520788838681125,
+      "ci_low": 0.0034689385161645915,
+      "ci_high": 0.007035477303488975,
+      "rbp_n": 150,
+      "positive_rbp_n": 115,
+      "resamples": 5000,
+      "seed": 20260921
+    },
+    {
+      "stratification": "window_phyloP",
+      "metric": "median_delta_spearman",
+      "comparison": "Q4-Q1",
+      "estimate": 0.005856942364157774,
+      "ci_low": 0.003975507125306675,
+      "ci_high": 0.00783967308392,
+      "rbp_n": 150,
+      "positive_rbp_n": 133,
+      "resamples": 5000,
+      "seed": 20260921
+    },
+    {
+      "stratification": "window_phyloP",
+      "metric": "delta_signal_ap",
+      "comparison": "Q4-Q1",
+      "estimate": 0.015851258176675424,
+      "ci_low": 0.011749600688585925,
+      "ci_high": 0.01799031276855068,
+      "rbp_n": 150,
+      "positive_rbp_n": 124,
+      "resamples": 5000,
+      "seed": 20260921
+    },
+    {
+      "stratification": "window_phyloP",
+      "metric": "delta_peak_ap",
+      "comparison": "Q4-Q1",
+      "estimate": 0.01580974039391178,
+      "ci_low": 0.011805293247563575,
+      "ci_high": 0.017983311466480405,
+      "rbp_n": 150,
+      "positive_rbp_n": 124,
+      "resamples": 5000,
+      "seed": 20260921
+    }
+  ],
+  "paired_stratification_stats": [
+    {
+      "metric": "median_delta_pcc",
+      "comparison": "peak_core_minus_whole_window_endpoint",
+      "estimate": 0.006877452316390325,
+      "ci_low": 0.005218733054181852,
+      "ci_high": 0.0081528921460647,
+      "rbp_n": 150,
+      "positive_rbp_n": 130,
+      "resamples": 5000,
+      "seed": 20260921
+    },
+    {
+      "metric": "median_delta_spearman",
+      "comparison": "peak_core_minus_whole_window_endpoint",
+      "estimate": 0.004042121181144199,
+      "ci_low": 0.0028807471449126703,
+      "ci_high": 0.004824531994809488,
+      "rbp_n": 150,
+      "positive_rbp_n": 129,
+      "resamples": 5000,
+      "seed": 20260921
+    },
+    {
+      "metric": "delta_signal_ap",
+      "comparison": "peak_core_minus_whole_window_endpoint",
+      "estimate": 0.014091060992456028,
+      "ci_low": 0.0110142609588906,
+      "ci_high": 0.019152993592604646,
+      "rbp_n": 150,
+      "positive_rbp_n": 141,
+      "resamples": 5000,
+      "seed": 20260921
+    },
+    {
+      "metric": "delta_peak_ap",
+      "comparison": "peak_core_minus_whole_window_endpoint",
+      "estimate": 0.0141836736068802,
+      "ci_low": 0.01153844400505366,
+      "ci_high": 0.019197281856311248,
+      "rbp_n": 150,
+      "positive_rbp_n": 141,
+      "resamples": 5000,
+      "seed": 20260921
+    }
+  ],
+  "task_enrichment_median": 0.051611046507281697,
+  "task_enrichment_positive_n": 209,
+  "figure_dimensions_mm": [
+    185,
+    188
+  ],
+  "input_sha256": {
+    "Supplementary_Data_S7_conservation_task_summary.csv": "8fefdec90d214e8d9277ceadfb2650a0864730c0d3a82c447babdac9c9af75d6",
+    "Supplementary_Data_S8_conservation_bin_summary.csv": "1f1098876453643092c12bfa5c3e84f281f2a00903cde4b0dc1935620fd17703",
+    "Supplementary_Data_S9_conservation_peak_centred_profile.csv": "af1ac9105b7e270e14a82983bc095d6420d41c6ebcb4f9c87faab38557b14332"
+  }
+}

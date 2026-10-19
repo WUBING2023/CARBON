@@ -1,0 +1,287 @@
+{
+  "tasks": [
+    {
+      "task": "HNRNPK_K562_ENCSR268ETU",
+      "chromosome": "1",
+      "windows": 1353,
+      "native_data_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/data/HNRNPK_K562_ENCSR268ETU/data.npz",
+      "native_data_sha256": "75f68c6c9037d66be54d7ed27d4f9ab4743b281e81b9a939b0f30b1b80930f12",
+      "native_metadata_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/data/HNRNPK_K562_ENCSR268ETU/metadata.json",
+      "native_metadata_sha256": "97e62937b547b3223acaa664de0124e5f83d871cc3e922f21955d453c549362d",
+      "native_input_sha256": "6a184aed01f06b6fac2cc17037de68d6e224d23366fd0f8e0620c6cd6267789f",
+      "checkpoints": [
+        {
+          "seed": 11,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_K562_ENCSR268ETU/seed11/best.pth",
+          "checkpoint_sha256": "eeced6012d650315672617fd0faf4a9adab6a3652d873d546d0b1a99898ef113",
+          "run_sha256": "ae3c9d1b3ceed8445d27cf5d942b0912aebc27db2ca0823137abb5cad5746982",
+          "complete_sha256": "154c02b0c6d57a816abfc22d217db0df4c9aad2151d5c8e69bcb33b54fd140a4",
+          "seconds": 0.7556538581848145,
+          "best_epoch": 75,
+          "parameters": 44698,
+          "initial_state_sha256": "76fd0075d8a1b52dd565df8fb7f857ee5a2118c4f850b865b90ac395d2356f94"
+        },
+        {
+          "seed": 23,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_K562_ENCSR268ETU/seed23/best.pth",
+          "checkpoint_sha256": "1357c320ad0474afc3d22eb001684bfd851227c843e4787ecb2475d0eb8542ea",
+          "run_sha256": "6bb9ada9b9f8fe0b2874efd83851909099585892ec45fb17afb8346132435608",
+          "complete_sha256": "bbdf472bbfdbabce5e16c452e0b82f89d368f0e8e868264f61447b2c244d6560",
+          "seconds": 0.1924293041229248,
+          "best_epoch": 67,
+          "parameters": 44698,
+          "initial_state_sha256": "c2f38fbbb6e04f0a365fd869b052f974031360964d64c5f2e27c02a4f76e9792"
+        },
+        {
+          "seed": 47,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_K562_ENCSR268ETU/seed47/best.pth",
+          "checkpoint_sha256": "7bb59f0ad221c3beadd6962f073af1a7b52331eef5fc19f73902870b78be58e3",
+          "run_sha256": "c97580d01ab64941c82d9227ca4e889b32b35c6efef0d81d3ffe67efd0438d4e",
+          "complete_sha256": "3be0f1e4aeb99568982a583dbc3a71abd444a01c4bbcc5ddcc67fb3874f40cd1",
+          "seconds": 0.20946836471557617,
+          "best_epoch": 79,
+          "parameters": 44698,
+          "initial_state_sha256": "c3b18f56fd45806e79b460b55b05101bd7c57e480a738bc49cb04e20e45139cc"
+        }
+      ],
+      "output_data_sha256": "d2d9607438d265fa99ed367dbfaa678c232babdbed3803de536f2b21fdc543af"
+    },
+    {
+      "task": "HNRNPK_K562_ENCSR268ETU",
+      "chromosome": "X",
+      "windows": 394,
+      "native_data_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/HNRNPK_K562_ENCSR268ETU/X/data.npz",
+      "native_data_sha256": "d1962b38314241b3fce8c6a11ea0100c2dcee2e34bcce62f0e9e59b04bdba109",
+      "native_metadata_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/HNRNPK_K562_ENCSR268ETU/X/metadata.json",
+      "native_metadata_sha256": "a7d1256219f05a2fa647176f06dad5a9bfb2f946fb31426396e1cf73ed549fa1",
+      "native_input_sha256": "d661c39944de0c7c0a9f8caaaef61356a609466dd5919f4720aa06eabc8fe469",
+      "checkpoints": [
+        {
+          "seed": 11,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_K562_ENCSR268ETU/seed11/best.pth",
+          "checkpoint_sha256": "eeced6012d650315672617fd0faf4a9adab6a3652d873d546d0b1a99898ef113",
+          "run_sha256": "ae3c9d1b3ceed8445d27cf5d942b0912aebc27db2ca0823137abb5cad5746982",
+          "complete_sha256": "154c02b0c6d57a816abfc22d217db0df4c9aad2151d5c8e69bcb33b54fd140a4",
+          "seconds": 0.07317614555358887,
+          "best_epoch": 75,
+          "parameters": 44698,
+          "initial_state_sha256": "76fd0075d8a1b52dd565df8fb7f857ee5a2118c4f850b865b90ac395d2356f94"
+        },
+        {
+          "seed": 23,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_K562_ENCSR268ETU/seed23/best.pth",
+          "checkpoint_sha256": "1357c320ad0474afc3d22eb001684bfd851227c843e4787ecb2475d0eb8542ea",
+          "run_sha256": "6bb9ada9b9f8fe0b2874efd83851909099585892ec45fb17afb8346132435608",
+          "complete_sha256": "bbdf472bbfdbabce5e16c452e0b82f89d368f0e8e868264f61447b2c244d6560",
+          "seconds": 0.0700836181640625,
+          "best_epoch": 67,
+          "parameters": 44698,
+          "initial_state_sha256": "c2f38fbbb6e04f0a365fd869b052f974031360964d64c5f2e27c02a4f76e9792"
+        },
+        {
+          "seed": 47,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_K562_ENCSR268ETU/seed47/best.pth",
+          "checkpoint_sha256": "7bb59f0ad221c3beadd6962f073af1a7b52331eef5fc19f73902870b78be58e3",
+          "run_sha256": "c97580d01ab64941c82d9227ca4e889b32b35c6efef0d81d3ffe67efd0438d4e",
+          "complete_sha256": "3be0f1e4aeb99568982a583dbc3a71abd444a01c4bbcc5ddcc67fb3874f40cd1",
+          "seconds": 0.06845545768737793,
+          "best_epoch": 79,
+          "parameters": 44698,
+          "initial_state_sha256": "c3b18f56fd45806e79b460b55b05101bd7c57e480a738bc49cb04e20e45139cc"
+        }
+      ],
+      "output_data_sha256": "ecd0654c89d1386054cbb633abdcf5ca11fdd0a1a5dd6a86d08bf86a53b09b0a"
+    },
+    {
+      "task": "HNRNPK_K562_ENCSR268ETU",
+      "chromosome": "Y",
+      "windows": 0,
+      "native_data_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/HNRNPK_K562_ENCSR268ETU/Y/data.npz",
+      "native_data_sha256": "24f5816aae9a0fbfee50a1ae4e58a0b3e681e19f2430c8065e006bad8cdb6013",
+      "native_metadata_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/HNRNPK_K562_ENCSR268ETU/Y/metadata.json",
+      "native_metadata_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "native_input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checkpoints": [
+        {
+          "seed": 11,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_K562_ENCSR268ETU/seed11/best.pth",
+          "checkpoint_sha256": "eeced6012d650315672617fd0faf4a9adab6a3652d873d546d0b1a99898ef113",
+          "run_sha256": "ae3c9d1b3ceed8445d27cf5d942b0912aebc27db2ca0823137abb5cad5746982",
+          "complete_sha256": "154c02b0c6d57a816abfc22d217db0df4c9aad2151d5c8e69bcb33b54fd140a4",
+          "seconds": 0.0005629062652587891,
+          "best_epoch": 75,
+          "parameters": 44698,
+          "initial_state_sha256": "76fd0075d8a1b52dd565df8fb7f857ee5a2118c4f850b865b90ac395d2356f94"
+        },
+        {
+          "seed": 23,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_K562_ENCSR268ETU/seed23/best.pth",
+          "checkpoint_sha256": "1357c320ad0474afc3d22eb001684bfd851227c843e4787ecb2475d0eb8542ea",
+          "run_sha256": "6bb9ada9b9f8fe0b2874efd83851909099585892ec45fb17afb8346132435608",
+          "complete_sha256": "bbdf472bbfdbabce5e16c452e0b82f89d368f0e8e868264f61447b2c244d6560",
+          "seconds": 0.0006749629974365234,
+          "best_epoch": 67,
+          "parameters": 44698,
+          "initial_state_sha256": "c2f38fbbb6e04f0a365fd869b052f974031360964d64c5f2e27c02a4f76e9792"
+        },
+        {
+          "seed": 47,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_K562_ENCSR268ETU/seed47/best.pth",
+          "checkpoint_sha256": "7bb59f0ad221c3beadd6962f073af1a7b52331eef5fc19f73902870b78be58e3",
+          "run_sha256": "c97580d01ab64941c82d9227ca4e889b32b35c6efef0d81d3ffe67efd0438d4e",
+          "complete_sha256": "3be0f1e4aeb99568982a583dbc3a71abd444a01c4bbcc5ddcc67fb3874f40cd1",
+          "seconds": 0.0005261898040771484,
+          "best_epoch": 79,
+          "parameters": 44698,
+          "initial_state_sha256": "c3b18f56fd45806e79b460b55b05101bd7c57e480a738bc49cb04e20e45139cc"
+        }
+      ],
+      "output_data_sha256": "8c4c7a259ea36f88201848c15b67111fe4e04ad1c453c1f8321e880376dd1ce3"
+    },
+    {
+      "task": "HNRNPK_HepG2_ENCSR828ZID",
+      "chromosome": "1",
+      "windows": 2234,
+      "native_data_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/data/HNRNPK_HepG2_ENCSR828ZID/data.npz",
+      "native_data_sha256": "db4fd6693e8ba22eaa2cd364c011399fb594174633dbebf4d950b403e217c855",
+      "native_metadata_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/data/HNRNPK_HepG2_ENCSR828ZID/metadata.json",
+      "native_metadata_sha256": "1f53262a835d8befa3d68d4f93d2f4facb7633b9a92a945c666b4fe950f281f7",
+      "native_input_sha256": "48fe11255654a17e1584d128a445895af7c770299d59980c78249ec4039c0ba0",
+      "checkpoints": [
+        {
+          "seed": 11,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_HepG2_ENCSR828ZID/seed11/best.pth",
+          "checkpoint_sha256": "2c2f975c0497bd9a0c728396dc697cb56e150dd035a91bf58eaf1d3c40b0f6f8",
+          "run_sha256": "11fe7beb7d89fcdf27c1c5d98eb9965de34f5d4bbdd56f2fc1860556e7c7ae7c",
+          "complete_sha256": "188b26bd9d115cdd7c6d55875faef1fefa88a750e05df3a2382846d0f19deb79",
+          "seconds": 0.34033679962158203,
+          "best_epoch": 94,
+          "parameters": 44698,
+          "initial_state_sha256": "76fd0075d8a1b52dd565df8fb7f857ee5a2118c4f850b865b90ac395d2356f94"
+        },
+        {
+          "seed": 23,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_HepG2_ENCSR828ZID/seed23/best.pth",
+          "checkpoint_sha256": "3011770589b6b81ca36dd8824c860640f890b6f65c766ea14df2cc86103be387",
+          "run_sha256": "502b7b39aaf2655a3f365d8ddb2a07a911c1b8fb8f789df1cb33e740984351f7",
+          "complete_sha256": "b3ac736c7174b8bf4d24476e53f4f9a8a61c3282b1454472ea38770b3f7b40bb",
+          "seconds": 0.3522911071777344,
+          "best_epoch": 79,
+          "parameters": 44698,
+          "initial_state_sha256": "c2f38fbbb6e04f0a365fd869b052f974031360964d64c5f2e27c02a4f76e9792"
+        },
+        {
+          "seed": 47,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_HepG2_ENCSR828ZID/seed47/best.pth",
+          "checkpoint_sha256": "b7d453ce28d4e6de089d7116a1ca8f4c8e422354dd72edf97c705d2af0086771",
+          "run_sha256": "d9c24e4c0c79bb2525b47a25303d31de62037a92efe362d83d45b49df78bcda5",
+          "complete_sha256": "9b077277eed828b3d1836d15601583b232b8035f61af467a3c6e8d9261a60c95",
+          "seconds": 0.3438718318939209,
+          "best_epoch": 100,
+          "parameters": 44698,
+          "initial_state_sha256": "c3b18f56fd45806e79b460b55b05101bd7c57e480a738bc49cb04e20e45139cc"
+        }
+      ],
+      "output_data_sha256": "c71f518e0707e6c23092f93404ed344d9d28541bf1376077be6081a0c243df6d"
+    },
+    {
+      "task": "HNRNPK_HepG2_ENCSR828ZID",
+      "chromosome": "X",
+      "windows": 628,
+      "native_data_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/HNRNPK_HepG2_ENCSR828ZID/X/data.npz",
+      "native_data_sha256": "6b673f9a4d3385de08de5c435a4414bd4c3e7c7fa8af556a22ed03b0e07a1373",
+      "native_metadata_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/HNRNPK_HepG2_ENCSR828ZID/X/metadata.json",
+      "native_metadata_sha256": "db9f05f2f4e9e704911454b80682f3dd44de3497fe686e5420c0a0b2e7b89603",
+      "native_input_sha256": "4eab6d02104d2ff508aa8fe5fa0249ff1e976fc103aacf07c8b3c27127d1b589",
+      "checkpoints": [
+        {
+          "seed": 11,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_HepG2_ENCSR828ZID/seed11/best.pth",
+          "checkpoint_sha256": "2c2f975c0497bd9a0c728396dc697cb56e150dd035a91bf58eaf1d3c40b0f6f8",
+          "run_sha256": "11fe7beb7d89fcdf27c1c5d98eb9965de34f5d4bbdd56f2fc1860556e7c7ae7c",
+          "complete_sha256": "188b26bd9d115cdd7c6d55875faef1fefa88a750e05df3a2382846d0f19deb79",
+          "seconds": 0.12118816375732422,
+          "best_epoch": 94,
+          "parameters": 44698,
+          "initial_state_sha256": "76fd0075d8a1b52dd565df8fb7f857ee5a2118c4f850b865b90ac395d2356f94"
+        },
+        {
+          "seed": 23,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_HepG2_ENCSR828ZID/seed23/best.pth",
+          "checkpoint_sha256": "3011770589b6b81ca36dd8824c860640f890b6f65c766ea14df2cc86103be387",
+          "run_sha256": "502b7b39aaf2655a3f365d8ddb2a07a911c1b8fb8f789df1cb33e740984351f7",
+          "complete_sha256": "b3ac736c7174b8bf4d24476e53f4f9a8a61c3282b1454472ea38770b3f7b40bb",
+          "seconds": 0.10878801345825195,
+          "best_epoch": 79,
+          "parameters": 44698,
+          "initial_state_sha256": "c2f38fbbb6e04f0a365fd869b052f974031360964d64c5f2e27c02a4f76e9792"
+        },
+        {
+          "seed": 47,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_HepG2_ENCSR828ZID/seed47/best.pth",
+          "checkpoint_sha256": "b7d453ce28d4e6de089d7116a1ca8f4c8e422354dd72edf97c705d2af0086771",
+          "run_sha256": "d9c24e4c0c79bb2525b47a25303d31de62037a92efe362d83d45b49df78bcda5",
+          "complete_sha256": "9b077277eed828b3d1836d15601583b232b8035f61af467a3c6e8d9261a60c95",
+          "seconds": 0.10666656494140625,
+          "best_epoch": 100,
+          "parameters": 44698,
+          "initial_state_sha256": "c3b18f56fd45806e79b460b55b05101bd7c57e480a738bc49cb04e20e45139cc"
+        }
+      ],
+      "output_data_sha256": "b6c1ca5f8ef22481f41adaf878271eb4ebf8f01065d25c85ebba0f75e1d22124"
+    },
+    {
+      "task": "HNRNPK_HepG2_ENCSR828ZID",
+      "chromosome": "Y",
+      "windows": 7,
+      "native_data_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/HNRNPK_HepG2_ENCSR828ZID/Y/data.npz",
+      "native_data_sha256": "791a1e42194c11d61fd4e01d39a103b3d264ced543fa686d620bc71529bff378",
+      "native_metadata_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/phase2_ambiguity/data/HNRNPK_HepG2_ENCSR828ZID/Y/metadata.json",
+      "native_metadata_sha256": "c8edc0bce6ae37dfdb572568cf6744f7feafac98567674e43edcbabd256cd58d",
+      "native_input_sha256": "bdbe914f0b457caf94ee4f6adbadf67020f5ae0b95d062945f9f4e071d830f08",
+      "checkpoints": [
+        {
+          "seed": 11,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_HepG2_ENCSR828ZID/seed11/best.pth",
+          "checkpoint_sha256": "2c2f975c0497bd9a0c728396dc697cb56e150dd035a91bf58eaf1d3c40b0f6f8",
+          "run_sha256": "11fe7beb7d89fcdf27c1c5d98eb9965de34f5d4bbdd56f2fc1860556e7c7ae7c",
+          "complete_sha256": "188b26bd9d115cdd7c6d55875faef1fefa88a750e05df3a2382846d0f19deb79",
+          "seconds": 0.009625911712646484,
+          "best_epoch": 94,
+          "parameters": 44698,
+          "initial_state_sha256": "76fd0075d8a1b52dd565df8fb7f857ee5a2118c4f850b865b90ac395d2356f94"
+        },
+        {
+          "seed": 23,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_HepG2_ENCSR828ZID/seed23/best.pth",
+          "checkpoint_sha256": "3011770589b6b81ca36dd8824c860640f890b6f65c766ea14df2cc86103be387",
+          "run_sha256": "502b7b39aaf2655a3f365d8ddb2a07a911c1b8fb8f789df1cb33e740984351f7",
+          "complete_sha256": "b3ac736c7174b8bf4d24476e53f4f9a8a61c3282b1454472ea38770b3f7b40bb",
+          "seconds": 0.005065202713012695,
+          "best_epoch": 79,
+          "parameters": 44698,
+          "initial_state_sha256": "c2f38fbbb6e04f0a365fd869b052f974031360964d64c5f2e27c02a4f76e9792"
+        },
+        {
+          "seed": 47,
+          "checkpoint_path": "/data/CARBON_PROJECT/supervised_expansion_20261004/01_context/nogru_cross_protein/outputs/HNRNPK_HepG2_ENCSR828ZID/seed47/best.pth",
+          "checkpoint_sha256": "b7d453ce28d4e6de089d7116a1ca8f4c8e422354dd72edf97c705d2af0086771",
+          "run_sha256": "d9c24e4c0c79bb2525b47a25303d31de62037a92efe362d83d45b49df78bcda5",
+          "complete_sha256": "9b077277eed828b3d1836d15601583b232b8035f61af467a3c6e8d9261a60c95",
+          "seconds": 0.0049822330474853516,
+          "best_epoch": 100,
+          "parameters": 44698,
+          "initial_state_sha256": "c3b18f56fd45806e79b460b55b05101bd7c57e480a738bc49cb04e20e45139cc"
+        }
+      ],
+      "output_data_sha256": "c1ff6c9e74f4ec12d6be3946fd57a7df1fecabf4b7b1767861b4f50c2a6d935d"
+    }
+  ],
+  "device": "CPU4",
+  "started_unix": 1791119145.3572087,
+  "source_sha256": "c705edd740a210cc8a4dfd1432d4e85f1498122f71bc55b8984f2ea63077dbb8",
+  "protocol_sha256": "c956e8725d143ca64b92db3127c8fe75a218a4835194a231631aaf5eed6dbbe8",
+  "seconds": 3.626537322998047,
+  "cpu_user_seconds": 11.613114,
+  "cpu_system_seconds": 6.794699
+}

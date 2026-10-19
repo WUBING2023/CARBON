@@ -1,0 +1,3725 @@
+[
+  {
+    "variant_key": "chr8:616619:A:G",
+    "chrom": "chr8",
+    "pos0": "616618",
+    "pos1": "616619",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:616618:A:G",
+    "status": "found",
+    "rsids": [
+      68122960
+    ]
+  },
+  {
+    "variant_key": "chr8:624691:C:T",
+    "chrom": "chr8",
+    "pos0": "624690",
+    "pos1": "624691",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:624690:C:T",
+    "status": "found",
+    "rsids": [
+      11782786
+    ]
+  },
+  {
+    "variant_key": "chr8:631272:G:A",
+    "chrom": "chr8",
+    "pos0": "631271",
+    "pos1": "631272",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:631271:G:A",
+    "status": "found",
+    "rsids": [
+      1703872
+    ]
+  },
+  {
+    "variant_key": "chr8:651226:G:T",
+    "chrom": "chr8",
+    "pos0": "651225",
+    "pos1": "651226",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000008.11:651225:G:T",
+    "status": "found",
+    "rsids": [
+      1703910
+    ]
+  },
+  {
+    "variant_key": "chr8:664111:G:C",
+    "chrom": "chr8",
+    "pos0": "664110",
+    "pos1": "664111",
+    "ref": "G",
+    "alt": "C",
+    "spdi": "NC_000008.11:664110:G:C",
+    "status": "found",
+    "rsids": [
+      1530903
+    ]
+  },
+  {
+    "variant_key": "chr8:666646:C:T",
+    "chrom": "chr8",
+    "pos0": "666645",
+    "pos1": "666646",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:666645:C:T",
+    "status": "found",
+    "rsids": [
+      2280001
+    ]
+  },
+  {
+    "variant_key": "chr8:1831914:G:A",
+    "chrom": "chr8",
+    "pos0": "1831913",
+    "pos1": "1831914",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:1831913:G:A",
+    "status": "found",
+    "rsids": [
+      7387636
+    ]
+  },
+  {
+    "variant_key": "chr8:1832131:G:A",
+    "chrom": "chr8",
+    "pos0": "1832130",
+    "pos1": "1832131",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:1832130:G:A",
+    "status": "found",
+    "rsids": [
+      60618547
+    ]
+  },
+  {
+    "variant_key": "chr8:1833824:C:T",
+    "chrom": "chr8",
+    "pos0": "1833823",
+    "pos1": "1833824",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:1833823:C:T",
+    "status": "found",
+    "rsids": [
+      62477479
+    ]
+  },
+  {
+    "variant_key": "chr8:1834329:G:A",
+    "chrom": "chr8",
+    "pos0": "1834328",
+    "pos1": "1834329",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:1834328:G:A",
+    "status": "found",
+    "rsids": [
+      6558551
+    ]
+  },
+  {
+    "variant_key": "chr8:1844359:A:G",
+    "chrom": "chr8",
+    "pos0": "1844358",
+    "pos1": "1844359",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:1844358:A:G",
+    "status": "found",
+    "rsids": [
+      73176767
+    ]
+  },
+  {
+    "variant_key": "chr8:1844364:A:G",
+    "chrom": "chr8",
+    "pos0": "1844363",
+    "pos1": "1844364",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:1844363:A:G",
+    "status": "found",
+    "rsids": [
+      6989221
+    ]
+  },
+  {
+    "variant_key": "chr8:1844394:A:G",
+    "chrom": "chr8",
+    "pos0": "1844393",
+    "pos1": "1844394",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:1844393:A:G",
+    "status": "found",
+    "rsids": [
+      6989234
+    ]
+  },
+  {
+    "variant_key": "chr8:1844397:T:C",
+    "chrom": "chr8",
+    "pos0": "1844396",
+    "pos1": "1844397",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:1844396:T:C",
+    "status": "found",
+    "rsids": [
+      6993318
+    ]
+  },
+  {
+    "variant_key": "chr8:1844424:A:C",
+    "chrom": "chr8",
+    "pos0": "1844423",
+    "pos1": "1844424",
+    "ref": "A",
+    "alt": "C",
+    "spdi": "NC_000008.11:1844423:A:C",
+    "status": "found",
+    "rsids": [
+      146852777
+    ]
+  },
+  {
+    "variant_key": "chr8:1844426:C:T",
+    "chrom": "chr8",
+    "pos0": "1844425",
+    "pos1": "1844426",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:1844425:C:T",
+    "status": "found",
+    "rsids": [
+      150166609
+    ]
+  },
+  {
+    "variant_key": "chr8:1844440:C:T",
+    "chrom": "chr8",
+    "pos0": "1844439",
+    "pos1": "1844440",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:1844439:C:T",
+    "status": "found",
+    "rsids": [
+      10100210
+    ]
+  },
+  {
+    "variant_key": "chr8:2811705:A:G",
+    "chrom": "chr8",
+    "pos0": "2811704",
+    "pos1": "2811705",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:2811704:A:G",
+    "status": "found",
+    "rsids": [
+      12676330
+    ]
+  },
+  {
+    "variant_key": "chr8:2812183:A:C",
+    "chrom": "chr8",
+    "pos0": "2812182",
+    "pos1": "2812183",
+    "ref": "A",
+    "alt": "C",
+    "spdi": "NC_000008.11:2812182:A:C",
+    "status": "found",
+    "rsids": [
+      881037
+    ]
+  },
+  {
+    "variant_key": "chr8:6743128:C:G",
+    "chrom": "chr8",
+    "pos0": "6743127",
+    "pos1": "6743128",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000008.11:6743127:C:G",
+    "status": "request_failed",
+    "rsids": [],
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "variant_key": "chr8:6746076:A:T",
+    "chrom": "chr8",
+    "pos0": "6746075",
+    "pos1": "6746076",
+    "ref": "A",
+    "alt": "T",
+    "spdi": "NC_000008.11:6746075:A:T",
+    "status": "found",
+    "rsids": [
+      2911972
+    ]
+  },
+  {
+    "variant_key": "chr8:8354641:T:C",
+    "chrom": "chr8",
+    "pos0": "8354640",
+    "pos1": "8354641",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:8354640:T:C",
+    "status": "found",
+    "rsids": [
+      34796521
+    ]
+  },
+  {
+    "variant_key": "chr8:9035094:C:T",
+    "chrom": "chr8",
+    "pos0": "9035093",
+    "pos1": "9035094",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:9035093:C:T",
+    "status": "found",
+    "rsids": [
+      34004903
+    ]
+  },
+  {
+    "variant_key": "chr8:11803105:C:T",
+    "chrom": "chr8",
+    "pos0": "11803104",
+    "pos1": "11803105",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:11803104:C:T",
+    "status": "found",
+    "rsids": [
+      1497042
+    ]
+  },
+  {
+    "variant_key": "chr8:11803407:C:T",
+    "chrom": "chr8",
+    "pos0": "11803406",
+    "pos1": "11803407",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:11803406:C:T",
+    "status": "found",
+    "rsids": [
+      2252567
+    ]
+  },
+  {
+    "variant_key": "chr8:11805039:C:T",
+    "chrom": "chr8",
+    "pos0": "11805038",
+    "pos1": "11805039",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:11805038:C:T",
+    "status": "found",
+    "rsids": [
+      2686198
+    ]
+  },
+  {
+    "variant_key": "chr8:11808009:A:G",
+    "chrom": "chr8",
+    "pos0": "11808008",
+    "pos1": "11808009",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:11808008:A:G",
+    "status": "found",
+    "rsids": [
+      1736067
+    ]
+  },
+  {
+    "variant_key": "chr8:11808450:C:T",
+    "chrom": "chr8",
+    "pos0": "11808449",
+    "pos1": "11808450",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:11808449:C:T",
+    "status": "found",
+    "rsids": [
+      1032577
+    ]
+  },
+  {
+    "variant_key": "chr8:11816081:C:T",
+    "chrom": "chr8",
+    "pos0": "11816080",
+    "pos1": "11816081",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:11816080:C:T",
+    "status": "found",
+    "rsids": [
+      148662539
+    ]
+  },
+  {
+    "variant_key": "chr8:11817284:A:C",
+    "chrom": "chr8",
+    "pos0": "11817283",
+    "pos1": "11817284",
+    "ref": "A",
+    "alt": "C",
+    "spdi": "NC_000008.11:11817283:A:C",
+    "status": "found",
+    "rsids": [
+      6994126
+    ]
+  },
+  {
+    "variant_key": "chr8:11819781:C:G",
+    "chrom": "chr8",
+    "pos0": "11819780",
+    "pos1": "11819781",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000008.11:11819780:C:G",
+    "status": "found",
+    "rsids": [
+      2409830
+    ]
+  },
+  {
+    "variant_key": "chr8:11819796:G:C",
+    "chrom": "chr8",
+    "pos0": "11819795",
+    "pos1": "11819796",
+    "ref": "G",
+    "alt": "C",
+    "spdi": "NC_000008.11:11819795:G:C",
+    "status": "found",
+    "rsids": [
+      2409831
+    ]
+  },
+  {
+    "variant_key": "chr8:11826113:T:C",
+    "chrom": "chr8",
+    "pos0": "11826112",
+    "pos1": "11826113",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:11826112:T:C",
+    "status": "found",
+    "rsids": [
+      2229247
+    ]
+  },
+  {
+    "variant_key": "chr8:11830450:C:T",
+    "chrom": "chr8",
+    "pos0": "11830449",
+    "pos1": "11830450",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:11830449:C:T",
+    "status": "found",
+    "rsids": [
+      2294137
+    ]
+  },
+  {
+    "variant_key": "chr8:11831719:T:G",
+    "chrom": "chr8",
+    "pos0": "11831718",
+    "pos1": "11831719",
+    "ref": "T",
+    "alt": "G",
+    "spdi": "NC_000008.11:11831718:T:G",
+    "status": "found",
+    "rsids": [
+      2409836
+    ]
+  },
+  {
+    "variant_key": "chr8:11850846:G:A",
+    "chrom": "chr8",
+    "pos0": "11850845",
+    "pos1": "11850846",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:11850845:G:A",
+    "status": "found",
+    "rsids": [
+      2272766
+    ]
+  },
+  {
+    "variant_key": "chr8:13173646:A:T",
+    "chrom": "chr8",
+    "pos0": "13173645",
+    "pos1": "13173646",
+    "ref": "A",
+    "alt": "T",
+    "spdi": "NC_000008.11:13173645:A:T",
+    "status": "found",
+    "rsids": [
+      2410027
+    ]
+  },
+  {
+    "variant_key": "chr8:13175045:C:T",
+    "chrom": "chr8",
+    "pos0": "13175044",
+    "pos1": "13175045",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:13175044:C:T",
+    "status": "found",
+    "rsids": [
+      9325875
+    ]
+  },
+  {
+    "variant_key": "chr8:13229253:G:A",
+    "chrom": "chr8",
+    "pos0": "13229252",
+    "pos1": "13229253",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:13229252:G:A",
+    "status": "found",
+    "rsids": [
+      1653032
+    ]
+  },
+  {
+    "variant_key": "chr8:15682854:A:T",
+    "chrom": "chr8",
+    "pos0": "15682853",
+    "pos1": "15682854",
+    "ref": "A",
+    "alt": "T",
+    "spdi": "NC_000008.11:15682853:A:T",
+    "status": "found",
+    "rsids": [
+      2098507
+    ]
+  },
+  {
+    "variant_key": "chr8:17284556:C:T",
+    "chrom": "chr8",
+    "pos0": "17284555",
+    "pos1": "17284556",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:17284555:C:T",
+    "status": "found",
+    "rsids": [
+      2285269
+    ]
+  },
+  {
+    "variant_key": "chr8:17655905:G:A",
+    "chrom": "chr8",
+    "pos0": "17655904",
+    "pos1": "17655905",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:17655904:G:A",
+    "status": "found",
+    "rsids": [
+      12224
+    ]
+  },
+  {
+    "variant_key": "chr8:17755366:A:G",
+    "chrom": "chr8",
+    "pos0": "17755365",
+    "pos1": "17755366",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:17755365:A:G",
+    "status": "found",
+    "rsids": [
+      3739407
+    ]
+  },
+  {
+    "variant_key": "chr8:22404670:G:C",
+    "chrom": "chr8",
+    "pos0": "22404669",
+    "pos1": "22404670",
+    "ref": "G",
+    "alt": "C",
+    "spdi": "NC_000008.11:22404669:G:C",
+    "status": "found",
+    "rsids": [
+      896377
+    ]
+  },
+  {
+    "variant_key": "chr8:23027640:G:A",
+    "chrom": "chr8",
+    "pos0": "23027639",
+    "pos1": "23027640",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:23027639:G:A",
+    "status": "found",
+    "rsids": [
+      2293402
+    ]
+  },
+  {
+    "variant_key": "chr8:23027641:G:A",
+    "chrom": "chr8",
+    "pos0": "23027640",
+    "pos1": "23027641",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:23027640:G:A",
+    "status": "found",
+    "rsids": [
+      1105945
+    ]
+  },
+  {
+    "variant_key": "chr8:23028507:A:G",
+    "chrom": "chr8",
+    "pos0": "23028506",
+    "pos1": "23028507",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:23028506:A:G",
+    "status": "found",
+    "rsids": [
+      13265018
+    ]
+  },
+  {
+    "variant_key": "chr8:23029500:C:G",
+    "chrom": "chr8",
+    "pos0": "23029499",
+    "pos1": "23029500",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000008.11:23029499:C:G",
+    "status": "found",
+    "rsids": [
+      6420148
+    ]
+  },
+  {
+    "variant_key": "chr8:23151093:T:A",
+    "chrom": "chr8",
+    "pos0": "23151092",
+    "pos1": "23151093",
+    "ref": "T",
+    "alt": "A",
+    "spdi": "NC_000008.11:23151092:T:A",
+    "status": "found",
+    "rsids": [
+      7014131
+    ]
+  },
+  {
+    "variant_key": "chr8:23536524:T:G",
+    "chrom": "chr8",
+    "pos0": "23536523",
+    "pos1": "23536524",
+    "ref": "T",
+    "alt": "G",
+    "spdi": "NC_000008.11:23536523:T:G",
+    "status": "found",
+    "rsids": [
+      2137301
+    ]
+  },
+  {
+    "variant_key": "chr8:23566245:G:A",
+    "chrom": "chr8",
+    "pos0": "23566244",
+    "pos1": "23566245",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:23566244:G:A",
+    "status": "found",
+    "rsids": [
+      10992
+    ]
+  },
+  {
+    "variant_key": "chr8:25439414:C:T",
+    "chrom": "chr8",
+    "pos0": "25439413",
+    "pos1": "25439414",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:25439413:C:T",
+    "status": "found",
+    "rsids": [
+      2271112
+    ]
+  },
+  {
+    "variant_key": "chr8:26294088:G:T",
+    "chrom": "chr8",
+    "pos0": "26294087",
+    "pos1": "26294088",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000008.11:26294087:G:T",
+    "status": "found",
+    "rsids": [
+      2046224
+    ]
+  },
+  {
+    "variant_key": "chr8:26294286:G:T",
+    "chrom": "chr8",
+    "pos0": "26294285",
+    "pos1": "26294286",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000008.11:26294285:G:T",
+    "status": "found",
+    "rsids": [
+      2046225
+    ]
+  },
+  {
+    "variant_key": "chr8:26294534:G:A",
+    "chrom": "chr8",
+    "pos0": "26294533",
+    "pos1": "26294534",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:26294533:G:A",
+    "status": "found",
+    "rsids": [
+      2046226
+    ]
+  },
+  {
+    "variant_key": "chr8:26300332:G:A",
+    "chrom": "chr8",
+    "pos0": "26300331",
+    "pos1": "26300332",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:26300331:G:A",
+    "status": "found",
+    "rsids": [
+      17055106
+    ]
+  },
+  {
+    "variant_key": "chr8:26308252:C:T",
+    "chrom": "chr8",
+    "pos0": "26308251",
+    "pos1": "26308252",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:26308251:C:T",
+    "status": "found",
+    "rsids": [
+      57281374
+    ]
+  },
+  {
+    "variant_key": "chr8:26315183:G:T",
+    "chrom": "chr8",
+    "pos0": "26315182",
+    "pos1": "26315183",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000008.11:26315182:G:T",
+    "status": "found",
+    "rsids": [
+      7003030
+    ]
+  },
+  {
+    "variant_key": "chr8:26324719:G:A",
+    "chrom": "chr8",
+    "pos0": "26324718",
+    "pos1": "26324719",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:26324718:G:A",
+    "status": "found",
+    "rsids": [
+      4871972
+    ]
+  },
+  {
+    "variant_key": "chr8:26587153:T:C",
+    "chrom": "chr8",
+    "pos0": "26587152",
+    "pos1": "26587153",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:26587152:T:C",
+    "status": "found",
+    "rsids": [
+      327234
+    ]
+  },
+  {
+    "variant_key": "chr8:27435818:G:T",
+    "chrom": "chr8",
+    "pos0": "27435817",
+    "pos1": "27435818",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000008.11:27435817:G:T",
+    "status": "found",
+    "rsids": [
+      11774417
+    ]
+  },
+  {
+    "variant_key": "chr8:28150898:A:G",
+    "chrom": "chr8",
+    "pos0": "28150897",
+    "pos1": "28150898",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:28150897:A:G",
+    "status": "found",
+    "rsids": [
+      10111096
+    ]
+  },
+  {
+    "variant_key": "chr8:28997585:C:T",
+    "chrom": "chr8",
+    "pos0": "28997584",
+    "pos1": "28997585",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:28997584:C:T",
+    "status": "found",
+    "rsids": [
+      11136054
+    ]
+  },
+  {
+    "variant_key": "chr8:29060320:G:A",
+    "chrom": "chr8",
+    "pos0": "29060319",
+    "pos1": "29060320",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:29060319:G:A",
+    "status": "found",
+    "rsids": [
+      1466626
+    ]
+  },
+  {
+    "variant_key": "chr8:29070288:T:G",
+    "chrom": "chr8",
+    "pos0": "29070287",
+    "pos1": "29070288",
+    "ref": "T",
+    "alt": "G",
+    "spdi": "NC_000008.11:29070287:T:G",
+    "status": "found",
+    "rsids": [
+      11775056
+    ]
+  },
+  {
+    "variant_key": "chr8:29073078:T:G",
+    "chrom": "chr8",
+    "pos0": "29073077",
+    "pos1": "29073078",
+    "ref": "T",
+    "alt": "G",
+    "spdi": "NC_000008.11:29073077:T:G",
+    "status": "found",
+    "rsids": [
+      867597372
+    ]
+  },
+  {
+    "variant_key": "chr8:38918905:C:G",
+    "chrom": "chr8",
+    "pos0": "38918904",
+    "pos1": "38918905",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000008.11:38918904:C:G",
+    "status": "found",
+    "rsids": [
+      7829336
+    ]
+  },
+  {
+    "variant_key": "chr8:41657369:G:A",
+    "chrom": "chr8",
+    "pos0": "41657368",
+    "pos1": "41657369",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:41657368:G:A",
+    "status": "found",
+    "rsids": [
+      12544241
+    ]
+  },
+  {
+    "variant_key": "chr8:41659472:G:A",
+    "chrom": "chr8",
+    "pos0": "41659471",
+    "pos1": "41659472",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:41659471:G:A",
+    "status": "found",
+    "rsids": [
+      484328
+    ]
+  },
+  {
+    "variant_key": "chr8:41660341:G:A",
+    "chrom": "chr8",
+    "pos0": "41660340",
+    "pos1": "41660341",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:41660340:G:A",
+    "status": "found",
+    "rsids": [
+      565491
+    ]
+  },
+  {
+    "variant_key": "chr8:41675683:T:C",
+    "chrom": "chr8",
+    "pos0": "41675682",
+    "pos1": "41675683",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:41675682:T:C",
+    "status": "found",
+    "rsids": [
+      521467
+    ]
+  },
+  {
+    "variant_key": "chr8:41677885:T:C",
+    "chrom": "chr8",
+    "pos0": "41677884",
+    "pos1": "41677885",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:41677884:T:C",
+    "status": "found",
+    "rsids": [
+      554340
+    ]
+  },
+  {
+    "variant_key": "chr8:41696410:C:G",
+    "chrom": "chr8",
+    "pos0": "41696409",
+    "pos1": "41696410",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000008.11:41696409:C:G",
+    "status": "found",
+    "rsids": [
+      504574
+    ]
+  },
+  {
+    "variant_key": "chr8:41725776:C:T",
+    "chrom": "chr8",
+    "pos0": "41725775",
+    "pos1": "41725776",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:41725775:C:T",
+    "status": "found",
+    "rsids": [
+      2304873
+    ]
+  },
+  {
+    "variant_key": "chr8:41795953:T:G",
+    "chrom": "chr8",
+    "pos0": "41795952",
+    "pos1": "41795953",
+    "ref": "T",
+    "alt": "G",
+    "spdi": "NC_000008.11:41795952:T:G",
+    "status": "found",
+    "rsids": [
+      79432940
+    ]
+  },
+  {
+    "variant_key": "chr8:42035322:G:A",
+    "chrom": "chr8",
+    "pos0": "42035321",
+    "pos1": "42035322",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:42035321:G:A",
+    "status": "found",
+    "rsids": [
+      146679787
+    ]
+  },
+  {
+    "variant_key": "chr8:52703595:C:G",
+    "chrom": "chr8",
+    "pos0": "52703594",
+    "pos1": "52703595",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000008.11:52703594:C:G",
+    "status": "found",
+    "rsids": [
+      72633843
+    ]
+  },
+  {
+    "variant_key": "chr8:53831500:G:A",
+    "chrom": "chr8",
+    "pos0": "53831499",
+    "pos1": "53831500",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:53831499:G:A",
+    "status": "found",
+    "rsids": [
+      541859843
+    ]
+  },
+  {
+    "variant_key": "chr8:53971001:T:C",
+    "chrom": "chr8",
+    "pos0": "53971000",
+    "pos1": "53971001",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:53971000:T:C",
+    "status": "found",
+    "rsids": [
+      78679641
+    ]
+  },
+  {
+    "variant_key": "chr8:53973092:G:A",
+    "chrom": "chr8",
+    "pos0": "53973091",
+    "pos1": "53973092",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:53973091:G:A",
+    "status": "found",
+    "rsids": [
+      191746637
+    ]
+  },
+  {
+    "variant_key": "chr8:54059889:T:C",
+    "chrom": "chr8",
+    "pos0": "54059888",
+    "pos1": "54059889",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:54059888:T:C",
+    "status": "found",
+    "rsids": [
+      1048312412
+    ]
+  },
+  {
+    "variant_key": "chr8:55748505:A:C",
+    "chrom": "chr8",
+    "pos0": "55748504",
+    "pos1": "55748505",
+    "ref": "A",
+    "alt": "C",
+    "spdi": "NC_000008.11:55748504:A:C",
+    "status": "found",
+    "rsids": [
+      4737416
+    ]
+  },
+  {
+    "variant_key": "chr8:55749131:C:A",
+    "chrom": "chr8",
+    "pos0": "55749130",
+    "pos1": "55749131",
+    "ref": "C",
+    "alt": "A",
+    "spdi": "NC_000008.11:55749130:C:A",
+    "status": "found",
+    "rsids": [
+      11998723
+    ]
+  },
+  {
+    "variant_key": "chr8:57203955:A:T",
+    "chrom": "chr8",
+    "pos0": "57203954",
+    "pos1": "57203955",
+    "ref": "A",
+    "alt": "T",
+    "spdi": "NC_000008.11:57203954:A:T",
+    "status": "found",
+    "rsids": [
+      79018015
+    ]
+  },
+  {
+    "variant_key": "chr8:57203966:G:A",
+    "chrom": "chr8",
+    "pos0": "57203965",
+    "pos1": "57203966",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:57203965:G:A",
+    "status": "found",
+    "rsids": [
+      80067974
+    ]
+  },
+  {
+    "variant_key": "chr8:57203981:G:T",
+    "chrom": "chr8",
+    "pos0": "57203980",
+    "pos1": "57203981",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000008.11:57203980:G:T",
+    "status": "found",
+    "rsids": [
+      77392211
+    ]
+  },
+  {
+    "variant_key": "chr8:57203982:T:C",
+    "chrom": "chr8",
+    "pos0": "57203981",
+    "pos1": "57203982",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:57203981:T:C",
+    "status": "found",
+    "rsids": [
+      75154538
+    ]
+  },
+  {
+    "variant_key": "chr8:57204190:C:A",
+    "chrom": "chr8",
+    "pos0": "57204189",
+    "pos1": "57204190",
+    "ref": "C",
+    "alt": "A",
+    "spdi": "NC_000008.11:57204189:C:A",
+    "status": "found",
+    "rsids": [
+      73605810
+    ]
+  },
+  {
+    "variant_key": "chr8:57204216:G:A",
+    "chrom": "chr8",
+    "pos0": "57204215",
+    "pos1": "57204216",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:57204215:G:A",
+    "status": "found",
+    "rsids": [
+      72505448
+    ]
+  },
+  {
+    "variant_key": "chr8:57206008:A:T",
+    "chrom": "chr8",
+    "pos0": "57206007",
+    "pos1": "57206008",
+    "ref": "A",
+    "alt": "T",
+    "spdi": "NC_000008.11:57206007:A:T",
+    "status": "found",
+    "rsids": [
+      983793685
+    ]
+  },
+  {
+    "variant_key": "chr8:57215198:G:A",
+    "chrom": "chr8",
+    "pos0": "57215197",
+    "pos1": "57215198",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:57215197:G:A",
+    "status": "found",
+    "rsids": [
+      4738582
+    ]
+  },
+  {
+    "variant_key": "chr8:57215344:T:G",
+    "chrom": "chr8",
+    "pos0": "57215343",
+    "pos1": "57215344",
+    "ref": "T",
+    "alt": "G",
+    "spdi": "NC_000008.11:57215343:T:G",
+    "status": "found",
+    "rsids": [
+      73605845
+    ]
+  },
+  {
+    "variant_key": "chr8:73734250:C:T",
+    "chrom": "chr8",
+    "pos0": "73734249",
+    "pos1": "73734250",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:73734249:C:T",
+    "status": "found",
+    "rsids": [
+      200352642
+    ]
+  },
+  {
+    "variant_key": "chr8:73734253:A:T",
+    "chrom": "chr8",
+    "pos0": "73734252",
+    "pos1": "73734253",
+    "ref": "A",
+    "alt": "T",
+    "spdi": "NC_000008.11:73734252:A:T",
+    "status": "found",
+    "rsids": [
+      892072198
+    ]
+  },
+  {
+    "variant_key": "chr8:75300521:G:T",
+    "chrom": "chr8",
+    "pos0": "75300520",
+    "pos1": "75300521",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000008.11:75300520:G:T",
+    "status": "found",
+    "rsids": [
+      1479102
+    ]
+  },
+  {
+    "variant_key": "chr8:89717140:G:A",
+    "chrom": "chr8",
+    "pos0": "89717139",
+    "pos1": "89717140",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:89717139:G:A",
+    "status": "found",
+    "rsids": [
+      218898
+    ]
+  },
+  {
+    "variant_key": "chr8:89725030:G:A",
+    "chrom": "chr8",
+    "pos0": "89725029",
+    "pos1": "89725030",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:89725029:G:A",
+    "status": "found",
+    "rsids": [
+      7841459
+    ]
+  },
+  {
+    "variant_key": "chr8:90221658:G:T",
+    "chrom": "chr8",
+    "pos0": "90221657",
+    "pos1": "90221658",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000008.11:90221657:G:T",
+    "status": "found",
+    "rsids": [
+      73695307
+    ]
+  },
+  {
+    "variant_key": "chr8:90259802:A:T",
+    "chrom": "chr8",
+    "pos0": "90259801",
+    "pos1": "90259802",
+    "ref": "A",
+    "alt": "T",
+    "spdi": "NC_000008.11:90259801:A:T",
+    "status": "found",
+    "rsids": [
+      12681228
+    ]
+  },
+  {
+    "variant_key": "chr8:90263487:G:T",
+    "chrom": "chr8",
+    "pos0": "90263486",
+    "pos1": "90263487",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000008.11:90263486:G:T",
+    "status": "found",
+    "rsids": [
+      56074279
+    ]
+  },
+  {
+    "variant_key": "chr8:90391048:G:C",
+    "chrom": "chr8",
+    "pos0": "90391047",
+    "pos1": "90391048",
+    "ref": "G",
+    "alt": "C",
+    "spdi": "NC_000008.11:90391047:G:C",
+    "status": "found",
+    "rsids": [
+      9643276
+    ]
+  },
+  {
+    "variant_key": "chr8:90407566:A:G",
+    "chrom": "chr8",
+    "pos0": "90407565",
+    "pos1": "90407566",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:90407565:A:G",
+    "status": "found",
+    "rsids": [
+      4734974
+    ]
+  },
+  {
+    "variant_key": "chr8:90433121:A:G",
+    "chrom": "chr8",
+    "pos0": "90433120",
+    "pos1": "90433121",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:90433120:A:G",
+    "status": "found",
+    "rsids": [
+      10481088
+    ]
+  },
+  {
+    "variant_key": "chr8:90492866:C:T",
+    "chrom": "chr8",
+    "pos0": "90492865",
+    "pos1": "90492866",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:90492865:C:T",
+    "status": "found",
+    "rsids": [
+      56784954
+    ]
+  },
+  {
+    "variant_key": "chr8:90498789:C:G",
+    "chrom": "chr8",
+    "pos0": "90498788",
+    "pos1": "90498789",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000008.11:90498788:C:G",
+    "status": "found",
+    "rsids": [
+      35816262
+    ]
+  },
+  {
+    "variant_key": "chr8:90522877:G:A",
+    "chrom": "chr8",
+    "pos0": "90522876",
+    "pos1": "90522877",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:90522876:G:A",
+    "status": "found",
+    "rsids": [
+      7817954
+    ]
+  },
+  {
+    "variant_key": "chr8:90523837:A:G",
+    "chrom": "chr8",
+    "pos0": "90523836",
+    "pos1": "90523837",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:90523836:A:G",
+    "status": "found",
+    "rsids": [
+      7012741
+    ]
+  },
+  {
+    "variant_key": "chr8:92777450:G:A",
+    "chrom": "chr8",
+    "pos0": "92777449",
+    "pos1": "92777450",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:92777449:G:A",
+    "status": "found",
+    "rsids": [
+      6991223
+    ]
+  },
+  {
+    "variant_key": "chr8:92858396:G:A",
+    "chrom": "chr8",
+    "pos0": "92858395",
+    "pos1": "92858396",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:92858395:G:A",
+    "status": "found",
+    "rsids": [
+      67030246
+    ]
+  },
+  {
+    "variant_key": "chr8:98042085:G:T",
+    "chrom": "chr8",
+    "pos0": "98042084",
+    "pos1": "98042085",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000008.11:98042084:G:T",
+    "status": "found",
+    "rsids": [
+      1227869842
+    ]
+  },
+  {
+    "variant_key": "chr8:98044922:C:A",
+    "chrom": "chr8",
+    "pos0": "98044921",
+    "pos1": "98044922",
+    "ref": "C",
+    "alt": "A",
+    "spdi": "NC_000008.11:98044921:C:A",
+    "status": "found",
+    "rsids": [
+      11777189
+    ]
+  },
+  {
+    "variant_key": "chr8:98825434:C:G",
+    "chrom": "chr8",
+    "pos0": "98825433",
+    "pos1": "98825434",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000008.11:98825433:C:G",
+    "status": "found",
+    "rsids": [
+      1200416966
+    ]
+  },
+  {
+    "variant_key": "chr8:100706886:C:G",
+    "chrom": "chr8",
+    "pos0": "100706885",
+    "pos1": "100706886",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000008.11:100706885:C:G",
+    "status": "found",
+    "rsids": [
+      867553381
+    ]
+  },
+  {
+    "variant_key": "chr8:100707208:C:G",
+    "chrom": "chr8",
+    "pos0": "100707207",
+    "pos1": "100707208",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000008.11:100707207:C:G",
+    "status": "found",
+    "rsids": [
+      1786321
+    ]
+  },
+  {
+    "variant_key": "chr8:104555495:T:C",
+    "chrom": "chr8",
+    "pos0": "104555494",
+    "pos1": "104555495",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:104555494:T:C",
+    "status": "found",
+    "rsids": [
+      12676758
+    ]
+  },
+  {
+    "variant_key": "chr8:116705269:A:C",
+    "chrom": "chr8",
+    "pos0": "116705268",
+    "pos1": "116705269",
+    "ref": "A",
+    "alt": "C",
+    "spdi": "NC_000008.11:116705268:A:C",
+    "status": "found",
+    "rsids": [
+      78089454
+    ]
+  },
+  {
+    "variant_key": "chr8:116717512:T:C",
+    "chrom": "chr8",
+    "pos0": "116717511",
+    "pos1": "116717512",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:116717511:T:C",
+    "status": "found",
+    "rsids": [
+      4876673
+    ]
+  },
+  {
+    "variant_key": "chr8:120658543:A:G",
+    "chrom": "chr8",
+    "pos0": "120658542",
+    "pos1": "120658543",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:120658542:A:G",
+    "status": "found",
+    "rsids": [
+      7464975
+    ]
+  },
+  {
+    "variant_key": "chr8:120667157:G:C",
+    "chrom": "chr8",
+    "pos0": "120667156",
+    "pos1": "120667157",
+    "ref": "G",
+    "alt": "C",
+    "spdi": "NC_000008.11:120667156:G:C",
+    "status": "found",
+    "rsids": [
+      6995583
+    ]
+  },
+  {
+    "variant_key": "chr8:120667399:C:T",
+    "chrom": "chr8",
+    "pos0": "120667398",
+    "pos1": "120667399",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:120667398:C:T",
+    "status": "found",
+    "rsids": [
+      35780243
+    ]
+  },
+  {
+    "variant_key": "chr8:122828007:G:A",
+    "chrom": "chr8",
+    "pos0": "122828006",
+    "pos1": "122828007",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:122828006:G:A",
+    "status": "found",
+    "rsids": [
+      62521564
+    ]
+  },
+  {
+    "variant_key": "chr8:122873461:G:A",
+    "chrom": "chr8",
+    "pos0": "122873460",
+    "pos1": "122873461",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:122873460:G:A",
+    "status": "found",
+    "rsids": [
+      10089605
+    ]
+  },
+  {
+    "variant_key": "chr8:123434556:T:C",
+    "chrom": "chr8",
+    "pos0": "123434555",
+    "pos1": "123434556",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:123434555:T:C",
+    "status": "found",
+    "rsids": [
+      13252731
+    ]
+  },
+  {
+    "variant_key": "chr8:123434573:T:C",
+    "chrom": "chr8",
+    "pos0": "123434572",
+    "pos1": "123434573",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:123434572:T:C",
+    "status": "found",
+    "rsids": [
+      13252748
+    ]
+  },
+  {
+    "variant_key": "chr8:124539024:C:T",
+    "chrom": "chr8",
+    "pos0": "124539023",
+    "pos1": "124539024",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:124539023:C:T",
+    "status": "found",
+    "rsids": [
+      761386065
+    ]
+  },
+  {
+    "variant_key": "chr8:127190119:G:C",
+    "chrom": "chr8",
+    "pos0": "127190118",
+    "pos1": "127190119",
+    "ref": "G",
+    "alt": "C",
+    "spdi": "NC_000008.11:127190118:G:C",
+    "status": "request_failed",
+    "rsids": [],
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "variant_key": "chr8:127196854:C:T",
+    "chrom": "chr8",
+    "pos0": "127196853",
+    "pos1": "127196854",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:127196853:C:T",
+    "status": "found",
+    "rsids": [
+      59549948
+    ]
+  },
+  {
+    "variant_key": "chr8:127939559:C:T",
+    "chrom": "chr8",
+    "pos0": "127939558",
+    "pos1": "127939559",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:127939558:C:T",
+    "status": "found",
+    "rsids": [
+      2278176
+    ]
+  },
+  {
+    "variant_key": "chr8:128004101:C:T",
+    "chrom": "chr8",
+    "pos0": "128004100",
+    "pos1": "128004101",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:128004100:C:T",
+    "status": "found",
+    "rsids": [
+      1529335
+    ]
+  },
+  {
+    "variant_key": "chr8:128004114:G:T",
+    "chrom": "chr8",
+    "pos0": "128004113",
+    "pos1": "128004114",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000008.11:128004113:G:T",
+    "status": "found",
+    "rsids": [
+      75452227
+    ]
+  },
+  {
+    "variant_key": "chr8:128029524:G:A",
+    "chrom": "chr8",
+    "pos0": "128029523",
+    "pos1": "128029524",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:128029523:G:A",
+    "status": "found",
+    "rsids": [
+      80198633
+    ]
+  },
+  {
+    "variant_key": "chr8:128096577:C:T",
+    "chrom": "chr8",
+    "pos0": "128096576",
+    "pos1": "128096577",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:128096576:C:T",
+    "status": "found",
+    "rsids": [
+      11604
+    ]
+  },
+  {
+    "variant_key": "chr8:133237922:A:G",
+    "chrom": "chr8",
+    "pos0": "133237921",
+    "pos1": "133237922",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:133237921:A:G",
+    "status": "found",
+    "rsids": [
+      1049697
+    ]
+  },
+  {
+    "variant_key": "chr8:133238187:C:T",
+    "chrom": "chr8",
+    "pos0": "133238186",
+    "pos1": "133238187",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:133238186:C:T",
+    "status": "found",
+    "rsids": [
+      1049694
+    ]
+  },
+  {
+    "variant_key": "chr8:140515228:A:G",
+    "chrom": "chr8",
+    "pos0": "140515227",
+    "pos1": "140515228",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:140515227:A:G",
+    "status": "found",
+    "rsids": [
+      2231524
+    ]
+  },
+  {
+    "variant_key": "chr8:141269984:T:C",
+    "chrom": "chr8",
+    "pos0": "141269983",
+    "pos1": "141269984",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000008.11:141269983:T:C",
+    "status": "found",
+    "rsids": [
+      13267590
+    ]
+  },
+  {
+    "variant_key": "chr8:141279697:C:T",
+    "chrom": "chr8",
+    "pos0": "141279696",
+    "pos1": "141279697",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:141279696:C:T",
+    "status": "found",
+    "rsids": [
+      34270591
+    ]
+  },
+  {
+    "variant_key": "chr8:141306582:C:T",
+    "chrom": "chr8",
+    "pos0": "141306581",
+    "pos1": "141306582",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:141306581:C:T",
+    "status": "found",
+    "rsids": [
+      13267532
+    ]
+  },
+  {
+    "variant_key": "chr8:143021330:C:T",
+    "chrom": "chr8",
+    "pos0": "143021329",
+    "pos1": "143021330",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:143021329:C:T",
+    "status": "found",
+    "rsids": [
+      11547127
+    ]
+  },
+  {
+    "variant_key": "chr8:143269946:G:A",
+    "chrom": "chr8",
+    "pos0": "143269945",
+    "pos1": "143269946",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:143269945:G:A",
+    "status": "found",
+    "rsids": [
+      7387960
+    ]
+  },
+  {
+    "variant_key": "chr8:143275822:A:G",
+    "chrom": "chr8",
+    "pos0": "143275821",
+    "pos1": "143275822",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:143275821:A:G",
+    "status": "found",
+    "rsids": [
+      2293923
+    ]
+  },
+  {
+    "variant_key": "chr8:143309558:A:G",
+    "chrom": "chr8",
+    "pos0": "143309557",
+    "pos1": "143309558",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:143309557:A:G",
+    "status": "found",
+    "rsids": [
+      7386475
+    ]
+  },
+  {
+    "variant_key": "chr8:143309626:G:A",
+    "chrom": "chr8",
+    "pos0": "143309625",
+    "pos1": "143309626",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:143309625:G:A",
+    "status": "found",
+    "rsids": [
+      10088567
+    ]
+  },
+  {
+    "variant_key": "chr8:143309703:A:G",
+    "chrom": "chr8",
+    "pos0": "143309702",
+    "pos1": "143309703",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000008.11:143309702:A:G",
+    "status": "found",
+    "rsids": [
+      10105378
+    ]
+  },
+  {
+    "variant_key": "chr8:143597129:G:A",
+    "chrom": "chr8",
+    "pos0": "143597128",
+    "pos1": "143597129",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:143597128:G:A",
+    "status": "found",
+    "rsids": [
+      112147940
+    ]
+  },
+  {
+    "variant_key": "chr8:143733493:C:G",
+    "chrom": "chr8",
+    "pos0": "143733492",
+    "pos1": "143733493",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000008.11:143733492:C:G",
+    "status": "found",
+    "rsids": [
+      56052843
+    ]
+  },
+  {
+    "variant_key": "chr8:143793573:G:C",
+    "chrom": "chr8",
+    "pos0": "143793572",
+    "pos1": "143793573",
+    "ref": "G",
+    "alt": "C",
+    "spdi": "NC_000008.11:143793572:G:C",
+    "status": "found",
+    "rsids": [
+      4875055
+    ]
+  },
+  {
+    "variant_key": "chr8:143809598:C:T",
+    "chrom": "chr8",
+    "pos0": "143809597",
+    "pos1": "143809598",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:143809597:C:T",
+    "status": "found",
+    "rsids": [
+      118022661
+    ]
+  },
+  {
+    "variant_key": "chr8:143922855:C:T",
+    "chrom": "chr8",
+    "pos0": "143922854",
+    "pos1": "143922855",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:143922854:C:T",
+    "status": "found",
+    "rsids": [
+      146381488
+    ]
+  },
+  {
+    "variant_key": "chr8:143992609:G:T",
+    "chrom": "chr8",
+    "pos0": "143992608",
+    "pos1": "143992609",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000008.11:143992608:G:T",
+    "status": "found",
+    "rsids": [
+      748467516
+    ]
+  },
+  {
+    "variant_key": "chr8:144361103:C:T",
+    "chrom": "chr8",
+    "pos0": "144361102",
+    "pos1": "144361103",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000008.11:144361102:C:T",
+    "status": "found",
+    "rsids": [
+      376997594
+    ]
+  },
+  {
+    "variant_key": "chr8:144451706:G:A",
+    "chrom": "chr8",
+    "pos0": "144451705",
+    "pos1": "144451706",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:144451705:G:A",
+    "status": "found",
+    "rsids": [
+      11542372
+    ]
+  },
+  {
+    "variant_key": "chr8:144459595:G:A",
+    "chrom": "chr8",
+    "pos0": "144459594",
+    "pos1": "144459595",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000008.11:144459594:G:A",
+    "status": "found",
+    "rsids": [
+      11784118
+    ]
+  },
+  {
+    "variant_key": "chr15:20386702:G:A",
+    "chrom": "chr15",
+    "pos0": "20386701",
+    "pos1": "20386702",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:20386701:G:A",
+    "status": "found",
+    "rsids": [
+      8028480
+    ]
+  },
+  {
+    "variant_key": "chr15:20392440:G:A",
+    "chrom": "chr15",
+    "pos0": "20392439",
+    "pos1": "20392440",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:20392439:G:A",
+    "status": "found",
+    "rsids": [
+      4779421
+    ]
+  },
+  {
+    "variant_key": "chr15:20394502:G:A",
+    "chrom": "chr15",
+    "pos0": "20394501",
+    "pos1": "20394502",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:20394501:G:A",
+    "status": "found",
+    "rsids": [
+      866495984
+    ]
+  },
+  {
+    "variant_key": "chr15:20394776:C:T",
+    "chrom": "chr15",
+    "pos0": "20394775",
+    "pos1": "20394776",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:20394775:C:T",
+    "status": "found",
+    "rsids": [
+      866179704
+    ]
+  },
+  {
+    "variant_key": "chr15:20394787:C:G",
+    "chrom": "chr15",
+    "pos0": "20394786",
+    "pos1": "20394787",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:20394786:C:G",
+    "status": "found",
+    "rsids": [
+      867887857
+    ]
+  },
+  {
+    "variant_key": "chr15:20402452:T:A",
+    "chrom": "chr15",
+    "pos0": "20402451",
+    "pos1": "20402452",
+    "ref": "T",
+    "alt": "A",
+    "spdi": "NC_000015.10:20402451:T:A",
+    "status": "found",
+    "rsids": [
+      4779416
+    ]
+  },
+  {
+    "variant_key": "chr15:20403168:C:A",
+    "chrom": "chr15",
+    "pos0": "20403167",
+    "pos1": "20403168",
+    "ref": "C",
+    "alt": "A",
+    "spdi": "NC_000015.10:20403167:C:A",
+    "status": "found",
+    "rsids": [
+      71466702
+    ]
+  },
+  {
+    "variant_key": "chr15:20419625:G:A",
+    "chrom": "chr15",
+    "pos0": "20419624",
+    "pos1": "20419625",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:20419624:G:A",
+    "status": "found",
+    "rsids": [
+      4931995
+    ]
+  },
+  {
+    "variant_key": "chr15:20420048:T:C",
+    "chrom": "chr15",
+    "pos0": "20420047",
+    "pos1": "20420048",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:20420047:T:C",
+    "status": "found",
+    "rsids": [
+      12148351
+    ]
+  },
+  {
+    "variant_key": "chr15:20421159:T:C",
+    "chrom": "chr15",
+    "pos0": "20421158",
+    "pos1": "20421159",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:20421158:T:C",
+    "status": "found",
+    "rsids": [
+      12440329
+    ]
+  },
+  {
+    "variant_key": "chr15:24955890:C:T",
+    "chrom": "chr15",
+    "pos0": "24955889",
+    "pos1": "24955890",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:24955889:C:T",
+    "status": "found",
+    "rsids": [
+      220028
+    ]
+  },
+  {
+    "variant_key": "chr15:24962486:C:T",
+    "chrom": "chr15",
+    "pos0": "24962485",
+    "pos1": "24962486",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:24962485:C:T",
+    "status": "found",
+    "rsids": [
+      445368
+    ]
+  },
+  {
+    "variant_key": "chr15:24962540:C:T",
+    "chrom": "chr15",
+    "pos0": "24962539",
+    "pos1": "24962540",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:24962539:C:T",
+    "status": "found",
+    "rsids": [
+      445264
+    ]
+  },
+  {
+    "variant_key": "chr15:24974365:T:C",
+    "chrom": "chr15",
+    "pos0": "24974364",
+    "pos1": "24974365",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:24974364:T:C",
+    "status": "found",
+    "rsids": [
+      705
+    ]
+  },
+  {
+    "variant_key": "chr15:24979194:G:T",
+    "chrom": "chr15",
+    "pos0": "24979193",
+    "pos1": "24979194",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000015.10:24979193:G:T",
+    "status": "found",
+    "rsids": [
+      11637528
+    ]
+  },
+  {
+    "variant_key": "chr15:24986469:T:C",
+    "chrom": "chr15",
+    "pos0": "24986468",
+    "pos1": "24986469",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:24986468:T:C",
+    "status": "found",
+    "rsids": [
+      2554423
+    ]
+  },
+  {
+    "variant_key": "chr15:24988403:G:A",
+    "chrom": "chr15",
+    "pos0": "24988402",
+    "pos1": "24988403",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:24988402:G:A",
+    "status": "found",
+    "rsids": [
+      2732028
+    ]
+  },
+  {
+    "variant_key": "chr15:24990142:C:G",
+    "chrom": "chr15",
+    "pos0": "24990141",
+    "pos1": "24990142",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:24990141:C:G",
+    "status": "found",
+    "rsids": [
+      74335291
+    ]
+  },
+  {
+    "variant_key": "chr15:24990145:G:A",
+    "chrom": "chr15",
+    "pos0": "24990144",
+    "pos1": "24990145",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:24990144:G:A",
+    "status": "found",
+    "rsids": [
+      2554422
+    ]
+  },
+  {
+    "variant_key": "chr15:24990981:A:G",
+    "chrom": "chr15",
+    "pos0": "24990980",
+    "pos1": "24990981",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:24990980:A:G",
+    "status": "found",
+    "rsids": [
+      765438
+    ]
+  },
+  {
+    "variant_key": "chr15:24992196:C:T",
+    "chrom": "chr15",
+    "pos0": "24992195",
+    "pos1": "24992196",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:24992195:C:T",
+    "status": "found",
+    "rsids": [
+      10451029
+    ]
+  },
+  {
+    "variant_key": "chr15:24998031:T:C",
+    "chrom": "chr15",
+    "pos0": "24998030",
+    "pos1": "24998031",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:24998030:T:C",
+    "status": "found",
+    "rsids": [
+      189075424
+    ]
+  },
+  {
+    "variant_key": "chr15:25030619:T:C",
+    "chrom": "chr15",
+    "pos0": "25030618",
+    "pos1": "25030619",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:25030618:T:C",
+    "status": "found",
+    "rsids": [
+      2732043
+    ]
+  },
+  {
+    "variant_key": "chr15:25036439:G:T",
+    "chrom": "chr15",
+    "pos0": "25036438",
+    "pos1": "25036439",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000015.10:25036438:G:T",
+    "status": "found",
+    "rsids": [
+      1045935
+    ]
+  },
+  {
+    "variant_key": "chr15:25053674:T:C",
+    "chrom": "chr15",
+    "pos0": "25053673",
+    "pos1": "25053674",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:25053673:T:C",
+    "status": "found",
+    "rsids": [
+      41286588
+    ]
+  },
+  {
+    "variant_key": "chr15:25063187:A:G",
+    "chrom": "chr15",
+    "pos0": "25063186",
+    "pos1": "25063187",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:25063186:A:G",
+    "status": "found",
+    "rsids": [
+      62001991
+    ]
+  },
+  {
+    "variant_key": "chr15:25066213:A:T",
+    "chrom": "chr15",
+    "pos0": "25066212",
+    "pos1": "25066213",
+    "ref": "A",
+    "alt": "T",
+    "spdi": "NC_000015.10:25066212:A:T",
+    "status": "found",
+    "rsids": [
+      11631691
+    ]
+  },
+  {
+    "variant_key": "chr15:25067548:G:A",
+    "chrom": "chr15",
+    "pos0": "25067547",
+    "pos1": "25067548",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:25067547:G:A",
+    "status": "found",
+    "rsids": [
+      11637737
+    ]
+  },
+  {
+    "variant_key": "chr15:25071004:G:T",
+    "chrom": "chr15",
+    "pos0": "25071003",
+    "pos1": "25071004",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000015.10:25071003:G:T",
+    "status": "found",
+    "rsids": [
+      4906944
+    ]
+  },
+  {
+    "variant_key": "chr15:25072841:G:A",
+    "chrom": "chr15",
+    "pos0": "25072840",
+    "pos1": "25072841",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:25072840:G:A",
+    "status": "found",
+    "rsids": [
+      11637436
+    ]
+  },
+  {
+    "variant_key": "chr15:25079201:A:G",
+    "chrom": "chr15",
+    "pos0": "25079200",
+    "pos1": "25079201",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:25079200:A:G",
+    "status": "found",
+    "rsids": [
+      11632591
+    ]
+  },
+  {
+    "variant_key": "chr15:25079530:A:T",
+    "chrom": "chr15",
+    "pos0": "25079529",
+    "pos1": "25079530",
+    "ref": "A",
+    "alt": "T",
+    "spdi": "NC_000015.10:25079529:A:T",
+    "status": "found",
+    "rsids": [
+      11161166
+    ]
+  },
+  {
+    "variant_key": "chr15:25113429:G:A",
+    "chrom": "chr15",
+    "pos0": "25113428",
+    "pos1": "25113429",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:25113428:G:A",
+    "status": "found",
+    "rsids": [
+      62002010
+    ]
+  },
+  {
+    "variant_key": "chr15:25116801:A:G",
+    "chrom": "chr15",
+    "pos0": "25116800",
+    "pos1": "25116801",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:25116800:A:G",
+    "status": "found",
+    "rsids": [
+      62002011
+    ]
+  },
+  {
+    "variant_key": "chr15:25116932:G:A",
+    "chrom": "chr15",
+    "pos0": "25116931",
+    "pos1": "25116932",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:25116931:G:A",
+    "status": "found",
+    "rsids": [
+      62002013
+    ]
+  },
+  {
+    "variant_key": "chr15:25117417:A:G",
+    "chrom": "chr15",
+    "pos0": "25117416",
+    "pos1": "25117417",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:25117416:A:G",
+    "status": "found",
+    "rsids": [
+      2356294
+    ]
+  },
+  {
+    "variant_key": "chr15:25133465:G:A",
+    "chrom": "chr15",
+    "pos0": "25133464",
+    "pos1": "25133465",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:25133464:G:A",
+    "status": "found",
+    "rsids": [
+      2714714
+    ]
+  },
+  {
+    "variant_key": "chr15:30925961:T:C",
+    "chrom": "chr15",
+    "pos0": "30925960",
+    "pos1": "30925961",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:30925960:T:C",
+    "status": "found",
+    "rsids": [
+      2959037
+    ]
+  },
+  {
+    "variant_key": "chr15:34360060:C:T",
+    "chrom": "chr15",
+    "pos0": "34360059",
+    "pos1": "34360060",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:34360059:C:T",
+    "status": "found",
+    "rsids": [
+      72625170
+    ]
+  },
+  {
+    "variant_key": "chr15:34379237:G:T",
+    "chrom": "chr15",
+    "pos0": "34379236",
+    "pos1": "34379237",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000015.10:34379236:G:T",
+    "status": "found",
+    "rsids": [
+      7727
+    ]
+  },
+  {
+    "variant_key": "chr15:34437786:G:A",
+    "chrom": "chr15",
+    "pos0": "34437785",
+    "pos1": "34437786",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:34437785:G:A",
+    "status": "found",
+    "rsids": [
+      73378023
+    ]
+  },
+  {
+    "variant_key": "chr15:36613928:A:G",
+    "chrom": "chr15",
+    "pos0": "36613927",
+    "pos1": "36613928",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:36613927:A:G",
+    "status": "found",
+    "rsids": [
+      7163791
+    ]
+  },
+  {
+    "variant_key": "chr15:38484129:T:G",
+    "chrom": "chr15",
+    "pos0": "38484128",
+    "pos1": "38484129",
+    "ref": "T",
+    "alt": "G",
+    "spdi": "NC_000015.10:38484128:T:G",
+    "status": "found",
+    "rsids": [
+      61409403
+    ]
+  },
+  {
+    "variant_key": "chr15:40161296:G:A",
+    "chrom": "chr15",
+    "pos0": "40161295",
+    "pos1": "40161296",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:40161295:G:A",
+    "status": "found",
+    "rsids": [
+      2277560
+    ]
+  },
+  {
+    "variant_key": "chr15:40594423:T:C",
+    "chrom": "chr15",
+    "pos0": "40594422",
+    "pos1": "40594423",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:40594422:T:C",
+    "status": "found",
+    "rsids": [
+      3751653
+    ]
+  },
+  {
+    "variant_key": "chr15:40622847:T:G",
+    "chrom": "chr15",
+    "pos0": "40622846",
+    "pos1": "40622847",
+    "ref": "T",
+    "alt": "G",
+    "spdi": "NC_000015.10:40622846:T:G",
+    "status": "found",
+    "rsids": [
+      8041534
+    ]
+  },
+  {
+    "variant_key": "chr15:41020866:C:G",
+    "chrom": "chr15",
+    "pos0": "41020865",
+    "pos1": "41020866",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:41020865:C:G",
+    "status": "found",
+    "rsids": [
+      3214068
+    ]
+  },
+  {
+    "variant_key": "chr15:41332199:G:C",
+    "chrom": "chr15",
+    "pos0": "41332198",
+    "pos1": "41332199",
+    "ref": "G",
+    "alt": "C",
+    "spdi": "NC_000015.10:41332198:G:C",
+    "status": "found",
+    "rsids": [
+      28492932
+    ]
+  },
+  {
+    "variant_key": "chr15:41840002:C:G",
+    "chrom": "chr15",
+    "pos0": "41840001",
+    "pos1": "41840002",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:41840001:C:G",
+    "status": "found",
+    "rsids": [
+      2077543
+    ]
+  },
+  {
+    "variant_key": "chr15:42971807:G:A",
+    "chrom": "chr15",
+    "pos0": "42971806",
+    "pos1": "42971807",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:42971806:G:A",
+    "status": "found",
+    "rsids": [
+      1381855
+    ]
+  },
+  {
+    "variant_key": "chr15:43761419:C:T",
+    "chrom": "chr15",
+    "pos0": "43761418",
+    "pos1": "43761419",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:43761418:C:T",
+    "status": "found",
+    "rsids": [
+      8040336
+    ]
+  },
+  {
+    "variant_key": "chr15:44538173:G:T",
+    "chrom": "chr15",
+    "pos0": "44538172",
+    "pos1": "44538173",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000015.10:44538172:G:T",
+    "status": "found",
+    "rsids": [
+      75825481
+    ]
+  },
+  {
+    "variant_key": "chr15:44633542:A:C",
+    "chrom": "chr15",
+    "pos0": "44633541",
+    "pos1": "44633542",
+    "ref": "A",
+    "alt": "C",
+    "spdi": "NC_000015.10:44633541:A:C",
+    "status": "found",
+    "rsids": [
+      79708848
+    ]
+  },
+  {
+    "variant_key": "chr15:50356142:T:C",
+    "chrom": "chr15",
+    "pos0": "50356141",
+    "pos1": "50356142",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:50356141:T:C",
+    "status": "found",
+    "rsids": [
+      504781
+    ]
+  },
+  {
+    "variant_key": "chr15:55329656:A:G",
+    "chrom": "chr15",
+    "pos0": "55329655",
+    "pos1": "55329656",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:55329655:A:G",
+    "status": "found",
+    "rsids": [
+      78117879
+    ]
+  },
+  {
+    "variant_key": "chr15:55682363:C:G",
+    "chrom": "chr15",
+    "pos0": "55682362",
+    "pos1": "55682363",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:55682362:C:G",
+    "status": "request_failed",
+    "rsids": [],
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "variant_key": "chr15:56233181:C:A",
+    "chrom": "chr15",
+    "pos0": "56233180",
+    "pos1": "56233181",
+    "ref": "C",
+    "alt": "A",
+    "spdi": "NC_000015.10:56233180:C:A",
+    "status": "request_failed",
+    "rsids": [],
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "variant_key": "chr15:56940958:A:G",
+    "chrom": "chr15",
+    "pos0": "56940957",
+    "pos1": "56940958",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:56940957:A:G",
+    "status": "found",
+    "rsids": [
+      551703700
+    ]
+  },
+  {
+    "variant_key": "chr15:57953788:T:A",
+    "chrom": "chr15",
+    "pos0": "57953787",
+    "pos1": "57953788",
+    "ref": "T",
+    "alt": "A",
+    "spdi": "NC_000015.10:57953787:T:A",
+    "status": "found",
+    "rsids": [
+      9325
+    ]
+  },
+  {
+    "variant_key": "chr15:57953831:T:C",
+    "chrom": "chr15",
+    "pos0": "57953830",
+    "pos1": "57953831",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:57953830:T:C",
+    "status": "found",
+    "rsids": [
+      1061278
+    ]
+  },
+  {
+    "variant_key": "chr15:57954404:A:C",
+    "chrom": "chr15",
+    "pos0": "57954403",
+    "pos1": "57954404",
+    "ref": "A",
+    "alt": "C",
+    "spdi": "NC_000015.10:57954403:A:C",
+    "status": "found",
+    "rsids": [
+      1063666
+    ]
+  },
+  {
+    "variant_key": "chr15:57954604:G:C",
+    "chrom": "chr15",
+    "pos0": "57954603",
+    "pos1": "57954604",
+    "ref": "G",
+    "alt": "C",
+    "spdi": "NC_000015.10:57954603:G:C",
+    "status": "found",
+    "rsids": [
+      3204689
+    ]
+  },
+  {
+    "variant_key": "chr15:57965001:A:G",
+    "chrom": "chr15",
+    "pos0": "57965000",
+    "pos1": "57965001",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:57965000:A:G",
+    "status": "found",
+    "rsids": [
+      4646622
+    ]
+  },
+  {
+    "variant_key": "chr15:57990423:C:A",
+    "chrom": "chr15",
+    "pos0": "57990422",
+    "pos1": "57990423",
+    "ref": "C",
+    "alt": "A",
+    "spdi": "NC_000015.10:57990422:C:A",
+    "status": "found",
+    "rsids": [
+      12907125
+    ]
+  },
+  {
+    "variant_key": "chr15:58016056:C:A",
+    "chrom": "chr15",
+    "pos0": "58016055",
+    "pos1": "58016056",
+    "ref": "C",
+    "alt": "A",
+    "spdi": "NC_000015.10:58016055:C:A",
+    "status": "found",
+    "rsids": [
+      2642632
+    ]
+  },
+  {
+    "variant_key": "chr15:58022650:G:A",
+    "chrom": "chr15",
+    "pos0": "58022649",
+    "pos1": "58022650",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:58022649:G:A",
+    "status": "found",
+    "rsids": [
+      12911071
+    ]
+  },
+  {
+    "variant_key": "chr15:58024762:C:G",
+    "chrom": "chr15",
+    "pos0": "58024761",
+    "pos1": "58024762",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:58024761:C:G",
+    "status": "found",
+    "rsids": [
+      2642630
+    ]
+  },
+  {
+    "variant_key": "chr15:58024896:G:T",
+    "chrom": "chr15",
+    "pos0": "58024895",
+    "pos1": "58024896",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000015.10:58024895:G:T",
+    "status": "found",
+    "rsids": [
+      2414529
+    ]
+  },
+  {
+    "variant_key": "chr15:58033314:G:C",
+    "chrom": "chr15",
+    "pos0": "58033313",
+    "pos1": "58033314",
+    "ref": "G",
+    "alt": "C",
+    "spdi": "NC_000015.10:58033313:G:C",
+    "status": "found",
+    "rsids": [
+      74655564
+    ]
+  },
+  {
+    "variant_key": "chr15:58037330:G:C",
+    "chrom": "chr15",
+    "pos0": "58037329",
+    "pos1": "58037330",
+    "ref": "G",
+    "alt": "C",
+    "spdi": "NC_000015.10:58037329:G:C",
+    "status": "found",
+    "rsids": [
+      4646579
+    ]
+  },
+  {
+    "variant_key": "chr15:60354746:A:G",
+    "chrom": "chr15",
+    "pos0": "60354745",
+    "pos1": "60354746",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:60354745:A:G",
+    "status": "found",
+    "rsids": [
+      2085037
+    ]
+  },
+  {
+    "variant_key": "chr15:60438226:G:C",
+    "chrom": "chr15",
+    "pos0": "60438225",
+    "pos1": "60438226",
+    "ref": "G",
+    "alt": "C",
+    "spdi": "NC_000015.10:60438225:G:C",
+    "status": "found",
+    "rsids": [
+      11071533
+    ]
+  },
+  {
+    "variant_key": "chr15:60448642:C:T",
+    "chrom": "chr15",
+    "pos0": "60448641",
+    "pos1": "60448642",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:60448641:C:T",
+    "status": "found",
+    "rsids": [
+      17270146
+    ]
+  },
+  {
+    "variant_key": "chr15:60475487:C:T",
+    "chrom": "chr15",
+    "pos0": "60475486",
+    "pos1": "60475487",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:60475486:C:T",
+    "status": "found",
+    "rsids": [
+      2123829
+    ]
+  },
+  {
+    "variant_key": "chr15:62390947:C:T",
+    "chrom": "chr15",
+    "pos0": "62390946",
+    "pos1": "62390947",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:62390946:C:T",
+    "status": "found",
+    "rsids": [
+      2456932
+    ]
+  },
+  {
+    "variant_key": "chr15:64075546:T:C",
+    "chrom": "chr15",
+    "pos0": "64075545",
+    "pos1": "64075546",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:64075545:T:C",
+    "status": "found",
+    "rsids": [
+      332233
+    ]
+  },
+  {
+    "variant_key": "chr15:65300520:C:G",
+    "chrom": "chr15",
+    "pos0": "65300519",
+    "pos1": "65300520",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:65300519:C:G",
+    "status": "found",
+    "rsids": [
+      116890085
+    ]
+  },
+  {
+    "variant_key": "chr15:65300564:T:C",
+    "chrom": "chr15",
+    "pos0": "65300563",
+    "pos1": "65300564",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:65300563:T:C",
+    "status": "found",
+    "rsids": [
+      12441850
+    ]
+  },
+  {
+    "variant_key": "chr15:66491040:G:T",
+    "chrom": "chr15",
+    "pos0": "66491039",
+    "pos1": "66491040",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000015.10:66491039:G:T",
+    "status": "found",
+    "rsids": [
+      56366941
+    ]
+  },
+  {
+    "variant_key": "chr15:66721457:G:T",
+    "chrom": "chr15",
+    "pos0": "66721456",
+    "pos1": "66721457",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000015.10:66721456:G:T",
+    "status": "found",
+    "rsids": [
+      2439398
+    ]
+  },
+  {
+    "variant_key": "chr15:66722823:A:G",
+    "chrom": "chr15",
+    "pos0": "66722822",
+    "pos1": "66722823",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:66722822:A:G",
+    "status": "found",
+    "rsids": [
+      2469119
+    ]
+  },
+  {
+    "variant_key": "chr15:67040885:T:C",
+    "chrom": "chr15",
+    "pos0": "67040884",
+    "pos1": "67040885",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:67040884:T:C",
+    "status": "found",
+    "rsids": [
+      28451248
+    ]
+  },
+  {
+    "variant_key": "chr15:67103718:G:A",
+    "chrom": "chr15",
+    "pos0": "67103717",
+    "pos1": "67103718",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:67103717:G:A",
+    "status": "found",
+    "rsids": [
+      72743436
+    ]
+  },
+  {
+    "variant_key": "chr15:67627791:C:G",
+    "chrom": "chr15",
+    "pos0": "67627790",
+    "pos1": "67627791",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:67627790:C:G",
+    "status": "found",
+    "rsids": [
+      72749380
+    ]
+  },
+  {
+    "variant_key": "chr15:67627800:C:T",
+    "chrom": "chr15",
+    "pos0": "67627799",
+    "pos1": "67627800",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:67627799:C:T",
+    "status": "found",
+    "rsids": [
+      58549750
+    ]
+  },
+  {
+    "variant_key": "chr15:69440036:G:A",
+    "chrom": "chr15",
+    "pos0": "69440035",
+    "pos1": "69440036",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:69440035:G:A",
+    "status": "request_failed",
+    "rsids": [],
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "variant_key": "chr15:74416392:C:A",
+    "chrom": "chr15",
+    "pos0": "74416391",
+    "pos1": "74416392",
+    "ref": "C",
+    "alt": "A",
+    "spdi": "NC_000015.10:74416391:C:A",
+    "status": "request_failed",
+    "rsids": [],
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "variant_key": "chr15:74843916:A:C",
+    "chrom": "chr15",
+    "pos0": "74843915",
+    "pos1": "74843916",
+    "ref": "A",
+    "alt": "C",
+    "spdi": "NC_000015.10:74843915:A:C",
+    "status": "found",
+    "rsids": [
+      6939
+    ]
+  },
+  {
+    "variant_key": "chr15:74843920:C:G",
+    "chrom": "chr15",
+    "pos0": "74843919",
+    "pos1": "74843920",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:74843919:C:G",
+    "status": "found",
+    "rsids": [
+      6938
+    ]
+  },
+  {
+    "variant_key": "chr15:75358699:T:C",
+    "chrom": "chr15",
+    "pos0": "75358698",
+    "pos1": "75358699",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:75358698:T:C",
+    "status": "found",
+    "rsids": [
+      62029712
+    ]
+  },
+  {
+    "variant_key": "chr15:75450661:G:A",
+    "chrom": "chr15",
+    "pos0": "75450660",
+    "pos1": "75450661",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:75450660:G:A",
+    "status": "found",
+    "rsids": [
+      11637068
+    ]
+  },
+  {
+    "variant_key": "chr15:75639788:G:T",
+    "chrom": "chr15",
+    "pos0": "75639787",
+    "pos1": "75639788",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000015.10:75639787:G:T",
+    "status": "found",
+    "rsids": [
+      13737
+    ]
+  },
+  {
+    "variant_key": "chr15:77942609:A:C",
+    "chrom": "chr15",
+    "pos0": "77942608",
+    "pos1": "77942609",
+    "ref": "A",
+    "alt": "C",
+    "spdi": "NC_000015.10:77942608:A:C",
+    "status": "found",
+    "rsids": [
+      567929946
+    ]
+  },
+  {
+    "variant_key": "chr15:78540490:T:C",
+    "chrom": "chr15",
+    "pos0": "78540489",
+    "pos1": "78540490",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:78540489:T:C",
+    "status": "found",
+    "rsids": [
+      3813570
+    ]
+  },
+  {
+    "variant_key": "chr15:78661398:G:A",
+    "chrom": "chr15",
+    "pos0": "78661397",
+    "pos1": "78661398",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:78661397:G:A",
+    "status": "found",
+    "rsids": [
+      7163204
+    ]
+  },
+  {
+    "variant_key": "chr15:79883953:C:T",
+    "chrom": "chr15",
+    "pos0": "79883952",
+    "pos1": "79883953",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:79883952:C:T",
+    "status": "found",
+    "rsids": [
+      60995187
+    ]
+  },
+  {
+    "variant_key": "chr15:79922958:T:C",
+    "chrom": "chr15",
+    "pos0": "79922957",
+    "pos1": "79922958",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:79922957:T:C",
+    "status": "found",
+    "rsids": [
+      2733102
+    ]
+  },
+  {
+    "variant_key": "chr15:81867412:G:T",
+    "chrom": "chr15",
+    "pos0": "81867411",
+    "pos1": "81867412",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000015.10:81867411:G:T",
+    "status": "found",
+    "rsids": [
+      547513365
+    ]
+  },
+  {
+    "variant_key": "chr15:82214266:T:C",
+    "chrom": "chr15",
+    "pos0": "82214265",
+    "pos1": "82214266",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:82214265:T:C",
+    "status": "found",
+    "rsids": [
+      28715426
+    ]
+  },
+  {
+    "variant_key": "chr15:83017303:A:G",
+    "chrom": "chr15",
+    "pos0": "83017302",
+    "pos1": "83017303",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:83017302:A:G",
+    "status": "found",
+    "rsids": [
+      2032189429
+    ]
+  },
+  {
+    "variant_key": "chr15:85030267:T:C",
+    "chrom": "chr15",
+    "pos0": "85030266",
+    "pos1": "85030267",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:85030266:T:C",
+    "status": "found",
+    "rsids": [
+      12912860
+    ]
+  },
+  {
+    "variant_key": "chr15:85058294:C:G",
+    "chrom": "chr15",
+    "pos0": "85058293",
+    "pos1": "85058294",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:85058293:C:G",
+    "status": "found",
+    "rsids": [
+      12908535
+    ]
+  },
+  {
+    "variant_key": "chr15:85107246:C:T",
+    "chrom": "chr15",
+    "pos0": "85107245",
+    "pos1": "85107246",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:85107245:C:T",
+    "status": "found",
+    "rsids": [
+      35204319
+    ]
+  },
+  {
+    "variant_key": "chr15:85585824:G:A",
+    "chrom": "chr15",
+    "pos0": "85585823",
+    "pos1": "85585824",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:85585823:G:A",
+    "status": "request_failed",
+    "rsids": [],
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "variant_key": "chr15:87696077:T:G",
+    "chrom": "chr15",
+    "pos0": "87696076",
+    "pos1": "87696077",
+    "ref": "T",
+    "alt": "G",
+    "spdi": "NC_000015.10:87696076:T:G",
+    "status": "found",
+    "rsids": [
+      58411114
+    ]
+  },
+  {
+    "variant_key": "chr15:88895247:C:T",
+    "chrom": "chr15",
+    "pos0": "88895246",
+    "pos1": "88895247",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:88895246:C:T",
+    "status": "found",
+    "rsids": [
+      12148326
+    ]
+  },
+  {
+    "variant_key": "chr15:88899201:C:G",
+    "chrom": "chr15",
+    "pos0": "88899200",
+    "pos1": "88899201",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:88899200:C:G",
+    "status": "found",
+    "rsids": [
+      2280215
+    ]
+  },
+  {
+    "variant_key": "chr15:89260812:C:T",
+    "chrom": "chr15",
+    "pos0": "89260811",
+    "pos1": "89260812",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:89260811:C:T",
+    "status": "found",
+    "rsids": [
+      17803620
+    ]
+  },
+  {
+    "variant_key": "chr15:89263490:G:A",
+    "chrom": "chr15",
+    "pos0": "89263489",
+    "pos1": "89263490",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:89263489:G:A",
+    "status": "found",
+    "rsids": [
+      1981624
+    ]
+  },
+  {
+    "variant_key": "chr15:89295005:A:G",
+    "chrom": "chr15",
+    "pos0": "89295004",
+    "pos1": "89295005",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:89295004:A:G",
+    "status": "found",
+    "rsids": [
+      7183618
+    ]
+  },
+  {
+    "variant_key": "chr15:89315371:T:C",
+    "chrom": "chr15",
+    "pos0": "89315370",
+    "pos1": "89315371",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:89315370:T:C",
+    "status": "found",
+    "rsids": [
+      1138465
+    ]
+  },
+  {
+    "variant_key": "chr15:89801434:C:G",
+    "chrom": "chr15",
+    "pos0": "89801433",
+    "pos1": "89801434",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:89801433:C:G",
+    "status": "request_failed",
+    "rsids": [],
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "variant_key": "chr15:90873320:C:A",
+    "chrom": "chr15",
+    "pos0": "90873319",
+    "pos1": "90873320",
+    "ref": "C",
+    "alt": "A",
+    "spdi": "NC_000015.10:90873319:C:A",
+    "status": "found",
+    "rsids": [
+      17514846
+    ]
+  },
+  {
+    "variant_key": "chr15:90883330:G:A",
+    "chrom": "chr15",
+    "pos0": "90883329",
+    "pos1": "90883330",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:90883329:G:A",
+    "status": "found",
+    "rsids": [
+      4702
+    ]
+  },
+  {
+    "variant_key": "chr15:92905834:G:A",
+    "chrom": "chr15",
+    "pos0": "92905833",
+    "pos1": "92905834",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:92905833:G:A",
+    "status": "found",
+    "rsids": [
+      11074118
+    ]
+  },
+  {
+    "variant_key": "chr15:92924124:G:T",
+    "chrom": "chr15",
+    "pos0": "92924123",
+    "pos1": "92924124",
+    "ref": "G",
+    "alt": "T",
+    "spdi": "NC_000015.10:92924123:G:T",
+    "status": "found",
+    "rsids": [
+      8026695
+    ]
+  },
+  {
+    "variant_key": "chr15:92937777:A:G",
+    "chrom": "chr15",
+    "pos0": "92937776",
+    "pos1": "92937777",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:92937776:A:G",
+    "status": "found",
+    "rsids": [
+      2272463
+    ]
+  },
+  {
+    "variant_key": "chr15:92942226:C:G",
+    "chrom": "chr15",
+    "pos0": "92942225",
+    "pos1": "92942226",
+    "ref": "C",
+    "alt": "G",
+    "spdi": "NC_000015.10:92942225:C:G",
+    "status": "found",
+    "rsids": [
+      12904680
+    ]
+  },
+  {
+    "variant_key": "chr15:92980968:A:G",
+    "chrom": "chr15",
+    "pos0": "92980967",
+    "pos1": "92980968",
+    "ref": "A",
+    "alt": "G",
+    "spdi": "NC_000015.10:92980967:A:G",
+    "status": "found",
+    "rsids": [
+      8041241
+    ]
+  },
+  {
+    "variant_key": "chr15:92984613:G:A",
+    "chrom": "chr15",
+    "pos0": "92984612",
+    "pos1": "92984613",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:92984612:G:A",
+    "status": "found",
+    "rsids": [
+      2272458
+    ]
+  },
+  {
+    "variant_key": "chr15:92992967:C:T",
+    "chrom": "chr15",
+    "pos0": "92992966",
+    "pos1": "92992967",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:92992966:C:T",
+    "status": "found",
+    "rsids": [
+      2272457
+    ]
+  },
+  {
+    "variant_key": "chr15:93024634:A:C",
+    "chrom": "chr15",
+    "pos0": "93024633",
+    "pos1": "93024634",
+    "ref": "A",
+    "alt": "C",
+    "spdi": "NC_000015.10:93024633:A:C",
+    "status": "found",
+    "rsids": [
+      12906163
+    ]
+  },
+  {
+    "variant_key": "chr15:93024778:G:A",
+    "chrom": "chr15",
+    "pos0": "93024777",
+    "pos1": "93024778",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:93024777:G:A",
+    "status": "found",
+    "rsids": [
+      4778070
+    ]
+  },
+  {
+    "variant_key": "chr15:93025654:A:C",
+    "chrom": "chr15",
+    "pos0": "93025653",
+    "pos1": "93025654",
+    "ref": "A",
+    "alt": "C",
+    "spdi": "NC_000015.10:93025653:A:C",
+    "status": "found",
+    "rsids": [
+      9672839
+    ]
+  },
+  {
+    "variant_key": "chr15:94856753:A:T",
+    "chrom": "chr15",
+    "pos0": "94856752",
+    "pos1": "94856753",
+    "ref": "A",
+    "alt": "T",
+    "spdi": "NC_000015.10:94856752:A:T",
+    "status": "found",
+    "rsids": [
+      11631484
+    ]
+  },
+  {
+    "variant_key": "chr15:98709928:A:T",
+    "chrom": "chr15",
+    "pos0": "98709927",
+    "pos1": "98709928",
+    "ref": "A",
+    "alt": "T",
+    "spdi": "NC_000015.10:98709927:A:T",
+    "status": "found",
+    "rsids": [
+      2311770
+    ]
+  },
+  {
+    "variant_key": "chr15:98710452:G:A",
+    "chrom": "chr15",
+    "pos0": "98710451",
+    "pos1": "98710452",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:98710451:G:A",
+    "status": "found",
+    "rsids": [
+      28393695
+    ]
+  },
+  {
+    "variant_key": "chr15:98934996:G:A",
+    "chrom": "chr15",
+    "pos0": "98934995",
+    "pos1": "98934996",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:98934995:G:A",
+    "status": "found",
+    "rsids": [
+      2229765
+    ]
+  },
+  {
+    "variant_key": "chr15:101387697:T:G",
+    "chrom": "chr15",
+    "pos0": "101387696",
+    "pos1": "101387697",
+    "ref": "T",
+    "alt": "G",
+    "spdi": "NC_000015.10:101387696:T:G",
+    "status": "found",
+    "rsids": [
+      74846912
+    ]
+  },
+  {
+    "variant_key": "chr15:101387705:C:T",
+    "chrom": "chr15",
+    "pos0": "101387704",
+    "pos1": "101387705",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:101387704:C:T",
+    "status": "found",
+    "rsids": [
+      28432089
+    ]
+  },
+  {
+    "variant_key": "chr15:101411381:G:A",
+    "chrom": "chr15",
+    "pos0": "101411380",
+    "pos1": "101411381",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:101411380:G:A",
+    "status": "found",
+    "rsids": [
+      12442339
+    ]
+  },
+  {
+    "variant_key": "chr15:101414609:G:A",
+    "chrom": "chr15",
+    "pos0": "101414608",
+    "pos1": "101414609",
+    "ref": "G",
+    "alt": "A",
+    "spdi": "NC_000015.10:101414608:G:A",
+    "status": "found",
+    "rsids": [
+      7169873
+    ]
+  },
+  {
+    "variant_key": "chr15:101472421:C:T",
+    "chrom": "chr15",
+    "pos0": "101472420",
+    "pos1": "101472421",
+    "ref": "C",
+    "alt": "T",
+    "spdi": "NC_000015.10:101472420:C:T",
+    "status": "found",
+    "rsids": [
+      2172851
+    ]
+  },
+  {
+    "variant_key": "chr15:101481317:T:C",
+    "chrom": "chr15",
+    "pos0": "101481316",
+    "pos1": "101481317",
+    "ref": "T",
+    "alt": "C",
+    "spdi": "NC_000015.10:101481316:T:C",
+    "status": "found",
+    "rsids": [
+      2006984
+    ]
+  }
+]

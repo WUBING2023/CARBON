@@ -1,0 +1,146 @@
+[
+  {
+    "task_id": "AARS_K562_ENCSR825SVO",
+    "stratification": "window_phyloP",
+    "metric": "median_delta_pcc_vs_bin",
+    "spearman_r": 1.0,
+    "spearman_p": 0.0,
+    "kendall_tau": 1.0,
+    "kendall_p": 0.08333333333333333
+  },
+  {
+    "task_id": "AARS_K562_ENCSR825SVO",
+    "stratification": "window_phyloP",
+    "metric": "median_delta_spearman_vs_bin",
+    "spearman_r": 0.7999999999999999,
+    "spearman_p": 0.20000000000000007,
+    "kendall_tau": 0.6666666666666669,
+    "kendall_p": 0.3333333333333333
+  },
+  {
+    "task_id": "AARS_K562_ENCSR825SVO",
+    "stratification": "window_phyloP",
+    "metric": "delta_signal_ap_vs_bin",
+    "spearman_r": 1.0,
+    "spearman_p": 0.0,
+    "kendall_tau": 1.0,
+    "kendall_p": 0.08333333333333333
+  },
+  {
+    "task_id": "AARS_K562_ENCSR825SVO",
+    "stratification": "window_phyloP",
+    "metric": "delta_peak_ap_vs_bin",
+    "spearman_r": 1.0,
+    "spearman_p": 0.0,
+    "kendall_tau": 1.0,
+    "kendall_p": 0.08333333333333333
+  },
+  {
+    "task_id": "AARS_K562_ENCSR825SVO",
+    "stratification": "peak_core_phyloP",
+    "metric": "median_delta_pcc_vs_bin",
+    "spearman_r": 1.0,
+    "spearman_p": 0.0,
+    "kendall_tau": 1.0,
+    "kendall_p": 0.08333333333333333
+  },
+  {
+    "task_id": "AARS_K562_ENCSR825SVO",
+    "stratification": "peak_core_phyloP",
+    "metric": "median_delta_spearman_vs_bin",
+    "spearman_r": 0.39999999999999997,
+    "spearman_p": 0.6,
+    "kendall_tau": 0.3333333333333334,
+    "kendall_p": 0.75
+  },
+  {
+    "task_id": "AARS_K562_ENCSR825SVO",
+    "stratification": "peak_core_phyloP",
+    "metric": "delta_signal_ap_vs_bin",
+    "spearman_r": 1.0,
+    "spearman_p": 0.0,
+    "kendall_tau": 1.0,
+    "kendall_p": 0.08333333333333333
+  },
+  {
+    "task_id": "AARS_K562_ENCSR825SVO",
+    "stratification": "peak_core_phyloP",
+    "metric": "delta_peak_ap_vs_bin",
+    "spearman_r": 1.0,
+    "spearman_p": 0.0,
+    "kendall_tau": 1.0,
+    "kendall_p": 0.08333333333333333
+  },
+  {
+    "task_id": "AATF_K562_ENCSR819XBT",
+    "stratification": "window_phyloP",
+    "metric": "median_delta_pcc_vs_bin",
+    "spearman_r": -0.7999999999999999,
+    "spearman_p": 0.20000000000000007,
+    "kendall_tau": -0.6666666666666669,
+    "kendall_p": 0.3333333333333333
+  },
+  {
+    "task_id": "AATF_K562_ENCSR819XBT",
+    "stratification": "window_phyloP",
+    "metric": "median_delta_spearman_vs_bin",
+    "spearman_r": 0.19999999999999998,
+    "spearman_p": 0.8,
+    "kendall_tau": 0.0,
+    "kendall_p": 1.0
+  },
+  {
+    "task_id": "AATF_K562_ENCSR819XBT",
+    "stratification": "window_phyloP",
+    "metric": "delta_signal_ap_vs_bin",
+    "spearman_r": 0.39999999999999997,
+    "spearman_p": 0.6,
+    "kendall_tau": 0.3333333333333334,
+    "kendall_p": 0.75
+  },
+  {
+    "task_id": "AATF_K562_ENCSR819XBT",
+    "stratification": "window_phyloP",
+    "metric": "delta_peak_ap_vs_bin",
+    "spearman_r": 0.39999999999999997,
+    "spearman_p": 0.6,
+    "kendall_tau": 0.3333333333333334,
+    "kendall_p": 0.75
+  },
+  {
+    "task_id": "AATF_K562_ENCSR819XBT",
+    "stratification": "peak_core_phyloP",
+    "metric": "median_delta_pcc_vs_bin",
+    "spearman_r": 0.39999999999999997,
+    "spearman_p": 0.6,
+    "kendall_tau": 0.3333333333333334,
+    "kendall_p": 0.75
+  },
+  {
+    "task_id": "AATF_K562_ENCSR819XBT",
+    "stratification": "peak_core_phyloP",
+    "metric": "median_delta_spearman_vs_bin",
+    "spearman_r": 1.0,
+    "spearman_p": 0.0,
+    "kendall_tau": 1.0,
+    "kendall_p": 0.08333333333333333
+  },
+  {
+    "task_id": "AATF_K562_ENCSR819XBT",
+    "stratification": "peak_core_phyloP",
+    "metric": "delta_signal_ap_vs_bin",
+    "spearman_r": 0.7999999999999999,
+    "spearman_p": 0.20000000000000007,
+    "kendall_tau": 0.6666666666666669,
+    "kendall_p": 0.3333333333333333
+  },
+  {
+    "task_id": "AATF_K562_ENCSR819XBT",
+    "stratification": "peak_core_phyloP",
+    "metric": "delta_peak_ap_vs_bin",
+    "spearman_r": 0.7999999999999999,
+    "spearman_p": 0.20000000000000007,
+    "kendall_tau": 0.6666666666666669,
+    "kendall_p": 0.3333333333333333
+  }
+]

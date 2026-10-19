@@ -1,0 +1,22 @@
+{
+  "task": "MATR3_K562_ENCSR440SUX",
+  "input_files": [
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/MATR3_K562_ENCSR440SUX/_5ch/MATR3_K562_ENCSR440SUX_chr8_5ch.h5",
+      "bytes": 1624754,
+      "n_windows": 4160,
+      "sha256": "9133dcd364d4961255019e87af6010becb96c4aa09d4d38873f9e127cd6e8d37"
+    },
+    {
+      "path": "/data/CARBON_PROJECT/\u6570\u636e/h5data/MATR3_K562_ENCSR440SUX/_5ch/MATR3_K562_ENCSR440SUX_chr15_5ch.h5",
+      "bytes": 1281396,
+      "n_windows": 3190,
+      "sha256": "a95b5027dc0acbcf76739d299b85613d6c06ade9cc1d15cea1567021185b65d1"
+    }
+  ],
+  "n_total": 7350,
+  "n_eligible": 7350,
+  "n_selected": 1024,
+  "selection": "external_preferences_20261004 hash",
+  "cache_sha256": "50bf16f89f7f04b69e393465a221bbdb5ad0241077dec766da16708d0cfa9c0a"
+}

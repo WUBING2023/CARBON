@@ -1,0 +1,1788 @@
+{
+  "rectangular_overlap_mm": 12,
+  "sector_overlap_leaves": 2,
+  "sector_bounds_degrees": [
+    [
+      86.71232876712328,
+      183.69863013698628
+    ],
+    [
+      -3.6986301369862895,
+      93.28767123287672
+    ],
+    [
+      177.12328767123287,
+      274.1095890410959
+    ],
+    [
+      267.5342465753424,
+      362.87671232876716
+    ]
+  ],
+  "all_labels_and_full_logos_have_complete_copy": true,
+  "missing_tasks": [],
+  "main_fig3_sha256": "02910f8c9f57612085b27ab4b3f00656c367f7db846ebe2fbb110c3d7dda42f9",
+  "S21_sha256": "d2d7920ea9471db171111519fd98ff538e3de6a900926cb0cbe93b0856fde077",
+  "coverage": [
+    {
+      "task": "HNRNPA1_HepG2_ENCSR769UEW",
+      "label": "HNRNPA1 HepG2",
+      "nucleotide_paths": 25,
+      "complete_in_quadrants": [
+        1,
+        2
+      ]
+    },
+    {
+      "task": "CSTF2T_K562_ENCSR840DRD",
+      "label": "CSTF2T K562",
+      "nucleotide_paths": 24,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "GTF2F1_HepG2_ENCSR265ZIS",
+      "label": "GTF2F1 HepG2",
+      "nucleotide_paths": 26,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "GTF2F1_K562_ENCSR736AAG",
+      "label": "GTF2F1 K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "PRPF4_HepG2_ENCSR977OXG",
+      "label": "PRPF4 HepG2",
+      "nucleotide_paths": 29,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "FAM120A_HepG2_ENCSR987NYS",
+      "label": "FAM120A HepG2",
+      "nucleotide_paths": 21,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "FUS_K562_ENCSR069EVH",
+      "label": "FUS K562",
+      "nucleotide_paths": 29,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "AKAP8L_K562_ENCSR206RXT",
+      "label": "AKAP8L K562",
+      "nucleotide_paths": 28,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "HNRNPU_adrenalgland_ENCSR368GER",
+      "label": "HNRNPU adrenal gland",
+      "nucleotide_paths": 28,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "HNRNPU_HepG2_ENCSR240MVJ",
+      "label": "HNRNPU HepG2",
+      "nucleotide_paths": 25,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SRSF9_HepG2_ENCSR773KRC",
+      "label": "SRSF9 HepG2",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "QKI_HepG2_ENCSR570WLM",
+      "label": "QKI HepG2",
+      "nucleotide_paths": 26,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "RBFOX2_K562_ENCSR756CKJ",
+      "label": "RBFOX2 K562",
+      "nucleotide_paths": 25,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "HNRNPA1_K562_ENCSR154HRN",
+      "label": "HNRNPA1 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "TAF15_HepG2_ENCSR841EQA",
+      "label": "TAF15 HepG2",
+      "nucleotide_paths": 26,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "PRPF8_HepG2_ENCSR121NVA",
+      "label": "PRPF8 HepG2",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "PRPF8_K562_ENCSR534YOI",
+      "label": "PRPF8 K562",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "RBFOX2_HepG2_ENCSR987FTF",
+      "label": "RBFOX2 HepG2",
+      "nucleotide_paths": 27,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SRSF1_HepG2_ENCSR989VIY",
+      "label": "SRSF1 HepG2",
+      "nucleotide_paths": 29,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "PUM2_K562_ENCSR661ICQ",
+      "label": "PUM2 K562",
+      "nucleotide_paths": 23,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "DKC1_HepG2_ENCSR301TFY",
+      "label": "DKC1 HepG2",
+      "nucleotide_paths": 27,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "EIF4G2_K562_ENCSR307YIW",
+      "label": "EIF4G2 K562",
+      "nucleotide_paths": 27,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "TARDBP_K562_ENCSR584TCR",
+      "label": "TARDBP K562",
+      "nucleotide_paths": 28,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "QKI_K562_ENCSR366YOG",
+      "label": "QKI K562",
+      "nucleotide_paths": 23,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "HNRNPL_HepG2_ENCSR724RDN",
+      "label": "HNRNPL HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "HNRNPK_HepG2_ENCSR828ZID",
+      "label": "HNRNPK HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "RBM5_HepG2_ENCSR489ABS",
+      "label": "RBM5 HepG2",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "YBX3_HepG2_ENCSR735HOK",
+      "label": "YBX3 HepG2",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "RBM22_HepG2_ENCSR456JJQ",
+      "label": "RBM22 HepG2",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SF3A3_HepG2_ENCSR331MIC",
+      "label": "SF3A3 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "CSTF2_HepG2_ENCSR384MWO",
+      "label": "CSTF2 HepG2",
+      "nucleotide_paths": 21,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "KHDRBS1_K562_ENCSR628IDK",
+      "label": "KHDRBS1 K562",
+      "nucleotide_paths": 24,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "DROSHA_HepG2_ENCSR834YLD",
+      "label": "DROSHA HepG2",
+      "nucleotide_paths": 28,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "DROSHA_K562_ENCSR653HQC",
+      "label": "DROSHA K562",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "HNRNPL_K562_ENCSR795CAI",
+      "label": "HNRNPL K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "AATF_K562_ENCSR819XBT",
+      "label": "AATF K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "BUD13_K562_ENCSR663WES",
+      "label": "BUD13 K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "PUM1_K562_ENCSR308YNT",
+      "label": "PUM1 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "DDX59_HepG2_ENCSR214BZA",
+      "label": "DDX59 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SAFB_HepG2_ENCSR337XGI",
+      "label": "SAFB HepG2",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "AQR_K562_ENCSR606BPV",
+      "label": "AQR K562",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "YBX3_K562_ENCSR529FKI",
+      "label": "YBX3 K562",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SRSF7_K562_ENCSR468FSW",
+      "label": "SRSF7 K562",
+      "nucleotide_paths": 29,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "EWSR1_K562_ENCSR887LPK",
+      "label": "EWSR1 K562",
+      "nucleotide_paths": 29,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SRSF1_K562_ENCSR432XUP",
+      "label": "SRSF1 K562",
+      "nucleotide_paths": 24,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SFPQ_HepG2_ENCSR965DLL",
+      "label": "SFPQ HepG2",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "AQR_HepG2_ENCSR018WPY",
+      "label": "AQR HepG2",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "METAP2_K562_ENCSR303OQD",
+      "label": "METAP2 K562",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SRSF7_HepG2_ENCSR513NDD",
+      "label": "SRSF7 HepG2",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SF3B4_HepG2_ENCSR279UJF",
+      "label": "SF3B4 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "LARP7_K562_ENCSR456KXI",
+      "label": "LARP7 K562",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "BCCIP_HepG2_ENCSR485QCG",
+      "label": "BCCIP HepG2",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "IGF2BP2_K562_ENCSR062NNB",
+      "label": "IGF2BP2 K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "SAFB2_K562_ENCSR943MHU",
+      "label": "SAFB2 K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        2
+      ]
+    },
+    {
+      "task": "PPIG_HepG2_ENCSR097NEE",
+      "label": "PPIG HepG2",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        2,
+        4
+      ]
+    },
+    {
+      "task": "DDX24_K562_ENCSR999WKT",
+      "label": "DDX24 K562",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        2,
+        4
+      ]
+    },
+    {
+      "task": "SERBP1_K562_ENCSR121GQH",
+      "label": "SERBP1 K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "U2AF1_K562_ENCSR862QCH",
+      "label": "U2AF1 K562",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "PTBP1_HepG2_ENCSR384KAN",
+      "label": "PTBP1 HepG2",
+      "nucleotide_paths": 29,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "PTBP1_K562_ENCSR981WKN",
+      "label": "PTBP1 K562",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "KHSRP_K562_ENCSR438GZQ",
+      "label": "KHSRP K562",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "FUS_HepG2_ENCSR464OSH",
+      "label": "FUS HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "TAF15_K562_ENCSR568DZW",
+      "label": "TAF15 K562",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "PHF6_K562_ENCSR001KKZ",
+      "label": "PHF6 K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "SUPV3L1_HepG2_ENCSR580MFX",
+      "label": "SUPV3L1 HepG2",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "GRSF1_HepG2_ENCSR668MJX",
+      "label": "GRSF1 HepG2",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "LARP4_HepG2_ENCSR805SRN",
+      "label": "LARP4 HepG2",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "ZC3H8_K562_ENCSR181NRW",
+      "label": "ZC3H8 K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "LIN28B_HepG2_ENCSR861GYE",
+      "label": "LIN28B HepG2",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "UCHL5_K562_ENCSR349KMG",
+      "label": "UCHL5 K562",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "LIN28B_K562_ENCSR970NKP",
+      "label": "LIN28B K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "NONO_K562_ENCSR861PAR",
+      "label": "NONO K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "NOLC1_K562_ENCSR001VAC",
+      "label": "NOLC1 K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "HNRNPUL1_K562_ENCSR571VHI",
+      "label": "HNRNPUL1 K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "STAU2_HepG2_ENCSR979EWD",
+      "label": "STAU2 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "ZRANB2_K562_ENCSR663NRA",
+      "label": "ZRANB2 K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "SF3B1_K562_ENCSR133QEA",
+      "label": "SF3B1 K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "APOBEC3C_K562_ENCSR739VVT",
+      "label": "APOBEC3C K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "GPKOW_K562_ENCSR647CLF",
+      "label": "GPKOW K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "EXOSC5_K562_ENCSR013CTQ",
+      "label": "EXOSC5 K562",
+      "nucleotide_paths": 28,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "SUB1_HepG2_ENCSR406OOZ",
+      "label": "SUB1 HepG2",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "ILF3_K562_ENCSR438KWZ",
+      "label": "ILF3 K562",
+      "nucleotide_paths": 28,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "IGF2BP1_K562_ENCSR975KIR",
+      "label": "IGF2BP1 K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "ILF3_HepG2_ENCSR786TSC",
+      "label": "ILF3 HepG2",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "FAM120A_K562_ENCSR006OEQ",
+      "label": "FAM120A K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "PABPC4_K562_ENCSR958FKZ",
+      "label": "PABPC4 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "EFTUD2_K562_ENCSR844RVX",
+      "label": "EFTUD2 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "ZC3H11A_HepG2_ENCSR907GUB",
+      "label": "ZC3H11A HepG2",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "KHSRP_HepG2_ENCSR366DGX",
+      "label": "KHSRP HepG2",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "FUBP3_HepG2_ENCSR486YGP",
+      "label": "FUBP3 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "SUPV3L1_K562_ENCSR580OFI",
+      "label": "SUPV3L1 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "TIAL1_HepG2_ENCSR322HHA",
+      "label": "TIAL1 HepG2",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "RPS11_K562_ENCSR269AJF",
+      "label": "RPS11 K562",
+      "nucleotide_paths": 28,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "TIA1_HepG2_ENCSR623VEQ",
+      "label": "TIA1 HepG2",
+      "nucleotide_paths": 29,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "EIF3G_K562_ENCSR023PKW",
+      "label": "EIF3G K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "LARP7_HepG2_ENCSR961OKA",
+      "label": "LARP7 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "DDX6_HepG2_ENCSR141OIM",
+      "label": "DDX6 HepG2",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "PUS1_K562_ENCSR291XPT",
+      "label": "PUS1 K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "WDR3_K562_ENCSR202HKN",
+      "label": "WDR3 K562",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "SBDS_K562_ENCSR059CWF",
+      "label": "SBDS K562",
+      "nucleotide_paths": 29,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "UTP18_K562_ENCSR964VOX",
+      "label": "UTP18 K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "WRN_K562_ENCSR038JME",
+      "label": "WRN K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "DDX6_K562_ENCSR893EFU",
+      "label": "DDX6 K562",
+      "nucleotide_paths": 28,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "HNRNPC_K562_ENCSR249ROI",
+      "label": "HNRNPC K562",
+      "nucleotide_paths": 29,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "NPM1_K562_ENCSR867DSZ",
+      "label": "NPM1 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "NSUN2_K562_ENCSR081JYH",
+      "label": "NSUN2 K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "SF3B4_K562_ENCSR267OLV",
+      "label": "SF3B4 K562",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "U2AF2_K562_ENCSR893RAV",
+      "label": "U2AF2 K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        4
+      ]
+    },
+    {
+      "task": "U2AF2_HepG2_ENCSR202BFN",
+      "label": "U2AF2 HepG2",
+      "nucleotide_paths": 29,
+      "complete_in_quadrants": [
+        3,
+        4
+      ]
+    },
+    {
+      "task": "TRA2A_K562_ENCSR365NVO",
+      "label": "TRA2A K562",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        3,
+        4
+      ]
+    },
+    {
+      "task": "HLTF_K562_ENCSR589YHM",
+      "label": "HLTF K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "RBM22_K562_ENCSR295OKT",
+      "label": "RBM22 K562",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DDX3X_HepG2_ENCSR648LAH",
+      "label": "DDX3X HepG2",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "XRN2_HepG2_ENCSR655NZA",
+      "label": "XRN2 HepG2",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SND1_HepG2_ENCSR061EVO",
+      "label": "SND1 HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SLTM_K562_ENCSR000SSH",
+      "label": "SLTM K562",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DDX42_K562_ENCSR576SHT",
+      "label": "DDX42 K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "FMR1_K562_ENCSR331VNX",
+      "label": "FMR1 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "LSM11_K562_ENCSR022BVV",
+      "label": "LSM11 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "LARP4_K562_ENCSR888YTT",
+      "label": "LARP4 K562",
+      "nucleotide_paths": 28,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SAFB_K562_ENCSR484LAB",
+      "label": "SAFB K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "XRN2_K562_ENCSR657TZB",
+      "label": "XRN2 K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "RBM15_K562_ENCSR196INN",
+      "label": "RBM15 K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "NCBP2_K562_ENCSR484LTQ",
+      "label": "NCBP2 K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SDAD1_K562_ENCSR906ZJF",
+      "label": "SDAD1 K562",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "TBRG4_HepG2_ENCSR916SRV",
+      "label": "TBRG4 HepG2",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DDX21_K562_ENCSR040QLV",
+      "label": "DDX21 K562",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DGCR8_HepG2_ENCSR061SZV",
+      "label": "DGCR8 HepG2",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "POLR2G_HepG2_ENCSR820WHR",
+      "label": "POLR2G HepG2",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "YWHAG_K562_ENCSR867ZVK",
+      "label": "YWHAG K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "XPO5_HepG2_ENCSR921SXC",
+      "label": "XPO5 HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SND1_K562_ENCSR128VXC",
+      "label": "SND1 K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "FTO_HepG2_ENCSR903PRV",
+      "label": "FTO HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "ABCF1_K562_ENCSR089BXO",
+      "label": "ABCF1 K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "PPIL4_K562_ENCSR197INS",
+      "label": "PPIL4 K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DGCR8_adrenalgland_ENCSR634MFO",
+      "label": "DGCR8 adrenal gland",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "MTPAP_K562_ENCSR200DKE",
+      "label": "MTPAP K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "FASTKD2_HepG2_ENCSR023UHL",
+      "label": "FASTKD2 HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "G3BP1_HepG2_ENCSR721HPX",
+      "label": "G3BP1 HepG2",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "CPSF6_K562_ENCSR532VUB",
+      "label": "CPSF6 K562",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "TRA2A_HepG2_ENCSR314UMJ",
+      "label": "TRA2A HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "ZNF800_K562_ENCSR586DGV",
+      "label": "ZNF800 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "GRWD1_HepG2_ENCSR893NWB",
+      "label": "GRWD1 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "ZNF622_K562_ENCSR657TZZ",
+      "label": "ZNF622 K562",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "BUD13_HepG2_ENCSR830BSQ",
+      "label": "BUD13 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "NOLC1_HepG2_ENCSR194HZU",
+      "label": "NOLC1 HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "EIF3H_HepG2_ENCSR916XIV",
+      "label": "EIF3H HepG2",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "NCBP2_HepG2_ENCSR018RVZ",
+      "label": "NCBP2 HepG2",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "GEMIN5_K562_ENCSR238CLX",
+      "label": "GEMIN5 K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "RPS3_K562_ENCSR120EAR",
+      "label": "RPS3 K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DDX3X_K562_ENCSR930BZL",
+      "label": "DDX3X K562",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "DHX30_K562_ENCSR529GSJ",
+      "label": "DHX30 K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "FXR2_K562_ENCSR224QWC",
+      "label": "FXR2 K562",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "HNRNPM_HepG2_ENCSR267UCX",
+      "label": "HNRNPM HepG2",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "HNRNPM_K562_ENCSR412NOW",
+      "label": "HNRNPM K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "PCBP2_HepG2_ENCSR339FUY",
+      "label": "PCBP2 HepG2",
+      "nucleotide_paths": 23,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "GRWD1_K562_ENCSR999YGP",
+      "label": "GRWD1 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "HLTF_HepG2_ENCSR647HOX",
+      "label": "HLTF HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "NOL12_HepG2_ENCSR820DQJ",
+      "label": "NOL12 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SLBP_K562_ENCSR483NOP",
+      "label": "SLBP K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "FKBP4_HepG2_ENCSR018ZUE",
+      "label": "FKBP4 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SLTM_HepG2_ENCSR351PVI",
+      "label": "SLTM HepG2",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "SSB_HepG2_ENCSR352STY",
+      "label": "SSB HepG2",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        3
+      ]
+    },
+    {
+      "task": "RPS3_HepG2_ENCSR766FAC",
+      "label": "RPS3 HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        1,
+        3
+      ]
+    },
+    {
+      "task": "PABPN1_HepG2_ENCSR820UYE",
+      "label": "PABPN1 HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        1,
+        3
+      ]
+    },
+    {
+      "task": "EIF3D_HepG2_ENCSR041NUV",
+      "label": "EIF3D HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "LSM11_HepG2_ENCSR135VMS",
+      "label": "LSM11 HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "DDX52_HepG2_ENCSR970FEW",
+      "label": "DDX52 HepG2",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "AARS_K562_ENCSR825SVO",
+      "label": "AARS K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "WDR43_HepG2_ENCSR085JPB",
+      "label": "WDR43 HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "DDX52_K562_ENCSR154CSN",
+      "label": "DDX52 K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "NIP7_HepG2_ENCSR361OCV",
+      "label": "NIP7 HepG2",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "AKAP1_HepG2_ENCSR356ZMO",
+      "label": "AKAP1 HepG2",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "IGF2BP1_HepG2_ENCSR744GEU",
+      "label": "IGF2BP1 HepG2",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "IGF2BP3_HepG2_ENCSR993OLA",
+      "label": "IGF2BP3 HepG2",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "AGGF1_HepG2_ENCSR543TPH",
+      "label": "AGGF1 HepG2",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "CPEB4_K562_ENCSR046JHH",
+      "label": "CPEB4 K562",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "ZC3H11A_K562_ENCSR712IAG",
+      "label": "ZC3H11A K562",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "UCHL5_HepG2_ENCSR490IEE",
+      "label": "UCHL5 HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "ZNF800_HepG2_ENCSR685AUR",
+      "label": "ZNF800 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "BCLAF1_HepG2_ENCSR876EYA",
+      "label": "BCLAF1 HepG2",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "XRCC6_K562_ENCSR258QKO",
+      "label": "XRCC6 K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "DGCR8_K562_ENCSR947JVR",
+      "label": "DGCR8 K562",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "EFTUD2_HepG2_ENCSR527DXF",
+      "label": "EFTUD2 HepG2",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "FTO_K562_ENCSR989SMC",
+      "label": "FTO K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "RBM15_HepG2_ENCSR754NDA",
+      "label": "RBM15 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "NKRF_HepG2_ENCSR277DEO",
+      "label": "NKRF HepG2",
+      "nucleotide_paths": 29,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "HNRNPK_K562_ENCSR268ETU",
+      "label": "HNRNPK K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "PCBP1_K562_ENCSR922WJV",
+      "label": "PCBP1 K562",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "MATR3_HepG2_ENCSR290VLT",
+      "label": "MATR3 HepG2",
+      "nucleotide_paths": 27,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "MATR3_K562_ENCSR440SUX",
+      "label": "MATR3 K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "AGGF1_K562_ENCSR725ARB",
+      "label": "AGGF1 K562",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "SUGP2_HepG2_ENCSR506UPY",
+      "label": "SUGP2 HepG2",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "U2AF1_HepG2_ENCSR328LLU",
+      "label": "U2AF1 HepG2",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "TIA1_K562_ENCSR057DWB",
+      "label": "TIA1 K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "TROVE2_K562_ENCSR539ZTS",
+      "label": "TROVE2 K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "EXOSC5_HepG2_ENCSR693JWP",
+      "label": "EXOSC5 HepG2",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "TBRG4_K562_ENCSR506OTC",
+      "label": "TBRG4 K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "FASTKD2_K562_ENCSR887FHF",
+      "label": "FASTKD2 K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "WDR43_K562_ENCSR349CMI",
+      "label": "WDR43 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "GNL3_K562_ENCSR301UQM",
+      "label": "GNL3 K562",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "SSB_K562_ENCSR356MSW",
+      "label": "SSB K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "UPF1_K562_ENCSR456ASB",
+      "label": "UPF1 K562",
+      "nucleotide_paths": 30,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "UTP3_K562_ENCSR734ZHL",
+      "label": "UTP3 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "FXR2_HepG2_ENCSR973HOJ",
+      "label": "FXR2 HepG2",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "FXR1_K562_ENCSR774RFN",
+      "label": "FXR1 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "HNRNPUL1_HepG2_ENCSR755TJC",
+      "label": "HNRNPUL1 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "SMNDC1_K562_ENCSR658IQB",
+      "label": "SMNDC1 K562",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "DDX55_HepG2_ENCSR845VGB",
+      "label": "DDX55 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "UPF1_HepG2_ENCSR539BEV",
+      "label": "UPF1 HepG2",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "DHX30_HepG2_ENCSR565DGW",
+      "label": "DHX30 HepG2",
+      "nucleotide_paths": 31,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "PCBP1_HepG2_ENCSR256CHX",
+      "label": "PCBP1 HepG2",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "DDX51_K562_ENCSR145NLR",
+      "label": "DDX51 K562",
+      "nucleotide_paths": 33,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "SDAD1_HepG2_ENCSR050BDZ",
+      "label": "SDAD1 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "XRCC6_HepG2_ENCSR571ROL",
+      "label": "XRCC6 HepG2",
+      "nucleotide_paths": 34,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "CDC40_HepG2_ENCSR815VVI",
+      "label": "CDC40 HepG2",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "AKAP1_K562_ENCSR177QQY",
+      "label": "AKAP1 K562",
+      "nucleotide_paths": 36,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "NIPBL_K562_ENCSR891RIC",
+      "label": "NIPBL K562",
+      "nucleotide_paths": 35,
+      "complete_in_quadrants": [
+        1
+      ]
+    },
+    {
+      "task": "UTP18_HepG2_ENCSR488JKQ",
+      "label": "UTP18 HepG2",
+      "nucleotide_paths": 32,
+      "complete_in_quadrants": [
+        1,
+        2
+      ]
+    }
+  ]
+}

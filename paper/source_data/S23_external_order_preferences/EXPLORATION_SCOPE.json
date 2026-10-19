@@ -1,0 +1,9 @@
+{
+  "source": "M:\\RBP\\PaperSpine_ABCD_CARBON_20260922\\reference_rebuild_20260924\\supervised_expansion_20261004\\sequence_landscape_20261005\\direction_b\\display_packet.npz",
+  "computed": "only subtraction of existing perword outputs, descriptive means/medians/sign counts; no model,bootstrap,newinferentialendpoint",
+  "selection": "all frozen QKI/TIA1 adjacentneighbors; extra25 candidates external difference largest among frequency-opposite edges, no model effect used",
+  "all1024_adjacent_pairs": 1536,
+  "frozen35_local_edges": 52,
+  "selection_is_exploratory_not_preregistered": true,
+  "cannot_establish": "wet native variant effects, biologicaln=32, causal conservation, generalFull>Sequence"
+}

@@ -1,0 +1,90 @@
+\subsubsection{Multi-scale motif extraction and channel recalibration}\label{subsec:blocks}
+
+The MSME applies three parallel one-dimensional convolutions with widths $k\in\{3,5,7\}$, each producing 32 channels. For output channel $d$,
+\begin{equation}
+T^{(k)}_{i,d}=b^{(k)}_d+
+\sum_{j=-(k-1)/2}^{(k-1)/2}\sum_{c=1}^{5}
+K^{(k)}_{j,c,d}X_{i+j,c}.
+\label{eq:multiscale_convolution}
+\end{equation}
+Zero padding preserves length. Batch normalisation (BN) and GELU are applied in each branch:
+$V^{(k)}=\operatorname{GELU}(\operatorname{BN}(T^{(k)}))$.
+Concatenation gives $V_i=[V_i^{(3)};V_i^{(5)};V_i^{(7)}]\in\mathbb R^{96}$, retaining the common nucleotide coordinate.
+
+A Squeeze-and-Excitation (SE) block \citep{hu2018senet} uses the pooled feature vector to calculate one gate per channel,
+\begin{equation}
+\begin{aligned}
+m&=\frac1L\sum_{i=1}^{L}V_i,\\
+a&=\sigma\!\left(W_2\operatorname{ReLU}(W_1m+b_1)+b_2\right).
+\end{aligned}
+\label{eq:se_gate}
+\end{equation}
+Here $\sigma(x)=(1+\exp(-x))^{-1}$, $W_1\in\mathbb R^{24\times96}$ and $W_2\in\mathbb R^{96\times24}$; the reduction ratio is 4. The same gate rescales every position's unpooled features. A pointwise fusion and an independent projected input shortcut \citep{he2016resnet} yield
+\begin{equation}
+F_i=W_f(a\odot V_i)+b_f+W_sX_i+b_s
+\in\mathbb R^{96}.
+\label{eq:motif_residual}
+\end{equation}
+The operator $\odot$ is elementwise multiplication; $W_f$ and $W_s$ map 96 and five channels, respectively, to 96. No activation follows the sum. SE thus supplies a global channel summary even in the NoGRU control.
+
+\subsubsection{Recurrent context encoding}
+
+The RCE first projects $F_i$ to $e_i=W_pF_i+b_p\in\mathbb R^{64}$ and applies a single bidirectional GRU \citep{cho2014rnnencoder,schuster1997brnn}. For one direction, with $h_0=0$ and 64 hidden units, the reset gate, update gate, candidate and state follow the PyTorch convention:
+\begin{align}
+r_i&=\sigma(W_{ir}e_i+b_{ir}+W_{hr}h_{i-1}+b_{hr}),
+\label{eq:gru_reset}\\
+g_i&=\sigma(W_{ig}e_i+b_{ig}+W_{hg}h_{i-1}+b_{hg}),
+\label{eq:gru_update}\\
+n_i&=\tanh\!\big(W_{in}e_i+b_{in}
+\nonumber\\[-2pt]
+&\hspace{18mm}+r_i\odot(W_{hn}h_{i-1}+b_{hn})\big),
+\label{eq:gru_candidate}\\
+h_i&=(1-g_i)\odot n_i+g_i\odot h_{i-1}.
+\label{eq:gru_state}
+\end{align}
+Each $W_{i*}$ and $W_{h*}$ is $64\times64$. The reverse direction has independent parameters and a zero terminal state. Concatenating directional states and adding a $96\rightarrow128$ shortcut gives
+\begin{equation}
+v_i=[\overrightarrow h_i;\overleftarrow h_i]+W_rF_i+b_r
+\in\mathbb R^{128}.
+\label{eq:bidirectional_sum}
+\end{equation}
+Layer normalisation \citep{ba2016layernorm} operates across features at each position, followed by dropout:
+\begin{equation}
+\begin{aligned}
+\mu_i&=\frac1{128}\sum_{d=1}^{128}v_{i,d},\\
+\nu_i&=\frac1{128}\sum_{d=1}^{128}(v_{i,d}-\mu_i)^2,\\
+u_i&=\mathcal D_{0.2}\!\left(
+\eta\odot\frac{v_i-\mu_i}{\sqrt{\nu_i+10^{-5}}}+\xi\right).
+\end{aligned}
+\label{eq:recurrent_residual}
+\end{equation}
+The learned scale and offset are $\eta,\xi\in\mathbb R^{128}$; $\mathcal D_{0.2}$ denotes dropout with probability 0.2, disabled at inference. NoGRU removes the recurrent path and its input projection while retaining the shortcut, normalisation and dropout. CARBON uses GRU and SE context without multi-head self-attention; iDeepB uses a BiLSTM followed by multi-head attention \citep{liu2025ideepb}.
+
+\subsubsection{Profile and total-count decoding}
+
+The profile head transforms $u_i$ with pointwise layers of widths $128\rightarrow64\rightarrow32\rightarrow1$. With $q_i^{(0)}=u_i$, its two hidden layers and final logit are
+\begin{equation}
+\begin{aligned}
+q^{(j)}&=\mathcal D_{0.2}\!\left[
+\operatorname{GELU}\!\left(\operatorname{BN}(A_jq^{(j-1)}+a_j)\right)\right],\\
+\ell_i&=w_3^\top q_i^{(2)}+a_3,\qquad j=1,2.
+\end{aligned}
+\label{eq:profile_head}
+\end{equation}
+The affine maps $A_j$ are $1\times1$ convolutions and preserve position. The count head pools across positions and uses a 32-unit hidden layer,
+\begin{equation}
+\begin{aligned}
+\bar u&=\frac1L\sum_{i=1}^{L}u_i,\\
+z&=w_c^\top\mathcal D_{0.2}\!\left[
+\operatorname{GELU}(W_c\bar u+b_c)\right]+b_o,
+\end{aligned}
+\label{eq:count_head}
+\end{equation}
+where $W_c\in\mathbb R^{32\times128}$ and $w_c\in\mathbb R^{32}$. Profile--count factorisation separates spatial allocation from magnitude \citep{avsec2021bpnet}. For window $b$, the evaluated decoder is
+\begin{equation}
+p_{b,i}=\frac{\exp(\ell_{b,i})}{\sum_{j=1}^{L}\exp(\ell_{b,j})},
+\qquad \hat y_{b,i}=p_{b,i}\exp(z_b).
+\label{eq:dual_head_decode}
+\end{equation}
+Thus $\sum_i p_{b,i}=1$ and the reconstructed total is $\exp(z_b)$.
+
