@@ -2,7 +2,9 @@
 
 ## 19 November 2026 manuscript revision
 
-*CARBON integrates RNA sequence and evolutionary conservation to predict nucleotide-resolution eCLIP profiles*. Figure 1d uses the squared-CDF loss symbol from the methods. Figure 1e shows the window-selection and attribution steps in execution order. The supplement uses the same title as the main manuscript. [Revised Figure 1](paper/revisions/2026-11-19/figure1.pdf) · [Revision identifiers](paper/MANUSCRIPT_BINDING.json)
+*CARBON integrates RNA sequence and evolutionary conservation to predict nucleotide-resolution eCLIP profiles*. Figure 1d uses the squared-CDF loss symbol from the methods. Figure 1e shows the window-selection and attribution steps in execution order. The supplement uses the same title as the main manuscript.
+
+[Manuscript PDF](paper/revisions/2026-11-19/CARBON_main.pdf) · [Supplementary material PDF](paper/revisions/2026-11-19/CARBON_supplement.pdf) · [Revised Figure 1](paper/revisions/2026-11-19/figure1.pdf) · [Revision identifiers](paper/MANUSCRIPT_BINDING.json)
 
 ## 19 October 2026 research-code snapshot (v35)
 

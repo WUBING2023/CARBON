@@ -6,25 +6,27 @@
     "main": {
       "pages": 15,
       "tex_sha256": "d5ee5b4115ab4220271dfc1d6d10c6ffe9e1c6018fab84152be64db496c61716",
-      "pdf_sha256": "cfa7c090932718f5c26cf7568fa622e3f7c7b015bc35347f2a98f355be027164"
+      "pdf_sha256": "cfa7c090932718f5c26cf7568fa622e3f7c7b015bc35347f2a98f355be027164",
+      "path": "paper/revisions/2026-11-19/CARBON_main.pdf"
     },
     "supplement": {
       "pages": 42,
       "tex_sha256": "09a9161e4e92f4170b4d628679f68fa11961cca9bb65fba6b778d4722320d452",
-      "pdf_sha256": "cf5b063028e6d323f782948fee8cff07565f1567473094a6b92a9cbad1abf49c"
+      "pdf_sha256": "cf5b063028e6d323f782948fee8cff07565f1567473094a6b92a9cbad1abf49c",
+      "path": "paper/revisions/2026-11-19/CARBON_supplement.pdf"
     },
     "figure1": {
       "path": "paper/revisions/2026-11-19/figure1.pdf",
       "sha256": "3066297bf1f4ce449309c622eaa73ad5bf295f9d2ad29e13cf6af5b8078c80c8"
     },
-    "pdf_hash_scope": "The main and supplement hashes identify the November 19 author PDFs. Public full-text links in the October snapshot identify that older draft."
+    "pdf_hash_scope": "The PDF checksums identify the public manuscript and supplementary material exported from the November 19 revision."
   },
   "research_code_snapshot": {
     "candidate": "v35-research-code-draft",
     "commit": "0cadc135a7772537fa789b840def1678f5ba80d5",
     "binding_at_commit": "paper/MANUSCRIPT_BINDING.json"
   },
-  "source_root_label": "November 19 manuscript identities and artwork, with the October research-code snapshot",
+  "source_root_label": "November 19 manuscript, supplement and Figure 1, with the October research-code snapshot",
   "remote_base_commit": "0cadc135a7772537fa789b840def1678f5ba80d5",
   "files": [
     {
@@ -13596,7 +13598,21 @@
       "source_sha256": "3066297bf1f4ce449309c622eaa73ad5bf295f9d2ad29e13cf6af5b8078c80c8",
       "source_relative": "fig1_labels_20261119.pdf",
       "storage": "file"
+    },
+    {
+      "path": "paper/revisions/2026-11-19/CARBON_main.pdf",
+      "sha256": "cfa7c090932718f5c26cf7568fa622e3f7c7b015bc35347f2a98f355be027164",
+      "source_sha256": "cfa7c090932718f5c26cf7568fa622e3f7c7b015bc35347f2a98f355be027164",
+      "source_relative": "CARBON-main.pdf",
+      "storage": "file"
+    },
+    {
+      "path": "paper/revisions/2026-11-19/CARBON_supplement.pdf",
+      "sha256": "cf5b063028e6d323f782948fee8cff07565f1567473094a6b92a9cbad1abf49c",
+      "source_sha256": "cf5b063028e6d323f782948fee8cff07565f1567473094a6b92a9cbad1abf49c",
+      "source_relative": "CARBON-supplement.pdf",
+      "storage": "file"
     }
   ],
-  "scope": "Published file identities for the November 19 Figure 1 and the October research-code snapshot. The public October TeX, PDFs, figures and source tables belong to that snapshot."
+  "scope": "Published file identities for the November 19 manuscript PDF, supplementary PDF, Figure 1 and the October research-code snapshot."
 }

@@ -4,7 +4,9 @@
 
 CARBON combines RNA sequence and evolutionary conservation with multi-scale convolutions, channel attention and a bidirectional GRU. It predicts a binding-profile shape and a total signal count for each input window. This research repository contains model and training code, an executable AARS CPU demonstration, frozen experiment results, and the associated manuscript draft.
 
-**Manuscript revision, 19 November 2026.** *CARBON integrates RNA sequence and evolutionary conservation to predict nucleotide-resolution eCLIP profiles*. In Figure 1d the loss is labelled $L_{\mathrm{CDF}}$. Panel e selects windows by mean predicted eCLIP signal before computing integrated gradients. [Figure 1 (vector PDF)](paper/revisions/2026-11-19/figure1.pdf) · [Manuscript and supplement identifiers](paper/MANUSCRIPT_BINDING.json)
+**Manuscript revision, 19 November 2026.** *CARBON integrates RNA sequence and evolutionary conservation to predict nucleotide-resolution eCLIP profiles*. In Figure 1d the loss is labelled $L_{\mathrm{CDF}}$. Panel e selects windows by mean predicted eCLIP signal before computing integrated gradients.
+
+[Read the manuscript (PDF, 15 pages)](paper/revisions/2026-11-19/CARBON_main.pdf) · [Supplementary material (PDF, 42 pages)](paper/revisions/2026-11-19/CARBON_supplement.pdf) · [Figure 1 (vector PDF)](paper/revisions/2026-11-19/figure1.pdf) · [File checksums](paper/MANUSCRIPT_BINDING.json)
 
 [October manuscript (v35)](paper/CARBON_main.pdf) · [October supplement (v35)](paper/CARBON_supplement.pdf) · [All 27 source-data entries](paper/source_data/README_CURRENT.md) · [Experiment and figure map](docs/EVIDENCE_MAP.md)
 
