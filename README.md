@@ -4,7 +4,9 @@
 
 CARBON combines RNA sequence and evolutionary conservation with multi-scale convolutions, channel attention and a bidirectional GRU. It predicts a binding-profile shape and a total signal count for each input window. This research repository contains model and training code, an executable AARS CPU demonstration, frozen experiment results, and the associated manuscript draft.
 
-[Main manuscript](paper/CARBON_main.pdf) · [Supplement](paper/CARBON_supplement.pdf) · [All 27 source-data entries](paper/source_data/README_CURRENT.md) · [Experiment and figure map](docs/EVIDENCE_MAP.md)
+**Manuscript revision, 19 November 2026.** *CARBON integrates RNA sequence and evolutionary conservation to predict nucleotide-resolution eCLIP profiles*. In Figure 1d the loss is labelled $L_{\mathrm{CDF}}$. Panel e selects windows by mean predicted eCLIP signal before computing integrated gradients. [Figure 1 (vector PDF)](paper/revisions/2026-11-19/figure1.pdf) · [Manuscript and supplement identifiers](paper/MANUSCRIPT_BINDING.json)
+
+[October manuscript (v35)](paper/CARBON_main.pdf) · [October supplement (v35)](paper/CARBON_supplement.pdf) · [All 27 source-data entries](paper/source_data/README_CURRENT.md) · [Experiment and figure map](docs/EVIDENCE_MAP.md)
 
 ## Input and output
 
@@ -16,7 +18,7 @@ The Treat model returns `logits_profile` of shape `(batch, 101)` and `log_total_
 prediction = torch.softmax(output["logits_profile"], dim=-1) * torch.exp(output["log_total_count"])
 ```
 
-See [the model](CARBON/models/carbon_model.py), [5-channel preprocessing](preprocessing/preprocess_5ch.py), and [the smoke check](scripts/smoke_model.py) for the executable contract. The accepted **2026-10-05 Figure 1 is locked**: preserve its exact PDF, editable PowerPoint and 85 mm manuscript placement. [Figure lock](paper/FIGURE_LOCKS.json) · [validation](paper/figure_locks/validate_figure1.py).
+See [the model](CARBON/models/carbon_model.py), [5-channel preprocessing](preprocessing/preprocess_5ch.py), and [the smoke check](scripts/smoke_model.py) for the executable contract. The October v35 draft retains its locked Figure 1 PDF, editable PowerPoint and 85 mm placement. [Figure lock](paper/FIGURE_LOCKS.json) · [validation](paper/figure_locks/validate_figure1.py).
 
 ## Installation
 
@@ -92,7 +94,7 @@ A versioned public **full-data/full-weight archive is not currently available**.
 
 ## Citation
 
-Use [CITATION.cff](CITATION.cff) to cite the software, identifying the commit you used. The [associated manuscript](paper/CARBON_main.pdf) is a draft; no journal publication or DOI is claimed here. Cite external assay and data sources described in the manuscript and dataset provenance when using their data.
+Use [CITATION.cff](CITATION.cff) to cite the software, identifying the commit you used. The [October manuscript](paper/CARBON_main.pdf) accompanies the v35 research-code snapshot. Cite external assay and data sources described in the manuscript and dataset provenance when using their data.
 
 ## License
 
