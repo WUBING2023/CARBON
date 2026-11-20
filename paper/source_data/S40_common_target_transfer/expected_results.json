@@ -1,0 +1,21 @@
+{
+  "source_sha256": "63c601b4a0c7eb4a5735ffc3eedbf62913509f44067acfb53d7c35eaab78880d",
+  "proteins": 68,
+  "directed_tasks": 136,
+  "target_windows": 1421243,
+  "protein_equal_mean_pcc": {
+    "CARBON": 0.46267557738180004,
+    "iDeepB": 0.4081849211178252,
+    "RBPNet": 0.4204698584533979
+  },
+  "carbon_minus_comparator": {
+    "iDeepB": {
+      "mean_paired_difference": 0.054490656263974896,
+      "proteins_with_positive_difference": 68
+    },
+    "RBPNet": {
+      "mean_paired_difference": 0.042205718928402136,
+      "proteins_with_positive_difference": 68
+    }
+  }
+}

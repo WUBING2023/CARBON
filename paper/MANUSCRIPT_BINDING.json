@@ -1,32 +1,36 @@
 {
-  "candidate": "v83-2026-11-19-figure1",
+  "candidate": "v83-2026-11-20-author-confirmed",
   "manuscript": {
     "title": "CARBON integrates RNA sequence and evolutionary conservation to predict nucleotide-resolution eCLIP profiles",
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "main": {
-      "pages": 15,
-      "tex_sha256": "d5ee5b4115ab4220271dfc1d6d10c6ffe9e1c6018fab84152be64db496c61716",
-      "pdf_sha256": "cfa7c090932718f5c26cf7568fa622e3f7c7b015bc35347f2a98f355be027164",
-      "path": "paper/revisions/2026-11-19/CARBON_main.pdf"
+      "pages": 16,
+      "path": "paper/revisions/2026-11-20/CARBON_main.pdf",
+      "tex_sha256": "70cd3f38cce200324149b075b92ee91babf4784b30d2340cbc1b68aabd929e66",
+      "pdf_sha256": "54bf0d23ec0f8df7b4441500077ae393ab8265798a9f0fe6cdd9a4485a1ed2d1"
     },
     "supplement": {
       "pages": 42,
-      "tex_sha256": "09a9161e4e92f4170b4d628679f68fa11961cca9bb65fba6b778d4722320d452",
-      "pdf_sha256": "cf5b063028e6d323f782948fee8cff07565f1567473094a6b92a9cbad1abf49c",
-      "path": "paper/revisions/2026-11-19/CARBON_supplement.pdf"
+      "path": "paper/revisions/2026-11-20/CARBON_supplement.pdf",
+      "tex_sha256": "4f0db6800ef6d3ab19ed06c5712aff176c85205334d09aa136c6b53cd69197dd",
+      "pdf_sha256": "32eb6604d6159c436cbc46bd0bf9841985023f3342b8b637943f4ba06b1bc0e8"
     },
     "figure1": {
       "path": "paper/revisions/2026-11-19/figure1.pdf",
       "sha256": "3066297bf1f4ce449309c622eaa73ad5bf295f9d2ad29e13cf6af5b8078c80c8"
     },
-    "pdf_hash_scope": "The PDF checksums identify the public manuscript and supplementary material exported from the November 19 revision."
+    "pdf_hash_scope": "Public PDFs compiled with author-confirmed metadata on 20 November 2026; scientific content follows the 19 November revision.",
+    "source": {
+      "path": "paper/revisions/2026-11-20/CARBON_source.zip",
+      "sha256": "da4acc85182d7727de91d46d661e0dd603a93fd00628f0e80053112188946e92"
+    }
   },
   "research_code_snapshot": {
     "candidate": "v35-research-code-draft",
     "commit": "0cadc135a7772537fa789b840def1678f5ba80d5",
     "binding_at_commit": "paper/MANUSCRIPT_BINDING.json"
   },
-  "source_root_label": "November 19 manuscript, supplement and Figure 1, with the October research-code snapshot",
+  "source_root_label": "November 20 author-confirmed manuscript, November 19 scientific revision, and October research-code snapshot",
   "remote_base_commit": "0cadc135a7772537fa789b840def1678f5ba80d5",
   "files": [
     {
@@ -13612,7 +13616,72 @@
       "source_sha256": "cf5b063028e6d323f782948fee8cff07565f1567473094a6b92a9cbad1abf49c",
       "source_relative": "CARBON-supplement.pdf",
       "storage": "file"
+    },
+    {
+      "path": "paper/revisions/2026-11-20/CARBON_main.pdf",
+      "sha256": "54bf0d23ec0f8df7b4441500077ae393ab8265798a9f0fe6cdd9a4485a1ed2d1",
+      "source_sha256": "54bf0d23ec0f8df7b4441500077ae393ab8265798a9f0fe6cdd9a4485a1ed2d1",
+      "source_relative": "CARBON_main.pdf",
+      "storage": "file"
+    },
+    {
+      "path": "paper/revisions/2026-11-20/CARBON_main.tex",
+      "sha256": "70cd3f38cce200324149b075b92ee91babf4784b30d2340cbc1b68aabd929e66",
+      "source_sha256": "70cd3f38cce200324149b075b92ee91babf4784b30d2340cbc1b68aabd929e66",
+      "source_relative": "CARBON_main.tex",
+      "storage": "file"
+    },
+    {
+      "path": "paper/revisions/2026-11-20/CARBON_source.zip",
+      "sha256": "da4acc85182d7727de91d46d661e0dd603a93fd00628f0e80053112188946e92",
+      "source_sha256": "da4acc85182d7727de91d46d661e0dd603a93fd00628f0e80053112188946e92",
+      "source_relative": "CARBON_source.zip",
+      "storage": "file"
+    },
+    {
+      "path": "paper/revisions/2026-11-20/CARBON_supplement.pdf",
+      "sha256": "32eb6604d6159c436cbc46bd0bf9841985023f3342b8b637943f4ba06b1bc0e8",
+      "source_sha256": "32eb6604d6159c436cbc46bd0bf9841985023f3342b8b637943f4ba06b1bc0e8",
+      "source_relative": "CARBON_supplement.pdf",
+      "storage": "file"
+    },
+    {
+      "path": "paper/revisions/2026-11-20/CARBON_supplement.tex",
+      "sha256": "4f0db6800ef6d3ab19ed06c5712aff176c85205334d09aa136c6b53cd69197dd",
+      "source_sha256": "4f0db6800ef6d3ab19ed06c5712aff176c85205334d09aa136c6b53cd69197dd",
+      "source_relative": "CARBON_supplement.tex",
+      "storage": "file"
+    },
+    {
+      "path": "paper/revisions/2026-11-20/README.md",
+      "sha256": "e248cde78962beb06ede38f8636dc05ce587b71d829a65052eaaf2021be8e9bc",
+      "source_sha256": "e248cde78962beb06ede38f8636dc05ce587b71d829a65052eaaf2021be8e9bc",
+      "source_relative": "README.md",
+      "storage": "file"
     }
   ],
-  "scope": "Published file identities for the November 19 manuscript PDF, supplementary PDF, Figure 1 and the October research-code snapshot."
+  "scope": "Published manuscript file identities with historical code and source-data bindings.",
+  "manuscript_history": [
+    {
+      "title": "CARBON integrates RNA sequence and evolutionary conservation to predict nucleotide-resolution eCLIP profiles",
+      "date": "2026-11-19",
+      "main": {
+        "pages": 15,
+        "tex_sha256": "d5ee5b4115ab4220271dfc1d6d10c6ffe9e1c6018fab84152be64db496c61716",
+        "pdf_sha256": "cfa7c090932718f5c26cf7568fa622e3f7c7b015bc35347f2a98f355be027164",
+        "path": "paper/revisions/2026-11-19/CARBON_main.pdf"
+      },
+      "supplement": {
+        "pages": 42,
+        "tex_sha256": "09a9161e4e92f4170b4d628679f68fa11961cca9bb65fba6b778d4722320d452",
+        "pdf_sha256": "cf5b063028e6d323f782948fee8cff07565f1567473094a6b92a9cbad1abf49c",
+        "path": "paper/revisions/2026-11-19/CARBON_supplement.pdf"
+      },
+      "figure1": {
+        "path": "paper/revisions/2026-11-19/figure1.pdf",
+        "sha256": "3066297bf1f4ce449309c622eaa73ad5bf295f9d2ad29e13cf6af5b8078c80c8"
+      },
+      "pdf_hash_scope": "The PDF checksums identify the public manuscript and supplementary material exported from the November 19 revision."
+    }
+  ]
 }

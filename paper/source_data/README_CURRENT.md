@@ -1,6 +1,6 @@
-# S1-S27 data: current repository navigation
+# Supplementary Data S1–S53: current repository navigation
 
-Every primary link below opens a file physically present in this compact repository. The complete material inventory, original manuscript layout, primary hashes and scientific roles are recorded in [SUPPLEMENT_DATA_BINDINGS.csv](../SUPPLEMENT_DATA_BINDINGS.csv).
+S1–S27 retain their existing downloadable primary files. Data S40 now includes the task-level table and a standalone reproduction command. S28–S53 are indexed below using the current supplement; rows without public files are explicitly marked as awaiting deposition. The complete material inventory, original manuscript layout, primary hashes and scientific roles are recorded in [SUPPLEMENT_DATA_BINDINGS.csv](../SUPPLEMENT_DATA_BINDINGS.csv).
 
 The original declared manuscript paths remain in declared_path and declared_primary_path. Large identical assets are stored once; all_paths_json can contain declared aliases that materialize_replay.py restores into a separate scratch copy.
 
@@ -35,3 +35,37 @@ The upstream [manuscript-layout README](README_MANUSCRIPT_LAYOUT.md) is preserve
 | S25 | [COHORT_ALL7262.csv](../../research/experiments/E10_natural_variants/asb_variants/COHORT_ALL7262.csv) | Complete 7,262-event natural-variant cohort; strict subsets, annotations and sensitivities remain companions. |
 | S26 | [DISEASE_ALL13_EVENT_RESULTS.csv](S26_disease_annotations/DISEASE_ALL13_EVENT_RESULTS.csv) | Complete 13-event disease-annotation result table, including unfavorable directions and development exposure. |
 | S27 | [ALL66_REPORTER_BIOLOGICAL_MEASUREMENTS.csv](S27_reporter_validation/ALL66_REPORTER_BIOLOGICAL_MEASUREMENTS.csv) | All 66 original reporter biological measurements, including unsuccessful loci and external assay units. |
+
+
+## November manuscript additions (S28–S53)
+
+| Dataset | Contents in the current supplement | Public files / status |
+|---|---|---|
+| S28 | RBP-weighted ablations, BiGRU/BiLSTM and configuration search. | Retained by the authors; public deposit pending |
+| S29 | Native allocation support-radius intersection and outcomes. | Retained by the authors; public deposit pending |
+| S30 | Boundary-aware evaluation code and verification. | Retained by the authors; public deposit pending |
+| S31 | Motif discovery commands, input provenance and export bindings. | Retained by the authors; public deposit pending |
+| S32 | Matched trajectories, selector comparison and fitted-weight bindings. | Retained by the authors; public deposit pending |
+| S33 | Matched native conservation controls and gene-level contrasts. | Retained by the authors; public deposit pending |
+| S34 | Matched predicted/measured accessibility fits and outputs. | Retained by the authors; public deposit pending |
+| S35 | Eight input representations on shared measured windows. | Retained by the authors; public deposit pending |
+| S36 | Original-protocol context fits on complete and measured cohorts. | Retained by the authors; public deposit pending |
+| S37 | All 18 architectural transfer weights and target predictions. | Retained by the authors; public deposit pending |
+| S38 | Matched Sequence transfer on the full native PTBP1 cohort. | Retained by the authors; public deposit pending |
+| S39 | Same-cell HepG2 case selection, all candidate scores, fixed K562 profiles and inference-seed sensitivity. | Retained by the authors; public deposit pending |
+| S40 | Common-target transfer, complete outputs and case authentication. | [Task metrics, definitions and reproduction](S40_common_target_transfer/README.md) |
+| S41 | Preferred-core direction, 7,404 IG maps and fixed-weight controls. | Retained by the authors; public deposit pending |
+| S42 | All 14,808 window correlations, nine paired contrasts and native displays. The companion regional record gives the three-part same-cell decomposition and replay. | Retained by the authors; public deposit pending |
+| S43 | The 536-variant screen, 136 fits, verified constructs and public context. | Retained by the authors; public deposit pending |
+| S44 | Position rankings, all budgets and sequence-matched controls. | Retained by the authors; public deposit pending |
+| S45 | Exact edit shortlists, all 47 sites and 94 parents, and RNA outcomes. | Retained by the authors; public deposit pending |
+| S46 | Matched-parent ordering and CAG-start-preserving candidate pools. | Retained by the authors; public deposit pending |
+| S47 | Frozen MaPSy cohort, complete model profiles and measured splicing. | Retained by the authors; public deposit pending |
+| S48 | Signed reporter responses, sequence controls and complete intervals. | Retained by the authors; public deposit pending |
+| S49 | Public U2AF2 knockdown and native eCLIP joins. | Retained by the authors; public deposit pending |
+| S50 | Physical deletion constructs, paired RNA activity and SNV proxies. | Retained by the authors; public deposit pending |
+| S51 | Fixed-ranking selection budgets and original five-choice intervals. | Retained by the authors; public deposit pending |
+| S52 | Three-model substitution comparison, rankings and sensitivity analyses. | Retained by the authors; public deposit pending |
+| S53 | ClinVar/ENCODE input identities, exact cohort, profile responses, consequences, clinical terms and fixed-case records. | Retained by the authors; public deposit pending |
+
+The S40 package reproduces the principal PCC point estimates. The pending rows are an availability index, not download links; publication of those full packets and the full model-weight archive is still outstanding. The manuscript and supplement links on the repository homepage identify the current version.

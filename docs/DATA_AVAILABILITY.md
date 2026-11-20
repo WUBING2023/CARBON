@@ -9,3 +9,8 @@ research/catalog/BENCHMARK_WEIGHT_AVAILABILITY.csv covers the current canonical 
 The older local Zenodo reconstruction contains 222 weights but includes TROVE2_HepG2_ENCSR993FMY and lacks current SERBP1_K562_ENCSR121GQH. The 221 overlapping SHA identities agree. Its count alone does not establish current-cohort coverage. No fresh public Zenodo download, public DOI route or full Code Ocean reproduction has been verified for this candidate.
 
 Upstream data and full weights require a separate authorized archive with exact version, task list, hashes and access instructions. No fictional public link is supplied. The original measured RNAcompete tar.gz is a single explicit soft-limit exception: 51,769,595 bytes, SHA256 bf65e4bdd12fb1f8fd5db585e5165db24cc1dba6a1b2708f2cc0e12255a676bd, included under paper/source_data/S23_external_order_preferences/original/sources/. GitHub large-file warning behavior has not been tested. The 115,308,739-byte uncompressed matrix is not placed in Git; scripts/extract_rnacompete_source.py verifies it by streaming or extracts it outside the repository. Other candidates above 50,000,000 bytes, including the full ClinVar VCF, remain external and are explicitly indexed.
+
+
+## November manuscript source data
+
+The [S1–S53 index](../paper/source_data/README_CURRENT.md) lists all current supplementary entries and their public availability. [Data S40](../paper/source_data/S40_common_target_transfer/README.md) now includes the frozen task statistics, column definitions, a standard-library calculation script and its expected output. The additional full data packets and full benchmark model-weight archive are still pending public deposition.

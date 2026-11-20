@@ -2,13 +2,13 @@
 
 **Conservation-aware prediction of base-resolution RNA-binding protein profiles.**
 
-CARBON combines RNA sequence and evolutionary conservation with multi-scale convolutions, channel attention and a bidirectional GRU. It predicts a binding-profile shape and a total signal count for each input window. This research repository contains model and training code, an executable AARS CPU demonstration, frozen experiment results, and the associated manuscript draft.
+CARBON combines RNA sequence and evolutionary conservation with multi-scale convolutions, channel attention and a bidirectional GRU. It predicts a binding-profile shape and a total signal count for each input window. This research repository contains model and training code, an executable AARS example that runs on a standard computer without a GPU, frozen experiment results, and the associated manuscript draft.
 
-**Manuscript revision, 19 November 2026.** *CARBON integrates RNA sequence and evolutionary conservation to predict nucleotide-resolution eCLIP profiles*. In Figure 1d the loss is labelled $L_{\mathrm{CDF}}$. Panel e selects windows by mean predicted eCLIP signal before computing integrated gradients.
+**Current manuscript: 20 November 2026.** *CARBON integrates RNA sequence and evolutionary conservation to predict nucleotide-resolution eCLIP profiles*. This update adds the author-reviewed metadata and declarations to the 19 November scientific revision.
 
-[Read the manuscript (PDF, 15 pages)](paper/revisions/2026-11-19/CARBON_main.pdf) · [Supplementary material (PDF, 42 pages)](paper/revisions/2026-11-19/CARBON_supplement.pdf) · [Figure 1 (vector PDF)](paper/revisions/2026-11-19/figure1.pdf) · [File checksums](paper/MANUSCRIPT_BINDING.json)
+[Manuscript (PDF, 16 pages)](paper/revisions/2026-11-20/CARBON_main.pdf) · [Supplement (PDF, 42 pages)](paper/revisions/2026-11-20/CARBON_supplement.pdf) · [Complete LaTeX source](paper/revisions/2026-11-20/CARBON_source.zip) · [Authors and compilation](paper/revisions/2026-11-20/README.md) · [Checksums](paper/revisions/2026-11-20/checksums.json)
 
-[October manuscript (v35)](paper/CARBON_main.pdf) · [October supplement (v35)](paper/CARBON_supplement.pdf) · [All 27 source-data entries](paper/source_data/README_CURRENT.md) · [Experiment and figure map](docs/EVIDENCE_MAP.md)
+[Supplementary Data S1–S53](paper/source_data/README_CURRENT.md) · [Experiment and figure map](docs/EVIDENCE_MAP.md) · [19 November revision](paper/revisions/2026-11-19/) · [October manuscript archive](paper/CARBON_main.pdf)
 
 ## Input and output
 
@@ -20,7 +20,7 @@ The Treat model returns `logits_profile` of shape `(batch, 101)` and `log_total_
 prediction = torch.softmax(output["logits_profile"], dim=-1) * torch.exp(output["log_total_count"])
 ```
 
-See [the model](CARBON/models/carbon_model.py), [5-channel preprocessing](preprocessing/preprocess_5ch.py), and [the smoke check](scripts/smoke_model.py) for the executable contract. The October v35 draft retains its locked Figure 1 PDF, editable PowerPoint and 85 mm placement. [Figure lock](paper/FIGURE_LOCKS.json) · [validation](paper/figure_locks/validate_figure1.py).
+See [the model](CARBON/models/carbon_model.py), [5-channel preprocessing](preprocessing/preprocess_5ch.py), and [the smoke check](scripts/smoke_model.py) for the executable contract.
 
 ## Installation
 
@@ -39,9 +39,11 @@ python -m pip install -r requirements.cpu.txt
 
 [requirements.cpu.txt](requirements.cpu.txt) records versions used for the checked Windows CPU run, including PyTorch 2.4.1. A clean environment installation has not been validated. [environment.yml](environment.yml) is a historical Linux export. Preprocessing and attribution have additional dependencies in [requirements.txt](requirements.txt); some figure workflows require PyMuPDF, R and circlize.
 
-## CPU demonstration
+## Quick start: prediction without a GPU
 
-Run from the repository root; these checks require no external data download or GPU:
+CPU means the computer’s central processing unit. This small example uses the included AARS checkpoint and data so you can verify installation and prediction on a standard computer without a GPU. Larger training and inference workloads can use GPU hardware; the example is an entry point to CARBON.
+
+Run from the repository root:
 
 ```bash
 python scripts/smoke_model.py
@@ -50,6 +52,20 @@ python figures/plot_demo_signal_track.py --device cpu --out outputs/demo_signal_
 ```
 
 The verifier evaluates the included checkpoint on **1,283 AARS test windows** and compares six saved metrics at absolute tolerance `1e-5`. It writes `verification.json` and an evaluation log under `outputs/demo_cpu/`. The plot writes the requested PNG. Its four tracks are CARBON prediction, pooled eCLIP, inverted pooled eCLIP and inverted input control; the inverted tracks are display transforms rather than additional replicates.
+
+## Reproduce reported results
+
+The [benchmark source table](paper/source_data/S1_S14_original/Supplementary_Data_S1_benchmark_metrics.csv) records the main prediction comparison. The [evidence map](docs/EVIDENCE_MAP.md) links the model comparison, ablations and interpretation analyses to their archived inputs and scripts.
+
+### Figure 2c: common-target transfer
+
+The task-level source table, calculation script and expected results are included. This calculation uses only the Python standard library, with no model download or GPU required:
+
+```bash
+python scripts/verify_figure2c.py paper/source_data/S40_common_target_transfer/cross_model_task_metrics.csv
+```
+
+The comparison covers 68 RBPs, 136 transfer tasks and 1,421,243 target windows. Averaging the two directions within each RBP and then weighting RBPs equally gives PCC **0.46268 for CARBON, 0.40818 for iDeepB and 0.42047 for RBPNet**. See the [data, column definitions and expected output](paper/source_data/S40_common_target_transfer/README.md). This command recalculates point estimates from task-level sufficient statistics; model inference and confidence-interval resampling are separate analyses.
 
 ## Training and ablations
 
@@ -62,11 +78,11 @@ python carbon_train.py --help
 
 The launcher defaults to three epochs on CPU. Use a new output directory. [Training instructions](docs/TRAINING.md) give the equivalent Python command and the implemented ablation flags. [E01](research/experiments/E01_data_model/README.md) describes preprocessing and model lineage; [E03](research/experiments/E03_ablation/README.md) links the complete 222-task, six-condition archive and recorded configurations.
 
-The demo split is illustrative. Formal experiments require their recorded chromosome splits, seeds, filtering, losses and checkpoint-selection rules. Historical launchers use the MARCP namespace preserved in [research/historical_model](research/historical_model/). A short demo run does not reproduce the full paper.
+The demo split is illustrative. Formal experiments require their recorded chromosome splits, seeds, filtering, losses and checkpoint-selection rules. Historical launchers use the MARCP namespace preserved in [research/historical_model](research/historical_model/). The full experiment protocols and results are linked in the evidence map.
 
 ## Find an experiment, dataset or figure
 
-Follow the [evidence map](docs/EVIDENCE_MAP.md) from a manuscript result to its experiment guide, source data and analysis code. The [S1–S27 index](paper/source_data/README_CURRENT.md) links every primary data entry directly to an included file, including full result cohorts and unfavorable directions. [Figure bindings](paper/FIGURE_BINDINGS.csv) identify the current PDFs and available plotting sources.
+Follow the [evidence map](docs/EVIDENCE_MAP.md) from a manuscript result to its experiment guide, source data and analysis code. The [S1–S53 index](paper/source_data/README_CURRENT.md) follows the current supplementary material and distinguishes downloadable files from records awaiting public deposition. The current figure PDFs are bundled in the [LaTeX source](paper/revisions/2026-11-20/CARBON_source.zip). The [October figure bindings](paper/FIGURE_BINDINGS.csv) identify the archived plotting sources for that earlier revision.
 
 | Path | Contents |
 |---|---|
@@ -86,17 +102,17 @@ python scripts/verify_package.py
 python paper/figure_locks/validate_figure1.py
 ```
 
-[Reproduction instructions](docs/REPRODUCE.md) explain the checked scope and how to restore duplicate paths into a separate scratch directory. [Known limits](docs/KNOWN_LIMITS.md) document comparator conventions, incomplete training provenance, resource gaps, and negative or mixed functional results.
+[Reproduction instructions](docs/REPRODUCE.md) explain the checked scope and how to restore duplicate paths into a separate scratch directory. [Known limits](docs/KNOWN_LIMITS.md) document comparator conventions, incomplete training provenance, resource availability and interpretation of the archived analyses.
 
 ## Data and weights
 
 The AARS demo checkpoint and test data are included. Paper source tables, selected measured-score records, frozen arrays and analysis code are indexed here. Raw sequencing, reference genomes, large database distributions and full benchmark checkpoint files are external.
 
-A versioned public **full-data/full-weight archive is not currently available**. The canonical 222-task catalog records 221 CARBON, 219 iDeepB and 222 RBPNet checkpoint identities, including explicit missing tasks; these counts describe archived availability, not files bundled here. See [availability](docs/DATA_AVAILABILITY.md), [weight catalog](research/catalog/BENCHMARK_WEIGHT_AVAILABILITY.csv), and [external-asset inventory](research/catalog/EXTERNAL_ASSETS.csv). No pending DOI or private platform link is presented as a public download.
+A versioned public **full-data/full-weight archive is not currently available**. The canonical 222-task catalog records 221 CARBON, 219 iDeepB and 222 RBPNet checkpoint identities, including explicit missing tasks; these counts describe archived availability, not files bundled here. See [availability](docs/DATA_AVAILABILITY.md), [weight catalog](research/catalog/BENCHMARK_WEIGHT_AVAILABILITY.csv), and [external-asset inventory](research/catalog/EXTERNAL_ASSETS.csv).
 
 ## Citation
 
-Use [CITATION.cff](CITATION.cff) to cite the software, identifying the commit you used. The [October manuscript](paper/CARBON_main.pdf) accompanies the v35 research-code snapshot. Cite external assay and data sources described in the manuscript and dataset provenance when using their data.
+Use [CITATION.cff](CITATION.cff) to cite the software, identifying the commit you used. The [current manuscript](paper/revisions/2026-11-20/CARBON_main.pdf) and [supplement](paper/revisions/2026-11-20/CARBON_supplement.pdf) describe the November revision; the October draft remains archived. Cite external assay and data sources described in the manuscript and dataset provenance when using their data.
 
 ## License
 
