@@ -1,0 +1,130 @@
+{
+  "CARBON_main.tex": {
+    "sha256": "9420fb607f65b13f17a2a177238c8b5b82260b17250799942b9539e9aa2fdd48",
+    "bytes": 81754
+  },
+  "CARBON_supplement.tex": {
+    "sha256": "7dc1370f5aa22452f51a422252aad8dcc8d5e0399a36227314b11aac9ccdf48a",
+    "bytes": 135561
+  },
+  "README_COMPILE.txt": {
+    "sha256": "2cadde65fd66bd1688f7e955c0fdf9aa5ce6c78d86f0b01663004d24efdd00a7",
+    "bytes": 260
+  },
+  "current_assets/carbon-oup-abbrvnat.bst": {
+    "sha256": "52465ef673abdc8328c432d2404d1330daa9627c8ea6ad53558bcd13e03e2e22",
+    "bytes": 28088
+  },
+  "current_assets/CARBON_main_references.tex": {
+    "sha256": "9850d178f440ee2c1dcdb47e21b037acc0ab562155c903a99bd58b0508f5e187",
+    "bytes": 19180
+  },
+  "current_assets/fig3.pdf": {
+    "sha256": "eb5cd11fc9b708958facf68b1ce730b1bb965ec0dd5949bc06ea064d60a224a5",
+    "bytes": 7269308
+  },
+  "current_assets/fig5.pdf": {
+    "sha256": "2d61b5094e359b876120fddb218f692584def574dd97bff1e11c4150fb2758bb",
+    "bytes": 234329
+  },
+  "current_assets/oup-authoring-template.cls": {
+    "sha256": "942b3e515c0a64581d9140e04a00bbf30e8b68254565ba75cb8b7c99c21d7c96",
+    "bytes": 145388
+  },
+  "current_assets/reference.bib": {
+    "sha256": "359aecbd6ae514402ebaf5cbc293dbcf9032ba1c2e9292068cf3eaefbdca2e13",
+    "bytes": 32339
+  },
+  "current_assets/S01.pdf": {
+    "sha256": "2b6f5d7c1912b0a2890fefb74f7ec63b82c4a9258fab4af5965aa5cd95512d3b",
+    "bytes": 154380
+  },
+  "current_assets/S02.pdf": {
+    "sha256": "c4da2e83388c21aecf0c28adfcc855314c912c96c4d6d5cc812c91ad3ef2dafa",
+    "bytes": 326327
+  },
+  "current_assets/S04.pdf": {
+    "sha256": "aacd2cd89bb87daa1c2da5793dbeb99e85171bf4eaf0df538f401c0a3b2148c4",
+    "bytes": 278878
+  },
+  "current_assets/S05.pdf": {
+    "sha256": "ce3619aee2002d41cb75466a330233fbb28c41d234cf8c1bfa2a056a339364ea",
+    "bytes": 280533
+  },
+  "current_assets/S06.pdf": {
+    "sha256": "777df12261f9114c3c9cb2f66fc6d4bdbaea7394cc95cbe89355b45ba5bb888b",
+    "bytes": 172335
+  },
+  "current_assets/S07.pdf": {
+    "sha256": "3e42b5523895b936cd6bb6a67389517a38764cbcc845100eb5aacd9c7196fb99",
+    "bytes": 95243
+  },
+  "current_assets/S08.pdf": {
+    "sha256": "721f3de0385e12285b97c770f1061192bc0a25092654541a77a639cddb207bb2",
+    "bytes": 319371
+  },
+  "current_assets/S09.pdf": {
+    "sha256": "60991062c67f7ffc9a876cbfda05f451712459da1f80f88e40046eff2a319000",
+    "bytes": 338233
+  },
+  "current_assets/S10.pdf": {
+    "sha256": "17698fa6c3fe558f1723f7e13a00e5a9a613f65adf8e7d618fceaf5b0e5b3ad4",
+    "bytes": 61995
+  },
+  "current_assets/S11.pdf": {
+    "sha256": "a91c6dd48463bc802d1c21be5ce0348c9d0dd36dbfa62c896eb246dca0c01266",
+    "bytes": 71639
+  },
+  "current_assets/S12.pdf": {
+    "sha256": "832fdccb6bd97adb8827a0c347a5829e37de89451d7a952471182c6b6b5bc744",
+    "bytes": 135468
+  },
+  "current_assets/S13.pdf": {
+    "sha256": "95077a2d5839c2e21b784341c1df5d739471db2fd48b58560fc36e97141dd942",
+    "bytes": 147413
+  },
+  "current_assets/S14.pdf": {
+    "sha256": "1cd519d19a12af439f9a261be55039f28a6e12780e8f5435502e88f15bdff28a",
+    "bytes": 282767
+  },
+  "current_assets/S16.pdf": {
+    "sha256": "8e8392af887949d76fe31345c166547b9ed8888ceed17bf25632c2e0012e0daf",
+    "bytes": 1290185
+  },
+  "current_assets/S18.pdf": {
+    "sha256": "a9cf71d6a95e4fc442dd805c312789b19b3b00bd771930aef521d7cc434185c8",
+    "bytes": 1977152
+  },
+  "V83_20261112/fig4_conservation_and_context.pdf": {
+    "sha256": "cf455a3d66611c6c04a94517e6cf634ea9154f886ae64b1ccc40767b852dddd2",
+    "bytes": 1040917
+  },
+  "V83_20261112/S03_strata.pdf": {
+    "sha256": "93610e60c2b09d4a9aef9ee2dd90c725a148d5721491085d901b8ef8404ca0e7",
+    "bytes": 545324
+  },
+  "V83_20261112/S15abc.pdf": {
+    "sha256": "b48f0269c3e0d0cf003638dc1f431a93277f7971d3eb79292f18845eb4e5688d",
+    "bytes": 1221190
+  },
+  "V83_20261112/S15de.pdf": {
+    "sha256": "f428461c48a9e9c71b3173b7abeb4f63c7a597a46082368ca608c45722bf48dc",
+    "bytes": 2138566
+  },
+  "V83_20261112/S17a.pdf": {
+    "sha256": "d49c97982605d481f9a19e463c5fbabab53db4eb977f3fcc8fa8f81ca08ac0eb",
+    "bytes": 296690
+  },
+  "V83_20261112/S17b.pdf": {
+    "sha256": "6e872985b79ca656f64bedb6e3b031d256c3b4212499beb181fecba40ba6caa9",
+    "bytes": 251871
+  },
+  "V83_20261115/fig2_same_cell_20261115.pdf": {
+    "sha256": "4899cbacb345c2e9f8869a0fc57924ecb09cd86e00de0fe683abd6506a98c893",
+    "bytes": 308786
+  },
+  "V83_20261115/V83_20261119/fig1_labels_20261119.pdf": {
+    "sha256": "3066297bf1f4ce449309c622eaa73ad5bf295f9d2ad29e13cf6af5b8078c80c8",
+    "bytes": 379937
+  }
+}

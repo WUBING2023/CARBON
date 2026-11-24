@@ -4,9 +4,9 @@
 
 CARBON combines RNA sequence and evolutionary conservation with multi-scale convolutions, channel attention and a bidirectional GRU. It predicts a binding-profile shape and a total signal count for each input window. This research repository contains model and training code, an executable AARS example that runs on a standard computer without a GPU, frozen experiment results, and the associated manuscript draft.
 
-**Current manuscript: 20 November 2026.** *CARBON integrates RNA sequence and evolutionary conservation to predict nucleotide-resolution eCLIP profiles*. This update adds the author-reviewed metadata and declarations to the 19 November scientific revision.
+**Current manuscript: 24 November 2026.** *Predicting nucleotide-resolution protein–RNA binding signals from RNA sequence and evolutionary conservation using CARBON*. This version includes the updated title, author-confirmed metadata and declarations, and two supplementary-text corrections; experimental values and figure files are unchanged.
 
-[Manuscript (PDF, 16 pages)](paper/revisions/2026-11-20/CARBON_main.pdf) · [Supplement (PDF, 42 pages)](paper/revisions/2026-11-20/CARBON_supplement.pdf) · [Complete LaTeX source](paper/revisions/2026-11-20/CARBON_source.zip) · [Authors and compilation](paper/revisions/2026-11-20/README.md) · [Checksums](paper/revisions/2026-11-20/checksums.json)
+[Manuscript (PDF, 16 pages)](paper/revisions/2026-11-24/CARBON_main.pdf) · [Supplement (PDF, 42 pages)](paper/revisions/2026-11-24/CARBON_supplement.pdf) · [Complete LaTeX source](paper/revisions/2026-11-24/source/) · [Authors and compilation](paper/revisions/2026-11-24/README.md) · [Checksums](paper/revisions/2026-11-24/checksums.json)
 
 [Supplementary Data S1–S53](paper/source_data/README_CURRENT.md) · [Experiment and figure map](docs/EVIDENCE_MAP.md) · [19 November revision](paper/revisions/2026-11-19/) · [October manuscript archive](paper/CARBON_main.pdf)
 
@@ -82,7 +82,7 @@ The demo split is illustrative. Formal experiments require their recorded chromo
 
 ## Find an experiment, dataset or figure
 
-Follow the [evidence map](docs/EVIDENCE_MAP.md) from a manuscript result to its experiment guide, source data and analysis code. The [S1–S53 index](paper/source_data/README_CURRENT.md) follows the current supplementary material and distinguishes downloadable files from records awaiting public deposition. The current figure PDFs are bundled in the [LaTeX source](paper/revisions/2026-11-20/CARBON_source.zip). The [October figure bindings](paper/FIGURE_BINDINGS.csv) identify the archived plotting sources for that earlier revision.
+Follow the [evidence map](docs/EVIDENCE_MAP.md) from a manuscript result to its experiment guide, source data and analysis code. The [S1–S53 index](paper/source_data/README_CURRENT.md) follows the current supplementary material and distinguishes downloadable files from records awaiting public deposition. The current figure PDFs are included in the [LaTeX source](paper/revisions/2026-11-24/source/). The [October figure bindings](paper/FIGURE_BINDINGS.csv) identify the archived plotting sources for that earlier revision.
 
 | Path | Contents |
 |---|---|
@@ -112,7 +112,7 @@ A versioned public **full-data/full-weight archive is not currently available**.
 
 ## Citation
 
-Use [CITATION.cff](CITATION.cff) to cite the software, identifying the commit you used. The [current manuscript](paper/revisions/2026-11-20/CARBON_main.pdf) and [supplement](paper/revisions/2026-11-20/CARBON_supplement.pdf) describe the November revision; the October draft remains archived. Cite external assay and data sources described in the manuscript and dataset provenance when using their data.
+Use [CITATION.cff](CITATION.cff) to cite the software, identifying the commit you used. The [current manuscript](paper/revisions/2026-11-24/CARBON_main.pdf) and [supplement](paper/revisions/2026-11-24/CARBON_supplement.pdf) describe the November revision; the October draft remains archived. Cite external assay and data sources described in the manuscript and dataset provenance when using their data.
 
 ## License
 

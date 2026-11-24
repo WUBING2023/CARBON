@@ -1,0 +1,575 @@
+\pdfminorversion=7
+\PassOptionsToPackage{colorlinks=true,allcolors=blue}{hyperref}
+\documentclass[webpdf,contemporary,large]{current_assets/oup-authoring-template}
+
+\graphicspath{{current_assets/}}
+
+% ---------------------------------------------------------------------------
+% PRODUCTION CHECKLIST -- every item must be resolved before submission.
+%   TODO-2  Received / revised / accepted dates and DOI (publisher-supplied).
+% Funding text supplied by the author on 2026-11-20; recipient Y.Y. confirmed as Yuning Yang by the author.
+%   TODO-4  Data availability: repository name, URL, accession numbers.
+%   TODO-5  Code availability: GitHub tag/commit and Code Ocean capsule DOI.
+%   TODO-6  Confirm public access and immutable versions of staged MIT code and weights.
+% ---------------------------------------------------------------------------
+
+\AtBeginDocument{%
+  \hypersetup{%
+    allcolors=blue
+  }%
+}
+
+\newcommand{\figrefwhole}[1]{\hyperref[#1]{Figure~\ref*{#1}}}
+\newcommand{\figpanelref}[2]{\hyperref[#1]{Figure~\ref*{#1}#2}}
+
+\newcommand{\citewhole}[1]{%
+  \hyperlink{cite.#1}{\NoHyper\citeauthor{#1}\endNoHyper, \NoHyper\citeyear{#1}\endNoHyper}%
+}
+\newcommand{\citewholep}[1]{%
+  (\citewhole{#1})%
+}
+
+% Forward references into the companion Supplementary Material document.
+\newcommand{\supfig}[1]{Supplementary Fig.~#1}
+\newcommand{\suptab}[1]{Supplementary Table~#1}
+\newcommand{\supsect}[1]{Supplementary Section~#1}
+
+\usepackage{flafter,etoolbox,placeins}
+% The original opening header adds a 4 mm bar/gap before a full-width inner box.
+% Fit that inner box inside the existing text width; retain the original class file.
+\makeatletter
+\patchcmd{\ps@opening}{\vskip2.5pt\hbox to \textwidth}{\vskip2.5pt\hbox to \dimexpr\textwidth-4mm\relax}{}{\PackageError{CARBON}{Opening-header patch failed}{}}
+\patchcmd{\ps@opening}{\vskip2.5pt\hbox to \textwidth}{\vskip2.5pt\hbox to \dimexpr\textwidth-4mm\relax}{}{\PackageError{CARBON}{Opening-header patch failed}{}}
+\makeatother
+\setlength{\emergencystretch}{1em}
+\def\bibfont{\fontsize{7bp}{8.1bp}\selectfont}
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\floatsep}{6pt plus 2pt minus 2pt}
+\setlength{\intextsep}{6pt plus 2pt minus 2pt}
+\setlength{\abovecaptionskip}{4pt plus 1pt minus 1pt}
+\setlength{\belowcaptionskip}{0pt}
+\renewcommand{\dblfloatpagefraction}{0.75}
+\AtBeginDocument{\typeout{CARBON-LAYOUT: textwidth=\the\textwidth; columnwidth=\the\columnwidth; columnsep=\the\columnsep}}
+\usepackage{booktabs}
+\begin{document}
+\linespread{0.96}\selectfont\raggedbottom
+
+\journaltitle{Bioinformatics}
+\DOI{DOI added during production}
+\copyrightyear{YEAR}
+\pubyear{YEAR}
+\vol{XX}
+\issue{x}
+\access{Published: Date added during production}
+\appnotes{Original Paper}
+
+\firstpage{1}
+
+\title[CARBON prediction of eCLIP profiles]{Predicting nucleotide-resolution protein--RNA binding signals from RNA sequence and evolutionary conservation using CARBON}
+
+% Author-review copy. Yuting Huang is a provisional romanization.
+\author[1]{Bin Wu\ORCID{0009-0002-6711-7230}}
+\author[1]{Yuting Huang\ORCID{0009-0008-5851-6153}}
+\author[2]{Yuning Yang\ORCID{0000-0003-4556-139X}}
+\author[1,*]{Haoran Zhu\ORCID{0000-0002-7240-2696}}
+\author[1,*]{Xiangtao Li\ORCID{0000-0002-8716-9823}}
+\address[1]{\orgdiv{School of Artificial Intelligence}, \orgname{Jilin University}, \orgaddress{\state{Changchun}, \postcode{130012}, \country{China}}}
+\address[2]{\orgdiv{School of Information Science and Technology}, \orgname{Northeast Normal University}, \orgaddress{\state{Changchun}, \postcode{130024}, \country{China}}}
+\corresp[*]{Corresponding authors. Haoran Zhu (\href{mailto:zhuhr20@mails.jlu.edu.cn}{zhuhr20@mails.jlu.edu.cn}) and Xiangtao Li (\href{mailto:lixt314@jlu.edu.cn}{lixt314@jlu.edu.cn}).}
+
+\received{Date}{0}{Year}
+\revised{Date}{0}{Year}
+\accepted{Date}{0}{Year}
+
+\abstract{%
+\textbf{Motivation:} RNA-binding proteins (RBPs) often recognise short motifs that recur within a transcript, yet enhanced crosslinking and immunoprecipitation (eCLIP) can yield different signal profiles around occurrences of the same motif. We asked whether evolutionary conservation helps explain this variation beyond what can be predicted from RNA sequence alone.\\
+\textbf{Results:} We developed CARBON to predict the distribution and total signal of eCLIP read ends in 101-nt windows from RNA sequence and nucleotide-aligned phyloP scores. Across 222 tasks covering 150 RBPs, CARBON achieved the highest mean score on each of six metrics under the scoring conventions used for the three models. In a cross-cell-line comparison using a common set of windows for 68 RBPs, mean Pearson correlations were 0.463 for CARBON, 0.408 for iDeepB and 0.420 for RBPNet. Removing bidirectional recurrence produced the largest decrease in Spearman correlation among the ablations tested. Aligned phyloP provided a smaller, measurable gain. In 1,851 PTBP1 windows containing two CUCU motifs, adding phyloP increased the mean whole-window correlation from 0.594 to 0.600, with the largest per-nucleotide gains immediately downstream of the motifs. Motif attribution recovered known sequence preferences for a subset of RBPs. Predicted responses to sequence substitutions also agreed with independent RNAcompete preferences and helped rank differences in reporter RNA output between allelic backgrounds.\\
+\textbf{Availability and implementation:} Core model code and a CPU demonstration are available at \url{https://github.com/WUBING2023/CARBON}.\\
+\textbf{Supplementary information:} Supplementary methods, figures and data accompany the manuscript.\endgraf}
+
+\maketitle
+
+\section{Introduction}
+
+RNA-binding proteins (RBPs) regulate RNA processing, localisation, translation and decay \citep{glisovic2008rbp,gerstberger2014census,corley2020rbp}. Disruption of these interactions has been implicated in human disease \citep{hentze2018brave,gebauer2021disease}. Many RBPs recognise short motifs that occur at multiple positions within a transcript. Even when the core sequence is identical, flanking nucleotides and local RNA structure can influence recognition \citep{dominguez2018rbpcontext}. Such repeated motifs provide a way to ask which properties of the surrounding RNA distinguish their binding profiles.
+
+Enhanced crosslinking and immunoprecipitation (eCLIP) maps RBP-associated RNA fragments at high resolution, allowing the distribution of read ends to be measured across a binding region \citep{vannostrand2016eclip,vannostrand2020map,hafner2021clip,ramanathan2019methods}. Regional predictors such as GraphProt, DeepBind, iDeepS, PrismNet and HDRNet identify candidate binding regions using sequence, structure or other contextual information \citep{maticzka2014graphprot,alipanahi2015deepbind,pan2018ideeps,sun2021prismnet,Zhu2023HDRNet}. Profile predictors also estimate how the experimental signal varies from one nucleotide to the next. RBPNet models target- and control-related components of the profile, while iDeepB combines expression-aware dataset construction with convolution, recurrence and attention \citep{horlacher2023rbpnet,liu2025ideepb}. Both models take nucleotide sequence as input.
+
+Comparative genomics offers another way to characterise the context of an RNA motif. The phyloP score measures how rapidly a genomic position has evolved relative to the expectation under neutral evolution \citep{siepel2005phylop,pollard2010phylop,lindbladtoh2011constraint}. Copies of the same motif can therefore differ both in their flanking sequence and in the conservation of those flanks. Conservation has previously been used with motif spacing and accessibility to identify clusters of RBP binding sites \citep{zhang2013mcarts}. In the eCLIP windows examined here, positions within peaks also tended to have higher phyloP scores than other positions in the same window (\supsect{S1.8}, \supfig{S2a}). We therefore asked whether, given the RNA sequence, the local pattern of conservation provides additional information about where eCLIP signal accumulates.
+
+To address this question, we developed CARBON, which combines RNA sequence and nucleotide-aligned phyloP scores to predict eCLIP read-end profiles (\figrefwhole{fig:figure1}). We processed ENCODE eCLIP data following the data-processing strategy described for iDeepB \citep{liu2025ideepb}. CARBON extracts features at several spatial scales and integrates them along the RNA using a bidirectional recurrent encoder. Two output heads estimate the distribution of signal across the window and its total magnitude. A separately trained sequence-only version of CARBON provides a direct comparison for assessing the contribution of conservation.
+
+We evaluated CARBON on 222 eCLIP tasks spanning 150 RBPs and tested transfer between K562 and HepG2 using common target windows. To relate model performance to RBP recognition, we compared motifs recovered by attribution with reference motifs and examined native PTBP1 windows containing two copies of CUCU. Finally, we used substitutions to localise predicted changes in eCLIP profiles and compared changes in predicted total signal with independent measurements of RNA sequence preference and reporter RNA output.
+
+% Author check before submission: Fig. 1a uses T in the input schematic, whereas the model uses U.
+% Fig. 1d labels the summed term L_Jitter although the loss is squared-CDF in the methods.
+% Fig. 1e labels window selection as high-IG. Check against the recorded order (select by mean predicted signal, then compute IG).
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=\textwidth]{V83_20261115/V83_20261119/fig1_labels_20261119.pdf}
+\caption{CARBON predicts the shape and magnitude of eCLIP read-end profiles. (\textbf{a}) Four sequence channels and one phyloP channel encode a 101-nt window. The predicted signal at each nucleotide is its softmax profile probability multiplied by the window total, $\exp(z)$. (\textbf{b}) The multiscale convolutional encoder uses filters of widths 3, 5 and 7. Squeeze-and-excitation weights rescale the 96 concatenated channels before fusion and addition of a projected input. (\textbf{c}) A $96\rightarrow64$ projection supplies a bidirectional GRU with 64 units per direction. A residual projection, layer normalisation and dropout precede the two output heads. The profile head uses three pointwise convolutions, and the count head uses global mean pooling and two linear layers. (\textbf{d}) Training combines a profile-shape loss, a squared cumulative-distribution loss and a count loss (Equation~\ref{eq:total_loss}). (\textbf{e}) Windows with high mean predicted signal are selected for integrated gradients attribution and TF-MoDISco motif discovery. The recovered motifs are compared with reference motifs (\supsect{S1.7}). (\textbf{f}) Comparing predictions before and after a substitution identifies positions at which the predicted profile changes. Sequences and profiles in this schematic are illustrative.}
+\label{fig:figure1}
+\end{figure*}
+
+\section{Materials and methods}\label{sec2}
+
+\subsection{eCLIP datasets and evolutionary conservation scores}\label{subsec:data}
+
+We processed strand-specific ENCODE eCLIP data \citep{encode2020expanded} following the procedure described for iDeepB \citep{liu2025ideepb}. For each 101-nt RNA window, we extracted a non-negative vector of observed eCLIP signal, $\mathbf y\in\mathbb R_{\geq0}^{101}$, and the corresponding vector from the size-matched input control. Both vectors came from pooled 5$^\prime$ read-end bigWig tracks \citep{kent2010bigwig}. We trained CARBON to predict the eCLIP vector and used the control to adjust the observed signal in the analysis of its allocation between repeated motif occurrences.
+
+We pooled BAM files, identified segments with signal on the same strand as a GENCODE v29 transcript (GRCh38.p12), and generated fixed-length windows by tiling and padding with the \texttt{Random} option. We retained the sequence, coordinates and signal vectors for each window. Archived versions of the extraction pipeline differ in their count filters and padding settings. Task-level provenance is incomplete, leaving both the count threshold and the use of peak-centred sampling uncertain across the benchmark. We defined peak labels for evaluation separately (\supsect{S1.1,S1.2}).
+
+At each position $i$, we combined the one-hot encoding of the nucleotide (A, C, G or U) with the hg38 phyloP100way score $\phi_i$ \citep{pollard2010phylop}. The resulting input was $X\in\mathbb R^{L\times5}$ with $L=101$ and $X_{i,:}=[\operatorname{onehot}(s_i),\phi_i]$. We converted T to U and reversed the phyloP vector for minus-strand windows to match the RNA orientation. We excluded records containing N or missing required fields. In the phyloP channel, a zero can denote a measured score of zero, a missing value or padding.
+
+The benchmark comprised 222 tasks covering 150 RBPs, with 119 tasks in K562, 101 in HepG2 and two in adrenal gland tissue. Each task represented a distinct combination of RBP, cell line or tissue, and ENCODE accession. Of 225 candidate tasks, we omitted two for computational reasons and one because processing failed (retained accessions in Data S1). For the final models, we used 16 autosomes for training, chromosomes 2, 9 and 16 for validation, and chromosomes 1, 8 and 15 for evaluation. We did not filter sequences by identity across chromosomes. An earlier 65-trial hyperparameter search across five tasks used chromosomes 1, 2 and 3 for training, validation and evaluation, respectively. Chromosomes 8 and 15 were excluded from that search and from final training and validation. We had inspected their benchmark scores before undertaking the retrospective analyses (\supsect{S1.2,S1.4}).
+
+Paired K562 and HepG2 tasks supported evaluation across cell lines. For external comparisons, we used human RNAcompete seven-mer $Z$ scores to assess sequence preferences \citep{ray2013compendium} and published BEAPR allelic preferences and reporter measurements to assess allele-dependent binding and regulatory responses, respectively \citep{yang2019asb}. We annotated the previously assembled set of natural variants by matching exact GRCh38 alleles to the 11 October 2026 ClinVar snapshot, public TCGA records in GDC release 46.0 and population-frequency records \citep{landrum2018clinvar,grossman2016gdc}. We also used ClinVar to assemble a separate set of variants classified as Pathogenic or Benign for the profile-sensitivity analysis.
+
+\subsection{CARBON architecture}\label{sec:algorithm}
+
+CARBON transforms a 101-nt window into a predicted eCLIP profile while preserving the coordinate of each nucleotide (\figrefwhole{fig:figure1}). A multiscale convolutional encoder extracts local features from sequence and aligned phyloP scores. A bidirectional gated recurrent unit (GRU) encoder then incorporates information from both flanks at each position. The profile head estimates the distribution of signal along the window, and the count head estimates the total signal. We use Full for the five-channel model and Sequence for the separately trained four-channel, sequence-only model. In a separate set of tests, we altered the phyloP input to Full at inference while holding its weights fixed.
+
+\subsubsection{Multiscale convolutional encoder}\label{subsec:blocks}
+
+Three parallel convolutions span $k\in\{3,5,7\}$ nucleotides and produce 32 channels each. At position $i$, the response of output channel $d$ for a kernel of width $k$ is
+
+\begin{equation}
+T^{(k)}_{i,d}=b^{(k)}_d+
+\sum_{j=-(k-1)/2}^{(k-1)/2}\sum_{c=1}^{5}
+K^{(k)}_{j,c,d}X_{i+j,c}.
+\label{eq:multiscale_convolution}
+\end{equation}
+
+Zero padding preserves the input length. Each branch applies batch normalisation (BN) and a GELU activation, $V^{(k)}=\operatorname{GELU}(\operatorname{BN}(T^{(k)}))$. Concatenating the three outputs gives a 96-dimensional vector $V_i=[V_i^{(3)};V_i^{(5)};V_i^{(7)}]$ at each nucleotide.
+
+A squeeze-and-excitation (SE) block \citep{hu2018senet} uses the mean feature vector $m$ across the window to calculate the vector of channel weights $a$ according to
+
+\begin{equation}
+\begin{aligned}
+m&=\frac1L\sum_{i=1}^{L}V_i,\\
+a&=\sigma\!\left(W_2\operatorname{ReLU}(W_1m+b_1)+b_2\right).
+\end{aligned}
+\label{eq:se_gate}
+\end{equation}
+
+Here $\sigma(x)=(1+\exp(-x))^{-1}$. The matrices $W_1\in\mathbb R^{24\times96}$ and $W_2\in\mathbb R^{96\times24}$ give a reduction ratio of four. Each channel receives the same weight at all nucleotide positions. A pointwise transformation of the weighted features and a residual projection of the input \citep{he2016resnet} give
+
+\begin{equation}
+F_i=W_f(a\odot V_i)+b_f+W_sX_i+b_s
+\in\mathbb R^{96}.
+\label{eq:motif_residual}
+\end{equation}
+
+Here $\odot$ denotes elementwise multiplication. The maps $W_f$ and $W_s$ project 96 feature channels and five input channels, respectively, to 96 output channels. The sum passes directly to the next layer. The NoGRU control also uses this SE block, so its channel weights depend on the entire window.
+
+\subsubsection{Bidirectional GRU encoder}
+
+The encoder projects the convolutional features to $e_i=W_pF_i+b_p\in\mathbb R^{64}$ and passes them through a single-layer bidirectional GRU \citep{cho2014rnnencoder,schuster1997brnn}. Each direction has 64 hidden units, its own parameters and a zero initial state. Adding the concatenated directional states to a $96\rightarrow128$ residual projection of $F_i$ gives
+
+\begin{equation}
+v_i=[\overrightarrow h_i;\overleftarrow h_i]+W_rF_i+b_r
+\in\mathbb R^{128}.
+\label{eq:bidirectional_sum}
+\end{equation}
+
+Layer normalisation across the 128 features at each position, followed by dropout, yields the final representation
+
+\begin{equation}
+u_i=\mathcal D_{0.2}\!\left(\operatorname{LN}_{\epsilon=10^{-5}}(v_i)\right).
+\label{eq:recurrent_residual}
+\end{equation}
+
+Layer normalisation uses a learned scale and offset \citep{ba2016layernorm}. During training, the dropout probability is 0.2. In the NoGRU control, we remove the GRU and its input projection and retain the residual projection, normalisation, dropout and upstream SE block. The PyTorch gate convention and the bidirectional LSTM alternative are described in \supsect{S1.4}.
+
+\subsubsection{Profile and count heads}
+
+The two output heads factorise the eCLIP signal into a positional distribution and a window total \citep{avsec2021bpnet}. The profile head applies pointwise layers of widths $128\rightarrow64\rightarrow32\rightarrow1$ to produce one logit per nucleotide. Starting from $q_i^{(0)}=u_i$, the two hidden layers and the output layer give
+
+\begin{equation}
+\begin{aligned}
+q^{(j)}&=\mathcal D_{0.2}\!\left[
+\operatorname{GELU}\!\left(\operatorname{BN}(A_jq^{(j-1)}+a_j)\right)\right],\\
+\ell_i&=w_3^\top q_i^{(2)}+a_3,\qquad j=1,2.
+\end{aligned}
+\label{eq:profile_head}
+\end{equation}
+
+Each $1\times1$ map $A_j$ acts separately at each position. The count head averages $u_i$ over all positions. A projection through a 32-unit hidden layer then gives the scalar output
+
+\begin{equation}
+\begin{aligned}
+\bar u&=\frac1L\sum_{i=1}^{L}u_i,\\
+z&=w_c^\top\mathcal D_{0.2}\!\left[
+\operatorname{GELU}(W_c\bar u+b_c)\right]+b_o,
+\end{aligned}
+\label{eq:count_head}
+\end{equation}
+
+where $W_c\in\mathbb R^{32\times128}$ and $w_c\in\mathbb R^{32}$. For window $b$, a softmax converts the positional logits to a distribution. Multiplying by the predicted total gives the nucleotide-wise signal according to
+
+\begin{equation}
+p_{b,i}=\frac{\exp(\ell_{b,i})}{\sum_{j=1}^{L}\exp(\ell_{b,j})},
+\qquad \hat y_{b,i}=p_{b,i}\exp(z_b).
+\label{eq:dual_head_decode}
+\end{equation}
+
+Thus $\sum_i p_{b,i}=1$ and $\sum_i\hat y_{b,i}=\exp(z_b)$.
+
+\subsection{Model training and comparisons}\label{sec:impl}
+
+\subsubsection{Profile and count loss functions}\label{subsec:loss}
+
+We trained the two heads jointly using three loss terms. For a batch of $B$ windows with observed signal $y_{b,i}$ and window totals $S_b=\sum_i y_{b,i}$, the terms are
+
+\begin{align}
+\mathcal L_{\rm shape}
+&=-\frac1B\sum_{b=1}^{B}\sum_{i=1}^{L}y_{b,i}\log p_{b,i},
+\label{eq:shape_loss}\\
+\mathcal L_{\rm CDF}
+&=\frac1{BL}\sum_{b=1}^{B}\sum_{i=1}^{L}
+\left(\sum_{j\leq i}p_{b,j}-\sum_{j\leq i}\tilde y_{b,j}\right)^2,
+\label{eq:cdf_loss}\\
+\mathcal L_{\rm count}
+&=\frac1B\sum_{b=1}^{B}\left[z_b-\log(S_b+1)\right]^2,
+\label{eq:main_count_loss}
+\end{align}
+
+where $\tilde y_{b,i}=y_{b,i}/(S_b+\varepsilon)$ and $\varepsilon=10^{-6}$. The shape term weights the negative log probability of each position by its observed signal. The cumulative distribution function (CDF) term penalises squared differences in cumulative signal along the window. This choice differs from the absolute difference used in one-dimensional Wasserstein-1 (Earth Mover's) distance \citep{rubner2000emd}. The count term penalises error in the log-transformed window total. For $S_b=0$, the shape loss vanishes and $\tilde{\mathbf y}_b=\mathbf0$. The CDF and count losses remain defined.
+
+We combined the terms as
+
+\begin{equation}
+\mathcal L=\frac1s
+\left(\alpha\mathcal L_{\rm shape}+
+\beta\mathcal L_{\rm CDF}+\gamma\mathcal L_{\rm count}\right),
+\label{eq:total_loss}
+\end{equation}
+
+with $s=1$, $\alpha=1.4194219$, $\beta=0.5402181$ and $\gamma=1.7983396$ after an eight-parameter Optuna search over loss weights and optimisation settings \citep{akiba2019optuna}. All reported predictions use Equation~\ref{eq:dual_head_decode}. Because the count target is $\log(S+1)$ and the decoder uses $\exp(z)$, an exact fit to that target gives a predicted total of $S+1$. Sensitivity to the inverse transformation is reported in \supsect{S1.5,S1.11} and Data S14.
+
+\subsubsection{Training procedure and component ablations}\label{subsec:ml}
+
+We trained the PyTorch models using AdamW with a batch size of 256, an initial learning rate of $7.851013\times10^{-4}$, weight decay of $1.143421\times10^{-4}$ on all parameters and gradient norm clipping at 2. We selected the hyperparameter configuration by mean validation Pearson correlation (PCC) and trained each benchmark model for up to 100 epochs with seed 0. We halved the learning rate after five epochs without a decrease in mean validation loss and saved a checkpoint whenever peak average precision (Peak AP) improved on the validation set. Training stopped when the learning rate fell below $10^{-7}$ or when Peak AP failed to improve for nine epochs.
+
+For the original benchmark, we shuffled the validation windows, discarded the final incomplete batch and averaged Peak AP across flattened batches. As a result, batch composition affected both window inclusion and the calculation of Peak AP. The public \texttt{complete-window-v2} procedure includes all windows, resets peak boundaries within each window and calculates a single pooled score per task. We compared checkpoint selection under the two procedures in separate matched training runs (\supsect{S1.23,S1.24} and Data S30/S32). The 222-task benchmark uses the original fits.
+
+We compared Full with five variants, each changing one design choice. Four omitted the conservation channel, the GRU, the multiscale branches or the SE block, respectively. The fifth replaced the joint loss with a Poisson reconstruction loss. Because some changes also alter model width or capacity, and we selected one fit per task and variant, the comparisons describe effects within the fitted models. The reconstruction-only model minimised
+
+\begin{equation}
+\mathcal L_{\rm rec}=\frac1{BL}\sum_{b=1}^{B}\sum_{i=1}^{L}
+\left[\hat y_{b,i}-y_{b,i}\log\!\left(\max\{\hat y_{b,i},10^{-20}\}\right)\right],
+\label{eq:reconstruction_loss}
+\end{equation}
+
+where $\hat y_{b,i}=p_{b,i}\exp(z_b)$. We applied the numerical lower bound only inside the logarithm.
+
+\subsubsection{Matched comparisons of model architecture and input features}
+
+For the analysis of signal allocation between repeated motif occurrences, we varied the input features and the encoder separately. Sequence retains the bidirectional GRU and SE block and has 100,250 parameters. NoGRU retains phyloP and SE and has 44,698 parameters. Local+pos adds to NoGRU a pointwise $130\rightarrow216\rightarrow128$ GELU network that takes the 128 features together with the normalised position and its square. It also adds a learned logit bias for each of the 101 positions. Local+pos has 100,871 parameters, close to the 100,826 in Full. We used the same cell-specific data and seeds (11, 23 and 47) for all four models, trained on chromosomes 3--7, 10--14 and 17--22, and selected checkpoints by validation PCC on chromosomes 2, 9 and 16. Chromosomes 1, X and Y were used for evaluation and were excluded from these fitting and selection steps. Their use during development is documented in \supsect{S1.17,S1.28,S1.29} and Data S22/S37/S38.
+
+For HNRNPK and PTBP1 in K562, we also compared Full and Sequence using shared initialisation, the same data and a fixed budget of 30 epochs. We evaluated Spearman correlation across all test positions within each task on previously examined datasets (\supsect{S1.24} and Data S32).
+
+Separate experiments compared conservation (C) with sequence-derived accessibility (U), splice proximity (P), modification peaks (M), measured K562 icSHAPE reactivity and gene expression. For U, we used the marginal probability that a nucleotide was unpaired, calculated with ViennaRNA 2.6.4 \citep{lorenz2011vienna}. For M, we used replicated MeRIP peaks in chromatin-associated RNA from wild-type K562 cells \citep{dou2023rbfox2}. All models within an experiment used the same windows. The original comparisons used four or five input channels. Separate six-channel comparisons used standardisation parameters estimated from training data alone. For analyses of measured reactivity or expression, we refitted every model on the windows with the relevant measurements (\supsect{S1.25--S1.27} and Data S34--S36).
+
+For the RNAcompete and natural-allele analyses, we reused existing Full and Sequence checkpoints. Their training histories could not be confirmed as matched, which limits attribution of differences between these fitted models to conservation alone. In additional tests, we held Full weights fixed and replaced the aligned phyloP track with a flat or permuted track at inference. Training jobs shared one NVIDIA L40 and three Quadro RTX 6000 GPUs with concurrent workloads, precluding a matched comparison of runtime. Software versions, checkpoint identifiers and archive coverage are listed in \supsect{S1.9,S1.10}.
+
+\subsection{Evaluation of eCLIP profiles and sequence-dependent predictions}\label{subsec:metrics}
+
+We evaluated predicted eCLIP profiles against observed read-end signal. We then assessed whether sequence features identified by attribution matched reference motifs and whether predicted responses to substitutions agreed with independent measurements of sequence preference, allelic binding or reporter activity.
+
+\subsubsection{Within-cell and cross-cell evaluation of eCLIP profiles}
+
+For each task, we concatenated the predicted and observed signals across windows and calculated Pearson's correlation coefficient (PCC) and Spearman's rank correlation. We also calculated the area under the receiver operating characteristic curve (AUROC) and average precision (AP) for two definitions of a positive position \citep{davis2006prroc,saito2015precision}. For the signal metrics, the observed value had to exceed the task-wide median. For the peak metrics, a position had to belong to a contiguous non-zero segment with a maximum or summed signal of at least two. Concatenation in the original evaluation could join segments across window boundaries. We weighted tasks equally when reporting mean scores (\supsect{S1.1}).
+
+For the 222-task benchmark, we used the archived task scores because complete prediction arrays were unavailable (\figpanelref{fig:figure2}{a,b}, \supsect{S1.3} and \suptab{S1}). These scores retain each model's original output and scoring conventions. CARBON and iDeepB produce count-like outputs. The RBPNet evaluator used a treatment profile with unit mass per window and differed in its definitions of peaks based on local maxima, treatment of tied ranks and handling of ambiguous bases.
+
+For a comparison on common targets, we applied each model trained in K562 to HepG2 windows on chromosomes 8 and 15, and vice versa, without refitting. Requiring checkpoints for all three models in both directions yielded 68 RBPs, 136 target tasks and 1,421,243 windows. HepG2 iDeepB weights were unavailable for AKAP1 and BUD13. All models received the same target sequences, and CARBON also received the native phyloP track. Within each window, we normalised the observations and each model's output separately to unit mass, using the CARBON profile softmax, the non-negative iDeepB treatment output and the RBPNet observed-treatment mixture. We calculated one PCC per target task across all positions, averaged the two transfer directions within RBP and weighted RBPs equally. We used 10,000 paired bootstrap resamples of RBPs and a Bonferroni adjustment for the two comparisons with CARBON. Inference used batches of 256 and seed 0, with iDeepB random states reset for each target chromosome. Rules for zero outputs, differences in model fitting and selection of illustrative windows are given in \supsect{S1.31} and Data S40.
+
+\subsubsection{Model ablations and comparisons of contextual features}\label{subsec:component_context}
+
+We evaluated the five single-component changes described in Section~\ref{subsec:ml} on all 222 tasks using the six benchmark metrics. For the primary comparison, we calculated paired differences in Spearman correlation within tasks, averaged these differences within RBP and gave the 150 RBPs equal weight. From 10,000 joint bootstrap resamples of RBPs, we obtained 99\% marginal percentile intervals for the five contrasts, corresponding to nominal 95\% family-wise coverage with Bonferroni adjustment. These intervals quantify between-protein variation conditional on the fitted models. The five contrasts and the separate 20-task comparison of GRU and LSTM models are reported in \supsect{S1.23}, \suptab{S2}, \supfig{S1} and Data S28.
+
+For HNRNPK and PTBP1, we compared phyloP with other contextual features using Spearman correlation pooled over positions within each task. In the full cohorts, we assessed each track separately as an addition to the sequence input. Comparisons involving experimental measurements used the same subset of covered windows for all models (\supsect{S1.24--S1.27}, \suptab{S7--S11} and Data S32--S36).
+
+Three analyses on chromosomes 8 and 15 examined where gains occurred, whether they depended on positional alignment of phyloP and how the phyloP input affected responses to substitutions. They used 2,079,810 records for localisation, 706,642 windows for bulk perturbations and 1,120 windows for the factorial comparison. We calculated paired localisation differences within windows before averaging by task and RBP. For the primary permutation comparison, we calculated each window's PCC with aligned phyloP minus its mean PCC across three permutations, took the median difference within task and averaged first within and then across RBPs. See \supsect{S1.8,S1.11--S1.14}, \supfig{S3--S5} and Data S11--S18.
+
+\subsubsection{Profile prediction around repeated PTBP1 motifs}\label{subsec:allocation_methods}
+
+We examined how models distributed eCLIP signal around two copies of the PTBP1 CUCU core within the same native sequence. We selected the first two CTCT occurrences (CUCU in RNA notation) separated by at least 12 nt and defined an 11-nt region extending five nucleotides on either side of each core's designated centre ($\mathcal S_1,\mathcal S_2$). We used an input hash to select representatives among overlapping windows and required a unique gene assignment and positive whole-window totals for both eCLIP and input control. For the primary allocation endpoint, let $y_j$ and $b_j$ denote eCLIP and control signal in region $j$, and $Y$ and $C$ their corresponding whole-window totals. We defined the input-adjusted residual $r_j$, the observed share $q_1$ in the first region and the predicted share $p_1^{(m)}$ for model $m$ as follows.
+
+\begin{equation}
+\begin{aligned}
+r_j&=y_j-\frac{Y}{C}b_j,\qquad
+q_1=\frac{r_1}{r_1+r_2},\\
+\bar p_i^{(m)}&=\frac13\sum_{s\in\{11,23,47\}}p_i^{(m,s)},\\
+p_1^{(m)}&=
+\frac{\sum_{i\in\mathcal S_1}\bar p_i^{(m)}}
+{\sum_{i\in\mathcal S_1\cup\mathcal S_2}\bar p_i^{(m)}}.
+\end{aligned}
+\label{eq:allocation_readout}
+\end{equation}
+
+We retained pairs with $r_1,r_2\geq0$ and $r_1+r_2>0$, excluding pairs with a negative residual. We averaged profiles over three seeds before calculating the predicted share of signal in the two regions. The observed share measures how much of the input-adjusted signal falls in the first region. For gene set $G_c$ in cell line $c$ and core pairs $\mathcal P_{cg}$ in gene $g$, the primary mean squared error (MSE) was
+
+\begin{equation}
+\begin{aligned}
+E_m&=\frac12\sum_{c\in\{K562,HepG2\}}\frac1{|G_c|}
+\sum_{g\in G_c}\frac1{|\mathcal P_{cg}|}\\[-2pt]
+&\hspace{15mm}\times\sum_{k\in\mathcal P_{cg}}
+\left(p_{1,k}^{(m)}-q_{1,k}\right)^2 .
+\end{aligned}
+\label{eq:allocation_estimator}
+\end{equation}
+
+This estimator gives genes equal weight within each cell line and weights the two cell lines equally. We used 10,000 paired bootstrap resamples of gene IDs across both cell lines to preserve dependence among shared genes. Bonferroni-adjusted intervals covered the Full minus Local+pos and Local+pos minus NoGRU contrasts. For the atlas, we calculated shares from raw observations and predictions within the two regions before averaging rows. Cohorts, comparisons across seeds, sensitivity to region definition and post hoc example selection are detailed in \supsect{S1.17,S1.23} and Data S22/S29.
+
+A separate analysis compared Full and Sequence with Full evaluated on flat or permuted phyloP. The 638 eligible core pairs comprised 220 HNRNPK pairs from 119 genes and 418 PTBP1 pairs from 181 genes, for 234 distinct genes. We averaged profiles over seeds before calculating region shares and used equal gene weights and joint gene resampling for input-adjusted MSE. A fixed six-channel comparison used the same pairs. The separate adjustments for six and twelve contrasts are described in \supsect{S1.24,S1.25} and Data S33/S34.
+
+For cross-cell transfer, we applied 18 PTBP1 checkpoints (Full, Local+pos and NoGRU fitted in each cell line with seeds 11, 23 and 47) to all eligible windows in the other cell line. Before transfer, all checkpoints reproduced the stored same-cell probabilities and shares within the prespecified tolerance of $10^{-5}$. We kept the target windows, region definitions and adjusted shares fixed, averaged the three source-seed profiles and aggregated MSE as above. For four prespecified contrasts comparing Full with each control in each transfer direction, we jointly resampled the 659 gene IDs 10,000 times and calculated Bonferroni-adjusted intervals with nominal 95\% family-wise coverage conditional on the fits (\supsect{S1.28} and Data S37).
+
+For the input comparison, we applied matched Sequence checkpoints to the same 1,851 pairs using the four sequence channels. We retained existing same-cell predictions and used the same seed averaging and gene resampling for cross-cell predictions. We applied a separate Bonferroni adjustment to the four exploratory Full minus Sequence contrasts across both target cell lines and both prediction settings (\suptab{S14}, \supsect{S1.29} and Data S38).
+
+To assess the shape of the complete eCLIP profile, we used PCC across all 101 positions of each of the 1,851 windows, including the 72 pairs with equal adjusted shares. Both the observed profile and the mean of the three seed probability profiles had unit mass. Positive rescaling leaves PCC unchanged. We averaged pairwise scores within each target-cell gene, weighted genes equally within cell line and gave K562 and HepG2 equal weight in the pooled same-cell analysis. Nine exploratory contrasts compared Full with Sequence, Local+pos and NoGRU in pooled same-cell predictions and in each transfer direction. From 10,000 joint resamples of the 659 gene IDs, we calculated unadjusted 95\% intervals and intervals adjusted for the nine comparisons. This retrospective evaluation of profile shape used existing fits and predictions (\supsect{S1.33} and Data S42).
+
+We also scored whether the model assigned more signal to the region with the larger input-adjusted share. We excluded the 72 observed ties ($q_1=0.5$) and gave half credit for exact prediction ties. This left 1,779 pairs and 848 cell--gene units. We averaged scores across pairs within gene, across genes within cell line and equally across cell lines. We compared Full and Sequence in the two target cell lines under same-cell and cross-cell prediction, with gene-bootstrap intervals adjusted for these four exploratory contrasts (\supsect{S1.32} and Data S41).
+
+We used integrated gradients (IG) to attribute the Full ensemble's predicted share $p_1$ to individual inputs \citep{sundararajan2017integrated}.
+
+\begin{equation}
+\begin{aligned}
+\operatorname{IG}_{i,d}(X;B)
+&=(X_{i,d}-B_{i,d})\\[-2pt]
+&\quad\times\int_0^1
+\left.\frac{\partial p_1(U)}{\partial U_{i,d}}\right|_{U=B+\alpha(X-B)}\,d\alpha .
+\end{aligned}
+\label{eq:context_ig}
+\end{equation}
+Both reference inputs used uniform nucleotide channels. The reference phyloP track was either zero or the native window mean. At each position, we summed the four signed sequence-channel attributions and retained the fifth-channel attribution for phyloP. Their absolute magnitudes defined the reference-dependent fraction attributed to phyloP. We applied each source-cell ensemble to all 1,851 windows. To measure reliance on phyloP at inference, we also held the model weights and sequence fixed and either set phyloP to zero or shifted the track deterministically. Numerical completeness, map stability, descriptive gene-bootstrap intervals and the input and checkpoint identities are reported in \supsect{S1.32} and Data S41.
+
+\subsubsection{Motif discovery and comparison with reference motifs}\label{subsec:interp}
+
+For each task, we ranked windows from all available chromosomes by mean predicted eCLIP signal and retained up to 10,000 for motif discovery. The recorded configurations used 24-step IG for the sum of the three largest predicted per-base signals \citep{sundararajan2017integrated}. At each forward pass the three positions were selected anew, with all five channels interpolated from zero. We masked signed sequence attributions to the observed bases and clustered them within task using TF-MoDISco \citep{shrikumar2018tfmodisco}. The recorded commands specified 4,000 seqlets and a 100-nt discovery window. Data S31 relates the configurations, queries and atlas matrices to a later snapshot. Records of the original computing environments and hashes of the ordered inputs are incomplete (\supsect{S1.7}).
+
+We used Tomtom to compare the recovered motifs with human CISBP-RNA references \citep{ray2013compendium,gupta2007tomtom,bailey2015meme}, retaining exact RBP identities and distinguishing experimental, compiled and inferred references. A second search compared all 485 positive motif queries with all 1,583 ATtRACT matrices before filtering for the cognate RBP \citep{giudice2016attract}. For the pattern-0 atlas, we selected the most informative 9-nt segment of each motif and clustered row-normalised position-probability matrices by Euclidean distance and average linkage. We selected six alignments post hoc for display. Eligible matches required an unmutated human reference for the same RBP, width $\leq10$ nt, $q<0.01$ and query information content $\geq0.3$ bits in both matched and displayed intervals. Five examples were prioritised by $q$ value and one by information content. Reported $q$ values refer to the complete query searches, and all comparisons, including non-significant matches, are available in \supsect{S1.19} and Data S24.
+
+\subsubsection{Profile sensitivity to ClinVar substitutions}\label{subsec:clinvar_profile_methods}
+
+Following the analysis in Figure~6 of iDeepB \citep{liu2025ideepb,landrum2018clinvar}, we selected biallelic A/C/G/T substitutions classified unambiguously as Pathogenic or Benign in the 11 October 2026 GRCh38 ClinVar VCF. We excluded likely, composite, conflicting and uncertain classifications and applied no review-star filter. A variant had to lie in a GENCODE v29 gene and overlap a released, same-strand GRCh38 combined-replicate eCLIP peak for the relevant task. We retained all 222 task models in summaries, including those with no eligible events. This retrospective cohort covers training, validation and evaluation chromosomes and was constructed separately from the original iDeepB variant cohort (\supsect{S1.46} and Data S53).
+
+We compared 101-nt REF and ALT windows centred on the variant and oriented to the RNA strand. Only the central base differed. Both alleles received the same reference-aligned phyloP track, with missing entries recorded and set to zero. With model weights fixed, we calculated profile sensitivity as $1-\mathrm{PCC}$ between the 101-position REF and ALT profile softmax outputs. This quantity is invariant to positive count scaling. We assigned a sensitivity of zero to identical constant profiles and one to other pairs containing a constant profile, although none occurred. We pooled task--variant--strand events for class summaries and gave equal weight to tasks containing both classes in paired model summaries.
+
+SnpEff 5.1d used the same GRCh38 and GENCODE v29 sources and the vertebrate mitochondrial code for mitochondrial transcripts. Within each RNA context, we resolved same-strand gene annotations by impact rank and source order, using a fixed rule for composite consequences. We retained Other and Unannotated entries in the complete ledger. We selected Pathogenic events whose sensitivity exceeded the unrounded mean across all Benign events and counted each genomic variant once per task. For condition summaries, we split ClinVar condition strings on pipes, URL-decoded the terms, excluded empty and exact \texttt{not\_provided} entries and counted each variant once per literal condition. For RBP summaries, we counted distinct variant--RBP links across cells and strands. We used the IGF2/PRPF8 and SERPINA1/PCBP2 loci from iDeepB Figure~6H,I for illustration. Observed traces pooled strand-specific, aligned 5$\prime$ read ends of second mates from the two released treatment BAMs. The PCBP2 example fell outside its task's primary peak cohort.
+
+\subsubsection{Evaluation against RNAcompete sequence preferences}\label{subsec:order_methods}
+
+Of the 28 human proteins represented in both RNAcompete and the available checkpoints, we excluded HNRNPK, PTBP1 and RBFOX2 because they had been examined previously. The primary cohort comprised 25 proteins, 36 tasks and all 34 matching assay columns. We summarised preferences at five-mer resolution by averaging the measured seven-mer $Z$ scores over all overlapping occurrences of each five-mer $w$, giving the occurrence-weighted score $Z_5(w)$ \citep{ray2013compendium}.
+
+We selected 16 eligible chromosome-8/15 backgrounds per task by input hash, independently of model responses and experimental measurements. We replaced positions 49--53 (1-based) with each of the $4^5=1,024$ five-mers, retaining the native flanks and, for Full, the native phyloP track. We averaged the replacement-minus-native count-head response across backgrounds. In a given background $s$, the response difference for two words was
+
+\begin{equation}
+\Delta_{w\to w'}(s,\phi)
+=z(s^{(w')},\phi)-z(s^{(w)},\phi),
+\label{eq:word_response}
+\end{equation}
+
+Positive $\Delta_{w\to w'}$ indicates greater predicted signal for $w'$. The primary endpoint was Spearman correlation between model responses and RNAcompete preferences over all 1,024 words. We also evaluated concordance for 15,240 word pairs in 56 groups with identical base counts, excluding experimental ties and giving half credit for exact prediction ties. We averaged task and assay scores within each protein and cell line, then equally across available cell lines and across proteins. Intervals used 10,000 paired bootstrap resamples of proteins. The Native Frequency comparator counted overlapping five-mers in up to 1,024 hash-selected native windows per task. The units of inference were proteins. Adjacent-swap examples used the same word scores (\supsect{S1.18} and Data S23).
+
+\subsubsection{Allele-specific binding and matched reporter measurements}\label{subsec:variant_methods}
+
+We evaluated whether the predicted log-count change agreed with the preferred allele in published significant BEAPR allele-specific binding (ASB) calls \citep{yang2019asb}. The previously examined cohort from chromosomes 8 and 15 contained 396 events at 287 exact GRCh38 REF/ALT variants across 85 RBPs. Both alleles received the same reference phyloP vector. For the experimentally preferred allele $s_e^+$ and the other allele $s_e^-$, we assigned directional agreement $a_e$ from their difference in predicted log count.
+
+\begin{equation}
+\begin{aligned}
+d_e&=z(s_e^+,\phi_e)-z(s_e^-,\phi_e),\\
+a_e&=\mathbf1[d_e>\tau]
++\tfrac12\mathbf1[|d_e|\leq\tau],
+\qquad \tau=10^{-7}.
+\end{aligned}
+\label{eq:allele_direction}
+\end{equation}
+
+A concordant direction received one point, a discordant direction zero and differences within $\tau$ half a point. Comparators included Sequence, Full evaluated with flat phyloP, Full averaged over three phyloP permutations, and a rule that always selected the reference allele. For RBP set $\mathcal R$, tasks $\mathcal T_r$ and events $\mathcal E_t$, aggregate accuracy was
+
+\begin{equation}
+A=\frac1{|\mathcal R|}\sum_{r\in\mathcal R}
+\frac1{|\mathcal T_r|}\sum_{t\in\mathcal T_r}
+\frac1{|\mathcal E_t|}\sum_{e\in\mathcal E_t}a_e.
+\label{eq:allele_accuracy}
+\end{equation}
+
+This average weights events equally within task, tasks equally within RBP and RBPs equally overall. For accuracies and paired contrasts, we used 2,000 positive-exponential multiplier draws over RNA-region and RBP clusters. Descriptive analyses of conservation adjusted for task, local sequence, composition, mutation class, strand, sequencing depth and reference preference, with sensitivity analyses using weighted refits. The cohort contains significant ASB calls only, so accuracy describes allele ordering conditional on an observed effect (\supsect{S1.20} and Data S25).
+
+Exact matching of primers and inputs and alignment of allele orientation linked all 11 published two-allele reporter loci to 24 ASB events and 66 biological observations. We retained concordant and discordant predictions and documented post hoc selection. The assays measured expression or splicing in HeLa and allelic binding in K562 or HepG2. ClinVar and TCGA supplied contextual annotations (\supsect{S1.21,S1.22} and Data S26--S27). Earlier CARBON-only transfer and peak-overlap summaries are available for their original cohorts in \supsect{S1.6} and Data S4.
+
+\subsubsection{Substitution and deletion effects in reporter assays}\label{subsec:discovery_methods}\label{subsec:exact_edit_methods}
+
+We used published MPRAu measurements for parental sequences, single-nucleotide substitutions and five-nucleotide deletions in HepG2 and K562 \citep{griesemer2021mprau}. We scored the full-length parental and single-substitution sequences using previously fitted CARBON models. The tiling library targeted variants with at least 1.5-fold allelic RNA skew in the CMS array. We retained all 47 technically eligible sites from 40 genes. Eligibility required centred 101-nt REF/ALT pairs, unique reciprocal contiguous mapping, exact reference identity and complete finite phyloP scores. Exact matches to the published FASTA records identified three alternative bases at each of 20 positions flanking focal RNA index 50, giving 60 verified substitutions per parent. Every parent and substitution received the same native reference phyloP values, with model weights fixed. The natural-allele screen used to select U2AF2 and the full eligibility records are described in \supsect{S1.34,S1.36} and Data S43/S45.
+
+For each parent and cell line, we ranked the mutant-minus-parent U2AF2 log-count response in ascending order, assigning average ranks to exact ties. We then ordered candidates by maximum rank across cell lines, mean rank, RNA position and replacement base in the DNA alphabet, in that order. The first five entries defined a shared shortlist of separately assayed substitutions. This combined priority could differ from either cell-specific rank. Selection used neither the candidate reporter measurements nor responses on the other parent. The earlier four-context selection rule is given in \supsect{S1.36}. Measured RNA gain was the log$_2$ activity of the substitution minus that of its own parent in the same cell line. To estimate mean gain, we averaged over the five substitutions, then over cells within selected parent, parents within site and sites with equal weight. Uniform, nearest-position, pyrimidine-loss and literal CAG-loss controls used the same candidates and total selection weight of five, distributing weights equally among cutoff ties. The CAG rule counted changes in all overlapping CAG occurrences across the 101-nt insert, with no further ordering by RNA activity, model output or position.
+
+To compare parental backgrounds, we paired each physical substitution across REF and ALT within site and cell line. For all unordered pairs of substitutions, we tested whether the negative ALT-minus-REF difference in predicted log-count response ranked the corresponding ALT-minus-REF difference in measured RNA gain correctly. We excluded experimental ties, gave half credit for prediction ties and averaged over cell lines within site for the paired comparison with signed CAG-count changes. For a separate CAG-preserving analysis, we required identical sets of overlapping CAG start positions in the mutant and its parent. We filtered the original ranking of 60 candidates without reranking and applied the same restricted candidate set and five-substitution budget to the controls (\supfig{S14b}, \supsect{S1.38} and Data S46). Paired effects gave sites equal weight. Exploratory 95\% percentile intervals used 10,000 shared resamples of 40 gene clusters, retaining linked sites, parents and cells. Intervals condition on the observed RNA point estimates because the shared-count covariance required to estimate mutant-minus-parent standard errors was unavailable.
+
+For deletions, we required a 96-nt sequence in the authors' FASTA with the same identifier and an exact match to the 101-nt parent after removal of the specified five-nucleotide interval. All eligible central intervals retained focal RNA index 50. We subtracted each same-cell parent's activity and compared deletion of the same segment in the two parental backgrounds at DUSP18 and HLA-DQA1. We report point estimates only, as standard errors for these contrasts were unavailable. CARBON predictions were restricted to full-length windows. A separate interval-sensitivity analysis used single-nucleotide substitutions and includes weak and discordant outcomes (\supsect{S1.42} and Data S50).
+
+For all 60 verified substitutions per parent, signed score logos \citep{dey2018edlogo} display the raw mutant-minus-parent U2AF2 log-count responses and measured log$_2$ RNA changes. Values for the native bases are zero. The maps use neither positional centring nor adjustment for the sign of parental activity (\supsect{S1.37} and Data S45/S46). Selection of U2AF2, the inverse relationship used in ranking, the reporter outcomes and the displayed loci had been examined during development. We therefore interpret this analysis as retrospective. Complete signed-response, public knockdown and deletion analyses are reported in \supsect{S1.40--S1.43} and Data S48--S50.
+
+We also assessed selection of substitutions within exons using MaPSy measurements of absolute effects on splicing in HEK293T reporters \citep{soemedi2017mapsy,cheng2019mmsplice}. CARBON, iDeepB and RBPNet were evaluated on the same 68 RBPs. Before inspecting the retained functional measurements, we specified the natural-log Jensen--Shannon divergence (JSD) between unit-mass REF and ALT profiles as the common score. We averaged JSD across source cell lines within each RBP and took the maximum across RBPs. Each model selected one variant per exon. We compared within-exon percentiles of the measured effects with equal gene weights and paired gene-bootstrap contrasts. Eligibility, inference, model-specific controls and interval definitions are given in \supsect{S1.39} and Data S47.
+
+\subsubsection{Comparison of model-based substitution rankings}\label{subsec:retrospective-model-comparison}
+
+We applied the six existing U2AF2 checkpoints (CARBON, iDeepB and RBPNet in HepG2 and K562) to the same 5,640 mutant--parent pairs from 47 MPRAu sites in 40 genes \citep{griesemer2021mprau}. Each RNA-oriented 101-nt sequence was evaluated in three paired random-seed repeats. CARBON received the parental phyloP track. Because iDeepB samples initial recurrent states at inference, we restored the random-number state between matched parent and mutant calls. All models used existing weights without retraining or checkpoint selection.
+
+For each repeat, we obtained a distribution over the 101 positions from the CARBON profile softmax, the normalised iDeepB treatment output or the RBPNet bias-corrected target softmax. We averaged distributions across repeats and scored mutant--parent differences by base-2 JSD, without smoothing or square-root transformation. We assigned average ranks to exact ties within each parent and cell line, then prioritised candidates by the smaller maximum rank across cells, followed by the smaller mean rank. At the cutoff, tied candidates shared the remaining weight equally for a total selection weight of five. For each selected substitution, the outcome was the absolute log$_2$ RNA/plasmid activity difference from its own parent. We took absolute values before averaging across cell lines, then averaged equally over REF and ALT parents and over sites. For each comparison with CARBON, we used the same 10,000 bootstrap resamples of 40 gene IDs to calculate exploratory 97.5\% percentile intervals, retaining site multiplicities and model ranks.
+
+A prespecified secondary analysis used each model's own score, with the same selection rules and 95\% intervals. These scores were absolute log-count change for CARBON, $1-\mathrm{PCC}$ between raw treatment profiles for iDeepB and parent-to-mutant Kullback--Leibler divergence for RBPNet. This comparison therefore evaluates the combination of model and score. The MPRAu outcomes, choice of U2AF2, inverse RNA objective and illustrated loci had been examined during development. Both analyses are retrospective and conditional on a cohort enriched for allelic RNA effects. Output definitions, controls, sensitivity analyses and all three diagnostic results are provided in \supsect{S1.45}, \supfig{S16b} and Data S52.
+
+\section{Results}\label{sec:results}
+
+\begin{figure}[!tbp]
+\centering
+\includegraphics[width=85mm]{V83_20261115/fig2_same_cell_20261115.pdf}
+\caption{Prediction of nucleotide-resolution eCLIP profiles. \textbf{a}, Six benchmark metrics for 222 tasks, calculated under each model's original scoring conventions. Lower rows show the median paired differences and the number of tasks on which CARBON scored higher. \textbf{b}, Task-level comparisons of Pearson (PCC) and Spearman correlations with iDeepB and RBPNet. \textbf{c}, PCC for transfer from K562 to HepG2 and from HepG2 to K562 for 68 RBPs, evaluated on common target windows after normalising predicted and observed profiles to unit mass. \textbf{d}, NOLC1 and CSTF2T profiles in HepG2. These same-cell examples were selected post hoc for high CARBON PCC and a large difference from both comparators. Predicted profiles have unit mass and share a vertical scale. Observed eCLIP and inverted input-control traces are in count units. Boxes show the median and interquartile range (IQR), with 1.5-IQR whiskers. See \suptab{S1,S15}, \supsect{S1.3,S1.30,S1.31}, \supfig{S6} and Data S39/S40.}
+\label{fig:figure2}
+\end{figure}
+
+\subsection{Prediction of eCLIP profiles within and across cell lines}\label{subsec:benchmark}\label{subsec:ablation}\label{subsec:feature_comparison}\label{subsec:matched_results}
+
+We compared CARBON with iDeepB and RBPNet across 222 eCLIP tasks for 150 RBPs. The archived benchmark evaluated predictions in 101-nt windows using each model's original outputs and scoring rules (\figpanelref{fig:figure2}{a,b}, \suptab{S1} and \supsect{S1.3}). Pearson and Spearman correlations measured agreement with the observed signal. AUROC and average precision (AP) measured how well the models ranked positions classified as signal-positive or belonging to a peak.
+
+CARBON had the highest task-averaged score on all six metrics. Mean PCC was 0.3092 for CARBON, 0.2644 for iDeepB and 0.2471 for RBPNet. The corresponding mean Spearman correlations were 0.4226, 0.3661 and 0.3604. In paired comparisons with each baseline, CARBON had a higher PCC on 220 of 222 tasks and a higher Spearman correlation on all 222. Mean peak AP was 0.5687 for CARBON, 0.5236 for iDeepB and 0.4522 for RBPNet.
+
+The HepG2 profiles for NOLC1 and CSTF2T illustrate where the three models differed (\figpanelref{fig:figure2}{d}). We selected these windows for their high CARBON PCC and large differences from both comparators. For NOLC1 and CSTF2T, respectively, the PCCs were 0.853 and 0.805 for CARBON, 0.202 and 0.404 for iDeepB, and 0.378 and 0.237 for RBPNet (\supsect{S1.30} and Data S39).
+
+\phantomsection\label{subsec:transfer}
+
+For a comparison under a common scoring rule, we applied models trained in K562 or HepG2 to the other cell line without refitting (\figpanelref{fig:figure2}{c}). The three models were evaluated on the same 1,421,243 target windows for 68 RBPs. Within each window, we normalised the predicted and observed profiles separately to unit mass before calculating one PCC per target task.
+
+After averaging the two transfer directions for each RBP, CARBON had a higher PCC than either comparator for all 68 proteins. Across equally weighted proteins, mean PCC was 0.46268 for CARBON, 0.40818 for iDeepB and 0.42047 for RBPNet (\suptab{S15}). The paired differences were 0.05449 relative to iDeepB (Bonferroni-adjusted interval $[0.04117,0.06938]$) and 0.04221 relative to RBPNet ($[0.03149,0.05540]$). CARBON also had the highest mean PCC in each transfer direction. Mean within-window PCC and Jensen--Shannon divergence gave the same ranking of the three models (\supsect{S1.31} and Data S40).
+
+To determine which aspects of CARBON contributed to these results, we compared the full model with five variants across the 222 tasks. Removing bidirectional recurrence produced the largest decrease in Spearman correlation among the five modifications tested. Omitting phyloP also reduced rank agreement (\suptab{S2} and \supsect{S1.23}). In a separate test using fixed CARBON weights, the aligned phyloP track gave higher profile agreement than within-window permutations for 148 of 150 RBPs (\supfig{S4} and \supsect{S1.11}).
+
+\subsection{Sequence motifs associated with predicted eCLIP signal}\label{subsec:motif}
+
+\begin{figure*}[!tbp]
+\centering
+\includegraphics[width=178mm]{fig3.pdf}
+\caption{Sequence motifs recovered by attribution and their alignment to reference motifs. \textbf{a}, The 219 positive-attribution motifs designated pattern 0 represent 150 RBPs. Motifs were clustered by average linkage using distances between position-probability matrices. Branches and rings indicate RNA-processing functions and RRM, ZnF and KH domains. Grey indicates no matching annotation. \textbf{b}, Six alignments selected post hoc from the comparison with ATtRACT motifs for the same human wild-type RBP. All logos use a 0--2-bit scale, and $q$ values refer to the full search for each query. A, C, G and U are shown in green, blue, orange and red, respectively. The fully labelled atlas, selection criteria and all comparisons are in \supsect{S1.7,S1.19} and Data S10/S24/S31.}
+\label{fig:figure3}
+\end{figure*}
+
+We used nucleotide-level attribution to identify recurring sequences that contributed to CARBON's eCLIP predictions. Motif discovery yielded a positive-attribution motif designated pattern 0 for each of 219 tasks, together covering all 150 RBPs (\figpanelref{fig:figure3}{a}). These motifs included U-rich sequences for PTBP1 and U2AF2, C-rich sequences for PCBP2 and HNRNPK, and a multibase motif for PUM2. The atlas displays the 9-nt segment with the highest information content for each motif, alongside the RNA-processing functions and domains of the corresponding proteins (Data S10/S24).
+
+To assess whether the motifs reflected known sequence preferences, we compared them with reference motifs for the same protein. Of 126 comparisons with CISBP-RNA motifs derived from direct experiments, 45 met $q<0.05$, representing 13 RBPs (\supfig{S7} and Data S24). The full CISBP-RNA comparison comprised 193 alignments across experimentally measured, compiled and inferred references.
+
+In a separate search, we compared 485 positive-attribution motifs with 1,583 ATtRACT reference matrices \citep{giudice2016attract}. Of 1,626 comparisons with references for the same human wild-type RBP, 234 met $q<0.05$, spanning 32 tasks and 22 RBPs.
+
+Six selected alignments illustrate the sequence preferences shared by the recovered and reference motifs (\figpanelref{fig:figure3}{b} and Data S24/S31). These include pyrimidine-rich motifs characteristic of PTBP1. Repeated occurrences of one such motif provided an opportunity to examine how much the flanking sequence and its conservation contributed to predictions when the core sequence was held constant.
+
+\subsection{Conservation improves whole-window profile agreement around repeated PTBP1 motifs}\label{subsec:allocation}\label{subsec:conservation}\label{subsec:allocation_examples}
+
+\begin{figure*}[p]
+\centering
+\includegraphics[width=.97\textwidth]{V83_20261112/fig4_conservation_and_context.pdf}
+\captionsetup{skip=4pt}
+\caption{Prediction of PTBP1 profiles in windows containing two CUCU motifs. Full denotes CARBON with sequence and phyloP inputs. Sequence denotes its separately trained sequence-only counterpart.
+\textbf{a}, Sequence and phyloP attribution to the predicted share of signal in the first of the two 11-nt motif regions. Within each training and evaluation pair, the upper bar uses zero as the phyloP reference and the lower bar uses the window mean.
+\textbf{b}, Same-cell PCC across the full window. Dots show means for each gene within a cell line. Boxes show the median and IQR, with 1.5-IQR whiskers. Diamonds show means with descriptive 95\% intervals.
+\textbf{c,d}, Profiles normalised to unit mass for ADAMTSL4 in K562 and ARF1 in HepG2. Outlines show observed eCLIP signal, fills show predictions and bands mark the regions around the CUCU motifs. Red labels give the increase in PCC over the sequence-only model.
+\textbf{e}, Cross-cell-line PCC, with symbols as in b.
+\textbf{f}, Contributions of individual nucleotides (left) and regions (right) to the mean difference in PCC between Full and Sequence across all 1,851 same-cell windows. See \supsect{S1.32,S1.33} and Data S41/S42.}
+\label{fig:figure4}
+\end{figure*}
+
+We reanalysed 1,851 PTBP1 windows from K562 and HepG2, each containing two selected occurrences of the CUCU motif. The windows represented 659 genes and 865 cell--gene combinations. We compared CARBON with aligned phyloP (Full) and the same recurrent architecture trained on sequence alone (Sequence). We evaluated both the share of signal assigned to the first of two 11-nt regions around the motifs and the shape of the eCLIP profile across the complete 101-nt window.
+
+Sequence accounted for most of the absolute attribution to the predicted share of signal at the first motif (\figpanelref{fig:figure4}{a}). With zero and window-mean phyloP references, respectively, phyloP accounted for 6.50\% and 5.90\% of absolute attribution in same-cell predictions and 6.61\% and 6.02\% in cross-cell-line predictions (\suptab{S17}, \supsect{S1.32} and Data S41). For the input-control-adjusted signal share, Full had a lower mean squared error (MSE) than the similarly sized non-recurrent control with positional features (Local+pos, \supsect{S1.17}). The adjusted intervals for the MSE differences between Full and Sequence included zero in all four same-cell and cross-cell-line comparisons (\suptab{S14}).
+
+For the complete profile, adding phyloP increased mean same-cell PCC across genes and cell lines from 0.59381 to 0.59999 (\figpanelref{fig:figure4}{b}). The difference was 0.00618 (adjusted 95\% interval $[0.00057,0.01193]$), with gains of 0.00205 in K562 and 0.01030 in HepG2. Removing recurrence produced larger changes. Both non-recurrent controls retained sequence and phyloP. PCC was 0.42717 for Local+pos and 0.41545 for the control with the GRU removed (NoGRU), corresponding to decreases of 0.17281 and 0.18454 relative to Full (\supfig{S8} and \suptab{S19}).
+
+Two windows selected for high PCC with Full and large differences from the controls illustrate where the predictions differed (\figpanelref{fig:figure4}{c,d}). In the ADAMTSL4 window from K562, Full assigned more signal to the dominant downstream peak. In the ARF1 window from HepG2, it more closely reproduced the relative heights of peaks at positions 15 and 86. PCC increased from 0.547 with Sequence to 0.689 with Full at ADAMTSL4 and from 0.655 to 0.819 at ARF1 (\supsect{S1.32}, \supfig{S9} and Data S41/S42).
+
+When the models were applied to the other cell line, Full had a higher PCC than either non-recurrent control in both transfer directions (\figpanelref{fig:figure4}{e}). The four gains ranged from 0.15092 to 0.18670, with all adjusted intervals above zero. The estimated gain over Sequence was also positive in both directions. Its adjusted interval excluded zero only for transfer from K562 to HepG2, where the gain was 0.00897 (\suptab{S19}).
+
+To locate the difference between Full and Sequence, we decomposed the whole-window PCC difference by nucleotide position across all 1,851 same-cell windows (\figpanelref{fig:figure4}{f}). The two 11-nt regions around the motifs accounted for 41\% of the mean gain and occupied 22\% of each window. The largest positive contributions per nucleotide occurred immediately downstream of the two CUCU motifs (\supsect{S1.33}, \suptab{S26} and Data S42).
+
+\subsection{Predicted responses to sequence substitutions}\label{subsec:external_preference}\label{subsec:perturb_results}\label{subsec:reporter_variants}\label{subsec:natural_variants}\label{subsec:disease_variants}\label{subsec:biological_discovery}\label{subsec:exact_edit_design}\label{subsec:results-rna-design}
+
+We next examined how predicted profiles changed after a nucleotide substitution. Following the profile-sensitivity analysis of iDeepB \citep{liu2025ideepb}, we compared the predicted 101-nt reference and alternate profiles for 42,238 distinct ClinVar variants, holding the reference phyloP track fixed within each pair. Of 222 task models screened, 219 contributed eligible events, yielding 84,926 task--variant--strand combinations. We measured profile sensitivity as $1-\mathrm{PCC}$ between the two predicted profiles (\figpanelref{fig:figure5}{A--G}). We evaluated changes in predicted total signal separately against RNAcompete sequence preferences and reporter RNA measurements (\figpanelref{fig:figure5}{J,K}).
+
+\begin{figure*}[p]
+\centering
+\includegraphics[width=177mm]{fig5.pdf}
+\captionsetup{font=footnotesize}
+\caption{Predicted effects of sequence substitutions and comparison with experimental measurements.
+\textbf{A,B}, Sensitivity of predicted profiles ($1-\mathrm{PCC}$) for benign and pathogenic ClinVar events, pooled across events (A) and paired by task (B).
+\textbf{C,D}, Profile sensitivity by transcript consequence for benign (C) and pathogenic (D) events.
+\textbf{E,F}, Candidate counts by model and ClinVar condition, respectively.
+\textbf{G}, Variant--RBP links for the 20 conditions with the most distinct candidate variants. End labels give the number of RBPs.
+In A--F, boxes show the median and IQR, whiskers span the 5th--95th percentiles and diamonds mark the means.
+\textbf{H,I}, Observed eCLIP read ends pooled across alleles and predicted reference and alternate profiles at the indicated substitutions.
+\textbf{J}, Agreement with RNAcompete preferences by protein and the effect of nucleotide order on QKI sequence preferences.
+\textbf{K}, HLA-DQA1 substitution effects in each parental background and concordance in ranking between-parent differences across 47 sites. See \supsect{S1.18,S1.38,S1.46} and Data S23/S46/S53.}
+\label{fig:figure5}
+\end{figure*}
+
+\subsubsection{Profile sensitivity across ClinVar annotations}
+
+Across eligible events, mean profile sensitivity was 0.03719 for the 38,058 pathogenic events and 0.02419 for the 46,868 benign events (\figpanelref{fig:figure5}{A}). The difference was smaller when the 187 tasks containing both classes received equal weight. The corresponding means were 0.02927 and 0.02623, and pathogenic events had a higher mean in 107 tasks (\figpanelref{fig:figure5}{B}).
+
+Among pathogenic events grouped by transcript consequence, splice-donor substitutions had the highest mean sensitivity (\figpanelref{fig:figure5}{C,D}). Mean sensitivity was 0.17976 across 2,105 pathogenic splice-donor events, compared with 0.02155 across 10,011 pathogenic missense events and 0.03997 across 33 benign splice-donor events. The pathogenic and benign missense groups had similar mean sensitivities (\supsect{S1.46} and Data S53).
+
+\subsubsection{RBP-specific predictions at clinically annotated loci}
+
+Using the unrounded pooled mean for benign events as a descriptive threshold, we identified 14,145 pathogenic task--variant pairs above that threshold, representing 8,859 distinct variants (\figpanelref{fig:figure5}{E}). Of these variants, 7,347 had at least one associated ClinVar condition, encompassing 2,804 distinct condition terms (\figpanelref{fig:figure5}{F}). For the 20 conditions with the most distinct candidate variants, we grouped the variants by the RBP models in which their predicted profiles exceeded the sensitivity threshold (\figpanelref{fig:figure5}{G}, \supsect{S1.46} and Data S53).
+
+At IGF2, the G$>$A substitution reduced the predicted PRPF8 peak immediately upstream of the variant (profile sensitivity 0.06766, \figpanelref{fig:figure5}{H}). At SERPINA1, the U$>$G substitution reduced the first predicted PCBP2 peak downstream (profile sensitivity 0.04823, \figpanelref{fig:figure5}{I}). The latter locus was examined separately from the peak-filtered screen (\supsect{S1.46}). The observed HepG2 tracks pool eCLIP read ends across alleles and show where the predicted differences fall relative to the measured signal.
+
+\subsubsection{Agreement between predicted count changes and RNAcompete preferences}
+
+We assessed whether changes in predicted total signal reflected independently measured sequence preferences for 25 proteins. For each protein, we ranked all 1,024 five-mers by their predicted log-count responses and compared these ranks with five-mer preferences derived from RNAcompete seven-mer measurements (\figpanelref{fig:figure5}{J}, \citealp{ray2013compendium}). Ranking five-mers by predicted response improved the mean Spearman correlation with RNAcompete preferences by 0.14619 over ranking by their frequency in native windows (paired-protein 95\% interval 0.03802--0.24800). Even among five-mers with identical base counts, the predicted response ranked pairs in the experimentally preferred order more often than native frequency did (56.62\% versus 52.84\%, \suptab{S22}, \supfig{S11} and Data S23).
+
+For QKI, the 30 five-mers containing two As, two Cs and one U can be connected by 48 exchanges of adjacent bases (\figpanelref{fig:figure5}{J}). Node heights show the experimental preferences, with the two coloured halves of each node indicating the predicted log-count responses of Full and Sequence. CUAAC had the highest measured preference. Full and Sequence recovered the direction of the measured preference difference for 31 and 30 of the 48 exchanges, respectively (\supsect{S1.18} and Data S23).
+
+\subsubsection{Reporter RNA responses across parental sequence backgrounds}
+
+We used MPRAu reporter measurements to assess whether the predicted count response captured differences in the effect of the same substitution in two parental sequence backgrounds. This retrospective analysis included all 47 eligible sites from 40 genes. For each substitution, we compared its effect on reporter RNA output between reference and alternate sequence backgrounds. We scored substitutions by the predicted reduction in the U2AF2 log count, a readout selected during development (\citealp{griesemer2021mprau} and \supsect{S1.34,S1.38,S1.40}).
+
+Within each site and cell line, we ranked substitutions by the predicted difference between parents and assessed the ordering of the 1,770 possible pairs, excluding ties in the measurements (\figpanelref{fig:figure5}{K}). Mean agreement with the observed ordering was 56.0\% for the U2AF2 count response and 50.9\% for changes in the number of CAG occurrences. The paired difference was 5.06 percentage points (95\% gene-cluster interval 2.96--7.08), and the count response had higher concordance at 36 of 47 sites (\supsect{S1.38} and Data S46).
+
+At HLA-DQA1, the U52$>$G substitution increased measured log$_2$ reporter RNA output by 2.31 in the alternate parent and decreased it by 4.60 in the reference parent (\figpanelref{fig:figure5}{K}). The predicted U2AF2 count decreased in the alternate parent and increased in the reference parent, consistent with the direction of the count-reduction score used to rank gains in reporter RNA.
+
+We also compared the measured effects of five substitutions selected per site and parent by each model. When all models ranked substitutions by the Jensen--Shannon divergence between predicted parent and mutant profiles, mean absolute reporter RNA effects were 0.852 for CARBON, 0.793 for iDeepB and 0.967 for RBPNet. Both adjusted intervals for the differences from CARBON included zero (\supfig{S16a} and \supsect{S1.45}). A prespecified secondary comparison used each model's own score. Substitutions selected by the absolute CARBON log-count change had a mean absolute RNA effect of 1.034, compared with 0.743 and 0.931 for the iDeepB and RBPNet scores, respectively. Both exploratory intervals for CARBON minus the comparator lay above zero (\supfig{S16b} and Data S52). In the separate MaPSy analysis of measured allelic splicing, both adjusted intervals for the model contrasts included zero (\supfig{S18}, \supsect{S1.39} and Data S47).
+
+\FloatBarrier
+
+\section{Discussion}\label{sec:discussion}
+
+Nucleotide-level conservation provided information about the distribution of eCLIP signal beyond that available from RNA sequence alone. Across 222 tasks, CARBON lost more rank agreement when the bidirectional GRU was removed than in any other component comparison, and omitting nucleotide-aligned phyloP scores produced a smaller loss (\suptab{S2}, \supsect{S1.23}). PTBP1 illustrates the size and location of the conservation effect. In windows containing two copies of CUCU, phyloP modestly improved prediction of the full 101-nt profile, with the largest gains per nucleotide immediately downstream of the motifs. Evidence for improved prediction of how signal was divided between the two motif neighbourhoods was inconclusive.
+
+The position of the conservation scores mattered. With CARBON's weights fixed, native phyloP scores gave higher profile agreement than shuffled scores for 148 of 150 RBPs (\supfig{S4}, \supsect{S1.11}). This extends the use of conservation in RBP analysis from the identification of motif clusters to the prediction of local signal distributions \citep{zhang2013mcarts}. Its relative value also depended on the information available for comparison. Of the individual tracks tested on the full HNRNPK and PTBP1 cohorts in K562, conservation gave the largest gain in Spearman correlation (\suptab{S11}). On subsets with experimental track coverage, RNA reactivity ranked first for HNRNPK and gene expression for PTBP1 (\suptab{S7--S10}). The reactivity comparison is consistent with the value of measured RNA structure in binding prediction \citep{sun2021prismnet}. At a given position, conservation may also reflect constraints on other functions of the RNA. Establishing why that position is conserved, or whether its conservation reflects recognition by a particular RBP, requires evidence beyond profile prediction.
+
+The sequence analyses link predictions of eCLIP signal to known RBP preferences. Motifs identified by attribution matched experimentally determined preferences for a subset of the proteins, including the pyrimidine-rich elements recognised by PTBP1. The RNAcompete comparison also showed sensitivity to nucleotide order. Even among five-mers with identical base composition, predicted changes in total signal agreed with measured preferences more often than a ranking based on word frequency did. In the separate PTBP1 analysis, sequence accounted for most of the attribution to the relative signal at the two CUCU motifs under both phyloP reference choices.
+
+Nucleotide-resolution profiles can also locate the changes a model predicts after a substitution \citep{horlacher2023rbpnet,liu2025ideepb,gronning2020deepclip}. Among the pathogenic ClinVar categories examined, splice-donor substitutions showed the greatest mean redistribution of predicted signal. In MPRAu, predicted changes in the U2AF2 count helped rank differences in the measured RNA effects of the same edit between parental backgrounds. The HLA-DQA1 and DUSP18 examples illustrate how the RNA response to a CAG-preserving substitution can change sign or diminish on the other parental allele. Reporter RNA output reflects several processes, including splicing. Paired measurements of local RBP binding and reporter RNA output in each allelic background would help establish when altered recognition contributes to the observed RNA response \citep{dao2025cryptic,perezperri2023landscapes}.
+
+Differences in output scale and scoring conventions complicate the original benchmark comparison of CARBON, iDeepB and RBPNet. Evaluation on shared target windows with a common normalised profile metric also favoured CARBON in transfer between K562 and HepG2 \citep{horlacher2023rbpnet,liu2025ideepb}. The uncertainty estimates for the component comparisons condition on the fitted models, and several native-window and reporter analyses used cohorts examined during development (\supsect{S1.39--S1.41,S1.45}). Replicate fits with matched random seeds would establish how much the estimated conservation gain varies across training runs. In independent RBP and cell-type cohorts, the corresponding biological question is whether conservation is most informative at the recognition motif itself or, as observed for PTBP1 here, at the nucleotides immediately adjacent to it.
+
+\section*{Acknowledgements}
+We thank the ENCODE Consortium and the laboratories that generated the eCLIP datasets used in this study for making their data publicly available.
+
+\section*{Author contributions}
+Bin Wu (Methodology, Investigation, Formal analysis, Writing -- original draft), Yuting Huang (Data curation: initial dataset, Methodology), Yuning Yang (Methodology, Writing -- review \& editing), Haoran Zhu (Methodology, Validation, Writing -- review \& editing), and Xiangtao Li (Conceptualization, Supervision, Writing -- review \& editing).
+
+\section*{Funding}
+This work was supported by the National Natural Science Foundation of China [grant numbers 62472195 and 62076109 to X.L., and 62401131 to Y.Y.], the Natural Science Foundation of Jilin Province [grant number 20260102302JC to X.L.], and the Noncommunicable Chronic Diseases-National Science and Technology Major Project [grant numbers 2026ZD0554000 and 2026ZD0554005 to X.L.].
+
+\section*{Conflict of interest}
+None declared.
+
+\section*{Data availability}
+
+The source eCLIP data are available from ENCODE under the accessions listed in Data S1. We extracted the benchmark windows and read-end profiles from these data following the iDeepB processing strategy \citep{liu2025ideepb}. Core CARBON code and a CPU demonstration are available at \url{https://github.com/WUBING2023/CARBON}. Supplementary Data S1--S53 index the analysis outputs and source records. Additional model checkpoints and prediction archives are held locally and have yet to be deposited in a public repository (\supsect{S1.10}).
+
+{\small\input{current_assets/CARBON_main_references.tex}}
+
+\end{document}

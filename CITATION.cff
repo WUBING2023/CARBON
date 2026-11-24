@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use CARBON, please cite the software and the associated article when available."
-title: "CARBON: a conservation-aware framework for base-resolution RBP binding profile prediction"
+title: "Predicting nucleotide-resolution protein–RNA binding signals from RNA sequence and evolutionary conservation using CARBON"
 type: software
 version: "v35-research-code-draft"
 authors:
